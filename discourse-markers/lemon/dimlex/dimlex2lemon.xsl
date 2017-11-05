@@ -43,6 +43,7 @@ PREFIX lime: &lt;http://www.w3.org/ns/lemon/lime#>
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: &lt;http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: &lt;http://www.w3.org/TR/xml/#>
 PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$BASE"/>
         <xsl:text disable-output-escaping="yes">>&#10;&#10;</xsl:text>
@@ -112,7 +113,7 @@ PREFIX : &lt;</xsl:text>
                         <xsl:text>;&#10;</xsl:text>
                         <xsl:call-template name="get-indent"/>
                     </xsl:if>
-                    <xsl:text>dimlex:TEXT "</xsl:text>
+                    <xsl:text>xml:CDATA "</xsl:text>
                     <xsl:value-of select="replace(replace(string-join(text(),' '),'&quot;','\\&quot;'),'[ \t\r\n]+',' ')"/>
                     <xsl:text>"</xsl:text>
                 </xsl:if>
