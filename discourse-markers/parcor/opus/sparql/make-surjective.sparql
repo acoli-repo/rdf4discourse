@@ -1,0 +1,44 @@
+# for all nif:Words, if they have multiple values for the same annotation, merge these into a single string
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+# 1. convert ObjectProperties with multiple values to Datatype properties
+DELETE {
+	?word ?prop ?obj. 
+} INSERT {
+	?word ?prop ?val.
+} WHERE {
+	?word a nif:Word.
+	?word ?prop ?obj.
+	?word ?prop ?obj2. FILTER(?obj!=?obj2)
+	BIND(str(?obj) AS ?val)
+};
+
+# 2. concatenate multiple objects of the same property
+INSERT {
+	?word ?prop ?vals
+} WHERE {
+	?word a nif:Word.
+	?word ?prop ?val1, ?val2. FILTER(?val1!=?val2)
+	{ SELECT ?word ?prop (GROUP_CONCAT(?val; separator=", ")  AS ?vals)
+	  WHERE {
+		?word a nif:Word.
+		?word ?prop ?val.
+	  } GROUP BY ?word ?prop ORDER BY ?word ?prop ?val
+	}
+};
+
+# 3. keep only longest annotation of one type
+DELETE {
+	?word ?prop ?val.
+} WHERE {
+	?word a nif:Word.
+	?word ?prop ?val.
+	?word ?prop ?vals.
+	FILTER(strlen(?vals)>strlen(?val))
+};

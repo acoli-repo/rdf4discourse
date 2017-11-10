@@ -1,0 +1,19 @@
+# turn all conll: properties (except HEAD) to string annotations
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+DELETE {
+	?word ?prop ?obj.
+} INSERT {
+	?word ?prop ?val.
+} WHERE {
+	?word a nif:Word.
+	?word ?prop ?obj.
+	FILTER(contains(str(?prop), 'http://ufal.mff.cuni.cz/conll2009-st/task-description.html#'))
+	BIND(str(?obj) AS ?val)
+};
