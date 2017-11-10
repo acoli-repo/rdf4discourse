@@ -102,7 +102,7 @@ PREFIX : &lt;</xsl:text>
         <xsl:choose>
             <xsl:when test="not(exists(*)) and not(exists(@*))">
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="string-join(text(),' ')"/>
+                <xsl:value-of select="normalize-space(string-join(text(),' '))"/>
                 <xsl:text>"</xsl:text>
             </xsl:when>
             <xsl:otherwise>
