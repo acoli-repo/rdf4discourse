@@ -4,6 +4,7 @@
 # note: presupposes untyped literals
 # note that we may generate more than one object per word
 # note that we may double-annotate non-initial elements of complex connectors, e.g., German "und zwar": annotate "und zwar" on "und", but also "zwar" on "zwar"; we only suppress annotation of "und"
+# note: n:1 matches are *SLOW*
 
 PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
 PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
