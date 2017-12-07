@@ -1,0 +1,262 @@
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	0	0	0,000%	54,9%	54,9%	100,0%	70,9%
+filter	0	0	2,500%	75,7%	73,0%	88,4%	80,0%
+filter	0	0	5,000%	79,8%	80,6%	83,2%	81,9%
+filter	0	0	5,500%	79,8%	81,3%	82,1%	81,7%
+filter	0	0	5,550%	79,8%	81,3%	82,1%	81,7%
+filter	0	0	5,750%	80,3%	82,1%	82,1%	82,1%
+filter	0	0	5,800%	80,3%	82,1%	82,1%	82,1%
+filter	0	0	5,850%	80,3%	82,1%	82,1%	82,1%	
+filter	0	0	5,900%	81,5%	83,9%	82,1%	83,0%	x
+filter	0	0	5,950%	81,5%	83,9%	82,1%	83,0%	x	
+filter	0	0	6,000%	81,5%	83,9%	82,1%	83,0%	x	>= 6% disc/total
+filter	0	0	6,050%	80,9%	83,7%	81,1%	82,4%
+filter	0	0	6,100%	80,9%	83,7%	81,1%	82,4%
+filter	0	0	6,250%	80,9%	83,7%	81,1%	82,4%
+filter	0	0	6,500%	79,8%	83,3%	78,9%	81,1%
+filter	0	0	7,000%	79,2%	83,1%	77,9%	80,4%
+filter	0	0	10,000%	74,0%	81,3%	68,4%	74,3%
+filter	0	0	12,000%	73,4%	81,8%	66,3%	73,3%
+filter	0	0	20,000%	65,3%	80,7%	48,4%	60,5%
+filter	0	0	25,000%	59,0%	77,3%	35,8%	48,9%
+filter	0	0	50,000%	45,7%	53,3%	8,4%	14,5%
+filter	0	0	100,000%	43,4%	33,3%	3,2%	5,8%
+
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	0	0	0,000%	54,9%	54,9%	100,0%	70,9%
+filter	1	0	0,000%	54,9%	54,9%	100,0%	70,9%
+filter	2	0	0,000%	56,6%	56,1%	96,8%	71,0%
+filter	3	0	0,000%	57,2%	56,4%	96,8%	71,3%	x >= 3 total
+filter	4	0	0,000%	56,6%	56,2%	95,8%	70,8%
+filter	8	0	0,000%	54,9%	55,6%	89,5%	68,5%
+filter	16	0	0,000%	52,6%	54,5%	83,2%	65,8%
+filter	32	0	0,000%	48,6%	52,4%	69,5%	59,7%
+filter	64	0	0,000%	39,9%	45,6%	49,5%	47,5%
+filter	128	0	0,000%	37,6%	41,6%	33,7%	37,2%
+filter	256	0	0,000%	35,3%	33,3%	17,9%	23,3%
+filter	512	0	0,000%	35,3%	25,7%	9,5%	13,8%
+
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	0	0	0,000%	54,9%	54,9%	100,0%	70,9%
+filter	0	1	0,000%	54,9%	54,9%	100,0%	70,9%
+filter	0	2	0,000%	65,9%	64,5%	84,2%	73,1%	x >= 2 discourse
+filter	0	3	0,000%	67,6%	68,9%	74,7%	71,7%
+filter	0	4	0,000%	68,8%	74,1%	66,3%	70,0%
+filter	0	8	0,000%	64,7%	78,3%	49,5%	60,6%
+filter	0	16	0,000%	60,1%	81,0%	35,8%	49,6%
+filter	0	32	0,000%	56,1%	88,0%	23,2%	36,7%
+filter	0	64	0,000%	52,6%	84,2%	16,8%	28,1%
+filter	0	128	0,000%	49,1%	88,9%	8,4%	15,4%
+filter	0	256	0,000%	48,0%	100,0%	5,3%	10,0%
+filter	0	512	0,000%	45,7%	100,0%	1,1%	2,1%
+
+"idealkombination"
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	3	2	6,000%	81,5%	93,2%	71,6%	81,0%	x worse than disc/total
+
+start with disc/total: discourse
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	0	0	6,000%	81,5%	83,9%	82,1%	83,0%
+filter	0	1	6,000%	81,5%	83,9%	82,1%	83,0%
+filter	0	2	6,000%	81,5%	93,2%	71,6%	81,0%
+filter	0	3	6,000%	79,8%	92,9%	68,4%	78,8%
+filter	0	4	6,000%	78,0%	96,7%	62,1%	75,6%
+doesn't improve
+
+start with disc/total: total
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	0	0	6,000%	81,5%	83,9%	82,1%	83,0%
+filter	1	0	6,000%	81,5%	83,9%	82,1%	83,0%
+filter	2	0	6,000%	83,2%	89,3%	78,9%	83,8%
+filter	3	0	6,000%	83,8%	90,4%	78,9%	84,3%	x >= 3 total (as above)
+filter	4	0	6,000%	83,2%	90,2%	77,9%	83,6%
+filter	8	0	6,000%	81,5%	93,2%	71,6%	81,0%
+filter	16	0	6,000%	79,2%	95,4%	65,3%	77,5%
+filter	32	0	6,000%	72,3%	96,1%	51,6%	67,1%
+
+start with >= 3 total: discourse
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	3	0	0,000%	57,2%	56,4%	96,8%	71,3%
+filter	3	1	0,000%	57,2%	56,4%	96,8%	71,3%
+filter	3	2	0,000%	65,9%	64,5%	84,2%	73,1%	x >= discourse (but lower than disc/total)
+filter	3	3	0,000%	67,6%	68,9%	74,7%	71,7%
+
+start with >= 3 total: disc/total
+	total >=	discourse >=	disc/total >=	a	p	r	f
+filter	3	0	0,000%	57,2%	56,4%	96,8%	71,3%
+filter	3	0	2,500%	78,0%	77,1%	85,3%	81,0%
+filter	3	0	3,000%	78,0%	78,2%	83,2%	80,6%
+filter	3	0	5,000%	82,1%	86,4%	80,0%	83,1%
+filter	3	0	5,500%	82,1%	87,2%	78,9%	82,9%
+filter	3	0	5,750%	82,7%	88,2%	78,9%	83,3%
+filter	3	0	5,800%	82,7%	88,2%	78,9%	83,3%
+filter	3	0	5,900%	83,8%	90,4%	78,9%	84,3%	x
+filter	3	0	5,950%	83,8%	90,4%	78,9%	84,3%	x
+filter	3	0	6,000%	83,8%	90,4%	78,9%	84,3%	x >= 6% disc/total
+filter	3	0	6,100%	83,2%	90,2%	77,9%	83,6%
+filter	3	0	6,250%	83,2%	90,2%	77,9%	83,6%
+filter	3	0	6,500%	82,1%	90,0%	75,8%	82,3%
+filter	3	0	7,500%	79,8%	89,5%	71,6%	79,5%
+filter	3	0	12,000%	75,7%	89,6%	63,2%	74,1%
+filter	3	0	25,000%	61,3%	91,2%	32,6%	48,1%
+filter	3	0	50,000%	48,0%	100,0%	5,3%	10,0%
+filter	3	0	100,000%	45,1%	#DIV/0!	0,0%	#DIV/0!
+
+=> at least 3 times and at least 6% disc/total
+
+incorrectly predicted:
+
+alone
+bearing
+by
+covering
+plus
+provided
+representing
+solely
+
+with discourse >= 2, we only predict
+
+alone
+bearing
+by
+provided
+solely
+ 
+with discourse >= 4, we only predict
+by
+provided
+
+
+
+actually, we want to maximize precision (fp=0!) and prediction, not f or accuracy
+
+	total >=	discourse >=	disc/total >=	predicted	a	p	r	f
+filter	0	0	0,000%	173	54,9%	54,9%	100,0%	70,9%
+filter	0	0	100,000%	9	43,4%	33,3%	3,2%	5,8%	x test disc/total: even with maximum, we do not reach fp=0 => test discourse
+filter	0	500	0,000%	1	45,7%	100,0%	1,1%	2,1%		
+filter	0	250	0,000%	5	48,0%	100,0%	5,3%	10,0%
+filter	0	200	0,000%	6	48,6%	100,0%	6,3%	11,9%
+filter	0	175	0,000%	7	49,1%	100,0%	7,4%	13,7%		x discourse works, but may be too restrictive
+filter	0	150	0,000%	8	48,6%	87,5%	7,4%	13,6%
+filter	0	125	0,000%	9	49,1%	88,9%	8,4%	15,4%
+
+balance discourse with disc/total
+	total >=	discourse >=	disc/total >=	predicted	a	p	r	f
+filter	0	175	0,000%	7	49,1%	100,0%	7,4%	13,7%
+filter	0	0	0,000%	173	54,9%	54,9%	100,0%	70,9%
+filter	0	4	0,000%	85	68,8%	74,1%	66,3%	70,0%	x discourse >= 4 as above
+filter	0	4	10,000%	51	72,3%	96,1%	51,6%	67,1%	x fast !
+filter	0	4	12,000%	48	71,7%	97,9%	49,5%	65,7%
+filter	0	4	13,000%	46	70,5%	97,8%	47,4%	63,8%
+filter	0	4	13,500%	45	71,1%	100,0%	47,4%	64,3%	x für englisch, aber nur 45 !
+filter	0	4	14,000%	44	70,5%	100,0%	46,3%	63,3%
+filter	0	4	15,000%	43	69,9%	100,0%	45,3%	62,3%
+filter	0	4	20,000%	34	64,7%	100,0%	35,8%	52,7%	x too much loss
+
+sagen wir 90% precision => maximiere predicted
+
+	total >=	discourse >=	disc/total >=	predicted	a	p	r	f
+filter	0	4	10,000%	51	72,3%	96,1%	51,6%	67,1%
+filter	0	2	13,500%	56	74,0%	94,6%	55,8%	70,2%
+filter	0	2	10,000%	62	75,1%	91,9%	60,0%	72,6%
+filter	0	2	5,000%	76	80,9%	90,8%	72,6%	80,7%
+filter	0	2	4,000%	81	80,3%	87,7%	74,7%	80,7%	fail
+filter	0	2	4,500%	79	81,5%	89,9%	74,7%	81,6%	fail => disc/total >= 5%
+
+fp-s
+	alone
+	ask
+	bearing
+	by
+	provided
+	solely
+	under
+
+filter	3	0	6,000%	83	83,8%	90,4%	78,9%	84,3%	x
+filter	3	0	5,900%	83	83,8%	90,4%	78,9%	84,3%	
+filter	3	0	5,850%	85	82,7%	88,2%	78,9%	83,3%	fail
+filter	3	0	5,800%	85	82,7%	88,2%	78,9%	83,3%	fail
+filter	3	0	5,500%	86	82,1%	87,2%	78,9%	82,9%	fail
+filter	3	0	5,000%	88	82,1%	86,4%	80,0%	83,1%	fail
+filter	2	0	6,000%	84	83,2%	89,3%	78,9%	83,8%	fail
+
+fp-s
+	alone
+	bearing
+	by
+	covering
+	plus
+	provided
+	representing
+	solely
+
+konservativ: 15% und discourse >= 4 (prec. 100)
+
+	total >=	discourse >=	disc/total >=	predicted	a	p	r	f
+filter	0	4	15,000%	43	69,9%	100,0%	45,3%	62,3%
+
+filter	0	3	15,000%	51	71,1%	94,1%	50,5%	65,8%
+
+fp-s
+	alone
+	bearing
+	solely
+(=> explainable)
+
+filter	0	3	10,000%	59	73,4%	91,5%	56,8%	70,1%
+
+fp-s
+	alone
+	bearing
+	by		problematic, incl. "by means of"
+	provided
+	solely
+
+filter	0	2	10,000%	62	75,1%	91,9%	60,0%	72,6%
+
+fp-s
+	alone
+	bearing
+	by
+	provided
+	solely
+
+filter	0	2	5,000%	76	80,9%	90,8%	72,6%	80,7%
+
+fp-s
+	alone
+	ask		NEIN
+	bearing
+	by
+	provided
+	solely
+	under	NEIN
+
+filter	0	2	7,500%	67	78,0%	92,5%	65,3%	76,5%
+
+fp-s
+	alone
+	bearing
+	by
+	provided
+	solely
+
+das is begründbar
+
+filter	0	2	7,000%	70	79,8%	92,9%	68,4%	78,8%
+filter	0	2	6,500%	71	80,3%	93,0%	69,5%	79,5%
+filter	0	2	6,250%	72	80,9%	93,1%	70,5%	80,2%
+filter	0	2	6,000%	73	81,5%	93,2%	71,6%	81,0%
+filter	0	2	5,500%	74	80,9%	91,9%	71,6%	80,5%	% DROP: ask
+
+dies.
+
+
+=> extraktionsparameter 
+discourse	>= 2
+disc/total	>= 7,500%
+
+"compared against PDTB" (was nicht stimmt, sondern meine eigene liste)
+
+bei mehr daten kriegen wir bessere inventories
