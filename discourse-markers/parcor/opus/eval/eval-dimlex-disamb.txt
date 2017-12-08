@@ -1,0 +1,41 @@
+runtime experiments
+	Intel Core i7-4650U CPU @ 1.70GHz	2.30 GHz
+	8 GB RAM
+	Win8.1 Pro, x64
+	(surface)
+
+build.sh (2017-12-02)
+	given Europarl.en-de-it.conll with 380471 lines (incl. retok), 285573 tokens, 10143 sentences
+	dimlex and disambiguate
+
+	real    1134m50,983s
+	user    0m8,381s
+	sys     0m13,209s
+
+build.sh (2017-12-08)
+	given *full* Europarl.en-de.conll and Europarl.en-it.conll
+	merge (-window=1000), dimlex and disambiguate
+	measure times with  (date --rfc-3339=ns; wc -l Europarl.en-de-it.*conll) | perl -pe 's/\n/\t/g'; echo
+	2017-12-08	20:30:03.939902700	start
+	2017-12-08	20:51:38.302638300+01:00	2203	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:52:18.989561600+01:00	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:52:32.201277900+01:00	12220	Europarl.en-de-it.conll	6857	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:53:00.407154900+01:00	12488	Europarl.en-de-it.conll	7019	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:54:16.104935600+01:00	12764	Europarl.en-de-it.conll	7582	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:55:15.888245400+01:00	13304	Europarl.en-de-it.conll	8104	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:56:18.143575700+01:00	13819	Europarl.en-de-it.conll	8686	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:57:39.804854600+01:00	14335	Europarl.en-de-it.conll	9380	Europarl.en-de-it.dimlexed.conll	4520	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	20:58:30.083151900+01:00	14848	Europarl.en-de-it.conll	9682	Europarl.en-de-it.dimlexed.conll	6872	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:04:00.099007100+01:00	17467	Europarl.en-de-it.conll	12486	Europarl.en-de-it.dimlexed.conll	6872	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:15:22.122720800+01:00	22984	Europarl.en-de-it.conll	18371	Europarl.en-de-it.dimlexed.conll	11245	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:25:58.528946000+01:00	28029	Europarl.en-de-it.conll	23683	Europarl.en-de-it.dimlexed.conll	15334	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:32:35.716177400+01:00	31530	Europarl.en-de-it.conll	27262	Europarl.en-de-it.dimlexed.conll	17413	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:35:43.396956400+01:00	33163	Europarl.en-de-it.conll	29027	Europarl.en-de-it.dimlexed.conll	19673	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:52:04.718666600+01:00	41878	Europarl.en-de-it.conll	37987	Europarl.en-de-it.dimlexed.conll	24285	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:54:37.611328700+01:00	43484	Europarl.en-de-it.conll	39800	Europarl.en-de-it.dimlexed.conll	26703	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:57:35.952449400+01:00	45666	Europarl.en-de-it.conll	41957	Europarl.en-de-it.dimlexed.conll	26703	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	21:58:58.349265800+01:00	46460	Europarl.en-de-it.conll	42908	Europarl.en-de-it.dimlexed.conll	26703	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	22:03:28.979048500+01:00	49728	Europarl.en-de-it.conll	46137	Europarl.en-de-it.dimlexed.conll	29252	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	22:11:43.266504700+01:00	55163	Europarl.en-de-it.conll	51963	Europarl.en-de-it.dimlexed.conll	31698	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	22:19:04.830068000+01:00	60276	Europarl.en-de-it.conll	57051	Europarl.en-de-it.dimlexed.conll	34174	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-08	22:25:33.326500000+01:00	64320	Europarl.en-de-it.conll	61249	Europarl.en-de-it.dimlexed.conll	36670	Europarl.en-de-it.dimlexed_disamb.conll
