@@ -48,10 +48,88 @@ build.sh (2017-12-08)
 	2017-12-09	07:12:42.921126600+01:00	423119	Europarl.en-de-it.conll	432512	Europarl.en-de-it.dimlexed.conll	215483	Europarl.en-de-it.dimlexed_disamb.conll
 	2017-12-09	07:17:54.612915100+01:00	427128	Europarl.en-de-it.conll	436308	Europarl.en-de-it.dimlexed.conll	219961	Europarl.en-de-it.dimlexed_disamb.conll
 	2017-12-09	07:20:14.475994900+01:00	428751	Europarl.en-de-it.conll	438216	Europarl.en-de-it.dimlexed.conll	219961	Europarl.en-de-it.dimlexed_disamb.conll
-	
+
 	note that we didn't count tokens, but lines, and this number is indirectly related only (*RETOK*!)
 	
 	tok	lines	file
-	230920  430084 Europarl.en-de-it.conll
-	226888  439920 Europarl.en-de-it.dimlexed.conll
-	207317  222145 Europarl.en-de-it.dimlexed_disamb.conll
+	230920	430084	Europarl.en-de-it.conll
+	226888	439920	Europarl.en-de-it.dimlexed.conll
+	207317	222145	Europarl.en-de-it.dimlexed_disamb.conll
+	
+	398649  701634 Europarl.en-de-it.conll
+	394460  721988 Europarl.en-de-it.dimlexed.conll
+	359535  385331 Europarl.en-de-it.dimlexed_disamb.conll
+
+	2017-12-09	10:33:56.995202500+01:00	571245	Europarl.en-de-it.conll	586054	Europarl.en-de-it.dimlexed.conll	310564	Europarl.en-de-it.dimlexed_disamb.conll	
+	2017-12-09	10:41:53.063797100+01:00	576724	Europarl.en-de-it.conll	592009	Europarl.en-de-it.dimlexed.conll	313074	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	12:56:30.685736500+01:00	673875	Europarl.en-de-it.conll	693433	Europarl.en-de-it.dimlexed.conll	368062	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	14:22:29.309703900+01:00	693768	Europarl.en-de-it.conll	713962	Europarl.en-de-it.dimlexed.conll	381179	Europarl.en-de-it.dimlexed_disamb.conll
+	
+	error
+	org.apache.jena.riot.RiotException: [line: 11, col: 9 ] Not a valid token for an RDF term: [CNTRL:-1]
+        at org.apache.jena.riot.system.ErrorHandlerFactory$ErrorHandlerStd.fatal(ErrorHandlerFactory.java:136)
+        at org.apache.jena.riot.system.ParserProfileBase.create(ParserProfileBase.java:205)
+        at org.apache.jena.riot.lang.LangTurtleBase.tokenAsNode(LangTurtleBase.java:500)
+        at org.apache.jena.riot.lang.LangTurtleBase.node(LangTurtleBase.java:342)
+        at org.apache.jena.riot.lang.LangTurtleBase.predicate(LangTurtleBase.java:311)
+        at org.apache.jena.riot.lang.LangTurtleBase.predicateObjectItem(LangTurtleBase.java:286)
+        at org.apache.jena.riot.lang.LangTurtleBase.predicateObjectList(LangTurtleBase.java:269)
+        at org.apache.jena.riot.lang.LangTurtleBase.triples(LangTurtleBase.java:250)
+        at org.apache.jena.riot.lang.LangTurtleBase.triplesSameSubject(LangTurtleBase.java:191)
+        at org.apache.jena.riot.lang.LangTurtle.oneTopLevelElement(LangTurtle.java:44)
+        at org.apache.jena.riot.lang.LangTurtleBase.runParser(LangTurtleBase.java:90)
+        at org.apache.jena.riot.lang.LangBase.parse(LangBase.java:42)
+        at org.apache.jena.riot.RDFParserRegistry$ReaderRIOTLang.read(RDFParserRegistry.java:177)
+        at org.apache.jena.riot.RDFDataMgr.process(RDFDataMgr.java:872)
+        at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:286)
+        at org.apache.jena.riot.RDFDataMgr.read(RDFDataMgr.java:270)
+        at org.apache.jena.riot.adapters.RDFReaderRIOT.read(RDFReaderRIOT.java:63)
+        at com.hp.hpl.jena.rdf.model.impl.ModelCom.read(ModelCom.java:279)
+        at CoNLL2RDF.conll2model(CoNLL2RDF.java:184)
+        at CoNLLStreamExtractor.main(CoNLLStreamExtractor.java:125)
+while processing the following input:
+<code>
+PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX terms: <http://purl.org/acoli/open-ie/>
+PREFIX : <http://example.org/irrelevant/>
+
+:s10725_0 nif:nextSentence :s10726_0.
+:s10726_0 a nif:Sentence.
+:s10726_* a nif:Word; conll:ID "*"; conll:WORD ":"; conll:DE "dell"; conll:HEAD :s10726_0; nif:nextWord :s10726_*. # offset=2348540
+:s10726_* a nif:Word; conll:ID "*"; conll:WORD ":"; conll:DE "'"; conll:HEAD :s10726_0; nif:nextWord :s10726_1. # offset=2348544
+:s10726_1 a nif:Word; conll:ID "1"; conll:WORD "secondly"; conll:DE "zweitens"; conll:DE_CUE "zweitens"; conll:SENSE1 "asynchronous-precedence, conjunction"; conll:HEAD :s10726_0; nif:nextWord :s10726_2. # offset=2348557
+
+	2017-12-09	14:27:32.387051300+01:00	696380	Europarl.en-de-it.conll	716772	Europarl.en-de-it.dimlexed.conll	383298	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	14:32:06.478453100+01:00	698573	Europarl.en-de-it.conll	719092	Europarl.en-de-it.dimlexed.conll	383298	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	14:33:23.318447300+01:00	699369	Europarl.en-de-it.conll	719721	Europarl.en-de-it.dimlexed.conll	383298	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	14:35:11.622324900+01:00	700221	Europarl.en-de-it.conll	720709	Europarl.en-de-it.dimlexed.conll	385331	Europarl.en-de-it.dimlexed_disamb.conll	
+	2017-12-09	15:15:30.402881900+01:00	720074	Europarl.en-de-it.conll	741278	Europarl.en-de-it.dimlexed.conll	398694	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	15:55:36.431349000+01:00	746423	Europarl.en-de-it.conll	769110	Europarl.en-de-it.dimlexed.conll	415117	Europarl.en-de-it.dimlexed_disamb.conll
+	2017-12-09	16:28:24.933761100+01:00	767857	Europarl.en-de-it.conll	790885	Europarl.en-de-it.dimlexed.conll	427468	Europarl.en-de-it.dimlexed_disamb.conll
+	
+	
+note:
+- we lose *a lot* because of alignment errors (<= merging window)
+
+DimlexedCoNLL2Dimlex 1 2 5 8 on 398960 tokens with -window=1000
+
+diagnostics:
+tokens processed: 398960
+discourse projections: 4478
+identified discourse cues: 45
+explicit DimLex senses: 2141
+alternative (non-extracted) lexicalization/implicit senses: 2337
+
+DimlexedCoNLL2Dimlex 1 2 5 8 on 398960 tokens with -window=15000
+ 
+diagnostics:
+tokens processed: 261739
+discourse projections: 7615
+identified discourse cues: 67
+explicit DimLex senses: 3564
+alternative (non-extracted) lexicalization/implicit senses: 4051
+
+todo: change Moses2CoNLL to read OPUS ids.gz => faster and more reliable

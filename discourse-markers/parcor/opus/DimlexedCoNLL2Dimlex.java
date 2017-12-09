@@ -3,25 +3,54 @@ import java.util.*;
 
 public class DimlexedCoNLL2Dimlex {
 	
+	// assessed empirically on a 380k token sample from English Europarl with dimlex annotations extrapolated from German and Italian
+	// set to high precision (100% on the test set), the low scores reflect alignment errors, translation gaps, etc.
+	// note that *BOTH* conditions must be met
+	// this is a *very* conservative asessment
+	private static final int MIN_ABS = 2;		 // >= 2 sense projections 
+	private static final double MIN_REL = 0.075; // >= 7.5% sense projections
+	
 	public String help() {
 		return
 			"synopsis: "+this.getClass()+
-				" WORD_COL SENSE_COL [SENSE_COL1..n] [-silent]\n"+
-			"\tWORD_COL column in the input file that contains the WORD (or LEMMA), first is 0\n"+
-			"\tSENSE_COL column in the input file that contains the disambiguated sense (set to -1 if none)\n"+
+				" WORD_COL SENSE_COL [SENSE_COL1..n] [-silent|-verbose] [-minAbs=INT] [-minRel=INT] [-xmlOut[=true]]\n"+
+			"\tWORD_COL   column in the input file that contains the WORD (or LEMMA), first is 0\n"+
+			"\tSENSE_COL  column in the input file that contains the disambiguated sense (set to -1 if none)\n"+
 			"\tSENSE_COLi column in the input file that contains a possible sense, e.g., projected from one particular source\n"+
-			"\t-silent suppress help message\n"+
+			"\t-minAbs=x  minimal absolute number of SENSE or SENSEi annotations per word form, default -minAbs="+MIN_ABS+"\n"+
+			"\t-minRel=x  minimal relative number of SENSE or SENSEi annotations per word form, default -minRel="+MIN_REL+"\n"+
+			"\t-xmlOut    write DimLex xml (default: false, i.e., human-readable text output)\n"+
+			"\t-silent    suppress help and status messages\n"+
+			"\t-verbose   log normalization operations, overrides -silent\n"+
 			"Builds a discourse marker inventory from a SENSE-annotated CoNLL file.\n"+
 			"Read CoNLL file from stdin, write dimlex.xml to stdout\n";
 	}
 	
 	public static void main(String[] argv) throws Exception {
 		DimlexedCoNLL2Dimlex me = new DimlexedCoNLL2Dimlex();
+		long tokens = 0;
+		long projections = 0;	// and confirmed by two sources
+		int discourseMarkers = 0;
 		
 		int lastCol = 0;
 		boolean silent = Arrays.asList(argv).toString().toLowerCase().replaceAll("[^\\-a-z0-9]+"," ").contains(" -silent ");
+		boolean verbose = Arrays.asList(argv).toString().toLowerCase().replaceAll("[^\\-a-z0-9]+"," ").contains(" -verbose ");
+		if(verbose) silent=false;
+		
 		if(!silent)
 			System.err.println(me.help());
+
+		boolean xmlOut=false;
+		int minAbs = MIN_ABS;
+		double minRel = MIN_REL;
+		for(int i=0; i<argv.length; i++) {
+			if(argv[i].toLowerCase().startsWith("-minabs="))
+				minAbs=Integer.parseInt(argv[i].toLowerCase().replaceFirst(".*=",""));
+			if(argv[i].toLowerCase().startsWith("-minrel="))
+				minRel=Double.parseDouble(argv[i].toLowerCase().replaceFirst(".*=",""));
+			if(argv[i].toLowerCase().equals("-xmlout") || argv[i].toLowerCase().startsWith("-xmlout=t"))
+				xmlOut=true;
+		}
 		
 		int word = Integer.parseInt(argv[0]);
 		lastCol=word;
@@ -36,7 +65,7 @@ public class DimlexedCoNLL2Dimlex {
 		}
 		
 		if(!silent)
-			System.err.println("run with parameters COL_WORD="+word+" COL_SENSE="+senseCol+" COL_SENSE1..n="+senseCols+" silent="+silent);
+			System.err.println("run with parameters COL_WORD="+word+" COL_SENSE="+senseCol+" COL_SENSE1..n="+senseCols+" silent="+silent+" -minAbs="+minAbs+" -minRel="+minRel +" -xmlOut="+xmlOut);
 		
 		Hashtable<String, Integer> word2freq = new Hashtable<String,Integer>();
 		Hashtable<String, Hashtable<String, Integer>> marker2sense2freq = new Hashtable<String, Hashtable<String, Integer>>();
@@ -50,6 +79,7 @@ public class DimlexedCoNLL2Dimlex {
 			line=line.replaceFirst("([^\\\\])#.*$","$1").replaceFirst("^#.*$","");
 			String[] fields = line.split("\t");
 			if(fields.length>lastCol) {
+				tokens=tokens+1;
 				i++;
 				String marker = fields[word];
 				
@@ -59,12 +89,13 @@ public class DimlexedCoNLL2Dimlex {
 				
 				// sense freq (disambiguated only)
 				if(senseCol>=0 && fields[senseCol].replaceAll("[^a-zA-Z]","").length()>0) {
+					projections=projections+1;
 					if(marker2sense2freq.get(marker)==null) 
 						marker2sense2freq.put(marker, new Hashtable<String, Integer>());
 					if(marker2sense2freq.get(marker).get(fields[senseCol])==null)
 						marker2sense2freq.get(marker).put(fields[senseCol],0);					
 					marker2sense2freq.get(marker).put(fields[senseCol],marker2sense2freq.get(marker).get(fields[senseCol])+1);
-				} else // sense freqs (alternative senseCols: only if disambiguation failed)
+				} else { // sense freqs (alternative senseCols: only if disambiguation failed)
 					for(int j = 0; j<senseCols.size(); j++) {
 					  int senseColi = senseCols.get(j);
 					  if(fields[senseColi].replaceAll("[^a-zA-Z]","").length()>0) {
@@ -77,15 +108,25 @@ public class DimlexedCoNLL2Dimlex {
 						marker2src2sense2freq.get(marker).get(senseColi).put(fields[senseColi], marker2src2sense2freq.get(marker).get(senseColi).get(fields[senseColi])+1);
 					  }
 					}
+				}
 			}
 			if(i % 123 == 0 && !silent) System.err.print("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers\r");
 		}
 		System.err.println("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers ... done");
 		
-		if(!silent)
-			System.err.println(marker2sense2freq);
+		// if(!silent) System.err.println(marker2sense2freq);
 		
 		System.err.println("consolidate ..");
+		
+		// write Dimlex header
+		if(xmlOut) {
+			System.out.println("<!DOCTYPE dimlex SYSTEM 'DimLex.dtd'>\n"+
+				"<dimlex>");
+		}
+
+		int markerNr = 0;
+		int explicits = 0;
+				
 		// disambiguate senses
 		for(String marker : new TreeSet<String>(marker2sense2freq.keySet())) {
 			// get the most frequent unambiguous sense
@@ -122,7 +163,7 @@ public class DimlexedCoNLL2Dimlex {
 						if(marker2sense2freq.get(marker).get(newSense)==null)
 							marker2sense2freq.get(marker).put(newSense,0);
 						marker2sense2freq.get(marker).put(newSense, marker2sense2freq.get(marker).get(newSense)+freq);
-						if(!silent)
+						if(verbose)
 							System.err.println("normalize: "+marker+"/"+newSense+ " += "+freq+ "("+marker+"/"+sense+")");
 					}
 				}
@@ -142,7 +183,7 @@ public class DimlexedCoNLL2Dimlex {
 							marker2sense2freq.get(marker).put(mainSense+"*",marker2sense2freq.get(marker).get(mainSense));
 						}
 						marker2sense2freq.get(marker).put(mainSense+"*", marker2sense2freq.get(marker).get(mainSense+"*") + freq);
-						if(!silent)
+						if(verbose)
 							System.err.println("disambiguate: "+marker+"/"+mainSense+ "* += "+freq+ "("+marker+"/"+sense+")");
 					}
 				}
@@ -166,7 +207,7 @@ public class DimlexedCoNLL2Dimlex {
 							mainSense+"*",
 							marker2sense2freq.get(marker).get(mainSense)+
 							freq);
-						if(!silent)
+						if(verbose)
 							System.err.println("expand: "+marker+"/"+mainSense+ "* += "+freq+ "("+marker+"/"+origSense+"["+src+"])");
 					}
 				}
@@ -203,9 +244,47 @@ public class DimlexedCoNLL2Dimlex {
 			for(String sense : ranking)
 				if(!ranking.contains(sense+"*"))
 					discourse+=marker2sense2freq.get(marker).get(sense);
-			System.out.println(marker+" (total: "+word2freq.get(marker)+", discourse>="+discourse+", i.e., "+(int)(0.5+(100.0*discourse)/(double)word2freq.get(marker))+"%)");
-			for(String sense : ranking)
-				System.out.println("\t"+sense+"\t"+marker2sense2freq.get(marker).get(sense) + " ("+(int)(0.5+(100.0*marker2sense2freq.get(marker).get(sense))/(double)word2freq.get(marker))+"%)");
+			if(discourse>=minAbs && ((double)discourse)/(double)word2freq.get(marker)>=minRel) {
+				explicits=explicits+discourse;
+				markerNr++;
+				if(!xmlOut) {
+					System.out.println(marker+" (total: "+word2freq.get(marker)+", discourse>="+discourse+", i.e., "+(int)(0.5+(100.0*discourse)/(double)word2freq.get(marker))+"%)");
+					for(String sense : ranking)
+						System.out.println("\t"+sense+"\t"+marker2sense2freq.get(marker).get(sense) + " ("+(int)(0.5+(100.0*marker2sense2freq.get(marker).get(sense))/(double)word2freq.get(marker))+"%)");
+				} else { // xmlOut
+					System.out.print(
+						"  <entry id='k"+markerNr+"' word='"+marker+"'>\n"+
+						"    <orths>\n"+
+						"      <orth onr='k"+markerNr+"o1'>\n"+				// there's one orth form only
+						"        <part type='single'>"+marker+"</part>\n"+	// by design, we can only capture one word expressions
+						"      </orth>\n"+
+						"    </orths>\n"+
+						"    <syn>\n");
+					for(String sense : ranking)
+					  System.out.print(
+						"      <sem>\n"+
+						"        <pdtb3_relation sense='"+sense+"' freq='"+marker2sense2freq.get(marker).get(sense)+"' anno_N='"+discourse+"'/>\n"+
+						"      </sem>\n");
+					System.out.print(
+						"    </syn>\n"+
+						"  </entry>\n");
+				}
+			} else {
+				if(!silent) 
+					System.err.println("skip candidate "+marker+" (total: "+word2freq.get(marker)+", discourse>="+discourse+", i.e., "+(int)(0.5+(100.0*discourse)/(double)word2freq.get(marker))+"%)");
+			}
 		}
+	
+		// write Dimlex footer
+		if(xmlOut)
+			System.out.println("</dimlex>\n");
+		
+		// write diagnostics
+		System.err.println("\ndiagnostics:");
+		System.err.println("tokens processed: "+tokens);
+		System.err.println("discourse projections: "+projections);
+		System.err.println("identified discourse cues: "+markerNr);
+		System.err.println("explicit DimLex senses: "+explicits);
+		System.err.println("alternative (non-extracted) lexicalization/implicit senses: "+(projections-explicits));
 	}
 }
