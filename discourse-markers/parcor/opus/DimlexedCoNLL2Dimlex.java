@@ -30,6 +30,7 @@ public class DimlexedCoNLL2Dimlex {
 		DimlexedCoNLL2Dimlex me = new DimlexedCoNLL2Dimlex();
 		long tokens = 0;
 		long projections = 0;	// and confirmed by two sources
+		long uniProjections = 0;	// by one source
 		int discourseMarkers = 0;
 		
 		int lastCol = 0;
@@ -86,7 +87,7 @@ public class DimlexedCoNLL2Dimlex {
 				// word freq
 				if(word2freq.get(marker)==null) word2freq.put(marker,0);
 				word2freq.put(marker,word2freq.get(marker)+1);
-				
+
 				// sense freq (disambiguated only)
 				if(senseCol>=0 && fields[senseCol].replaceAll("[^a-zA-Z]","").length()>0) {
 					projections=projections+1;
@@ -96,6 +97,7 @@ public class DimlexedCoNLL2Dimlex {
 						marker2sense2freq.get(marker).put(fields[senseCol],0);					
 					marker2sense2freq.get(marker).put(fields[senseCol],marker2sense2freq.get(marker).get(fields[senseCol])+1);
 				} else { // sense freqs (alternative senseCols: only if disambiguation failed)
+					boolean projected=false;
 					for(int j = 0; j<senseCols.size(); j++) {
 					  int senseColi = senseCols.get(j);
 					  if(fields[senseColi].replaceAll("[^a-zA-Z]","").length()>0) {
@@ -106,13 +108,15 @@ public class DimlexedCoNLL2Dimlex {
 						if(marker2src2sense2freq.get(marker).get(senseColi).get(fields[senseColi])==null)
 							marker2src2sense2freq.get(marker).get(senseColi).put(fields[senseColi], 0);
 						marker2src2sense2freq.get(marker).get(senseColi).put(fields[senseColi], marker2src2sense2freq.get(marker).get(senseColi).get(fields[senseColi])+1);
+						projected=true;
 					  }
+					if(projected) uniProjections=uniProjections+1;
 					}
 				}
 			}
-			if(i % 123 == 0 && !silent) System.err.print("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers\r");
+			if(i % 123 == 0 && !silent) System.err.print("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers, "+projections+" bi-projections and "+uniProjections+" uni-projections\r");
 		}
-		System.err.println("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers ... done");
+		System.err.println("read "+i+" tokens with "+marker2sense2freq.size()+" discourse markers, "+projections+" bi-projections and "+uniProjections+" uni-projections ... done");
 		
 		// if(!silent) System.err.println(marker2sense2freq);
 		
@@ -200,13 +204,13 @@ public class DimlexedCoNLL2Dimlex {
 					for( i = 0; i<unambiguous.size() && mainSense==null; i++)
 						if(sense.contains(unambiguous.get(i).replaceAll("[^a-zA-Z0-9]+"," "))) mainSense=unambiguous.get(i);
 					if(mainSense!=null) {
-						marker2src2sense2freq.get(marker).get(src).remove(sense);
 						if(marker2sense2freq.get(marker).get(mainSense+"*")==null)
 							marker2sense2freq.get(marker).put(mainSense+"*", marker2sense2freq.get(marker).get(mainSense));
 						marker2sense2freq.get(marker).put(
 							mainSense+"*",
 							marker2sense2freq.get(marker).get(mainSense)+
 							freq);
+						marker2src2sense2freq.get(marker).get(src).remove(sense);
 						if(verbose)
 							System.err.println("expand: "+marker+"/"+mainSense+ "* += "+freq+ "("+marker+"/"+origSense+"["+src+"])");
 					}
@@ -282,7 +286,8 @@ public class DimlexedCoNLL2Dimlex {
 		// write diagnostics
 		System.err.println("\ndiagnostics:");
 		System.err.println("tokens processed: "+tokens);
-		System.err.println("discourse projections: "+projections);
+		System.err.println("discourse projections (multi-source): "+projections);
+		System.err.println("discourse projections (uni-source): "+uniProjections);
 		System.err.println("identified discourse cues: "+markerNr);
 		System.err.println("explicit DimLex senses: "+explicits);
 		System.err.println("alternative (non-extracted) lexicalization/implicit senses: "+(projections-explicits));
