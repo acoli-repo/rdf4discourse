@@ -64,7 +64,7 @@ PREFIX : &lt;</xsl:text>
         </xsl:choose>
         <xsl:text>Form [ ontolex:writtenRep "</xsl:text>
         <xsl:value-of select="string-join(part/text(),' ')"/>
-        <xsl:text>"</xsl:text>
+        <xsl:text>"@de</xsl:text>
         <xsl:for-each select="@*|part/@*">
             <xsl:if test="name()!='canonical'">
                 <xsl:text>; dimlex:</xsl:text>
