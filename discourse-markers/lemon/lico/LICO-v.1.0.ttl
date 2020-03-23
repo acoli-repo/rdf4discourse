@@ -1,0 +1,1520 @@
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+# LiCo is inspired by dimlex. As it does not provide a DTD or schema, we refer to the dimlex DTD, instead, even though there are differences.
+
+PREFIX dimlex_data: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
+# explicit cross-references with DimLex as given in entry/commento
+
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://hlt-nlp.fbk.eu/technologies/lico#>
+
+  :1 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a causa di"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :1; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "A causa del maltempo il St. Gotthard è rimasto chiuso.";
+        dimlex:example "Una chiusura a causa del maltempo verrà presa in considerazione." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k19;
+    vartrans:translatableAs dimlex_data:k21;
+    vartrans:translatableAs dimlex_data:k160.
+
+  :2 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a condizione che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :2; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Oggi usciamo, a condizione che venga Hans.";
+        dimlex:example "Vuole restare all'istituto a condizione che ottenga il posto di assistente." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k133.
+
+  :3 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a dire il vero"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :3; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k5.
+
+  :4 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a dire la verità"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "in verità"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "per la verità"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :4; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "adverbial" ].
+
+  :5 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a dispetto di"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :5; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Ci andiamo a dispetto del maltempo.";
+        dimlex:example "Una seconda Pantherin ha lavorato fino al 67 anno di età, per acquisire, a dispetto della bassa paga oraria, una pensione.";
+        dimlex:example "A dispetto del gran caldo estivo, il riscaldamento va a pieno regime." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k142.
+
+  :6 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a meno che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "a meno di"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :6; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg2-as-negcond;
+        dimlex:example "In caso di divorzio la madre ottiene l'affidamento dei minori, a meno che il giudice non decida altrimenti.";
+        dimlex:example "Domani vado in montagna, a meno che il tempo non faccia brutti scherzi.";
+        dimlex:example "Oggi usciamo, a meno che Hans venga.";
+        dimlex:example "Vuole restare all'istituto, a meno che non ottenga il posto di assistente.";
+        dimlex:example "A meno che tu non abbia niente di meglio in programma, vieni al cinema domani?" ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k24;
+    vartrans:translatableAs dimlex_data:k133.
+
+  :7 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a onor del vero"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :7; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "adverbial" ].
+
+  :8 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "a tal fine"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :8; ontolex:isLexicalizedSenseOf pdtb3:purpose-arg1-as-goal ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k35.
+
+  :9 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ad esempio"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "per esempio"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :9; ontolex:isLexicalizedSenseOf pdtb3:instantiation ]; dimlex:type "coodinating" ].
+
+  :10 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ad ogni modo"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "in ogni modo"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :10; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "adverbial" ].
+
+  :11 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "affinché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :11; ontolex:isLexicalizedSenseOf pdtb3:purpose-arg2-as-goal ]; dimlex:type "subordinating" ].
+
+  :12 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "al che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :12; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Il boxer incespicò impotente nella corda, al che l'arbitro interruppe l'incontro.";
+        dimlex:example "Il fantino del cavallo favorito era caduto dalla sella, al che le migliaia di spettatori, che avevano scommesso sull'animale, andarono su tutte le furie." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :12; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Il boxer incespicò impotente nella corda, al che l'arbitro interruppe l'incontro.";
+        dimlex:example "Il fantino del cavallo favorito era caduto dalla sella, al che le migliaia di spettatori, che avevano scommesso sull'animale, andarono su tutte le furie." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k172.
+
+  :13 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "al contrario"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :13; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Un imprenditore, che non ha ancora tagliato gole, non può essere chiamato strozzino. Al contrario un avvocato può indicare..." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :13; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k38.
+
+  :14 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "al massimo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :14; ontolex:isLexicalizedSenseOf pdtb3:exception-arg2-as-excpt ]; dimlex:type "coodinating" ].
+
+  :15 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "al posto di"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :15; ontolex:isLexicalizedSenseOf pdtb3:substitution-arg1-as-subst;
+        dimlex:example "Al posto di mandare i bambini, ha mandato il nonno.";
+        dimlex:example "Al posto di venire, è rimasto a letto." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k13;
+    vartrans:translatableAs dimlex_data:k14.
+
+  :16 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "alla fin fine"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "adverbial " ].
+
+  :17 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "alla fine"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :17; ontolex:isLexicalizedSenseOf pdtb3:precedence ]; dimlex:type "prepositional" ].
+
+  :18 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "allo scopo di"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "con lo scopo di"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :18; ontolex:isLexicalizedSenseOf pdtb3:purpose-arg2-as-goal ]; dimlex:type "adverbial" ].
+
+  :19 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "allo stesso modo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :19; ontolex:isLexicalizedSenseOf pdtb3:similarity ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k68.
+
+  :20 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "allora"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :20; ontolex:isLexicalizedSenseOf pdtb3:precedence ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :20; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example " Allora la radio ancora non c'era. Allora, gli abitanti di Heilbronn dovevano aspettare fino al lunedì successivo, per conoscere il segnale. ";
+        dimlex:example "Ho trovato sotto il ginocchio della gamba sinistra un'altra scottatura, allora lì il flusso deve aver di nuovo abbandonato il corpo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k6;
+    vartrans:translatableAs dimlex_data:k43.
+
+  :21 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "altrimenti"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :21; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg1-as-negcond;
+        dimlex:example "Il quindicenne deve sottomettersi, altrimenti viene colpito sul muso." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k8;
+    vartrans:translatableAs dimlex_data:k138.
+
+  :22 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "anche"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :22; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Klaus non è ancora tornato. Si è anche perso l'allenamento." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :22; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k16.
+
+  :23 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "anche se"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :23; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Abbiamo perso, anche se ci eravamo preparati bene.";
+        dimlex:example "Anche se piove, vado al parco.";
+        dimlex:example "Vado al parco, anche se piove." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k115;
+    vartrans:translatableAs dimlex_data:k163.
+
+  :24 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "anzi"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :24; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Sapevano di aver perso, anzi non c'era più possibilità di una vittoria." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k29.
+
+  :25 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "anziché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :25; ontolex:isLexicalizedSenseOf pdtb3:substitution-arg1-as-subst ]; dimlex:type "coodinating" ].
+
+  :26 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "benché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :26; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Benché Greff fosse sposato, sembrava più un capo degli scout che un marito.";
+        dimlex:example "Esercitava ancora molte funzioni, benché fosse sofferente." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k113;
+    vartrans:translatableAs dimlex_data:k114;
+    vartrans:translatableAs dimlex_data:k115;
+    vartrans:translatableAs dimlex_data:k116;
+    vartrans:translatableAs dimlex_data:k164.
+
+  :27 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "bensì"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :27; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Con la vincita del lotto non ha comprato nessuna auto, bensì ha fatto più viaggi all'estero.";
+        dimlex:example "Non prese la decisione con leggerezza, bensì ci pensò molto sopra.";
+        dimlex:example "Non rimase nemmeno per voltarsi a guardare, bensì corse più veloce che poteva fino all'angolo successivo." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k137.
+
+  :28 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "cioè"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :28; ontolex:isLexicalizedSenseOf pdtb3:equivalence;
+        dimlex:example "Sapevano di aver perso, cioè non c'era più possibilità di una vittoria.";
+        a ontolex:LexicalSense; ontolex:isSenseOf :28; ontolex:isLexicalizedSenseOf pdtb3:reformulation;
+        dimlex:example "Dovresti leggere quel libro, cioè, dovresti averlo almeno nella libreria.";
+        dimlex:example "Per lo sbarramento del fiume dal prato lungo l'Oberrhein tra Basel e Iffezheim c'erano 130 chilometri quadrati, cioè circa il 60 percento della già esistente superficie alluvionata è persa." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k29;
+    vartrans:translatableAs dimlex_data:k49;
+    vartrans:translatableAs dimlex_data:k110.
+
+  :29 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "cionondimeno"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "ciò nondimeno"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :29; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k58.
+
+  :30 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ciononostante"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "nonostante ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "ciò nonostante"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :30; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Entrambe le pagine annunciavano un secondo incontro per martedì. Ciononostante le lotte nei campi andarono avanti anche il lunedì.";
+        dimlex:example "Adesso la procura della repubblica ha ordinato la restituzione dell'esemplare confiscato. Ciononostante l'istruttoria contro la casa editrice prosegue.";
+        dimlex:example "Lui non ha valutato correttamente la situazione della politica interna nella sua patria. Ciononostante è ritornato da quella parte in ogni caso." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k62;
+    vartrans:translatableAs dimlex_data:k78;
+    vartrans:translatableAs dimlex_data:k107;
+    vartrans:translatableAs dimlex_data:k143.
+
+  :31 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "come"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :31; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Come i bambini videro il pupazzo di neve, corsero da lui.";
+        dimlex:example "Entrambi i gatti le si precipitarono contro, come lei aprì la porta.";
+        a ontolex:LexicalSense; ontolex:isSenseOf :31; ontolex:isLexicalizedSenseOf pdtb3:addition ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k167.
+
+  :32 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "come conseguenza"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :32; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Il boxer incespicò impotente nella corda, come conseguenza l'arbitro interruppe l'incontro.";
+        dimlex:example "Il fantino del cavallo favorito era caduto dalla sella, come conseguenza le migliaia di spettatori, che avevano scommesso sull'animale, andarono su tutte le furie." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :32; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Il boxer incespicò impotente nella corda, come conseguenza l'arbitro interruppe l'incontro.";
+        dimlex:example "Il fantino del cavallo favorito era caduto dalla sella, come conseguenza le migliaia di spettatori, che avevano scommesso sull'animale, andarono su tutte le furie." ]; dimlex:type "coodinating" ].
+
+  :33 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "comunque"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :33; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Per me il Marocco d'estate è troppo caldo. Comunque ho paura di volare.";
+        dimlex:example "Chi in quei giorni criticava gli espugnatori russi della Cecenia, correva il rischio, di rendersi antipatico. Comunque era certo che Putin avrebbe vinto la seconda votazione." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :33; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k119.
+
+  :34 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "con ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "con questo"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :34; ontolex:isLexicalizedSenseOf pdtb3:consequence;
+        dimlex:example "La compagnia telefonica Talkline respingeva l'ufficio di regolazione per le telecomunicazioni e le poste. Con ciò fu stabilita la posizione di monopolio della Telecom e criticata la Talkline.";
+        dimlex:example "Questo petrolio fu raffinato e venduto in Europa come benzina; con ciò in alcuni anni un terzo è entrato nella valuta estera.";
+        dimlex:example "Il gruppo industriale vendette il settore del carbone, rottami metallici e logistica. Con ciò il numero dei posti diminuì di 10 000." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k83.
+
+  :35 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "con tutto questo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :35; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "coodinating" ].
+
+  :36 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "contrariamente a"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :36; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Contrariamente all'attuale ipotesi, alcune molecole di principi attivi non vengono del tutto distrutte durante la cottura." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k69.
+
+  :37 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "contuttociò"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [  dimlex:type "prepositional" ].
+
+  :38 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "così"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :38; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "La compagnia telefonica Talkline respingeva l'ufficio di regolazione per le telecomunicazioni e le poste. Così fu stabilita la posizione di monopolio della Telecom e criticata la Talkline.";
+        dimlex:example "Questo petrolio fu raffinato e venduto in Europa come benzina; così in alcuni anni un terzo è entrato nella valuta estera.";
+        dimlex:example "Il gruppo industriale vendette il settore del carbone, rottami metallici e logistica. Così il numero dei posti diminuì di 10 000." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k83;
+    vartrans:translatableAs dimlex_data:k172.
+
+  :39 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "così che"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "cosicché"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :39; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Il bambino aveva la febbre, così che doveva restare a letto." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k131.
+
+  :40 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da allora"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :40; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Il vulcano è ritornato attivo l'estate scorsa. Da allora sputa  ripetutamente cenere e vapore.";
+        dimlex:example "Nel 1948 andarono per la prima volta a Bruegge. Da allora ci vanno quasi tutti gli anni.";
+        dimlex:example "Suo fratello lo ha portato alla stazione di Heidelberger. Da allora manca e non si è più fatto sentire." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :40; ontolex:isLexicalizedSenseOf pdtb3:result ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k124;
+    vartrans:translatableAs dimlex_data:k125.
+
+  :41 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :41; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "La compagnia telefonica Talkline respingeva l'ufficio di regolazione per le telecomunicazioni e le poste. Da ciò fu stabilita la posizione di monopolio della Telecom e criticata la Talkline.";
+        dimlex:example "Il gruppo industriale vendette il settore del carbone, rottami metallici e logistica. Da ciò il numero dei posti diminuì di 10 000." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k83.
+
+  :42 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da quando"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :42; ontolex:isLexicalizedSenseOf pdtb3:succession;
+        dimlex:example "Da quando conosco le Alpi, voglio sempre tornare là.";
+        dimlex:example "Voglio sempre tornare alle Alpi da quando le conosco." ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k123.
+
+  :43 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da ultimo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :43; ontolex:isLexicalizedSenseOf pdtb3:precedence ]; dimlex:type "coodinating" ].
+
+  :44 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da un canto dall'altro"@it; dimlex:type "discont"; dimlex:type "phrasal"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :44; ontolex:isLexicalizedSenseOf pdtb3:contrast ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k7.
+
+  :45 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da un lato dall'altro lato"@it; dimlex:type "discont"; dimlex:type "phrasal"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :45; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Sabeth non credeva che io avessi capito qualcosa, e aveva da un lato una fiducia smisurata in me, dall'altra parte assolutamente nessun rispetto.";
+        dimlex:example "Il legislatore dimostra da un lato apparente durezza, ma dall'altro lato non fa male a nessuno." ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k7.
+
+  :46 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "da una parte"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    ontolex:lexicalForm [ ontolex:writtenRep "da una parte dall'altra parte"@it; dimlex:type "discont"; dimlex:type "phrasal"; dimlex:type "phrasal"];
+    ontolex:lexicalForm [ ontolex:writtenRep "da una parte dall'altra"@it; dimlex:type "discont"; dimlex:type "phrasal"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :46; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Sabeth non credeva che io avessi capito qualcosa, e aveva da una parte una fiducia smisurata in me, dall'altra parte assolutamente nessun rispetto.";
+        dimlex:example "Il legislatore dimostra da una parte apparente durezza, ma dall'altro lato non fa male a nessuno." ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k7.
+
+  :47 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "dal momento che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :47; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Dal momento che la cantante è malata, il concerto non può avere luogo.";
+        dimlex:example "Quel luogo è molto tranquillo, dal momento che si trova lontano dalle grandi strade." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k30.
+
+  :48 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "d'altra parte"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :48; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "'La letteratura africana è una performance', spiegò Hove. La letteratura europea è d'altra parte un esercizio intellettuale." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k53.
+
+  :49 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "d'altro lato"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :50 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "del resto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :50; ontolex:isLexicalizedSenseOf pdtb3:result ]; dimlex:type "subordinating" ].
+
+  :51 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "di conseguenza"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :51; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Non aveva ancora mangiato. Di conseguenza si sentiva indebolita.";
+        dimlex:example "Non aveva ancora mangiato e di conseguenza si sentiva indebolita." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k39;
+    vartrans:translatableAs dimlex_data:k103;
+    vartrans:translatableAs dimlex_data:k135.
+
+  :52 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "di fatto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "adverbial" ].
+
+  :53 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "di modo che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth,lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "dimodoché"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "in modo che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "in modo da"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :53; ontolex:isLexicalizedSenseOf pdtb3:result ]; dimlex:type "subordinating" ].
+
+  :54 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "dopo"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :54; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Scalfire i pomodori con un coltello affilato e annaffiare con acqua calda. Dopo si può spellarli senza problemi." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k41;
+    vartrans:translatableAs dimlex_data:k45;
+    vartrans:translatableAs dimlex_data:k86;
+    vartrans:translatableAs dimlex_data:k104.
+
+  :55 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "dopo di che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex,orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "dopodiché"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "dopo di ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :55; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Hanno camminato per cinque ore sotto la pioggerella minuta, dopodiché avevano tutti bisogno di un punch per riscaldarsi." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k170;
+    vartrans:translatableAs dimlex_data:k171.
+
+  :56 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "dopotutto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :57 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "dunque"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :57; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example " Allora la radio ancora non c'era. Dunque, gli abitanti di Heilbronn dovevano aspettare fino al lunedì successivo, per conoscere il segnale. ";
+        dimlex:example "Ho trovato sotto il ginocchio della gamba sinistra un'altra scottatura, dunque lì il flusso deve aver di nuovo abbandonato il corpo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k6.
+
+  :58 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "e"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :58; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Il sole brilla e gli uccelli cinguettano.";
+        dimlex:example "In montagna c'è il sole e in pianura piove ancora.";
+        dimlex:example "Carla ha un pullover verde e Janka ne ha uno rosso." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :58; ontolex:isLexicalizedSenseOf pdtb3:precedence ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k149.
+
+  :59 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ebbene"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :60 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "eccetto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :60; ontolex:isLexicalizedSenseOf pdtb3:exception-arg2-as-except;
+        dimlex:example "In caso di divorzio la madre ottiene l'affidamento dei minori, eccetto che il giudice non decida altrimenti.";
+        dimlex:example "Domani vado in montagna, eccetto che il tempo non faccia brutti scherzi." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k24.
+
+  :61 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "eppure"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :61; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Oggi i gatti non hanno più un'utilità pratica come animali domestici. Eppure sono estremamente amati.";
+        dimlex:example "In realtà per oggi era previsto bel tempo. Eppure piove a dirotto." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k143.
+
+  :62 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "fatto sta che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :63 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "fin qui"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :63; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Prima dell'elezione, il governo quanto l'opposizione, mettono in vista pesanti aumenti di assegni familiari e assegni di maternità. Fin qui non c'è nulla di nuovo.";
+        dimlex:example "Il neonato pesava 2600 grammi per una lunghezza di 46 centimetri. Fin qui un abbastanza normale e gioioso avvenimento.";
+        dimlex:example "Per agire contro la moria della foresta, resta solo la riduzione degli inquinanti. Fin qui i politici sono tutti d'accordo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k139.
+
+  :64 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "fino a questo punto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :64; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Prima dell'elezione, il governo quanto l'opposizione, mettono in vista pesanti aumenti di assegni familiari e assegni di maternità. Fino a questo punto non c'è nulla di nuovo.";
+        dimlex:example "Il neonato pesava 2600 grammi per una lunghezza di 46 centimetri. Fino a questo punto un abbastanza normale e gioioso avvenimento.";
+        dimlex:example "Per agire contro la moria della foresta, resta solo la riduzione degli inquinanti. Fino a questo punto i politici sono tutti d'accordo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k139.
+
+  :65 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "frattanto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :65; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Frattanto le idee della Volks-AG nella navigazione marittima verranno collaudate anche in altri rami del campo dei trasporti.";
+        dimlex:example "Dopo due settimane di scioperi di massa, le persone della montagna hanno ripreso il lavoro. Frattanto gli scioperi nei Nachbarrevieren si sono allargati in modo rilevante." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k150;
+    vartrans:translatableAs dimlex_data:k174.
+
+  :66 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "fuorché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :66; ontolex:isLexicalizedSenseOf pdtb3:exception-arg2-as-except ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k24.
+
+  :67 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "giacché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :67; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Giacché la cantante è malata, il concerto non può avere luogo.";
+        dimlex:example "Quel luogo è molto tranquillo, giacché si trova lontano dalle grandi strade." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k30.
+
+  :68 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in altre parole"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "in altri termini"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :68; ontolex:isLexicalizedSenseOf pdtb3:equivalence ]; dimlex:type "coodinating" ].
+
+  :69 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in base a"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :69; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Il rimprovero, in base al quale Alain Patrice N. fu trattenuto il 21 aprile, era per ottenimento di prestazioni con inganno." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k20.
+
+  :70 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in breve"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :70; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "coodinating" ].
+
+  :71 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in caso contrario"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :71; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg1-as-negcond;
+        dimlex:example "Il quindicenne deve sottomettersi, in caso contrario viene colpito sul muso." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k8.
+
+  :72 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in conclusione"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :72; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "coodinating" ].
+
+  :73 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in conseguenza di ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :73; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Ottenne la licenza di insegnante della scuola primaria al seminario di Rorschach e in conseguenza di ciò insegnò per alcuni anni a Kaltbrunn." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k44.
+
+  :74 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in definitiva"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :75 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in fin dei conti"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "adverbial" ].
+
+  :76 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in luogo di"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :76; ontolex:isLexicalizedSenseOf pdtb3:substitution-arg1-as-subst ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k141.
+
+  :77 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in ogni caso"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :77; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Per me il Marocco d'estate è troppo caldo. In ogni caso ho paura di volare.";
+        dimlex:example "Chi in quei giorni criticava gli espugnatori russi della Cecenia, correva il rischio, di rendersi antipatico. In ogni caso era certo che Putin avrebbe vinto la seconda votazione." ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k119;
+    vartrans:translatableAs dimlex_data:k174.
+
+  :78 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in più"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :78; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Non ho voglia di andare al cinema, in più sono stanco.";
+        dimlex:example "Il pietrisco provoca meno ruggine sulle auto del sale per strade. In più è salutare per l'ambiente" ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k26;
+    vartrans:translatableAs dimlex_data:k73;
+    vartrans:translatableAs dimlex_data:k185.
+
+  :79 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in poche parole"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :79; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "adverbial" ].
+
+  :80 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in quanto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :80; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "È così ansiosa in quanto è già stata bocciata all'esame di guida due volte" ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k202.
+
+  :81 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in quanto al resto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :81; ontolex:isLexicalizedSenseOf pdtb3:exception-arg1-as-except;
+        dimlex:example "L'EDV-Kurs purtroppo deve essere disdetto. In quanto al resto tutte le offerte possono essere passate.";
+        dimlex:example "L'associazione è intervenuta solo per il possibile pericolo di incendio. In quanto al resto ha approvato l'attività." ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k12.
+
+  :82 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in realtà"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :82; ontolex:isLexicalizedSenseOf pdtb3:specification-arg2-as-detail ]; dimlex:type "CLASSE" ].
+
+  :83 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in seguito"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :83; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Scalfire i pomodori con un coltello affilato e annaffiare con acqua calda. In seguito si può spellarli senza problemi." ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k41;
+    vartrans:translatableAs dimlex_data:k130.
+
+  :84 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in seguito a"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :84; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "In seguito al maltempo, il St. Gotthard resta chiuso.";
+        dimlex:example "In seguito al maltempo una chiusura verrà presa in considerazione.";
+        dimlex:example "In futuro, in seguito ai Castor-Transoporten, anche a Berlino i danni alla salute per i poliziotti dovrebbero essere considerati come incidente sul lavoro." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :84; ontolex:isLexicalizedSenseOf pdtb3:succession ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k91.
+
+  :85 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in seguito a ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :85; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "La querelante desiderava che la società fosse protetta da lui. In seguito a ciò l'accusato scoppiò in lacrime." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :85; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "La querelante desiderava che la società fosse protetta da lui. In seguito a ciò l'accusato scoppiò in lacrime." ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k45.
+
+  :86 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in sintesi"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :86; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "adverbial" ].
+
+  :87 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in sostanza"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :87; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "coodinating" ].
+
+  :88 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "in ultima analisi"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :89 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "infatti"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "difatti"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :89; ontolex:isLexicalizedSenseOf pdtb3:instantiation;
+        dimlex:example "La somiglianza non è così sorprendente. Infatti le due sono sorelle." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k110.
+
+  :90 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "infine"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [  dimlex:type "avverbio" ].
+
+  :91 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "innanzitutto"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "innanzi tutto"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    dimlex:syn [  dimlex:type "avverbio" ].
+
+  :92 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "inoltre"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :92; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Non ho voglia di andare al cinema, inoltre sono stanco.";
+        dimlex:example "Il pietrisco provoca meno ruggine sulle auto del sale per strade. Inoltre è salutare per l'ambiente" ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k26;
+    vartrans:translatableAs dimlex_data:k73;
+    vartrans:translatableAs dimlex_data:k112;
+    vartrans:translatableAs dimlex_data:k189;
+    vartrans:translatableAs dimlex_data:k162;
+    vartrans:translatableAs dimlex_data:k177;
+    vartrans:translatableAs dimlex_data:k185.
+
+  :93 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "insomma"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :93; ontolex:isLexicalizedSenseOf pdtb3:specification-arg1-as-detail ]; dimlex:type "avverbio " ].
+
+  :94 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "intanto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :94; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Applausi scrosciano dai 120.000 spettatori. Intanto un gruppo di 150 manifestanti contrari è tenuto sott'occhio da un forte spiegamento di polizia.";
+        dimlex:example "I bambini giocano in giardino. Intanto gli adulti discutono sul risultato elettorale.";
+        dimlex:example "Un'ambulanza con la luce blu serpeggia attraverso il fitto traffico. Intanto alcuni passanti si occupavano del ferito." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k174.
+
+  :95 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "invece"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :95; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Lui è grande, invece sua moglie è piccola" ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :95; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k1.
+
+  :96 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "invece di"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "invece che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :96; ontolex:isLexicalizedSenseOf pdtb3:substitution-arg1-as-subst;
+        dimlex:example "Invece di mandare i bambini, ha mandato il nonno.";
+        dimlex:example "Invece di venire, è rimasto a letto." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k13;
+    vartrans:translatableAs dimlex_data:k14;
+    vartrans:translatableAs dimlex_data:k141.
+
+  :97 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "invero"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :98 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ma"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :98; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Lui è grande, ma sua moglie è piccola";
+        dimlex:example "Lui è intelligente, ma pigro" ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :98; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Lui è grande, ma non sa giocare a basket";
+        dimlex:example "La collega è malata, ma lavora" ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k1;
+    vartrans:translatableAs dimlex_data:k5;
+    vartrans:translatableAs dimlex_data:k137.
+
+  :99 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "malgrado"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :99; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Ci andiamo malgrado il maltempo.";
+        dimlex:example "Una seconda Pantherin ha lavorato fino al 67 anno di età, per acquisire, malgrado la bassa paga oraria, una pensione.";
+        dimlex:example "Malgrado il gran caldo estivo, ilriscaldamento va a pieno regime." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k142.
+
+  :100 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "malgrado ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "malgrado questo"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :100; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Entrambe le pagine annunciavano un secondo incontro per martedì. Malgrado ciò le lotte nei campi andarono avanti anche il lunedì.";
+        dimlex:example "Adesso la procura della repubblica ha ordinato la restituzione dell'esemplare confiscato. Malgrado ciò l'istruttoria contro la casa editrice prosegue.";
+        dimlex:example "Lui non ha valutato correttamente la situazione della politica interna nella sua patria. Malgrado ciò è ritornato da quella parte." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k62.
+
+  :101 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "mentre"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :101; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Mentre pioveva, eravamo in una trattoria.";
+        dimlex:example "L'avvenimento è successo mentre ero in viaggio.";
+        dimlex:example "Stormy, che, pazzo di gelosia, le distrugge addirittura l’ appartamento mentre lei è fuori per il week-end        ";
+        vartrans:translatableAs dimlex_data:k173 ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :101; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Nessuno degli aspiranti presidenti in Argentina conta su più del 15 % delle intenzioni di voto, mentre circa il 12 % degli elettori pensano di astenersi" ]; dimlex:type "subordinating" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :101; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Lei ha studiato, mentre suo fratello ha imparato un mestiere.";
+        dimlex:example "quel 13% di persone disponibili al consumo di alimenti contenenti Ogm è composto in prevalenza da studenti, mentre quel 53% che si dichiara drasticamente contrario è composto in maggioranza dai responsabili degli acquisti.";
+        vartrans:translatableAs dimlex_data:k168 ]; dimlex:type "coodinating" ].
+
+  :102 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "né"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :102; ontolex:isLexicalizedSenseOf pdtb3:conjunction ]; dimlex:type "subordinating" ].
+
+  :103 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "né né"@it; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :103; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Ieri non ha né piovuto, né brillato il sole." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k159.
+
+  :104 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "nel contempo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :104; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Lei diceva, che voleva rivolgersi direttamente alla base di Mitte e Prenzlauer Berg. Nel contempo criticava l'azione della presidenza federale." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k179.
+
+  :105 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "nel frattempo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :105; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Nel frattempo le idee della Volks-AG nella navigazione marittima verranno collaudate anche in altri rami del campo dei trasporti.";
+        dimlex:example "Dopo due settimane di scioperi di massa, le persone della montagna hanno ripreso il lavoro. Nel frattempo gli scioperi nei Nachbarrevieren si sono allargati in modo rilevante." ]; dimlex:type "adverbial" ];
+    vartrans:translatableAs dimlex_data:k150.
+
+  :106 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "non appena"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :106; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Non appena gli dai un dito, lui ti prende tutta la mano.";
+        dimlex:example "Ci darà una risposta, non appena avrà informazioni certe.";
+        dimlex:example "Non appena ci videro, corsero di là.";
+        vartrans:translatableAs dimlex_data:k129 ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :106; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Non appena gli dai un dito, lui ti prende tutta la mano.";
+        dimlex:example "Ci darà una risposta, non appena avrà informazioni certe.";
+        dimlex:example "Non appena ci videro, corsero di là." ]; dimlex:type "adverbial" ].
+
+  :107 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "non prima di"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :107; ontolex:isLexicalizedSenseOf pdtb3:succession;
+        dimlex:example "Vado a dormire, non prima di aver aerato per bene." ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k28.
+
+  :108 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "nondimeno"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :108; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier
+ ]; dimlex:type "subordinating" ].
+
+  :109 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "nonostante"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :109; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Ci andiamo nonostante il maltempo.";
+        dimlex:example "Una seconda Pantherin ha lavorato fino al 67 anno di età, per acquisire, nonostante la bassa paga oraria, una pensione.";
+        dimlex:example "Nonostante il gran caldo estivo, il riscaldamento va a pieno regime." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k142.
+
+  :110 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "nonpertanto"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "non pertanto"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "non per tanto"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :111 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "o"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :111; ontolex:isLexicalizedSenseOf pdtb3:disjunction;
+        dimlex:example "Puoi scrivergli, o puoi telefonargli.";
+        dimlex:example "Parliamo sempre della critica, o parliamo delle persone che pensano di poter influenzare la critica." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :111; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg1-as-negcond;
+        dimlex:example "O mangi la tua minestra, o non puoi guardare la televisione." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k117.
+
+  :112 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ogni volta che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :112; ontolex:isLexicalizedSenseOf pdtb3:syncrony ]; dimlex:type "subordinating" ].
+
+  :113 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "oltre a ciò"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "oltre a questo"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :113; ontolex:isLexicalizedSenseOf pdtb3:conjunction ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k59;
+    vartrans:translatableAs dimlex_data:k189.
+
+  :114 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "oltretutto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :114; ontolex:isLexicalizedSenseOf pdtb3:conjunction ]; dimlex:type "coodinating" ].
+
+  :115 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "oppure"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :115; ontolex:isLexicalizedSenseOf pdtb3:disjunction;
+        dimlex:example "Puoi scrivergli, oppure puoi telefonargli.";
+        dimlex:example "Parliamo sempre della critica, oppure parliamo delle persone che pensano di poter influenzare la critica." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :115; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg1-as-negcond ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k117.
+
+  :116 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ossia"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :116; ontolex:isLexicalizedSenseOf pdtb3:equivalence ]; dimlex:type "coodinating" ].
+
+  :117 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "parimenti"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :117; ontolex:isLexicalizedSenseOf pdtb3:similarity;
+        dimlex:example "Non c'erano particolari riguardo le modalità di una riforma economica e monetaria, parimenti si aspettava invano per presentazioni del governo al riguardo.." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k60.
+
+  :118 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :118; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Per una festa privata oggi il locale resta chiuso." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :118; ontolex:isLexicalizedSenseOf pdtb3:purpose-arg2-as-goal ]; dimlex:type "preposizione" ];
+    vartrans:translatableAs dimlex_data:k160.
+
+  :119 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per contro"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :119; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :119; ontolex:isLexicalizedSenseOf pdtb3:contrast ]; dimlex:type "coodinating" ].
+
+  :120 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per cui"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :120; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example " Allora la radio ancora non c'era. Per cui, gli abitanti di Heilbronn dovevano aspettare fino al lunedì successivo, per conoscere il segnale. ";
+        dimlex:example "Ho trovato sotto il ginocchio della gamba sinistra un'altra scottatura, per cui lì il flusso deve aver di nuovo abbandonato il corpo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k6;
+    vartrans:translatableAs dimlex_data:k131;
+    vartrans:translatableAs dimlex_data:k165;
+    vartrans:translatableAs dimlex_data:k166.
+
+  :121 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per di più"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :121; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Durante la giornata gli articoli vengono stabilmente aggiornati. Per di più la distribuzione elettronica contiene più retroscena." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k48;
+    vartrans:translatableAs dimlex_data:k112;
+    vartrans:translatableAs dimlex_data:k177.
+
+  :122 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per giunta"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :122; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "In Turchia era solo, per giunta all'inizio era atteso dal servizio militare.";
+        dimlex:example "Secondo il decreto molte case per animali sono sovraffollate. Per giunta le lotte di cani sono ben organizzate." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k112;
+    vartrans:translatableAs dimlex_data:k189.
+
+  :123 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per il fatto che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :123; ontolex:isLexicalizedSenseOf pdtb3:reason ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k33.
+
+  :124 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per il resto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :124; ontolex:isLexicalizedSenseOf pdtb3:exception-arg1-as-except;
+        dimlex:example "L'EDV-Kurs purtroppo deve essere disdetto. Per il resto tutte le offerte possono essere passate.";
+        dimlex:example "L'associazione è intervenuta solo per il possibile pericolo di incendio. Per il resto ha approvato l'attività." ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k12.
+
+  :125 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per la qual cosa"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "subordinating" ].
+
+  :126 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per meglio dire"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "o meglio"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:example "EXPANSION:Equivalence" ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k29.
+
+  :127 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per poco che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :128 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per prima cosa"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "adverbial" ].
+
+  :129 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per quanto"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :129; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Voleva risparmiare alla moglie questa delusione, per quanto fosse possibile.";
+        a ontolex:LexicalSense; ontolex:isSenseOf :129; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k139;
+    vartrans:translatableAs dimlex_data:k142.
+
+  :130 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per questa ragione"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :130; ontolex:isLexicalizedSenseOf pdtb3:result ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k32;
+    vartrans:translatableAs dimlex_data:k39;
+    vartrans:translatableAs dimlex_data:k92.
+
+  :131 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per questo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :131; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Il suo Oldtimer è in ottimo stato. Per questo è costato un sacco di soldi.";
+        dimlex:example "I Phoenicurus sono diventati molto rari. Per questo ci sono più picchi in Langen." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k35;
+    vartrans:translatableAs dimlex_data:k47;
+    vartrans:translatableAs dimlex_data:k61.
+
+  :132 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "per questo motivo"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :132; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Non aveva ancora mangiato. Per questo motivo si sentiva indebolita." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k39.
+
+  :133 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "peraltro"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "per altro"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :134 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "perché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :134; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Il concerto non può avere luogo perché la cantante è malata.";
+        dimlex:example "I fiori sul balcone sono congelati perché stanotte è venuta una gelata." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k57;
+    vartrans:translatableAs dimlex_data:k161.
+
+  :135 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "perciò"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :135; ontolex:isLexicalizedSenseOf pdtb3:resulte;
+        dimlex:example " Allora la radio ancora non c'era. Perciò, gli abitanti di Heilbronn dovevano aspettare fino al lunedì successivo, per conoscere il segnale. ";
+        dimlex:example "Ho trovato sotto il ginocchio della gamba sinistra un'altra scottatura, perciò lì il flusso deve aver di nuovo abbandonato il corpo." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k6;
+    vartrans:translatableAs dimlex_data:k35;
+    vartrans:translatableAs dimlex_data:k39;
+    vartrans:translatableAs dimlex_data:k44;
+    vartrans:translatableAs dimlex_data:k47;
+    vartrans:translatableAs dimlex_data:k61;
+    vartrans:translatableAs dimlex_data:k63;
+    vartrans:translatableAs dimlex_data:k75;
+    vartrans:translatableAs dimlex_data:k92;
+    vartrans:translatableAs dimlex_data:k103.
+
+  :136 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "però"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :136; ontolex:isLexicalizedSenseOf pdtb3:contrast;
+        dimlex:example "Lui è grande, però sua moglie è piccola";
+        dimlex:example "Lui è intelligente, però pigro" ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :136; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Lui è grande, però non sa giocare a basket";
+        dimlex:example "La collega è malata, però lavora" ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k1;
+    vartrans:translatableAs dimlex_data:k5.
+
+  :137 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "persino"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "perfino"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :137; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "Klaus non è ancora tornato. Si è persino perso l'allenamento." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :137; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k16.
+
+  :138 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "pertanto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :138; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example "Il boxer incespicò impotente nella corda, pertanto l'arbitro interruppe l'incontro.";
+        dimlex:example "Il fantino del cavallo favorito era caduto dalla sella, pertanto le migliaia di spettatori, che avevano scommesso sull'animale, andarono su tutte le furie." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k172.
+
+  :139 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "più che altro"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :140 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "più tardi"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :140; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Scalfire i pomodori con un coltello affilato e annaffiare con acqua calda. Più tardi si può spellarli senza problemi." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k41;
+    vartrans:translatableAs dimlex_data:k86;
+    vartrans:translatableAs dimlex_data:k140.
+
+  :141 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "piuttosto"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :141; ontolex:isLexicalizedSenseOf pdtb3:substitution-arg1-as-subst ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k152.
+
+  :142 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "poi"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :142; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Scalfire i pomodori con un coltello affilato e annaffiare con acqua calda. Poi si può spellarli senza problemi." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k41;
+    vartrans:translatableAs dimlex_data:k43;
+    vartrans:translatableAs dimlex_data:k45;
+    vartrans:translatableAs dimlex_data:k86.
+
+  :143 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "poiché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :143; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "È così ansiosa poiché è già stata bocciata all'esame di guida due volte.";
+        a ontolex:LexicalSense; ontolex:isSenseOf :143; ontolex:isLexicalizedSenseOf pdtb3:consequence;
+        dimlex:example "La somiglianza non è così sorprendente poiché le due sono sorelle." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k202;
+    vartrans:translatableAs dimlex_data:k30;
+    vartrans:translatableAs dimlex_data:k33;
+    vartrans:translatableAs dimlex_data:k110;
+    vartrans:translatableAs dimlex_data:k161.
+
+  :144 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "precedentemente"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :144; ontolex:isLexicalizedSenseOf pdtb3:succession;
+        dimlex:example "In autunno sarà pubblicato il nuovo album di Zachary Richard. Precedentemente farà per la prima volta un tour in Germania.";
+        dimlex:example "È consigliabile di leggere il testo a fondo precedentemente." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k156.
+
+  :145 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "prima"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :145; ontolex:isLexicalizedSenseOf pdtb3:succession;
+        dimlex:example "In autunno sarà pubblicato il nuovo album di Zachary Richard. Prima farà per la prima volta un tour in Germania.";
+        dimlex:example "È consigliabile di leggere prima il testo a fondo.";
+        dimlex:example "Domani volo in Spagna. Prima c'è ancora molto da fare" ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k28;
+    vartrans:translatableAs dimlex_data:k156.
+
+  :146 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "prima che"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    ontolex:lexicalForm [ ontolex:writtenRep "prima di"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "lex"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :146; ontolex:isLexicalizedSenseOf pdtb3:precedence;
+        dimlex:example "Prima che la lezione cominci, gli studenti tirano fuori libri e quaderni.";
+        dimlex:example "La studentessa elabora una struttura, prima di mettere per iscritto il tema." ]; dimlex:type "prepositional" ].
+
+  :147 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "purché"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :147; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Oggi usciamo, purché venga Hans.";
+        dimlex:example "Vuole restare all'istituto, purché riceva il posto di assistente." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k133.
+
+  :148 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "pure"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :148; ontolex:isLexicalizedSenseOf pdtb3:conjunction ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :148; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k67.
+
+  :149 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "quando"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :149; ontolex:isLexicalizedSenseOf pdtb3:syncrony;
+        dimlex:example "Quando lasciò l'appartamento, arrivò la chiamata";
+        dimlex:example "Quando il rospo ebbe mangiato, volle andare a dormire nel letto della figlia del re" ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :149; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Quando si preme sul bottone, la porta si apre da sola.";
+        dimlex:example "Quando me lo chiedi, lo lascerò stare." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :149; ontolex:isLexicalizedSenseOf pdtb3:succession ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k202;
+    vartrans:translatableAs dimlex_data:k295.
+
+  :150 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "quantunque"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :150; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Il palazzo ci dà ancora oggi un'idea della grandezza del tempo, quantunque la gran parte è andata in rovina.";
+        dimlex:example "Quantunque il programma a volte fosse inconsueto per orecchie europee, l'engagement musicale e l'abilità tecnica dell'orchestra conquistarono il pubblico." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k164.
+
+  :151 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "quindi"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :151; ontolex:isLexicalizedSenseOf pdtb3:result;
+        dimlex:example " Allora la radio ancora non c'era. Quindi, gli abitanti di Heilbronn dovevano aspettare fino al lunedì successivo, per conoscere il segnale. ";
+        dimlex:example "Ho trovato sotto il ginocchio della gamba sinistra un'altra scottatura, quindi lì il flusso deve aver di nuovo abbandonato il corpo." ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :151; ontolex:isLexicalizedSenseOf pdtb3:precedence ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k6;
+    vartrans:translatableAs dimlex_data:k43;
+    vartrans:translatableAs dimlex_data:k45;
+    vartrans:translatableAs dimlex_data:k75;
+    vartrans:translatableAs dimlex_data:k103;
+    vartrans:translatableAs dimlex_data:k135.
+
+  :152 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "salvo che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :152; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg2-as-negcond;
+        dimlex:example "In caso di divorzio la madre ottiene l'affidamento dei minori, salvo che il giudice non decida altrimenti.";
+        dimlex:example "Domani vado in montagna, salvo che il tempo non faccia brutti scherzi." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k24;
+    vartrans:translatableAs dimlex_data:k299.
+
+  :153 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "se"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :153; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Se viene a Dresda, ci viene a visitare.";
+        dimlex:example "Prendi un ombrello, se piove.";
+        a ontolex:LexicalSense; ontolex:isSenseOf :153; ontolex:isLexicalizedSenseOf pdtb3:consequence ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k72;
+    vartrans:translatableAs dimlex_data:k295.
+
+  :154 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "sebbene"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :154; ontolex:isLexicalizedSenseOf pdtb3:concession-arg1-as-denier;
+        dimlex:example "Sebbene Greff fosse sposato, sembrava più un capo degli scout che un marito.";
+        dimlex:example "Esercitava ancora molte funzioni, sebbene fosse sofferente." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k113;
+    vartrans:translatableAs dimlex_data:k114;
+    vartrans:translatableAs dimlex_data:k115;
+    vartrans:translatableAs dimlex_data:k116;
+    vartrans:translatableAs dimlex_data:k164.
+
+  :155 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "semmai"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :155; ontolex:isLexicalizedSenseOf pdtb3:conjunction ]; dimlex:type "CLASSE" ];
+    vartrans:translatableAs dimlex_data:k4.
+
+  :156 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "sennò"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :156; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg1-as-negcond ]; dimlex:type "subordinating" ].
+
+  :157 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "sennonché"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :157; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k109.
+
+  :158 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "siccome"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :158; ontolex:isLexicalizedSenseOf pdtb3:reason;
+        dimlex:example "Siccome la cantante è malata, il concerto non può avere luogo." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k30.
+
+  :159 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "solamente"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :159; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Sento bene il messaggio, solamente mi manca la convinzione" ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k3.
+
+  :160 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "solo"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :160; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Sento bene il messaggio, solo mi manca la convinzione";
+        dimlex:example "In vacanza è stato molto bello, solo che a volte era torrido." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k3;
+    vartrans:translatableAs dimlex_data:k109.
+
+  :161 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "sopra ogni altra cosa"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :162 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "supposto che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :162; ontolex:isLexicalizedSenseOf pdtb3:condition;
+        dimlex:example "Per 230 anni i collezionisti possono acquistare i pezzi - supposto che la KPM ci sia per così a lungo.";
+        dimlex:example "Verrebbe anche lui in paradiso - supposto che i berlinesi vadano in paradiso..." ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k155.
+
+  :163 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tanto più che"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :163; ontolex:isLexicalizedSenseOf pdtb3:conjunction;
+        dimlex:example "I cambi di nome delle strade a Goerlitz sono ancora non chiari. Tanto più che nel nuovo quartiere in costruzione resteranno i nomi vecchi delle strade";
+        a ontolex:LexicalSense; ontolex:isSenseOf :163; ontolex:isLexicalizedSenseOf pdtb3:consequence ]; dimlex:type "subordinating" ];
+    vartrans:translatableAs dimlex_data:k183.
+
+  :164 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tra l'altro"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :165 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tra le altre cose"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :166 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tranne"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :166; ontolex:isLexicalizedSenseOf pdtb3:exception-arg2-as-except ]; dimlex:type "prepositional" ];
+    vartrans:translatableAs dimlex_data:k24.
+
+  :167 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tranne quando"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :167; ontolex:isLexicalizedSenseOf pdtb3:negative-condition-arg2-as-negcond;
+        dimlex:example "Lei è sempre di buon umore, tranne quando non ha dormito abbastanza." ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k25.
+
+  :168 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tutt'al più"@it; dimlex:type "cont"; dimlex:type "phrasal"; dimlex:var "orth"];
+    ontolex:lexicalForm [ ontolex:writtenRep "tuttalpiù"@it; dimlex:type "cont"; dimlex:type "single"; dimlex:var "orth"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :169 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tuttavia"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :169; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier;
+        dimlex:example "Lui è grande, tuttavia non sa giocare a basket";
+        dimlex:example "La collega è malata, tuttavia lavora" ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k1;
+    vartrans:translatableAs dimlex_data:k5;
+    vartrans:translatableAs dimlex_data:k78;
+    vartrans:translatableAs dimlex_data:k107;
+    vartrans:translatableAs dimlex_data:k143.
+
+  :170 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "tutto sommato"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [  dimlex:type "coodinating" ].
+
+  :171 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "ugualmente"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :171; ontolex:isLexicalizedSenseOf pdtb3:similarity;
+        dimlex:example "Non c'erano particolari riguardo le modalità di una riforma economica e monetaria, ugualmente si aspettava invano per presentazioni del governo al riguardo..." ]; dimlex:type "avverbio" ];
+    vartrans:translatableAs dimlex_data:k60.
+
+  :172 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "vale a dire"@it; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :172; ontolex:isLexicalizedSenseOf pdtb3:specification-arg2-as-detail ]; dimlex:type "coodinating" ];
+    vartrans:translatableAs dimlex_data:k110.
+
+  :173 a ontolex:LexicalEntry;
+    ontolex:lexicalForm [ ontolex:writtenRep "viceversa"@it; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :173; ontolex:isLexicalizedSenseOf pdtb3:concession-arg2-as-denier ];
+      dimlex:sem [ 
+        a ontolex:LexicalSense; ontolex:isSenseOf :173; ontolex:isLexicalizedSenseOf pdtb3:contrast ]; dimlex:type "coodinating" ].
+
