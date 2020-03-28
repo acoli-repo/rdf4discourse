@@ -28,6 +28,7 @@ else
 				-e s/'\(<[\/]*relation\)l'/'\1'/g \
 				-e s/'\(<[\/]*\)dmarkers'/'\1dimlex'/g \
 				-e s/'\(<[\/]*\)dmarker'/'\1entry'/g \
+				-e s/'<relation>\([^<]*\)<\/relation>'/'<pdtb3_relation sense="\1"\/>'/g \
 			| \
 			xmllint --recover - > $DIMLEX
 			wget -nc https://github.com/discourse-lab/Connective-Lex.info/blob/master/Original%20lexicons/LDM-PT/instructions.txt

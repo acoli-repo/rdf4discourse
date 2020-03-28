@@ -93,7 +93,7 @@ PREFIX : &lt;</xsl:text>
     
     <!-- this is a generic XML converter, it does require a root URI as subject  -->    
     <xsl:template match="*">
-      <xsl:if test="exists(.//text())">
+       <xsl:if test="exists(.//text()) or exists(./descendant-or-self::*/@*[normalize-space(.)!=''])">
           <xsl:if test="exists(./preceding-sibling::*[exists(.//text()) or exists(./descendant-or-self::*/@*)])">
             <xsl:text>;</xsl:text>
         </xsl:if>
