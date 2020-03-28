@@ -1,0 +1,2041 @@
+@prefix :      <https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/> .
+@prefix powla: <http://purl.org/powla/powla.owl#> .
+@prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/acoli/open-ie/> .
+@prefix x:     <http://purl.org/acoli/conll-rdf/xml#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+:s1_18  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "com a conseqüència"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "com a conseqüència"@ca , "as a consequence"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_18 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_91  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "també"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "també"@ca , "also"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_91 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_61  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "no només"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "no només"@ca , "not only"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_61 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] .
+
+:s1_31  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "el fet és que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "el fet és que"@ca , "the fact is"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_31 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_73  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per si"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per si"@ca , "in case"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_73 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_43  a             <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        rdfs:comment  "it is true that in contrast with actually or in fact, its primary meaning is revision, like en realidad, en realitat, de fet, de hecho in Spanish and Catalan." ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/2004/02/skos/core#example>
+                "Tot va començar, com en les novel.les policíaques, amb un fiscal, entestat a treure a la llum el taló d'Aquil.les del president demòcrata. L'ham: una becària de 22 anys, grassoneta --usa la talla 46--, de pits exuberants i boca àmplia, una mica esbojarrada ja que creia tenir una relació sentimental quan en realitat va mantenir 10 trobades sexuals servides a domicili amb el senyor Clinton, qui, durant set mesos, es va obstinar a negar haver mantingut contacte físic amb ella." ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en realitat"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en realitat"@ca , "actually"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_43 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_13  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "alhora"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "alhora"@ca , "at the same time"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_13 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_6   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a pesar de"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a pesar de"@ca , "despite"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_6 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_85  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sense"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sense"@ca , "without"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_85 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_55  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "i"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "i"@ca , "and"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_55 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_25  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "de tota manera"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "de tota manera"@ca , "anyway"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_25 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_67  a             <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        rdfs:comment  "perquè / per in Catalan these discourse markers are underspecified with respect to structural meaning, they can be equivalent to so that / to [ex] or to because / because of [ex]." ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per"@ca , "in order to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_67 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per"@ca , "in order to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_67 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per"@ca , "because of"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_67 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per"@ca , "because of"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_67 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_37  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en darrer lloc"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en darrer lloc"@ca , "lastly"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_37 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_79  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "quan"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "quan"@ca , "when"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_79 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_49  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "és cert que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "és cert que"@ca , "it is true that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_49 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_1   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a"@ca , "to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_1 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a"@ca , "at"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_1 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_19  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "concretament"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "concretament"@ca , "specifically"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_19 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_80  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "que"@ca , "that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_80 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_50  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "especialment"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "especialment"@ca , "specially"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_50 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_20  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "considerant"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "considerant"@ca , "considering"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_20 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_92  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "tan aviat com"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "tan aviat com"@ca , "as soon as"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_92 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_62  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "no obstant"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "no obstant"@ca , "however"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_62 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_32  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en"@ca , "in"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_32 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_74  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per tant"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per tant"@ca , "so"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_74 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_44  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en resum"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en resum"@ca , "in sum"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_44 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_14  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "amb"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "amb"@ca , "with"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_14 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_7   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a propòsit"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a propòsit"@ca , "by the way"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_7 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_86  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "si"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "si"@ca , "if"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_86 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_56  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "lluny de"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "lluny de"@ca , "far from"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_56 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_26  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "degut a"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "degut a"@ca , "due to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_26 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_68  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per això"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per això"@ca , "that's why"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_68 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_38  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en dues paraules"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en dues paraules"@ca , "in short"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_38 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_2   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a banda"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a banda"@ca , "besides"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_2 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_81  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "respecte de"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "respecte de"@ca , "with respect to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_81 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_51  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "excepte"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "excepte"@ca , "except"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_51 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_21  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "contra"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "contra"@ca , "against"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_21 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_93  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "tot i això"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "tot i això"@ca , "even though"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_93 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_63  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "nogensmenys"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "nogensmenys"@ca , "nevertheless"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_63 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_33  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en altres paraules"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en altres paraules"@ca , "in other words"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_33 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_75  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per una banda"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per una banda"@ca , "on the one hand"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_75 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_45  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "encara més"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "encara més"@ca , "what's more"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_45 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_15  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "ara bé"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "ara bé"@ca , "well now"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_15 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_8   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "abans"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "abans"@ca , "before"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_8 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_87  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sinó també"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sinó també"@ca , "but also"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_87 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] .
+
+:s1_57  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "malgrat"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "malgrat"@ca , "in spite of"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_57 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_27  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "desde"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "desde"@ca , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_27 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause, context"
+                                       ] ] ] .
+
+:s1_69  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per altra banda"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per altra banda"@ca , "on the other hand"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_69 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_39  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en efecte"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en efecte"@ca , "in effect"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_39 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_70  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per aquesta raó"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per aquesta raó"@ca , "for this reason"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_70 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_40  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en essència"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en essència"@ca , "essentially"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_40 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_10  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "així que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "així que"@ca , "thus"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_10 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_3   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a condició de"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a condició de"@ca , "provided that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_3 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_82  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "segons"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "segons"@ca , "following"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_82 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_52  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "fins a"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "fins a"@ca , "until"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_52 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_22  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "d'acord amb"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "d'acord amb"@ca , "in accordance with"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_22 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_64  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "o"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "o"@ca , "or"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_64 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_34  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en aquest cas"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en aquest cas"@ca , "in that case"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_34 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_76  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "però"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "però"@ca , "but"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_76 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_46  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "encara que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "encara que"@ca , "although"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_46 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] .
+
+:s1_16  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "cap a"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "cap a"@ca , "towards"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_16 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_9   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "abans de res"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "abans de res"@ca , "first of all"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_9 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context, equality"
+                                       ] ] ] .
+
+:s1_88  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sobre"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sobre"@ca , "over"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_88 ;
+                                         :struct     "continuation," ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context elaboration"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sobre"@ca , "about"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_88 ;
+                                         :struct     "continuation," ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context elaboration"
+                                       ] ] ] .
+
+:s1_58  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "mentre"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "mentre"@ca , "while"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_58 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_28  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "després"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "després"@ca , "after"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_28 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_71  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per començar"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per començar"@ca , "to begin with"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_71 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context, equality"
+                                       ] ] ] .
+
+:s1_41  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en particular"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en particular"@ca , "in particular"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_41 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_11  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "al contrari"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "al contrari"@ca , "on the contrary"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_11 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_4   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a més"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a més"@ca , "moreover"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_4 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_83  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sempre que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sempre que"@ca , "whenever"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_83 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_53  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "fins i tot"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "fins i tot"@ca , "incluso"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_53 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] .
+
+:s1_23  a             <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        rdfs:comment  "it is true that in contrast with actually or in fact, its primary meaning is revision, like en realidad, en realitat, de fet, de hecho in Spanish and Catalan." ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "de fet"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "de fet"@ca , "in fact"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_23 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "revision"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_65  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "on"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "on"@ca , "where"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_65 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_35  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en comparació"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en comparació"@ca , "in comparison"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_35 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_77  a             <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        rdfs:comment  "perquè / per in Catalan these discourse markers are underspecified with respect to structural meaning, they can be equivalent to so that / to [ex] or to because / because of [ex]." ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/2004/02/skos/core#example>
+                "Avui sento por perquè han declarat impunes tots els caps d'Estat. Today I feel frightened because all heads of State have been declared impune." , "La Generalitat ha fet una crida a la solidaritat perquè s'ocupin aquestes cases. The Generalitat has made a call to solidarity so that these houses are occupied." ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "perquè"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "perquè"@ca , "because"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_77 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "perquè"@ca , "so that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_77 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "perquè"@ca , "so that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_77 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "perquè"@ca , "because"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_77 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_47  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "entre"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "entre"@ca , "between"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_47 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_17  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "com"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "com"@ca , "like"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_17 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality, context, cause"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "com"@ca , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_17 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality, context, cause"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "com"@ca , "like"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_17 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause, context"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "com"@ca , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_17 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause, context"
+                                       ] ] ] .
+
+:s1_89  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sobretot"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sobretot"@ca , "above all"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_89 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_59  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "mitjançant"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "mitjançant"@ca , "by means of"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_59 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_29  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "donat que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "donat que"@ca , "given that"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_29 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_90  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "tal com"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "tal com"@ca , "such as"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_90 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] .
+
+:s1_60  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "ni"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "ni"@ca , "nor"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_60 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "ni"@ca , "neither"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_60 ;
+                                         :struct     "(vague)" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "(vague)"
+                                       ] ] ] .
+
+:s1_30  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "durant"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "durant"@ca , "during"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_30 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_72  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "per exemple"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "per exemple"@ca , "for example"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_72 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_42  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en qualsevol cas"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en qualsevol cas"@ca , "in any case"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_42 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_12  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "aleshores"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "aleshores"@ca , "then"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_12 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_5   a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "a no ser que"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "a no ser que"@ca , "unless"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_5 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] .
+
+:s1_84  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "sens dubte"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "sens dubte"@ca , "no doubt"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_84 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_54  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "gràcies a"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "P" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "gràcies a"@ca , "thanks to"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_54 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] .
+
+:s1_24  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "de moment"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "de moment"@ca , "for the moment"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_24 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_66  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "originalment"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "originalment"@ca , "originally"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_66 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_36  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "en conclusió"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "en conclusió"@ca , "in conclusion"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_36 ;
+                                         :struct     "continuation" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_78  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "precisament"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "A" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "precisament"@ca , "precisely"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_78 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#adverb> .
+
+:s1_48  a       <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
+        <http://purl.org/dc/terms/language>
+                "ca" ;
+        <http://www.w3.org/ns/lemon/ontolex#lexicalForm>
+                [ <http://www.w3.org/ns/lemon/ontolex#writtenRep>
+                          "és a dir"@ca ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#cat>
+                          "C" ;
+                  <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "és a dir"@ca , "that is to say"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_48 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ]
+                ] ;
+        <https://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech>
+                <https://www.lexinfo.net/ontology/2.0/lexinfo#conjunction> .

@@ -1,0 +1,117 @@
+# transform "CoNLL" TSV to lemon for https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/
+
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#> 
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#> 
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#> 
+PREFIX lexinfo: <https://www.lexinfo.net/ontology/2.0/lexinfo#>
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX discmar: <https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# ontolex:LexicalEntry
+DELETE {
+	?a a nif:Word; conll:ID ?id; conll:HEAD ?h; nif:nextWord ?n
+} INSERT {
+	?a a ontolex:LexicalEntry
+} WHERE {
+	?a a nif:Word; conll:HEAD ?h.
+	OPTIONAL {?a conll:ID ?id }
+	OPTIONAL { ?a nif:nextWord ?n}
+};
+
+# # English translations
+# # doesn't work, requires the English model to be loaded at the same time ;)
+# INSERT {
+	# ?a vartrans:translatableAs ?en.
+# } WHERE {
+	# ?a conll:ENGLISH ?enTrans.
+	# ?en conll:WORD ?enTrans; conll:LANG "en"	
+# };
+
+# lexinfo:partOfSpeech
+INSERT {
+	?a lexinfo:partOfSpeech ?pos
+} WHERE {
+	?a conll:POS ?p.
+	{ ?a conll:POS "C". BIND(lexinfo:conjunction as ?pos) } UNION
+	{ ?a conll:POS "A". BIND(lexinfo:adverb as ?pos) }
+	# "P" phrasal, not bound here
+};
+
+# language tags for written rep
+DELETE {
+	?a conll:WORD ?w; conll:LANG ?l
+} INSERT {
+	?a conll:WORD ?wL.
+	?a dct:language ?l.
+} WHERE {
+	?a conll:WORD ?w; conll:LANG ?l
+	BIND(strlang(str(?w),str(?l)) AS ?wL)
+};
+
+# create lexical forms
+DELETE {
+	?a conll:WORD ?w
+} INSERT {
+	?a ontolex:lexicalForm [ ontolex:writtenRep ?w ]
+} WHERE {
+	?a conll:WORD ?w
+};
+
+# create dimlex-like relations
+DELETE {
+	?a conll:SEM ?sem.
+	?a conll:STRUCT ?struct.
+	?a conll:POS ?pos.
+	?a conll:ENGLISH ?en.
+} INSERT {
+	?a dimlex:syn [
+      dimlex:cat ?pos;
+      dimlex:sem [
+        discmar:relation [ dimlex:sense ?sem; discmar:struct ?struct; a ontolex:LexicalSense; ontolex:isSenseOf ?a; rdfs:label ?enL,?form ] ] ]
+} WHERE {
+	?a conll:SEM ?sem; ontolex:lexicalForm/ontolex:writtenRep ?form
+	OPTIONAL { ?a conll:STRUCT ?struct }
+	OPTIONAL { ?a conll:POS ?pos }
+	OPTIONAL { ?a conll:ENGLISH ?en. BIND(strlang(str(?en),"en") AS ?enL) }
+};
+
+# comments
+DELETE {
+	?a conll:COMMENT ?c
+} INSERT {
+	?a rdfs:comment ?c
+} WHERE {
+	?a conll:COMMENT ?c
+};
+
+# examples
+DELETE {
+	?a conll:EXAMPLE ?e
+} INSERT {
+	?a skos:example ?e
+} WHERE {
+	?a conll:EXAMPLE ?e
+};
+
+# delete all conll and nif data
+DELETE {
+	?a ?rel ?b
+} WHERE {
+	?a ?rel ?b
+	FILTER(
+		strstarts(str(?rel),'http://ufal.mff.cuni.cz/conll2009-st/task-description.html#') ||
+		strstarts(str(?rel),'http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#') || 
+		strstarts(str(?b),'http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#'))
+};
+		
