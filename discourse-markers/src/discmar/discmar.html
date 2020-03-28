@@ -1,0 +1,2162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type"
+        content="text/html; charset=iso-8859-1" />
+  <meta name="robots"
+        content="all" />
+  <meta name="generator"
+        content="RapidWeaver" />
+
+  <title>discourse markers</title>
+  <link rel="stylesheet"
+        type="text/css"
+        media="screen"
+        href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/rw_common/themes/simplebusiness/styles.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        media="print"
+        href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/rw_common/themes/simplebusiness/print.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        media="handheld"
+        href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/rw_common/themes/simplebusiness/handheld.css" />
+  <link rel="stylesheet"
+        type="text/css"
+        media="screen"
+        href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/rw_common/themes/simplebusiness/css/sidebar/sidebar_left.css" />
+
+<script type="text/javascript"
+      src=
+      "http://www.cs.famaf.unc.edu.ar/~laura/rw_common/themes/simplebusiness/javascript.js">
+</script>
+
+  <title></title>
+</head>
+
+<body>
+  <div id="sidebarContainer">
+    <!-- Start Sidebar wrapper -->
+
+    <div id="navcontainer">
+      <!-- Start Navigation -->
+
+      <ul>
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/index.html"
+           rel="self">Laura Alonso Alemany</a></li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/publications/index.html"
+           rel="self">publications</a></li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/tm/index.html"
+           rel="self">text mining</a></li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/ia/ia.html"
+           rel="self">inteligencia artificial</a></li>
+
+        <li>
+          <a href=
+          "http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/index.html"
+              rel="self"
+              class="currentAncestor">discourse for
+              summarization</a>
+
+          <ul>
+            <li><a href=
+            "http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/index.html"
+               rel="self"
+               id="current"
+               name="current">discourse markers</a></li>
+
+            <li><a href=
+            "http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discor/index.html"
+               rel="self">annotated corpus</a></li>
+          </ul>
+        </li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/discourse%20markers%20for%20NLP/index.html"
+           rel="self">discourse markers for NLP</a></li>
+      </ul>
+    </div><!-- End navigation -->
+
+    <div id="sidebar">
+      <!-- Start sidebar content -->
+
+      <h1 class="sideHeader"></h1><!-- Sidebar header -->
+
+      <br />
+      <!-- sidebar content you enter in the page inspector -->
+       <!-- sidebar content such as the blog archive links -->
+    </div><!-- End sidebar content -->
+  </div><!-- End sidebar wrapper -->
+
+  <div id="container">
+    <!-- Start container -->
+
+    <div id="pageHeader">
+      <!-- Start page header -->
+
+      <h1>Lexicon of prototypical discourse markers</h1>
+    </div><!-- End page header -->
+
+    <div id="contentContainer">
+      <!-- Start main content wrapper -->
+
+      <div id="content">
+        <!-- Start content -->
+
+        <center>
+          <h2>parallel in Catalan, Spanish and English</h2>
+        </center>
+
+        <ul>
+          <li><a href="#description">description of the
+          lexicon</a></li>
+
+          <li><a href="#revision_lexicon">markers signalling
+          revision</a></li>
+
+          <li><a href="#cause_lexicon">markers signalling
+          cause</a></li>
+
+          <li><a href="#equality_lexicon">markers signalling
+          equality</a></li>
+
+          <li><a href="#context_lexicon">markers signalling
+          context</a></li>
+
+          <li><a href="#ambiguous_lexicon">highly ambiguous
+          markers</a></li>
+
+          <li><a href="#vague_dms">vague markers</a></li>
+        </ul>
+        <br />
+        <br />
+        <a name="description"
+             id="description"></a>
+        <hr />
+
+        <br />
+        <br />
+
+        <h3>description of the lexicon</h3>
+
+        <p>This is the seminal discourse marker lexicon used in the
+        thesis <a href=
+        "http://lalonso.sdf-eu.org/tesi.pdf">Representing discourse
+        for automatic text summarization via shallow NLP
+        techniques</a>. The discourse markers listed here were the
+        primary source of evidence to draw the semantic maps to
+        obtain an inventory of basic discursive meanings. This
+        lexicon is also the basis for the implementations of a
+        discourse segmenter and for the discourse analysis
+        exploited by the e-mail summarizer <a href=
+        "ttp://www.lsi.upc.es/~bcasas/carpanta/demo.html">Carpanta</a>.</p>
+
+        <p>The lexicon is parallel in three languages: Catalan,
+        Spanish and English. Therefore, in this starting version of
+        the lexicon we have only included those discourse markers
+        that have a near-synonym in one of the other languages.
+        Those that do not have a near-synonym have been included in
+        the extended version of the lexicon created by
+        bootstrapping techniques applied to this starting
+        lexicon.</p>
+
+        <p>The discourse markers that constitute the prototypical
+        lexicon were obtained from previous work, mostly Knott
+        (1996) and Marcu (1997), with the restriction that they are
+        highly grammaticalized. We have also included in the
+        lexicon some closed class words, obtained from the
+        dictionary of the FreeLing morphosyntactic analyzer. We
+        have discarded closed class words that are very vague and
+        highly ambiguous discourse markers.</p>
+
+        <p>In this lexicon, discourse markers are characterized by
+        their structural (<i>continuation</i> or
+        <i>elaboration</i>) and semantic (<i>revision, cause,
+        equality, context</i>) meanings, and they are also
+        associated to a morphosyntactic class (part of speech,
+        PoS), one of <i>adverbial</i> (A), <i>phrasal</i> (P) or
+        <i>conjunctive</i> (C).</p>
+
+        <p>No information has been encoded about the reliability of
+        discourse markers with respect to their discursive (vs.
+        sentential) function. The only information of this kind
+        that we provide is that discourse markers that are highly
+        ambiguous with respect to their function are not included
+        in the lexicon.</p>
+
+        <p>Sometimes a discourse marker is <b>underspecified</b>
+        with respect to a meaning. We encode this with a hash. This
+        tends to happen with structural meanings, because these
+        meanings can well be established by discursive mechanisms
+        other than discourse markers, and the presence of the
+        discourse marker just reinforces the relation, whichever it
+        may be.</p>
+
+        <p>Sometimes a discourse marker is <b>ambiguous</b> with
+        respect to two meanings. In this cases, we write the
+        predominant meaning in italics, and the secondary meaning
+        in parentheses, or both of them in italics if no
+        predominant meaning can be determined. Resolving such
+        ambiguities normally requires information about the context
+        of occurrence, but we have not associated discourse markers
+        with the contextual features that can be of aid to
+        disambiguate them. Nevertheless, it seems that determining
+        the adequate meaning associated to a particular instance of
+        a discourse marker can be well addressed by general
+        procedures, directly implemented in those algorithms that
+        exploit the information stored in a lexicon (segmentation
+        algorithms, discourse parsers, etc.).</p>
+
+        <p>All in all, the lexicon is formed by 84 discourse
+        markers, representing different discursive meanings. Some
+        discourse markers have been assigned to more or less than
+        one meaning per dimension, because they are ambiguous or
+        underspecified, respectively.</p>
+
+        <table cellpadding="5">
+          <tr>
+            <td></td>
+
+            <td>revision</td>
+
+            <td>cause</td>
+
+            <td>equality</td>
+
+            <td>context</td>
+
+            <td><b>total</b></td>
+          </tr>
+
+          <tr>
+            <td>elaboration</td>
+
+            <td>4</td>
+
+            <td>9</td>
+
+            <td>10</td>
+
+            <td>22</td>
+
+            <td>41</td>
+          </tr>
+
+          <tr>
+            <td>continuation</td>
+
+            <td>9</td>
+
+            <td>9</td>
+
+            <td>6</td>
+
+            <td>4</td>
+
+            <td>28</td>
+          </tr>
+
+          <tr>
+            <td>underspecified</td>
+
+            <td>1</td>
+
+            <td>--</td>
+
+            <td>10</td>
+
+            <td>4</td>
+
+            <td>15</td>
+          </tr>
+
+          <tr>
+            <td><b>total</b></td>
+
+            <td>14</td>
+
+            <td>18</td>
+
+            <td>26</td>
+
+            <td>32</td>
+
+            <td>84</td>
+          </tr>
+
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+
+        <ul>
+          <li><a href="#revision_lexicon">markers signalling
+          revision</a></li>
+
+          <li><a href="#cause_lexicon">markers signalling
+          cause</a></li>
+
+          <li><a href="#equality_lexicon">markers signalling
+          equality</a></li>
+
+          <li><a href="#context_lexicon">markers signalling
+          context</a></li>
+
+          <li><a href="#ambiguous_lexicon">highly ambiguous
+          markers</a></li>
+
+          <li><a href="#vague_dms">vague markers</a></li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr />
+
+        <br />
+        <br />
+        <a name="revision_lexicon"
+             id="revision_lexicon"></a>
+
+        <center>
+          discourse markers signalling <b>revision</b>
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>English</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>structural</b></td>
+
+            <td><b>semantic</b></td>
+
+            <td>PoS</td>
+          </tr>
+
+          <tr>
+            <td>a pesar de</td>
+
+            <td>despite</td>
+
+            <td>a pesar de</td>
+
+            <td>elaboration</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>encara que</td>
+
+            <td>although</td>
+
+            <td>aunque</td>
+
+            <td>elaboration</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>excepte</td>
+
+            <td>except</td>
+
+            <td>excepto</td>
+
+            <td>elaboration</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>malgrat</td>
+
+            <td>in spite of</td>
+
+            <td>pese a</td>
+
+            <td>elaboration</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>no obstant</td>
+
+            <td>however</td>
+
+            <td>no obstante</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>nogensmenys</td>
+
+            <td>nevertheless</td>
+
+            <td>sin embargo</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en realitat</td>
+
+            <td><i>actually</i></td>
+
+            <td>en realidad</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>de fet</td>
+
+            <td><i>in fact</i></td>
+
+            <td>de hecho</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>al contrari</td>
+
+            <td>on the contrary</td>
+
+            <td>al contrario</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>el fet és que</td>
+
+            <td>the fact is</td>
+
+            <td>el hecho es que</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>és cert que</td>
+
+            <td>it is true that</td>
+
+            <td>es cierto que</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>però</td>
+
+            <td>but</td>
+
+            <td>pero</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>tot i això</td>
+
+            <td>even though</td>
+
+            <td>con todo</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>ara bé</td>
+
+            <td>well now</td>
+
+            <td>ahora bien</td>
+
+            <td>continuation</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>de tota manera</td>
+
+            <td>anyway</td>
+
+            <td>de todos modos</td>
+
+            <td>--</td>
+
+            <td>revision</td>
+
+            <td>A</td>
+          </tr>
+        </table>
+
+        <ul>
+          <li><b>however</b> differs from <i>although</i> in their
+          values for continuation or elaboration, although each of
+          them can be used to rephrase the other in some contexts,
+          <i>however</i> is attached to the segment that indicates
+          continuation, <i>although</i> is attached to the segment
+          that indicates elaboration.</li>
+
+          <li>
+            <b>actually / in fact</b> their primary meaning is
+            marking <i>evidentiality</i> <a href=
+            "#actually_evidentiality">[ex]</a>, but they tend to be
+            structurally equivalent to <i>however</i>, as we have
+            shown using multiple alignment techniques (Alonso et
+            al. 2004). In English their evidentiality meaning is
+            more predominant than the revision meaning, and so
+            their contribution as discourse markers of revision is
+            only reliable when it co-occurs with other discourse
+            markers also signalling revision <a href=
+            "#actually_dm">[ex]</a> or in certain punctuation
+            contexts <a href="#actually_punctuation">[ex]</a>,
+            although they can also signal revision without any of
+            these further evidence <a href=
+            "#in-fact-notambiguous">[ex]</a>. In Spanish and
+            Catalan their primary meaning is revision ( <a href=
+            "#en_realidad">[ex]</a> and <a href=
+            "#en_realitat">[ex]</a>), respectively) comparable to
+            <i>it is true that</i>. The kind of revision that these
+            discourse markers tend to convey in Spanish and Catalan
+            is <i>correction</i> (a prototypical example of
+            correction would be: ``This is not black, but
+            white.''). We can speculate that the reason why the
+            revision meaning of these discourse markers is more
+            primary in Spanish or Catalan than in English is
+            because in these languages the correction meaning tends
+            to be expressed by discourse markers, as can be seen in
+            the fact that it is lexicalized (<i>sinó, sino</i>),
+            while in English it is covered by the all-purpose
+            revision discourse marker <i>but</i>, and correction is
+            only distinguished from other kinds of revision by
+            other linguistic features.
+
+            <p><i>example</i>: <a name="actually_evidentiality"
+               id="actually_evidentiality"></a>
+            <br />
+            They could also help themselves by thinking through a
+            problem before phoning the support desk.
+            <br />
+            <i>In many cases a user will <font color=
+            "red"><b>actually</b></font> solve his or her own
+            problem while on the phone to Neptune</i>!</p>
+
+            <p><i>example</i>:
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>a</b><a name="actually_dm"
+               id="actually_dm"></a> Standardisation has never been
+               the IT industry's strong point, and the answer is
+               "probably not". <i>However, they don't <font color=
+               "red"><b>actually</b></font> all do the same
+               job</i>.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>b</b><a name=
+            "actually_punctuation"
+               id="actually_punctuation"></a> He then argues that
+               "it is not sufficient (for me) to tell the
+               conference that there will be no return to mass
+               picketing". <i><font color=
+               "red"><b>Actually,</b></font> I never mentioned
+               picketing, mass picketing or otherwise, in my
+               speech, but let that pass</i>.</p>
+
+            <p><i>example</i>:
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>a</b><a name=
+            "in-fact-notambiguous"
+               id="in-fact-notambiguous"></a> Amnesty warmly
+               welcomed the release of prisoners of conscience and
+               the repeal of certain articles, but has urged that
+               the legislation be extended to include reform or
+               repeal of further articles of the Turkish Penal
+               Code, under which POCs may be held. <i>The new law
+               may <font color="red"><b>in fact</b></font> increase
+               the already serious risk of torture facing political
+               detainees</i>.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>b</b><a name="en_realidad"
+               id="en_realidad"></a> La idea inicial de Maragall
+               fue celebrar una exposición internacional, pero ese
+               propósito falló cuando alguien de su gabinete
+               descubrió que habían llegado tarde para obtener el
+               reconocimiento internacional para un acontecimiento
+               de este tipo. <i><font color="red"><b>En
+               realidad</b></font> poco importaba qué se hiciera.
+               Tanto Clos como Maragall perseguían en esencia poner
+               una nueva fecha al futuro de la ciudad.</i>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>c</b><a name="en_realitat"
+               id="en_realitat"></a> Tot va començar, com en les
+               novel.les policíaques, amb un fiscal, entestat a
+               treure a la llum el taló d'Aquil.les del president
+               demòcrata. L'ham: una becària de 22 anys, grassoneta
+               --usa la talla 46--, de pits exuberants i boca
+               àmplia, una mica esbojarrada ja que creia tenir una
+               relació sentimental <i>quan <font color="red"><b>en
+               realitat</b></font> va mantenir 10 trobades sexuals
+               servides a domicili amb el senyor Clinton</i>, qui,
+               durant set mesos, es va obstinar a negar haver
+               mantingut contacte físic amb ella.</p>
+          </li>
+
+          <li><b>it is true that</b> in contrast with
+          <i>actually</i> or <i>in fact</i>, its primary meaning is
+          revision, like <i>en realidad, en realitat, de fet, de
+          hecho</i> in Spanish and Catalan.</li>
+        </ul><a name="cause_lexicon"
+             id="cause_lexicon"></a>
+        <br />
+        <br />
+        <hr />
+
+        <br />
+
+        <center>
+          discourse markers signalling <b>cause</b>
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>English</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>structural</b></td>
+
+            <td><b>semantic</b></td>
+
+            <td>PoS</td>
+          </tr>
+
+          <tr>
+            <td>donat que</td>
+
+            <td>given that</td>
+
+            <td>dado que</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td><i>perquè</i></td>
+
+            <td>because</td>
+
+            <td>porque</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>degut a</td>
+
+            <td>due to</td>
+
+            <td>debido a</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>gràcies a</td>
+
+            <td>thanks to</td>
+
+            <td>gracias a</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>per si</td>
+
+            <td>in case</td>
+
+            <td>por si</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td><i>per</i></td>
+
+            <td>because of</td>
+
+            <td>por</td>
+
+            <td>elaboration</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>per això</td>
+
+            <td>that's why</td>
+
+            <td>por eso</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en conclusió</td>
+
+            <td>in conclusion</td>
+
+            <td>en conclusión</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>així que</td>
+
+            <td>thus</td>
+
+            <td>así que</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>P/A/P</td>
+          </tr>
+
+          <tr>
+            <td>com a conseqüència</td>
+
+            <td>as a consequence</td>
+
+            <td>como consecuencia</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td><i>per</i></td>
+
+            <td>in order to</td>
+
+            <td>para</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td><i>perquè</i></td>
+
+            <td>so that</td>
+
+            <td>para que</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>per aquesta raó</td>
+
+            <td>for this reason</td>
+
+            <td>por esta razón</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>per tant</td>
+
+            <td>so</td>
+
+            <td>por tanto</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A/C/A</td>
+          </tr>
+
+          <tr>
+            <td>en efecte</td>
+
+            <td>in effect</td>
+
+            <td>en efecto</td>
+
+            <td>continuation</td>
+
+            <td>cause</td>
+
+            <td>A</td>
+          </tr>
+        </table>
+
+        <ul>
+          <li>
+            <b>in conclusion</b> while it looks similar to <i>in
+            sum</i>, this discourse marker tends to convey new
+            information, not to rephrase it. Compare the following
+            example with the example for <i>in sum</i>. With
+            respect to the effects on coherence and relevance, it
+            is comparable to consecutive discourse markers like
+            <i>that's why</i> or <i>so then</i>, which can also
+            signal relations that are not motivated by a causal
+            relation in the real world, but have the same
+            rhetorical strength as those that are motivated by a
+            real causal relation. It is comparable to <i>in
+            effect</i>.
+
+            <p><i>example</i>
+            <br />
+            The European Court further ruled in this case that Arts
+            48 and 59 of the EC Treaty do not prevent a member
+            state from requiring that the exercise of the
+            profession of auditor in that state by a person
+            qualified to carry on that profession in another member
+            state be conditions which are objectively necessary to
+            guarantee observation of professional rules concerning
+            the permanence of the infrastructure in place for the
+            completion of the work, the effective presence in the
+            member state and assurance of the observation of
+            professional ethics, unless respect for such rules and
+            conditions is already guaranteed by a reviseur
+            d'entreprises, whether a natural person or a firm,
+            established and recognised in the state, and in whose
+            service is placed, for the duration of the work, the
+            person who intends to exercise the profession of
+            auditor. <i><font color="red"><b>In
+            conclusion</b></font>, one has to wonder whether the
+            borders are in fact open</i>.</p>
+          </li>
+
+          <li>
+            <b>perquè / per</b> in Catalan these discourse markers
+            are underspecified with respect to structural meaning,
+            they can be equivalent to <i>so that / to</i> <a href=
+            "#perque_reason">[ex]</a> or to <i>because / because
+            of</i> <a href="#perque_purpose">[ex]</a>.
+
+            <p><i>example</i>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>a</b><a name=
+            "perque_reason"
+               id="perque_reason"></a> Avui sento por
+               <i><font color="red"><b>perquè</b></font> han
+               declarat impunes tots els caps d'Estat</i>. <i>Today
+               I feel frightened because all heads of State have
+               been declared impune.</i>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>b</b><a name=
+            "perque_purpose"
+               id="perque_purpose"></a> La Generalitat ha fet una
+               crida a la solidaritat <i><font color=
+               "red"><b>perquè</b></font> s'ocupin aquestes
+               cases</i>. <i>The Generalitat has made a call to
+               solidarity so that these houses are
+               occupied.</i></p>
+          </li>
+        </ul><a name="equality_lexicon"
+             id="equality_lexicon"></a>
+        <br />
+        <br />
+        <hr />
+
+        <br />
+
+        <center>
+          discourse markers signalling <b>equality</b>
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>English</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>structural</b></td>
+
+            <td><b>semantic</b></td>
+
+            <td>PoS</td>
+          </tr>
+
+          <tr>
+            <td>en resum</td>
+
+            <td>in sum</td>
+
+            <td>en resumen</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>concretament</td>
+
+            <td>specifically</td>
+
+            <td>concretamente</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en essència</td>
+
+            <td>essentially</td>
+
+            <td>en esencia</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en comparació</td>
+
+            <td>in comparison</td>
+
+            <td>en comparación</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en altres paraules</td>
+
+            <td>in other words</td>
+
+            <td>en otras palabras</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>en particular</td>
+
+            <td>in particular</td>
+
+            <td>en particular</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>és a dir</td>
+
+            <td>that is to say</td>
+
+            <td>es decir</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>C</td>
+          </tr>
+
+          <tr>
+            <td>per exemple</td>
+
+            <td>for example</td>
+
+            <td>por ejemplo</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>precisament</td>
+
+            <td>precisely</td>
+
+            <td>precisamente</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>tal com</td>
+
+            <td>such as</td>
+
+            <td>tal como</td>
+
+            <td>elaboration</td>
+
+            <td>equality</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>en darrer lloc</td>
+
+            <td>lastly</td>
+
+            <td>por último</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>per una banda</td>
+
+            <td>on the one hand</td>
+
+            <td>por un lado</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>per altra banda</td>
+
+            <td>on the other hand</td>
+
+            <td>por otro lado</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>a propòsit</td>
+
+            <td>by the way</td>
+
+            <td>a propósito</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>no només</td>
+
+            <td>not only</td>
+
+            <td>no sólo</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>sinó també</td>
+
+            <td>but also</td>
+
+            <td>sino también</td>
+
+            <td>continuation</td>
+
+            <td>equality</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>en dues paraules</td>
+
+            <td>in short</td>
+
+            <td>en dos palabras</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>a més</td>
+
+            <td>moreover</td>
+
+            <td>además</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>també</td>
+
+            <td>also</td>
+
+            <td>también</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>a banda</td>
+
+            <td>besides</td>
+
+            <td>aparte</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>encara més</td>
+
+            <td>what's more</td>
+
+            <td>aún es más</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>fins i tot</td>
+
+            <td>incluso</td>
+
+            <td>even</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>especialment</td>
+
+            <td>specially</td>
+
+            <td>especialmente</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>sobretot</td>
+
+            <td>above all</td>
+
+            <td>sobretodo</td>
+
+            <td>--</td>
+
+            <td>equality</td>
+
+            <td>A</td>
+          </tr>
+        </table>
+
+        <ul>
+          <li><b>not only ... but also</b></li>
+
+          <li><b>lastly</b> unlike <i>first of all</i> or <i>to
+          begin with</i>, and like <i>secondly, thirdly</i>, this
+          discourse marker is not ambiguous, because it requires a
+          context of sequence to be felicitous.</li>
+
+          <li>
+            <b>on the one hand / on the other hand</b> like
+            <i>lastly</i>, they require a sequence context to be
+            felicitous, so they are not ambiguous with respect to
+            their structural or semantic meaning, but their
+            ambiguity with respect to scope varies greatly. If they
+            co-occur <a href="#hand-hand">[ex]</a>, their scope can
+            be determined if we consider that the scope of <i>on
+            the one hand</i> reaches until the point of occurrence
+            of <i>on the other hand</i>, and that the latter has a
+            scope of an equivalent size. However, if <i>on the
+            other hand</i> occurs alone, its scope is very hard to
+            determine automatically, and probably also by human
+            judges.
+
+            <p><i>example</i><a name="hand-hand"
+               id="hand-hand"></a>
+            <br />
+            It does occur to Fukuyama that religion might have some
+            sort of unease to express with all this, but he appears
+            to conceive of religion under only two modes.
+            <i><font color="red"><b>On the one hand</b></font>,
+            there is fundamentalist counter-ideology, the Islamic
+            theocratic state. This, it is to be assumed, his
+            liberal readers may take seriously as a threat, but
+            hardly as an option</i>. <i>And <font color="red"><b>on
+            the other hand</b></font>, there are "less organised
+            religious impulses", religion as individual preference.
+            This he knows can readily be accommodated another sort
+            of consumer commodity, "within the sphere of personal
+            life permitted in liberal societies"</i>.</p>
+          </li>
+
+          <li>
+            <b>in short</b> is ambiguous with respect to
+            continuation or elaboration, because the discourse unit
+            to which the discoruse marker is attached can sometimes
+            contribute new information, as in the following
+            example.
+
+            <p><i>example</i>
+            <br />
+            The authors maintain that the role of women in the
+            Tigrayan society is still closely linked to their
+            status in the feudal system. 1975 women were treated as
+            children. They were not allowed to own land nor speak.
+            <i><font color="red"><b>In short</b></font> women were
+            at the bottom of the hierarchy of oppression with no
+            rights of any kind</i>.</p>
+          </li>
+
+          <li><b>in sum / essentially</b> convey an elaborative
+          relation because they repeats information that has
+          already been given, even if this information is given in
+          a shorter form. The utilitty of these discourse markers
+          for automatic summarization is an <i>ad-hoc</i> property,
+          subject to the task and not to their effects with respect
+          to coherence and relevance assessment. Therefore, it has
+          to be treated by manually creating a special rule that
+          overrides general discursive rules.</li>
+        </ul><a name="context_lexicon"
+             id="context_lexicon"></a>
+        <br />
+        <br />
+        <hr />
+
+        <br />
+
+        <center>
+          discourse markers signalling <b>context</b>
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>English</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>structural</b></td>
+
+            <td><b>semantic</b></td>
+
+            <td>PoS</td>
+          </tr>
+
+          <tr>
+            <td>considerant</td>
+
+            <td>considering</td>
+
+            <td>teniendo en cuenta</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>després</td>
+
+            <td>after</td>
+
+            <td>después</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>abans</td>
+
+            <td>before</td>
+
+            <td>antes</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>originalment</td>
+
+            <td>originally</td>
+
+            <td>originalmente</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>a condició de</td>
+
+            <td>provided that</td>
+
+            <td>a condición de</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>durant</td>
+
+            <td>during</td>
+
+            <td>durante</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>mentre</td>
+
+            <td>while</td>
+
+            <td>mientras</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>a no ser que</td>
+
+            <td>unless</td>
+
+            <td>a no ser que</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>quan</td>
+
+            <td>when</td>
+
+            <td>cuando</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>on</td>
+
+            <td>where</td>
+
+            <td>donde</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>d'acord amb</td>
+
+            <td>in accordance with</td>
+
+            <td>de acuerdo con</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>lluny de</td>
+
+            <td>far from</td>
+
+            <td>lejos de</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>tan aviat com</td>
+
+            <td>as soon as</td>
+
+            <td>tan pronto como</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>de moment</td>
+
+            <td>for the moment</td>
+
+            <td>por el momento</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>entre</td>
+
+            <td>between</td>
+
+            <td>entre</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>cap a</td>
+
+            <td>towards</td>
+
+            <td>hacia</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>fins a</td>
+
+            <td>until</td>
+
+            <td>hasta</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>mitjançant</td>
+
+            <td>by means of</td>
+
+            <td>mediante</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>segons</td>
+
+            <td>following</td>
+
+            <td>según</td>
+
+            <td>elaboration</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>en qualsevol cas</td>
+
+            <td>in any case</td>
+
+            <td>en cualquier caso</td>
+
+            <td>continuation</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>aleshores</td>
+
+            <td>then</td>
+
+            <td>entonces</td>
+
+            <td>continuation</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>respecte de</td>
+
+            <td>with respect to</td>
+
+            <td>respecto a</td>
+
+            <td>continuation</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>en aquest cas</td>
+
+            <td>in that case</td>
+
+            <td>en ese caso</td>
+
+            <td>continuation</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>si</td>
+
+            <td>if</td>
+
+            <td>si</td>
+
+            <td>--</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>sempre que</td>
+
+            <td>whenever</td>
+
+            <td>siempre que</td>
+
+            <td>--</td>
+
+            <td>context</td>
+
+            <td>P</td>
+          </tr>
+
+          <tr>
+            <td>sens dubte</td>
+
+            <td>no doubt</td>
+
+            <td>sin duda</td>
+
+            <td>--</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+
+          <tr>
+            <td>alhora</td>
+
+            <td>at the same time</td>
+
+            <td>a la vez</td>
+
+            <td>--</td>
+
+            <td>context</td>
+
+            <td>A</td>
+          </tr>
+        </table>
+
+        <ul>
+          <li>
+            <b>first of all / to begin with</b> as many discourse
+            markers, these are lexically underspecified with
+            respect to elaboration or continuation, they can
+            reinforce progressive and elaborative relations that
+            are actually signalled by means other than this
+            discourse marker. They are also ambiguous between
+            context and equality. If it is part of a sequence, as
+            in example <a href="#to-begin-with_sequence">[ex]</a>,
+            it will signal equality, if not, as in example <a href=
+            "#to-begin-with_sequence">[ex]</a>, it will signal
+            context. By default, we ascribe it to context, and only
+            if there is enough evidence is it ascribed to equality.
+
+            <p><i>example</i> <a name="to-begin-with_sequence"
+               id="to-begin-with_sequence"></a>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>a</b> Police say that cars
+            are being stolen to be resold in car-starved east
+            European countries. <i><font color="red"><b>To begin
+            with</b></font>, thieves went for the likes of Golf
+            GTis and BMWs</i>, <i><font color="red"><b>but
+            now</b></font> bread-and-butter cars are also being
+            taken</i>.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>b</b> In Four Saints
+            Thomson's informality was given free reign since <i>he
+            <font color="red"><b>first of all</b></font> improvised
+            the music at the piano</i> <i><font color=
+            "red"><b>then</b></font>, when it stuck, wrote it down
+            to a figured bass</i>.</p>
+
+            <p><i>example</i>: <a name="to-begin-with_context"
+               id="to-begin-with_context"></a>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>a</b> But there never was a
+            threat to a new German-American special relationship,
+            <i>since there never was such a special relationship
+            <font color="red"><b>to begin with</b></font></i>.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp; <b>b</b> "We are a bit of a
+            way from that. But I certainly believe, <i><font color=
+            "red"><b>first of all</b></font>, we have to give what
+            help we can</i>," said Mr Hurd.</p>
+          </li>
+
+          <li>
+            <b>in any case</b> indicates continuation and context.
+            It seems to have effects comparable to revision, but it
+            is hard to find what is denied. It seems that it has
+            contrastive functions, which can be best attributed to
+            the properties of continuation than to any possible
+            revision. It is comparable to topic-based <i>but</i>,
+            but in that case there seems to be more correlation
+            with items signalling negative polarity, which seems to
+            support an interpretation as revision. In this respect,
+            it is different from <i>anyway</i>, which always
+            conveys revision.
+
+            <p><i>example</i>
+            <br />
+            In truth, however, humble photocopying has been
+            overtaken by the wonders of the fax and personal
+            computers complete with printers. Whatever the price of
+            these latter (20 times their cost in the West) and
+            reinforced customs procedures for their import, they
+            are finding their way in. <i>The controls <font color=
+            "red"><b>in any case</b></font> are surely doomed to
+            fail</i>. <!-- <li> <b>at the same time</b> -->
+             <!-- <li> <b>with respect to</b> -->
+             <!-- <li> <b>above all</b> --></p>
+          </li>
+
+          <li><b>then</b> is characterized by the two least marked
+          meanings in each dimension, which makes it very close to
+          <i>narration</i>.</li>
+
+          <li><b>unless</b> even if it has inherent negative
+          polarity, it does not convey revision, but context,
+          comparable to <i>if</i> or <i>in case</i>. 
+          <!-- <li> <b>by the way / what's more</b> written?? --></li>
+        </ul><a name="ambiguous_lexicon"
+             id="ambiguous_lexicon"></a>
+        <br />
+        <br />
+        <hr />
+
+        <br />
+
+        <center>
+          Highly polysemic discourse markers
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>English</b></td>
+
+            <td><b>structural</b></td>
+
+            <td><b>semantic</b></td>
+          </tr>
+
+          <tr>
+            <td><i>com</i></td>
+
+            <td><i>como</i></td>
+
+            <td>like</td>
+
+            <td>elaboration</td>
+
+            <td><i>equality, context, cause</i></td>
+          </tr>
+
+          <tr>
+            <td><i>com</i></td>
+
+            <td><i>como</i></td>
+
+            <td><i>since</i></td>
+
+            <td>elaboration</td>
+
+            <td><i>cause, context</i></td>
+          </tr>
+
+          <tr>
+            <td>desde</td>
+
+            <td>desde</td>
+
+            <td><i>since</i></td>
+
+            <td>elaboration</td>
+
+            <td><i>cause, context</i></td>
+          </tr>
+
+          <tr>
+            <td><i>sobre</i></td>
+
+            <td><i>sobre</i></td>
+
+            <td>about</td>
+
+            <td><i>continuation, elaboration</i></td>
+
+            <td>context</td>
+          </tr>
+
+          <tr>
+            <td><i>sobre</i></td>
+
+            <td><i>sobre</i></td>
+
+            <td>over</td>
+
+            <td><i>continuation, elaboration</i></td>
+
+            <td>context</td>
+          </tr>
+
+          <tr>
+            <td>abans de res</td>
+
+            <td>first of all</td>
+
+            <td>antes que nada</td>
+
+            <td>--</td>
+
+            <td><i>context</i> (or <i>equality</i>)</td>
+          </tr>
+
+          <tr>
+            <td>per començar</td>
+
+            <td>to begin with</td>
+
+            <td>para empezar</td>
+
+            <td>--</td>
+
+            <td><i>context</i> (or <i>equality</i>)</td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <hr />
+
+        <br />
+        <a name="vague_dms"
+             id="vague_dms"></a>
+
+        <center>
+          Closed class words with very vague meaning
+        </center>
+        <br />
+        <br />
+
+        <table cellpadding="5">
+          <tr>
+            <td><b>Catalan</b></td>
+
+            <td><b>Spanish</b></td>
+
+            <td><b>English</b></td>
+          </tr>
+
+          <tr>
+            <td>i</td>
+
+            <td>y/e</td>
+
+            <td>and</td>
+          </tr>
+
+          <tr>
+            <td>ni</td>
+
+            <td>ni</td>
+
+            <td>nor/neither</td>
+          </tr>
+
+          <tr>
+            <td>o</td>
+
+            <td>o/u</td>
+
+            <td>or</td>
+          </tr>
+
+          <tr>
+            <td>que</td>
+
+            <td>que</td>
+
+            <td>that</td>
+          </tr>
+
+          <tr>
+            <td>amb</td>
+
+            <td>con</td>
+
+            <td>with</td>
+          </tr>
+
+          <tr>
+            <td>sense</td>
+
+            <td>sin</td>
+
+            <td>without</td>
+          </tr>
+
+          <tr>
+            <td>contra</td>
+
+            <td>contra</td>
+
+            <td>against</td>
+          </tr>
+
+          <tr>
+            <td>en</td>
+
+            <td>en</td>
+
+            <td>in</td>
+          </tr>
+
+          <tr>
+            <td>a</td>
+
+            <td>at/to</td>
+
+            <td>a</td>
+          </tr>
+
+          <tr>
+            <td></td>
+
+            <td>to</td>
+
+            <td></td>
+          </tr>
+        </table><!--
+<a name="non-parallel_dms"></a>
+Closed class words without a near synonym in some of the other two languages.
+<table cellpadding="5">
+  <tr><td>
+<b>Catalan </td><td> <b>Spanish </td><td> <b>English 
+ </td></tr><tr><td>
+sin&oacute; </td><td> sino </td><td> <i>correction</i> 
+ </td></tr><tr><td>
+</table>
+-->
+      </div><!-- End content -->
+    </div><!-- End main content wrapper -->
+
+    <div class="clearer"></div>
+
+    <div id="breadcrumbcontainer">
+      <!-- Start the breadcrumb wrapper -->
+
+      <ul>
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/index.html">Laura
+        Alonso Alemany</a>&nbsp;/&nbsp;</li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/index.html">
+        discourse for summarization</a>&nbsp;/&nbsp;</li>
+
+        <li><a href=
+        "http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/index.html">
+        discourse markers</a>&nbsp;/&nbsp;</li>
+      </ul>
+    </div><!-- End breadcrumb -->
+
+    <div id="footer">
+      <!-- Start Footer -->
+
+      <p>© 2006 Laura Alonso i Alemany</p>
+    </div><!-- End Footer -->
+  </div><!-- End container -->
+</body>
+</html>

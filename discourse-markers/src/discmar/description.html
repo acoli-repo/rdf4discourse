@@ -1,0 +1,68 @@
+<h1 id="lexiconofprototypicaldiscoursemarkers">Lexicon of prototypical discourse markers</h1>
+
+<h2 id="parallelincatalanspanishandenglish">parallel in Catalan, Spanish and English</h2>
+
+<p>http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/index.html</p>
+
+<p>© 2006 <a href="http://www.cs.famaf.unc.edu.ar/~laura/index.html">Laura Alonso Alemany</a></p>
+
+<h3 id="descriptionofthelexicon">description of the lexicon</h3>
+
+<p>This is the seminal discourse marker lexicon used in the thesis <a href="http://lalonso.sdf-eu.org/tesi.pdf">Representing discourse for automatic text summarization via shallow NLP techniques</a>. The discourse markers listed here were the primary source of evidence to draw the semantic maps to obtain an inventory of basic discursive meanings. This lexicon is also the basis for the implementations of a discourse segmenter and for the discourse analysis exploited by the e-mail summarizer <a href="ttp://www.lsi.upc.es/~bcasas/carpanta/demo.html">Carpanta</a>.</p>
+
+<p>The lexicon is parallel in three languages: Catalan, Spanish and English. Therefore, in this starting version of the lexicon we have only included those discourse markers that have a near-synonym in one of the other languages. Those that do not have a near-synonym have been included in the extended version of the lexicon created by bootstrapping techniques applied to this starting lexicon.</p>
+
+<p>The discourse markers that constitute the prototypical lexicon were obtained from previous work, mostly Knott (1996) and Marcu (1997), with the restriction that they are highly grammaticalized. We have also included in the lexicon some closed class words, obtained from the dictionary of the FreeLing morphosyntactic analyzer. We have discarded closed class words that are very vague and highly ambiguous discourse markers.</p>
+
+<p>In this lexicon, discourse markers are characterized by their structural (<em>continuation</em> or <em>elaboration</em>) and semantic (<em>revision, cause, equality, context</em>) meanings, and they are also associated to a morphosyntactic class (part of speech, PoS), one of <em>adverbial</em> (A), <em>phrasal</em> (P) or <em>conjunctive</em> (C).</p>
+
+<p>No information has been encoded about the reliability of discourse markers with respect to their discursive (vs. sentential) function. The only information of this kind that we provide is that discourse markers that are highly ambiguous with respect to their function are not included in the lexicon.</p>
+
+<p>Sometimes a discourse marker is <strong>underspecified</strong> with respect to a meaning. We encode this with a hash. This tends to happen with structural meanings, because these meanings can well be established by discursive mechanisms other than discourse markers, and the presence of the discourse marker just reinforces the relation, whichever it may be.</p>
+
+<p>Sometimes a discourse marker is <strong>ambiguous</strong> with respect to two meanings. In this cases, we write the predominant meaning in italics, and the secondary meaning in parentheses, or both of them in italics if no predominant meaning can be determined. Resolving such ambiguities normally requires information about the context of occurrence, but we have not associated discourse markers with the contextual features that can be of aid to disambiguate them. Nevertheless, it seems that determining the adequate meaning associated to a particular instance of a discourse marker can be well addressed by general procedures, directly implemented in those algorithms that exploit the information stored in a lexicon (segmentation algorithms, discourse parsers, etc.).</p>
+
+<p>All in all, the lexicon is formed by 84 discourse markers, representing different discursive meanings. Some discourse markers have been assigned to more or less than one meaning per dimension, because they are ambiguous or underspecified, respectively.</p>
+
+<table cellpadding="5">
+	<tr>
+		<td></td>
+		<td>revision</td>
+		<td>cause</td>
+		<td>equality</td>
+		<td>context</td>
+		<td><b>total</b></td>
+	</tr>
+	<tr>
+		<td>elaboration</td>
+		<td>4</td>
+		<td>9</td>
+		<td>10</td>
+		<td>22</td>
+		<td>41</td>
+	</tr>
+	<tr>
+		<td>continuation</td>
+		<td>9</td>
+		<td>9</td>
+		<td>6</td>
+		<td>4</td>
+		<td>28</td>
+	</tr>
+	<tr>
+		<td>underspecified</td>
+		<td>1</td>
+		<td>--</td>
+		<td>10</td>
+		<td>4</td>
+		<td>15</td>
+	</tr>
+	<tr>
+		<td><b>total</b></td>
+		<td>14</td>
+		<td>18</td>
+		<td>26</td>
+		<td>32</td>
+		<td>84</td>
+	</tr>
+</table>
