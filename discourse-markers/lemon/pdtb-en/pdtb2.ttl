@@ -1,0 +1,1834 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
+
+  :25_in_addition a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In addition"@en; dimlex:orth_id "25o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "in addition"@en; dimlex:orth_id "25o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "165"; dimlex:freq "165"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :80_lest a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "lest"@en; dimlex:orth_id "80o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :37_indeed a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Indeed"@en; dimlex:orth_id "37o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "indeed"@en; dimlex:orth_id "37o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "54"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "1"; dimlex:sense "Expansion.Instantiation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "4"; dimlex:sense "Contingency.Pragmatic cause.Justification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Equivalence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "3"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Generalization" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "31"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "7"; dimlex:sense "Expansion.Restatement" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "INTJ";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "104"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :21_still a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "still"@en; dimlex:orth_id "21o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Still"@en; dimlex:orth_id "21o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "INTJ";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "14"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "7"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "15"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "8"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "1"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "16"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "64"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "52"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "190"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :33_yet a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Yet"@en; dimlex:orth_id "33o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "yet"@en; dimlex:orth_id "33o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "4"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "2"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "16"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "11"; dimlex:sense "Comparison.Contrast" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "8"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "10"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "13"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "8"; dimlex:sense "Comparison.Contrast" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "7"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "6"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "4"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :56_by_comparison a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "by comparison"@en; dimlex:orth_id "56o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "By comparison"@en; dimlex:orth_id "56o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "3"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "7"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ] ].
+
+  :18_also a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "also"@en; dimlex:orth_id "18o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Also"@en; dimlex:orth_id "18o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-PRD";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "2"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "10"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "1712"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1746"; dimlex:freq "20"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :76_except a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "except"@en; dimlex:orth_id "76o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Except"@en; dimlex:orth_id "76o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "VB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Expansion.Exception" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "8"; dimlex:sense "Expansion.Exception" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :66_meantime a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "meantime"@en; dimlex:orth_id "66o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Meantime"@en; dimlex:orth_id "66o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "PP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "11"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :59_finally a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "finally"@en; dimlex:orth_id "59o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Finally"@en; dimlex:orth_id "59o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "5"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "6"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "8"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "1"; dimlex:sense "Expansion" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "2"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "6"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "32"; dimlex:freq "4"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :75_as_soon_as a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "as soon as"@en; dimlex:orth_id "75o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "As soon as"@en; dimlex:orth_id "75o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "20"; dimlex:freq "9"; dimlex:sense "Temporal.Synchrony" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "20"; dimlex:freq "11"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :14_then a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Then"@en; dimlex:orth_id "14o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "then"@en; dimlex:orth_id "14o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP-2";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP=2";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "2"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Unreal present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "159"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "4"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "81"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "3"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "6"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "4"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "70"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "340"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :62_thereby a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "thereby"@en; dimlex:orth_id "62o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "12"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :32_meanwhile a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "meanwhile"@en; dimlex:orth_id "32o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Meanwhile"@en; dimlex:orth_id "32o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "PP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "53"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "16"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "81"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "17"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "193"; dimlex:freq "12"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :55_overall a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "overall"@en; dimlex:orth_id "55o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Overall"@en; dimlex:orth_id "55o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "3"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "3"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "3"; dimlex:sense "Expansion.Restatement" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Generalization" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "JJ";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :27_on_the_other_hand a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "On the other hand"@en; dimlex:orth_id "27o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "on the other hand"@en; dimlex:orth_id "27o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "13"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "12"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "8"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP-LOC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "37"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :95_in_sum a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In sum"@en; dimlex:orth_id "95o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Generalization" ] ] ].
+
+  :16_as_long_as a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "as long as"@en; dimlex:orth_id "16o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "As long as"@en; dimlex:orth_id "16o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "8"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "6"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "7"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :52_nor a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "nor"@en; dimlex:orth_id "52o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Nor"@en; dimlex:orth_id "52o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "31"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "31"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "31"; dimlex:freq "25"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "31"; dimlex:freq "3"; dimlex:sense "Expansion.Alternative.Conjunctive" ] ] ].
+
+  :67_by_contrast a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "By contrast"@en; dimlex:orth_id "67o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "by contrast"@en; dimlex:orth_id "67o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "11"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "12"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :70_in_the_end a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "in the end"@en; dimlex:orth_id "70o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "In the end"@en; dimlex:orth_id "70o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Generalization" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :97_insofar_as a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Insofar as"@en; dimlex:orth_id "97o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Reason" ] ] ].
+
+  :53_alternatively a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "alternatively"@en; dimlex:orth_id "53o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Alternatively"@en; dimlex:orth_id "53o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "4"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :20_separately a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Separately"@en; dimlex:orth_id "20o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "separately"@en; dimlex:orth_id "20o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "74"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "74"; dimlex:freq "6"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "74"; dimlex:freq "1"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "74"; dimlex:freq "66"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :4_because a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "because"@en; dimlex:orth_id "4o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Because"@en; dimlex:orth_id "4o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "858"; dimlex:freq "73"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "858"; dimlex:freq "2"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "858"; dimlex:freq "14"; dimlex:sense "Contingency.Cause.Reason" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "858"; dimlex:freq "2"; dimlex:sense "Contingency.Pragmatic cause.Justification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "858"; dimlex:freq "767"; dimlex:sense "Contingency.Cause.Reason" ] ] ].
+
+  :77_in_short a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In short"@en; dimlex:orth_id "77o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "4"; dimlex:sense "Expansion.Restatement.Generalization" ] ] ].
+
+  :99_as_an_alternative a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "As an alternative"@en; dimlex:orth_id "99o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :46_further a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Further"@en; dimlex:orth_id "46o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "further"@en; dimlex:orth_id "46o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "8"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RBR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "9"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :39_ultimately a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "ultimately"@en; dimlex:orth_id "39o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Ultimately"@en; dimlex:orth_id "39o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "4"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "2"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "1"; dimlex:sense "Expansion" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "10"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement" ] ] ].
+
+  :94_for a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "for"@en; dimlex:orth_id "94o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "For"@en; dimlex:orth_id "94o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "3"; dimlex:sense "Contingency.Cause.Reason" ] ] ].
+
+  :79_furthermore a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Furthermore"@en; dimlex:orth_id "79o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "furthermore"@en; dimlex:orth_id "79o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "11"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :34_since a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "since"@en; dimlex:orth_id "34o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Since"@en; dimlex:orth_id "34o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "6"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "6"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "90"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "184"; dimlex:freq "80"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :6_before a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Before"@en; dimlex:orth_id "6o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "before"@en; dimlex:orth_id "6o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "326"; dimlex:freq "43"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "326"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "326"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "326"; dimlex:freq "13"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "326"; dimlex:freq "267"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :19_after a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "after"@en; dimlex:orth_id "19o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "After"@en; dimlex:orth_id "19o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "577"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "577"; dimlex:freq "88"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "577"; dimlex:freq "10"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "577"; dimlex:freq "477"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :93_simultaneously a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Simultaneously"@en; dimlex:orth_id "93o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "simultaneously"@en; dimlex:orth_id "93o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "6"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :17_however a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "However"@en; dimlex:orth_id "17o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "however"@en; dimlex:orth_id "17o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "49"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "2"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "5"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "89"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "32"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "1"; dimlex:sense "Comparison.Pragmatic concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "70"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "1"; dimlex:sense "Comparison.Pragmatic contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "234"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "485"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ] ].
+
+  :50_besides a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "besides"@en; dimlex:orth_id "50o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Besides"@en; dimlex:orth_id "50o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "19"; dimlex:freq "7"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "19"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "19"; dimlex:freq "10"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "19"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Conjunctive" ] ] ].
+
+  :47_afterward a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Afterwards"@en; dimlex:orth_id "47o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Afterward"@en; dimlex:orth_id "47o2"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "afterward"@en; dimlex:orth_id "47o3"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "afterwards"@en; dimlex:orth_id "47o4"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "11"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :40_as_a_result a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "As a result"@en; dimlex:orth_id "40o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "as a result"@en; dimlex:orth_id "40o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "78"; dimlex:freq "44"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP-PRP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "78"; dimlex:freq "33"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP-CLR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "78"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :78_neither_nor a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "neither nor"@en; dimlex:orth_id "78o1"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :87_plus a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Plus"@en; dimlex:orth_id "87o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :41_either_or a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Either or"@en; dimlex:orth_id "41o1"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "either or"@en; dimlex:orth_id "41o2"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Conjunctive" ] ] ].
+
+  :89_hence a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Hence"@en; dimlex:orth_id "89o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "hence"@en; dimlex:orth_id "89o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "4"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :84_consequently a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "consequently"@en; dimlex:orth_id "84o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Consequently"@en; dimlex:orth_id "84o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-PRP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "8"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :23_or a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "or"@en; dimlex:orth_id "23o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Or"@en; dimlex:orth_id "23o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "5"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "2"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "12"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "34"; dimlex:sense "Expansion.Alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "41"; dimlex:sense "Expansion.Alternative.Conjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Equivalence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "1"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement" ] ] ].
+
+  :60_otherwise a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "otherwise"@en; dimlex:orth_id "60o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Otherwise"@en; dimlex:orth_id "60o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Conjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "2"; dimlex:sense "Expansion.Exception" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "24"; dimlex:freq "21"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :71_regardless a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "regardless"@en; dimlex:orth_id "71o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Regardless"@en; dimlex:orth_id "71o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ] ].
+
+  :1_although a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "although"@en; dimlex:orth_id "1o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Although"@en; dimlex:orth_id "1o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "16"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "1"; dimlex:sense "Expansion.Exception" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "1"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "34"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "9"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "21"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "114"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "328"; dimlex:freq "132"; dimlex:sense "Comparison.Concession.Expectation" ] ] ].
+
+  :10_previously a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Previously"@en; dimlex:orth_id "10o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "previously"@en; dimlex:orth_id "10o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "49"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "49"; dimlex:freq "46"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "49"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :72_thereafter a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "thereafter"@en; dimlex:orth_id "72o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Thereafter"@en; dimlex:orth_id "72o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "10"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "11"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :29_for_instance a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "for instance"@en; dimlex:orth_id "29o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "For instance"@en; dimlex:orth_id "29o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "1"; dimlex:sense "Expansion.Instantiation" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "98"; dimlex:freq "97"; dimlex:sense "Expansion.Instantiation" ] ] ].
+
+  :24_moreover a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Moreover"@en; dimlex:orth_id "24o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "moreover"@en; dimlex:orth_id "24o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "1"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "99"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "101"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :49_similarly a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "similarly"@en; dimlex:orth_id "49o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Similarly"@en; dimlex:orth_id "49o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "18"; dimlex:freq "17"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :7_for_example a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "for example"@en; dimlex:orth_id "7o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "For example"@en; dimlex:orth_id "7o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "196"; dimlex:freq "194"; dimlex:sense "Expansion.Instantiation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "196"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :82_specifically a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "specifically"@en; dimlex:orth_id "82o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Specifically"@en; dimlex:orth_id "82o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "10"; dimlex:freq "8"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :48_next a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Next"@en; dimlex:orth_id "48o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "next"@en; dimlex:orth_id "48o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "5"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :91_accordingly a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Accordingly"@en; dimlex:orth_id "91o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "accordingly"@en; dimlex:orth_id "91o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "4"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :42_therefore a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "therefore"@en; dimlex:orth_id "42o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Therefore"@en; dimlex:orth_id "42o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "26"; dimlex:freq "26"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :92_on_the_contrary a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "On the contrary"@en; dimlex:orth_id "92o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "4"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :45_in_particular a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "in particular"@en; dimlex:orth_id "45o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "In particular"@en; dimlex:orth_id "45o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "9"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "6"; dimlex:sense "Expansion.Instantiation" ] ] ].
+
+  :8_until a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Until"@en; dimlex:orth_id "8o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "until"@en; dimlex:orth_id "8o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "4"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "16"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "7"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "129"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "162"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :68_if_then a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "If then"@en; dimlex:orth_id "68o1"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "if then"@en; dimlex:orth_id "68o2"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "38"; dimlex:freq "22"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "38"; dimlex:freq "5"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "38"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Unreal past" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "38"; dimlex:freq "1"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "38"; dimlex:freq "9"; dimlex:sense "Contingency.Condition.Factual present" ] ] ].
+
+  :96_when_and_if a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "When and if"@en; dimlex:orth_id "96o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "UCP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :3_but a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "but"@en; dimlex:orth_id "3o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "But"@en; dimlex:orth_id "3o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "262"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "82"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Expansion.Exception" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "638"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "175"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "4"; dimlex:sense "Comparison.Pragmatic concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "495"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative.Chosen alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "16"; dimlex:sense "Comparison.Pragmatic contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "1609"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "12"; dimlex:sense "Comparison.Concession.Expectation" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3308"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ] ].
+
+  :98_else a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "else"@en; dimlex:orth_id "98o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative" ] ] ].
+
+  :88_And a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "And"@en; dimlex:orth_id "88o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Expansion.List" ] ] ].
+
+  :15_while a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "while"@en; dimlex:orth_id "15o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "While"@en; dimlex:orth_id "15o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "3"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "NN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "4"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "21"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "54"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "9"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "1"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "195"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "84"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "3"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "128"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "81"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "781"; dimlex:freq "195"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :12_and a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "And"@en; dimlex:orth_id "12o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "and"@en; dimlex:orth_id "12o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "209"; dimlex:sense "Expansion.List" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "13"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "2689"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion.Instantiation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "3"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "65"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Generalization" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "5"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.General" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "JJ";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "NN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2999"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :69_likewise a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Likewise"@en; dimlex:orth_id "69o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "likewise"@en; dimlex:orth_id "69o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "8"; dimlex:freq "8"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :44_thus a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Thus"@en; dimlex:orth_id "44o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "thus"@en; dimlex:orth_id "44o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "102"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "9"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :28_as a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "as"@en; dimlex:orth_id "28o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "As"@en; dimlex:orth_id "28o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "3"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "23"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "4"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "5"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "2"; dimlex:sense "Contingency.Pragmatic cause.Justification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "14"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "205"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "1"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "743"; dimlex:freq "478"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :83_conversely a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Conversely"@en; dimlex:orth_id "83o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "2"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ] ].
+
+  :9_if a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "If"@en; dimlex:orth_id "9o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "IF"@en; dimlex:orth_id "9o2"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "if"@en; dimlex:orth_id "9o3"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "54"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Comparison.Pragmatic contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Contingency.Pragmatic condition.Relevance" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "6"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "4"; dimlex:sense "Contingency.Condition.Unreal present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "3"; dimlex:sense "Contingency.Condition.Unreal past" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "3"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "4"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "33"; dimlex:sense "Comparison.Concession.Expectation" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "632"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "29"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "171"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "118"; dimlex:sense "Contingency.Condition.Unreal present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "50"; dimlex:sense "Contingency.Condition.Unreal past" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "19"; dimlex:sense "Contingency.Pragmatic condition.Relevance" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "9"; dimlex:sense "Contingency.Condition.Factual past" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "71"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "4"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1223"; dimlex:freq "2"; dimlex:sense "Contingency.Condition" ] ] ].
+
+  :43_in_turn a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "in turn"@en; dimlex:orth_id "43o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "17"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "3"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "7"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "30"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :100_on_the_one_hand_on_the_other_hand a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "On the one hand On the other hand"@en; dimlex:orth_id "100o1"; dimlex:type "discont"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ] ].
+
+  :30_nonetheless a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "nonetheless"@en; dimlex:orth_id "30o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Nonetheless"@en; dimlex:orth_id "30o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "5"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "4"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "27"; dimlex:freq "17"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ] ].
+
+  :61_as_if a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "as if"@en; dimlex:orth_id "61o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "As if"@en; dimlex:orth_id "61o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "16"; dimlex:freq "1"; dimlex:sense "Comparison.Pragmatic concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "16"; dimlex:freq "4"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "16"; dimlex:freq "11"; dimlex:sense "Expansion" ] ] ].
+
+  :54_whereas a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Whereas"@en; dimlex:orth_id "54o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "whereas"@en; dimlex:orth_id "54o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "3"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :11_when a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "when"@en; dimlex:orth_id "11o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "WHEN"@en; dimlex:orth_id "11o2"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "When"@en; dimlex:orth_id "11o3"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-3";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "12"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "28"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "79"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-2";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Temporal" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "37"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "10"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "60"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "153"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-1";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "4"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "8"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Temporal" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "67"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "4"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Pragmatic condition.Relevance" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "120"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "263"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-14";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-7";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-6";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Temporal.Synchrony" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Pragmatic condition.Implicit assertion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-5";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "4"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "7"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP-4";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "17"; dimlex:sense "Temporal.Synchrony" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "9"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "7"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "3"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "5"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "21"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "WHNP-4";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Factual present" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "989"; dimlex:freq "14"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :57_till a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "till"@en; dimlex:orth_id "57o1"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "3"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :63_now_that a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Now that"@en; dimlex:orth_id "63o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "now that"@en; dimlex:orth_id "63o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "22"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "22"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "22"; dimlex:freq "2"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "22"; dimlex:freq "13"; dimlex:sense "Contingency.Cause.Reason" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "22"; dimlex:freq "5"; dimlex:sense "Temporal.Synchrony" ] ] ].
+
+  :74_in_other_words a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "in other words"@en; dimlex:orth_id "74o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "In other words"@en; dimlex:orth_id "74o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "10"; dimlex:sense "Expansion.Restatement.Equivalence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "4"; dimlex:sense "Expansion.Restatement" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "3"; dimlex:sense "Expansion.Restatement.Generalization" ] ] ].
+
+  :26_instead a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Instead"@en; dimlex:orth_id "26o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "instead"@en; dimlex:orth_id "26o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "105"; dimlex:sense "Expansion.Alternative.Chosen alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "112"; dimlex:freq "4"; dimlex:sense "Expansion.Alternative" ] ] ].
+
+  :86_much_as a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "much as"@en; dimlex:orth_id "86o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "2"; dimlex:sense "Expansion.Alternative.Chosen alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "2"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "1"; dimlex:sense "Comparison" ] ] ].
+
+  :31_unless a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Unless"@en; dimlex:orth_id "31o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "unless"@en; dimlex:orth_id "31o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "95"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "95"; dimlex:freq "94"; dimlex:sense "Expansion.Alternative.Disjunctive" ] ] ].
+
+  :2_though a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Though"@en; dimlex:orth_id "2o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "though"@en; dimlex:orth_id "2o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "2"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "5"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "15"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "52"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "15"; dimlex:sense "Comparison.Contrast" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "NNP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "10"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "4"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "14"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "14"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "33"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "1"; dimlex:sense "Comparison.Concession.Expectation" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "6"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "53"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "26"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "42"; dimlex:sense "Comparison.Concession.Expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "320"; dimlex:freq "16"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ] ].
+
+  :36_in_fact a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In fact"@en; dimlex:orth_id "36o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "in fact"@en; dimlex:orth_id "36o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "33"; dimlex:sense "Expansion.Conjunction" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "2"; dimlex:sense "Expansion.Instantiation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "3"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "2"; dimlex:sense "Expansion" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Generalization" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "35"; dimlex:sense "Expansion.Restatement.Specification" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "PP-LOC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "82"; dimlex:freq "1"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :73_earlier a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Earlier"@en; dimlex:orth_id "73o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "earlier"@en; dimlex:orth_id "73o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "15"; dimlex:freq "14"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :58_in_contrast a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In contrast"@en; dimlex:orth_id "58o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "in contrast"@en; dimlex:orth_id "58o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "5"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "12"; dimlex:freq "2"; dimlex:sense "Comparison.Contrast.Opposition" ] ] ].
+
+  :51_if_and_when a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "if and when"@en; dimlex:orth_id "51o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.General" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "UCP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "3"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ] ].
+
+  :65_additionally a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "additionally"@en; dimlex:orth_id "65o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Additionally"@en; dimlex:orth_id "65o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "7"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :81_as_though a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "as though"@en; dimlex:orth_id "81o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "3"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "5"; dimlex:freq "2"; dimlex:sense "Expansion.Restatement.Specification" ] ] ].
+
+  :85_as_well a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "As well"@en; dimlex:orth_id "85o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:canonicalForm [ ontolex:writtenRep "as well"@en; dimlex:orth_id "85o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "6"; dimlex:freq "6"; dimlex:sense "Expansion.Conjunction" ] ] ].
+
+  :22_so_that a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "so that"@en; dimlex:orth_id "22o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "31"; dimlex:freq "31"; dimlex:sense "Contingency.Cause.Result" ] ] ].
+
+  :5_nevertheless a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Nevertheless"@en; dimlex:orth_id "5o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "nevertheless"@en; dimlex:orth_id "5o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "1"; dimlex:sense "Comparison" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "7"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Opposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "5"; dimlex:sense "Comparison.Pragmatic concession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "19"; dimlex:sense "Comparison.Concession.Contra-expectation" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "44"; dimlex:freq "11"; dimlex:sense "Comparison.Contrast" ] ] ].
+
+  :64_before_and_after a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "before and after"@en; dimlex:orth_id "64o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "phrase";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "1"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous" ] ] ].
+
+  :38_later a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "later"@en; dimlex:orth_id "38o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Later"@en; dimlex:orth_id "38o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "91"; dimlex:freq "89"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "91"; dimlex:freq "1"; dimlex:sense "Expansion.Conjunction" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "91"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ] ].
+
+  :35_rather a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Rather"@en; dimlex:orth_id "35o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "rather"@en; dimlex:orth_id "35o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "5"; dimlex:sense "Expansion.Alternative.Chosen alternative" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "3"; dimlex:sense "Comparison.Contrast" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "1"; dimlex:sense "Comparison.Contrast.Juxtaposition" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "7"; dimlex:sense "Expansion.Restatement.Specification" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "17"; dimlex:freq "1"; dimlex:sense "Expansion.Alternative.Chosen alternative" ] ] ].
+
+  :13_so a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "So"@en; dimlex:orth_id "13o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "so"@en; dimlex:orth_id "13o2"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "CC";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "13"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-MNR";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "48"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "61"; dimlex:sense "Contingency.Cause.Result" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "139"; dimlex:sense "Contingency.Cause.Result" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "263"; dimlex:freq "1"; dimlex:sense "Contingency.Cause.Reason" ] ] ].
+
+  :90_by_then a ontolex:LexicalEntry;
+      ontolex:canonicalForm [ ontolex:writtenRep "by then"@en; dimlex:orth_id "90o1"; dimlex:type "cont"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "By then"@en; dimlex:orth_id "90o2"; dimlex:type "cont"; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:cat "PP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Precedence" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Succession" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "2"; dimlex:sense "Temporal.Synchrony" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "ADVP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "7"; dimlex:freq "1"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
+  :0_once a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ONCE"@en; dimlex:orth_id "0o1"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "Once"@en; dimlex:orth_id "0o2"; dimlex:type "cont"; dimlex:type "single"];
+      ontolex:canonicalForm [ ontolex:writtenRep "once"@en; dimlex:orth_id "0o3"; dimlex:type "cont"; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:cat "ADVP-TMP";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "2"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "RB";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "2"; dimlex:sense "Temporal.Synchrony" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "2"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "38"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ];
+    dimlex:syn [ 
+      dimlex:cat "IN";
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.Hypothetical" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "1"; dimlex:sense "Contingency.Condition.General" ] ];
+      dimlex:sem [ 
+        dimlex:pdtb2_relation [ dimlex:anno_N "84"; dimlex:freq "38"; dimlex:sense "Temporal.Asynchronous.Succession" ] ] ].
+
