@@ -21,13 +21,19 @@ echo -n build $ABox .. 1>&2
 if [ -e $ABox ]; then
 	echo . found $ABox, reusing it 1>&2
 else
-	if [ ! -e $DIMLEX ]; then
-		wget $SRC -O $DIMLEX;
-		wget -nc https://github.com/discourse-lab/Connective-Lex.info/blob/master/Original%20lexicons/LDM-PT/instructions.txt
-	fi;
-
 	if whereis $SAXON | grep ':.*/' >/dev/null; then # found
-		saxon -s:$DIMLEX -xsl:ldm2lemon.xsl > $ABox;
+		if [ ! -e $DIMLEX ]; then
+			wget $SRC -O - | \
+			sed -e s/'\(<[^ >]*\)[0-9][0-9]*'/'\1'/g \
+				-e s/'\(<[\/]*relation\)l'/'\1'/g \
+				-e s/'\(<[\/]*\)dmarkers'/'\1dimlex'/g \
+				-e s/'\(<[\/]*\)dmarker'/'\1entry'/g \
+			| \
+			xmllint --recover - > $DIMLEX
+			wget -nc https://github.com/discourse-lab/Connective-Lex.info/blob/master/Original%20lexicons/LDM-PT/instructions.txt
+		fi;
+
+		$SAXON -s:$DIMLEX -xsl:ldm2lemon.xsl > $ABox;
 	else
 		echo . 1>&2;
 		echo did not find a Saxon executable, get it from http://saxon.sourceforge.net/#F9.8HE and configure the local "$"SAXON variable 1>&2;

@@ -66,12 +66,14 @@ PREFIX : &lt;</xsl:text>
         <xsl:value-of select="string-join(part/text(),' ')"/>
         <xsl:text>"@pt</xsl:text>
         <xsl:for-each select="@*|part/@*">
-            <xsl:if test="name()!='canonical'">
-                <xsl:text>; dimlex:</xsl:text>
-                <xsl:value-of select="name()"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="."/>
-                <xsl:text>"</xsl:text>
+            <xsl:if test="normalize-space(.)!=''">
+                <xsl:if test="name()!='canonical'">
+                    <xsl:text>; dimlex:</xsl:text>
+                    <xsl:value-of select="name()"/>
+                    <xsl:text> "</xsl:text>
+                    <xsl:value-of select="."/>
+                    <xsl:text>"</xsl:text>
+                </xsl:if>
             </xsl:if>
         </xsl:for-each>
         <xsl:text>]</xsl:text>
@@ -91,7 +93,7 @@ PREFIX : &lt;</xsl:text>
     
     <!-- this is a generic XML converter, it does require a root URI as subject  -->    
     <xsl:template match="*">
-      <xsl:if test="exists(.//text()) or exists(./descendant-or-self::*/@*)">
+      <xsl:if test="exists(.//text())">
           <xsl:if test="exists(./preceding-sibling::*[exists(.//text()) or exists(./descendant-or-self::*/@*)])">
             <xsl:text>;</xsl:text>
         </xsl:if>
