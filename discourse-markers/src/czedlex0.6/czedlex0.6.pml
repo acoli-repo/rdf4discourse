@@ -1,5 +1,3 @@
-Archive:  czedlex0.6.zip
-  inflating: czedlex0.6/PML/czedlex0.6.pml  
 <?xml version="1.0" encoding="UTF-8"?>
 <czedlex xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
 <head>
