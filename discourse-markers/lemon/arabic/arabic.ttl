@@ -1,0 +1,3549 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
+
+  :1__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن نتائج كل ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :2__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "خلاصة الامر ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :3__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "حتى لو افترضنا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :4__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفي الواقع ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :5__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفي وقت لاحق"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :6__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن المتوقع"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :7__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن المرجح ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :8__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يضاف الى ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :9__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "باعتبار ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :10__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وجاء في بيان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :11__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وخلاصة الخبر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :12__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن المتوقع"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :13__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن لا يكون"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :14__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مشيراً الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :15__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يمكن القول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :16__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يمكن القول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :17__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اشار الى ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :18__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا وهي ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :19__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الهادفة الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :21__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الى درجة ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :22__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تشير الى ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :23__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على اساس ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :24__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في المقابل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :25__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في غضون ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :26__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مع العلم ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :27__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والنتيجة ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :28__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك قبل ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :29__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن شأن ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :30__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن شأن ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :31__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما في حال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :32__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "باعتبار ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :33__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "خصوصاً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :34__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "داعياً الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :35__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سيكون ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :36__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على خلفية"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :37__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على ما قال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :38__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فضلا عن ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :39__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمن المؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :40__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمن المؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :41__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في الخلاصة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :42__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في حين ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :43__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مع التنويه"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :44__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واستعداداً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :45__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولا بأس إن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :46__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن غير أن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :47__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يعني أن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :48__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يعني أن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :49__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا عندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :50__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الذي أدى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :51__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الى حد ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :53__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "حرصاً على"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :54__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في حين ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :55__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في حين ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :56__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في حين ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Antithetic" ] ] ].
+
+  :57__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في مسعى ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :58__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مطالبين ب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :59__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "معتبرا ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :60__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "من دون أن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :61__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هي الاولى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :62__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واعتبارات"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :63__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وافادت ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :64__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك فيما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :65__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وسرعان ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :66__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفي موضوع"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :67__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ويا للاسف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :68__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "استناداً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :69__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الالتزام"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :70__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الفت الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :71__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما الذي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :72__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما لجهة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :73__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما لجهة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :74__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بما فيها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :75__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تشير الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :76__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على رغم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :77__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فذلك لأن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :78__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فذلك لأن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :79__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمن خلال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :80__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمن خلال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :81__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمن خلال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :82__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "متأكد من"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :83__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مما ادى "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :84__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مما أسفر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :85__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نظرا الى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :86__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأدى ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :87__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبالتالي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :88__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك لما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :89__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولا سيما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :90__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولأي سبب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :91__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولوحظ ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :92__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومما قال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :93__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو الذي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :94__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " فأجاب "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :95__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " قبل ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :96__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "أدت إلى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :98__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اضاف ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :99__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اعتقاده"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :100__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا اذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :101__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا اذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :102__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :103__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الإقرار"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :104__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "النتيجة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :105__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الى ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :106__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الى ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :107__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الى ذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :108__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما اذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :109__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ان تكن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :110__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بالتالي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :111__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بالتالي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :112__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بالنسبة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :113__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحسب ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :114__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بقدر ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :115__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بقدر ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :116__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "علما ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :117__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على أمل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :118__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "على ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :119__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "غير ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :120__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فبينما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :121__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ففي ظل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :122__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فلطالما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :123__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فلطالما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :124__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فها هي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :125__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لا سيما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :126__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لا ينضب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :127__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نتيجة ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :128__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نقول ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :129__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هذا أدى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :130__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هي التي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :131__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واستغرب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :132__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والارجح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :133__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والهدف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :134__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأمل في"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :135__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبما ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :136__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وختاما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :137__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وعندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :138__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفقاً ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :139__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وقال ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :140__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وقائلاً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :141__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وقبل ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :142__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولو كنا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :143__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ونستنتج"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :144__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ونستنتج"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :145__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهذا ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :146__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :147__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو كان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :148__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو كان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :149__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يقال ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :150__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يقول ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :151__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الآتي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :152__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ابلغته"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :153__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اقنعوا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :154__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :155__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الا ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :156__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "السؤال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :157__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اللتين"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :158__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اللذين"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :159__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اما ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Alternation" ] ] ].
+
+  :160__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "انقاذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :161__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بل لان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :162__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بل لان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :163__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بيد ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :164__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تقريره"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :165__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تكريما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :166__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "جوابها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :167__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "حالياً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Antithetic" ] ] ].
+
+  :168__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "دون ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :169__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ذلك ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :170__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ذلك ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :171__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ذلك ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :172__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "رغم ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :173__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "شرط ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :174__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "في وقت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :175__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قائلاً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :176__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قبل ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :177__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ما دام"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :178__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ما دام"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :179__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ما عدا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :180__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "من اجل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :181__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "من دون"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :182__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مولولة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :183__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نتساءل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :184__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هذا هو"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :185__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هذا هو"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :186__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هذا هو"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :187__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واعتبر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :188__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واقترح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :189__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واكثره"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :190__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واكثره"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :191__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والا ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :192__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والذين"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :193__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأهمها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :194__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبعدها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :195__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبينما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :196__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبينها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :197__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وخصوصا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :198__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وطالما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :199__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وعندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :200__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وعندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :201__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفق ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :202__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفي ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :203__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وقبلها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :204__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وكأنما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :205__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولا شك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :206__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولو ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :207__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومن ثم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :208__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ونعتبر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :209__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :210__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :211__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :212__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو ما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :213__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يستبعد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :214__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :215__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وصرح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :216__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :217__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اذ ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :218__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اعتبر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :219__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "إعلان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :220__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "افادت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :221__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الاول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :222__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الذين"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :223__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "القول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :224__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اهمها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :225__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اي ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :226__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اي ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :227__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بداية"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :228__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بدليل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :229__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بعدما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :230__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بينما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :231__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تساءل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :232__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تعترف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :233__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "داعيا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :234__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "دفاعا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :235__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ستكون"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :236__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سرعان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :237__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سعياً"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :238__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "عندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :239__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "عندما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :240__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فأجاب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :241__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فأعلن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :242__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فلعل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :243__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فلنقل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :244__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمعنى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "preo";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :245__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فمعنى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :246__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فيقول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :247__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لا بد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :248__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لا بل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :249__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لذا ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :250__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لكنَّ"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :251__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لماذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :252__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ما لم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :253__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مبررا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :254__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مع ان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :255__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نتيجة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :256__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نعتبر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :257__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نناشد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :258__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واذكر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :259__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واشار"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :260__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واضاف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :261__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واعلن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :262__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وافاد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :263__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :264__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والتي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :265__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والتي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :266__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "والذي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :267__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وانما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :268__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "واوضح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :269__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :270__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :271__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وتلخص"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :272__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وتوقع"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :273__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذكّر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :274__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :275__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :276__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :277__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وطمأن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :278__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وكذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :279__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولاحظ"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :280__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :281__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :282__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :283__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولعله"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :284__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولفتت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :285__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولكي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :286__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولو ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :287__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومنها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :288__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومهما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :289__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومهما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :290__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وناشد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :291__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "الذي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :292__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :293__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :294__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :295__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ويؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :296__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يتذكر"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :297__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يعتقد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :298__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :299__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ابلغ"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :301__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ادلى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :302__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اعلن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :303__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اقول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :304__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "التي"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :305__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "انما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :306__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "انما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :307__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "إنها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :308__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "إنها"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :309__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اوضح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :310__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اولا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :311__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحسب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :312__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :313__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :314__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :315__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :316__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بحيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :317__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بسبب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :318__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بغية"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :319__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بهدف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :320__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تقول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :321__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "تؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :322__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ربما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :323__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " رداً "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :324__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سببه"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :325__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سواء"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Alternation" ] ] ].
+
+  :326__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سواء"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :327__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "سواء"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :328__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "صرّح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :329__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "صوته"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :330__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "طبعا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :331__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "طلبا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :332__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فرأى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :333__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فرحا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :334__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فقال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :335__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :336__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :337__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهمت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :338__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فيما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :339__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فيما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :340__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :341__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لأجل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :342__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :343__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :344__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لسبب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :345__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لولا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :346__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لئلا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :347__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لئلا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :348__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " منعا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :349__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مهما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :350__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مهما"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :351__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ندوة"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :352__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نظرا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :353__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نعرف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :354__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هدف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :355__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هكذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :356__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "هناك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :357__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " هناك "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :358__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " هناك "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :359__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وأدت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :360__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " واذا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :361__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " واكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :362__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :363__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وبعد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :364__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وجاء"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :365__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وختم"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :367__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ودعا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :368__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وذلك"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :369__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ورأى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :370__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وردّ"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :371__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وروى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :372__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وسئل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :373__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وشدد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :374__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وشرح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :375__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وصرح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :376__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وعود"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :377__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وقال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :378__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وكتب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :379__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وكشف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :380__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وكما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :381__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ولان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :382__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :383__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ولذا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :384__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولكن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :385__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولمح"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :386__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ولو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :387__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ولو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :388__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وليس"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Antithetic" ] ] ].
+
+  :389__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولئن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :390__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولئن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :391__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ومما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :392__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ونقل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :393__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :394__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Summary" ] ] ].
+
+  :395__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وهذا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :396__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وهما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :397__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وهو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :398__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " وهي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :399__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ويرى"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :401__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يعرف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :402__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يقول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :403__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "يؤكد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :404__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :405__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ادت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :406__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :407__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " الا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :408__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "اذن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :409__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذن "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Logical consequence" ] ] ].
+
+  :410__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "أضف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :411__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " أضف "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :412__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اكد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :413__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ايا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :414__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " بان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :415__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " بعد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :416__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " بعد"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :417__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :418__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "بما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :419__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :420__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :421__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :422__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :423__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :424__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " حيث"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :425__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " دعا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :426__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " رأى "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :427__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " رغم "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :428__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " رئى "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :429__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " شكا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :430__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " عدا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :431__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " علم "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :432__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "عند"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :433__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " فان"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :434__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فقد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :435__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فقد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :436__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فقد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :437__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :438__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :439__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :440__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "فهي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :441__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قال"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :442__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قبل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "adv";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :443__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قول"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :444__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "قيل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :445__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كتب"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :446__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كشف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :447__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كلا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :448__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :449__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Synchronization" ] ] ].
+
+  :450__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :451__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "كون"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :452__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لذا"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :454__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لفت"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :455__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لكن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Concession" ] ] ].
+
+  :456__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لكي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :457__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :458__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "لئن"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :459__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "مما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :460__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "منذ"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :461__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "نقل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :462__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :463__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :464__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ورد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :465__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفق "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :466__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وفي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Frame" ] ] ].
+
+  :467__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :468__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ولو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :469__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومع "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Background-Flashback" ] ] ].
+
+  :470__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ومع "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :471__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهم "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:E-elaboration" ] ] ].
+
+  :472__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :473__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "وهي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :474__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " يرد "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :475__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " هو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :476__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذ "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :477__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذ "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :478__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذ "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :479__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اذ "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :480__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ام "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Alternation" ] ] ].
+
+  :481__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :482__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ان "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Conditional" ] ] ].
+
+  :483__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " او "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Alternation" ] ] ].
+
+  :484__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " او "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :485__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " أو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Alternation" ] ] ].
+
+  :486__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
+  :487__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " اي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :488__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " بل "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Correction" ] ] ].
+
+  :489__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ثم "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Slow ordering" ] ] ].
+
+  :490__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " لا "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Opposition:Contrast" ] ] ].
+
+  :491__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ظن "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Commentary" ] ] ].
+
+  :492__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ظن "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Attribution" ] ] ].
+
+  :493__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " كي "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :494__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " ما "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "csu";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :495__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " هو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Specification" ] ] ].
+
+  :496__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep " هو "@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "other";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :497__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "و"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Continuation" ] ] ].
+
+  :498__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "و"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :499__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "و"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "cco";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Structural:Parallel" ] ] ].
+
+  :500__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :501__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :502__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Goal" ] ] ].
+
+  :503__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ل"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :504__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :505__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :506__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :507__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Description" ] ] ].
+
+  :508__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :509__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Explanation" ] ] ].
+
+  :510__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Causal:Cause-effect:Result" ] ] ].
+
+  :511__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Temporal:Temporal Ordering:Quick ordering" ] ] ].
+
+  :512__ a ontolex:LexicalEntry;
+      ontolex:lexicalForm [ ontolex:writtenRep "ف"@ar; dimlex:type "discursif"];
+    dimlex:syn [ 
+      dimlex:cat "prep";
+      dimlex:sem [ 
+        dimlex:arabic_relation [ dimlex:sense "Thematic:Elaboration:Definition" ] ] ].
+
