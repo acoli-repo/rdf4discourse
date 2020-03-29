@@ -106,11 +106,11 @@ of the circumstances described by Arg2. (p.27)</rdfs:comment>
     
 
 
-    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negCond -->
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negcond -->
 
-    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negCond">
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negcond">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition"/>
-        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg1-as-negCond is used when Arg1 describes the
+        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg1-as-negcond is used when Arg1 describes the
 antecedent and Arg2, the consequent. (p.23)</rdfs:comment>
     </owl:Class>
     
@@ -194,11 +194,11 @@ of the circumstances described by Arg1. (p.27)</rdfs:comment>
     
 
 
-    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negCond -->
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negcond -->
 
-    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negCond">
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negcond">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition"/>
-        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg2-as-negCond is used when Arg2 describes the
+        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg2-as-negcond is used when Arg2 describes the
 antecedent (aka condition) and Arg1, the consequent. (p.23)</rdfs:comment>
     </owl:Class>
     
@@ -242,11 +242,11 @@ claim given in Arg2. (p.21)</rdfs:comment>
 
     <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
-        <rdfs:comment xml:lang="en">The tag Comparison is used when the discourse relation between two arguments highlights their dierences
-or similarities, including dierences between expected consequences and actual ones. The PDTB-3
+        <rdfs:comment xml:lang="en">The tag Comparison is used when the discourse relation between two arguments highlights their differences
+or similarities, including differences between expected consequences and actual ones. The PDTB-3
 sense hierarchy distinguishes three types of Comparison: Contrast, Similarity and Concession.
 Similarity, the opposite of Contrast, had not been included in the PDTB-2 sense hierarchy. Of the
-other two, Contrast is meant to be used when at least two dierences between Arg1 and Arg2 are
+other two, Contrast is meant to be used when at least two differences between Arg1 and Arg2 are
 highlighted, while Concession is meant to be used when a causal relation expected on the basis of one
 argument is cancelled or denied by the situation described in the other. (p.23)</rdfs:comment>
     </owl:Class>
@@ -258,7 +258,7 @@ argument is cancelled or denied by the situation described in the other. (p.23)<
     <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
         <rdfs:comment xml:lang="en">The tag Contingency is used when the situation described by one argument provides the reason,
-explanation or justication for the situation described by the other. (p.19)</rdfs:comment>
+explanation or justification for the situation described by the other. (p.19)</rdfs:comment>
     </owl:Class>
     
 
@@ -304,7 +304,7 @@ they convey. The default is their semantics. (p.22)</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
         <rdfs:comment xml:lang="en">Expansion.Conjunction The tag Conjunction is used when both arguments bear the same relation
 to some other situation evoked in the discourse. It indicates that the two arguments make the same
-contribution with respect to that situation, or contribute to it together. It diers from most other
+contribution with respect to that situation, or contribute to it together. It differs from most other
 relations in that the arguments don&apos;t directly relate to each other, but to this other situation. (p.25)</rdfs:comment>
     </owl:Class>
     
@@ -314,7 +314,7 @@ relations in that the arguments don&apos;t directly relate to each other, but to
 
     <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Contrast">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON"/>
-        <rdfs:comment xml:lang="en">Comparison.Contrast As noted, Contrast is used when at least two dierences between Arg1 and
+        <rdfs:comment xml:lang="en">Comparison.Contrast As noted, Contrast is used when at least two differences between Arg1 and
 Arg2 are highlighted. (p.25)</rdfs:comment>
     </owl:Class>
     
@@ -348,7 +348,7 @@ forward. (p.25)</rdfs:comment>
     <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Equivalence">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
         <rdfs:comment xml:lang="en">Expansion.Equivalence This tag is used when both arguments are taken to describe the same situation,
-but from dierent perspectives. (p.26)</rdfs:comment>
+but from different perspectives. (p.26)</rdfs:comment>
     </owl:Class>
     
 
@@ -401,7 +401,7 @@ Condition) is taken to hold as well. (p.28)</rdfs:comment>
     <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#NegResult">
         <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause"/>
         <rdfs:comment xml:lang="en">the label Contingency.Cause.negResult is used when Arg1 gives the reason, explanation or
-justication that prevents the eect mentioned in Arg2. It was specically introduced for the lexicosyntactic
+justification that prevents the effect mentioned in Arg2. It was specifically introduced for the lexicosyntactic
 construction too X to Y (cf. Section 2.7.2) (p.20)</rdfs:comment>
     </owl:Class>
     
@@ -497,7 +497,7 @@ in the hierarchy for completeness. (p.23)
 
 Comparison.Concession+SpeechAct This tag is used when the speech act (SA) associated with
 one argument is cancelled or denied by the other argument or its SA. The only sub-type for which tokens
-have been identied is Comparison.Concession+SpeechAct.Arg2-as-denier+SA, where it is the
+have been identified is Comparison.Concession+SpeechAct.Arg2-as-denier+SA, where it is the
 SA associated with Arg1 that is cancelled or denied by Arg2 or its associated SA. (N.B. The SA that is
 cancelled MUST be implicit.) (p.24)</rdfs:comment>
     </owl:Class>
@@ -541,9 +541,54 @@ events described by the arguments. All forms of overlap are included. (p.18)</rd
         <rdfs:comment xml:lang="en">The tag temporal is used when the situations described in the arguments are intended to be related
 temporally. (p.18)</rdfs:comment>
     </owl:Class>
+
+	
+	
+
+
+
+<COMPARISON rdf:about="#comparison"><rdfs:label>COMPARISON</rdfs:label></COMPARISON>
+<Concession rdf:about="#concession"><rdfs:label>COMPARISON:Concession</rdfs:label></Concession>
+<Arg1-as-denier rdf:about="#arg1-as-denier"><rdfs:label>COMPARISON:Concession:Arg1-as-denier</rdfs:label></Arg1-as-denier>
+<Arg2-as-denier rdf:about="#arg2-as-denier"><rdfs:label>COMPARISON:Concession:Arg2-as-denier</rdfs:label></Arg2-as-denier>
+<Contrast rdf:about="#contrast"><rdfs:label>COMPARISON:Contrast</rdfs:label></Contrast>
+<Similarity rdf:about="#similarity"><rdfs:label>COMPARISON:Similarity</rdfs:label></Similarity>
+<CONTINGENCY rdf:about="#contingency"><rdfs:label>CONTINGENCY</rdfs:label></CONTINGENCY>
+<Cause rdf:about="#cause"><rdfs:label>CONTINGENCY:Cause</rdfs:label></Cause>
+<Reason rdf:about="#reason"><rdfs:label>CONTINGENCY:Cause:Reason</rdfs:label></Reason>
+<Result rdf:about="#result"><rdfs:label>CONTINGENCY:Cause:Result</rdfs:label></Result>
+<Condition rdf:about="#condition"><rdfs:label>CONTINGENCY:Condition</rdfs:label></Condition>
+<Arg1-as-cond rdf:about="#arg1-as-cond"><rdfs:label>CONTINGENCY:Condition:Arg1-as-cond</rdfs:label></Arg1-as-cond>
+<Arg2-as-cond rdf:about="#arg2-as-cond"><rdfs:label>CONTINGENCY:Condition:Arg2-as-cond</rdfs:label></Arg2-as-cond>
+<Negative-condition rdf:about="#negative-condition"><rdfs:label>CONTINGENCY:Negative-condition</rdfs:label></Negative-condition>
+<Arg1-as-negcond rdf:about="#arg1-as-negcond"><rdfs:label>CONTINGENCY:Negative-condition:Arg1-as-negcond</rdfs:label></Arg1-as-negcond>
+<Arg2-as-negcond rdf:about="#arg2-as-negcond"><rdfs:label>CONTINGENCY:Negative-condition:Arg2-as-negcond</rdfs:label></Arg2-as-negcond>
+<Purpose rdf:about="#purpose"><rdfs:label>CONTINGENCY:Purpose</rdfs:label></Purpose>
+<Arg1-as-goal rdf:about="#arg1-as-goal"><rdfs:label>CONTINGENCY:Purpose:Arg1-as-goal</rdfs:label></Arg1-as-goal>
+<Arg2-as-goal rdf:about="#arg2-as-goal"><rdfs:label>CONTINGENCY:Purpose:Arg2-as-goal</rdfs:label></Arg2-as-goal>
+<EXPANSION rdf:about="#expansion"><rdfs:label>EXPANSION</rdfs:label></EXPANSION>
+<Conjunction rdf:about="#conjunction"><rdfs:label>EXPANSION:Conjunction</rdfs:label></Conjunction>
+<Disjunction rdf:about="#disjunction"><rdfs:label>EXPANSION:Disjunction</rdfs:label></Disjunction>
+<Equivalence rdf:about="#equivalence"><rdfs:label>EXPANSION:Equivalence</rdfs:label></Equivalence>
+<Exception rdf:about="#exception"><rdfs:label>EXPANSION:Exception</rdfs:label></Exception>
+<Arg1-as-excpt rdf:about="#arg1-as-excpt"><rdfs:label>EXPANSION:Exception:Arg1-as-excpt</rdfs:label></Arg1-as-excpt>
+<Arg2-as-excpt rdf:about="#arg2-as-excpt"><rdfs:label>EXPANSION:Exception:Arg2-as-excpt</rdfs:label></Arg2-as-excpt>
+<Instantiation rdf:about="#instantiation"><rdfs:label>EXPANSION:Instantiation</rdfs:label></Instantiation>
+<Level-of-detail rdf:about="#level-of-detail"><rdfs:label>EXPANSION:Level-of-detail</rdfs:label></Level-of-detail>
+<Arg1-as-detail rdf:about="#arg1-as-detail"><rdfs:label>EXPANSION:Level-of-detail:Arg1-as-detail</rdfs:label></Arg1-as-detail>
+<Arg2-as-detail rdf:about="#arg2-as-detail"><rdfs:label>EXPANSION:Level-of-detail:Arg2-as-detail</rdfs:label></Arg2-as-detail>
+<Manner rdf:about="#manner"><rdfs:label>EXPANSION:Manner</rdfs:label></Manner>
+<Arg1-as-manner rdf:about="#arg1-as-manner"><rdfs:label>EXPANSION:Manner:Arg1-as-manner</rdfs:label></Arg1-as-manner>
+<Arg2-as-manner rdf:about="#arg2-as-manner"><rdfs:label>EXPANSION:Manner:Arg2-as-manner</rdfs:label></Arg2-as-manner>
+<Arg1-as-detail rdf:about="#arg1-as-detail"><rdfs:label>EXPANSION:Specification:Arg1-as-detail</rdfs:label></Arg1-as-detail>
+<Arg2-as-detail rdf:about="#arg2-as-detail"><rdfs:label>EXPANSION:Specification:Arg2-as-detail</rdfs:label></Arg2-as-detail>
+<Substitution rdf:about="#substitution"><rdfs:label>EXPANSION:Substitution</rdfs:label></Substitution>
+<Arg1-as-subst rdf:about="#arg1-as-subst"><rdfs:label>EXPANSION:Substitution:Arg1-as-subst</rdfs:label></Arg1-as-subst>
+<Arg2-as-subst rdf:about="#arg2-as-subst"><rdfs:label>EXPANSION:Substitution:Arg2-as-subst</rdfs:label></Arg2-as-subst>
+<TEMPORAL rdf:about="#temporal"><rdfs:label>TEMPORAL</rdfs:label></TEMPORAL>
+<Asynchronous rdf:about="#asynchronous"><rdfs:label>TEMPORAL:Asynchronous</rdfs:label></Asynchronous>
+<Precedence rdf:about="#precedence"><rdfs:label>TEMPORAL:Asynchronous:Precedence</rdfs:label></Precedence>
+<Succession rdf:about="#succession"><rdfs:label>TEMPORAL:Asynchronous:Succession</rdfs:label></Succession>
+<Synchronous rdf:about="#synchronous"><rdfs:label>TEMPORAL:Synchronous</rdfs:label></Synchronous>
+
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
