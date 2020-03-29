@@ -1,0 +1,99 @@
+# word	discmar relation	PDTB relation	tentative assessment	comment
+against	(vague)			
+and	(vague)			
+at	(vague)			
+in	(vague)			
+neither	(vague)			
+nor	(vague)			
+or	(vague)			
+that	(vague)			
+to	(vague)			
+with	(vague)			
+without	(vague)			
+as a consequence	cause		Contingency.Cause	
+because of	cause		Contingency.Cause	
+because	cause	Contingency.Cause.Reason	Contingency.Cause	
+due to	cause		Contingency.Cause	
+for this reason	cause		Contingency.Cause	
+given that	cause		Contingency.Cause	
+in case	cause		Contingency.Cause	
+in conclusion	cause		Contingency.Cause	
+in effect	cause		Contingency.Cause	
+in order to	cause		Contingency.Cause	
+so that	cause	Contingency.Cause.Result	Contingency.Cause	
+so	cause	Contingency.Cause.Result	Contingency.Cause	
+thanks to	cause		Contingency.Cause	
+that's why	cause		Contingency.Cause	
+thus	cause	Contingency.Cause.Result	Contingency.Cause	
+since	cause, context	Contingency.Cause.Reason, Temporal.Asynchronous.Succession		
+about	context		Temporal	DiscMar "context" is broader than PDTB temporal, can also include spatial or circumstantial context
+after	context	Temporal.Asynchronous.Succession	Temporal	
+as soon as	context	Temporal.Asynchronous.Succession, Temporal.Synchrony	Temporal	
+at the same time	context		Temporal	
+before	context	Temporal.Asynchronous.Precedence	Temporal	
+between	context		Temporal	
+by means of	context		Temporal	
+considering	context		Temporal	
+during	context		Temporal	
+far from	context		Temporal	
+following	context		Temporal	
+for the moment	context		Temporal	
+if	context	Temporal.Asynchronous.Succession	Temporal	
+in accordance with	context		Temporal	
+in any case	context		Temporal	
+in that case	context		Temporal	
+no doubt	context		Temporal	
+originally	context		Temporal	
+over	context		Temporal	
+provided that	context		Temporal	
+then	context	Temporal.Asynchronous.Precedence	Temporal	
+towards	context		Temporal	
+unless	context	Expansion.Alternative.Disjunctive	Temporal	
+until	context	Temporal.Asynchronous.Precedence	Temporal	
+when	context	Temporal.Synchrony	Temporal	
+whenever	context		Temporal	
+where	context		Temporal	
+while	context	Comparison.Contrast.Juxtaposition, Temporal.Synchrony	Temporal	
+with respect to	context		Temporal	
+first of all	context, equality			
+to begin with	context, equality			
+above all	equality		Expansion	
+also	equality	Expansion.Conjunction	Expansion	
+besides	equality	Expansion.Conjunction	Expansion	
+but also	equality		Expansion	
+by the way	equality		Expansion	
+essentially	equality		Expansion	
+for example	equality	Expansion.Instantiation	Expansion	
+in comparison	equality		Expansion	
+in other words	equality	Expansion.Restatement.Equivalence	Expansion	
+in particular	equality	Expansion.Restatement.Specification	Expansion	
+in short	equality	Expansion.Restatement.Generalization	Expansion	
+in sum	equality	Expansion.Restatement.Generalization	Expansion	
+incluso	equality		Expansion	
+lastly	equality		Expansion	
+moreover	equality	Expansion.Conjunction	Expansion	
+not only	equality		Expansion	
+on the one hand	equality	Comparison.Contrast	Expansion	
+on the other hand	equality	Comparison.Contrast	Expansion	
+precisely	equality		Expansion	
+specially	equality		Expansion	
+specifically	equality	Expansion.Restatement.Specification	Expansion	
+such as	equality		Expansion	
+that is to say	equality		Expansion	
+what's more	equality		Expansion	
+like	equality, context, cause			
+actually	revision		Comparison	either PTDB contrast or concession
+although	revision	Comparison.Concession.Expectation, Comparison.Contrast	Comparison	either PTDB contrast or concession
+anyway	revision		Comparison	either PTDB contrast or concession
+but	revision	Comparison.Contrast.Juxtaposition	Comparison	either PTDB contrast or concession
+despite	revision		Comparison	either PTDB contrast or concession
+even though	revision		Comparison	either PTDB contrast or concession
+except	revision	Expansion.Exception	Comparison	either PTDB contrast or concession
+however	revision	Comparison.Contrast	Comparison	either PTDB contrast or concession
+in fact	revision	Expansion.Restatement.Specification, Expansion.Conjunction	Comparison	either PTDB contrast or concession
+in spite of	revision		Comparison	either PTDB contrast or concession
+it is true that	revision		Comparison	either PTDB contrast or concession
+nevertheless	revision	Comparison.Concession.Contra-expectation, Comparison.Contrast	Comparison	either PTDB contrast or concession
+on the contrary	revision	Comparison.Contrast	Comparison	either PTDB contrast or concession
+the fact is	revision		Comparison	either PTDB contrast or concession
+well now	revision		Comparison	either PTDB contrast or concession
