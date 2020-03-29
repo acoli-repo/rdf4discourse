@@ -128,7 +128,7 @@ PREFIX : &lt;</xsl:text>
                     <xsl:value-of select="."/>
                     <xsl:text>"</xsl:text>
                 </xsl:for-each>
-                <xsl:if test="name()='pdtb3_relation'">
+                <xsl:if test="name()='pdtb3_relation' or name()='arabic_relation'">
                     <xsl:text>;&#10;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
