@@ -128,13 +128,15 @@ PREFIX : &lt;</xsl:text>
                     <xsl:value-of select="."/>
                     <xsl:text>"</xsl:text>
                 </xsl:for-each>
-                <xsl:if test="name()='pdtb3_relation' or name()='arabic_relation'">
+                <xsl:if test="ends-with(name(),'_relation')">
                     <xsl:text>;&#10;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
                     <xsl:call-template name="entry-resource"/>
-                    <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-                    <xsl:value-of select="@sense"/>
+                    <xsl:if test="name()='pdtb3_relation'">
+                        <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
+                        <xsl:value-of select="@sense"/>
+                    </xsl:if>
                 </xsl:if>
                 <xsl:text> ]</xsl:text>
             </xsl:otherwise>
