@@ -109,22 +109,26 @@ PREFIX : &lt;</xsl:text>
     <!-- instead of dimlex:pdtb3_relation, namming conventions adapted to DimLex -->
     <xsl:template match="coh-relation">
       <xsl:if test="exists(./text()[normalize-space(.)!=''])">
+		<xsl:variable name="relation" select="normalize-space(string-join(text(),' '))"/>
+	  
         <xsl:if test="exists(./preceding-sibling::*[exists(.//text()) or exists(./descendant-or-self::*/@*)])">
             <xsl:text>;</xsl:text>
         </xsl:if>
         <xsl:text>&#10;</xsl:text>
         <xsl:call-template name="get-indent"/>
-        <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
+        <xsl:text> dimlex:sense "</xsl:text>
+		<xsl:value-of select="$relation"/>
+        <xsl:text>"; ontolex:isSenseOf </xsl:text>
         <xsl:call-template name="entry-resource"/>
-        <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-        <xsl:value-of select="
+		<xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
+		<xsl:value-of select="
+		    replace(
             replace(
             replace(
-            replace(
-            lower-case(replace(string-join(text(),''),'\(.*','')),
+            lower-case(replace($relation,'\(.*','')),
             ' ',''),
             '.*:([^a]|a[^r]|ar[^g]|arg[^0-9])','$1'),
-            '[: ]+','-')"/>
+            '[: ]+','-')"/>       
       </xsl:if>
     </xsl:template>
     
