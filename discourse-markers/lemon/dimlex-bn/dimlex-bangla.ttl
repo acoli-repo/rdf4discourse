@@ -1,0 +1,1648 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
+
+  :c1__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "previously/before";
+      ontolex:canonicalForm [ ontolex:writtenRep "আগে"@bn; dimlex:type "cont"; dimlex:onr "2o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আমি তোমাকে আগে কখনো দেখি নি|";
+      dimlex:english_example_equivalent "I've never seen you before." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Precedence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c1__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Precedence ];
+        dimlex:example "আমি জার্মানি যাওয়ার আগে নিউ ইয়র্ক ঘুরতে যাওয়ার পরিকল্পনা করছি|";
+        dimlex:english_equivalent "Before going to Germany, I am planning to visit New York." ] ].
+
+  :c2__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "before";
+      ontolex:canonicalForm [ ontolex:writtenRep "আগে"@bn; dimlex:type "cont"; dimlex:onr "3o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Precedence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c2__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Precedence ];
+        dimlex:example "আমি সাতটার সময় বাড়িতে ফিরলাম| তার আগে বাজারে গেছিলাম|";
+        dimlex:english_equivalent "I returned home at 7 o'clock. Before that, I went to the market." ] ].
+
+  :c3__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "therefore";
+      ontolex:canonicalForm [ ontolex:writtenRep "অতএব"@bn; dimlex:type "cont"; dimlex:onr "4o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c3__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "পরীক্ষা এসে গেছে; অতএব তোমার পড়াশুনা করা উচিত|";
+        dimlex:english_equivalent "Exam has arrived; therefore, you should be studying." ] ].
+
+  :c4__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "but";
+      ontolex:canonicalForm [ ontolex:writtenRep "কিন্তু"@bn; dimlex:type "cont"; dimlex:onr "5o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "তুমি কিন্তু রান্নাটা ভালই করো|";
+      dimlex:english_example_equivalent "You cook well." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Contrast";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c4__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Contrast ];
+        dimlex:example "গত বাজেটে পেট্রলের দাম বেড়েছে; কিন্তু, কিছু গাড়ির দাম কমেছে|";
+        dimlex:english_equivalent "In the last Budget, the price of petrol has gone up; but, the prices of some cars have gone down." ] ].
+
+  :c5__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "or";
+      ontolex:canonicalForm [ ontolex:writtenRep "অথবা"@bn; dimlex:type "cont"; dimlex:onr "6o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "প্রশ্নপত্রে প্রতিটি প্রশ্নই অনিবার্য; কোন অথবা থাকবে না|";
+      dimlex:english_example_equivalent "Every question is compulsory in the question paper; there will be no alternatives." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Disjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c5__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Disjunction ];
+        dimlex:example "কিছু শিক্ষিত ব্যক্তি বেকার অথবা মৌলিক চাহিদাগুলো মেটানোর মতো যথেষ্ট আয় করে না|";
+        dimlex:english_equivalent "Some educated people are unemployed or do not earn enough to meet basic needs." ] ].
+
+  :c6__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "and";
+      ontolex:canonicalForm [ ontolex:writtenRep "এবং"@bn; dimlex:type "cont"; dimlex:onr "7o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "তুমি এবং আমি মেলায় যাব|";
+      dimlex:english_example_equivalent "You and I will go to the fair." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c6__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "যদি আমার সময় থাকে এবং সুযোগ হয়, তাহলে তোমার সাথে দেখা করব|";
+        dimlex:english_equivalent "If I get the time and have the opportunity, I will meet you." ] ].
+
+  :c7__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "despite";
+      ontolex:canonicalForm [ ontolex:writtenRep "সত্ত্বেও"@bn; dimlex:type "cont"; dimlex:onr "8o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c7__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "ছেলেটি অসুস্থ থাকা সত্ত্বেও স্কুলে এসেছিল|";
+        dimlex:english_equivalent "The boy came to school despite being ill ." ] ].
+
+  :c8__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "despite";
+      ontolex:canonicalForm [ ontolex:writtenRep "সত্ত্বেও"@bn; dimlex:type "cont"; dimlex:onr "9o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c8__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "ছেলেটি অসুস্থ| তা সত্ত্বেও, সে স্কুলে এসেছিল|";
+        dimlex:english_equivalent "The boy is ill. Inspite of that, he came to school." ] ].
+
+  :c9__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "for/in order to";
+      ontolex:canonicalForm [ ontolex:writtenRep "জন্য"@bn; dimlex:type "cont"; dimlex:onr "10o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "এই উপহারটি তোমার জন্য|";
+      dimlex:english_example_equivalent "This gift is for you." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Purpose";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c9__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Purpose ];
+        dimlex:example "পরীক্ষায় ভালো ফল করার জন্য সে মন দিয়ে পড়ছে|";
+        dimlex:english_equivalent "In order to score good marks in the test, he is studying wholeheartedly." ] ].
+
+  :c10__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "due to (this/that)";
+      ontolex:canonicalForm [ ontolex:writtenRep "জন্য"@bn; dimlex:type "cont"; dimlex:onr "11o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c10__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "তুমি আজ প্রথমবার এখানে এলে| সেইজন্য একটু মিষ্টি এনেছি|";
+        dimlex:english_equivalent "You came here for the first time. That is why, I bought some sweets." ] ].
+
+  :c11__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "because of";
+      ontolex:canonicalForm [ ontolex:writtenRep "কারণে"@bn; dimlex:type "cont"; dimlex:onr "12o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c11__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "আজ বৃষ্টি হওয়ার কারণে কলকাতার তাপমাত্রা কিছুটা কমল|";
+        dimlex:english_equivalent "Because it rained today, the temperatue in Kolkata went down." ] ].
+
+  :c12__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "so";
+      ontolex:canonicalForm [ ontolex:writtenRep "কারণে"@bn; dimlex:type "cont"; dimlex:onr "13o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Reason";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c12__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Reason ];
+        dimlex:example "এখানে গঙ্গা একটি সরু নদীধারার মতো| সেই কারণে আমি সহজেই সেইটি পেরিয়ে যেতে পারলাম|";
+        dimlex:english_equivalent "Here the Ganges is like a narrow stream. So, I could easily pass it." ] ].
+
+  :c13__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "after";
+      ontolex:canonicalForm [ ontolex:writtenRep "পরে"@bn; dimlex:type "cont"; dimlex:onr "14o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "পর"@bn; dimlex:type "cont"; dimlex:onr "14o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আমার পরে তোমার ডাক আসবে|";
+      dimlex:english_example_equivalent "You will be called after me." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Succession";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c13__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Succession ];
+        dimlex:example "ফিরে আসার পরে আমায় জানিও|";
+        dimlex:english_equivalent "Let me know after you return." ] ].
+
+  :c14__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "after";
+      ontolex:canonicalForm [ ontolex:writtenRep "পরে"@bn; dimlex:type "cont"; dimlex:onr "15o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "পর"@bn; dimlex:type "cont"; dimlex:onr "15o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Succession";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c14__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Succession ];
+        dimlex:example "আমি আগে কাজ শেষ করবো| তারপরে, বাইরে ঘুরতে যাবো|";
+        dimlex:english_equivalent "First, I would finish the job. After that, I will go out for a trip." ] ].
+
+  :c15__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "besides";
+      ontolex:canonicalForm [ ontolex:writtenRep "ছাড়া"@bn; dimlex:type "cont"; dimlex:onr "16o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "ছাড়াও"@bn; dimlex:type "cont"; dimlex:onr "16o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "শনিবার ছাড়া আমি রোজ গান শিখতে যেতাম|";
+      dimlex:english_example_equivalent "I went for music lessons everyday, except on Saturdays ." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c15__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "চাকরি পাওয়ার ক্ষেত্রে, অভিজ্ঞতা সঞ্চয় করা ছাড়া পারদর্শি হওয়াও প্রয়োজনীয়|";
+        dimlex:english_equivalent "In order to get a job, besides acquirig experience, being adept is also necesssary." ] ].
+
+  :c16__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "besides";
+      ontolex:canonicalForm [ ontolex:writtenRep "ছাড়া"@bn; dimlex:type "cont"; dimlex:onr "17o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "ছাড়াও"@bn; dimlex:type "cont"; dimlex:onr "17o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c16__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "এই চাকরি করার জন্য তার যোগ্যতা নেই| তাছাড়া তিনি কম্পিউটারের ব্যবহারই জানেন না|";
+        dimlex:english_equivalent "He is not qualified to do this job. Besides that, he doesn't even know the use of computers." ] ].
+
+  :c17__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "yet";
+      ontolex:canonicalForm [ ontolex:writtenRep "তবু"@bn; dimlex:type "cont"; dimlex:onr "18o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "তবুও"@bn; dimlex:type "cont"; dimlex:onr "18o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c17__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "ছেলেটি খুব বড়লোক; তবু সে সুখি নয়|";
+        dimlex:english_equivalent "The boy is very rich; yet he is not happy." ] ].
+
+  :c18__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "or";
+      ontolex:canonicalForm [ ontolex:writtenRep "না"@bn; dimlex:type "cont"; dimlex:onr "19o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "তুমি না আজ যেও না|";
+      dimlex:english_example_equivalent "Please don't go today.";
+      dimlex:example "কে যাবে, তুমি না আমি?";
+      dimlex:english_example_equivalent "Who will go, you or I?" ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Disjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c18__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Disjunction ];
+        dimlex:example "আমি থাকবো না চলে যাবো?|";
+        dimlex:english_equivalent "Should I stay or should I go?" ] ].
+
+  :c19__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "except";
+      ontolex:canonicalForm [ ontolex:writtenRep "বাদে"@bn; dimlex:type "cont"; dimlex:onr "20o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "বাদেও"@bn; dimlex:type "cont"; dimlex:onr "20o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "রবিবার বাদে আমাদের দোকান রোজ খোলা থাকে|";
+      dimlex:english_example_equivalent "Our store is open everyday, except on Sunadys." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c19__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "এই কাজটা করা বাদে আর কোনো উপায় নেই|";
+        dimlex:english_equivalent "There is no other way than doing this task." ] ].
+
+  :c20__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "other than";
+      ontolex:canonicalForm [ ontolex:writtenRep "বাদে"@bn; dimlex:type "cont"; dimlex:onr "21o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Exapnansion:Exception";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c20__; ontolex:isLexicalizedSenseOf pdtb3:Exapnansion:Exception ];
+        dimlex:example "শচীন আজ শতরান করেন; এ বাদে আর কেউই সফল হননি|";
+        dimlex:english_equivalent "Sachin has scored a century today; except this, no one was successful." ] ].
+
+  :c21__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "over all";
+      ontolex:canonicalForm [ ontolex:writtenRep "মোটের উপর"@bn; dimlex:type "cont"; dimlex:onr "22o1"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep ""@bn; dimlex:type "cont"; dimlex:onr "22o2"; dimlex:type "cont"];
+      ontolex:otherForm [ ontolex:writtenRep "মোটের ওপর"@bn; dimlex:type "cont"; dimlex:onr "22o3"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification:Summarization";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c21__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification:Summarization ];
+        dimlex:example "সে অঙ্কে একশো, ইংরেজিতে আশি এবং বিজ্ঞানে নব্বই পেয়েছে| মোটের উপর, তার পরিক্ষার ফল ভালো হয়েছে|";
+        dimlex:english_equivalent "She got 100 in Mathematics, 80 in English and 90 in Science. Overall, her exam result was good." ] ].
+
+  :c22__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "therefore";
+      ontolex:canonicalForm [ ontolex:writtenRep "অর্থাৎ"@bn; dimlex:type "cont"; dimlex:onr "23o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause-Belief:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c22__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause-Belief:Result ];
+        dimlex:example "খুনের সময় রাম শহরে ছিল না। অর্থাৎ, ওঁর খুন করার সম্ভবনা নেই বললেই চলে|";
+        dimlex:english_equivalent "During the time of the murder Ram was not in the town. Therefore, it is quite unlikely for him committing the murder." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Equivalence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c22__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Equivalence ];
+        dimlex:example "রাম সেই সময় দেশে ছিলনা| অর্থাৎ, সে তখন বিদেশে গেছিল|";
+        dimlex:english_equivalent "Ram was not in the country at the time. In other words, he went abroad at that time." ] ].
+
+  :c23__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "for example";
+      ontolex:canonicalForm [ ontolex:writtenRep "উদাহরণস্বরূপ"@bn; dimlex:type "cont"; dimlex:onr "24o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Instantiation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c23__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Instantiation ];
+        dimlex:example "ভিটামিন সি রঙিন সবজির মধ্যে পাওয়া যায়| উদাহরণস্বরূপ, টমেটোতে প্রচুর ভিটামিন সি আছে|";
+        dimlex:english_equivalent "Vitamin C is found in colorful vegetables. For example/ For instance, tomatoes have a lot of vitamin C." ] ].
+
+  :c24__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "instead";
+      ontolex:canonicalForm [ ontolex:writtenRep "পরিবর্তে"@bn; dimlex:type "cont"; dimlex:onr "25o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "কোহলির পরিবর্তে আজ রোহিত অধিনায়াকত্ব করবেন|";
+      dimlex:english_example_equivalent "Rohit will lead today in place of Kohli." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Substitution";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c24__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Substitution ];
+        dimlex:example "সলমন খান আজ পুলিশের সামনে হাজিরা দিতে আসেননি| পরিবর্তে, উনি ওঁর উকিলকে পাঠিয়েছেন|";
+        dimlex:english_equivalent "Salman Khan did not appear before the police. Instead, he sent his lawyer." ] ].
+
+  :c25__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "rather";
+      ontolex:canonicalForm [ ontolex:writtenRep "বরং"@bn; dimlex:type "cont"; dimlex:onr "26o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep ""@bn; dimlex:type "cont"; dimlex:onr "26o2"; dimlex:type "cont"];
+      ontolex:otherForm [ ontolex:writtenRep "বরঞ্চ"@bn; dimlex:type "cont"; dimlex:onr "26o3"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Contrast";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c25__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Contrast ];
+        dimlex:example "আজ সেখানে যেও না। বরং, কাল যেও।";
+        dimlex:english_equivalent "Don't go there today. Rather, go there tomorrow." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Substitution";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c25__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Substitution ];
+        dimlex:example "ও আমাকে ভুল কিছু বলেনি| বরং, ঠিক পরামর্শই দিয়েছে|";
+        dimlex:english_equivalent "He did not tell me anything wrong. Rather, he gave me the right advice." ] ].
+
+  :c26__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "although";
+      ontolex:canonicalForm [ ontolex:writtenRep "যদিও"@bn; dimlex:type "cont"; dimlex:onr "27o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c26__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "যদিও সে পড়াশুনা করেনি, তার পরিক্ষায় ভাল ফল হয়েছে|";
+        dimlex:english_equivalent "Although he didn't study, his exam result was good." ] ].
+
+  :c27__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "if not";
+      ontolex:canonicalForm [ ontolex:writtenRep "যদি না"@bn; dimlex:type "cont"; dimlex:onr "28o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative Condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c27__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative Condition ];
+        dimlex:example "আমি দুঃখ পাব যদি না সে এই সময় আমার পাশে থাকে|";
+        dimlex:english_equivalent "I'll feel bad if he doesn’t stay by my side at this time." ] ].
+
+  :c28__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as a result";
+      ontolex:canonicalForm [ ontolex:writtenRep "ফলত"@bn; dimlex:type "cont"; dimlex:onr "29o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c28__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "তুমি ঠিকঠাক কাজ করনি| ফলত তোমায় ভুগতে হবে|";
+        dimlex:english_equivalent "You did not work properly. As a result, you have to suffer." ] ].
+
+  :c29__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "otherwise";
+      ontolex:canonicalForm [ ontolex:writtenRep "না হলে"@bn; dimlex:type "cont"; dimlex:onr "30o1"; dimlex:type "phrasal"];
+      ontolex:otherForm [ ontolex:writtenRep "নইলে"@bn; dimlex:type "cont"; dimlex:onr "30o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative Condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c29__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative Condition ];
+        dimlex:example "আমার সাথে চল| না হলে আমি যাবো না|";
+        dimlex:english_equivalent "Come with me. Otherwise, I won't go." ] ].
+
+  :c30__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "since";
+      ontolex:canonicalForm [ ontolex:writtenRep "যেহেতু-সেহেতু"@bn; dimlex:type "discont"; dimlex:onr "31o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c30__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "যেহেতু ঠাকুরদার বয়স হয়ে গেছে, সেহেতু তিনি এখন আগের মত সচল নন।";
+        dimlex:english_equivalent "Since my grandfather has become old, he is not as active as before." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause-Belief:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c30__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause-Belief:Result ];
+        dimlex:example "যেহেতু তুমি আমার থেকে বয়সে বড়, সেহেতু তুমি সমস্ত সুযোগ সুবিধে পাবে|";
+        dimlex:english_equivalent "Since you are elder than me, you will get all the benefits." ] ].
+
+  :c31__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "the moment";
+      ontolex:canonicalForm [ ontolex:writtenRep "মুহূর্তে"@bn; dimlex:type "cont"; dimlex:onr "32o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c31__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "খুনটা কাল রাত দশটা নাগাদ হয়| সে মুহুর্তে, বাড়িতে কেউ ছিল না|";
+        dimlex:english_equivalent "The murder took place last night at around 10 o'clock. At that moment, nobody was home." ] ].
+
+  :c32__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "still";
+      ontolex:canonicalForm [ ontolex:writtenRep "এখনও"@bn; dimlex:type "cont"; dimlex:onr "33o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "এখনো"@bn; dimlex:type "cont"; dimlex:onr "33o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c32__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "রাম ও রিনির বহুদিন আগে ছাড়াছাড়ি হয়ে গেছে| এখনও তারা একে অপরকে ভুলতে পারেনি|";
+        dimlex:english_equivalent "Ram and Rini got separated a long time ago. Still, they could not forget each other." ] ].
+
+  :c33__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "at once";
+      ontolex:canonicalForm [ ontolex:writtenRep "তক্ষুণি"@bn; dimlex:type "cont"; dimlex:onr "34o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "তখনই"@bn; dimlex:type "cont"; dimlex:onr "34o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c33__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "বন্ধুর অসুস্থতার খবর পেয়ে তক্ষুনি ওর বাড়িতে ছুটলাম|";
+        dimlex:english_equivalent "After knowing about my friend's sickness, I hurried to his house at once ." ] ].
+
+  :c34__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "meanwhile";
+      ontolex:canonicalForm [ ontolex:writtenRep "ইতিমধ্যে"@bn; dimlex:type "cont"; dimlex:onr "35o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep ""@bn; dimlex:type "cont"; dimlex:onr "35o2"; dimlex:type "cont"];
+      ontolex:otherForm [ ontolex:writtenRep "ইতোমধ্যে"@bn; dimlex:type "cont"; dimlex:onr "35o3"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c34__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "আমি রান্নাটা চাপিয়েছি| ইতিমধ্যে, সবাই চলে এসেছে|";
+        dimlex:english_equivalent "I have started cooking. In the meantime, everyone has arrived." ] ].
+
+  :c35__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "lest";
+      ontolex:canonicalForm [ ontolex:writtenRep "পাছে"@bn; dimlex:type "cont"; dimlex:onr "36o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Purpose";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c35__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Purpose ];
+        dimlex:example "তিনি দেশ ছেড়ে পালিয়েছেন পাছে তাকে কারাগারে বন্দী করা হয়|";
+        dimlex:english_equivalent "He fled the country lest he be imprisoned." ] ].
+
+  :c36__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "behind";
+      ontolex:canonicalForm [ ontolex:writtenRep "পিছনে"@bn; dimlex:type "cont"; dimlex:onr "37o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Purpose";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c36__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Purpose ];
+        dimlex:example "এই জঘন্য কাজ করার পিছনে তার কোনো গোপন উদ্দেশ্য ছিল|";
+        dimlex:english_equivalent "He had some hidden motif behind commiting this heinous act." ] ].
+
+  :c37__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "because";
+      ontolex:canonicalForm [ ontolex:writtenRep "বলে"@bn; dimlex:type "cont"; dimlex:onr "38o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep ""@bn; dimlex:type "cont"; dimlex:onr "38o2"; dimlex:type "cont"];
+      ontolex:otherForm [ ontolex:writtenRep "বলিয়া"@bn; dimlex:type "cont"; dimlex:onr "38o3"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আজকের রায়ে এই সব অভিযোগই মিথ্যা বলে প্রমাণিত হয়েছে|";
+      dimlex:english_example_equivalent "All allegations have been proven to be lies by today's verdict." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Purpose";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c37__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Purpose ];
+        dimlex:example "আমি তার সাথে দেখা করবো বলে তার অফিসে গিয়েছিলাম|";
+        dimlex:english_equivalent "I went to his office in order to meet him." ] ].
+
+  :c38__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "yet";
+      ontolex:canonicalForm [ ontolex:writtenRep "তবে"@bn; dimlex:type "cont"; dimlex:onr "39o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c38__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "আমার কম্পুটারটি বেশ পুরানো| তবু ভালই কাজ করে|";
+        dimlex:english_equivalent "My computer is quite old. Yet, it works well." ] ].
+
+  :c39__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "therefore";
+      ontolex:canonicalForm [ ontolex:writtenRep "সুতরাং"@bn; dimlex:type "cont"; dimlex:onr "40o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contigency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c39__; ontolex:isLexicalizedSenseOf pdtb3:Contigency:Cause:Result ];
+        dimlex:example "তুমি ব্যবসায় কোনো টাকা ঢালনি| সুতরাং, তুমি কোনো লভ্যাংশও পাবে না|";
+        dimlex:english_equivalent "You did not put any money in the busines. Therefore, you will no have any profit at all." ] ].
+
+  :c40__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "immediately/in addition";
+      ontolex:canonicalForm [ ontolex:writtenRep "সঙ্গে সঙ্গে"@bn; dimlex:type "cont"; dimlex:onr "41o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c40__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "আমরা স্টেশনে পৌঁছালাম। সঙ্গে সঙ্গে ট্রেনটা ছেড়ে দিল।";
+        dimlex:english_equivalent "We reached the station. Immediately, the train left." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c40__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "পড়াশোনা করার সঙ্গে সঙ্গে সে চাকরিও করেছে|";
+        dimlex:english_equivalent "While she was studying , she was also doing a job." ] ].
+
+  :c41__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "Immediately/along with";
+      ontolex:canonicalForm [ ontolex:writtenRep "সাথে (সাথে)"@bn; dimlex:type "cont"; dimlex:onr "42o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "রামের সাথে শ্যাম বাজারে যাবে|";
+      dimlex:english_example_equivalent "Shaym will go to the market with Ram." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c41__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "আমি পড়াশোনা করেছি; সাথে গানও শিখেছি।";
+        dimlex:english_equivalent "I have studied. Along with it, I have learned music." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c41__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "ঝড় ওঠার সাথে সাথে ঘরটা অন্ধকার হয়ে গেল|";
+        dimlex:english_equivalent "The room became dark right when the storm broke out." ] ].
+
+  :c42__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "or";
+      ontolex:canonicalForm [ ontolex:writtenRep "বা"@bn; dimlex:type "cont"; dimlex:onr "43o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "গৌতম বা রাহুল যাবে|";
+      dimlex:english_example_equivalent "Goutam or Rahul will go." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Disjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c42__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Disjunction ];
+        dimlex:example "রাম যাবে বা শ্যাম যাবে|";
+        dimlex:english_equivalent "Either Ram will go or Shyam will go." ] ].
+
+  :c43__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "either-or";
+      ontolex:canonicalForm [ ontolex:writtenRep "হয়-নয়"@bn; dimlex:type "discont"; dimlex:onr "44o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "হয়-না হয়"@bn; dimlex:type "discont"; dimlex:onr "44o2"; dimlex:type "discont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Disjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c43__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Disjunction ];
+        dimlex:example "হয় তুমি এখানে একা থাকো, নয় আমাদের সাথে চলো|";
+        dimlex:english_equivalent "Either you stay here alone, or you come with us." ] ].
+
+  :c44__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "especially";
+      ontolex:canonicalForm [ ontolex:writtenRep "বিশেষত"@bn; dimlex:type "cont"; dimlex:onr "45o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আজ সবার জন্যই ভাল মিষ্টি আনতে হবে, বিশেষত আমার ভাইয়ের জন্য|";
+      dimlex:english_example_equivalent "We need to bring sweets for everyone, especially for my brother." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c44__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification ];
+        dimlex:example "গতকাল উত্তরবঙ্গে বৃষ্টি হয়েছে| বিশেষত, কোচবিহারে ভারী বর্ষণ হয়েছে|";
+        dimlex:english_equivalent "It rained in North Bengal yesterday. In particular, it rained heavily in Cochbihar." ] ].
+
+  :c45__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "though";
+      ontolex:canonicalForm [ ontolex:writtenRep "না হয়"@bn; dimlex:type "cont"; dimlex:onr "46o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "তোমার অসুখের ব্যাপারটা না হয় সবাই জানল|";
+      dimlex:english_example_equivalent "It's fine if everybody gets to know aboout your illness" ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c45__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "পাত্র হিসেবে সে ভালো; না হয় বয়সটা বেশি|";
+        dimlex:english_equivalent "As a groom he is good, although he is a bit aged." ] ].
+
+  :c46__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "within";
+      ontolex:canonicalForm [ ontolex:writtenRep "মধ্যে"@bn; dimlex:type "cont"; dimlex:onr "47o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আমাদের মধ্যে একজনও আজ স্কুলে যাবে না|";
+      dimlex:english_example_equivalent "None of us will go to school today." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c46__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "আমি দুই দিন বাড়ি ছিলাম না| তার মধ্যে এই ভয়ঙ্কর ঘটনাটা ঘটে গেল|";
+        dimlex:english_equivalent "I was not home for two days. In the meantime, this horrible incident happened." ] ].
+
+  :c47__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as a result";
+      ontolex:canonicalForm [ ontolex:writtenRep "ফলে"@bn; dimlex:type "cont"; dimlex:onr "48o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contigency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c47__; ontolex:isLexicalizedSenseOf pdtb3:Contigency:Cause:Result ];
+        dimlex:example "কাল রাতে প্রবল বৃষ্টিপাত হযেছিল| এর ফলে শহরের পরিবহনব্যবস্থা ভীষণভাবে বিপর্যস্ত হয়ে পড়ে|";
+        dimlex:english_equivalent "It rained heavily last night. As a result, the transportation system of the city was distupted greatly." ] ].
+
+  :c48__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as a result";
+      ontolex:canonicalForm [ ontolex:writtenRep "ফলে"@bn; dimlex:type "cont"; dimlex:onr "49o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition/adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contigency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c48__; ontolex:isLexicalizedSenseOf pdtb3:Contigency:Cause:Result ];
+        dimlex:example "বাজারে পেট্রোলিয়ামজাত দ্রব্যের দাম বেড়ে যাওয়ার ফলে রান্নার গাসেরও দাম বেড়েছে|";
+        dimlex:english_equivalent "Because the price of the petrolium products have gone up in the market, the price of cooking gas has also increased." ] ].
+
+  :c49__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "yet";
+      ontolex:canonicalForm [ ontolex:writtenRep "অথচ"@bn; dimlex:type "cont"; dimlex:onr "50o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c49__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "বার্সেলোনা ১০ জনে খেলল| অথচ তারা ম্যাচটা জিতে গেল|";
+        dimlex:english_equivalent "Barcelona played with ten players. Yet they won the match." ] ].
+
+  :c50__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "moreover";
+      ontolex:canonicalForm [ ontolex:writtenRep "অধিকন্তু"@bn; dimlex:type "cont"; dimlex:onr "51o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Exapansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c50__; ontolex:isLexicalizedSenseOf pdtb3:Exapansion:Conjunction ];
+        dimlex:example "অনিমেষ ভালো চাকরি করে| অধিকন্তু তার পৈত্রিক সম্পত্তিও আছে|";
+        dimlex:english_equivalent "Animesh has a good job. In addition, he also has paternal properties." ] ].
+
+  :c51__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in other words";
+      ontolex:canonicalForm [ ontolex:writtenRep "অন্য কথায়"@bn; dimlex:type "cont"; dimlex:onr "52o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Exapansion:Equivalence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c51__; ontolex:isLexicalizedSenseOf pdtb3:Exapansion:Equivalence ];
+        dimlex:example "আমি কাল রাত আটটায় শুয়ে পরি আর উঠি আজ সকাল আটটায়| অন্য কথায় আমি মোট বারো ঘন্টা ঘুমিয়েছি|";
+        dimlex:english_equivalent "I went to bed last night at 8 and woke up today morning at 8. In other words, I have slept for twelve hours in total." ] ].
+
+  :c52__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "otherwise/else";
+      ontolex:canonicalForm [ ontolex:writtenRep "অন্যথায়"@bn; dimlex:type "cont"; dimlex:onr "53o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative-condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c52__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative-condition ];
+        dimlex:example "তুমি আমাকে টাকা দাও| অন্যথায়, আমি কোনো কাজ করব না|";
+        dimlex:english_equivalent "Give me the money. Otherwise, I won't do any work." ] ].
+
+  :c53__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "immediately";
+      ontolex:canonicalForm [ ontolex:writtenRep "অমনি"@bn; dimlex:type "cont"; dimlex:onr "54o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Succession";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c53__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Succession ];
+        dimlex:example "লোকটা নদীতে ঝাপ দিল| অমনি সবাই চিৎকার করে উঠল|";
+        dimlex:english_equivalent "The man jumped into the river. Immediately, everyone started shouting." ] ].
+
+  :c54__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in brief";
+      ontolex:canonicalForm [ ontolex:writtenRep "অল্প কথায়"@bn; dimlex:type "cont"; dimlex:onr "55o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "গ্রামের লোক তাদের সমস্যা অল্প কথায় মন্ত্রীকে জানাল|";
+      dimlex:english_example_equivalent "The villagers briefly informed their problem to the minister." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification:Summarization";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c54__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification:Summarization ];
+        dimlex:example "টেনিস, ব্যাডমিন্টন বা উইন্ডসার্ফিং খেলার চেষ্টা করো| অল্প কথায়, চ্যালেঞ্জিং কিছু খেলার চেষ্টা করো|";
+        dimlex:english_equivalent "Try to play tennis, badminton or windsurfing. In short, try to play something that is challenging." ] ].
+
+  :c55__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "and";
+      ontolex:canonicalForm [ ontolex:writtenRep "আর"@bn; dimlex:type "cont"; dimlex:onr "56o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "রাম আর আসবে না|";
+      dimlex:english_example_equivalent "Ram will not come again." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c55__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "রাম ঘুমিয়ে পড়ল আর নাক ডাকতে শুরু করল|";
+        dimlex:english_equivalent "Ram fell in sleep and started snoring." ] ].
+
+  :c56__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "moreover";
+      ontolex:canonicalForm [ ontolex:writtenRep "উপরন্তু"@bn; dimlex:type "cont"; dimlex:onr "57o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c56__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "যদু কাজটা শেষ করল না| উপরন্তু, আমাকে জানালও না|";
+        dimlex:english_equivalent "Jodu did not complete the task. Moreover, he did not even inform me." ] ].
+
+  :c57__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "even when";
+      ontolex:canonicalForm [ ontolex:writtenRep "এমনকি যখন"@bn; dimlex:type "cont"; dimlex:onr "58o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c57__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "এমনকি যখন অফিস বন্ধ থাকে, রঞ্জিত তখনো কোথাও ঘুরতে যায় না|";
+        dimlex:english_equivalent "Even when the office remains closed, Ranjit does not go out for traveling." ] ].
+
+  :c58__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "even if";
+      ontolex:canonicalForm [ ontolex:writtenRep "এমনকি যদি"@bn; dimlex:type "cont"; dimlex:onr "59o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c58__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "এমনকি যদি আজ নেইমার নাও খেলে, (তবুও) ব্রাজিল জিতবে|";
+        dimlex:english_equivalent "Even if Neymar does not play today, Brazil still will win." ] ].
+
+  :c59__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "therefore";
+      ontolex:canonicalForm [ ontolex:writtenRep "কাজেই"@bn; dimlex:type "cont"; dimlex:onr "60o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c59__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "আমি তোমার কাছ থেকে কোনো টাকা নিই নি| কাজেই ফেরত দেবার কোনো প্রশ্ন নেই|";
+        dimlex:english_equivalent "I did not borrow any money from you. Therefore, there is no question of returning it." ] ].
+
+  :c60__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "because";
+      ontolex:canonicalForm [ ontolex:writtenRep "কারণ"@bn; dimlex:type "cont"; dimlex:onr "61o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Reason";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c60__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Reason ];
+        dimlex:example "ভারতবর্ষের বিভিন্ন রাজ্যে এবছর খরা হয়েছে কারণ গত তিন মাসে কোথাও বিশেষ বৃষ্টি হয় নি|";
+        dimlex:english_equivalent "There have been droughts in many states of India this year because it did not rain much anywhere in the last three months." ] ].
+
+  :c61__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "or";
+      ontolex:canonicalForm [ ontolex:writtenRep "কিংবা"@bn; dimlex:type "cont"; dimlex:onr "62o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "নেইমার কিংবা কুটিনহোকে আজ গোল করতে হবে|";
+      dimlex:english_example_equivalent "Neymar or Coutinho will have to score today." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Disjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c61__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Disjunction ];
+        dimlex:example "ব্রাজিলকে সার্বিয়ার বিরুদ্ধে জিততে হবে কিংবা সার্বিয়ার সাথে ম্যাচটা ড্র করতে হবে|";
+        dimlex:english_equivalent "Brazil has to win against Serbia or they have to draw the match with Serbia." ] ].
+
+  :c62__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "since";
+      ontolex:canonicalForm [ ontolex:writtenRep "কেননা"@bn; dimlex:type "cont"; dimlex:onr "63o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause-belief:Reason";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c62__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause-belief:Reason ];
+        dimlex:example "কলকাতার রাস্তায় টেলিফোন বুথ আর দেখা যায় না| কেননা কম বেশি সবাই এখন মোবাইল ব্যবহার করে|";
+        dimlex:english_equivalent "Telephone booths are not seen on the streets of Kolkata anymore since more or less everyone uses mobile phones these days." ] ].
+
+  :c63__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "instead";
+      ontolex:canonicalForm [ ontolex:writtenRep "জায়গায়"@bn; dimlex:type "cont"; dimlex:onr "64o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "বিরাট কোহলির জায়গায় আজ রোহিত শর্মা খেলবে|";
+      dimlex:english_example_equivalent "Rohit Sharma will play today in place of Virat Kohli." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Contrast";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c63__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Contrast ];
+        dimlex:example "আমি শত্রু বানানোর জায়গায় বন্ধু বানানোর চেষ্টা করব|";
+        dimlex:english_equivalent "Instead of making enemies, I will try to make friends." ] ].
+
+  :c64__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "when";
+      ontolex:canonicalForm [ ontolex:writtenRep "যখন-তখন"@bn; dimlex:type "discont"; dimlex:onr "65o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c64__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "যখন চুরি হয়, তখন ব্যাঙ্কে কেউ পাহারায় ছিল না|";
+        dimlex:english_equivalent "When the theft took place, nobody was on vigilance in the bank." ] ].
+
+  :c65__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "whenever";
+      ontolex:canonicalForm [ ontolex:writtenRep "যখনই"@bn; dimlex:type "cont"; dimlex:onr "66o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c65__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "যখনই আমি তাকে দেখি, (তখনই) আমার মনটা খুশীতে ভরে ওঠে|";
+        dimlex:english_equivalent "Whenever I see him, my heart gets filled with happiness." ] ].
+
+  :c66__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "so that";
+      ontolex:canonicalForm [ ontolex:writtenRep "যাতে"@bn; dimlex:type "cont"; dimlex:onr "67o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "যাহাতে"@bn; dimlex:type "cont"; dimlex:onr "67o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Purpose";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c66__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Purpose ];
+        dimlex:example "দিলীপ দুপুরে ভালো করে ঘুমিয়ে নিল যাতে রাত জেগে ভালো করে খেলা দেখতে পারে|";
+        dimlex:english_equivalent "Dilip slept well in the afternoon, so that he could stay awake to watch the match at night." ] ].
+
+  :c67__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "the moment";
+      ontolex:canonicalForm [ ontolex:writtenRep "যে মুহূর্তে"@bn; dimlex:type "cont"; dimlex:onr "68o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c67__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "যে মুহূর্তে জাদুকর পাথরটাকে স্পর্শ করলেন, সেটি সোনায় রুপান্তরিত হয়ে গেল|";
+        dimlex:english_equivalent "The moment the wizard touched the stone, it turned into gold." ] ].
+
+  :c68__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as soon as/just when";
+      ontolex:canonicalForm [ ontolex:writtenRep "যেইমাত্র"@bn; dimlex:type "cont"; dimlex:onr "69o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c68__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "যেইমাত্র তিনি ঘরে ঢুকলেন, সব অন্ধকার হয়ে গেল|";
+        dimlex:english_equivalent "As soon as he entered the room, everything became dark." ] ].
+
+  :c69__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as long as";
+      ontolex:canonicalForm [ ontolex:writtenRep "যতক্ষণ"@bn; dimlex:type "cont"; dimlex:onr "70o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c69__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Condition ];
+        dimlex:example "যতক্ষণ তুমি আমার সঙ্গে আছো, (ততক্ষণ) আমার কোনো চিন্তা নেই|";
+        dimlex:english_equivalent "As long as you are with me, I have nothing to worry about." ] ].
+
+  :c70__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "until";
+      ontolex:canonicalForm [ ontolex:writtenRep "যতক্ষন না"@bn; dimlex:type "cont"; dimlex:onr "71o1"; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative-condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c70__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative-condition ];
+        dimlex:example "যতক্ষণ না উনি আমার সাথে দেখা করছেন, আমি এখানেই থাকব|";
+        dimlex:english_equivalent "Until he meets me, I'll stay here." ] ].
+
+  :c71__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "if";
+      ontolex:canonicalForm [ ontolex:writtenRep "যদি"@bn; dimlex:type "cont"; dimlex:onr "72o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আমি ভাবছিলাম যদি একবার সন্ধেবেলা ডাক্তারের কাছে যেতে পারি|";
+      dimlex:english_example_equivalent "I was wondering if I could go to the doctor in the evening." ];
+    dimlex:syn [ 
+      dimlex:cat "Conjunction";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c71__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Condition ];
+        dimlex:example "যদি আজ বৃষ্টি হয়, (তবে) আমরা বাইরে খেলতে যাব না|";
+        dimlex:english_equivalent "If it rains today, (then) we will not go outside to play." ] ].
+
+  :c72__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "then";
+      ontolex:canonicalForm [ ontolex:writtenRep "তখন"@bn; dimlex:type "cont"; dimlex:onr "73o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "1" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "বিকেল চারটে নাগাদ একবার বাড়িতে এসো| তখন বিষয়টা নিয়ে আলোচনা করা যাবে|";
+      dimlex:english_example_equivalent "Come to my home at arournd 4 O'clock. Then, we can discuss the issue." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Succession";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c72__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Succession ];
+        dimlex:example "এভাবে খরচ করতে করতে তুমি একদিন সর্বসান্ত হবে। তখন তুমি বুঝবে টাকার আসল মূল্য।";
+        dimlex:english_equivalent "By spending on things in such a way, you will go bankrupt one day. Then, you will realize the real worth of money." ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c72__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "মেগাস্থিনিস খ্রিস্টপূর্ব চতুর্থ শতকে ভারতবর্ষে আসেন| তখন সম্রাট ছিলেন চন্দ্রগুপ্ত মৌর্য|";
+        dimlex:english_equivalent "Megasthenes visited India in the fourth century BC. Then, the emperor was Chandragupta Mourya." ] ].
+
+  :c73__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "still";
+      ontolex:canonicalForm [ ontolex:writtenRep "তথাপি"@bn; dimlex:type "cont"; dimlex:onr "74o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Concession:Contra-expectation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c73__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Concession:Contra-expectation ];
+        dimlex:example "তাকে অনেকবার ডাকলাম| তথাপি সে এল না|";
+        dimlex:english_equivalent "I called him multiple times. Still, he didn't come." ] ].
+
+  :c74__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "immediately";
+      ontolex:canonicalForm [ ontolex:writtenRep "তত্ক্ষণাৎ"@bn; dimlex:type "cont"; dimlex:onr "75o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c74__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "সেই ভয়ংকর ঘটনাটা তার চোখের সামনে আবার ভেসে উঠল| তৎক্ষণাৎ সে অজ্ঞান হয়ে গেল|";
+        dimlex:english_equivalent "The horrific incident flashed before his eyes again. Immediately, he became unconscious." ] ].
+
+  :c75__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "because";
+      ontolex:canonicalForm [ ontolex:writtenRep "দরুন"@bn; dimlex:type "cont"; dimlex:onr "76o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c75__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "চাহিদামত সরবরাহ না থাকায় বাজারে সম্প্রতি ইলিশমাছের দাম বেড়ে গেছে|";
+        dimlex:english_equivalent "Recently, the price of Hilsa fish has gone up in the market since there has been an inadequate supply according to the demand." ] ].
+
+  :c76__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "for example/for instance";
+      ontolex:canonicalForm [ ontolex:writtenRep "দৃষ্টান্তস্বরূপ"@bn; dimlex:type "cont"; dimlex:onr "77o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Instantiation";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c76__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Instantiation ];
+        dimlex:example "নিত্যপ্রয়োজনীয় জিনিসপত্রের দাম অস্বাভাবিক হারে বৃদ্ধি পেয়েছে| দৃষ্টান্তস্বরূপ, নুন বা ডালের কথা বলা যেতে পারে|";
+        dimlex:english_equivalent "The prices of essential commodities have increased exorbitantly. For example, one can talk about the prices of salt or lentils." ] ].
+
+  :c77__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "else";
+      ontolex:canonicalForm [ ontolex:writtenRep "নচেৎ"@bn; dimlex:type "cont"; dimlex:onr "78o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative-condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c77__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative-condition ];
+        dimlex:example "মুক্তিপণের টাকা দাও| নচেৎ তোমার মৃত্যু নিশ্চিত|";
+        dimlex:english_equivalent "Give me the ransom money. Else, your death is certain." ] ].
+
+  :c78__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "otherwise/else";
+      ontolex:canonicalForm [ ontolex:writtenRep "নইলে"@bn; dimlex:type "cont"; dimlex:onr "79o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative-condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c78__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative-condition ];
+        dimlex:example "তুমি ওকে পড়তে দাও| নইলে ও পরীক্ষায় পাশ করবে না|";
+        dimlex:english_equivalent "Let him study. Otherwise, he won't pass the exam." ] ].
+
+  :c79__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "otherwise/else";
+      ontolex:canonicalForm [ ontolex:writtenRep "নয়ত"@bn; dimlex:type "cont"; dimlex:onr "80o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative-condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c79__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative-condition ];
+        dimlex:example "আমার কাছে টাকা নেই| নয়ত তোমায় দিতাম|";
+        dimlex:english_equivalent "I do not have any money. Otherwise, I would have given you." ] ].
+
+  :c80__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "otherwise/else";
+      ontolex:canonicalForm [ ontolex:writtenRep "নতুবা"@bn; dimlex:type "cont"; dimlex:onr "81o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Negative Condition";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c80__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Negative Condition ];
+        dimlex:example "তাকে ডাক্তার দেখাতে হবে| নতুবা তার স্বাস্থের আরো অবনতি হবে|";
+        dimlex:english_equivalent "She needs to see the doctor. Otherwise, her health will detoriate." ] ].
+
+  :c81__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "on the contrary";
+      ontolex:canonicalForm [ ontolex:writtenRep "পক্ষান্তরে"@bn; dimlex:type "cont"; dimlex:onr "82o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison:Contrast";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c81__; ontolex:isLexicalizedSenseOf pdtb3:Comparison:Contrast ];
+        dimlex:example "কুরুক্ষেত্রের যুদ্ধে শ্রীকৃষ্ণ দুর্যোধনকে দশহাজার নারায়নী সেনা প্রদান করেন| পক্ষান্তরে অর্জুন কেবল শ্রীকৃষ্ণকে পাশে পেয়েই ধন্য থাকেন|";
+        dimlex:english_equivalent "In the battle of Kuruksketra, Srikrishna provided Duryodhan with ten thousdand Narayani soldiers. On the contrary, Arjun was happy by only having Srikrishna by his side." ] ].
+
+  :c82__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in fact";
+      ontolex:canonicalForm [ ontolex:writtenRep "প্রকৃতপক্ষে"@bn; dimlex:type "cont"; dimlex:onr "83o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "রাম প্রকৃতপক্ষে ভাল ছেলে|";
+      dimlex:english_example_equivalent "Ram is really a good boy." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c82__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification ];
+        dimlex:example "শেখ মুজিবুর রহমান ১৯৭১ সালে বাংলাদেশের স্বাধীনতার পক্ষে ভাষণ দিয়েছিলেন| প্রকৃতপক্ষে সেটিই ছিল বাংলাদেশের স্বাধীনতার ঘোষণা|";
+        dimlex:english_equivalent "Sheikh Mujibur Rahman gave a speech in support of Bangladesh's independence in 1971. In fact, that was the declaration of Bangladesh's independence." ] ].
+
+  :c83__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in consequence";
+      ontolex:canonicalForm [ ontolex:writtenRep "পরিণামে"@bn; dimlex:type "cont"; dimlex:onr "84o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c83__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "অন্যায়ের বিরুদ্ধে সে লড়াই করেছিল| পরিণামে তাকে সব খোয়াতে হয়েছিল|";
+        dimlex:english_equivalent "He fought against injustice. In consequence, he had to lose everything." ] ].
+
+  :c84__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "moreover";
+      ontolex:canonicalForm [ ontolex:writtenRep "উপরন্তু"@bn; dimlex:type "cont"; dimlex:onr "85o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c84__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "রমেশবাবু একজন ধনী ব্যক্তি| উপরন্তু এই এলাকায় তার রাজনৈতিক প্রভাবও আছে|";
+        dimlex:english_equivalent "Rameshbabu is a rich man. Moreover, he also has political influence in this area." ] ].
+
+  :c85__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "previously";
+      ontolex:canonicalForm [ ontolex:writtenRep "পূর্বে"@bn; dimlex:type "cont"; dimlex:onr "86o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "মোগলদের পূর্বে ভারতবর্ষে লোদিবংশের রাজত্ব ছিল|";
+      dimlex:english_example_equivalent "Before Mughals, the Lodi dynasty used to rule India." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb/postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Precendence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c85__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Precendence ];
+        dimlex:example "রাজা দর্পনারায়ান রায় এই গ্রাম পত্তন করেন| পূর্বে এই এলাকায় জঙ্গল ছিল|";
+        dimlex:english_equivalent "Raja Darpanarayan Roy founded this village. Previously, this area used to be a forest." ] ].
+
+  :c86__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "before";
+      ontolex:canonicalForm [ ontolex:writtenRep "পূর্বে"@bn; dimlex:type "cont"; dimlex:onr "87o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Asynchronous:Precedence";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c86__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Asynchronous:Precedence ];
+        dimlex:example "১৯৭৭ সালে পশ্চিমবঙ্গে যুক্তফ্রন্ট ক্ষমতায় আসে| এর পূর্বে সেখানে কংগ্রেস ক্ষমতায় ছিল|";
+        dimlex:english_equivalent "In 1977, the left front came into power in West Bengal. Before that, Congress was in power there." ] ].
+
+  :c87__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "except";
+      ontolex:canonicalForm [ ontolex:writtenRep "বাদে"@bn; dimlex:type "cont"; dimlex:onr "88o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "ম্যানেজার বাদে সবাই পিকনিকে গিয়েছিলেন|";
+      dimlex:english_example_equivalent "Everybody except the manager went to the picnic." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Exception";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c87__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Exception ];
+        dimlex:example "মঞ্চে অভিনয় করা বাদে ইকবাল দু-একটি স্বল্প দৈর্ঘের ছবি পরিচালনা করেছেন|";
+        dimlex:english_equivalent "Other than acting on stage, Iqbal has directed one or two short films." ] ].
+
+  :c88__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "except (this/that)";
+      ontolex:canonicalForm [ ontolex:writtenRep "বাদে"@bn; dimlex:type "cont"; dimlex:onr "89o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Exception";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c88__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Exception ];
+        dimlex:example "বরুন ঘোষ সরকারি চাকুরে| এ বাদে, ওঁর কিছু পৈত্রিক সম্পত্তি আছে|";
+        dimlex:english_equivalent "Barun Ghosh is a government employee. Except this, he has some paternal properties." ] ].
+
+  :c89__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as a result";
+      ontolex:canonicalForm [ ontolex:writtenRep "ফলস্বরূপ"@bn; dimlex:type "cont"; dimlex:onr "90o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency:Cause:Result";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c89__; ontolex:isLexicalizedSenseOf pdtb3:Contingency:Cause:Result ];
+        dimlex:example "এ বছরে উচ্চমাধ্যমিকের প্রশ্ন সোজা হয়েছে| ফলস্বরূপ, চলতি বছরে পাশের হার অনেকটাই বাড়বে|";
+        dimlex:english_equivalent "The questions in the Higher Secondary Examination this year were easy. As a result, the number of students passing the examination will increase greatly." ] ].
+
+  :c90__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as a matter of fact";
+      ontolex:canonicalForm [ ontolex:writtenRep "বাস্তবিকপক্ষে"@bn; dimlex:type "cont"; dimlex:onr "91o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c90__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification ];
+        dimlex:example "বিরাট কোহলি একজন অসাধারণ ক্রিকেটার| বাস্তবিকপক্ষে, তিনিই এখন ভারতীয় ক্রিকেট টিমের সবচেয়ে নির্ভরযোগ্য ব্যাটসম্যান|";
+        dimlex:english_equivalent "Virat Kohli is an extraordinary cricketer. As a matter of fact, he is the most dependable batsman in the Indian Cricket Team." ] ].
+
+  :c91__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "as an alternative";
+      ontolex:canonicalForm [ ontolex:writtenRep "বিকল্প হিসাবে"@bn; dimlex:type "cont"; dimlex:onr "92o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "মহেন্দ্র সিংহ ধোনির বিকল্প হিসাবে দিনেশ কার্তিক আজ খেলবেন|";
+      dimlex:english_example_equivalent "Dinesh Kartik will play today in place of Mahendra Singha Dhoni." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Specification";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c91__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Specification ];
+        dimlex:example "যাত্রী পরিবহনের সমস্যা মেটাতে রাস্তা চওড়া করা যেতে পারে| বিকল্প হিসাবে, নতুন রেলপথ তৈরিও করা যেতে পারে|";
+        dimlex:english_equivalent "In order to resolve transportation problem, the roads can be widened. As an alternative, new rail tracks can also be constructed." ] ].
+
+  :c92__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "except";
+      ontolex:canonicalForm [ ontolex:writtenRep "বিনা"@bn; dimlex:type "cont"; dimlex:onr "93o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "তুমি বিনা আমি অসহায়|";
+      dimlex:english_example_equivalent "I am helpless without you." ];
+    dimlex:syn [ 
+      dimlex:cat "Postposition";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Exception";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c92__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Exception ];
+        dimlex:example "ওখানে যাওয়া বিনা তোমার আর কোনো উপায় নেই|";
+        dimlex:english_equivalent "Other than going there, I have no other option." ] ].
+
+  :c93__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in return";
+      ontolex:canonicalForm [ ontolex:writtenRep "বিনিময়ে"@bn; dimlex:type "cont"; dimlex:onr "94o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "টাকার বিনিময়ে চাকরি আমি পেতে চাই না|";
+      dimlex:english_example_equivalent "I do not want to have a job in exchange of money." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Substitution";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c93__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Substitution ];
+        dimlex:example "ভগবান, তুমি আমার সমস্ত ঐশ্বর্য নিয়ে নাও| বিনিময়ে আমার ছেলেকে ফিরিয়ে দাও|";
+        dimlex:english_equivalent "Dear God, take away my wealth. In return, give me my son back." ] ].
+
+  :c94__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "on the other hand";
+      ontolex:canonicalForm [ ontolex:writtenRep "বিপরীতে"@bn; dimlex:type "cont"; dimlex:onr "95o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "ফেডেরারের বিপরীতে আজ নাদাল কোর্টে নামবেন|";
+      dimlex:english_example_equivalent "Nadal will come onto the court against Federer." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c94__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "মেসি আজ আর্জেন্টিনার প্রধান ভরসা| বিপরীতে, পর্তুগাল আজ রোনাল্ডোকে ছাড়াই খেলবে|";
+        dimlex:english_equivalent "Messi is the main hope for Argentina today. On the other hand, Portugal will play without Ronaldo." ] ].
+
+  :c95__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "instead";
+      ontolex:canonicalForm [ ontolex:writtenRep "বদলে"@bn; dimlex:type "cont"; dimlex:onr "96o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "এই জামাটার বদলে ওই জামাটা দিন|";
+      dimlex:english_example_equivalent "Give me that shirt instead of this one." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Substitution";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c95__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Substitution ];
+        dimlex:example "রাম আজ আসে নি| বদলে ও শ্যামকে পাঠিয়েছে|";
+        dimlex:english_equivalent "Ram didn't come today. Instead, he sent Shyam." ] ].
+
+  :c96__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "in addition";
+      ontolex:canonicalForm [ ontolex:writtenRep "সঙ্গে"@bn; dimlex:type "cont"; dimlex:onr "97o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c96__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "আমি আবৃত্তি করি| সেইসঙ্গে গীটারও বাজাই|";
+        dimlex:english_equivalent "I recite. In addition, I play the guitar also." ] ].
+
+  :c97__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "along with";
+      ontolex:canonicalForm [ ontolex:writtenRep "সাথে"@bn; dimlex:type "cont"; dimlex:onr "98o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c97__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "আমি আবৃত্তি করি| এরসাথে গীটারও বাজাই|";
+        dimlex:english_equivalent "I recite. Along with it, I play the guitar also." ] ].
+
+  :c98__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "at (this/that) time";
+      ontolex:canonicalForm [ ontolex:writtenRep "সময়"@bn; dimlex:type "cont"; dimlex:onr "99o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "সময়ে"@bn; dimlex:type "cont"; dimlex:onr "99o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "0";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading "0";
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal:Synchronous";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c98__; ontolex:isLexicalizedSenseOf pdtb3:Temporal:Synchronous ];
+        dimlex:example "আমি বাড়ি থেকে বেরলাম| সেই সময় বৃষ্টি শুরু হল|";
+        dimlex:english_equivalent "I stepped out of home. At that time, it started raining." ] ].
+
+  :c99__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "on (this/that) side/on the other hand";
+      ontolex:canonicalForm [ ontolex:writtenRep "দিকে"@bn; dimlex:type "cont"; dimlex:onr "100o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "উল্টোদিকে বসে থাকা ভদ্রলোককে আমি চিনি না|";
+      dimlex:english_example_equivalent "I do not know the gentleman sitting on the opposite side." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c99__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "শ্রোতারা এসে গেছে| এদিকে বক্তার দেখা নেই|";
+        dimlex:english_equivalent "The audience has come. On this side, the speaker has not shown up yet." ] ].
+
+  :c100__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "on (this/that) side/on the other hand";
+      ontolex:canonicalForm [ ontolex:writtenRep "পক্ষে"@bn; dimlex:type "cont"; dimlex:onr "101o1"; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "বিতর্কসভায় বিপরীতপক্ষে দুজন সমাজকর্মী আছেন|";
+      dimlex:english_example_equivalent "There are two social workers in the opponent side of the debate." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c100__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "একজন অচেনা মানুষকে অযাচিত ভাবে সাহায্য করার কোন কারণ নেই| বিপরীতপক্ষে, সেই মানুষটি সাহায্য চাইলে তাঁকে সাহায্য না করারও কোনো কারণ নেই|";
+        dimlex:english_equivalent "There is no need to offer unsolicited help to someone stranger to you. On the other side, there is also no reason to deny help to that very person seeking your help." ] ].
+
+  :c101__ a ontolex:LexicalEntry
+    dimlex:english_equivalent "above";
+      ontolex:canonicalForm [ ontolex:writtenRep "উপর"@bn; dimlex:type "cont"; dimlex:onr "102o1"; dimlex:type "single"];
+      ontolex:otherForm [ ontolex:writtenRep "ওপর"@bn; dimlex:type "cont"; dimlex:onr "102o2"; dimlex:type "cont"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn "1";
+      dimlex:sem_ambiguity "0" ];
+    dimlex:non_conn_reading [ 
+      dimlex:example "আমার ওপর রাগ করে লাভ নেই|";
+      dimlex:english_example_equivalent "There is no point in getting angry on me." ];
+    dimlex:syn [ 
+      dimlex:cat "Adverb";
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion:Conjunction";
+        a ontolex:LexicalSense; ontolex:isSenseOf :c101__; ontolex:isLexicalizedSenseOf pdtb3:Expansion:Conjunction ];
+        dimlex:example "সুবলের মা হাসপাতালে ভর্তি| তার উপর তার ছেলেটাও অসুস্থ|";
+        dimlex:english_equivalent "Subal's mother is admitted in the hospital. In addition to it, his son is also sick." ] ].
+
