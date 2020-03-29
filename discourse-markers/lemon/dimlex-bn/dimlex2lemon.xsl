@@ -80,7 +80,7 @@ PREFIX : &lt;</xsl:text>
     <xsl:template match="entry">
         <xsl:call-template name="get-indent"/>
         <xsl:call-template name="entry-resource"/>
-        <xsl:text> a ontolex:LexicalEntry</xsl:text>
+        <xsl:text> a ontolex:LexicalEntry; </xsl:text>
         <xsl:apply-templates/>
         <xsl:text>.&#10;&#10;</xsl:text>
     </xsl:template>
@@ -132,8 +132,6 @@ PREFIX : &lt;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
                     <xsl:call-template name="entry-resource"/>
-                    <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-                    <xsl:value-of select="@sense"/>
                 </xsl:if>
                 <xsl:text> ]</xsl:text>
             </xsl:otherwise>
