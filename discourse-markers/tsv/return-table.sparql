@@ -1,0 +1,29 @@
+# given a "CoNLL" mapping between conll:SENSE and conll:PDTB3 in the default graph
+# consult named graph <http://dimlex-lemon.org> that contains the corresponding dimlex lemon file
+
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#> 
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#> 
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#> 
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#> 
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#> 
+PREFIX lexinfo: <https://www.lexinfo.net/ontology/2.0/lexinfo#>
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX discmar: <https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT distinct ?word ?lang ?pdtb1 ?pdtb2 ?pdtb3
+WHERE {
+	?w dimlex:form ?form ; dimlex:sense ?pdtb3
+	BIND(str(?form) AS ?word)
+	BIND(lang(?form) as ?lang)
+	BIND(replace(str(?pdtb3),':.*','') AS ?pdtb1)
+	BIND(replace(str(?pdtb3),'^([^:]+:[^:]+):.*','$1') AS ?pdtb2)
+} ORDER BY ?form ?pdtb3
