@@ -103,9 +103,9 @@ PREFIX : &lt;</xsl:text>
         <xsl:value-of select="name()"/>
         <xsl:choose>
             <xsl:when test="not(exists(*)) and not(exists(@*))">
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="normalize-space(string-join(text(),' '))"/>
-                <xsl:text>"</xsl:text>
+                <xsl:text> """</xsl:text>
+                <xsl:value-of select="replace(normalize-space(string-join(text(),' ')),'&quot;','\\&quot;')"/>
+                <xsl:text>"""</xsl:text>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:text> [ </xsl:text>
@@ -134,8 +134,6 @@ PREFIX : &lt;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
                     <xsl:call-template name="entry-resource"/>
-                    <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-                    <xsl:value-of select="@sense"/>
                 </xsl:if>
                 <xsl:text> ]</xsl:text>
             </xsl:otherwise>
