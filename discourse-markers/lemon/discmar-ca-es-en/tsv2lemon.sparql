@@ -18,6 +18,36 @@ PREFIX discmar: <https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
+# preprocessing: split comma-separated entries of conll:SEM (at most 3 elements)
+DELETE {
+	?a conll:SEM ?sem
+} INSERT {
+	?a conll:SEM ?s1, ?s2
+} WHERE {
+	?a conll:SEM ?sem.
+	FILTER(contains(str(?sem),','))
+	BIND(replace(str(?sem),',.*','') as ?s1)
+	BIND(replace(str(?sem),'^[^,]*,\\s*','') as ?s2)
+};
+
+DELETE {
+	?a conll:SEM ?sem
+} INSERT {
+	?a conll:SEM ?s1, ?s2
+} WHERE {
+	?a conll:SEM ?sem.
+	FILTER(contains(str(?sem),','))
+	BIND(replace(str(?sem),',.*','') as ?s1)
+	BIND(replace(str(?sem),'^[^,]*,\\s*','') as ?s2)
+};
+
+DELETE {
+	?a conll:SEM ?sem
+} WHERE {
+	?a conll:SEM ?sem
+	FILTER(replace(str(?sem),'\\s','')='')
+};
+
 # ontolex:LexicalEntry
 DELETE {
 	?a a nif:Word; conll:ID ?id; conll:HEAD ?h; nif:nextWord ?n

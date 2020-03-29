@@ -348,7 +348,7 @@
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
                           [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "a"@es , "at"@en ;
+                                         rdfs:label  "a"@es , "to"@en ;
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_192 ;
                                          :struct     "(vague)" ;
@@ -358,7 +358,7 @@
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
                           [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "a"@es , "to"@en ;
+                                         rdfs:label  "a"@es , "at"@en ;
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_192 ;
                                          :struct     "(vague)" ;
@@ -1334,32 +1334,12 @@
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
                           [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "como"@es , "since"@en ;
-                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
-                                                 :s1_207 ;
-                                         :struct     "elaboration" ;
-                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "equality, context, cause"
-                                       ] ] ] ;
-        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
-                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
-                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
                                          rdfs:label  "como"@es , "like"@en ;
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_207 ;
                                          :struct     "elaboration" ;
                                          <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "cause, context"
-                                       ] ] ] ;
-        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
-                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
-                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "como"@es , "like"@en ;
-                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
-                                                 :s1_207 ;
-                                         :struct     "elaboration" ;
-                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "equality, context, cause"
+                                                 "context"
                                        ] ] ] ;
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
@@ -1369,7 +1349,47 @@
                                                  :s1_207 ;
                                          :struct     "elaboration" ;
                                          <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "cause, context"
+                                                 "equality"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "como"@es , "like"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_207 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "equality"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "como"@es , "like"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_207 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "como"@es , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_207 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "como"@es , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_207 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
                                        ] ] ] .
 
 :s1_279  a      <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
@@ -1428,7 +1448,17 @@
                                                  :s1_219 ;
                                          :struct     "elaboration" ;
                                          <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "cause, context"
+                                                 "context"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "desde"@es , "since"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_219 ;
+                                         :struct     "elaboration" ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "cause"
                                        ] ] ] .
 
 :s1_280  a      <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
@@ -1480,7 +1510,7 @@
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
                           [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "ni"@es , "neither"@en ;
+                                         rdfs:label  "ni"@es , "nor"@en ;
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_250 ;
                                          :struct     "(vague)" ;
@@ -1490,7 +1520,7 @@
         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
                 [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
                           [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
-                                         rdfs:label  "ni"@es , "nor"@en ;
+                                         rdfs:label  "ni"@es , "neither"@en ;
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_250 ;
                                          :struct     "(vague)" ;
@@ -1575,7 +1605,16 @@
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_202 ;
                                          <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "context, equality"
+                                                 "equality"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "antes que nada"@es , "first of all"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_202 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
                                        ] ] ] .
 
 :s1_274  a      <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
@@ -1671,7 +1710,16 @@
                                          <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
                                                  :s1_256 ;
                                          <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
-                                                 "context, equality"
+                                                 "equality"
+                                       ] ] ] ;
+        <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#syn>
+                [ <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sem>
+                          [ :relation  [ a           <http://www.w3.org/ns/lemon/ontolex#LexicalSense> ;
+                                         rdfs:label  "para empezar"@es , "to begin with"@en ;
+                                         <http://www.w3.org/ns/lemon/ontolex#isSenseOf>
+                                                 :s1_256 ;
+                                         <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#sense>
+                                                 "context"
                                        ] ] ] .
 
 :s1_226  a      <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> ;
