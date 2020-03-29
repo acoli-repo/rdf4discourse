@@ -81,7 +81,7 @@ PREFIX : &lt;</xsl:text>
     <xsl:template match="entry">
         <xsl:call-template name="get-indent"/>
         <xsl:call-template name="entry-resource"/>
-        <xsl:text> a ontolex:LexicalEntry</xsl:text>
+        <xsl:text> a ontolex:LexicalEntry; </xsl:text>
         <xsl:apply-templates/>
         <xsl:text>.&#10;&#10;</xsl:text>
     </xsl:template>
@@ -103,7 +103,7 @@ PREFIX : &lt;</xsl:text>
         <xsl:choose>
             <xsl:when test="not(exists(*)) and not(exists(@*))">
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="normalize-space(string-join(text(),' '))"/>
+                <xsl:value-of select="replace(normalize-space(string-join(text(),' ')),'&quot;','\\&quot;')"/>
                 <xsl:text>"</xsl:text>
             </xsl:when>
             <xsl:otherwise>
@@ -128,13 +128,11 @@ PREFIX : &lt;</xsl:text>
                     <xsl:value-of select="."/>
                     <xsl:text>"</xsl:text>
                 </xsl:for-each>
-                <xsl:if test="name()='pdtb3_relation'">
+                <xsl:if test="ends-with(name(),'_relation')">
                     <xsl:text>;&#10;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
                     <xsl:call-template name="entry-resource"/>
-                    <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-                    <xsl:value-of select="@sense"/>
                 </xsl:if>
                 <xsl:text> ]</xsl:text>
             </xsl:otherwise>
