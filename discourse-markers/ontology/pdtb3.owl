@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#"
+     xml:base="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf">
+        <rdfs:comment xml:lang="en">Ontology for the Penn Discourse Treebank relation inventory (PDTB 3)
+
+Unless stated otherwise, all comments are excerpts from the PDTB 3 manual (Webber et al. 2019). For the moment, we adopt the URL of this manual as a base URI. This is going to change.
+
+Note that we omit belief and speech act information, as annotations for these are available for English, only, and the goal of this ontology is to link existing, multilingual discourse marker lexicons.
+
+references
+
+Bonnie Webber, Rashmi Prasad, Alan Lee and Aravind Joshi. 2019. The Penn Discourse Treebank 3.0 Annotation Manual. (available at https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf) 
+
+history
+2020-03-29 created
+
+contributors
+CC - Christian Chiarcos</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-cond -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-cond">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Condition"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Condition.Arg1-as-cond is used when Arg1 describes the antecedent and
+Arg2, the consequent. (p.22)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-denier -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-denier">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Concession"/>
+        <rdfs:comment xml:lang="en">The label Comparison.Concession.Arg1-as-denier is used when it is Arg2 that raises an expectation
+of some consequence, and Arg1 that denies it. (p.24)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-detail -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-detail">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Level-of-detail"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Level-of-detail.Arg1-as-detail is used when Arg1 describes in more detail,
+the situation in Arg2. That is, Arg2 is more general.
+(p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-excpt -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-excpt">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Exception"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Exception.Arg1-as-excpt is used when Arg1 indicates the exception(s). (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-goal -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-goal">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Purpose"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Purpose.Arg1-as-goal is used when Arg1 describes the goal and Arg2 describes
+the action undertaken to achieve it. (p.21)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-instance -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-instance">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Instantiation"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Instantiation.Arg1-as-instance is used when Arg1 provides one or more instances
+of the circumstances described by Arg2. (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-manner -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-manner">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Manner"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Manner.Arg1-as-manner is used when it is Arg1 that describes the manner. (p.28)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negCond -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-negCond">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg1-as-negCond is used when Arg1 describes the
+antecedent and Arg2, the consequent. (p.23)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-subst -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg1-as-subst">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Substitution"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Substitution.Arg1-as-subst is used when Arg1 conveys the alternative which
+is left after the situation associated with Arg2 is ruled out. (p.29)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-cond -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-cond">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Condition"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Condition.Arg2-as-cond is used when Arg2 describes the antecedent and
+Arg1, the consequent. (p.22)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-denier -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-denier">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Concession"/>
+        <rdfs:comment xml:lang="en">The label Comparison.Concession.Arg2-as-denier is used when it is Arg1 that raises an expectation
+of some consequence, while it is Arg2 denies it. (p.24)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-detail -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-detail">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Level-of-detail"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Level-of-detail.Arg2-as-detail is used when Arg2 describes in more detail,
+the situation in Arg1. (p.28)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-excpt -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-excpt">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Exception"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Exception.Arg2-as-excpt is used when Arg2 indicates the exception(s). (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-goal -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-goal">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Purpose"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Purpose.Arg2-as-goal is used when Arg2 describes the goal and Arg1 describes
+the action undertaken to achieve it. (p.21)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-instance -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-instance">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Instantiation"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Instantiation.Arg2-as-instance is used when Arg2 provides one or more instances
+of the circumstances described by Arg1. (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-manner -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-manner">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Manner"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Manner.Arg2-as-manner is used when it is Arg2 that describes the manner. (p.28)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negCond -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-negCond">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Negative-condition.Arg2-as-negCond is used when Arg2 describes the
+antecedent (aka condition) and Arg1, the consequent. (p.23)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-subst -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Arg2-as-subst">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Substitution"/>
+        <rdfs:comment xml:lang="en">The label Expansion.Substitution.Arg2-as-subst is used when Arg2 conveys the alternative which
+is left after the situation associated with Arg1 is ruled out. (p.30)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Asynchronous -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Asynchronous">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#TEMPORAL"/>
+        <rdfs:comment xml:lang="en">This tag is used when one event is described as preceding the other. (p.19)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Belief -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Belief">
+        <rdfs:comment xml:lang="en">Contingency.Cause+Belief This tag is used when evidence is provided to cause the hearer to believe
+a claim. The belief is implicit. (p.20)
+
+The label Contingency.Cause+Belief.Reason is used when Arg2 gives the evidence justifying the
+claim given in Arg1. (p.20)
+
+The label Contingency.Cause+Belief.Result is used when Arg1 gives the evidence justifying the
+claim given in Arg2. (p.21)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
+        <rdfs:comment xml:lang="en">The tag Comparison is used when the discourse relation between two arguments highlights their dierences
+or similarities, including dierences between expected consequences and actual ones. The PDTB-3
+sense hierarchy distinguishes three types of Comparison: Contrast, Similarity and Concession.
+Similarity, the opposite of Contrast, had not been included in the PDTB-2 sense hierarchy. Of the
+other two, Contrast is meant to be used when at least two dierences between Arg1 and Arg2 are
+highlighted, while Concession is meant to be used when a causal relation expected on the basis of one
+argument is cancelled or denied by the situation described in the other. (p.23)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
+        <rdfs:comment xml:lang="en">The tag Contingency is used when the situation described by one argument provides the reason,
+explanation or justication for the situation described by the other. (p.19)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY"/>
+        <rdfs:comment xml:lang="en">Contingency.Cause This tag is used when the situations described in Arg1 and Arg2 are causally
+influenced but are not in a conditional relation. (p.19)
+
+We have found no evidence in the corpus for the complementary relation Contingency.Cause.NegReason,
+so have not introduced it into the sense hierarchy. (p.20)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Concession -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Concession">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON"/>
+        <rdfs:comment xml:lang="en">Comparison.Concession This tag is used when an expected causal relation is cancelled or denied by
+the situation described in one of the arguments. (p.24)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Condition -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Condition">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY"/>
+        <rdfs:comment xml:lang="en">Contingency.Condition This tag is used when one argument presents a situation as unrealized (the
+antecedent), which (when realized) would lead to the situation described by the other arg (the consequent).
+There are distinct senses for interpreting the arguments in terms of their semantics or the speech acts
+they convey. The default is their semantics. (p.22)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Conjunction -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Conjunction">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Conjunction The tag Conjunction is used when both arguments bear the same relation
+to some other situation evoked in the discourse. It indicates that the two arguments make the same
+contribution with respect to that situation, or contribute to it together. It diers from most other
+relations in that the arguments don&apos;t directly relate to each other, but to this other situation. (p.25)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Contrast -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Contrast">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON"/>
+        <rdfs:comment xml:lang="en">Comparison.Contrast As noted, Contrast is used when at least two dierences between Arg1 and
+Arg2 are highlighted. (p.25)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Disjunction -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Disjunction">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Disjunction The tag Expansion.Disjunction is used when the two arguments are presented
+as alternatives, with either one or both holding. As with Conjunction, Disjunction is used
+when both its arguments bear the same relation to some other situation evoked in the discourse, making
+a similar contribution with respect to that situation. While the arguments also relate to each other as
+alternatives (with one or both holding), they also both relate in the same way to this other situation. (p.26)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
+        <rdfs:comment xml:lang="en">The label Expansion is used for relations that expand the discourse and move its narrative or exposition
+forward. (p.25)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Equivalence -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Equivalence">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Equivalence This tag is used when both arguments are taken to describe the same situation,
+but from dierent perspectives. (p.26)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Exception -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Exception">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Exception This tag is used when one argument evokes a set of circumstances in which the
+described situation holds, and the other argument indicates one or more instances where it doesn&apos;t. (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Instantiation -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Instantiation">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Instantiation This tag is used when one argument describes a situation as holding in a
+set of circumstances, while the other argument describes one or more of those circumstances. (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Level-of-detail -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Level-of-detail">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Level-of-Detail This tag is used when both arguments describe the same situation, but
+in less or more detail. (p.27)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Manner -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Manner">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Manner This tag is used when the situation described by one argument presents the
+manner in which the situation described by other argument has happened or been done. Manner
+answers \how&quot; questions such as \How were the children playing?&quot;. While Manner may be the only
+relation that holds between two arguments, it is often the case that another sense (Purpose, Result or
+Condition) is taken to hold as well. (p.28)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#NegResult -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#NegResult">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause"/>
+        <rdfs:comment xml:lang="en">the label Contingency.Cause.negResult is used when Arg1 gives the reason, explanation or
+justication that prevents the eect mentioned in Arg2. It was specically introduced for the lexicosyntactic
+construction too X to Y (cf. Section 2.7.2) (p.20)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Negative-condition">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY"/>
+        <rdfs:comment xml:lang="en">Contingency.Negative-condition This tag is used when one argument (the antecedent) describes a
+situation presented as unrealized, which if it doesn&apos;t occur, would lead to the situation described by the
+other argument (the consequent). There are distinct senses for interpreting the arguments in terms of
+semantics or speech acts, with the default being semantics. (p.23)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Precedence -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Precedence">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Asynchronous"/>
+        <rdfs:comment xml:lang="en">The label Temporal.Asynchronous.Precedence is used when the event described by Arg1 precedes
+that described by Arg2 (i.e., Arg1 &lt;&lt; Arg2). (p.19)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Purpose -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Purpose">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#CONTINGENCY"/>
+        <rdfs:comment xml:lang="en">Contingency.Purpose This tag is used when one argument presents an action that an AGENT undertakes
+with the purpose of the GOAL conveyed by the other argument being achieved. Usually (but
+not always), the agent undertaking the action is the same agent aiming to achieve the goal. (p.21)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Reason -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Reason">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Cause.Reason is used when Arg2 gives the reason, explanation or justification,
+while Arg1 gives its effect. (p.19)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Result -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Result">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Cause"/>
+        <rdfs:comment xml:lang="en">The label Contingency.Cause.Result is used when Arg1 gives the reason, explanation or justification,
+while Arg2 gives its effect. (p.20)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Similarity -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Similarity">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#COMPARISON"/>
+        <rdfs:comment xml:lang="en">Comparison.Similarity This tag is used when one or more similarities between Arg1 and Arg2 are
+highlighted with respect to what each argument predicates as a whole or to some entities it mentions. (p.25)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#SpeechAct -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#SpeechAct">
+        <rdfs:comment xml:lang="en">Contingency.Cause+SpeechAct This tag is used when a reason is provided for the speaker uttering
+a speech act. The speech act is implicit. (p.21)
+
+The label Contingency.Cause+SpeechAct.Reason is used when Arg2 is the reason for the speaker
+uttering the speech act in Arg1. (p.21)
+
+The label Contingency.Cause+SpeechAct.Result is used when Arg1 is the reason for the speaker
+uttering the speech act in Arg2. (p.21)
+
+Contingency.Condition+SpeechAct This tag is used when the consequent is an implicit speech act.
+So far, all cases of Condition+SA are Arg2-as-cond, so Arg1 is the implicit SA. (p.22)
+
+Contingency.Negative-condition+SpeechAct This tag is used when the consequent is an implicit
+speech act. While none of the tokens in the PDTB-3 have been annotated with this sense, it is included
+in the hierarchy for completeness. (p.23)
+
+Comparison.Concession+SpeechAct This tag is used when the speech act (SA) associated with
+one argument is cancelled or denied by the other argument or its SA. The only sub-type for which tokens
+have been identied is Comparison.Concession+SpeechAct.Arg2-as-denier+SA, where it is the
+SA associated with Arg1 that is cancelled or denied by Arg2 or its associated SA. (N.B. The SA that is
+cancelled MUST be implicit.) (p.24)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Substitution -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Substitution">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#EXPANSION"/>
+        <rdfs:comment xml:lang="en">Expansion.Substitution This tag is used when arguments are presented as exclusive alternatives,
+with one being ruled out. (p.29)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Succession -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Succession">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Asynchronous"/>
+        <rdfs:comment xml:lang="en">The label Temporal.Asynchronous.Succession is used when the event described by Arg2 precedes
+that described by Arg1 (i.e., Arg2 &lt;&lt; Arg1). (p.19)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Synchronous -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Synchronous">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#TEMPORAL"/>
+        <rdfs:comment xml:lang="en">This tag is used when there is some degree of temporal overlap between the
+events described by the arguments. All forms of overlap are included. (p.18)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#TEMPORAL -->
+
+    <owl:Class rdf:about="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#TEMPORAL">
+        <rdfs:subClassOf rdf:resource="https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf#Relation"/>
+        <rdfs:comment xml:lang="en">The tag temporal is used when the situations described in the arguments are intended to be related
+temporally. (p.18)</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
