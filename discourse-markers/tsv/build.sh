@@ -18,10 +18,12 @@ if ls $CONLL_RDF/run.sh | egrep '.' >&/dev/null; then # found
 				cat $dimlex/mapping.tsv | \
 				$CONLL_RDF/run.sh CoNLLStreamExtractor \
 					https://ignore.me/ \
-					SENSE PDTB3 | tee tmp.ttl | \
+					SENSE PDTB3 | \
+					#tee tmp.ttl | \
 				$CONLL_RDF/run.sh CoNLLRDFUpdater \
 					-custom -model $dict http://dimlex-lemon.org \
-					-updates mapping2tsv.sparql | tee tmp2.ttl | \
+					-updates mapping2tsv.sparql | \
+					# tee tmp2.ttl | \
 				$CONLL_RDF/run.sh CoNLLRDFFormatter -sparqltsv return-table.sparql > $tgt
 			done;
 		fi;

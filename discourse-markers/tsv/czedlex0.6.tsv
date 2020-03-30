@@ -1,0 +1,1333 @@
+# global.columns = word lang pdtb1 pdtb2 pdtb3
+#neg	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+#neg	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg -	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg -	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg - pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg - pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg a	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg a	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg a naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg a naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg a pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg a pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg a spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg a spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg a spíše jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg a spíše jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+#neg ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg ale jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg ale zato	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ale zato	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ani jako spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ani jako spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ani tak jako spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ani tak jako spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ba naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ba naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jako	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg jako	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg jen	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg jen a	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+#neg jen ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen ale též	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen i	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg jen i	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg jen nýbrž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jen především	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jenom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+#neg jenom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg jenom ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg místo toho	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg místo toho	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg ne naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg ne naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg nic jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg nic jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg pouze	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+#neg pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg pouze ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg pouze ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg pouze i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg pouze nýbrž a především	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+#neg přitom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg přitom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg raději	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg raději	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg sice však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg sice však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+#neg však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+#neg však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+-	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+-	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+-	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+-	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+-	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+-	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+-	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+-	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+-	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+-	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+-	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+-	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+-	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+-	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+- -	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+- a	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+- a nakonec	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+- a přitom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+- a to	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+- a zároveň	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+- aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+- anebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+- což	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+- dokonce i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+- leda	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+- li	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+- li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+- např	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+- například	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+- ostatně	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+- prostě	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+- přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+- přitom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+- tedy	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+- tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+- to	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+- totiž	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+- tzn	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+- vlastně	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+- vlastně	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+- vždyť	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+:	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+:	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+:	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+:	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+:	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+:	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+:	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+:	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+: aby	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+: například	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+: ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+: proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+: přece	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+: tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+: totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+: totiž	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+;	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+;	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+;	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+; poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+; přitom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+a	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+a	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+a ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a bezprostředně poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a bude pokračovat	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a do třetice	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dodal	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dodal jsem	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dodat	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dodejme	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dodává	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dokonce i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a doplňuje	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a dále	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a hned pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a i proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a jako důvod uvedla , že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a ještě k tomu	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a k tomu	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a k tomu ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a konečně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a konečně	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a kromě toho	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a kvůli tomu	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a měly k tomu pochopitelné důvody	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a na závěr	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a nadále	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a nakonec	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a nakonec	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+a naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+a naopak vzápětí	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a naproti tomu	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a například	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+a navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a ne	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+a ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+a nebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+a nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+a nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+a nikoliv	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+a nikoliv	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+a pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+a pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a pokračoval	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a pokračovali	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a pokračovat bude	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a pokračuje	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+a posléze	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a posléze i	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a potažmo	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a potom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a poté i	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a později	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a přece	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a především	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a předtím	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a při tom	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+a přitom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a přitom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a přitom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a přitom	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a přímo	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a případně i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a současně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a současně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a současně	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+a současně i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a stejně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a stejně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a stejně tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a tak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a tak	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+a tak	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a taky	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a také	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+a také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a také proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+a tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+a tedy	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+a tedy	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a tedy i	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+a teprve potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a to	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a to	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a to	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a to	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a to	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a to i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a to je důvod , proč	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a to jen	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a to ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a to proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a to znamená , že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tudíž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a též	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a tím	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tím	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+a tím i	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a tím pádem	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a v důsledku toho	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a v tomto případě	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a ve skutečnosti	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+a vlastně	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a vzápětí	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+a z toho důvodu	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a z tohoto důvodu	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a za druhé	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a za to	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+a zase	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a zase	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a zejména	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+a zrovna tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+a zároveň	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+a zároveň	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+aby	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+aby	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+aby	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+aby aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+aby nakonec	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+aby pokračovala	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+aby posléze	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+aby tak	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+aby za to	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ale	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ale ani	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale i	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale i tak	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale i tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ale jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ale místo toho	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale místo toho	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ale místo toho	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ale na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale nakonec	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale například i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale ne	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ale ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ale o to víc	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale přece	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale přece	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale přece jen	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale přitom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale přitom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale spíše	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale stejně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale také	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale to ještě neznamená , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale to neznamená , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale třeba i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ale ve skutečnosti	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale ve skutečnosti	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ale ve skutečnosti	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ale však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ale však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ale zato	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ale zároveň	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ale zároveň	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+alespoň	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+alespoň	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+alespoň	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+alespoň	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+aneb	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+anebo	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+anebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+anebo ještě přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+anebo ještě přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+anebo přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+anebo přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ani	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ani + případ	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ani ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ani ne ale spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ani ne ale spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ani ne jako spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ani ne jako spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ani ne tak jako spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ani ne tak jako spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ani v tomto případě	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+aniž	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+aniž	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+aniž	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+aniž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+aniž tak	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+argumentovat	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+argumentovat	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+argumentovat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+argumentovat	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+avšak jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+avšak jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+avšak na druhé straně naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+avšak pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+avšak pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ač	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ač ve skutečnosti	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ať	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ať	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+ať už li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+až	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+až	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+až	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+až	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+až	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+až až	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+až do té doby než	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+až do té doby než	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+až když	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+až když	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+až na	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+až na	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+až nakonec	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+až poté	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+až poté kdy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+ba	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ba	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ba	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ba co víc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ba i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+buď anebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+buď nebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+buď či	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+buďto	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+buďto	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+buďto buďto	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+buďto nebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+byť	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+což	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+což	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+což	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+což	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+což	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+což	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+což ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+což ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+což však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+dodat	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+dodat	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+dodat	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dodejme rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokonce ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokonce aniž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokonce i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokonce i když	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+dokonce i když	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+dokud	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+dokud	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+dokud	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+dokud tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+dokud tak	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+doplnit	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dosti	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dovršení	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dále	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+dále	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dále	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+dále a nakonec	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dále dodal	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+dále pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+díky	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+důsledek	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+důvod	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+důvod	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+důvod	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+důvod	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+důvod	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+i	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+i	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+i ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+i kdyby	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i kdyby	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+i kdyby tak	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i kdybych	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i kdybychom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i kdybychom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+i když	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i když	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+i když	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+i když	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+i když	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+i když pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+i když pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+i když přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+i nebo spíše právě	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+i nebo spíše právě	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+i potom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i přes tato fakta	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i přes to že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i přesto , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i přesto že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i tak	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i tak ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i tak však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+i v případě , kdyby	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+i vzhledem k tomu , že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+i však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+i z toho důvodu , že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+jak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+jak tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jak tak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+jak tak případně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jakkoli	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jakkoli	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jakkoliv tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jakmile	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jakmile	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+jakmile	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+jako	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak a	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak a dále	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak a jednak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak a kromě toho	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak a za druhé	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak jednak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak na straně druhé zase	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak především však	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jednak také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jelikož	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+jen	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+jen	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+jen když	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jen tehdy li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jen však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+jen však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+jenomže	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jenže	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jenže	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jenže	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+jenže	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+jenže i potom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jenže i potom	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+jenže i potom	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+jenže stejně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jenže také	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jestli	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestli	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+jestli pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestli tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestliže	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jestliže	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jestliže	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+jestliže	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestliže	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jestliže pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestliže potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jestliže tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jestliže tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ještě	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+ještě	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ještě	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ještě	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+ještě k tomu	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ještě předtím	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+ještě spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ještě spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ježto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+jinak	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+jinak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jinak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+jinak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+jinak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+jinak	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+jinak	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+jinak	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+jinak však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+jmenovitě	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+k tomu	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+k tomu	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+k tomu aby	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+k tomu aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+k tomu abychom	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+k tomu abyste	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+kdežto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+kdežto naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+kdy	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+kdy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+kdy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+kdy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+kdy	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdy	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+kdy	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+kdy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+kdy	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+kdyby	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+kdyby	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdyby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+kdyby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+kdyby kdyby	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdyby pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdyby tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdybych potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdybych tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdybychom kdybychom pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdybychom potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+kdykoli	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+kdykoli	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+když	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+když	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+když	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+když	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+když	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+když	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+když	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+když	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+když	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+když	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+když když	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+když předtím	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+když tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+když už	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+když ve skutečnosti	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+koneckonců	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+koneckonců	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+konkrétně	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+kontrastovat	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+kromě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+kromě toho ovšem i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+kromě toho také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+kromě toho však	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+krátce nato	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+kvůli	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+kvůli	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+kvůli	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+leda	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+leč	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+leč přece jen	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+li	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+li	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+li jestliže	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+li tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+mezi	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+mezitím	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+mezitím	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+mezitím co	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+mimo jiné	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+mimo jiné	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+mimoto	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+místo	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+místo	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+místo aby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+místo aby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+místo toho aby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+místo toho aby	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+místo toho však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+místo toho však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+na druhé straně ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na druhé straně však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na druhé straně zase	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na druhé straně zase	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+na jedné straně a na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na jedné straně ale na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na jedné straně jenže na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na jedné straně na druhé straně však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na jedné straně na druhé straně však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+na jedné straně na druhé straně však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+na první pohled však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na rozdíl	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+na rozdíl	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na straně jedné a na straně druhé	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+na to aby	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+na to aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+na to abych	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+na to abych	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+na to abyste	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+na základě	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+nadto	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nakonec	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+nakonec	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+nakonec	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+nakonec	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nakonec	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+nakonec	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nakonec totiž	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+naopak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+naopak	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+naopak	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+naopak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+naopak však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+naproti	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+napřed a teprve potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+napřed pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+například	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+například když	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+nato	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+natož	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+natož pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+navzdory	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+navzdory	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+navzdory tomu však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ne	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ne	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ne	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ne	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ne ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ne ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ne nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ne nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ne pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ne pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+ne však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+ne však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nebo	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nebo	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+nebo	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nebo	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nebo alespoň	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+nebo dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nebo i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nebo ještě	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+nebo naopak	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+nebo pouze	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nebo spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nebo spíš	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nebo spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nebo spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+neboli	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+neboť	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+neboť	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+neboť	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+neboť	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+nedosti na tom :	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nehledě na	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejdřív pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejdřív potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejdříve pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejdříve potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejen	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen :	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale dokonce	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale naopak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale též	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen ale zároveň	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen kromě toho	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen navíc i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen nýbrž i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejen že ale zejména	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenom ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenom ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenom ale zejména	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenom i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenomže	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenomže ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže ale ani	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže ale i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže ale ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže ale také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejenže rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nejprve	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve a pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve a poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve dále	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve později	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve vzápětí	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nejprve záhy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nemluvě o	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+než	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+než	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+než	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+než než	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nicméně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+nicméně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+nicméně	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+nicméně	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+nikoli	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoli ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoli ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoli pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoli pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoli tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoli tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoli však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+nikoli však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoli však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoliv ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoliv ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoliv jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoliv jenom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoliv nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoliv nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nikoliv ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+nikoliv však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nikoliv však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+nutno ovšem dodat	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+následně	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+následovat	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+nýbrž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+nýbrž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+obdobně pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+od toho aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+odhadnout	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+odůvodnění	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+ohled	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+okamžik	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+oproti	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ostatně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ostatně	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+ostatně i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ovšem	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ovšem	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+ovšem	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ovšem	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ovšem i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ovšem jen v případě , že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem jen v případě , že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ovšem pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ovšem přeci jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem přeci jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ovšem s tím že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem s tím že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+ovšem také	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ovšem také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+ovšem za podmínky , že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+ovšem za podmínky , že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+pak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pak	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+pak dodal	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pak ovšem	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+pak totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+plynout	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+plynout	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+po tom co	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+po tom kdy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+podmínka	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+podmínka	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+podmínka	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+podobně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+podobně i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+podobně jako	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pokračovat	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pokračovat	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pokud	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+pokud li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud ovšem	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud pak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pokud tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+poněvadž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+popřípadě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+popřípadě	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+poslední	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+posléze	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+potom	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+potom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+potom	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+potom	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+potom co	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+potom kdy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+poté	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+poté	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+poté	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+poté	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+poté co	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+poté co	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+poté co	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+poté co	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+poté kdy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+poté kdy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+pouze	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+pouze	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pouze	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+pouze	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+pouze nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+pouze nikoli	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+pouze tehdy li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+pouze tehdy pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+později	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+pravděpodobnější	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+pravděpodobnější	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+pro to aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+pro to abych	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+prostě	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+prostě	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+proto	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+proto aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+proto aby aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+proto aby aby proto aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+proto abychom	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+proto abyste	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+proto li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+proto také	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+proto že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+proto že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+proto že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+proto že	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+proto že proto že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+proto že že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+protože	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+protože	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+protože	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+protože	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+protože pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+protože protože	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+protože tak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+první	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+první	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+pád	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+přece	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přece	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přece	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+přece	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+přece	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+přece	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+přece	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+přece	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+přece jen	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přece jenom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+před tím než	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+předtím	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+předtím než	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+přeloženo	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+přes	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přesněji	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+přesněji	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přesto ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přesto však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přesto však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přesto však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+přesto však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+přesto že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přestože	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přestože	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přispívat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+přistupovat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+přitom	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přitom	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přitom	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přitom	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+přitom	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+přitom	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+přitom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+přitom	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+přitom	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+přitom jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+přitom jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+přitom navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přitom také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přitom však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přitom zase	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přičemž	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+přičemž	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+přičemž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přičemž	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+přičemž	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+přičemž i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přičemž ještě	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přičemž navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přičemž zároveň	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+přičíst	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+přičíst	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+příklad	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+příklad	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+případ	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+případ	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+případ	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+případ	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+případ	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+případ	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+případ	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+případně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+případně	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+příčina	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+respektive	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+respektive	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+respektive	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+rozdíl	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+rozdíl	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+rozdíl	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+s tím , že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+s tím , že	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+s tím , že	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+s tím aby	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+s tím aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+s tím ať	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+s tím že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+s tím že	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+s tím že	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+s tím že	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+s tím že	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+s tím že pak	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+s tím že pak	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+s tím že zároveň	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+sice	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+sice	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+sice	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+sice - ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice a	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+sice ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice ale	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+sice ale	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+sice ale aspoň	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale i tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice ale pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice ale přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice ale přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale taky	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale ve skutečnosti	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale zato	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ale zároveň	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice avšak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice jenže	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice jenže také	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice nicméně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice nicméně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice nicméně	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice nicméně	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice nicméně však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ovšem	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice ovšem	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice ovšem	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice ovšem	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice přesto však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice sice nicméně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+sice však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+sice však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+sice však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+sice zato	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+skutečnost	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+skutečnost	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+skutečnost	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+skutečnost	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+skutečnost	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+skutečnost	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+slovo	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+slovo	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+směr	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+sotva	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+souběžně	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+souvislost	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+souvislost	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+souvislost	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+současně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+současně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+současně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+současně	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+současně ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+současně však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+současně však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+spolu s tím rovněž	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+spíše	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+spíše	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+spíše však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+spíše-2	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+spíše-2	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejný	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejně	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+stejně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+stejně	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+stejně	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+stejně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejně	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+stejně jako	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejně tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejně tak ale	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+stejně tak i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+strana	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+strana	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+strana	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+strana	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+tak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+tak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+tak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+tak	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+tak	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+tak	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+tak	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+tak	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+tak aby	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+tak dlouho pokud	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+tak např	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+tak například	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+tak tedy	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+také	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+také proto	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+takže	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+takže	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+takže	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+takže	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+takže	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+takže ale vlastně	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+takže nakonec	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+takže ne ne	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+takže vlastně zase	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+tedy	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+tedy	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+tedy	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+tedy	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+tedy	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+tedy	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+tedy	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+tedy vlastně	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+tehdy když	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+tehdy když	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+tehdy když	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+tehdy pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+tehdy pokud pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+tj	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+tj	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+to	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+to ale neznamená , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+to ale znamenalo že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+to ovšem neznamená , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+to však neznamená , že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+totiž	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+totiž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+totiž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+totiž navíc	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+tudíž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+tudíž	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+též	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+tím	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+tím	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+tím	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+tím	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+tím	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+tím ovšem	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+tím že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+třeba	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+třeba	cs	EXPANSION	EXPANSION:Instantiation	EXPANSION:Instantiation	
+třebaže	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+třetice	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+upřesnit	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+upřesnit	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+upřesnit	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+upřesnit	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+v podstatě	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+v případě , že a pokud	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+v případě , že li	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+v tom že zatímco	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+ve spojení s tím že	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+vedle	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+vedle toho , že i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+vidět	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+vinou	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+vlastně	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+vlastně	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+vlastně	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+vlastně	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+vlastně totiž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+vlastně totiž	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+vyjma	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+vyjma	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+vyplývat	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+vyplývat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+vzhledem k	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+vzhledem k	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+vzhledem k	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+vzápětí	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+vést	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+více	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+více	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+více	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+více	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+výjimka	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+výjimka	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+výsledek	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+výsledek :	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+však	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+však	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+však dodat stejně tak	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však i	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však i	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však mezitím	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však na druhé straně	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však navzdory těmto faktům	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+však navíc	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však nejde	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však nejen	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však nutno dodat	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+však pouze	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+však přece i	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však přeci jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+však přeci jen	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+však přesto	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+však přesto	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však současně	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však také	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+však ve skutečnosti	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+však zároveň	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+vždyť	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+vždyť	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+vždyť	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+vždyť také	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+z toho když	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+za to	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+za to co	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+za to že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+zase	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+zase	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zase	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+zase	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+zase naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zato	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zato	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+zato	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+zato ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zato však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zatím	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+zatím ale	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+zatímco	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zatímco	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+zatímco	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+zatímco naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zdůvodnit	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+ze zcela jiných příčin totiž	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+zkrátka	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+znamenat	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+znamenat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+znamenat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+znamenat	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+znamenat	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+zprvu později	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+způsobit	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+záhy	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+záhy poté	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+zároveň	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+zároveň	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+zároveň ale	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zároveň naopak	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zároveň však	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+zároveň však	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+zásluhou	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+závěr	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+závěr	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+závěr je tedy následující	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+zčásti zčásti	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+účel	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+účel	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+či	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+či	cs	EXPANSION	EXPANSION:Disjunction	EXPANSION:Disjunction	
+či spíše	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+čili	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+čili	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+čili	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+řada	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+řečeno	cs	EXPANSION	EXPANSION:Equivalence	EXPANSION:Equivalence	
+řečeno	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+řečeno	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg1-as-subst	
+řečeno	cs	EXPANSION	EXPANSION:Substitution	EXPANSION:Substitution:Arg2-as-subst	
+že	cs	COMPARISON	COMPARISON:Concession	COMPARISON:Concession	
+že	cs	COMPARISON	COMPARISON:Contrast	COMPARISON:Contrast	
+že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Reason	
+že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause:Result	
+že	cs	CONTINGENCY	CONTINGENCY:Condition	CONTINGENCY:Condition	
+že	cs	CONTINGENCY	CONTINGENCY:Purpose	CONTINGENCY:Purpose	
+že	cs	EXPANSION	EXPANSION:Conjunction	EXPANSION:Conjunction	
+že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg1-as-excpt	
+že	cs	EXPANSION	EXPANSION:Exception	EXPANSION:Exception:Arg2-as-excpt	
+že	cs	EXPANSION	EXPANSION:Level-of-detail	EXPANSION:Level-of-detail	
+že	cs	TEMPORAL	TEMPORAL:Asynchronous	TEMPORAL:Asynchronous	
+že	cs	TEMPORAL	TEMPORAL:Synchronous	TEMPORAL:Synchronous	
+že proto že	cs	CONTINGENCY	CONTINGENCY:Cause	CONTINGENCY:Cause	
+
