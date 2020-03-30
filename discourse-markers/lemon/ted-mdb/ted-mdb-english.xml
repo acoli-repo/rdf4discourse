@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<dimlex>
+  <entry id="k1" word="Are">
+    <orths>
+      <orth>
+        <part type="single">Are</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Hypophora" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k2" word="Do">
+    <orths>
+      <orth>
+        <part type="single">Do</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Hypophora" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k3" word="Even">
+    <orths>
+      <orth>
+        <part type="single">Even</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <non_conn freq="1">1</non_conn>
+    </ambiguity>
+    <non_conn_reading>
+      <example tfreq="1"/>
+    </non_conn_reading>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Instantiation" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k4" word="Even if">
+    <orths>
+      <orth>
+        <part type="phrasal">Even if</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k5" word="I mean">
+    <orths>
+      <orth>
+        <part type="phrasal">I mean</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Substitution.Arg2-as-subst" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k6" word="If ... if">
+    <orths>
+      <orth>
+        <part type="phrasal">If ... if</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k7" word="It does not matter">
+    <orths>
+      <orth>
+        <part type="phrasal">It does not matter</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k8" word="It means">
+    <orths>
+      <orth>
+        <part type="phrasal">It means</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Equivalence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k9" word="It would be the same thing">
+    <orths>
+      <orth>
+        <part type="phrasal">It would be the same thing</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Equivalence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k10" word="It's like">
+    <orths>
+      <orth>
+        <part type="phrasal">It's like</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Similarity" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k11" word="NONE">
+    <orths>
+      <orth>
+        <part type="single">NONE</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct" freq="0"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k12" word="Now">
+    <orths>
+      <orth>
+        <part type="single">Now</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <sem_ambiguity>1</sem_ambiguity>
+    </ambiguity>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="1"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="2"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Temporal.Synchronous" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k13" word="On the one hand ... but">
+    <orths>
+      <orth>
+        <part type="phrasal">On the one hand ... but</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Contrast" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k14" word="One example is near and dear to our hearts">
+    <orths>
+      <orth>
+        <part type="phrasal">One example is near and dear to our hearts</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Instantiation" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k15" word="One of the most vivid examples of this comes">
+    <orths>
+      <orth>
+        <part type="phrasal">One of the most vivid examples of this comes</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Instantiation" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k16" word="See">
+    <orths>
+      <orth>
+        <part type="single">See</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause+SpeechAct.Result+SpeechAct" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k17" word="That's the equivalent of">
+    <orths>
+      <orth>
+        <part type="phrasal">That's the equivalent of</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Equivalence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k18" word="That's why">
+    <orths>
+      <orth>
+        <part type="phrasal">That's why</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Reason" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k19" word="The reason ... was">
+    <orths>
+      <orth>
+        <part type="phrasal">The reason ... was</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Reason" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k20" word="This is why">
+    <orths>
+      <orth>
+        <part type="phrasal">This is why</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause+Belief.Result+Belief" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k21" word="Until">
+    <orths>
+      <orth>
+        <part type="single">Until</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k22" word="Where">
+    <orths>
+      <orth>
+        <part type="single">Where</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Contrast" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k23" word="Who here knows">
+    <orths>
+      <orth>
+        <part type="phrasal">Who here knows</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Hypophora" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k24" word="Years have passed">
+    <orths>
+      <orth>
+        <part type="phrasal">Years have passed</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+</dimlex>

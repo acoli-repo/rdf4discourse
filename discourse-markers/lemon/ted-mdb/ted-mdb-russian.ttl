@@ -1,0 +1,171 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Russian/>
+
+  :k1__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Вкратце"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg1-as-detail ] ] ].
+
+  :k2__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Вместе"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg1-as-detail ] ] ].
+
+  :k3__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Вот почему"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k4__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Далее"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4__; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Succession ] ] ].
+
+  :k5__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Другими словами"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+
+  :k6__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Итак"@ru; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg2-as-detail ] ] ].
+
+  :k7__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Кто"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7__; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k8__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Неужели"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8__; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k9__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Один из наиболее ярких примеров этого проявляется"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+
+  :k10__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Однако"@ru; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10__; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession.Arg2-as-denier ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10__; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Contrast ] ] ].
+
+  :k11__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ответ на этот вопрос настолько же разнообразен , как и выбравшие жизнь в дороге люди . Однако , часто путешественники отвечают одним словом"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k12__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ответ прост"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k13__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Пока"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k13__; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k14__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Потому"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k14__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k15__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Прошли годы"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15__; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k16__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "То есть"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k16__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+
+  :k17__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "То же самое"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k17__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+
+  :k18__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Чтоб"@ru; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k18__; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Purpose.Arg2-as-goal ] ] ].
+
+  :k19__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Это означает"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k19__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+
+  :k20__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Это равноценно тому , как"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k20__; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Similarity ] ] ].
+
+  :k21__ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Я имею в виду"@ru; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k21__; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+

@@ -1,0 +1,208 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/lithuanian/>
+
+  :k1_Argi a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Argi"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1_Argi; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k2_Dabar a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Dabar"@lt; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Dabar; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg2-as-detail ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Dabar; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Dabar; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+
+  :k3_Deja a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Deja"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Deja; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession.Arg2-as-denier ] ] ].
+
+  :k4_Ell a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ell"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Ell; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+
+  :k5_Ir_pabaigai a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ir pabaigai"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_Ir_pabaigai; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Conjunction ] ] ].
+
+  :k6_Jis a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Jis"@lt; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn [ xml:CDATA "1"; dimlex:freq "5" ] ];
+    dimlex:non_conn_reading [ 
+      dimlex:example [ dimlex:tfreq "5" ] ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6_Jis; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg2-as-detail ] ] ].
+
+  :k7_Kiek a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Kiek"@lt; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn [ xml:CDATA "1"; dimlex:freq "1" ] ];
+    dimlex:non_conn_reading [ 
+      dimlex:example [ dimlex:tfreq "1" ] ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_Kiek; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k8_Kod_ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Kodė"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8_Kod_; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k9_Kol_tol a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Kol ... tol"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9_Kol_tol; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg1-as-cond ] ] ].
+
+  :k10_Lyg a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Lyg"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10_Lyg; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Manner.Arg2-as-manner ] ] ].
+
+  :k11_Na a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Na"@lt; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_Na; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Exception.Arg2-as-excpt"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_Na; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Exception.Arg2-as-excpt ] ] ].
+
+  :k12_Na_gi a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Na gi"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Na_gi; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession.Arg2-as-denier ] ] ].
+
+  :k13_Net a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Net"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k13_Net; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+
+  :k14_Net_ir a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Net ir"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k14_Net_ir; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct ] ] ].
+
+  :k15_Tad a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Tad"@lt; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15_Tad; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause+SpeechAct.Result+SpeechAct ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15_Tad; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k16_Tad_taip a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Tad taip"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k16_Tad_taip; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause+SpeechAct.Result+SpeechAct ] ] ].
+
+  :k17_Tarytum a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Tarytum"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k17_Tarytum; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Similarity ] ] ].
+
+  :k18_To_rezultatai a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "To rezultatai"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k18_To_rezultatai; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k19_Valio a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Valio"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k19_Valio; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k20_s_B a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "s B"@lt; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k20_s_B; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k21__tai a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Štai"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k21__tai; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k22__Arb a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "“Arb"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k22__Arb; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Disjunction ] ] ].
+
+  :k23__Je a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "„Je"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k23__Je; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg2-as-cond ] ] ].
+
+  :k24__Kai a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "﻿Kai"@lt; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k24__Kai; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+

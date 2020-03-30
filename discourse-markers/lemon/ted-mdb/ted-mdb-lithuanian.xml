@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<dimlex>
+  <entry id="k1" word="Argi">
+    <orths>
+      <orth>
+        <part type="single">Argi</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k2" word="Dabar">
+    <orths>
+      <orth>
+        <part type="single">Dabar</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <sem_ambiguity>1</sem_ambiguity>
+    </ambiguity>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="1"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="1"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Temporal.Synchronous" freq="3"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k3" word="Deja">
+    <orths>
+      <orth>
+        <part type="single">Deja</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k4" word="Ell">
+    <orths>
+      <orth>
+        <part type="single">Ell</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Temporal.Synchronous" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k5" word="Ir pabaigai">
+    <orths>
+      <orth>
+        <part type="phrasal">Ir pabaigai</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Conjunction" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k6" word="Jis">
+    <orths>
+      <orth>
+        <part type="single">Jis</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <non_conn freq="5">1</non_conn>
+    </ambiguity>
+    <non_conn_reading>
+      <example tfreq="5"/>
+    </non_conn_reading>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k7" word="Kiek">
+    <orths>
+      <orth>
+        <part type="single">Kiek</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <non_conn freq="1">1</non_conn>
+    </ambiguity>
+    <non_conn_reading>
+      <example tfreq="1"/>
+    </non_conn_reading>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Hypophora" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k8" word="Kod&#x117;">
+    <orths>
+      <orth>
+        <part type="single">Kod&#x117;</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Reason" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k9" word="Kol ... tol">
+    <orths>
+      <orth>
+        <part type="phrasal">Kol ... tol</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k10" word="Lyg">
+    <orths>
+      <orth>
+        <part type="single">Lyg</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k11" word="Na">
+    <orths>
+      <orth>
+        <part type="single">Na</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <sem_ambiguity>1</sem_ambiguity>
+    </ambiguity>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="1"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Expansion.Exception.Arg2-as-excpt" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k12" word="Na gi">
+    <orths>
+      <orth>
+        <part type="phrasal">Na gi</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k13" word="Net">
+    <orths>
+      <orth>
+        <part type="single">Net</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Instantiation" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k14" word="Net ir">
+    <orths>
+      <orth>
+        <part type="phrasal">Net ir</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k15" word="Tad">
+    <orths>
+      <orth>
+        <part type="single">Tad</part>
+      </orth>
+    </orths>
+    <ambiguity>
+      <sem_ambiguity>1</sem_ambiguity>
+    </ambiguity>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause+SpeechAct.Result+SpeechAct" freq="5"/>
+      </sem>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="2"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k16" word="Tad taip">
+    <orths>
+      <orth>
+        <part type="phrasal">Tad taip</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause+SpeechAct.Result+SpeechAct" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k17" word="Tarytum">
+    <orths>
+      <orth>
+        <part type="single">Tarytum</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Comparison.Similarity" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k18" word="To rezultatai">
+    <orths>
+      <orth>
+        <part type="phrasal">To rezultatai</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k19" word="Valio">
+    <orths>
+      <orth>
+        <part type="single">Valio</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Cause.Result" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k20" word="s B">
+    <orths>
+      <orth>
+        <part type="phrasal">s B</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k21" word="&#x160;tai">
+    <orths>
+      <orth>
+        <part type="single">&#x160;tai</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k22" word="&#x201C;Arb">
+    <orths>
+      <orth>
+        <part type="single">&#x201C;Arb</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Expansion.Disjunction" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k23" word="&#x201E;Je">
+    <orths>
+      <orth>
+        <part type="single">&#x201E;Je</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="k24" word="&#xFEFF;Kai">
+    <orths>
+      <orth>
+        <part type="single">&#xFEFF;Kai</part>
+      </orth>
+    </orths>
+    <syn>
+      <sem>
+        <pdtb3_relation sense="Temporal.Synchronous" freq="1"/>
+      </sem>
+    </syn>
+  </entry>
+</dimlex>

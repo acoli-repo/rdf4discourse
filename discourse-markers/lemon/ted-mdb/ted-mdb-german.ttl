@@ -1,0 +1,239 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/German/>
+
+  :k1_Am_Ende_der_bung a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Am Ende der Übung"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1_Am_Ende_der_bung; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k2_Dadurch a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Dadurch"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Dadurch; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Manner.Arg1-as-manner ] ] ].
+
+  :k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Darauf gibt es so viele Antworten wie Menschen , die dieses Leben führen , aber Herumreisende antworten oft mit einem Wort"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k4_Darum_weil a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Darum ... weil"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Darum_weil; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k5_Der_Grund_waren a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Der Grund ... waren"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_Der_Grund_waren; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k6_Die_Antwort_ist_ganz_einfach a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Die Antwort ist ganz einfach"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6_Die_Antwort_ist_ganz_einfach; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+
+  :k7_Die_Jahre_sind_vergangen a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Die Jahre sind vergangen"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_Die_Jahre_sind_vergangen; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k8_Durch a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Durch"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8_Durch; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Manner.Arg2-as-manner ] ] ].
+
+  :k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ein Beispiel geht uns besonders zu Herzen"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+
+  :k10_Eines_der_anschaulichsten_Beispiele_ist a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Eines der anschaulichsten Beispiele ist"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10_Eines_der_anschaulichsten_Beispiele_ist; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+
+  :k11_Es_ist_wie a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Es ist wie"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_Es_ist_wie; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Similarity ] ] ].
+
+  :k12_Ganz_gleich a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ganz gleich"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Ganz_gleich; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession.Arg2-as-denier ] ] ].
+
+  :k13_Ich_meine a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Ich meine"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k13_Ich_meine; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Substitution.Arg2-as-subst ] ] ].
+
+  :k14_In_diesem_Moment a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "In diesem Moment"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k14_In_diesem_Moment; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+
+  :k15_Insbesondere_wenn a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Insbesondere wenn"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15_Insbesondere_wenn; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg2-as-detail ] ] ].
+
+  :k16_Kurz_gesagt a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Kurz gesagt"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k16_Kurz_gesagt; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg1-as-detail ] ] ].
+
+  :k17_Nachdem a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Nachdem"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k17_Nachdem; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Succession ] ] ].
+
+  :k18_Schlussendlich a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Schlussendlich"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k18_Schlussendlich; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Conjunction ] ] ].
+
+  :k19_Sie_kennen_das_alle a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Sie kennen das alle"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k19_Sie_kennen_das_alle; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+
+  :k20_Um_zu a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Um ... zu"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k20_Um_zu; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Purpose.Arg2-as-goal ] ] ].
+
+  :k21_Und_deshalb a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Und deshalb"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k21_Und_deshalb; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k22_Und_sogar a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Und sogar"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k22_Und_sogar; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Conjunction ] ] ].
+
+  :k23_Vielmehr a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Vielmehr"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k23_Vielmehr; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg2-as-detail ] ] ].
+
+  :k24_Warum a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Warum"@de; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn [ xml:CDATA "1"; dimlex:freq "2" ] ];
+    dimlex:non_conn_reading [ 
+      dimlex:example [ dimlex:tfreq "2" ] ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k24_Warum; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k25_Was a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Was"@de; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn [ xml:CDATA "1"; dimlex:freq "6" ] ];
+    dimlex:non_conn_reading [ 
+      dimlex:example [ dimlex:tfreq "6" ] ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k25_Was; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k26_Wie_oft a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Wie oft"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k26_Wie_oft; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k27_Wie_viele a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Wie viele"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k27_Wie_viele; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+
+  :k28_Zack a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Zack"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k28_Zack; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ] ].
+
+  :k29_Zugegeben a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Zugegeben"@de; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k29_Zugegeben; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg2-as-cond ] ] ].
+
+  :k30_in_dieser_Zeit a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "in dieser Zeit"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k30_in_dieser_Zeit; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+
+  :k31_mit_anderen_Worten a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "mit anderen Worten"@de; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k31_mit_anderen_Worten; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Level-of-detail.Arg1-as-detail ] ] ].
+

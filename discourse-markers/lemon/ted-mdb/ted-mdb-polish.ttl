@@ -1,0 +1,103 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Polish/>
+
+  :k1_A_po_tym a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "A po tym"@pl; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1_A_po_tym; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+
+  :k2_Cz a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Cz"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja porównawcza (Comparison).Kontrast (Contrast)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Cz; ontolex:isLexicalizedSenseOf pdtb3:Relacja porównawcza (Comparison).Kontrast (Contrast) ] ] ].
+
+  :k3_Czym a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Czym"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Uszczegółowienie Arg2 (Arg2-as-detail Specification)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Czym; ontolex:isLexicalizedSenseOf pdtb3:Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Uszczegółowienie Arg2 (Arg2-as-detail Specification) ] ] ].
+
+  :k4_Dop_ki a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Dopóki"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Pierwszeństwo (Precedence)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Dop_ki; ontolex:isLexicalizedSenseOf pdtb3:Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Pierwszeństwo (Precedence) ] ] ].
+
+  :k5_ESG a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ESG"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja sytuacyjna (Contingency).Relacja przyczynowo-skutkowa (Cause) .Skutek (Result Arg2-as-result)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_ESG; ontolex:isLexicalizedSenseOf pdtb3:Relacja sytuacyjna (Contingency).Relacja przyczynowo-skutkowa (Cause) .Skutek (Result Arg2-as-result) ] ] ].
+
+  :k6_Jes a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Jes"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja porównawcza (Comparison).Kontrast (Contrast)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6_Jes; ontolex:isLexicalizedSenseOf pdtb3:Relacja porównawcza (Comparison).Kontrast (Contrast) ] ] ].
+
+  :k7_Je_li_to a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Jeśli ... to"@pl; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna (Condition).Warunek Arg2 (Arg2-as-cond)"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_Je_li_to; ontolex:isLexicalizedSenseOf pdtb3:Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna (Condition).Warunek Arg2 (Arg2-as-cond) ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna z warunkiem negatywnym (Negative-condition).Warunek negatywny Arg2 (Arg2-as-negcond)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_Je_li_to; ontolex:isLexicalizedSenseOf pdtb3:Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna z warunkiem negatywnym (Negative-condition).Warunek negatywny Arg2 (Arg2-as-negcond) ] ] ].
+
+  :k8_Odk_d a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Odkąd"@pl; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Następstwo (Succession)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8_Odk_d; ontolex:isLexicalizedSenseOf pdtb3:Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Następstwo (Succession) ] ] ].
+
+  :k9_Podobnie_jak a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Podobnie jak"@pl; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja porównawcza (Comparison).Podobieństwo (Similarity)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9_Podobnie_jak; ontolex:isLexicalizedSenseOf pdtb3:Relacja porównawcza (Comparison).Podobieństwo (Similarity) ] ] ].
+
+  :k10_Tak_jak a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Tak jak"@pl; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja porównawcza (Comparison).Podobieństwo (Similarity)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10_Tak_jak; ontolex:isLexicalizedSenseOf pdtb3:Relacja porównawcza (Comparison).Podobieństwo (Similarity) ] ] ].
+
+  :k11_W_skr_cie a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "W skrócie"@pl; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Podsumowanie Arg1 (Arg1-as-detail Summarization)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_W_skr_cie; ontolex:isLexicalizedSenseOf pdtb3:Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Podsumowanie Arg1 (Arg1-as-detail Summarization) ] ] ].
+
+  :k12_em_ES a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "em ES"@pl; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Relacja rozwijająca (Expansion).Równoważność (Equivalence)"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_em_ES; ontolex:isLexicalizedSenseOf pdtb3:Relacja rozwijająca (Expansion).Równoważność (Equivalence) ] ] ].
+

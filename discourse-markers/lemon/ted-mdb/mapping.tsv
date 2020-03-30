@@ -1,0 +1,37 @@
+Comparison.Concession.Arg1-as-denier	COMPARISON:Concession:Arg1-as-denier
+Comparison.Concession.Arg2-as-denier	COMPARISON:Concession:Arg2-as-denier
+Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct	COMPARISON:Concession:Arg2-as-denier
+Comparison.Contrast	COMPARISON:Contrast
+Relacja porównawcza (Comparison).Kontrast (Contrast)	COMPARISON:Contrast
+Comparison.Similarity	COMPARISON:Similarity
+Relacja porównawcza (Comparison).Podobieństwo (Similarity)	COMPARISON:Similarity
+Contingency.Cause.Reason	CONTINGENCY:Cause:Reason
+Contingency.Cause+Belief.Reason+Belief	CONTINGENCY:Cause:Reason
+Contingency.Cause.Result	CONTINGENCY:Cause:Result
+Contingency.Cause+Belief.Result+Belief	CONTINGENCY:Cause:Result
+Contingency.Cause+SpeechAct.Result+SpeechAct	CONTINGENCY:Cause:Result
+Relacja sytuacyjna (Contingency).Relacja przyczynowo-skutkowa (Cause) .Skutek (Result Arg2-as-result)	CONTINGENCY:Cause:Result
+Contingency.Condition.Arg1-as-cond	CONTINGENCY:Condition:Arg1-as-cond
+Contingency.Condition.Arg2-as-cond	CONTINGENCY:Condition:Arg2-as-cond
+Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna (Condition).Warunek Arg2 (Arg2-as-cond)	CONTINGENCY:Condition:Arg2-as-cond
+Relacja sytuacyjna (Contingency).Sytuacja hipotetyczna z warunkiem negatywnym (Negative-condition).Warunek negatywny Arg2 (Arg2-as-negcond)	CONTINGENCY:Negative-condition:Arg2-as-negcond
+Contingency.Purpose.Arg2-as-goal	CONTINGENCY:Purpose:Arg2-as-goal
+Expansion.Conjunction	EXPANSION:Conjunction
+Expansion.Disjunction	EXPANSION:Disjunction
+Expansion.Equivalence	EXPANSION:Equivalence
+Relacja rozwijająca (Expansion).Równoważność (Equivalence)	EXPANSION:Equivalence
+Expansion.Exception.Arg2-as-excpt	EXPANSION:Exception:Arg2-as-excpt
+Expansion.Instantiation	EXPANSION:Instantiation
+Expansion.Level-of-detail.Arg1-as-detail	EXPANSION:Level-of-detail:Arg1-as-detail
+Expansion.Level-of-detail.Arg2-as-detail	EXPANSION:Level-of-detail:Arg2-as-detail
+Expansion.Manner.Arg1-as-manner	EXPANSION:Manner:Arg1-as-manner
+Expansion.Manner.Arg2-as-manner	EXPANSION:Manner:Arg2-as-manner
+Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Podsumowanie Arg1 (Arg1-as-detail Summarization)	EXPANSION:Specification:Arg1-as-detail
+Relacja rozwijająca (Expansion).Uszczegółowienie (Specification) .Uszczegółowienie Arg2 (Arg2-as-detail Specification)	EXPANSION:Specification:Arg2-as-detail
+Expansion.Substitution.Arg2-as-subst	EXPANSION:Substitution:Arg1-as-subst
+Hypophora	Hypophora
+Temporal.Asynchronous.Precedence	TEMPORAL:Asynchronous:Precedence
+Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Pierwszeństwo (Precedence)	TEMPORAL:Asynchronous:Precedence
+Temporal.Asynchronous.Succession	TEMPORAL:Asynchronous:Succession
+Relacja temporalna (Temporal).Niejednoczesność (Asynchronous) .Następstwo (Succession)	TEMPORAL:Asynchronous:Succession
+Temporal.Synchronous	TEMPORAL:Synchronous
