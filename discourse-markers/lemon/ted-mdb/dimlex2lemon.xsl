@@ -134,8 +134,6 @@ PREFIX : &lt;</xsl:text>
                     <xsl:call-template name="get-indent"/>
                     <xsl:text>a ontolex:LexicalSense; ontolex:isSenseOf </xsl:text>
                     <xsl:call-template name="entry-resource"/>
-                    <xsl:text>; ontolex:isLexicalizedSenseOf pdtb3:</xsl:text>
-                    <xsl:value-of select="@sense"/>
                 </xsl:if>
                 <xsl:text> ]</xsl:text>
             </xsl:otherwise>

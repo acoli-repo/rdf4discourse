@@ -17,14 +17,14 @@ PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Eng
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k1_Are; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1_Are ] ] ].
 
   :k2_Do a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Do"@en; dimlex:type "single"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Do; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2_Do ] ] ].
 
   :k3_Even a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Even"@en; dimlex:type "single"];
@@ -35,63 +35,63 @@ PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Eng
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Even; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Even ] ] ].
 
   :k4_Even_if a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Even if"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Even_if; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg2-as-cond ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Even_if ] ] ].
 
   :k5_I_mean a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "I mean"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k5_I_mean; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Substitution.Arg2-as-subst ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_I_mean ] ] ].
 
   :k6_If_if a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "If ... if"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k6_If_if; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg2-as-cond ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6_If_if ] ] ].
 
   :k7_It_does_not_matter a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "It does not matter"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k7_It_does_not_matter; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession.Arg2-as-denier ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_It_does_not_matter ] ] ].
 
   :k8_It_means a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "It means"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k8_It_means; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8_It_means ] ] ].
 
   :k9_It_would_be_the_same_thing a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "It would be the same thing"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k9_It_would_be_the_same_thing; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9_It_would_be_the_same_thing ] ] ].
 
   :k10_It_s_like a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "It's like"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k10_It_s_like; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Similarity ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10_It_s_like ] ] ].
 
   :k11_NONE a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "NONE"@en; dimlex:type "single"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "0";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k11_NONE; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_NONE ] ] ].
 
   :k12_Now a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Now"@en; dimlex:type "single"];
@@ -100,95 +100,95 @@ PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Eng
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Result ] ];
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now ] ];
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "2";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ];
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now ] ];
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Synchronous ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_Now ] ] ].
 
   :k13_On_the_one_hand_but a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "On the one hand ... but"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k13_On_the_one_hand_but; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Contrast ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k13_On_the_one_hand_but ] ] ].
 
   :k14_One_example_is_near_and_dear_to_our_hearts a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "One example is near and dear to our hearts"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k14_One_example_is_near_and_dear_to_our_hearts; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k14_One_example_is_near_and_dear_to_our_hearts ] ] ].
 
   :k15_One_of_the_most_vivid_examples_of_this_comes a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "One of the most vivid examples of this comes"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k15_One_of_the_most_vivid_examples_of_this_comes; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Instantiation ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15_One_of_the_most_vivid_examples_of_this_comes ] ] ].
 
   :k16_See a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "See"@en; dimlex:type "single"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k16_See; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause+SpeechAct.Result+SpeechAct ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k16_See ] ] ].
 
   :k17_That_s_the_equivalent_of a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "That's the equivalent of"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k17_That_s_the_equivalent_of; ontolex:isLexicalizedSenseOf pdtb3:Expansion.Equivalence ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k17_That_s_the_equivalent_of ] ] ].
 
   :k18_That_s_why a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "That's why"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k18_That_s_why; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k18_That_s_why ] ] ].
 
   :k19_The_reason_was a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "The reason ... was"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k19_The_reason_was; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause.Reason ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k19_The_reason_was ] ] ].
 
   :k20_This_is_why a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "This is why"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Result+Belief"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k20_This_is_why; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Cause+Belief.Result+Belief ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k20_This_is_why ] ] ].
 
   :k21_Until a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Until"@en; dimlex:type "single"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k21_Until; ontolex:isLexicalizedSenseOf pdtb3:Contingency.Condition.Arg2-as-cond ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k21_Until ] ] ].
 
   :k22_Where a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Where"@en; dimlex:type "single"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k22_Where; ontolex:isLexicalizedSenseOf pdtb3:Comparison.Contrast ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k22_Where ] ] ].
 
   :k23_Who_here_knows a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Who here knows"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k23_Who_here_knows; ontolex:isLexicalizedSenseOf pdtb3:Hypophora ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k23_Who_here_knows ] ] ].
 
   :k24_Years_have_passed a ontolex:LexicalEntry;
       ontolex:otherForm [ ontolex:writtenRep "Years have passed"@en; dimlex:type "phrasal"];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
-        a ontolex:LexicalSense; ontolex:isSenseOf :k24_Years_have_passed; ontolex:isLexicalizedSenseOf pdtb3:Temporal.Asynchronous.Precedence ] ] ].
+        a ontolex:LexicalSense; ontolex:isSenseOf :k24_Years_have_passed ] ] ].
 

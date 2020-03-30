@@ -1,0 +1,245 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Turkish/>
+
+  :k1__Ve_bu_y a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep ". Ve bu y"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k1__Ve_bu_y ] ] ].
+
+  :k2__CalPERS_di_e a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "? CalPERS, diğe"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k2__CalPERS_di_e ] ] ].
+
+  :k3_Bunun_hak a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Bunun hak"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k3_Bunun_hak ] ] ].
+
+  :k4_Hem a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Hem"@tr; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k4_Hem ] ] ].
+
+  :k5_NONE a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "NONE"@tr; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_NONE ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Q/A"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k5_NONE ] ] ].
+
+  :k6_Peki a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Peki"@tr; dimlex:type "single"];
+    dimlex:ambiguity [ 
+      dimlex:non_conn [ xml:CDATA "1"; dimlex:freq "3" ] ];
+    dimlex:non_conn_reading [ 
+      dimlex:example [ dimlex:tfreq "3" ] ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k6_Peki ] ] ].
+
+  :k7_Peki_ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Peki,"@tr; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Hypophora"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k7_Peki_ ] ] ].
+
+  :k8_Sonu_olarak a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Sonuç olarak"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Result+Belief (Arg1-gives-evidence)"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k8_Sonu_olarak ] ] ].
+
+  :k9_T a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "T"@tr; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k9_T ] ] ].
+
+  :k10_Yapra a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "Yapra"@tr; dimlex:type "single"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k10_Yapra ] ] ].
+
+  :k11_al_maz_Bun a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "alışmaz. Bun"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k11_al_maz_Bun ] ] ].
+
+  :k12_ar_G_n_b a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ar. Gün b"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k12_ar_G_n_b ] ] ].
+
+  :k13_du_Pek a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "du? Pek"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k13_du_Pek ] ] ].
+
+  :k14_emek_Yapabili a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "emek. Yapabili"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k14_emek_Yapabili ] ] ].
+
+  :k15_erekiyor_Ancak a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "erekiyor. Ancak"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k15_erekiyor_Ancak ] ] ].
+
+  :k16_e_il_mi_Di_er_bir_rnek_d a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "eğil mi? Diğer bir örnek d"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k16_e_il_mi_Di_er_bir_rnek_d ] ] ].
+
+  :k17_g_t_rebilir_Bunun_en_etkili_rnek a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "götürebilir. Bunun en etkili örnek"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k17_g_t_rebilir_Bunun_en_etkili_rnek ] ] ].
+
+  :k18_i_Boston_da a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "i, Boston'da"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k18_i_Boston_da ] ] ].
+
+  :k19_r_Se a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "r) Se"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k19_r_Se ] ] ].
+
+  :k20_r_Us a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "r. Us"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k20_r_Us ] ] ].
+
+  :k21_rdim_A a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "rdim. A"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k21_rdim_A ] ] ].
+
+  :k22_s_Baldwin_ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "s Baldwin'"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k22_s_Baldwin_ ] ] ].
+
+  :k23_s_n_z_Bir_ndedir_bir_tar a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "sünüz. Bir ... ndedir bir tar"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k23_s_n_z_Bir_ndedir_bir_tar ] ] ].
+
+  :k24_s_rd_Antrenman_n a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "sürdü. Antrenmanın"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k24_s_rd_Antrenman_n ] ] ].
+
+  :k25_tti_As a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "tti. As"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k25_tti_As ] ] ].
+
+  :k26_t_yor_Dol a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "tıyor. Dol"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k26_t_yor_Dol ] ] ].
+
+  :k27_ydir_Ve_e_er_d_ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ydir. Ve eğer düş"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2 as condition"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k27_ydir_Ve_e_er_d_ ] ] ].
+
+  :k28_zegen_Bu a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "zegen. Bu"@tr; dimlex:type "phrasal"];
+    dimlex:ambiguity [ 
+      dimlex:sem_ambiguity "1" ];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k28_zegen_Bu ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k28_zegen_Bu ] ] ].
+
+  :k29__r_yor_G_rd_ a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "örüyor. Gördüğü"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k29__r_yor_G_rd_ ] ] ].
+
+  :k30__il_mi_Devam a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ğil mi? Devam"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k30__il_mi_Devam ] ] ].
+
+  :k31__yorlar_Bir_rnek_bizim_i_in_o a ontolex:LexicalEntry;
+      ontolex:otherForm [ ontolex:writtenRep "ıyorlar? Bir örnek bizim için ço"@tr; dimlex:type "phrasal"];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :k31__yorlar_Bir_rnek_bizim_i_in_o ] ] ].
+
