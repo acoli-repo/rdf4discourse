@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Lexicon of Czech Discourse Connectives 0.6 (CzeDLex 0.6) – Introduction</title>
+</head>
+
+<body style="font-family: arial">
+<h1>Lexicon of Czech Discourse Connectives 0.6 (CzeDLex 0.6)</h1>
+
+<div id="centered">
+<h2>Introduction</h2>
+
+<p>CzeDLex 0.6 (Synková et al., 2019) is an updated version of the electronic Lexicon of Czech Discourse Connectives, developed at the <a href="http://ufal.mff.cuni.cz/" target="_blank">Institute of Formal and Applied Linguistics</a> in 2015 – 2017 within the <a href="http://ufal.mff.cuni.cz/textlink-cz" target="_blank">COST-cz project TextLink-cz (LD15052)</a> of the Ministry of Education, Youth and Sports of the Czech Republic, and in 2019 within the project <a href="https://ufal.mff.cuni.cz/czedparse" target="_blank">Shallow discourse parsing in Czech (GAČR GA19-03490S)</a>. CzeDLex 0.6 is an update of the previous version, <a href="https://ufal.mff.cuni.cz/textlink-cz/czedlex0.5" target="_blank">CzeDLex 0.5</a>, which was published in 2017.
+The lexicon contains connectives partially automatically extracted from the <a href="http://ufal.mff.cuni.cz/pdit2.0" target="_blank">Prague Discourse Treebank 2.0</a> (M. Rysová et al., 2016), a large corpus annotated manually with discourse relations.
+The most frequent lexicon entries have been manually checked and supplemented with additional information and English translations.
+
+<p>In total, there are 204 level-one entries in CzeDLex&nbsp;0.6; 76 entries (covering more than 90% of the discourse relations annotated in the PDiT 2.0) have been fully manually checked and supplemented with additional information. See the <a href="http://ufal.mff.cuni.cz/czedparse/czedlex0.6" target="_blank">documentation</a> for details.</p>
+
+<h2>How to open/browse the data</h2>
+
+<p>CzeDLex 0.6 can be downloaded from the <a href="http://hdl.handle.net/11234/1-3074" target="_blank">LINDAT-Clarin repository</a> under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license</a>.</p>
+
+<p>In the distribution, the lexicon is available in two formats, PML and HTML:</p>
+
+<h3>PML</h3>
+
+<p>The lexicon data are stored in a single file <code>czedlex0.6.pml</code> in the <a href="https://ufal.mff.cuni.cz/pml" target="_blank">Prague Markup Language (PML)</a> format
+(which is an XML based format for linguistic annotations), located in the directory <code>PML</code> in the distribution.
+For the sake of completeness, also the PML schema of the lexicon <code>czedlex_schema.xml</code> (describing the structure of the data format) can be found in the same directory.</p>
+
+<p><a href="https://ufal.mff.cuni.cz/tred/" target="_blank">Tree editor TrEd</a> (Pajas and Štěpánek, 2008) can be used to open and browse the lexicon. The editor can be downloaded for various platforms from <a href="https://ufal.mff.cuni.cz/tred/" target="_blank">its home page</a>. Please follow the installation instructions specified at the page for your operating system.
+After the installation, an extension needs to be installed:</p>
+
+<ul>
+<li>Start TrEd.</li>
+<li>In the top menu, select Setup -> Manage Extensions...; a dialog window with a list of installed extensions appears.</li>
+<li>Click on the button "Get New Extensions"; a dialog window with a list of available (not yet installed) extensions appears.</li>
+<li>Make sure that at least the extension "Lexicon of Czech Discourse Connectives (czedlex)" is checked to install (if it is not in the list, it may have already been installed).</li>
+<li>Click on the button "Install Selected"; the selected extensions get installed.</li>
+<li>Close all TrEd windows including the main application window and start TrEd again.</li>
+</ul>
+
+<p>Now, TrEd is able to open the CzeDLex data. In case of troubles with the installation of TrEd or with browsing the data, please contact the authors at (tred at ufal.mff.cuni.cz).</p>
+
+<h3>HTML/on-line</h3>
+For the users' convenience, the data of the lexicon have been exported to the HTML format, which presents the most important properties of the lexicon entries in a graphical, user-friendly way, without a need to install any tools.
+It is available either as a part of the distribution (open the file <code>index.html</code> from the directory <code>HTML</code> in a web browser), or <a href="http://ufal.mff.cuni.cz/czedlex0.6/" target="_blank">on-line</a>.
+The HTML version of the lexicon allows to filter the list of lexicon entries by three criteria: the basic filter distinguishes the primary and secondary connectives, the second filter distinguishes the connectives according to discourse types they are able to express, and the last filter distinguishes the connectives according to their part of speech.</p>
+
+
+<h2>Documentation and publications</h2>
+
+<h3>Lexicon Structure</h3>
+
+<h4>Level-one entry</h4>
+
+<p>The level-one entry in the lexicon structure is represented by the lemma of the connective. It is encoded in the element <strong><em>lemma</em></strong> and contains the following information:</p>
+
+<ul>
+        <li>element <strong><em>text</em></strong>: the lemma of the connective</li>
+        <li>element <strong><em>english</em></strong>: an approximate English translation for a basic orientation; more precise translations are given in connection with semantic discourse types at level-two entries</li>
+        <li>element <strong><em>type</em></strong>: the type of the connective: <em>primary</em> vs. <em>secondary</em></li>
+        <li>element <strong><em>struct</em></strong>: the structure of the connective: it signals whether the connective is <em>single</em> such as <em>proto</em> [<em>therefore</em>] or <em>complex</em> such as <em>jednak jednak</em> [<em>on the one hand on the other hand</em>]. The complex connectives are further differentiated in the attribute <em>type</em> according to their placement in the argument(s): complex connectives with parts occurring in both arguments (e.g. <em>jednak jednak</em> [<em>on the one hand on the other hand</em>] or <em>buď nebo</em> [<em>either or</em>]) are labeled <em>correlative</em>, while complex connectives with all parts occurring in a single argument are labeled <em>continuous</em> if no word can be inserted between the parts of the connective (e.g. the connective <em>i když</em> [<em>even if</em>, <em>although</em>]), or discontinuous if other words can occur between the connective parts (e.g. <em>a potom</em> [<em>and then</em>]). Multiplied connectives in coordinations (e.g. <em>protože ... and protože</em> [<em>because ... and because</em>]) are labeled as <em>multiple</em>.</li>
+        <li>element <strong><em>variants</em></strong>: a list of variants of the connective: they are further specified in the attribute <em>type</em> as stylistic (cf. neutral <em>tedy</em> [<em>so.neutral</em>] vs. informal <em>teda</em> [<em>so.informal</em>]) or orthographic (e.g. <em>mimoto</em> vs. <em>mimo to</em> [both meaning: <em>besides</em>]), or inflection (e.g. the form <em>čímž</em> [<em>by which</em>] is the instrumental form of the connective with the nominative form <em>což</em> [<em>which</em>])</li>
+        <li>element <strong><em>conn-usages</em></strong>: a list of connective usages – level-two entries</li>
+        <li>element <strong><em>non-conn-usages</em></strong>: a list of non-connective usages – level-two entries</li>
+        <li>element <strong><em>note</em></strong>: important information not encoded in other attributes</li>
+        <li>attribute <strong><em>id</em></strong>: a lexicon-wide unique identifier of this level-one lexicon entry</li>
+        <li>element <strong><em>src</em></strong>: an identifier of an annotator editing this lexicon entry</li>
+        <li>element <strong><em>is_checked</em></strong>: is set to <em>1</em> for entries considered to be fully checked and annotated</li>
+</ul>
+
+<h4>Level-two entry</h4>
+
+<p>For each level-one entry in the lexicon structure, its connective and non-connective usages are represented as level-two entries. In connective-usages, the discourse type (see Table 1) is used as the base for nesting, while in non-connective-usages, the part-of-speech appurtenance of the expressions is used. The second level entry of the lexicon is encoded in the element <strong><em>usage</em></strong> and contains the following information:</p>
+
+<ul>
+        <li>element <strong><em>sense</em></strong>: the discourse type (see Table 1)</li>
+        <li>element <strong><em>scheme</em></strong>: the dependency scheme (used for secondary connectives only)</li>
+        <li>element <strong><em>gloss</em></strong>: a Czech expression disambiguating the meaning of the connective (a synonym or an explanatory phrase)</li>
+        <li>element <strong><em>english</em></strong>: an English translation (the gloss in English)</li>
+        <li>element <strong><em>pos</em></strong>: the part-of-speech appurtenance of the connective (the lemma) in the given usage. Conjunctions are further distinguished in the attribute <em>subpos</em> as <em>coordinating</em> or <em>subordinating</em>.</li>
+        <li>element <strong><em>syntax</em></strong>: for secondary connectives, the part-of-speech characteristics of the core word is accompanied by a syntactic characteristics for the whole secondary connective represented by this usage (<em>nominal phrase</em>, <em>adjectival phrase</em>, <em>pronominal phrase</em>, <em>clause</em>, <em>adverbial phrase</em>, or <em>prepositional phrase</em>).</li>
+        <li>element <strong><em>arg_semantics</em></strong>: this characteristics specifies the semantics of the argument the connective occurs in (see Table 2). From the semantic perspective, there is a basic difference between symmetric and asymmetric discourse relations. While both arguments of a symmetric relation (i.e. <em>conjunction</em> or <em>synchrony</em>) share the same general semantic characteristics, asymmetric discourse relations (e.g. <em>reason–result</em> or <em>gradation</em>) hold between arguments that have different semantic nature (e.g. one argument expresses the reason, the other the result). A connective of an asymmetric relation is characterized by its placement in one specific part of the relation it signals. For example, the coordinating conjunction <em>tedy</em> [<em>thus</em>] signals the result, while <em>totiž</em> [<em>because</em>] signals the reason. Similarly, the subordinating conjunctions <em>než</em> [<em>until</em>] and <em>když</em> [<em>when</em>] can be used for signalling <em>precedence–succession</em> – the former occurs in the argument expressing the event happening later, while the latter occurs in the argument expressing the earlier event. For symmetric relations, the element <em>arg_semantics</em> has the value <em>symmetric</em>. For complex correlative connectives forming level-one entries, the value is given for the second part of the connective.</li>
+        <li>element <strong><em>ordering</em></strong>: signals the linear order of the argument the connective occurs in (relatively to the other – external – argument). In the majority of cases, ordering is connected with the part-of-speech characteristics – coordinating conjunctions, adverbs and particles are placed in the second argument in the linear order, while subordinating conjunctions can be placed in either of the arguments. There are, however, exceptions – e.g. the particle <em>nejenže</em> [<em>not only that</em>] which occurs always in the first argument – that justify incorporation of this characteristics as a separate element into the lexicon. The element <em>ordering</em> has one of these five values: <em>1</em> for connectives occurring only in the first argument, <em>2</em> for connectives in the second argument, <em>1 or 2</em> for connectives in the first or second argument, <em>1 and 2</em> for complex correlative connectives and <em>N/A</em> for secondary connectives forming a separate syntactic unit (e.g. <em>Důvod je jednoduchý. </em>[<em>The reason is simple.</em>]) and therefore occurring entirely between the arguments.</li>
+        <li>element <strong><em>integration</em></strong>: captures the position of the connective within the argument. According to their origin and other possible functions in text, Czech connectives have different positions in the argument. Only subordinating conjunctions and prototypical coordinating conjunctions occupy the very beginning of the clause or sentence; the position of other connectives varies. Some of them are placed typically at the clitic, i.e. second position (e.g. <em>však</em> [<em>however</em>]), some of them are typically either on the first or on the second position (e.g. <em>potom </em>[<em>then</em>] or <em>proto</em> [<em>therefore</em>]) and for the class of focusing particles (i.e. expressions like <em>také</em> [<em>also</em>] or <em>jenom</em> [<em>only</em>]), the position is given by the information structure. For secondary connectives represented by the whole clause, integration is again <em>N/A</em>. Other values of this element, as follows from examples just mentioned, are <em>first</em>, <em>second</em>, <em>first or second</em>, and <em>any</em>. For complex correlative connectives forming level-one entries, the value is given for the second part of the connective only.</li>
+        <li>element <strong><em>realizations</em></strong>: a list of non-modified and non-complex secondary connectives from PDiT 2.0 represented by the given dependency scheme (applies only to secondary connectives)</li>
+        <li>element <strong><em>modifications</em></strong>: a list of the connective modifications: e.g. for the lemma <em>potom</em> [<em>then</em>] expressing <em>precedence–succession</em>, there is a modification <em>teprve potom</em> [<em>only then</em>]. Secondary connectives can be modified as well – cf. <em>hlavní důvod proč</em> [<em>the main reason why</em>]. Modifications are further distinguished in the attribute <em>type</em> as <em>eval</em> (evaluative), <em>modal</em>, and <em>intense</em> (intensifying).</li>
+        <li>element <strong><em>complex_forms</em></strong>: a list of complex connectives: e.g. for the lemma <em>potom</em> [<em>then</em>] expressing <em>precedence–succession</em>, there are for example complex forms <em>a potom</em> [<em>and then</em>] and <em>nejdřív potom</em> [<em>first then</em>]. Secondary connectives can have complex forms as well – cf. <em>a z tohoto důvodu</em> [<em>and for this reason</em>]. The criterion for a complex form to be placed in the level-two entry under a certain lemma is the ability of the basic connective (the given lemma) to express the same discourse type. It means that e.g. the complex connective <em>přesto však</em> [<em>yet however</em>] expressing the discourse type of <em>concession</em> is placed in respective level-two entries under both lemmas <em>přesto</em> [<em>yet</em>] and <em>však</em> [<em>however</em>], because both these single connectives individually also express the discourse type of concession in PDiT 2.0. Further, according to its placement either in both arguments or in one argument, each complex form is labeled in the attribute <em>type</em> as <em>correlative</em>, <em>continuous,</em> <em>discontinuous</em> or <em>multiple</em> (see above among the level-one entry characteristics). Within each complex form, element <em>note</em> may contain additonal information.</li>
+        <li>element <strong><em>examples</em></strong>: a list of a few illustrative examples from PDiT 2.0 and their English translations. Both intra-sentential and inter-sentential examples are – if available in the corpus – given for the connective usages and marked as such in the attribute <em>type</em> (<em>intra</em> vs. <em>inter</em>).</li>
+        <li>element <strong><em>is_rare</em></strong>: signals a rare use of the connective with the given discourse type</li>
+        <li>element <strong><em>register</em></strong>: captures whether the connective is used in the <em>neutral</em>, <em>formal</em> or <em>informal</em> register</li>
+        <li>element <strong><em>note</em></strong>: important information not encoded in other attributes</li>
+        <li>attribute <strong><em>id</em></strong>: a unique identifier of this level-two entry</li>
+</ul>
+
+<table style="margin-left: 50px; margin-top: 30px; margin-bottom: 30px">
+        <caption style="margin-top: 15px; caption-side: bottom; text-align: left; color: #666666">Table 1: List of possible discourse types (senses)</caption>
+        <tbody>
+                <tr>
+                        <td><b>CONTRAST</b></td>
+                        <td><b>EXPANSION</b></td>
+                        <td><b>CONTINGENCY</b></td>
+                        <td><b>TEMPORAL</b></td>
+                </tr>
+                <tr>
+                        <td>confrontation</td>
+                        <td>conjunction</td>
+                        <td>reason–result</td>
+                        <td>synchrony</td>
+                </tr>
+                <tr>
+                        <td>opposition</td>
+                        <td>conjunctive alternative &nbsp; &nbsp; &nbsp;</td>
+                        <td>pragmatic reason–result &nbsp; &nbsp; &nbsp;</td>
+                        <td>precedence–succession</td>
+                </tr>
+                <tr>
+                        <td>restrictive opposition &nbsp; &nbsp; &nbsp;</td>
+                        <td>disjunctive alternative</td>
+                        <td>explication</td>
+                        <td> </td>
+                </tr>
+                <tr>
+                        <td>pragmatic contrast</td>
+                        <td>instantiation</td>
+                        <td>condition</td>
+                        <td> </td>
+                </tr>
+                <tr>
+                        <td>concession</td>
+                        <td>specification</td>
+                        <td>pragmatic condition</td>
+                        <td> </td>
+                </tr>
+                <tr>
+                        <td>correction</td>
+                        <td>equivalence</td>
+                        <td>purpose</td>
+                        <td> </td>
+                </tr>
+                <tr>
+                        <td>gradation</td>
+                        <td>generalization</td>
+                        <td> </td>
+                        <td> </td>
+                </tr>
+        </tbody>
+</table>
+
+<p> </p>
+
+<table style="margin-left: 50px; margin-top: 30px; margin-bottom: 30px">
+        <caption style="margin-top: 15px; caption-side: bottom; text-align: left; color: #666666">Table 2: Possible values of the argument semantics (attribute arg_semantics)</caption>
+        <tbody>
+                <tr>
+                        <td><b>relation</b></td>
+                        <td><b>argument semantics</b></td>
+                </tr>
+                <tr>
+                        <td>concession</td>
+                        <td>concession:expectation<br />
+                        concession:contra-expectation</td>
+                </tr>
+                <tr>
+                        <td>condition</td>
+                        <td>condition:condition<br />
+                        condition:result of condition</td>
+                </tr>
+                <tr>
+                        <td>correction</td>
+                        <td>correction:claim<br />
+                        correction:correction</td>
+                </tr>
+                <tr>
+                        <td>explication</td>
+                        <td>explication:claim<br />
+                        explication:argument</td>
+                </tr>
+                <tr>
+                        <td>generalization</td>
+                        <td>generalization:more specific<br />
+                        generalization:less specific</td>
+                </tr>
+                <tr>
+                        <td>gradation</td>
+                        <td>gradation:lower degree<br />
+                        gradation:higher degree</td>
+                </tr>
+                <tr>
+                        <td>instantiation</td>
+                        <td>instantiation:general statement<br />
+                        instantiation:example</td>
+                </tr>
+                <tr>
+                        <td>pragmatic condition</td>
+                        <td>pragmatic condition:pragmatic condition<br />
+                        pragmatic condition:result of pragmatic condition</td>
+                </tr>
+                <tr>
+                        <td>pragmatic reason-result &nbsp; &nbsp; &nbsp;</td>
+                        <td>pragmatic reason-result:pragmatic reason<br />
+                        pragmatic reason-result:pragmatic result</td>
+                </tr>
+                <tr>
+                        <td>precedence-succession</td>
+                        <td>precedence-succession:precedence<br />
+                        precedence-succession:succession</td>
+                </tr>
+                <tr>
+                        <td>purpose</td>
+                        <td>purpose:action<br />
+                        purpose:motivation</td>
+                </tr>
+                <tr>
+                        <td>reason-result</td>
+                        <td>reason-result:reason<br />
+                        reason-result:result</td>
+                </tr>
+                <tr>
+                        <td>restrictive opposition</td>
+                        <td>restrictive opposition:general statement<br />
+                        restrictive opposition:exception</td>
+                </tr>
+                <tr>
+                        <td>specification</td>
+                        <td>specification:less specific<br />
+                        specification:more specific</td>
+                </tr>
+                <tr>
+                        <td>all other relations</td>
+                        <td>symmetric</td>
+                </tr>
+        </tbody>
+</table>
+
+
+<h4>Corpus frequencies</h4>
+
+<p>Numbers of occurrences in the PDiT 2.0 were added to all individual variants, complex forms, modifications and realizations, as well as to connective and non-connective usages (level-two entries) and the whole lemmas (level-one entries), in two attributes: <strong><em>pdt_count</em></strong> and <strong><em>pdt_intra</em></strong>, capturing numbers of all vs. intra-sentential occurrences of the respective items.</p>
+
+<h4>Translations</h4>
+
+<p>Apart from English translations listed in the descriptions of level-one and level-two entries, all complex forms, modified forms, realizations, variants (when possible) and (so far only some) examples have been translated to English (the translations are captured in elements <strong><em>english</em></strong> at the respective places).</p>
+
+<h4>Updates, further information and publications</h4>
+
+<p>For updates, see the <a href="http://ufal.mff.cuni.cz/czedparse/czedlex" target="_blank">web pages of the current development version of CzeDLex</a>. For more information about CzeDLex 0.6, please consult the <a href="http://ufal.mff.cuni.cz/czedparse/czedlex0.6" target="_blank">on-line documentation to CzeDLex 0.6</a> and the following papers/articles written about CzeDLex:</p>
+
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Mírovský, J., Synková, P., Rysová, M., and L. Poláková: <a href="https://ufal.mff.cuni.cz/pbml/109/art-mirovsky-et-al.pdf" target="_blank">CzeDLex – A Lexicon of Czech Discourse Connectives.</a> In: <em>The Prague Bulletin of Mathematical Linguistics, No. 109</em>, Univerzita Karlova, Prague, Czech Republic, ISSN 0032-6585, pp. 61-91, Oct 2017.</p>
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Synková, P., Rysová, M., Poláková, L. and J. Mírovský: <a href="http://paclic31.national-u.edu.ph/wp-content/uploads/2017/11/PACLIC_31_paper_26.pdf" target="_blank">Extracting a Lexicon of Discourse Connectives in Czech from an Annotated Corpus.</a> In: <em>Proceedings of the 31st Pacific Asia Conference on Language, Information and Computation</em>, Computing Society of the Philippines, Cebu, Philippines, 2017.</p>
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Mírovský, J., Synková, P., Rysová, M., and L. Poláková: <a href="http://aclweb.org/anthology/Y/Y16/Y16-3017.pdf" target="_blank">Designing CzeDLex – A Lexicon of Czech Discourse Connectives.</a> In: <em>Proceedings of the 30th Pacific Asia Conference on Language, Information and Computation</em>, Kyung Hee University, Seoul, Korea, ISBN 978-89-6817-428-5, pp. 449-457, 2016.</p>
+
+<h2>References</h2>
+
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Synková, P., Poláková, L., Mírovský, J., and M. Rysová: <a href="http://hdl.handle.net/11234/1-3074" target="_blank">CzeDLex 0.6</a>. Data/software, ÚFAL, Charles University, Prague, Czech Republic, <a href="http://hdl.handle.net/11234/1-3074" target="_blank">http://hdl.handle.net/11234/1-3074</a>, Dec 2019.</p>
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Pajas, P. and J. Štěpánek: Recent Advances in a Feature-Rich Framework for Treebank Annotation. In: <em>The 22nd International Conference on Computational Linguistics - Proceedings of the Conference</em>, The Coling 2008 Organizing Committee, Manchester, UK, ISBN 978-1-905593-45-3, pp. 673-680, 2008.</p>
+<p style="margin-left: 1cm; text-indent: -1cm; margin-bottom: 0cm">Rysová, M., Synková, P., Mírovský, J., Hajičová, E., Nedoluzhko, A., Ocelák, R., Pergler, J., Poláková, L., Scheller, V., Zdeňková, J. and Š. Zikánová: <a href="http://hdl.handle.net/11234/1-1905" target="_blank">Prague Discourse Treebank 2.0.</a> Data/software, ÚFAL MFF UK, Prague, Czech Republic, Lindat/Clarin: <a href="http://hdl.handle.net/11234/1-1905" target="_blank">http://hdl.handle.net/11234/1-1905</a>, Dec 2016.</p>
+
+
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
+
