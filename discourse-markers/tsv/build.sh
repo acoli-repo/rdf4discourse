@@ -15,16 +15,20 @@ if ls $CONLL_RDF/run.sh | egrep '.' >&/dev/null; then # found
 		if [ -e $dimlex/mapping.tsv ] ; then
 			for dict in $dimlex/*ttl; do
 				tgt=`echo $dict | sed -e s/'.*\/'// -e s/'\.ttl$'//`.tsv;
-				cat $dimlex/mapping.tsv | \
-				$CONLL_RDF/run.sh CoNLLStreamExtractor \
-					https://ignore.me/ \
-					SENSE PDTB3 | \
-					#tee tmp.ttl | \
-				$CONLL_RDF/run.sh CoNLLRDFUpdater \
-					-custom -model $dict http://dimlex-lemon.org \
-					-updates mapping2tsv.sparql | \
-					# tee tmp2.ttl | \
-				$CONLL_RDF/run.sh CoNLLRDFFormatter -sparqltsv return-table.sparql > $tgt
+				if [ -s $tgt ]; then
+					echo keeping $tgt 1>&2;
+				else
+					cat $dimlex/mapping.tsv | \
+					$CONLL_RDF/run.sh CoNLLStreamExtractor \
+						https://ignore.me/ \
+						SENSE PDTB3 | \
+						tee tmp.ttl | \
+					$CONLL_RDF/run.sh CoNLLRDFUpdater \
+						-custom -model $dict http://dimlex-lemon.org \
+						-updates mapping2tsv.sparql | \
+						tee tmp2.ttl | \
+					$CONLL_RDF/run.sh CoNLLRDFFormatter -sparqltsv return-table.sparql > $tgt
+				fi;
 			done;
 		fi;
 	done;
