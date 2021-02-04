@@ -1,0 +1,42 @@
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CREATE GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
+
+LOAD <http://purl.org/olia/discourse/discourse.PDTB.owl>; # INTO GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
+
+# prep PDTB2
+INSERT {
+	?sense rdfs:label ?label
+} WHERE {
+	#GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl> {
+		?sense rdfs:subClassOf+ pdtb:Sense.
+		BIND(replace(replace(str(?sense),'.*[/#]',''),'([a-z])([A-Z])','$1 $2') AS ?label)
+	#}
+};
+
+#DROP GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
+
+INSERT {
+	?a ontolex:reference ?sense.
+} WHERE {
+	?a dimlex:sense ?string.
+	BIND(replace(?string,'.*[^a-zA-Z ]','') AS ?label)
+	?sense rdfs:label ?sense_label.
+	FILTER(lcase(?label)=lcase(?sense_label))
+};
+
+MOVE DEFAULT TO <http://placehold.er>;
+
+INSERT {
+	?a ?b ?c
+} WHERE {
+	GRAPH <http://placehold.er> {
+		?a ?b ?c
+		FILTER(strstarts(str(?b),'http://www.w3.org/ns/lemon/ontolex#') || strstarts(str(?c),'http://www.w3.org/ns/lemon/ontolex#'))
+	}
+};
+
+DROP GRAPH <http://placehold.er>
