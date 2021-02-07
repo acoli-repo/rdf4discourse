@@ -1,0 +1,3417 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/nl/discodict.ttl#> .
+
+:c100_om_te_beginnen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c100_om_te_beginnen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "om te beginnen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Om te beginnen"@nl
+    ] .
+
+:c101_omwille_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c101_omwille_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "omwille van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Omwille van"@nl
+    ] .
+
+:c102_ondanks
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c102_ondanks> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ondanks"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ondanks"@nl
+    ] .
+
+:c103_ondanks_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c103_ondanks_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ondanks dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ondanks dat"@nl
+    ] .
+
+:c104_ondertussen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c104_ondertussen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ondertussen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ondertussen"@nl
+    ] .
+
+:c105_ongeacht
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c105_ongeacht> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ongeacht"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ongeacht"@nl
+    ] .
+
+:c106_ongeacht_of
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c106_ongeacht_of> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ongeacht of"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ongeacht of dat"@nl
+    ], [
+        ontolex:writtenRep "Ongeacht of"@nl
+    ], [
+        ontolex:writtenRep "Ongeacht of dat"@nl
+    ] .
+
+:c107_op_basis_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c107_op_basis_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "op basis van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Op basis van"@nl
+    ] .
+
+:c108_op_die_manier
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c108_op_die_manier> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "op die manier"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Op die manier"@nl
+    ] .
+
+:c109_op_grond_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c109_op_grond_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "op grond van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Op grond van"@nl
+    ] .
+
+:c10_naargelang
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c10_naargelang> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naargelang"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naargelang"@nl
+    ], [
+        ontolex:writtenRep "al naargelang"@nl
+    ], [
+        ontolex:writtenRep "Al naargelang"@nl
+    ] .
+
+:c110_op_grond_daarvan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c110_op_grond_daarvan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "op grond daarvan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Op grond daarvan"@nl
+    ], [
+        ontolex:writtenRep "op grond waarvan"@nl
+    ], [
+        ontolex:writtenRep "Op grond waarvan"@nl
+    ] .
+
+:c111_overeenkomstig
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c111_overeenkomstig> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "overeenkomstig"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Overeenkomstig"@nl
+    ] .
+
+:c112_per_slot_van_rekening
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c112_per_slot_van_rekening> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "per slot van rekening"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Per slot van rekening"@nl
+    ] .
+
+:c115_sedert
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c115_sedert> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sedert"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sedert"@nl
+    ] .
+
+:c116_sedertdien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c116_sedertdien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sedertdien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sedertdien"@nl
+    ] .
+
+:c117_sinds
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c117_sinds> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sinds"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sinds"@nl
+    ] .
+
+:c118_sindsdien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c118_sindsdien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sindsdien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sindsdien"@nl
+    ] .
+
+:c119_straks
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c119_straks> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "straks"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Straks"@nl
+    ] .
+
+:c11_als
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c11_als> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "als"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Als dan"@nl
+    ], [
+        ontolex:writtenRep "als dan"@nl
+    ], [
+        ontolex:writtenRep "Als"@nl
+    ] .
+
+:c120_tegelijk
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c120_tegelijk> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tegelijk"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tegelijk"@nl
+    ] .
+
+:c121_tegelijkertijd
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c121_tegelijkertijd> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tegelijkertijd"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tezelfdertijd"@nl
+    ], [
+        ontolex:writtenRep "Tezelfdertijd"@nl
+    ], [
+        ontolex:writtenRep "Tegelijkertijd"@nl
+    ] .
+
+:c122_tijdens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c122_tijdens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tijdens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tijdens"@nl
+    ] .
+
+:c123_daar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c123_daar> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daar"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daar"@nl
+    ] .
+
+:c124_ten_behoeve_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c124_ten_behoeve_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ten behoeve van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ten behoeve van"@nl
+    ] .
+
+:c125_teneinde
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c125_teneinde> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "teneinde"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Teneinde"@nl
+    ] .
+
+:c126_ten_gevolge_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c126_ten_gevolge_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ten gevolge van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ten gevolge van"@nl
+    ], [
+        ontolex:writtenRep "Ten gevolg van"@nl
+    ], [
+        ontolex:writtenRep "ten gevolg van"@nl
+    ] .
+
+:c127_tenslotte
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c127_tenslotte> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tenslotte"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tenslotte"@nl
+    ] .
+
+:c128_ten_n_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c128_ten_n_de> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ten eerste"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ten eerste"@nl
+    ], [
+        ontolex:writtenRep "Ten tweede"@nl
+    ], [
+        ontolex:writtenRep "ten tweede"@nl
+    ] .
+
+:c129_tenzij
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c129_tenzij> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tenzij"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tenzij"@nl
+    ] .
+
+:c12_als_gevolg_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c12_als_gevolg_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "als gevolg van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Als gevolg"@nl
+    ], [
+        ontolex:writtenRep "Tot gevolg"@nl
+    ], [
+        ontolex:writtenRep "tot gevolg"@nl
+    ] .
+
+:c130_terwijl
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c130_terwijl> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "terwijl"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Terwijl"@nl
+    ] .
+
+:c131_toch
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c131_toch> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "toch"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Toch"@nl
+    ] .
+
+:c132_totdat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c132_totdat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "totdat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Totdat"@nl
+    ] .
+
+:c133_tot_slot
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c133_tot_slot> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tot slot"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tot slot"@nl
+    ] .
+
+:c134_uitgezonderd
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c134_uitgezonderd> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "uitgezonderd"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Uitgezonderd"@nl
+    ] .
+
+:c135_vanaf
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c135_vanaf> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vanaf"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vanaf"@nl
+    ] .
+
+:c136_vanaf_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c136_vanaf_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vanaf dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vanaf dat"@nl
+    ] .
+
+:c137_vandaar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c137_vandaar> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vandaar"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vandaar"@nl
+    ], [
+        ontolex:writtenRep "van daar"@nl
+    ], [
+        ontolex:writtenRep "Van daar"@nl
+    ] .
+
+:c138_vandaar_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c138_vandaar_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vandaar dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vandaar dat"@nl
+    ], [
+        ontolex:writtenRep "van daar dat"@nl
+    ], [
+        ontolex:writtenRep "Van daar dat"@nl
+    ] .
+
+:c139_vanwege
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c139_vanwege> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vanwege"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "vanwege"@nl
+    ] .
+
+:c13_met_als_gevolg_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c13_met_als_gevolg_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "met als gevolg dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Met tot gevolg dat"@nl
+    ], [
+        ontolex:writtenRep "Met als gevolg dat"@nl
+    ], [
+        ontolex:writtenRep "met tot gevolg dat"@nl
+    ] .
+
+:c140_vastgesteld_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c140_vastgesteld_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vastgesteld dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vastgesteld dat"@nl
+    ] .
+
+:c141_verder
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c141_verder> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "verder"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Verder"@nl
+    ] .
+
+:c142_vervolgens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c142_vervolgens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vervolgens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vervolgens"@nl
+    ] .
+
+:c143_voor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c143_voor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "voor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Voor"@nl
+    ] .
+
+:c144_vooraf
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c144_vooraf> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vooraf"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vooraf"@nl
+    ] .
+
+:c145_vooraleer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c145_vooraleer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vooraleer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vooraleer"@nl
+    ] .
+
+:c146_vooropgesteld_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c146_vooropgesteld_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "vooropgesteld dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vooropgesteld dat"@nl
+    ] .
+
+:c147_voorts
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c147_voorts> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "voorts"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Voorts"@nl
+    ] .
+
+:c148_voor_zover
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c148_voor_zover> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "voor zover"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "voorzover"@nl
+    ], [
+        ontolex:writtenRep "Voorzover"@nl
+    ], [
+        ontolex:writtenRep "Voor zover"@nl
+    ] .
+
+:c149_waardoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c149_waardoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "waardoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Waardoor"@nl
+    ] .
+
+:c14_als_gevolg_hiervan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c14_als_gevolg_hiervan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "als gevolg hiervan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "als gevolg daarvan"@nl
+    ], [
+        ontolex:writtenRep "Als gevolg daarvan"@nl
+    ], [
+        ontolex:writtenRep "Als gevolg hiervan"@nl
+    ] .
+
+:c150_waarmee
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c150_waarmee> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "waarmee"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Waarmee"@nl
+    ] .
+
+:c151_waarna
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c151_waarna> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "waarna"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Waarna"@nl
+    ] .
+
+:c152_waarom
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c152_waarom> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "waarom"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Waarom"@nl
+    ] .
+
+:c153_waarop
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c153_waarop> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "waarop"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Waarop"@nl
+    ] .
+
+:c154_wanneer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c154_wanneer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "wanneer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Wanneer"@nl
+    ] .
+
+:c155_want
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c155_want> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "want"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Want"@nl
+    ] .
+
+:c156_wegens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c156_wegens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "wegens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Wegens"@nl
+    ] .
+
+:c157_zodat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c157_zodat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zodat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zodat"@nl
+    ] .
+
+:c158_zodoende
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c158_zodoende> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zodoende"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zodoende"@nl
+    ] .
+
+:c159_zodra
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c159_zodra> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zodra"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zodra"@nl
+    ] .
+
+:c15_alvorens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c15_alvorens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alvorens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alvorens"@nl
+    ] .
+
+:c160_zolang
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c160_zolang> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zolang"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zolang"@nl
+    ] .
+
+:c161_zowel_als
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c161_zowel_als> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zowel als"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zowel als"@nl
+    ], [
+        ontolex:writtenRep "Zowel als ook"@nl
+    ], [
+        ontolex:writtenRep "zowel als ook"@nl
+    ] .
+
+:c162_al
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c162_al> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "al"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Al"@nl
+    ] .
+
+:c163_alleen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c163_alleen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alleen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alleen"@nl
+    ] .
+
+:c164_alsook
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c164_alsook> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alsook"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alsook"@nl
+    ] .
+
+:c165_alsmede
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c165_alsmede> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alsmede"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alsmede"@nl
+    ] .
+
+:c166_alsof
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c166_alsof> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alsof"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alsof"@nl
+    ] .
+
+:c167_althans
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c167_althans> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "althans"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Althans"@nl
+    ] .
+
+:c168_anders_gezegd
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c168_anders_gezegd> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "anders gezegd"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Anders gezegd"@nl
+    ] .
+
+:c169_behoudens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c169_behoudens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "behoudens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Behoudens"@nl
+    ] .
+
+:c170_daarbij
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c170_daarbij> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarbij"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarbij"@nl
+    ] .
+
+:c171_daarbovenop
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c171_daarbovenop> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarbovenop"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarbovenop"@nl
+    ] .
+
+:c172_daarenboven
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c172_daarenboven> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarenboven"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarenboven"@nl
+    ] .
+
+:c173_dan_ook
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c173_dan_ook> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dan ook"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dan ook"@nl
+    ] .
+
+:c174_door
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c174_door> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "Door"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "door"@nl
+    ] .
+
+:c175_doordat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c175_doordat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "doordat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Doordat"@nl
+    ] .
+
+:c176_eer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c176_eer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "eer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Eer"@nl
+    ] .
+
+:c177_eerder
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c177_eerder> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "eerder"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Eerder"@nl
+    ] .
+
+:c178_evenals
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c178_evenals> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evenals"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Evenals"@nl
+    ] .
+
+:c179_evenwel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c179_evenwel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evenwel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Evenwel"@nl
+    ] .
+
+:c180_hierdoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c180_hierdoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hierdoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hierdoor"@nl
+    ] .
+
+:c181_indien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c181_indien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "indien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Indien"@nl
+    ] .
+
+:c182_in_geval_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c182_in_geval_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in geval van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In geval van"@nl
+    ] .
+
+:c183_kort_gezegd
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c183_kort_gezegd> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "kort gezegd"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kort gezegd"@nl
+    ] .
+
+:c184_krachtens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c184_krachtens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "krachtens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Krachtens"@nl
+    ] .
+
+:c185_mits
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c185_mits> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "mits"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Mits"@nl
+    ] .
+
+:c186_naarmate
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c186_naarmate> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naarmate"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naarmate"@nl
+    ] .
+
+:c187_ofschoon
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c187_ofschoon> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ofschoon"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ofschoon"@nl
+    ] .
+
+:c188_oftewel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c188_oftewel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "oftewel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Oftewel"@nl
+    ] .
+
+:c189_ofwel_of_wel_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c189_ofwel_of_wel_> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ofwel ofwel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ofwel of"@nl
+    ], [
+        ontolex:writtenRep "Ofwel Of"@nl
+    ], [
+        ontolex:writtenRep "Ofwel ofwel"@nl
+    ], [
+        ontolex:writtenRep "ofwel of"@nl
+    ], [
+        ontolex:writtenRep "Ofwel Ofwel"@nl
+    ] .
+
+:c18_anders
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c18_anders> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "anders"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Anders"@nl
+    ] .
+
+:c190_om
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c190_om> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "om"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Om"@nl
+    ] .
+
+:c191_onder_andere
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c191_onder_andere> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "onder andere"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Onder andere"@nl
+    ] .
+
+:c192_onder_meer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c192_onder_meer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "onder Meer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Onder meer"@nl
+    ] .
+
+:c193_ook
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c193_ook> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ook"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ook"@nl
+    ] .
+
+:c194_ook_al
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c194_ook_al> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ook al"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ook al"@nl
+    ] .
+
+:c195_opdat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c195_opdat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "opdat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Opdat"@nl
+    ] .
+
+:c196_samenvattend
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c196_samenvattend> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "samenvattend"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Samenvattend"@nl
+    ] .
+
+:c197_sterker_nog_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c197_sterker_nog_> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sterker nog"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sterker"@nl
+    ], [
+        ontolex:writtenRep "sterker"@nl
+    ], [
+        ontolex:writtenRep "Sterker nog"@nl
+    ] .
+
+:c198_te_weten
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c198_te_weten> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "te weten"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Te weten"@nl
+    ] .
+
+:c199_teneinde
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c199_teneinde> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "teneinde"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Teneinde"@nl
+    ] .
+
+:c19_enerzijds_anderzijds
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c19_enerzijds_anderzijds> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "enerzijds anderzijds"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Enerzijds Anderzijds"@nl
+    ] .
+
+:c1_aan_de_ene_kant_aan_de_andere_kant
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c1_aan_de_ene_kant_aan_de_andere_kant> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "aan de ene kant aan de andere kant"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Aan de ene kant Aan de andere kant"@nl
+    ], [
+        ontolex:writtenRep "aan de ene kant Aan de andere kant"@nl
+    ], [
+        ontolex:writtenRep "Aan de ene kant aan de andere kant"@nl
+    ] .
+
+:c200_tevens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c200_tevens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "tevens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tevens"@nl
+    ] .
+
+:c201_toen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c201_toen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "toen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Toen"@nl
+    ] .
+
+:c202__vari_rend_van_tot
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c202__vari_rend_van_tot> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "variërend van tot"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "van tot"@nl
+    ], [
+        ontolex:writtenRep "Variërend van tot"@nl
+    ], [
+        ontolex:writtenRep "Van tot"@nl
+    ] .
+
+:c203_voordat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c203_voordat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "voordat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Voordat"@nl
+    ] .
+
+:c204_wel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c204_wel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "wel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Wel"@nl
+    ] .
+
+:c205_weliswaar_maar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c205_weliswaar_maar> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "weliswaar maar"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Weliswaar maar"@nl
+    ] .
+
+:c206_zij_het
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c206_zij_het> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zij het"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zij het"@nl
+    ] .
+
+:c207_zij_het_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c207_zij_het_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zij het dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zij het dat"@nl
+    ] .
+
+:c208_zo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c208_zo> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zo"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zo"@nl
+    ] .
+
+:c209_zoals
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c209_zoals> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zoals"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zoals"@nl
+    ] .
+
+:c20_behalve
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c20_behalve> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "behalve"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Behalve"@nl
+    ] .
+
+:c210_zonder
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c210_zonder> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zonder"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zonder"@nl
+    ] .
+
+:c211_zonder_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c211_zonder_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "zonder dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zonder dat"@nl
+    ] .
+
+:c212_laat_staan_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c212_laat_staan_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "laat staan dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Laat staan dat"@nl
+    ] .
+
+:c213_met_X_als_gevolg
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c213_met_X_als_gevolg> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "met {X} als gevolg"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "met {X} tot gevolg"@nl
+    ], [
+        ontolex:writtenRep "Met {X} tot gevolg"@nl
+    ], [
+        ontolex:writtenRep "Met {X} als gevolg"@nl
+    ] .
+
+:c21_behalve_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c21_behalve_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "behalve dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Behalve dat"@nl
+    ] .
+
+:c22_bijgevolg
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c22_bijgevolg> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "bijgevolg"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Bijgevolg"@nl
+    ] .
+
+:c23_bijvoorbeeld
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c23_bijvoorbeeld> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "bijvoorbeeld"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "bijv."@nl
+    ], [
+        ontolex:writtenRep "Bijvoorbeeld"@nl
+    ] .
+
+:c24_bovendien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c24_bovendien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "bovendien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Bovendien"@nl
+    ] .
+
+:c25_buiten
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c25_buiten> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "buiten"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Buiten"@nl
+    ] .
+
+:c26_buiten_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c26_buiten_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "buiten dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Buiten dat"@nl
+    ] .
+
+:c27_daarbuiten
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c27_daarbuiten> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarbuiten"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarbuiten"@nl
+    ] .
+
+:c28_daardoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c28_daardoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daardoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daardoor"@nl
+    ] .
+
+:c29_daarentegen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c29_daarentegen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarentegen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarentegen"@nl
+    ] .
+
+:c2_aangenomen_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2_aangenomen_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "aangenomen dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Aangenomen dat"@nl
+    ] .
+
+:c30_daarmee
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c30_daarmee> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarmee"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarmee"@nl
+    ] .
+
+:c31_daarna
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c31_daarna> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarna"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarna"@nl
+    ] .
+
+:c32_daarnaast
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c32_daarnaast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarnaast"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarnaast"@nl
+    ] .
+
+:c33_daarom
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c33_daarom> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarom"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarom"@nl
+    ] .
+
+:c34_daarop
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c34_daarop> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarop"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarop"@nl
+    ] .
+
+:c35_daartegenover_staat_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c35_daartegenover_staat_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daartegenover staat dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daar staat tegenover dat"@nl
+    ], [
+        ontolex:writtenRep "Daartegenover staat dat"@nl
+    ], [
+        ontolex:writtenRep "daar staat tegenover dat"@nl
+    ] .
+
+:c36_daartoe
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c36_daartoe> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daartoe"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daartoe"@nl
+    ] .
+
+:c37_daarvoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c37_daarvoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "daarvoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Daarvoor"@nl
+    ] .
+
+:c38_dan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c38_dan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dan"@nl
+    ] .
+
+:c39_dankzij
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c39_dankzij> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dankzij"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dankzij"@nl
+    ] .
+
+:c3_aangezien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c3_aangezien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "aangezien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Aangezien"@nl
+    ], [
+        ontolex:writtenRep "Gezien"@nl
+    ], [
+        ontolex:writtenRep "gezien"@nl
+    ] .
+
+:c40_dat_wil_zeggen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c40_dat_wil_zeggen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dat wil zeggen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "d.w.z."@nl
+    ], [
+        ontolex:writtenRep "D.w.z."@nl
+    ], [
+        ontolex:writtenRep "Dat wil zeggen"@nl
+    ] .
+
+:c41_derhalve
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c41_derhalve> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "derhalve"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Derhalve"@nl
+    ] .
+
+:c42_desalniettemin
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c42_desalniettemin> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "desalniettemin"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Desalniettemin"@nl
+    ], [
+        ontolex:writtenRep "Desniettemin"@nl
+    ], [
+        ontolex:writtenRep "desniettemin"@nl
+    ] .
+
+:c43_desondanks
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c43_desondanks> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "desondanks"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Desondanks"@nl
+    ] .
+
+:c44_des_te_meer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c44_des_te_meer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "des te meer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Des te meer"@nl
+    ] .
+
+:c45_des_te_minder
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c45_des_te_minder> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "des te minder"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Des te minder"@nl
+    ] .
+
+:c46_dienovereenkomstig
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c46_dienovereenkomstig> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dienovereenkomstig"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dienovereenkomstig"@nl
+    ] .
+
+:c47_dientengevolge
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c47_dientengevolge> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dientengevolge"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dientengevolge"@nl
+    ] .
+
+:c48_doch
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c48_doch> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "doch"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Doch"@nl
+    ] .
+
+:c49_dus
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c49_dus> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "dus"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dus"@nl
+    ] .
+
+:c4_aansluitend
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c4_aansluitend> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "aansluitend"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Aansluitend"@nl
+    ] .
+
+:c50_echter
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c50_echter> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "echter"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Echter"@nl
+    ] .
+
+:c51_eerst
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c51_eerst> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "eerst"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Eerst"@nl
+    ] .
+
+:c52_en
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c52_en> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "en"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "En"@nl
+    ] .
+
+:c53_ervoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c53_ervoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ervoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ervoor"@nl
+    ] .
+
+:c54_eveneens
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c54_eveneens> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "eveneens"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Eveneens"@nl
+    ] .
+
+:c55_evenmin
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c55_evenmin> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evenmin"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Evenmin"@nl
+    ] .
+
+:c56_evenzeer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c56_evenzeer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evenzeer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Evenzeeer"@nl
+    ] .
+
+:c57_evenzo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c57_evenzo> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evenzo"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Evenzo"@nl
+    ] .
+
+:c58_gelet_op
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c58_gelet_op> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "gelet op"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Gelet op"@nl
+    ] .
+
+:c59_gesteld_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c59_gesteld_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "gesteld dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Gesteld dat"@nl
+    ] .
+
+:c5_aanvankelijk
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c5_aanvankelijk> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "aanvankelijk"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Aanvankelijk"@nl
+    ] .
+
+:c60_gezien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c60_gezien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "gezien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Gezien"@nl
+    ] .
+
+:c61_hetzij
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c61_hetzij> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hetzij"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hetzij"@nl
+    ] .
+
+:c62_hierdoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c62_hierdoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hierdoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hierdoor"@nl
+    ] .
+
+:c63_hierop
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c63_hierop> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hierop"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hierop"@nl
+    ] .
+
+:c64_hierentegen
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c64_hierentegen> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hierentegen"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hierentegen"@nl
+    ] .
+
+:c65_hiertoe
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c65_hiertoe> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hiertoe"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hiertoe"@nl
+    ] .
+
+:c66_hiervoor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c66_hiervoor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hiervoor"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hiervoor"@nl
+    ] .
+
+:c67_in_het_kader_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c67_in_het_kader_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in het kader van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In het kader van"@nl
+    ] .
+
+:c68_hoewel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c68_hoewel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hoewel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hoewel"@nl
+    ] .
+
+:c69_hoezeer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c69_hoezeer> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hoezeer"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hoezeer"@nl
+    ] .
+
+:c6_achteraf
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c6_achteraf> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "achteraf"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Achteraf"@nl
+    ] .
+
+:c70_immers
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c70_immers> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "immers"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Immers"@nl
+    ] .
+
+:c71_in_plaats_daarvan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c71_in_plaats_daarvan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in plaats daarvan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In plaats daarvan"@nl
+    ] .
+
+:c72_in_plaats_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c72_in_plaats_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in plaats van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In de plaats van"@nl
+    ], [
+        ontolex:writtenRep "in de plaats van"@nl
+    ], [
+        ontolex:writtenRep "In plaats van"@nl
+    ] .
+
+:c73_integendeel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c73_integendeel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "integendeel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Integendeel"@nl
+    ] .
+
+:c74_in_tegenstelling_tot
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c74_in_tegenstelling_tot> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in tegenstelling tot"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In tegenstelling tot"@nl
+    ] .
+
+:c75_in_de_n_de_plaats
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c75_in_de_n_de_plaats> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in de eerste plaats"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "op de eerste plaats"@nl
+    ], [
+        ontolex:writtenRep "Op de eerste plaats"@nl
+    ], [
+        ontolex:writtenRep "op de tweede plaats"@nl
+    ], [
+        ontolex:writtenRep "In de tweede plaats"@nl
+    ], [
+        ontolex:writtenRep "In de eerste plaats"@nl
+    ], [
+        ontolex:writtenRep "in de tweede plaats"@nl
+    ], [
+        ontolex:writtenRep "Op de tweede plaats"@nl
+    ] .
+
+:c76_in_verband_met
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c76_in_verband_met> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in verband met"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In verband met"@nl
+    ] .
+
+:c77_in_zover
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c77_in_zover> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in zover"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In zover"@nl
+    ], [
+        ontolex:writtenRep "in zoverre"@nl
+    ], [
+        ontolex:writtenRep "In zoverre"@nl
+    ] .
+
+:c78_kortom
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c78_kortom> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "kortom"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kortom"@nl
+    ] .
+
+:c79_laat_staan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c79_laat_staan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "laat staan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Laat staan"@nl
+    ] .
+
+:c7_afgezien_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c7_afgezien_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "afgezien van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Afgezien van"@nl
+    ] .
+
+:c80_later
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c80_later> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "later"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Later"@nl
+    ] .
+
+:c81_los_daarvan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c81_los_daarvan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "los daarvan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Los daarvan"@nl
+    ] .
+
+:c82_met_andere_woorden
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c82_met_andere_woorden> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "met andere woorden"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Met andere woorden"@nl
+    ] .
+
+:c83_naar_aanleiding_daarvan
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c83_naar_aanleiding_daarvan> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naar aanleiding daarvan"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naar aanleiding daarvan"@nl
+    ] .
+
+:c84_naar_aanleiding_van
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c84_naar_aanleiding_van> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naar aanleiding van"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naar aanleiding van"@nl
+    ] .
+
+:c85_naast
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c85_naast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naast"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naast"@nl
+    ] .
+
+:c86_naast_dat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c86_naast_dat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naast dat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naast dat"@nl
+    ] .
+
+:c87_nadat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c87_nadat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nadat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nadat"@nl
+    ] .
+
+:c88_naderhand
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c88_naderhand> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naderhand"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Naderhand"@nl
+    ] .
+
+:c89_nadien
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c89_nadien> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nadien"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nadien"@nl
+    ] .
+
+:c8_alhoewel
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c8_alhoewel> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alhoewel"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alhoewel"@nl
+    ] .
+
+:c90_namelijk
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c90_namelijk> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "namelijk"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Namelijk"@nl
+    ] .
+
+:c93_net_zomin
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c93_net_zomin> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "net zomin"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Net zomin"@nl
+    ] .
+
+:c94_niettegenstaande
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c94_niettegenstaande> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "niettegenstaande"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Niettegenstaande"@nl
+    ] .
+
+:c95_niettemin
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c95_niettemin> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "niettemin"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Niettemin"@nl
+    ] .
+
+:c96_noch
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c96_noch> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "noch"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Noch"@nl
+    ] .
+
+:c97_nochtans
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c97_nochtans> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nochtans"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nochtans"@nl
+    ] .
+
+:c98_of
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c98_of> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "of"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Of"@nl
+    ] .
+
+:c99_omdat
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c99_omdat> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "omdat"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Omdat"@nl
+    ] .
+
+:c9_allereerst
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c9_allereerst> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "allereerst"@nl
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Allereerst"@nl
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c61_hetzij ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c212_laat_staan_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c56_evenzeer ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c112_per_slot_van_rekening ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c29_daarentegen ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c137_vandaar ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c210_zonder ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c99_omdat ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c146_vooropgesteld_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c35_daartegenover_staat_dat ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c67_in_het_kader_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c101_omwille_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c208_zo ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c57_evenzo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c159_zodra ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c202__vari_rend_van_tot ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c87_nadat ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c72_in_plaats_van ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c45_des_te_minder ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c122_tijdens ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c77_in_zover ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c78_kortom ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c176_eer ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c79_laat_staan ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c157_zodat ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c82_met_andere_woorden ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c142_vervolgens ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c160_zolang ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c98_of ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c36_daartoe ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c94_niettegenstaande ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c95_niettemin ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c150_waarmee ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c111_overeenkomstig ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c156_wegens ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c71_in_plaats_daarvan ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c58_gelet_op ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c131_toch ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c121_tegelijkertijd ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c70_immers ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c172_daarenboven ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c115_sedert ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c37_daarvoor ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c165_alsmede ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c83_naar_aanleiding_daarvan ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c76_in_verband_met ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c20_behalve ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c12_als_gevolg_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c31_daarna ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c199_teneinde ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c175_doordat ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c42_desalniettemin ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c85_naast ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c15_alvorens ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c90_namelijk ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c65_hiertoe ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c5_aanvankelijk ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c106_ongeacht_of ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c129_tenzij ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c212_laat_staan_dat ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c100_om_te_beginnen ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c136_vanaf_dat ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c186_naarmate ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c14_als_gevolg_hiervan ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c44_des_te_meer ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c11_als ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c55_evenmin ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c145_vooraleer ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c51_eerst ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c28_daardoor ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c89_nadien ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c153_waarop ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c84_naar_aanleiding_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c192_onder_meer ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c33_daarom ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c186_naarmate ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c107_op_basis_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c11_als ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c138_vandaar_dat ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c135_vanaf ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c173_dan_ook ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c197_sterker_nog_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c103_ondanks_dat ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c131_toch ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c188_oftewel ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c195_opdat ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81_los_daarvan ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c154_wanneer ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c141_verder ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c177_eerder ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2_aangenomen_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c47_dientengevolge ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c198_te_weten ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c34_daarop ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c193_ook ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c209_zoals ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c127_tenslotte ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c169_behoudens ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c53_ervoor ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c9_allereerst ;
+    ontolex:reference pdtb:List, pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c204_wel ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c3_aangezien ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c163_alleen ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c200_tevens ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c54_eveneens ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c11_als ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c75_in_de_n_de_plaats ;
+    ontolex:reference pdtb:List, pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c127_tenslotte ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c105_ongeacht ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c121_tegelijkertijd ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c121_tegelijkertijd ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c130_terwijl ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c94_niettegenstaande ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c178_evenals ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c205_weliswaar_maar ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c110_op_grond_daarvan ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c133_tot_slot ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c52_en ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c174_door ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c66_hiervoor ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c157_zodat ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c123_daar ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c155_want ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c162_al ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81_los_daarvan ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c68_hoewel ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c170_daarbij ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c13_met_als_gevolg_dat ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c69_hoezeer ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c185_mits ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c209_zoals ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c190_om ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c181_indien ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c19_enerzijds_anderzijds ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c9_allereerst ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c128_ten_n_de ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c43_desondanks ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c24_bovendien ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c184_krachtens ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c179_evenwel ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c50_echter ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c154_wanneer ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c119_straks ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c93_net_zomin ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c160_zolang ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c182_in_geval_van ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c211_zonder_dat ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c149_waardoor ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c38_dan ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c134_uitgezonderd ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c131_toch ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c32_daarnaast ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c187_ofschoon ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c39_dankzij ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c25_buiten ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c64_hierentegen ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c23_bijvoorbeeld ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c117_sinds ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c152_waarom ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c167_althans ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c144_vooraf ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c148_voor_zover ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c6_achteraf ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c7_afgezien_van ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c96_noch ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c130_terwijl ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c88_naderhand ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c62_hierdoor ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c38_dan ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c171_daarbovenop ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c30_daarmee ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c27_daarbuiten ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c5_aanvankelijk ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c211_zonder_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c46_dienovereenkomstig ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c183_kort_gezegd ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c196_samenvattend ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c132_totdat ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c97_nochtans ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c174_door ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c120_tegelijk ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c126_ten_gevolge_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c161_zowel_als ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c74_in_tegenstelling_tot ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c191_onder_andere ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c1_aan_de_ene_kant_aan_de_andere_kant ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81_los_daarvan ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c164_alsook ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c213_met_X_als_gevolg ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c8_alhoewel ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c207_zij_het_dat ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c140_vastgesteld_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c147_voorts ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c21_behalve_dat ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c116_sedertdien ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c75_in_de_n_de_plaats ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c95_niettemin ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c63_hierop ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c50_echter ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c124_ten_behoeve_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c201_toen ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c73_integendeel ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c143_voor ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c48_doch ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c206_zij_het ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c151_waarna ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c86_naast_dat ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c150_waarmee ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c109_op_grond_van ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c62_hierdoor ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c102_ondanks ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c10_naargelang ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c97_nochtans ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c133_tot_slot ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c4_aansluitend ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c80_later ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c18_anders ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c60_gezien ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c40_dat_wil_zeggen ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c189_ofwel_of_wel_ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c168_anders_gezegd ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c139_vanwege ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c166_alsof ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c118_sindsdien ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81_los_daarvan ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c142_vervolgens ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c22_bijgevolg ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c120_tegelijk ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c104_ondertussen ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c125_teneinde ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c90_namelijk ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c66_hiervoor ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c49_dus ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c180_hierdoor ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c108_op_die_manier ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c26_buiten_dat ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c41_derhalve ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c59_gesteld_dat ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c203_voordat ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c150_waarmee ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c210_zonder ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c158_zodoende ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c194_ook_al ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c120_tegelijk ;
+    ontolex:reference pdtb:Conjunction .
+

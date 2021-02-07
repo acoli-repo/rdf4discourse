@@ -1,0 +1,2152 @@
+@base <https://hlt-nlp.fbk.eu/technologies/lico> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#> .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#1>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#1> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a causa di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#10>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#10> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ad ogni modo"@it
+    ], [
+        ontolex:writtenRep "in ogni modo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#100>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#100> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malgrado questo"@it
+    ], [
+        ontolex:writtenRep "malgrado ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#101>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#101> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mentre"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#102>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#102> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "né"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#103>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#103> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "né né"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#104>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#104> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nel contempo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#105>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#105> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nel frattempo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#106>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#106> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "non appena"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#107>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#107> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "non prima di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#108>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#108> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nondimeno"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#109>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#109> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nonostante"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#11>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#11> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "affinché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#110>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#110> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "non per tanto"@it
+    ], [
+        ontolex:writtenRep "nonpertanto"@it
+    ], [
+        ontolex:writtenRep "non pertanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#111>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#111> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "o"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#112>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#112> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ogni volta che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#113>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#113> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "oltre a questo"@it
+    ], [
+        ontolex:writtenRep "oltre a ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#114>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#114> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "oltretutto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#115>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#115> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "oppure"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#116>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#116> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ossia"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#117>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#117> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "parimenti"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#118>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#118> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#119>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#119> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per contro"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#12>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#12> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "al che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#120>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#120> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per cui"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#121>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#121> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per di più"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#122>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#122> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per giunta"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#123>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#123> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per il fatto che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#124>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#124> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per il resto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#125>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#125> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per la qual cosa"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#126>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#126> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "o meglio"@it
+    ], [
+        ontolex:writtenRep "per meglio dire"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#127>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#127> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per poco che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#128>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#128> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per prima cosa"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#129>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#129> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per quanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#13>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#13> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "al contrario"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#130>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#130> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per questa ragione"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#131>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#131> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per questo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#132>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#132> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per questo motivo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#133>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#133> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "peraltro"@it
+    ], [
+        ontolex:writtenRep "per altro"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#134>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#134> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "perché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#135>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#135> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "perciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#136>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#136> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "però"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#137>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#137> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "perfino"@it
+    ], [
+        ontolex:writtenRep "persino"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#138>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#138> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pertanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#139>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#139> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "più che altro"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#14>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#14> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "al massimo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#140>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#140> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "più tardi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#141>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#141> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "piuttosto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#142>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#142> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "poi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#143>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#143> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "poiché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#144>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#144> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "precedentemente"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#145>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#145> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "prima"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#146>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#146> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "prima di"@it
+    ], [
+        ontolex:writtenRep "prima che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#147>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#147> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "purché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#148>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#148> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pure"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#149>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#149> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quando"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#15>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#15> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "al posto di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#150>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#150> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quantunque"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#151>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#151> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quindi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#152>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#152> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "salvo che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#153>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#153> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "se"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#154>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#154> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sebbene"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#155>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#155> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "semmai"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#156>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#156> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sennò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#157>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#157> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sennonché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#158>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#158> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "siccome"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#159>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#159> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "solamente"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#16>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#16> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alla fin fine"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#160>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#160> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "solo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#161>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#161> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sopra ogni altra cosa"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#162>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#162> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "supposto che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#163>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#163> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tanto più che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#164>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#164> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tra l'altro"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#165>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#165> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tra le altre cose"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#166>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#166> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tranne"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#167>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#167> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tranne quando"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#168>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#168> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tutt'al più"@it
+    ], [
+        ontolex:writtenRep "tuttalpiù"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#169>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#169> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tuttavia"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#17>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#17> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alla fine"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#170>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#170> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tutto sommato"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#171>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#171> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ugualmente"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#172>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#172> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "vale a dire"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#173>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#173> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "viceversa"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#18>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#18> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "allo scopo di"@it
+    ], [
+        ontolex:writtenRep "con lo scopo di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#19>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#19> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "allo stesso modo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#2>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#2> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a condizione che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#20>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#20> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "allora"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#21>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#21> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "altrimenti"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#22>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#22> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "anche"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#23>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#23> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "anche se"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#24>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#24> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "anzi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#25>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#25> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "anziché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#26>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#26> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "benché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#27>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#27> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bensì"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#28>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#28> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cioè"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#29>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#29> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ciò nondimeno"@it
+    ], [
+        ontolex:writtenRep "cionondimeno"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#3>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#3> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a dire il vero"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#30>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#30> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ciononostante"@it
+    ], [
+        ontolex:writtenRep "ciò nonostante"@it
+    ], [
+        ontolex:writtenRep "nonostante ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#31>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#31> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "come"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#32>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#32> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "come conseguenza"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#33>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#33> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comunque"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#34>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#34> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "con questo"@it
+    ], [
+        ontolex:writtenRep "con ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#35>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#35> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "con tutto questo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#36>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#36> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "contrariamente a"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#37>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#37> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "contuttociò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#38>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#38> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "così"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#39>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#39> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "così che"@it
+    ], [
+        ontolex:writtenRep "cosicché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#4>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#4> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per la verità"@it
+    ], [
+        ontolex:writtenRep "in verità"@it
+    ], [
+        ontolex:writtenRep "a dire la verità"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#40>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#40> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da allora"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#41>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#41> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#42>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#42> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da quando"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#43>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#43> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da ultimo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#44>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#44> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da un canto dall'altro"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#45>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#45> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da un lato dall'altro lato"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#46>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#46> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "da una parte dall'altra parte"@it
+    ], [
+        ontolex:writtenRep "da una parte dall'altra"@it
+    ], [
+        ontolex:writtenRep "da una parte"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#47>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#47> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dal momento che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#48>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#48> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'altra parte"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#49>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#49> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'altro lato"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#5>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#5> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a dispetto di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#50>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#50> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "del resto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#51>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#51> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "di conseguenza"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#52>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#52> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "di fatto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#53>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#53> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "di modo che"@it
+    ], [
+        ontolex:writtenRep "in modo che"@it
+    ], [
+        ontolex:writtenRep "in modo da"@it
+    ], [
+        ontolex:writtenRep "dimodoché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#54>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#54> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dopo"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#55>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#55> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dopo di che"@it
+    ], [
+        ontolex:writtenRep "dopo di ciò"@it
+    ], [
+        ontolex:writtenRep "dopodiché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#56>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#56> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dopotutto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#57>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#57> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dunque"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#58>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#58> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "e"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#59>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#59> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ebbene"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#6>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#6> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a meno di"@it
+    ], [
+        ontolex:writtenRep "a meno che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#60>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#60> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "eccetto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#61>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#61> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "eppure"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#62>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#62> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "fatto sta che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#63>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#63> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "fin qui"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#64>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#64> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "fino a questo punto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#65>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#65> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "frattanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#66>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#66> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "fuorché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#67>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#67> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "giacché"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#68>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#68> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in altri termini"@it
+    ], [
+        ontolex:writtenRep "in altre parole"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#69>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#69> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in base a"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#7>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#7> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a onor del vero"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#70>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#70> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in breve"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#71>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#71> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in caso contrario"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#72>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#72> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in conclusione"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#73>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#73> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in conseguenza di ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#74>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#74> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in definitiva"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#75>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#75> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in fin dei conti"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#76>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#76> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in luogo di"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#77>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#77> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in ogni caso"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#78>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#78> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in più"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#79>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#79> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in poche parole"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#8>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#8> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a tal fine"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#80>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#80> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in quanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#81>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#81> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in quanto al resto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#82>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#82> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in realtà"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#83>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#83> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in seguito"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#84>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#84> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in seguito a"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#85>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#85> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in seguito a ciò"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#86>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#86> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in sintesi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#87>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#87> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in sostanza"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#88>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#88> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "in ultima analisi"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#89>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#89> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "difatti"@it
+    ], [
+        ontolex:writtenRep "infatti"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#9>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#9> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "per esempio"@it
+    ], [
+        ontolex:writtenRep "ad esempio"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#90>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#90> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "infine"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#91>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#91> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "innanzitutto"@it
+    ], [
+        ontolex:writtenRep "innanzi tutto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#92>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#92> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "inoltre"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#93>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#93> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "insomma"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#94>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#94> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "intanto"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#95>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#95> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "invece"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#96>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#96> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "invece di"@it
+    ], [
+        ontolex:writtenRep "invece che"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#97>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#97> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "invero"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#98>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#98> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ma"@it
+    ] .
+
+<http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#99>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#99> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malgrado"@it
+    ] .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#155> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#64> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#158> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#93> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#131> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#151> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#108> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#130> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#27> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#54> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#136> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#147> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#47> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#142> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#3> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#58> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#149> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#101> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#42> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#46> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#121> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#equivalence>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reformulation> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#28> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#84> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#77> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#33> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#30> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#144> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#4> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#69> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#98> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#105> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#resulte> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#135> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#87> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg2-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#152> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#substitution-arg1-as-subst> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#25> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#106> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#157> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg1-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#115> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#95> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#consequence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#153> ;
+    ontolex:reference pdtb:Cause, pdtb:Condition, pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#109> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#122> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#35> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#44> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#119> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#84> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg1-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#111> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#2> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#61> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#22> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#48> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#86> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#consequence>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#143> ;
+    ontolex:reference pdtb:Cause, pdtb:reason, pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#83> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg2-as-except> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#66> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#94> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#129> ;
+    ontolex:reference pdtb:Concession, pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#149> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#32> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg2-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#167> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#102> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#85> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#79> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#80> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#38> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg2-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#82> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#65> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#similarity> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#171> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#consequence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#34> ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#disjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#111> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#114> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#123> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg2-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#172> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#substitution-arg1-as-subst> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#141> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#150> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#140> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg1-as-except> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#81> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#24> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#purpose-arg2-as-goal> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#18> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#145> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#51> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#104> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#160> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#40> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#106> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#151> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#purpose-arg2-as-goal> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#118> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#149> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#similarity> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#19> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg1-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#71> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#equivalence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#68> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#98> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#26> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#5> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#instantiation> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#9> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#disjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#115> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#consequence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#163> ;
+    ontolex:reference pdtb:Cause, pdtb:Conjunction, pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#58> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#138> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#154> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#purpose-arg2-as-goal> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#11> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#45> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#substitution-arg1-as-subst> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#96> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#137> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#1> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#173> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg2-as-except> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#166> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg1-as-except> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#124> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#33> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#134> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#32> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#purpose-arg1-as-goal> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#8> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg2-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#6> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#100> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#103> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#substitution-arg1-as-subst> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#76> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#53> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#173> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#36> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#72> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#118> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#50> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#101> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#146> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#40> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg1-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#156> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#148> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#23> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#41> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#12> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#85> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#78> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#reason> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#67> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#20> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#120> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#148> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#instantiation> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#89> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#addition>, <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#31> ;
+    ontolex:reference pdtb:EXPANSION, pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#101> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#113> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#10> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#29> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#specification-arg1-as-detail> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#70> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg2-as-except> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#60> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#contrast> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#13> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#159> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#condition> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#162> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#13> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#132> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#136> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#57> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#substitution-arg1-as-subst> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#15> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#equivalence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#116> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#20> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#succession> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#107> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#syncrony> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#112> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#39> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#17> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#137> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#22> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg1-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#99> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#7> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#95> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#12> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#55> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#result> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#73> ;
+    ontolex:reference pdtb:result .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#precedence> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#43> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#exception-arg2-as-excpt> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#14> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#63> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#119> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#concession-arg2-as-denier> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#169> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#conjunction> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#92> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#negative-condition-arg1-as-negcond> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#21> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    ontolex:isLexicalizedSenseOf <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#similarity> ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/it/LICO-v.1.0.ttl#117> ;
+    ontolex:reference pdtb:COMPARISON .
+

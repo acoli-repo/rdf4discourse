@@ -1,0 +1,1310 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/bn/dimlex-bangla.ttl#> .
+
+:c100__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c100__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পক্ষে"@bn
+    ] .
+
+:c101__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c101__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "উপর"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ওপর"@bn
+    ] .
+
+:c10__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c10__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "জন্য"@bn
+    ] .
+
+:c11__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c11__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কারণে"@bn
+    ] .
+
+:c12__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c12__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কারণে"@bn
+    ] .
+
+:c13__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c13__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পরে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "পর"@bn
+    ] .
+
+:c14__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c14__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পরে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "পর"@bn
+    ] .
+
+:c15__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c15__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ছাড়া"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ছাড়াও"@bn
+    ] .
+
+:c16__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c16__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ছাড়া"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ছাড়াও"@bn
+    ] .
+
+:c17__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c17__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তবু"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "তবুও"@bn
+    ] .
+
+:c18__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c18__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "না"@bn
+    ] .
+
+:c19__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c19__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বাদে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "বাদেও"@bn
+    ] .
+
+:c1__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c1__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "আগে"@bn
+    ] .
+
+:c20__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c20__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বাদে"@bn
+    ] .
+
+:c21__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c21__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "মোটের উপর"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "মোটের ওপর"@bn
+    ], [
+        ontolex:writtenRep ""@bn
+    ] .
+
+:c22__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c22__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অর্থাৎ"@bn
+    ] .
+
+:c23__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c23__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "উদাহরণস্বরূপ"@bn
+    ] .
+
+:c24__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c24__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পরিবর্তে"@bn
+    ] .
+
+:c25__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c25__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বরং"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep ""@bn
+    ], [
+        ontolex:writtenRep "বরঞ্চ"@bn
+    ] .
+
+:c26__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c26__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যদিও"@bn
+    ] .
+
+:c27__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c27__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যদি না"@bn
+    ] .
+
+:c28__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c28__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ফলত"@bn
+    ] .
+
+:c29__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c29__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "না হলে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "নইলে"@bn
+    ] .
+
+:c2__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "আগে"@bn
+    ] .
+
+:c30__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c30__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যেহেতু-সেহেতু"@bn
+    ] .
+
+:c31__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c31__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "মুহূর্তে"@bn
+    ] .
+
+:c32__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c32__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "এখনও"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "এখনো"@bn
+    ] .
+
+:c33__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c33__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তক্ষুণি"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "তখনই"@bn
+    ] .
+
+:c34__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c34__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ইতিমধ্যে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ইতোমধ্যে"@bn
+    ], [
+        ontolex:writtenRep ""@bn
+    ] .
+
+:c35__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c35__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পাছে"@bn
+    ] .
+
+:c36__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c36__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পিছনে"@bn
+    ] .
+
+:c37__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c37__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বলে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "বলিয়া"@bn
+    ], [
+        ontolex:writtenRep ""@bn
+    ] .
+
+:c38__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c38__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তবে"@bn
+    ] .
+
+:c39__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c39__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সুতরাং"@bn
+    ] .
+
+:c3__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c3__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অতএব"@bn
+    ] .
+
+:c40__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c40__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সঙ্গে সঙ্গে"@bn
+    ] .
+
+:c41__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c41__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সাথে (সাথে)"@bn
+    ] .
+
+:c42__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c42__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বা"@bn
+    ] .
+
+:c43__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c43__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "হয়-নয়"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "হয়-না হয়"@bn
+    ] .
+
+:c44__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c44__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বিশেষত"@bn
+    ] .
+
+:c45__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c45__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "না হয়"@bn
+    ] .
+
+:c46__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c46__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "মধ্যে"@bn
+    ] .
+
+:c47__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c47__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ফলে"@bn
+    ] .
+
+:c48__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c48__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ফলে"@bn
+    ] .
+
+:c49__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c49__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অথচ"@bn
+    ] .
+
+:c4__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c4__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কিন্তু"@bn
+    ] .
+
+:c50__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c50__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অধিকন্তু"@bn
+    ] .
+
+:c51__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c51__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অন্য কথায়"@bn
+    ] .
+
+:c52__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c52__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অন্যথায়"@bn
+    ] .
+
+:c53__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c53__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অমনি"@bn
+    ] .
+
+:c54__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c54__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অল্প কথায়"@bn
+    ] .
+
+:c55__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c55__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "আর"@bn
+    ] .
+
+:c56__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c56__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "উপরন্তু"@bn
+    ] .
+
+:c57__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c57__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "এমনকি যখন"@bn
+    ] .
+
+:c58__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c58__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "এমনকি যদি"@bn
+    ] .
+
+:c59__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c59__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কাজেই"@bn
+    ] .
+
+:c5__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c5__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "অথবা"@bn
+    ] .
+
+:c60__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c60__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কারণ"@bn
+    ] .
+
+:c61__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c61__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কিংবা"@bn
+    ] .
+
+:c62__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c62__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "কেননা"@bn
+    ] .
+
+:c63__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c63__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "জায়গায়"@bn
+    ] .
+
+:c64__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c64__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যখন-তখন"@bn
+    ] .
+
+:c65__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c65__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যখনই"@bn
+    ] .
+
+:c66__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c66__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যাতে"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "যাহাতে"@bn
+    ] .
+
+:c67__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c67__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যে মুহূর্তে"@bn
+    ] .
+
+:c68__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c68__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যেইমাত্র"@bn
+    ] .
+
+:c69__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c69__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যতক্ষণ"@bn
+    ] .
+
+:c6__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c6__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "এবং"@bn
+    ] .
+
+:c70__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c70__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যতক্ষন না"@bn
+    ] .
+
+:c71__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c71__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "যদি"@bn
+    ] .
+
+:c72__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c72__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তখন"@bn
+    ] .
+
+:c73__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c73__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তথাপি"@bn
+    ] .
+
+:c74__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c74__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "তত্ক্ষণাৎ"@bn
+    ] .
+
+:c75__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c75__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "দরুন"@bn
+    ] .
+
+:c76__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c76__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "দৃষ্টান্তস্বরূপ"@bn
+    ] .
+
+:c77__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c77__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "নচেৎ"@bn
+    ] .
+
+:c78__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c78__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "নইলে"@bn
+    ] .
+
+:c79__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c79__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "নয়ত"@bn
+    ] .
+
+:c7__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c7__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সত্ত্বেও"@bn
+    ] .
+
+:c80__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c80__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "নতুবা"@bn
+    ] .
+
+:c81__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c81__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পক্ষান্তরে"@bn
+    ] .
+
+:c82__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c82__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "প্রকৃতপক্ষে"@bn
+    ] .
+
+:c83__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c83__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পরিণামে"@bn
+    ] .
+
+:c84__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c84__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "উপরন্তু"@bn
+    ] .
+
+:c85__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c85__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পূর্বে"@bn
+    ] .
+
+:c86__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c86__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "পূর্বে"@bn
+    ] .
+
+:c87__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c87__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বাদে"@bn
+    ] .
+
+:c88__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c88__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বাদে"@bn
+    ] .
+
+:c89__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c89__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ফলস্বরূপ"@bn
+    ] .
+
+:c8__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c8__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সত্ত্বেও"@bn
+    ] .
+
+:c90__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c90__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বাস্তবিকপক্ষে"@bn
+    ] .
+
+:c91__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c91__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বিকল্প হিসাবে"@bn
+    ] .
+
+:c92__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c92__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বিনা"@bn
+    ] .
+
+:c93__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c93__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বিনিময়ে"@bn
+    ] .
+
+:c94__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c94__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বিপরীতে"@bn
+    ] .
+
+:c95__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c95__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "বদলে"@bn
+    ] .
+
+:c96__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c96__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সঙ্গে"@bn
+    ] .
+
+:c97__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c97__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সাথে"@bn
+    ] .
+
+:c98__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c98__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "সময়"@bn
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "সময়ে"@bn
+    ] .
+
+:c99__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c99__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "দিকে"@bn
+    ] .
+
+:c9__
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c9__> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "জন্য"@bn
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c19__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c67__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c9__ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c92__ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c98__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c23__ ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c25__ ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c52__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c78__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c72__ ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c53__ ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c61__ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c57__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c28__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c60__ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c93__ ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c34__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c31__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c22__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c89__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c58__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c87__ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c11__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c65__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c17__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c47__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c45__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c86__ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2__ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c7__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c62__ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c75__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c41__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c21__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c30__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c27__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c20__ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c95__ ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c13__ ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c74__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c30__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c1__ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c88__ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c59__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c6__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c39__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c40__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c16__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c94__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c49__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c100__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c54__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c25__ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c101__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c63__ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c4__ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c42__ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c50__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c35__ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c15__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c56__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c84__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c71__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c37__ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c99__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c29__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c66__ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c91__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c48__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c14__ ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c36__ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c96__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c77__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c3__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c5__ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c76__ ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c33__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c43__ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c79__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c83__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c41__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81__ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c80__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c68__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c44__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c24__ ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c32__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c18__ ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c82__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c64__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c8__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c97__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c90__ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c38__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c12__ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c85__ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c40__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c10__ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c51__ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c55__ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c46__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c70__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c73__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c69__ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c26__ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c72__ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c22__ ;
+    ontolex:reference pdtb:equivalence .
+

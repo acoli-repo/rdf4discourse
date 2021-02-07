@@ -1,0 +1,269 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Russian> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl#> .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k10__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Однако"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k11__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k11__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ответ на этот вопрос настолько же разнообразен , как и выбравшие жизнь в дороге люди . Однако , часто путешественники отвечают одним словом"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k12__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k12__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ответ прост"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k13__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k13__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Пока"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k14__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k14__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Потому"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k15__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k15__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Прошли годы"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k16__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k16__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "То есть"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k17__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k17__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "То же самое"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k18__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k18__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Чтоб"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k19__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k19__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Это означает"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k1__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k1__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Вкратце"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k20__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k20__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Это равноценно тому , как"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k21__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k21__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Я имею в виду"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k2__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k2__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Вместе"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k3__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k3__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Вот почему"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k4__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k4__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Далее"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k5__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k5__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Другими словами"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k6__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k6__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Итак"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k7__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k7__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Кто"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k8__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k8__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Неужели"@ru
+    ] .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k9__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Russian/k9__> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Один из наиболее ярких примеров этого проявляется"@ru
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k15__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k2__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k16__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k7__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k4__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k3__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k14__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k5__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k20__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k21__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k6__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k17__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k6__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k1__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k19__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k12__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k11__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k18__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k8__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k9__> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k13__> ;
+    ontolex:reference pdtb:precedence .
+

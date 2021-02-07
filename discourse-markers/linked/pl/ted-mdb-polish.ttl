@@ -1,0 +1,149 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Polish> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl#> .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k10_Tak_jak>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k10_Tak_jak> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tak jak"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k11_W_skr_cie>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k11_W_skr_cie> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "W skrócie"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k12_em_ES>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k12_em_ES> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em ES"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k1_A_po_tym>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k1_A_po_tym> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "A po tym"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k2_Cz>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k2_Cz> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Cz"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k3_Czym>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k3_Czym> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Czym"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k4_Dop_ki>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k4_Dop_ki> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dopóki"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k5_ESG>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k5_ESG> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ESG"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k6_Jes>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k6_Jes> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Jes"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k7_Je_li_to>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k7_Je_li_to> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Jeśli ... to"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k8_Odk_d>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k8_Odk_d> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Odkąd"@pl
+    ] .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k9_Podobnie_jak>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Polish/k9_Podobnie_jak> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Podobnie jak"@pl
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k7_Je_li_to> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k6_Jes> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k11_W_skr_cie> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k5_ESG> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k9_Podobnie_jak> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k12_em_ES> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k7_Je_li_to> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k10_Tak_jak> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k3_Czym> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k8_Odk_d> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k2_Cz> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k4_Dop_ki> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k1_A_po_tym> ;
+    ontolex:reference pdtb:precedence .
+

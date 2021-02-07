@@ -1,0 +1,316 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/lithuanian> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl#> .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k10_Lyg>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k10_Lyg> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Lyg"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k11_Na>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k11_Na> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Na"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k12_Na_gi>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k12_Na_gi> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Na gi"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k13_Net>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k13_Net> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Net"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k14_Net_ir>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k14_Net_ir> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Net ir"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k15_Tad>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k15_Tad> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tad"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k16_Tad_taip>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k16_Tad_taip> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tad taip"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k17_Tarytum>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k17_Tarytum> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Tarytum"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k18_To_rezultatai>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k18_To_rezultatai> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "To rezultatai"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k19_Valio>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k19_Valio> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Valio"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k1_Argi>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k1_Argi> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Argi"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k20_s_B>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k20_s_B> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "s B"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k21__tai>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k21__tai> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Štai"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k22__Arb>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k22__Arb> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "“Arb"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k23__Je>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k23__Je> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "„Je"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k24__Kai>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k24__Kai> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "﻿Kai"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k2_Dabar>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k2_Dabar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dabar"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k3_Deja>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k3_Deja> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Deja"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k4_Ell>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k4_Ell> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ell"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k5_Ir_pabaigai>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k5_Ir_pabaigai> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ir pabaigai"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k6_Jis>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k6_Jis> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Jis"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k7_Kiek>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k7_Kiek> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kiek"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k8_Kod_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k8_Kod_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kodė"@lt
+    ] .
+
+<http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k9_Kol_tol>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <lithuanian/k9_Kol_tol> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kol ... tol"@lt
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k5_Ir_pabaigai> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k2_Dabar> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k16_Tad_taip> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k9_Kol_tol> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k11_Na> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k20_s_B> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k2_Dabar> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k11_Na> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k21__tai> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k15_Tad> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k13_Net> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k8_Kod_> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k2_Dabar> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k19_Valio> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k12_Na_gi> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k15_Tad> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k14_Net_ir> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k10_Lyg> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k4_Ell> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k6_Jis> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k1_Argi> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k3_Deja> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k18_To_rezultatai> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k17_Tarytum> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k22__Arb> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k24__Kai> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k7_Kiek> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/lt/ted-mdb-lithuanian.ttl/k23__Je> ;
+    ontolex:reference pdtb:Condition .
+

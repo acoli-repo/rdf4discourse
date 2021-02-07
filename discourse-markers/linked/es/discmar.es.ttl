@@ -1,0 +1,1219 @@
+@base <https://cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/discmar> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/es/discmar.es.ttl#> .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/relation>
+    rdfs:isDefinedBy <discmar/relation> .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_192>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_192> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_193>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_193> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a condición de"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_194>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_194> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a la vez"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_195>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_195> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a no ser que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_196>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_196> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a pesar de"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_197>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_197> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "a propósito"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_198>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_198> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "además"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_199>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_199> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ahora bien"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_200>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_200> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "al contrario"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_201>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_201> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "antes"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_202>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_202> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "antes que nada"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_203>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_203> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aparte"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_204>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_204> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "así que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_205>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_205> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aún es más"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_206>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_206> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aunque"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_207> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "como"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_208>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_208> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "como consecuencia"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_209>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_209> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "con"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_210>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_210> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "con todo"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_211>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_211> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "concretamente"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_212>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_212> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "contra"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_213>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_213> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cuando"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_214>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_214> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dado que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_215>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_215> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de acuerdo con"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_216>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_216> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de hecho"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_217>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_217> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de todos modos"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_218>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_218> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "debido a"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_219>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_219> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "desde"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_220>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_220> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "después"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_221>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_221> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "donde"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_222>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_222> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "durante"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_223>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_223> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "e"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_224>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_224> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "el hecho es que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_225>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_225> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_226>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_226> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en comparación"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_227>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_227> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en conclusión"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_228>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_228> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en cualquier caso"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_229>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_229> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en dos palabras"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_230>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_230> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en efecto"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_231>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_231> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en ese caso"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_232>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_232> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en esencia"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_233>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_233> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en otras palabras"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_234>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_234> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en particular"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_235>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_235> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en realidad"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_236>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_236> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en resumen"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_237>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_237> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "entonces"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_238>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_238> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "entre"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_239>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_239> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "es cierto que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_240>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_240> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "es decir"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_241>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_241> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "especialmente"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_242>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_242> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "even"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_243>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_243> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "excepto"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_244>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_244> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "gracias a"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_245>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_245> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hacia"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_246>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_246> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hasta"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_247>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_247> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "lejos de"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_248>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_248> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mediante"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_249>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_249> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mientras"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_250>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_250> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ni"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_251>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_251> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "no obstante"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_252>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_252> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "no sólo"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_253>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_253> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "o"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_254>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_254> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "originalmente"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_255>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_255> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "para"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_256>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_256> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "para empezar"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_257>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_257> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "para que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_258>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_258> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pero"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_259>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_259> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pese a"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_260>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_260> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_261>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_261> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por ejemplo"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_262>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_262> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por el momento"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_263>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_263> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por eso"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_264>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_264> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por esta razón"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_265>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_265> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por otro lado"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_266>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_266> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por si"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_267>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_267> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por tanto"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_268>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_268> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por último"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_269>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_269> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "por un lado"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_270>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_270> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "porque"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_271>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_271> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "precisamente"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_272>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_272> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_273>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_273> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "respecto a"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_274>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_274> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "según"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_275>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_275> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "si"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_276>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_276> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "siempre que"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_277>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_277> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sin"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_278>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_278> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sin duda"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_279>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_279> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sin embargo"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_280>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_280> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sino también"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_281>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_281> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sobre"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_282>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_282> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sobretodo"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_283>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_283> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tal como"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_284>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_284> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "también"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_285>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_285> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tan pronto como"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_286>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_286> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "teniendo en cuenta"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_287>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_287> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "u"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_288>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <discmar/s1_288> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "y"@es
+    ] .
+
+<http://purl.org/acoli/dimlex/es/discmar.es.ttl/struct>
+    rdfs:isDefinedBy <discmar/struct> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_282> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_286> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_246> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_236> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_193> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_263> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_285> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_226> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_205> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_214> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_283> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_265> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_251> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_273> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_211> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_223> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_217> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_204> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_250> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_266> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_228> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_247> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_196> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_287> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_201> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_220> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_274> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_219> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_208> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_240> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_219> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_279> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_215> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_230> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_195> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_238> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_232> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_242> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_229> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_254> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_258> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_252> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_216> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_244> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_280> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_209> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_192> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_284> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_256> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_276> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_261> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_202> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_253> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_281> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_198> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_250> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_245> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_268> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_237> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_202> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_277> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_264> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_267> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_235> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_233> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_256> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_218> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_221> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_288> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_271> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_231> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_222> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_225> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_281> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_194> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_227> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_248> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_241> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_269> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_257> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_275> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_206> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_212> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_243> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_210> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_249> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_239> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_199> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_213> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_200> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_270> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_207> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_262> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_234> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_197> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_203> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_260> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_255> ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_192> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_272> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_224> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_259> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/es/discmar.es.ttl/s1_278> ;
+    ontolex:reference pdtb:TEMPORAL .
+

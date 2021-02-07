@@ -1,0 +1,5550 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/fr/lexconn.ttl#> .
+
+:c0_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c0_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "afin d'"@fr
+    ], [
+        ontolex:writtenRep "afin de"@fr
+    ] .
+
+:c102_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c102_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'où"@fr
+    ] .
+
+:c103_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c103_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans ce cas"@fr
+    ] .
+
+:c104_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c104_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans ce cas-là"@fr
+    ] .
+
+:c105_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c105_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en ce cas"@fr
+    ] .
+
+:c106_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c106_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans l'espoir d'"@fr
+    ], [
+        ontolex:writtenRep "dans l'espoir de"@fr
+    ] .
+
+:c107_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c107_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans l'espoir que"@fr
+    ], [
+        ontolex:writtenRep "dans l'espoir qu'"@fr
+    ] .
+
+:c108_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c108_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans l'hypothèse où"@fr
+    ] .
+
+:c10_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c10_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après"@fr
+    ] .
+
+:c111_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c111_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans l'intention de"@fr
+    ], [
+        ontolex:writtenRep "dans l'intention d'"@fr
+    ] .
+
+:c112_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c112_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans l'intention qu'"@fr
+    ], [
+        ontolex:writtenRep "dans l'intention que"@fr
+    ] .
+
+:c113_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c113_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans la mesure où"@fr
+    ] .
+
+:c114_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c114_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans la mesure où"@fr
+    ] .
+
+:c116_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c116_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le but de"@fr
+    ], [
+        ontolex:writtenRep "dans le but d'"@fr
+    ] .
+
+:c117_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c117_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le but qu'"@fr
+    ], [
+        ontolex:writtenRep "dans le but que"@fr
+    ] .
+
+:c11_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c11_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après"@fr
+    ] .
+
+:c122_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c122_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le cas où"@fr
+    ] .
+
+:c124_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c124_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans tous les cas"@fr
+    ] .
+
+:c126_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c126_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en tous les cas"@fr
+    ] .
+
+:c128_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c128_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en tout cas"@fr
+    ], [
+        ontolex:writtenRep "en tous cas"@fr
+    ] .
+
+:c128bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c128bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en tous cas"@fr
+    ], [
+        ontolex:writtenRep "en tout cas"@fr
+    ] .
+
+:c129_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c129_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de ce fait"@fr
+    ] .
+
+:c12_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c12_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après"@fr
+    ] .
+
+:c130_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c130_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de telle façon qu'"@fr
+    ], [
+        ontolex:writtenRep "de telle façon que"@fr
+    ] .
+
+:c130bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c130bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de telle façon que"@fr
+    ], [
+        ontolex:writtenRep "de telle façon qu'"@fr
+    ] .
+
+:c131_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c131_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de façon que"@fr
+    ], [
+        ontolex:writtenRep "de façon qu'"@fr
+    ] .
+
+:c132_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c132_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de façon à"@fr
+    ] .
+
+:c133_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c133_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de façon à ce que"@fr
+    ], [
+        ontolex:writtenRep "de façon à ce qu'"@fr
+    ] .
+
+:c134_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c134_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de fait"@fr
+    ] .
+
+:c135_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c135_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de fait"@fr
+    ] .
+
+:c136_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c136_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de la même façon"@fr
+    ] .
+
+:c137_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c137_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de la même façon que"@fr
+    ], [
+        ontolex:writtenRep "de la même façon qu'"@fr
+    ] .
+
+:c138_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c138_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de la même manière"@fr
+    ] .
+
+:c139_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c139_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de la même manière que"@fr
+    ], [
+        ontolex:writtenRep "de la même manière qu'"@fr
+    ] .
+
+:c13_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c13_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après que"@fr
+    ], [
+        ontolex:writtenRep "après qu'"@fr
+    ] .
+
+:c140_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c140_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de telle manière qu'"@fr
+    ], [
+        ontolex:writtenRep "de telle manière que"@fr
+    ] .
+
+:c141_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c141_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de manière que"@fr
+    ], [
+        ontolex:writtenRep "de manière qu'"@fr
+    ] .
+
+:c142_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c142_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de manière à"@fr
+    ] .
+
+:c143_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c143_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de manière à ce que"@fr
+    ], [
+        ontolex:writtenRep "de manière à ce qu'"@fr
+    ] .
+
+:c144_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c144_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de même"@fr
+    ] .
+
+:c145_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c145_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de même que"@fr
+    ], [
+        ontolex:writtenRep "de même qu'"@fr
+    ] .
+
+:c148_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c148_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de plus"@fr
+    ] .
+
+:c14_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c14_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après tout"@fr
+    ] .
+
+:c150_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c150_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de sorte qu'"@fr
+    ], [
+        ontolex:writtenRep "de sorte que"@fr
+    ] .
+
+:c151_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c151_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de toutes façons"@fr
+    ], [
+        ontolex:writtenRep "de toute façon"@fr
+    ] .
+
+:c153_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c153_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "de toute manière"@fr
+    ], [
+        ontolex:writtenRep "de toutes manières"@fr
+    ] .
+
+:c155_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c155_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "depuis"@fr
+    ] .
+
+:c156_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c156_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "depuis que"@fr
+    ], [
+        ontolex:writtenRep "depuis qu'"@fr
+    ] .
+
+:c157_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c157_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "depuis qu'"@fr
+    ], [
+        ontolex:writtenRep "depuis que"@fr
+    ] .
+
+:c158_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c158_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "des fois que"@fr
+    ], [
+        ontolex:writtenRep "des fois qu'"@fr
+    ] .
+
+:c159_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c159_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dire que"@fr
+    ], [
+        ontolex:writtenRep "dire qu'"@fr
+    ] .
+
+:c160_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c160_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "et dire que"@fr
+    ], [
+        ontolex:writtenRep "et dire qu'"@fr
+    ] .
+
+:c1612_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c1612_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "donc"@fr
+    ] .
+
+:c161_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c161_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "donc"@fr
+    ] .
+
+:c162_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c162_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du coup"@fr
+    ] .
+
+:c162bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c162bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le coup"@fr
+    ] .
+
+:c163_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c163_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du fait que"@fr
+    ], [
+        ontolex:writtenRep "du fait qu'"@fr
+    ] .
+
+:c164_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c164_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du fait que"@fr
+    ], [
+        ontolex:writtenRep "du fait qu'"@fr
+    ] .
+
+:c165_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c165_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du moins"@fr
+    ] .
+
+:c167_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c167_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du moment que"@fr
+    ], [
+        ontolex:writtenRep "du moment qu'"@fr
+    ] .
+
+:c168_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c168_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du temps où"@fr
+    ] .
+
+:c169_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c169_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du reste"@fr
+    ] .
+
+:c16_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c16_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "après quoi"@fr
+    ] .
+
+:c170_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c170_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "du reste"@fr
+    ] .
+
+:c171_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c171_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "décidément"@fr
+    ] .
+
+:c172_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c172_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dès lors que"@fr
+    ], [
+        ontolex:writtenRep "dès lors qu'"@fr
+    ] .
+
+:c173_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c173_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dès lors qu'"@fr
+    ], [
+        ontolex:writtenRep "dès lors que"@fr
+    ] .
+
+:c174_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c174_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dès lors"@fr
+    ] .
+
+:c175_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c175_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dès qu'"@fr
+    ], [
+        ontolex:writtenRep "dès que"@fr
+    ] .
+
+:c176_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c176_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dès qu'"@fr
+    ], [
+        ontolex:writtenRep "dès que"@fr
+    ] .
+
+:c179_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c179_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "effectivement"@fr
+    ] .
+
+:c17_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c17_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "attendu que"@fr
+    ], [
+        ontolex:writtenRep "attendu qu'"@fr
+    ] .
+
+:c180_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c180_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en effet"@fr
+    ] .
+
+:c181_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c181_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en"@fr
+    ] .
+
+:c182_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c182_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en"@fr
+    ] .
+
+:c183_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c183_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en"@fr
+    ] .
+
+:c184_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c184_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout en"@fr
+    ] .
+
+:c185_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c185_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout en"@fr
+    ] .
+
+:c186_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c186_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en admettant que"@fr
+    ], [
+        ontolex:writtenRep "en admettant qu'"@fr
+    ] .
+
+:c187_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c187_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en attendant"@fr
+    ] .
+
+:c18_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c18_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au bout du compte"@fr
+    ] .
+
+:c18bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c18bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au bout du compte"@fr
+    ] .
+
+:c190_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c190_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en bref"@fr
+    ] .
+
+:c191_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c191_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en ce sens qu'"@fr
+    ], [
+        ontolex:writtenRep "en ce sens que"@fr
+    ] .
+
+:c192_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c192_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le sens que"@fr
+    ], [
+        ontolex:writtenRep "dans le sens qu'"@fr
+    ] .
+
+:c193_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c193_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "dans le sens où"@fr
+    ] .
+
+:c194_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c194_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en comparaison"@fr
+    ] .
+
+:c195_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c195_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par comparaison"@fr
+    ] .
+
+:c196_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c196_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en conséquence"@fr
+    ] .
+
+:c197_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c197_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en d'autres termes"@fr
+    ] .
+
+:c198_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c198_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en définitive"@fr
+    ] .
+
+:c199_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c199_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en dépit du fait que"@fr
+    ], [
+        ontolex:writtenRep "en dépit du fait qu'"@fr
+    ] .
+
+:c19_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c19_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au cas où"@fr
+    ] .
+
+:c1_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c1_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "afin qu'"@fr
+    ], [
+        ontolex:writtenRep "afin que"@fr
+    ] .
+
+:c200_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c200_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en dépit qu'"@fr
+    ], [
+        ontolex:writtenRep "en dépit que"@fr
+    ] .
+
+:c201_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c201_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en fait"@fr
+    ] .
+
+:c204_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c204_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en gros"@fr
+    ] .
+
+:c2052_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2052_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en même temps qu'"@fr
+    ], [
+        ontolex:writtenRep "en même temps que"@fr
+    ] .
+
+:c205_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c205_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en même temps qu'"@fr
+    ], [
+        ontolex:writtenRep "en même temps que"@fr
+    ] .
+
+:c206_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c206_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en même temps"@fr
+    ] .
+
+:c207_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c207_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en même temps"@fr
+    ] .
+
+:c208_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c208_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en outre"@fr
+    ] .
+
+:c209_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c209_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en particulier"@fr
+    ] .
+
+:c20_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c20_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au cas où"@fr
+    ] .
+
+:c210_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c210_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en plus"@fr
+    ] .
+
+:c211_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c211_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en plus d'"@fr
+    ], [
+        ontolex:writtenRep "en plus de"@fr
+    ] .
+
+:c212_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c212_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en réalité"@fr
+    ] .
+
+:c212bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c212bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en revanche"@fr
+    ] .
+
+:c214_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c214_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en résumé"@fr
+    ] .
+
+:c215_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c215_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en somme"@fr
+    ] .
+
+:c216_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c216_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en supposant que"@fr
+    ], [
+        ontolex:writtenRep "en supposant qu'"@fr
+    ] .
+
+:c217_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c217_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en vue d'"@fr
+    ], [
+        ontolex:writtenRep "en vue de"@fr
+    ] .
+
+:c218_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c218_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en vérité"@fr
+    ] .
+
+:c21_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c21_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au contraire"@fr
+    ] .
+
+:c220_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c220_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "encore"@fr
+    ] .
+
+:c221_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c221_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "encore que"@fr
+    ], [
+        ontolex:writtenRep "encore qu'"@fr
+    ] .
+
+:c222_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c222_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "enfin"@fr
+    ] .
+
+:c223_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c223_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "enfin"@fr
+    ] .
+
+:c224_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c224_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "enfin"@fr
+    ] .
+
+:c225_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c225_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ensuite"@fr
+    ] .
+
+:c226_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c226_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ensuite"@fr
+    ] .
+
+:c226bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c226bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "en tout état de cause"@fr
+    ] .
+
+:c227_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c227_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "et"@fr
+    ] .
+
+:c228_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c228_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "et puis"@fr
+    ] .
+
+:c229_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c229_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "excepté que"@fr
+    ], [
+        ontolex:writtenRep "excepté qu'"@fr
+    ] .
+
+:c229bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c229bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "excepté que"@fr
+    ], [
+        ontolex:writtenRep "excepté qu'"@fr
+    ] .
+
+:c22_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c22_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au contraire"@fr
+    ] .
+
+:c230_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c230_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "faute d'"@fr
+    ], [
+        ontolex:writtenRep "faute de"@fr
+    ] .
+
+:c231_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c231_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "finalement"@fr
+    ] .
+
+:c232_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c232_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "finalement"@fr
+    ] .
+
+:c233_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c233_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "globalement"@fr
+    ] .
+
+:c234_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c234_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "histoire d'"@fr
+    ], [
+        ontolex:writtenRep "histoire de"@fr
+    ] .
+
+:c235_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c235_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hormis le fait qu'"@fr
+    ], [
+        ontolex:writtenRep "hormis le fait que"@fr
+    ] .
+
+:c235bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c235bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hormis le fait que"@fr
+    ], [
+        ontolex:writtenRep "hormis le fait qu'"@fr
+    ] .
+
+:c236_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c236_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hormis que"@fr
+    ], [
+        ontolex:writtenRep "hormis qu'"@fr
+    ] .
+
+:c236bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c236bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "hormis que"@fr
+    ], [
+        ontolex:writtenRep "hormis qu'"@fr
+    ] .
+
+:c237_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c237_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "instantanément"@fr
+    ] .
+
+:c238_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c238_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "inversement"@fr
+    ] .
+
+:c238bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c238bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "inversement"@fr
+    ] .
+
+:c23_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c23_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au fait"@fr
+    ] .
+
+:c240_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c240_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "jusqu'à"@fr
+    ] .
+
+:c241_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c241_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "jusqu'à ce qu'"@fr
+    ], [
+        ontolex:writtenRep "jusqu'à ce que"@fr
+    ] .
+
+:c242_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c242_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "jusqu'à ce que"@fr
+    ], [
+        ontolex:writtenRep "jusqu'à ce qu'"@fr
+    ] .
+
+:c243_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c243_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le fait est que"@fr
+    ], [
+        ontolex:writtenRep "le fait est qu'"@fr
+    ] .
+
+:c2442_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2442_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le jour où"@fr
+    ] .
+
+:c244_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c244_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le jour où"@fr
+    ] .
+
+:c245_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c245_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le temps que"@fr
+    ], [
+        ontolex:writtenRep "le temps qu'"@fr
+    ] .
+
+:c246_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c246_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le temps qu'"@fr
+    ], [
+        ontolex:writtenRep "le temps que"@fr
+    ] .
+
+:c247_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c247_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "le temps qu'"@fr
+    ], [
+        ontolex:writtenRep "le temps que"@fr
+    ] .
+
+:c249_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c249_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "lorsqu'"@fr
+    ], [
+        ontolex:writtenRep "lorsque"@fr
+    ] .
+
+:c24_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c24_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au fur et à mesure qu'"@fr
+    ], [
+        ontolex:writtenRep "au fur et à mesure que"@fr
+    ] .
+
+:c250_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c250_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "lorsque"@fr
+    ], [
+        ontolex:writtenRep "lorsqu'"@fr
+    ] .
+
+:c251_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c251_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "lorsqu'"@fr
+    ], [
+        ontolex:writtenRep "lorsque"@fr
+    ] .
+
+:c252_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c252_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "maintenant"@fr
+    ] .
+
+:c2532_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2532_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "maintenant qu'"@fr
+    ], [
+        ontolex:writtenRep "maintenant que"@fr
+    ] .
+
+:c253_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c253_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "maintenant que"@fr
+    ], [
+        ontolex:writtenRep "maintenant qu'"@fr
+    ] .
+
+:c254_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c254_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mais"@fr
+    ] .
+
+:c254bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c254bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mais"@fr
+    ] .
+
+:c255_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c255_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malgré le fait qu'"@fr
+    ], [
+        ontolex:writtenRep "malgré le fait que"@fr
+    ] .
+
+:c256_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c256_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malgré que"@fr
+    ], [
+        ontolex:writtenRep "malgré qu'"@fr
+    ] .
+
+:c257_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c257_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malgré tout"@fr
+    ] .
+
+:c258_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c258_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "malheureusement"@fr
+    ] .
+
+:c259_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c259_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mieux"@fr
+    ] .
+
+:c25_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c25_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au lieu"@fr
+    ] .
+
+:c260_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c260_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mis à part le fait qu'"@fr
+    ], [
+        ontolex:writtenRep "mis à part le fait que"@fr
+    ] .
+
+:c261_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c261_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "mis à part que"@fr
+    ], [
+        ontolex:writtenRep "mis à part qu'"@fr
+    ] .
+
+:c262_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c262_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "même"@fr
+    ] .
+
+:c263_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c263_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "même"@fr
+    ] .
+
+:c264_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c264_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "même qu'"@fr
+    ], [
+        ontolex:writtenRep "même que"@fr
+    ] .
+
+:c265_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c265_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "même si"@fr
+    ] .
+
+:c266_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c266_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nonobstant"@fr
+    ] .
+
+:c2672_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2672_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "néanmoins"@fr
+    ] .
+
+:c267_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c267_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "nonobstant qu'"@fr
+    ], [
+        ontolex:writtenRep "nonobstant que"@fr
+    ] .
+
+:c268_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c268_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "or"@fr
+    ] .
+
+:c269_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c269_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "or"@fr
+    ] .
+
+:c26_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c26_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au lieu de"@fr
+    ], [
+        ontolex:writtenRep "au lieu d'"@fr
+    ] .
+
+:c270_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c270_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ou"@fr
+    ] .
+
+:c271_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c271_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ou bien"@fr
+    ] .
+
+:c272_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c272_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "outre qu'"@fr
+    ], [
+        ontolex:writtenRep "outre que"@fr
+    ] .
+
+:c273_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c273_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par ailleurs"@fr
+    ] .
+
+:c274_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c274_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par conséquent"@fr
+    ] .
+
+:c274bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c274bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par contre"@fr
+    ] .
+
+:c274bisbis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c274bisbis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par contre"@fr
+    ] .
+
+:c277_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c277_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par exemple"@fr
+    ] .
+
+:c278_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c278_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par exemple"@fr
+    ] .
+
+:c279_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c279_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par le fait que"@fr
+    ], [
+        ontolex:writtenRep "par le fait qu'"@fr
+    ] .
+
+:c27_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c27_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au moins"@fr
+    ] .
+
+:c280_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c280_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par suite"@fr
+    ] .
+
+:c281_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c281_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "par-dessus tout"@fr
+    ] .
+
+:c282_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c282_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "parallèlement"@fr
+    ] .
+
+:c283_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c283_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "parce que"@fr
+    ], [
+        ontolex:writtenRep "parce qu'"@fr
+    ] .
+
+:c284_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c284_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "parce qu'"@fr
+    ], [
+        ontolex:writtenRep "parce que"@fr
+    ] .
+
+:c285_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c285_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pendant que"@fr
+    ], [
+        ontolex:writtenRep "pendant qu'"@fr
+    ] .
+
+:c286_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c286_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pendant qu'"@fr
+    ], [
+        ontolex:writtenRep "pendant que"@fr
+    ] .
+
+:c287_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c287_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pendant que"@fr
+    ], [
+        ontolex:writtenRep "pendant qu'"@fr
+    ] .
+
+:c288_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c288_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "peu importe"@fr
+    ] .
+
+:c289_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c289_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plus que"@fr
+    ], [
+        ontolex:writtenRep "plus qu'"@fr
+    ] .
+
+:c28_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c28_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aussi"@fr
+    ] .
+
+:c291_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c291_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plus tard"@fr
+    ] .
+
+:c292_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c292_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plutôt"@fr
+    ] .
+
+:c293_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c293_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plutôt"@fr
+    ] .
+
+:c294_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c294_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plutôt que"@fr
+    ], [
+        ontolex:writtenRep "plutôt qu'"@fr
+    ] .
+
+:c295_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c295_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "plutôt que de"@fr
+    ], [
+        ontolex:writtenRep "plutôt que d'"@fr
+    ] .
+
+:c297_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c297_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour"@fr
+    ] .
+
+:c298_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c298_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour qu'"@fr
+    ], [
+        ontolex:writtenRep "pour que"@fr
+    ] .
+
+:c299_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c299_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour autant"@fr
+    ] .
+
+:c29_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c29_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au moment d'"@fr
+    ], [
+        ontolex:writtenRep "au moment de"@fr
+    ] .
+
+:c2_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c2_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ainsi"@fr
+    ] .
+
+:c300_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c300_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour autant que"@fr
+    ], [
+        ontolex:writtenRep "pour autant qu'"@fr
+    ] .
+
+:c301_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c301_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour commencer"@fr
+    ] .
+
+:c301bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c301bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour commencer"@fr
+    ] .
+
+:c302_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c302_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour conclure"@fr
+    ] .
+
+:c302bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c302bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour conclure"@fr
+    ] .
+
+:c303_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c303_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour finir"@fr
+    ] .
+
+:c303bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c303bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour finir"@fr
+    ] .
+
+:c304_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c304_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour résumer"@fr
+    ] .
+
+:c304bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c304bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour résumer"@fr
+    ] .
+
+:c305_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c305_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour terminer"@fr
+    ] .
+
+:c305bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c305bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour terminer"@fr
+    ] .
+
+:c306_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c306_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour le coup"@fr
+    ] .
+
+:c307_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c307_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour le coup"@fr
+    ] .
+
+:c308_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c308_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour peu que"@fr
+    ], [
+        ontolex:writtenRep "pour peu qu'"@fr
+    ] .
+
+:c309_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c309_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour une fois que"@fr
+    ], [
+        ontolex:writtenRep "pour une fois qu'"@fr
+    ] .
+
+:c30_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c30_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au moment où"@fr
+    ] .
+
+:c310_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c310_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pourtant"@fr
+    ] .
+
+:c310bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c310bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pourtant"@fr
+    ] .
+
+:c311_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c311_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pourvu qu'"@fr
+    ], [
+        ontolex:writtenRep "pourvu que"@fr
+    ] .
+
+:c312_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c312_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "premièrement"@fr
+    ] .
+
+:c312bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c312bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "premièrement"@fr
+    ] .
+
+:c313_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c313_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "preuve que"@fr
+    ], [
+        ontolex:writtenRep "preuve qu'"@fr
+    ] .
+
+:c314_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c314_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "la preuve"@fr
+    ] .
+
+:c315_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c315_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "pour preuve"@fr
+    ] .
+
+:c316_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c316_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à preuve"@fr
+    ] .
+
+:c319_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c319_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "puis"@fr
+    ] .
+
+:c31_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c31_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au même titre qu'"@fr
+    ], [
+        ontolex:writtenRep "au même titre que"@fr
+    ] .
+
+:c320_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c320_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "puisque"@fr
+    ], [
+        ontolex:writtenRep "puisqu'"@fr
+    ] .
+
+:c321_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c321_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "puisque"@fr
+    ], [
+        ontolex:writtenRep "puisqu'"@fr
+    ] .
+
+:c322_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c322_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand"@fr
+    ] .
+
+:c322bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c322bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand"@fr
+    ] .
+
+:c323_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c323_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand"@fr
+    ] .
+
+:c325_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c325_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand même"@fr
+    ] .
+
+:c326_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c326_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand bien même"@fr
+    ] .
+
+:c327_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c327_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quand bien même qu'"@fr
+    ], [
+        ontolex:writtenRep "quand bien même que"@fr
+    ] .
+
+:c328_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c328_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quant à"@fr
+    ] .
+
+:c32_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c32_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au point d'"@fr
+    ], [
+        ontolex:writtenRep "au point de"@fr
+    ] .
+
+:c330_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c330_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quitte à"@fr
+    ] .
+
+:c332_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c332_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quitte à ce que"@fr
+    ], [
+        ontolex:writtenRep "quitte à ce qu'"@fr
+    ] .
+
+:c332bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c332bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quitte à ce que"@fr
+    ], [
+        ontolex:writtenRep "quitte à ce qu'"@fr
+    ] .
+
+:c333_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c333_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quoi qu'il en soit"@fr
+    ] .
+
+:c334_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c334_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quoique"@fr
+    ], [
+        ontolex:writtenRep "quoiqu'"@fr
+    ] .
+
+:c335_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c335_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "quoiqu'"@fr
+    ], [
+        ontolex:writtenRep "quoique"@fr
+    ] .
+
+:c336_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c336_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "remarque"@fr
+    ] .
+
+:c338_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c338_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "réciproquement"@fr
+    ] .
+
+:c338bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c338bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "réciproquement"@fr
+    ] .
+
+:c33_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c33_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au point que"@fr
+    ], [
+        ontolex:writtenRep "au point qu'"@fr
+    ] .
+
+:c340_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c340_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "réflexion faite"@fr
+    ] .
+
+:c341_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c341_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "résultat"@fr
+    ] .
+
+:c342_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c342_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sachant que"@fr
+    ], [
+        ontolex:writtenRep "sachant qu'"@fr
+    ] .
+
+:c343_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c343_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sans"@fr
+    ] .
+
+:c344_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c344_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sans que"@fr
+    ], [
+        ontolex:writtenRep "sans qu'"@fr
+    ] .
+
+:c345_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c345_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sans compter que"@fr
+    ], [
+        ontolex:writtenRep "sans compter qu'"@fr
+    ] .
+
+:c346_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c346_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sans oublier qu'"@fr
+    ], [
+        ontolex:writtenRep "sans oublier que"@fr
+    ] .
+
+:c347_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c347_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sauf qu'"@fr
+    ], [
+        ontolex:writtenRep "sauf que"@fr
+    ] .
+
+:c348_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c348_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sauf à"@fr
+    ] .
+
+:c34_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c34_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "au total"@fr
+    ] .
+
+:c351_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c351_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "selon que"@fr
+    ], [
+        ontolex:writtenRep "selon qu'"@fr
+    ] .
+
+:c352_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c352_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "s'"@fr
+    ], [
+        ontolex:writtenRep "si"@fr
+    ] .
+
+:c353_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c353_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "si"@fr
+    ], [
+        ontolex:writtenRep "s'"@fr
+    ] .
+
+:c354_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c354_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "si bien qu'"@fr
+    ], [
+        ontolex:writtenRep "si bien que"@fr
+    ] .
+
+:c355_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c355_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "si ce n'est qu'"@fr
+    ], [
+        ontolex:writtenRep "si ce n'est que"@fr
+    ] .
+
+:c356_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c356_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "si tant est que"@fr
+    ], [
+        ontolex:writtenRep "si tant est qu'"@fr
+    ] .
+
+:c357_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c357_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "simultanément"@fr
+    ] .
+
+:c357bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c357bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "simultanément"@fr
+    ] .
+
+:c358_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c358_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sinon"@fr
+    ] .
+
+:c358bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c358bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sinon"@fr
+    ] .
+
+:c358bisbis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c358bisbis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sinon"@fr
+    ] .
+
+:c359_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c359_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sinon que"@fr
+    ], [
+        ontolex:writtenRep "sinon qu'"@fr
+    ] .
+
+:c35_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c35_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "auparavant"@fr
+    ] .
+
+:c360_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c360_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "sitôt qu'"@fr
+    ], [
+        ontolex:writtenRep "sitôt que"@fr
+    ] .
+
+:c363_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c363_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soit (...soit)"@fr
+    ] .
+
+:c364_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c364_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soit"@fr
+    ] .
+
+:c3652_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c3652_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soit dit en passant"@fr
+    ] .
+
+:c365_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c365_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soit dit en passant"@fr
+    ] .
+
+:c366_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c366_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "somme toute"@fr
+    ] .
+
+:c367_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c367_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "somme toute"@fr
+    ] .
+
+:c368_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c368_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soudain"@fr
+    ] .
+
+:c368bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c368bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "soudain"@fr
+    ] .
+
+:c369_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c369_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "subséquemment"@fr
+    ] .
+
+:c36_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c36_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aussi"@fr
+    ] .
+
+:c370_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c370_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "suivant que"@fr
+    ], [
+        ontolex:writtenRep "suivant qu'"@fr
+    ] .
+
+:c371_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c371_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "surtout"@fr
+    ] .
+
+:c372_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c372_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "surtout que"@fr
+    ], [
+        ontolex:writtenRep "surtout qu'"@fr
+    ] .
+
+:c374_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c374_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tandis qu'"@fr
+    ], [
+        ontolex:writtenRep "tandis que"@fr
+    ] .
+
+:c375_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c375_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tandis qu'"@fr
+    ], [
+        ontolex:writtenRep "tandis que"@fr
+    ] .
+
+:c376_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c376_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tant et si bien qu'"@fr
+    ], [
+        ontolex:writtenRep "tant et si bien que"@fr
+    ] .
+
+:c377_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c377_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tant que"@fr
+    ], [
+        ontolex:writtenRep "tant qu'"@fr
+    ] .
+
+:c377bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c377bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tant que"@fr
+    ], [
+        ontolex:writtenRep "tant qu'"@fr
+    ] .
+
+:c378_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c378_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "total"@fr
+    ] .
+
+:c37_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c37_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aussi longtemps qu'"@fr
+    ], [
+        ontolex:writtenRep "aussi longtemps que"@fr
+    ] .
+
+:c380_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c380_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout à coup"@fr
+    ] .
+
+:c380bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c380bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout à coup"@fr
+    ] .
+
+:c380bisbis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c380bisbis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un seul coup"@fr
+    ] .
+
+:c381_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c381_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un coup"@fr
+    ] .
+
+:c381bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c381bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un coup"@fr
+    ] .
+
+:c382_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c382_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un seul coup"@fr
+    ] .
+
+:c383_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c383_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout au moins"@fr
+    ] .
+
+:c384_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c384_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout au moins"@fr
+    ] .
+
+:c385_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c385_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout bien considéré"@fr
+    ] .
+
+:c385bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c385bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout bien considéré"@fr
+    ] .
+
+:c386_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c386_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout compte fait"@fr
+    ] .
+
+:c386bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c386bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout compte fait"@fr
+    ] .
+
+:c387_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c387_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout de même"@fr
+    ] .
+
+:c38_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c38_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aussitôt"@fr
+    ] .
+
+:c390_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c390_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "un jour"@fr
+    ] .
+
+:c391_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c391_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "un jour qu'"@fr
+    ], [
+        ontolex:writtenRep "un jour que"@fr
+    ] .
+
+:c394_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c394_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "un peu plus tard"@fr
+    ] .
+
+:c395_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c395_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "une fois que"@fr
+    ], [
+        ontolex:writtenRep "une fois qu'"@fr
+    ] .
+
+:c396_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c396_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "vu que"@fr
+    ], [
+        ontolex:writtenRep "vu qu'"@fr
+    ] .
+
+:c397_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c397_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "vu qu'"@fr
+    ], [
+        ontolex:writtenRep "vu que"@fr
+    ] .
+
+:c398_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c398_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à"@fr
+    ] .
+
+:c399_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c399_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à en"@fr
+    ] .
+
+:c39_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c39_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "aussitôt qu'"@fr
+    ], [
+        ontolex:writtenRep "aussitôt que"@fr
+    ] .
+
+:c3_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c3_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors"@fr
+    ] .
+
+:c400_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c400_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ça près que"@fr
+    ], [
+        ontolex:writtenRep "à ça près qu'"@fr
+    ] .
+
+:c401_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c401_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ceci près qu'"@fr
+    ], [
+        ontolex:writtenRep "à ceci près que"@fr
+    ] .
+
+:c402_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c402_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à cela près que"@fr
+    ], [
+        ontolex:writtenRep "à cela près qu'"@fr
+    ] .
+
+:c403_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c403_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à cet égard"@fr
+    ] .
+
+:c405_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c405_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à dire vrai"@fr
+    ] .
+
+:c408_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c408_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à défaut d'"@fr
+    ], [
+        ontolex:writtenRep "à défaut de"@fr
+    ] .
+
+:c409_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c409_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à défaut de"@fr
+    ], [
+        ontolex:writtenRep "à défaut d'"@fr
+    ] .
+
+:c40_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c40_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autant"@fr
+    ] .
+
+:c410_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c410_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à force"@fr
+    ] .
+
+:c411_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c411_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à force de"@fr
+    ], [
+        ontolex:writtenRep "à force d'"@fr
+    ] .
+
+:c412_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c412_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'heure où"@fr
+    ] .
+
+:c413_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c413_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'heure où"@fr
+    ] .
+
+:c414_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c414_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'instant où"@fr
+    ] .
+
+:c415_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c415_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'instant où"@fr
+    ] .
+
+:c416_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c416_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'instant où"@fr
+    ] .
+
+:c417_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c417_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'époque où"@fr
+    ] .
+
+:c418_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c418_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à l'inverse"@fr
+    ] .
+
+:c419_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c419_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ce moment-là"@fr
+    ] .
+
+:c419bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c419bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ce moment-là"@fr
+    ] .
+
+:c41_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c41_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autant dire qu'"@fr
+    ], [
+        ontolex:writtenRep "autant dire que"@fr
+    ] .
+
+:c420_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c420_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à condition d'"@fr
+    ], [
+        ontolex:writtenRep "à condition de"@fr
+    ] .
+
+:c421_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c421_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à condition qu'"@fr
+    ], [
+        ontolex:writtenRep "à condition que"@fr
+    ] .
+
+:c422_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c422_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à la place"@fr
+    ] .
+
+:c423_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c423_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à la réflexion"@fr
+    ] .
+
+:c425_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c425_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à mesure qu'"@fr
+    ], [
+        ontolex:writtenRep "à mesure que"@fr
+    ] .
+
+:c426_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c426_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à moins d'"@fr
+    ], [
+        ontolex:writtenRep "à moins de"@fr
+    ] .
+
+:c427_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c427_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à moins qu'"@fr
+    ], [
+        ontolex:writtenRep "à moins que"@fr
+    ] .
+
+:c429_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c429_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à part qu'"@fr
+    ], [
+        ontolex:writtenRep "à part que"@fr
+    ] .
+
+:c429bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c429bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à part que"@fr
+    ], [
+        ontolex:writtenRep "à part qu'"@fr
+    ] .
+
+:c42_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c42_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autrement"@fr
+    ] .
+
+:c42bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c42bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autrement"@fr
+    ] .
+
+:c42bisbis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c42bisbis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autrement"@fr
+    ] .
+
+:c430_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c430_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à part ça"@fr
+    ] .
+
+:c431_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c431_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à partir du moment où"@fr
+    ] .
+
+:c431bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c431bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à partir du moment où"@fr
+    ] .
+
+:c432_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c432_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à propos"@fr
+    ] .
+
+:c433_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c433_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ce propos"@fr
+    ] .
+
+:c434_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c434_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à présent qu'"@fr
+    ], [
+        ontolex:writtenRep "à présent que"@fr
+    ] .
+
+:c434bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c434bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à présent qu'"@fr
+    ], [
+        ontolex:writtenRep "à présent que"@fr
+    ] .
+
+:c435_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c435_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à seule fin de"@fr
+    ], [
+        ontolex:writtenRep "à seule fin d'"@fr
+    ] .
+
+:c436_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c436_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à seule fin que"@fr
+    ], [
+        ontolex:writtenRep "à seule fin qu'"@fr
+    ] .
+
+:c437_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c437_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à supposer qu'"@fr
+    ], [
+        ontolex:writtenRep "à supposer que"@fr
+    ] .
+
+:c438_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c438_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à tel point que"@fr
+    ], [
+        ontolex:writtenRep "à tel point qu'"@fr
+    ] .
+
+:c439_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c439_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à ce point que"@fr
+    ], [
+        ontolex:writtenRep "à ce point qu'"@fr
+    ] .
+
+:c43_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c43_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "autrement dit"@fr
+    ] .
+
+:c440_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c440_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à telle enseigne que"@fr
+    ], [
+        ontolex:writtenRep "à telle enseigne qu'"@fr
+    ] .
+
+:c441_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c441_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "à vrai dire"@fr
+    ] .
+
+:c444_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c444_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "également"@fr
+    ] .
+
+:c446_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c446_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "étant donné que"@fr
+    ], [
+        ontolex:writtenRep "étant donné qu'"@fr
+    ] .
+
+:c448_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c448_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'où que"@fr
+    ], [
+        ontolex:writtenRep "d'où qu'"@fr
+    ] .
+
+:c44_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c44_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant"@fr
+    ] .
+
+:c45_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c45_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant de"@fr
+    ], [
+        ontolex:writtenRep "avant d'"@fr
+    ] .
+
+:c46_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c46_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant même de"@fr
+    ], [
+        ontolex:writtenRep "avant même d'"@fr
+    ] .
+
+:c47_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c47_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant même que"@fr
+    ], [
+        ontolex:writtenRep "avant même qu'"@fr
+    ] .
+
+:c48_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c48_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant que"@fr
+    ], [
+        ontolex:writtenRep "avant qu'"@fr
+    ] .
+
+:c49_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c49_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant qu'"@fr
+    ], [
+        ontolex:writtenRep "avant que"@fr
+    ] .
+
+:c4_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c4_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors"@fr
+    ] .
+
+:c50_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c50_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "avant que"@fr
+    ], [
+        ontolex:writtenRep "avant qu'"@fr
+    ] .
+
+:c57_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c57_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bien qu'"@fr
+    ], [
+        ontolex:writtenRep "bien que"@fr
+    ] .
+
+:c58_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c58_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bientôt"@fr
+    ] .
+
+:c59_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c59_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bientôt"@fr
+    ] .
+
+:c5_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c5_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors"@fr
+    ] .
+
+:c5bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c5bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors"@fr
+    ] .
+
+:c60_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c60_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bref"@fr
+    ] .
+
+:c61_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c61_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "bref"@fr
+    ] .
+
+:c63_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c63_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "c'est pourquoi"@fr
+    ] .
+
+:c65_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c65_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "c'est à dire qu'"@fr
+    ], [
+        ontolex:writtenRep "c'est à dire que"@fr
+    ] .
+
+:c66_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c66_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "car"@fr
+    ] .
+
+:c67_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c67_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cependant"@fr
+    ] .
+
+:c68_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c68_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cependant que"@fr
+    ], [
+        ontolex:writtenRep "cependant qu'"@fr
+    ] .
+
+:c69_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c69_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cette fois qu'"@fr
+    ], [
+        ontolex:writtenRep "cette fois que"@fr
+    ] .
+
+:c6_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c6_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors même que"@fr
+    ], [
+        ontolex:writtenRep "alors même qu'"@fr
+    ] .
+
+:c70_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c70_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme"@fr
+    ] .
+
+:c70bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c70bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme"@fr
+    ] .
+
+:c71_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c71_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme"@fr
+    ] .
+
+:c722_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c722_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme ça"@fr
+    ] .
+
+:c72_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c72_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme"@fr
+    ] .
+
+:c73_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c73_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme quoi"@fr
+    ] .
+
+:c74_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c74_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comme si"@fr
+    ] .
+
+:c75_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c75_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "comparativement"@fr
+    ] .
+
+:c76_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c76_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "considérant qu'"@fr
+    ], [
+        ontolex:writtenRep "considérant que"@fr
+    ] .
+
+:c77_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c77_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "cela dit"@fr
+    ] .
+
+:c78_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c78_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ceci dit"@fr
+    ] .
+
+:c79_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c79_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "ceci étant dit"@fr
+    ] .
+
+:c7_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c7_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors même qu'"@fr
+    ], [
+        ontolex:writtenRep "alors même que"@fr
+    ] .
+
+:c80_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c80_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "considéré qu'"@fr
+    ], [
+        ontolex:writtenRep "considéré que"@fr
+    ] .
+
+:c81_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c81_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "conséquemment"@fr
+    ] .
+
+:c82_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c82_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "corrélativement"@fr
+    ] .
+
+:c83_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c83_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "déjà"@fr
+    ] .
+
+:c83bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c83bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "déjà"@fr
+    ] .
+
+:c84_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c84_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "déjà que"@fr
+    ], [
+        ontolex:writtenRep "déjà qu'"@fr
+    ] .
+
+:c85_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c85_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'abord (...ensuite)"@fr
+    ] .
+
+:c85bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c85bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'abord (...ensuite)"@fr
+    ] .
+
+:c86_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c86_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout d'abord"@fr
+    ] .
+
+:c86bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c86bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "tout d'abord"@fr
+    ] .
+
+:c87_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c87_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'ailleurs"@fr
+    ] .
+
+:c88_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c88_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'ailleurs"@fr
+    ] .
+
+:c89_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c89_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'autant plus que"@fr
+    ], [
+        ontolex:writtenRep "d'autant plus qu'"@fr
+    ] .
+
+:c8_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c8_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors que"@fr
+    ], [
+        ontolex:writtenRep "alors qu'"@fr
+    ] .
+
+:c90_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c90_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'autant qu'"@fr
+    ], [
+        ontolex:writtenRep "d'autant que"@fr
+    ] .
+
+:c91_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c91_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'une part (...d'autre part)"@fr
+    ] .
+
+:c91bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c91bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'une part (...d'autre part)"@fr
+    ] .
+
+:c92_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c92_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'autre part"@fr
+    ] .
+
+:c93_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c93_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un côté (...d'un autre côté)"@fr
+    ] .
+
+:c93bis_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c93bis_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un côté (...d'un autre côté)"@fr
+    ] .
+
+:c94_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c94_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'un autre côté"@fr
+    ] .
+
+:c95_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c95_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "d'ici que"@fr
+    ], [
+        ontolex:writtenRep "d'ici qu'"@fr
+    ] .
+
+:c9_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#c9_> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "alors que"@fr
+    ], [
+        ontolex:writtenRep "alors qu'"@fr
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c230_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c49_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c158_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c303_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c93bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c25_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c422_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c71_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c70_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c114_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c157_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c81_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c8_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c140_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c195_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c201_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c254bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c385_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c7_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c236bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c301_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c20_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c302_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c376_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c104_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c267_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c410_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c360_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c336_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c4_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c1612_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c285_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c377bis_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c185_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c22_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c277_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c174_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c416_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c226bis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c5_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c73_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c163_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c436_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c221_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c438_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c380bis_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c368_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c366_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c9_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c1_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c253_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c107_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c243_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c234_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c63_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c47_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c130bis_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c224_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c58_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c128bis_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c171_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c182_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c269_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c310bis_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c335_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c91bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c411_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c266_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c245_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c397_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c122_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c265_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c369_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c423_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c165_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c5bis_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c293_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c89_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c164_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c24_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c226_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c260_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c83_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c44_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c299_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c16_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c431_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c426_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c409_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c343_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c261_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c313_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c38_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c68_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c273_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c155_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c279_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c278_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c30_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c294_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c162_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c281_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c34_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c395_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c3652_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c322bis_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c429bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c386_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c342_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c48_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c108_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c309_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c396_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c284_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c398_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c76_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c92_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c65_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c176_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c325_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c198_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c196_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c141_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c375_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c79_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2052_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c310_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c170_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c297_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c418_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c70bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c84_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c413_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c385bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c155_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c311_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c60_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c33_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c412_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c408_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c252_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c367_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c386bis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c57_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c169_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c378_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c305bis_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c351_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c244_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c429_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c116_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c287_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c139_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c21_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c39_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c446_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c403_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c37_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c315_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c160_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c286_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c78_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c28_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c330_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c142_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c241_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c175_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c232_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c274_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c85_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c360_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c390_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c11_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c247_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c95_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c45_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c222_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c435_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c432_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c433_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c383_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c355_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c238bis_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c175_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c137_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c431bis_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c292_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c381_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c191_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2672_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c69_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c102_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c264_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c61_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c143_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c268_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c353_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c228_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c181_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c59_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c302bis_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c29_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c43_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c31_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c144_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c444_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c187_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c207_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c348_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c304bis_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c42bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c352_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c399_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c130_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c91_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2442_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c135_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c332_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c211_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c225_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c86_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c197_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c237_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c382_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c50_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c38_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c305_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c13_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c72_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c427_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c180_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c271_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c156_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c223_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c40_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c183_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c288_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c295_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c321_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c338bis_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c151_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c193_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c90_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c368bis_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c280_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c282_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c209_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c75_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c6_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c158_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c3_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c173_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c235bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c94_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c237_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c327_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c26_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c138_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c419bis_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c415_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c32_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c42_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c0_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c128_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c184_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c18bis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c129_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c437_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c179_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c414_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c87_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c66_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c326_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c359_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c300_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c370_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c364_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c272_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c303bis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c372_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c229_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c270_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c298_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c358bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c419_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c205_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c212bis_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c12_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c371_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c434_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c254_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c10_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c186_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c722_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c441_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c14_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c74_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c229bis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c133_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c374_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c192_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c401_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c306_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c249_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c387_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c440_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c93_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c206_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c238_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c220_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c134_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c242_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c259_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c67_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c126_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c333_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c41_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c448_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c216_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c199_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c161_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c332bis_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c103_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c347_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c111_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c218_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c430_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c380_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c340_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c251_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c204_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c217_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c210_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c36_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c394_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c227_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c172_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c380bisbis_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c42bisbis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c23_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c274bis_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c377_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c39_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c19_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c358bisbis_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c291_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c346_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c231_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c131_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c328_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c208_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c356_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c258_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c168_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c233_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c319_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c312bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c307_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c150_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c27_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c338_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c344_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c241_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c312_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c83bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c167_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c148_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c255_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c136_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c214_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c46_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c322_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c425_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c80_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c190_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c304_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c357bis_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c308_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c77_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c417_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c314_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c18_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c301bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c2532_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c236_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c402_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c85bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c35_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c257_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c256_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c316_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c263_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c283_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c212_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c88_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c159_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c106_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c345_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c246_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c357_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c341_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c86bis_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c384_ ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c132_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c381bis_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c439_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c162bis_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c250_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c200_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c156_ ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c105_ ;
+    ontolex:reference pdtb:Cause, pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c113_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c365_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c235_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c358_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c420_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c20_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c320_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c391_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c354_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c112_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c334_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c240_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c405_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c400_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c17_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c363_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c194_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c421_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c434bis_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c289_ .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c274bisbis_ ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c262_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c124_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c215_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c145_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c82_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c117_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c153_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :c323_ ;
+    ontolex:reference pdtb:specification .
+

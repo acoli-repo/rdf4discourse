@@ -1,0 +1,377 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/German> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl#> .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k10_Eines_der_anschaulichsten_Beispiele_ist>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k10_Eines_der_anschaulichsten_Beispiele_ist> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Eines der anschaulichsten Beispiele ist"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k11_Es_ist_wie>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k11_Es_ist_wie> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Es ist wie"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k12_Ganz_gleich>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k12_Ganz_gleich> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ganz gleich"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k13_Ich_meine>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k13_Ich_meine> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ich meine"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k14_In_diesem_Moment>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k14_In_diesem_Moment> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In diesem Moment"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k15_Insbesondere_wenn>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k15_Insbesondere_wenn> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Insbesondere wenn"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k16_Kurz_gesagt>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k16_Kurz_gesagt> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Kurz gesagt"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k17_Nachdem>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k17_Nachdem> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nachdem"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k18_Schlussendlich>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k18_Schlussendlich> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Schlussendlich"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k19_Sie_kennen_das_alle>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k19_Sie_kennen_das_alle> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sie kennen das alle"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k1_Am_Ende_der_bung>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k1_Am_Ende_der_bung> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Am Ende der Übung"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k20_Um_zu>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k20_Um_zu> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Um ... zu"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k21_Und_deshalb>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k21_Und_deshalb> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Und deshalb"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k22_Und_sogar>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k22_Und_sogar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Und sogar"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k23_Vielmehr>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k23_Vielmehr> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Vielmehr"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k24_Warum>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k24_Warum> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Warum"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k25_Was>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k25_Was> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Was"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k26_Wie_oft>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k26_Wie_oft> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Wie oft"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k27_Wie_viele>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k27_Wie_viele> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Wie viele"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k28_Zack>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k28_Zack> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zack"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k29_Zugegeben>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k29_Zugegeben> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Zugegeben"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k2_Dadurch>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k2_Dadurch> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Dadurch"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k30_in_dieser_Zeit>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k30_in_dieser_Zeit> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "in dieser Zeit"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k31_mit_anderen_Worten>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k31_mit_anderen_Worten> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mit anderen Worten"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Darauf gibt es so viele Antworten wie Menschen , die dieses Leben führen , aber Herumreisende antworten oft mit einem Wort"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k4_Darum_weil>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k4_Darum_weil> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Darum ... weil"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k5_Der_Grund_waren>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k5_Der_Grund_waren> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Der Grund ... waren"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k6_Die_Antwort_ist_ganz_einfach>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k6_Die_Antwort_ist_ganz_einfach> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Die Antwort ist ganz einfach"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k7_Die_Jahre_sind_vergangen>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k7_Die_Jahre_sind_vergangen> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Die Jahre sind vergangen"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k8_Durch>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k8_Durch> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Durch"@de
+    ] .
+
+<http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <German/k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ein Beispiel geht uns besonders zu Herzen"@de
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k1_Am_Ende_der_bung> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k10_Eines_der_anschaulichsten_Beispiele_ist> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k4_Darum_weil> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k8_Durch> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k12_Ganz_gleich> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k13_Ich_meine> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k23_Vielmehr> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k14_In_diesem_Moment> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k29_Zugegeben> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k11_Es_ist_wie> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k17_Nachdem> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k30_in_dieser_Zeit> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k5_Der_Grund_waren> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k16_Kurz_gesagt> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k25_Was> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k21_Und_deshalb> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k6_Die_Antwort_ist_ganz_einfach> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k31_mit_anderen_Worten> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k27_Wie_viele> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k28_Zack> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k7_Die_Jahre_sind_vergangen> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k18_Schlussendlich> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k22_Und_sogar> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k15_Insbesondere_wenn> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k24_Warum> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k20_Um_zu> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k19_Sie_kennen_das_alle> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k2_Dadurch> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k26_Wie_oft> .
+

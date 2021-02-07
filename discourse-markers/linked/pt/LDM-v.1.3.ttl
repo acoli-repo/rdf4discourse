@@ -1,0 +1,5106 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/pt/LDM-v.1.3.ttl#> .
+
+:_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep ""@pt
+    ] .
+
+:_Acontece_que_o_senhor_Comiss_rio_Nielson_n_o_pode_estar_presente_hoje_por_se_encontrar_na_frica_do_Sul_Q_Logo_vamos_saltar_essas_perguntas_R_aqui_impl_cito_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#_Acontece_que_o_senhor_Comiss_rio_Nielson_n_o_pode_estar_presente_hoje_por_se_encontrar_na_frica_do_Sul_Q_Logo_vamos_saltar_essas_perguntas_R_aqui_impl_cito_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep ""@pt
+    ] .
+
+:dm100__certo_que_mas_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm100__certo_que_mas_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "é certo que mas"@pt
+    ] .
+
+:dm101_e_isso_quando_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm101_e_isso_quando_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "e isso quando "@pt
+    ] .
+
+:dm102__que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm102__que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "é que "@pt
+    ] .
+
+:dm103_eis_sen_o_quando
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm103_eis_sen_o_quando> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "eis senão quando"@pt
+    ] .
+
+:dm104_em_alternativa
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm104_em_alternativa> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em alternativa"@pt
+    ] .
+
+:dm105_em_consequ_ncia_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm105_em_consequ_ncia_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em consequência de"@pt
+    ] .
+
+:dm106_em_contrapartida
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm106_em_contrapartida> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em contrapartida"@pt
+    ] .
+
+:dm107_em_lugar_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm107_em_lugar_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em lugar de "@pt
+    ] .
+
+:dm108_em_particular
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm108_em_particular> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em particular"@pt
+    ] .
+
+:dm109_em_primeiro_lugar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm109_em_primeiro_lugar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em primeiro lugar"@pt
+    ] .
+
+:dm10_agora
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm10_agora> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "agora"@pt
+    ] .
+
+:dm110_em_resultado_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm110_em_resultado_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em resultado de"@pt
+    ] .
+
+:dm111_em_resumo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm111_em_resumo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em resumo"@pt
+    ] .
+
+:dm112_em_s_ntese
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm112_em_s_ntese> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em síntese"@pt
+    ] .
+
+:dm113_em_suma
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm113_em_suma> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em suma"@pt
+    ] .
+
+:dm114_em_todo_o_caso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm114_em_todo_o_caso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em todo o caso"@pt
+    ] .
+
+:dm115_em_ltima_an_lise_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm115_em_ltima_an_lise_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em última análise "@pt
+    ] .
+
+:dm116_em_vez_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm116_em_vez_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em vez de"@pt
+    ] .
+
+:dm117_em_vez_disto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm117_em_vez_disto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em vez disto"@pt
+    ] .
+
+:dm118_em_virtude_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm118_em_virtude_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "em virtude de "@pt
+    ] .
+
+:dm119_embora
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm119_embora> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "embora"@pt
+    ] .
+
+:dm11_agora_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm11_agora_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "agora que"@pt
+    ] .
+
+:dm120_enfim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm120_enfim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "enfim"@pt
+    ] .
+
+:dm121_enquanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm121_enquanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "enquanto"@pt
+    ] .
+
+:dm122_enquanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm122_enquanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "enquanto"@pt
+    ] .
+
+:dm123_enquanto_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm123_enquanto_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "enquanto que"@pt
+    ] .
+
+:dm124_ent_o
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm124_ent_o> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "então"@pt
+    ] .
+
+:dm125_ent_o
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm125_ent_o> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "então"@pt
+    ] .
+
+:dm126_entretanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm126_entretanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "entretanto"@pt
+    ] .
+
+:dm127_finalmente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm127_finalmente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "finalmente"@pt
+    ] .
+
+:dm128_igualmente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm128_igualmente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "igualmente"@pt
+    ] .
+
+:dm129_inversamente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm129_inversamente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "inversamente"@pt
+    ] .
+
+:dm12_ainda
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm12_ainda> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ainda"@pt
+    ] .
+
+:dm130_isto_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm130_isto_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "isto é"@pt
+    ] .
+
+:dm131_isto_equivale_a
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm131_isto_equivale_a> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "isto equivale a"@pt
+    ] .
+
+:dm132_j_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm132_j_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "já"@pt
+    ] .
+
+:dm133_j_agora
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm133_j_agora> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "já agora"@pt
+    ] .
+
+:dm134_j_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm134_j_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "já que "@pt
+    ] .
+
+:dm135_logo_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm135_logo_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "logo"@pt
+    ] .
+
+:dm136_logo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm136_logo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "logo que"@pt
+    ] .
+
+:dm137_mais
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm137_mais> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mais"@pt
+    ] .
+
+:dm138_mais_exatamente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm138_mais_exatamente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mais exatamente"@pt
+    ] .
+
+:dm139_mas
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm139_mas> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mas"@pt
+    ] .
+
+:dm13_ainda_assim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm13_ainda_assim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ainda assim"@pt
+    ] .
+
+:dm140_mas
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm140_mas> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mas"@pt
+    ] .
+
+:dm141_mas_isto_n_o_significa_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm141_mas_isto_n_o_significa_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mas isto não significa que"@pt
+    ] .
+
+:dm142_mas_n_o_deixa_de_ser_verdade_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm142_mas_n_o_deixa_de_ser_verdade_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mas não deixa de ser verdade que"@pt
+    ] .
+
+:dm143_mesmo_assim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm143_mesmo_assim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mesmo assim"@pt
+    ] .
+
+:dm144_mesmo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm144_mesmo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "mesmo que"@pt
+    ] .
+
+:dm145_motivo_por_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm145_motivo_por_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "motivo por que "@pt
+    ] .
+
+:dm146_na_medida_em_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm146_na_medida_em_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "na medida em que "@pt
+    ] .
+
+:dm147_na_realidade
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm147_na_realidade> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "na realidade"@pt
+    ] .
+
+:dm148_na_realidade
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm148_na_realidade> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "na realidade"@pt
+    ] .
+
+:dm149_n_o_deixa_de_ser_verdade_que_mas
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm149_n_o_deixa_de_ser_verdade_que_mas> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "não deixa de ser verdade que mas"@pt
+    ] .
+
+:dm14_ainda_quando
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm14_ainda_quando> ;
+    ontolex:otherForm [
+        ontolex:writtenRep ""@pt
+    ] .
+
+:dm150_n_o_obstante
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm150_n_o_obstante> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "não obstante"@pt
+    ] .
+
+:dm151_n_o_mas_sim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm151_n_o_mas_sim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "não mas sim"@pt
+    ] .
+
+:dm152_nem_por_isso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm152_nem_por_isso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nem por isso"@pt
+    ] .
+
+:dm153_nessa_altura
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm153_nessa_altura> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nessa altura"@pt
+    ] .
+
+:dm154_nessa_altura
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm154_nessa_altura> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nessa altura"@pt
+    ] .
+
+:dm155_nessa_altura
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm155_nessa_altura> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nessa altura"@pt
+    ] .
+
+:dm156_nesse_caso_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm156_nesse_caso_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nesse caso "@pt
+    ] .
+
+:dm157_nesta_conformidade_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm157_nesta_conformidade_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nesta conformidade "@pt
+    ] .
+
+:dm158_nesta_perspectiva_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm158_nesta_perspectiva_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "nesta perspectiva "@pt
+    ] .
+
+:dm159_neste_contexto_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm159_neste_contexto_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "neste contexto "@pt
+    ] .
+
+:dm15_ainda_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm15_ainda_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ainda que"@pt
+    ] .
+
+:dm160_neste_sentido_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm160_neste_sentido_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "neste sentido "@pt
+    ] .
+
+:dm161_no_entanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm161_no_entanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "no entanto"@pt
+    ] .
+
+:dm162_no_entretanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm162_no_entretanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "no entretanto"@pt
+    ] .
+
+:dm163_no_fim_de_contas
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm163_no_fim_de_contas> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "no fim de contas"@pt
+    ] .
+
+:dm164_no_final_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm164_no_final_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "no final "@pt
+    ] .
+
+:dm165_no_momento_em_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm165_no_momento_em_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "no momento em que "@pt
+    ] .
+
+:dm166_obrigar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm166_obrigar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "obrigar"@pt
+    ] .
+
+:dm167_ora
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm167_ora> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ora"@pt
+    ] .
+
+:dm168_ou
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm168_ou> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ou"@pt
+    ] .
+
+:dm169_ou_antes
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm169_ou_antes> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ou antes"@pt
+    ] .
+
+:dm16_al_m_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm16_al_m_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "além de"@pt
+    ] .
+
+:dm170_ou_melhor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm170_ou_melhor> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ou melhor"@pt
+    ] .
+
+:dm171_ou_seja
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm171_ou_seja> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ou seja"@pt
+    ] .
+
+:dm172_para
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm172_para> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "para"@pt
+    ] .
+
+:dm173_para_mais
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm173_para_mais> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "para mais"@pt
+    ] .
+
+:dm174_para_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm174_para_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "para que "@pt
+    ] .
+
+:dm175_para_que_percebam_melhor
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm175_para_que_percebam_melhor> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "para que percebam melhor"@pt
+    ] .
+
+:dm176_pelo_conseguinte_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm176_pelo_conseguinte_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pelo conseguinte"@pt
+    ] .
+
+:dm177_pelo_contr_rio_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm177_pelo_contr_rio_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pelo contrário "@pt
+    ] .
+
+:dm178_pelo_facto_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm178_pelo_facto_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pelo facto de "@pt
+    ] .
+
+:dm179_pelo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm179_pelo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pelo que"@pt
+    ] .
+
+:dm17_al_m_de_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm17_al_m_de_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "além de que"@pt
+    ] .
+
+:dm180_pese_embora
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm180_pese_embora> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pese embora"@pt
+    ] .
+
+:dm181_pode_concluir_se_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm181_pode_concluir_se_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pode concluir-se"@pt
+    ] .
+
+:dm182_pois
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm182_pois> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pois"@pt
+    ] .
+
+:dm183_pois_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm183_pois_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "pois que"@pt
+    ] .
+
+:dm184_por
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm184_por> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por"@pt
+    ] .
+
+:dm185_por_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm185_por_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por"@pt
+    ] .
+
+:dm186_por_conseguinte
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm186_por_conseguinte> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por conseguinte"@pt
+    ] .
+
+:dm187_por_consequ_ncia_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm187_por_consequ_ncia_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por consequência "@pt
+    ] .
+
+:dm188_por_essa_raz_o
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm188_por_essa_raz_o> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por essa razão"@pt
+    ] .
+
+:dm189_por_esse_motivo_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm189_por_esse_motivo_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por esse motivo "@pt
+    ] .
+
+:dm18_al_m_disso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm18_al_m_disso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "além disso"@pt
+    ] .
+
+:dm190_por_falar_em
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm190_por_falar_em> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por falar em"@pt
+    ] .
+
+:dm191_por_falar_nisso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm191_por_falar_nisso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por falar nisso"@pt
+    ] .
+
+:dm192_por_isso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm192_por_isso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por isso"@pt
+    ] .
+
+:dm193_por_mais_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm193_por_mais_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por mais que"@pt
+    ] .
+
+:dm194_por_muito_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm194_por_muito_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por muito que"@pt
+    ] .
+
+:dm195_por_outras_palavras
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm195_por_outras_palavras> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por outras palavras"@pt
+    ] .
+
+:dm196_por_outro_lado
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm196_por_outro_lado> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por outro lado"@pt
+    ] .
+
+:dm197_por_seu_turno
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm197_por_seu_turno> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por seu turno"@pt
+    ] .
+
+:dm198_por_sua_vez_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm198_por_sua_vez_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por sua vez "@pt
+    ] .
+
+:dm199_por_sua_vez_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm199_por_sua_vez_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por sua vez "@pt
+    ] .
+
+:dm19_al_m_do_mais
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm19_al_m_do_mais> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "além do mais"@pt
+    ] .
+
+:dm1_a_fim_de_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm1_a_fim_de_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a fim de que"@pt
+    ] .
+
+:dm200_por_um_lado_por_outro
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm200_por_um_lado_por_outro> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por um lado por outro"@pt
+    ] .
+
+:dm201_por_um_lado_por_outro_lado
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm201_por_um_lado_por_outro_lado> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "por um lado por outro lado"@pt
+    ] .
+
+:dm202_por_m
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm202_por_m> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "porém"@pt
+    ] .
+
+:dm203_porque
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm203_porque> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "porque"@pt
+    ] .
+
+:dm204_porque_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm204_porque_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "porque"@pt
+    ] .
+
+:dm205_portanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm205_portanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "portanto"@pt
+    ] .
+
+:dm206_portanto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm206_portanto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "portanto"@pt
+    ] .
+
+:dm207_posto_isso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm207_posto_isso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "posto isso"@pt
+    ] .
+
+:dm208_posto_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm208_posto_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "posto que"@pt
+    ] .
+
+:dm209_primeiro_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm209_primeiro_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "primeiro que"@pt
+    ] .
+
+:dm20_ali_s
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm20_ali_s> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "aliás"@pt
+    ] .
+
+:dm210_provocar
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm210_provocar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "provocar"@pt
+    ] .
+
+:dm211_quando
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm211_quando> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "quando"@pt
+    ] .
+
+:dm212_quando
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm212_quando> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "quando"@pt
+    ] .
+
+:dm213_quando
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm213_quando> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "quando"@pt
+    ] .
+
+:dm214_quando_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm214_quando_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "quando"@pt
+    ] .
+
+:dm215_quer_dizer
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm215_quer_dizer> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "quer dizer"@pt
+    ] .
+
+:dm216_raz_o_pela_qual
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm216_raz_o_pela_qual> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "razão pela qual"@pt
+    ] .
+
+:dm217_reciprocamente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm217_reciprocamente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "reciprocamente"@pt
+    ] .
+
+:dm218_reduzir
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm218_reduzir> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "reduzir"@pt
+    ] .
+
+:dm219_relativamente_a
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm219_relativamente_a> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "relativamente a"@pt
+    ] .
+
+:dm21_ali_s_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm21_ali_s_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "aliás"@pt
+    ] .
+
+:dm220_salvo_se
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm220_salvo_se> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "salvo se"@pt
+    ] .
+
+:dm221_se
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm221_se> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "se"@pt
+    ] .
+
+:dm222_se_bem_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm222_se_bem_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "se bem que"@pt
+    ] .
+
+:dm223_se_por_um_lado_por_outro
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm223_se_por_um_lado_por_outro> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "se por um lado por outro"@pt
+    ] .
+
+:dm224_se_por_um_lado_por_outro_lado
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm224_se_por_um_lado_por_outro_lado> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "se por um lado por outro lado"@pt
+    ] .
+
+:dm225_se_por_um_lado_por_outro
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm225_se_por_um_lado_por_outro> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "se por um lado por outro"@pt
+    ] .
+
+:dm226_seja_como_for
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm226_seja_como_for> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "seja como for"@pt
+    ] .
+
+:dm227_sem
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm227_sem> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sem"@pt
+    ] .
+
+:dm228_sem_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm228_sem_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sem que"@pt
+    ] .
+
+:dm229_sempre_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm229_sempre_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sempre que"@pt
+    ] .
+
+:dm22_antes
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm22_antes> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "antes"@pt
+    ] .
+
+:dm230_sendo_assim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm230_sendo_assim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sendo assim"@pt
+    ] .
+
+:dm231_sendo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm231_sendo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sendo que"@pt
+    ] .
+
+:dm232_sim
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm232_sim> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sim"@pt
+    ] .
+
+:dm233_s_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm233_s_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "só que"@pt
+    ] .
+
+:dm234_tal_como
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm234_tal_como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tal como"@pt
+    ] .
+
+:dm235_tal_como_tamb_m
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm235_tal_como_tamb_m> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tal como também"@pt
+    ] .
+
+:dm236_tal_como_tamb_m
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm236_tal_como_tamb_m> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tal como também"@pt
+    ] .
+
+:dm237_tamb_m_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm237_tamb_m_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "também"@pt
+    ] .
+
+:dm238_tanto_como
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm238_tanto_como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tanto como"@pt
+    ] .
+
+:dm239_tanto_assim_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm239_tanto_assim_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tanto assim que"@pt
+    ] .
+
+:dm23_antes_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm23_antes_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "antes de"@pt
+    ] .
+
+:dm240_tanto_mais_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm240_tanto_mais_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tanto mais que"@pt
+    ] .
+
+:dm241_tanto_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm241_tanto_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tanto que"@pt
+    ] .
+
+:dm242_tirando_o_facto_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm242_tirando_o_facto_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tirando o facto de"@pt
+    ] .
+
+:dm243_todas_as_vezes_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm243_todas_as_vezes_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "todas as vezes que"@pt
+    ] .
+
+:dm244_todavia
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm244_todavia> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "todavia"@pt
+    ] .
+
+:dm245_um_dia_depois
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm245_um_dia_depois> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "um dia depois"@pt
+    ] .
+
+:dm246_uma_vez
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm246_uma_vez> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "uma vez"@pt
+    ] .
+
+:dm247_uma_vez_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm247_uma_vez_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "uma vez que"@pt
+    ] .
+
+:dm248_uma_vez_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm248_uma_vez_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "uma vez que"@pt
+    ] .
+
+:dm249_visto_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm249_visto_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "visto"@pt
+    ] .
+
+:dm24_antes_disso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm24_antes_disso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "antes disso"@pt
+    ] .
+
+:dm250_visto_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm250_visto_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "visto"@pt
+    ] .
+
+:dm251_visto_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm251_visto_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "visto que "@pt
+    ] .
+
+:dm252_visto_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm252_visto_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "visto que "@pt
+    ] .
+
+:dm25_antes_pelo_contr_rio
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm25_antes_pelo_contr_rio> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "antes pelo contrário"@pt
+    ] .
+
+:dm26_antes_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm26_antes_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "antes que"@pt
+    ] .
+
+:dm27_ao
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm27_ao> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao"@pt
+    ] .
+
+:dm28_ao_fim_e_ao_cabo_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm28_ao_fim_e_ao_cabo_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao fim e ao cabo "@pt
+    ] .
+
+:dm29_ao_inv_s
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm29_ao_inv_s> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao invés"@pt
+    ] .
+
+:dm2__medida_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm2__medida_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "à medida que"@pt
+    ] .
+
+:dm30_ao_inv_s_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm30_ao_inv_s_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao invés de"@pt
+    ] .
+
+:dm31_ao_mesmo_tempo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm31_ao_mesmo_tempo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao mesmo tempo"@pt
+    ] .
+
+:dm32_ao_mesmo_tempo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm32_ao_mesmo_tempo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao mesmo tempo"@pt
+    ] .
+
+:dm33_ao_mesmo_tempo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm33_ao_mesmo_tempo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao mesmo tempo que"@pt
+    ] .
+
+:dm34_ao_mesmo_tempo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm34_ao_mesmo_tempo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao mesmo tempo que"@pt
+    ] .
+
+:dm35_ao_passo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm35_ao_passo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ao passo que"@pt
+    ] .
+
+:dm36_apesar_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm36_apesar_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "apesar de"@pt
+    ] .
+
+:dm37_apesar_de_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm37_apesar_de_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "apesar de que"@pt
+    ] .
+
+:dm38_apesar_de_tudo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm38_apesar_de_tudo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "apesar de tudo"@pt
+    ] .
+
+:dm39_ap_s
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm39_ap_s> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "após"@pt
+    ] .
+
+:dm3_a_menos_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm3_a_menos_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a menos que"@pt
+    ] .
+
+:dm40_assim_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm40_assim_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "assim"@pt
+    ] .
+
+:dm41_assim_como
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm41_assim_como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "assim como"@pt
+    ] .
+
+:dm42_assim_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm42_assim_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "assim que"@pt
+    ] .
+
+:dm43_assim_sendo_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm43_assim_sendo_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "assim sendo "@pt
+    ] .
+
+:dm44_at_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm44_at_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "até que"@pt
+    ] .
+
+:dm45_atrav_s_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm45_atrav_s_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "através de "@pt
+    ] .
+
+:dm46_bem_como
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm46_bem_como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "bem como"@pt
+    ] .
+
+:dm47_bem_mas
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm47_bem_mas> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "bem mas"@pt
+    ] .
+
+:dm48_caso_contr_rio
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm48_caso_contr_rio> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "caso contrário"@pt
+    ] .
+
+:dm49_com_a_particularidade_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm49_com_a_particularidade_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "com a particularidade de"@pt
+    ] .
+
+:dm4_a_n_o_ser_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm4_a_n_o_ser_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a não ser que"@pt
+    ] .
+
+:dm50_com_efeito_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm50_com_efeito_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "com efeito "@pt
+    ] .
+
+:dm51_com_efeito_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm51_com_efeito_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "com efeito "@pt
+    ] .
+
+:dm52_com_vista_a_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm52_com_vista_a_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "com vista a "@pt
+    ] .
+
+:dm53_como
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm53_como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "como"@pt
+    ] .
+
+:dm54_como_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm54_como_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "como"@pt
+    ] .
+
+:dm55_como_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm55_como_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "como que"@pt
+    ] .
+
+:dm56_como_resultado_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm56_como_resultado_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "como resultado de "@pt
+    ] .
+
+:dm57_como_se
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm57_como_se> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "como se"@pt
+    ] .
+
+:dm58_concomitantemente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm58_concomitantemente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "concomitantemente"@pt
+    ] .
+
+:dm59_concretamente
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm59_concretamente> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "concretamente"@pt
+    ] .
+
+:dm5_a_partir_do_momento_em_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm5_a_partir_do_momento_em_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a partir do momento em que"@pt
+    ] .
+
+:dm60_consequentemente_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm60_consequentemente_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "consequentemente"@pt
+    ] .
+
+:dm61_contanto_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm61_contanto_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "contanto que"@pt
+    ] .
+
+:dm62_contudo_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm62_contudo_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "contudo"@pt
+    ] .
+
+:dm63_da_mesma_forma_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm63_da_mesma_forma_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "da mesma forma que"@pt
+    ] .
+
+:dm64_da_mesma_maneira
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm64_da_mesma_maneira> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "da mesma maneira"@pt
+    ] .
+
+:dm65_da_mesma_maneira_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm65_da_mesma_maneira_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "da mesma maneira que"@pt
+    ] .
+
+:dm66_dado_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm66_dado_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "dado que "@pt
+    ] .
+
+:dm67_dado_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm67_dado_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "dado que "@pt
+    ] .
+
+:dm68_da_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm68_da_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "daí"@pt
+    ] .
+
+:dm69_da_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm69_da_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "daí que"@pt
+    ] .
+
+:dm6_a_prop_sito_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm6_a_prop_sito_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a propósito de"@pt
+    ] .
+
+:dm70_daqui_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm70_daqui_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "daqui"@pt
+    ] .
+
+:dm71_de_facto
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm71_de_facto> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de facto"@pt
+    ] .
+
+:dm72_de_forma_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm72_de_forma_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de forma que "@pt
+    ] .
+
+:dm73_de_igual_modo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm73_de_igual_modo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de igual modo"@pt
+    ] .
+
+:dm74_de_maneira_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm74_de_maneira_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de maneira que"@pt
+    ] .
+
+:dm75_de_modo_a_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm75_de_modo_a_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de modo a "@pt
+    ] .
+
+:dm76_de_modo_a_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm76_de_modo_a_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de modo a que"@pt
+    ] .
+
+:dm77_de_modo_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm77_de_modo_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de modo que "@pt
+    ] .
+
+:dm78_de_onde_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm78_de_onde_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de onde "@pt
+    ] .
+
+:dm79_de_qualquer_forma
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm79_de_qualquer_forma> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de qualquer forma"@pt
+    ] .
+
+:dm7_a_raz_o_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm7_a_raz_o_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "a razão era"@pt
+    ] .
+
+:dm80_de_sorte_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm80_de_sorte_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de sorte que"@pt
+    ] .
+
+:dm81_de_tal_forma_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm81_de_tal_forma_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de tal forma que"@pt
+    ] .
+
+:dm82_de_tal_maneira_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm82_de_tal_maneira_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "de tal maneira que"@pt
+    ] .
+
+:dm83_depois
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm83_depois> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "depois"@pt
+    ] .
+
+:dm84_depois
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm84_depois> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "depois"@pt
+    ] .
+
+:dm85_depois_de
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm85_depois_de> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "depois de"@pt
+    ] .
+
+:dm86_depois_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm86_depois_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "depois que"@pt
+    ] .
+
+:dm87_desde_o_momento_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm87_desde_o_momento_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "desde o momento que"@pt
+    ] .
+
+:dm88_desde_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm88_desde_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "desde que "@pt
+    ] .
+
+:dm89_desde_que_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm89_desde_que_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "desde que "@pt
+    ] .
+
+:dm8_acontece_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm8_acontece_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "acontece que"@pt
+    ] .
+
+:dm90_desta_maneira
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm90_desta_maneira> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "desta maneira"@pt
+    ] .
+
+:dm91_devido_a_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm91_devido_a_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "devido a "@pt
+    ] .
+
+:dm92_devido_ao_facto_de_
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm92_devido_ao_facto_de_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "devido ao facto de "@pt
+    ] .
+
+:dm93_diga_se_de_passagem_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm93_diga_se_de_passagem_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "diga-se de passagem que"@pt
+    ] .
+
+:dm94_dito_isso
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm94_dito_isso> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "dito isso"@pt
+    ] .
+
+:dm95_do_mesmo_modo
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm95_do_mesmo_modo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "do mesmo modo"@pt
+    ] .
+
+:dm96_do_mesmo_modo_que
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm96_do_mesmo_modo_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "do mesmo modo que"@pt
+    ] .
+
+:dm97_e
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm97_e> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "e"@pt
+    ] .
+
+:dm98_e
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm98_e> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "e"@pt
+    ] .
+
+:dm99_e
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm99_e> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "e"@pt
+    ] .
+
+:dm9_afinal
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#dm9_afinal> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "afinal"@pt
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm68_da_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm90_desta_maneira ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm212_quando ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm83_depois ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm36_apesar_de ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm175_para_que_percebam_melhor ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm1_a_fim_de_que ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm180_pese_embora ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm3_a_menos_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm37_apesar_de_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm249_visto_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm68_da_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm177_pelo_contr_rio_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm197_por_seu_turno ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm155_nessa_altura ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm72_de_forma_que_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm186_por_conseguinte ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm44_at_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm73_de_igual_modo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm6_a_prop_sito_de ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm104_em_alternativa ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm8_acontece_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm245_um_dia_depois ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm79_de_qualquer_forma ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm16_al_m_de ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm146_na_medida_em_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm226_seja_como_for ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm220_salvo_se ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm167_ora ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm200_por_um_lado_por_outro ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm75_de_modo_a_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm209_primeiro_que ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm194_por_muito_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm173_para_mais ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm69_da_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm223_se_por_um_lado_por_outro ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm251_visto_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm53_como ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm20_ali_s ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm93_diga_se_de_passagem_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm39_ap_s ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm147_na_realidade ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm81_de_tal_forma_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm26_antes_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm49_com_a_particularidade_de ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm101_e_isso_quando_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm85_depois_de ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm29_ao_inv_s ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm170_ou_melhor ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm157_nesta_conformidade_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm181_pode_concluir_se_que ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm18_al_m_disso ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm102__que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm195_por_outras_palavras ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm66_dado_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm40_assim_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm105_em_consequ_ncia_de ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm13_ainda_assim ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm112_em_s_ntese ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm133_j_agora ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm185_por_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm190_por_falar_em ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm60_consequentemente_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm114_em_todo_o_caso ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm12_ainda ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm71_de_facto ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm214_quando_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm193_por_mais_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm20_ali_s ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm108_em_particular ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm38_apesar_de_tudo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm26_antes_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm242_tirando_o_facto_de ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm96_do_mesmo_modo_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm204_porque_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm49_com_a_particularidade_de ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm129_inversamente ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm211_quando ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm130_isto_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm99_e ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm51_com_efeito_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm14_ainda_quando ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm164_no_final_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm148_na_realidade ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm128_igualmente ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm244_todavia ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm207_posto_isso ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm160_neste_sentido_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm72_de_forma_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm144_mesmo_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm236_tal_como_tamb_m ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm52_com_vista_a_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm108_em_particular ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm75_de_modo_a_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm7_a_raz_o_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm30_ao_inv_s_de ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm37_apesar_de_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm47_bem_mas ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm101_e_isso_quando_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm27_ao ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm157_nesta_conformidade_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm224_se_por_um_lado_por_outro_lado ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm70_daqui_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm142_mas_n_o_deixa_de_ser_verdade_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm156_nesse_caso_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm201_por_um_lado_por_outro_lado ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm4_a_n_o_ser_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm106_em_contrapartida ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm79_de_qualquer_forma ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm221_se ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm244_todavia ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm176_pelo_conseguinte_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm42_assim_que ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm162_no_entretanto ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm248_uma_vez_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm176_pelo_conseguinte_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm248_uma_vez_que ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm80_de_sorte_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm210_provocar ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm157_nesta_conformidade_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm57_como_se ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm99_e ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm25_antes_pelo_contr_rio ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm93_diga_se_de_passagem_que ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm143_mesmo_assim ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm45_atrav_s_de_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm241_tanto_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm222_se_bem_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm171_ou_seja ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm120_enfim ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm137_mais ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm198_por_sua_vez_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm126_entretanto ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm160_neste_sentido_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm221_se ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm151_n_o_mas_sim ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm39_ap_s ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm115_em_ltima_an_lise_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm217_reciprocamente ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm222_se_bem_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm51_com_efeito_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm185_por_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm34_ao_mesmo_tempo_que ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm245_um_dia_depois ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm202_por_m ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm234_tal_como ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm242_tirando_o_facto_de ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm28_ao_fim_e_ao_cabo_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm55_como_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm116_em_vez_de ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm37_apesar_de_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm82_de_tal_maneira_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm118_em_virtude_de_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm217_reciprocamente ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm178_pelo_facto_de_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm111_em_resumo ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm21_ali_s_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm131_isto_equivale_a ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm206_portanto ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm144_mesmo_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm151_n_o_mas_sim ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm62_contudo_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm127_finalmente ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm100__certo_que_mas_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm100__certo_que_mas_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm43_assim_sendo_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm230_sendo_assim ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm61_contanto_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm172_para ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm232_sim ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm211_quando ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm202_por_m ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm56_como_resultado_de_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm191_por_falar_nisso ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm89_desde_que_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm250_visto_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm180_pese_embora ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm38_apesar_de_tudo ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm199_por_sua_vez_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm142_mas_n_o_deixa_de_ser_verdade_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm48_caso_contr_rio ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm59_concretamente ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm74_de_maneira_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm120_enfim ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm187_por_consequ_ncia_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm66_dado_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm151_n_o_mas_sim ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm29_ao_inv_s ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm174_para_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm15_ainda_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm97_e ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm209_primeiro_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm252_visto_que_ ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm22_antes ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm129_inversamente ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm182_pois ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm232_sim ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm126_entretanto ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm237_tamb_m_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm210_provocar ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm230_sendo_assim ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm66_dado_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm89_desde_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm101_e_isso_quando_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm78_de_onde_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm133_j_agora ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm208_posto_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm92_devido_ao_facto_de_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm221_se ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm83_depois ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm107_em_lugar_de_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm84_depois ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm113_em_suma ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm58_concomitantemente ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm81_de_tal_forma_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm235_tal_como_tamb_m ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm158_nesta_perspectiva_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm58_concomitantemente ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm148_na_realidade ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm14_ainda_quando ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm169_ou_antes ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm114_em_todo_o_caso ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm74_de_maneira_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm42_assim_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm141_mas_isto_n_o_significa_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm193_por_mais_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm9_afinal ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm179_pelo_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm111_em_resumo ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm92_devido_ao_facto_de_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm2__medida_que ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm27_ao ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm252_visto_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm55_como_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm143_mesmo_assim ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm104_em_alternativa ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm77_de_modo_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm158_nesta_perspectiva_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm233_s_que ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm39_ap_s ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm219_relativamente_a ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm168_ou ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm73_de_igual_modo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm34_ao_mesmo_tempo_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm19_al_m_do_mais ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm139_mas ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm153_nessa_altura ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm110_em_resultado_de ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm3_a_menos_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm95_do_mesmo_modo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm189_por_esse_motivo_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm208_posto_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm170_ou_melhor ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm99_e ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm228_sem_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm249_visto_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm194_por_muito_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm11_agora_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm88_desde_que_ ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm243_todas_as_vezes_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm87_desde_o_momento_que ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm203_porque ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm11_agora_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm14_ainda_quando ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm197_por_seu_turno ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm41_assim_como ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm192_por_isso ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm35_ao_passo_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm82_de_tal_maneira_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm30_ao_inv_s_de ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm103_eis_sen_o_quando ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm243_todas_as_vezes_que ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm11_agora_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm155_nessa_altura ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm179_pelo_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm94_dito_isso ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm198_por_sua_vez_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm124_ent_o ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm57_como_se ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm149_n_o_deixa_de_ser_verdade_que_mas ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm204_porque_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm1_a_fim_de_que ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm108_em_particular ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm70_daqui_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm25_antes_pelo_contr_rio ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm238_tanto_como ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm60_consequentemente_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm87_desde_o_momento_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm15_ainda_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm48_caso_contr_rio ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm135_logo_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm90_desta_maneira ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm188_por_essa_raz_o ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm124_ent_o ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm136_logo_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm13_ainda_assim ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm140_mas ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm246_uma_vez ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm46_bem_como ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm239_tanto_assim_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm192_por_isso ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm247_uma_vez_que ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm249_visto_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm8_acontece_que ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm117_em_vez_disto ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm143_mesmo_assim ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm33_ao_mesmo_tempo_que ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm204_porque_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm171_ou_seja ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm140_mas ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm138_mais_exatamente ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm64_da_mesma_maneira ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm218_reduzir ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm125_ent_o ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm158_nesta_perspectiva_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm208_posto_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm113_em_suma ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm250_visto_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm154_nessa_altura ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm187_por_consequ_ncia_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm161_no_entanto ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm216_raz_o_pela_qual ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm4_a_n_o_ser_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm230_sendo_assim ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm76_de_modo_a_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm62_contudo_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm251_visto_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm175_para_que_percebam_melhor ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm111_em_resumo ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm76_de_modo_a_que ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm29_ao_inv_s ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm169_ou_antes ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm241_tanto_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm225_se_por_um_lado_por_outro ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm162_no_entretanto ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm131_isto_equivale_a ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm150_n_o_obstante ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm31_ao_mesmo_tempo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm56_como_resultado_de_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm238_tanto_como ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm134_j_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm235_tal_como_tamb_m ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm165_no_momento_em_que_ ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm91_devido_a_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm98_e ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm218_reduzir ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm219_relativamente_a ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm24_antes_disso ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm166_obrigar ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm234_tal_como ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm77_de_modo_que_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm210_provocar ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm50_com_efeito_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm82_de_tal_maneira_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm28_ao_fim_e_ao_cabo_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm174_para_que_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm132_j_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm91_devido_a_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm162_no_entretanto ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm91_devido_a_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm38_apesar_de_tudo ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm118_em_virtude_de_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm47_bem_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm188_por_essa_raz_o ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm252_visto_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm224_se_por_um_lado_por_outro_lado ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm222_se_bem_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm138_mais_exatamente ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm139_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm71_de_facto ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm124_ent_o ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm183_pois_que ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm145_motivo_por_que_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm200_por_um_lado_por_outro ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm88_desde_que_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm199_por_sua_vez_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm182_pois ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm115_em_ltima_an_lise_ ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm163_no_fim_de_contas ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm68_da_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm159_neste_contexto_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm36_apesar_de ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm85_depois_de ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm112_em_s_ntese ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm193_por_mais_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm21_ali_s_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm41_assim_como ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm201_por_um_lado_por_outro_lado ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm237_tamb_m_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm116_em_vez_de ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm23_antes_de ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm51_com_efeito_ ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm122_enquanto ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm32_ao_mesmo_tempo ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm227_sem ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm192_por_isso ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm102__que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm195_por_outras_palavras ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm196_por_outro_lado ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm18_al_m_disso ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm6_a_prop_sito_de ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm142_mas_n_o_deixa_de_ser_verdade_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm135_logo_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm161_no_entanto ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm127_finalmente ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm130_isto_ ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm136_logo_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm3_a_menos_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm169_ou_antes ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm185_por_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm89_desde_que_ ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm152_nem_por_isso ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm128_igualmente ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm60_consequentemente_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm49_com_a_particularidade_de ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm250_visto_ ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm181_pode_concluir_se_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm247_uma_vez_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm53_como ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm10_agora ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm86_depois_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm110_em_resultado_de ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm24_antes_disso ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm114_em_todo_o_caso ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm228_sem_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm107_em_lugar_de_ ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm90_desta_maneira ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm135_logo_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm154_nessa_altura ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm216_raz_o_pela_qual ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm121_enquanto ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm248_uma_vez_que ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm184_por ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm220_salvo_se ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm167_ora ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm7_a_raz_o_que ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm53_como ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm186_por_conseguinte ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm141_mas_isto_n_o_significa_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm172_para ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm215_quer_dizer ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm112_em_s_ntese ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm23_antes_de ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm232_sim ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm184_por ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm182_pois ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm119_embora ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm22_antes ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm20_ali_s ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm146_na_medida_em_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm50_com_efeito_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm176_pelo_conseguinte_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm86_depois_que ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm132_j_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm52_com_vista_a_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm215_quer_dizer ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm203_porque ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm96_do_mesmo_modo_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm229_sempre_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm98_e ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm67_dado_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm177_pelo_contr_rio_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm106_em_contrapartida ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm80_de_sorte_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm54_como_ ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm65_da_mesma_maneira_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm189_por_esse_motivo_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm2__medida_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm170_ou_melhor ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm150_n_o_obstante ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm15_ainda_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm251_visto_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm175_para_que_percebam_melhor ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm213_quando ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm48_caso_contr_rio ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm186_por_conseguinte ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm95_do_mesmo_modo ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm220_salvo_se ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm149_n_o_deixa_de_ser_verdade_que_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm109_em_primeiro_lugar ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm62_contudo_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm52_com_vista_a_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm218_reduzir ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm43_assim_sendo_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm130_isto_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm212_quando ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm19_al_m_do_mais ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm163_no_fim_de_contas ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm144_mesmo_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm47_bem_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm246_uma_vez ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm206_portanto ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm149_n_o_deixa_de_ser_verdade_que_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm173_para_mais ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm44_at_que ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm63_da_mesma_forma_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm105_em_consequ_ncia_de ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm4_a_n_o_ser_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm159_neste_contexto_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm239_tanto_assim_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm61_contanto_que ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm26_antes_que ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm43_assim_sendo_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm191_por_falar_nisso ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm109_em_primeiro_lugar ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm59_concretamente ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm87_desde_o_momento_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm202_por_m ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm228_sem_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm25_antes_pelo_contr_rio ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm188_por_essa_raz_o ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm69_da_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm88_desde_que_ ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm67_dado_que_ ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm242_tirando_o_facto_de ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm33_ao_mesmo_tempo_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm17_al_m_de_que ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm229_sempre_que ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm110_em_resultado_de ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm116_em_vez_de ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm70_daqui_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm145_motivo_por_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm153_nessa_altura ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm92_devido_ao_facto_de_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm32_ao_mesmo_tempo ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm184_por ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm166_obrigar ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm166_obrigar ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm146_na_medida_em_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm141_mas_isto_n_o_significa_que ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm67_dado_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm203_porque ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm93_diga_se_de_passagem_que ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm85_depois_de ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm205_portanto ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm121_enquanto ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm44_at_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm181_pode_concluir_se_que ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm240_tanto_mais_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm100__certo_que_mas_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm209_primeiro_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm227_sem ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm240_tanto_mais_que ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm76_de_modo_a_que ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm187_por_consequ_ncia_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm117_em_vez_disto ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm7_a_raz_o_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm233_s_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm81_de_tal_forma_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm215_quer_dizer ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm231_sendo_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm64_da_mesma_maneira ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm16_al_m_de ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm148_na_realidade ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm207_posto_isso ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm180_pese_embora ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm72_de_forma_que_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm178_pelo_facto_de_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm113_em_suma ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm213_quando ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm71_de_facto ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm123_enquanto_que ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm77_de_modo_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm104_em_alternativa ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm246_uma_vez ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm196_por_outro_lado ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm164_no_final_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm102__que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm9_afinal ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm123_enquanto_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm86_depois_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm214_quando_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm231_sendo_que ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm245_um_dia_depois ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm137_mais ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm145_motivo_por_que_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm194_por_muito_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm168_ou ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm244_todavia ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm241_tanto_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm172_para ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm156_nesse_caso_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm190_por_falar_em ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm213_quando ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm138_mais_exatamente ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm139_mas ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm75_de_modo_a_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm225_se_por_um_lado_por_outro ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm35_ao_passo_que ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm21_ali_s_ ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm98_e ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm105_em_consequ_ncia_de ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm117_em_vez_disto ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm152_nem_por_isso ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm171_ou_seja ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm165_no_momento_em_que_ ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm205_portanto ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm236_tal_como_tamb_m ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm178_pelo_facto_de_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm46_bem_como ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm30_ao_inv_s_de ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm226_seja_como_for ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm24_antes_disso ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm226_seja_como_for ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm159_neste_contexto_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm42_assim_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm69_da_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm125_ent_o ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm31_ao_mesmo_tempo ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm118_em_virtude_de_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm78_de_onde_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm94_dito_isso ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm103_eis_sen_o_quando ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm134_j_que_ ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm239_tanto_assim_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm45_atrav_s_de_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm12_ainda ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm5_a_partir_do_momento_em_que ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm119_embora ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm10_agora ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm103_eis_sen_o_quando ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm56_como_resultado_de_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm5_a_partir_do_momento_em_que ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm120_enfim ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm84_depois ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm136_logo_que ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm161_no_entanto ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm179_pelo_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm247_uma_vez_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm63_da_mesma_forma_que ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm1_a_fim_de_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm61_contanto_que ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm13_ainda_assim ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm54_como_ ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm122_enquanto ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm216_raz_o_pela_qual ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm5_a_partir_do_momento_em_que ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm80_de_sorte_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm206_portanto ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm147_na_realidade ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm84_depois ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm205_portanto ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm40_assim_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm17_al_m_de_que ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm74_de_maneira_que ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm223_se_por_um_lado_por_outro ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm183_pois_que ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm207_posto_isso .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm40_assim_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm22_antes ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm119_embora ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm177_pelo_contr_rio_ ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm78_de_onde_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm97_e ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm189_por_esse_motivo_ ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm134_j_que_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm125_ent_o ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm156_nesse_caso_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm23_antes_de ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm174_para_que_ ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm160_neste_sentido_ ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm50_com_efeito_ ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm183_pois_que ;
+    ontolex:reference pdtb:CONTIGENCY, pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :dm65_da_mesma_maneira_que ;
+    ontolex:reference pdtb:COMPARISON .
+

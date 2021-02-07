@@ -1,0 +1,3641 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/en/pdtb2.ttl#> .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#0_once> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "once"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Once"@en
+    ], [
+        ontolex:writtenRep "ONCE"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#100_on_the_one_hand_on_the_other_hand>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#100_on_the_one_hand_on_the_other_hand> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "On the one hand On the other hand"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#10_previously>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#10_previously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "previously"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Previously"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#11_when> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "when"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "WHEN"@en
+    ], [
+        ontolex:writtenRep "When"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#12_and> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "and"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "And"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#13_so> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "so"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "So"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#14_then> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "then"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Then"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#15_while> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "while"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "While"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#16_as_long_as> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as long as"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As long as"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#17_however> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "however"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "However"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#18_also> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "also"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Also"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#19_after> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "after"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "After"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#1_although> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "although"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Although"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#20_separately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "separately"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Separately"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#21_still> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "still"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Still"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#22_so_that>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#22_so_that> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "so that"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#23_or> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "or"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Or"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#24_moreover>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#24_moreover> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "moreover"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Moreover"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#25_in_addition>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#25_in_addition> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in addition"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In addition"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#26_instead> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "instead"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Instead"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#27_on_the_other_hand> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "on the other hand"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "On the other hand"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#28_as> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#29_for_instance>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#29_for_instance> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "for instance"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "For instance"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#2_though> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "though"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Though"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#30_nonetheless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nonetheless"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nonetheless"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#31_unless>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#31_unless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "unless"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Unless"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#32_meanwhile> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "meanwhile"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Meanwhile"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#33_yet> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "yet"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Yet"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#34_since> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "since"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Since"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#35_rather> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "rather"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Rather"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#36_in_fact> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in fact"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In fact"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#37_indeed> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "indeed"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Indeed"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#38_later>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#38_later> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "later"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Later"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#39_ultimately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ultimately"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Ultimately"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#3_but> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "but"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "But"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#40_as_a_result>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#40_as_a_result> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as a result"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As a result"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#41_either_or>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#41_either_or> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "either or"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Either or"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#42_therefore>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#42_therefore> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "therefore"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Therefore"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#43_in_turn> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in turn"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#44_thus>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#44_thus> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thus"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Thus"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#45_in_particular>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#45_in_particular> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in particular"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In particular"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#46_further>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#46_further> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "further"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Further"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#47_afterward>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#47_afterward> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "afterward"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "afterwards"@en
+    ], [
+        ontolex:writtenRep "Afterwards"@en
+    ], [
+        ontolex:writtenRep "Afterward"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#48_next>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#48_next> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "next"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Next"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#49_similarly>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#49_similarly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "similarly"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Similarly"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#4_because> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "because"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Because"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#50_besides> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "besides"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Besides"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#51_if_and_when>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#51_if_and_when> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "if and when"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#52_nor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nor"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nor"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#53_alternatively>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#53_alternatively> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alternatively"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Alternatively"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#54_whereas>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#54_whereas> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "whereas"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Whereas"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#55_overall> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "overall"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Overall"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#56_by_comparison>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#56_by_comparison> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by comparison"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "By comparison"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#57_till>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#57_till> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "till"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#58_in_contrast>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#58_in_contrast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in contrast"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In contrast"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#59_finally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "finally"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Finally"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#5_nevertheless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nevertheless"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Nevertheless"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#60_otherwise>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#60_otherwise> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "otherwise"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Otherwise"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#61_as_if>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#61_as_if> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as if"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As if"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#62_thereby>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#62_thereby> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thereby"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#63_now_that> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "now that"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Now that"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#64_before_and_after>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#64_before_and_after> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "before and after"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#65_additionally>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#65_additionally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "additionally"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Additionally"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#66_meantime> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "meantime"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Meantime"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#67_by_contrast>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#67_by_contrast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by contrast"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "By contrast"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#68_if_then> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "if then"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "If then"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#69_likewise>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#69_likewise> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "likewise"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Likewise"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#6_before> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "before"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Before"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#70_in_the_end> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in the end"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In the end"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#71_regardless>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#71_regardless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "regardless"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Regardless"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#72_thereafter>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#72_thereafter> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thereafter"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Thereafter"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#73_earlier>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#73_earlier> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "earlier"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Earlier"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#74_in_other_words>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#74_in_other_words> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in other words"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In other words"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#75_as_soon_as>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#75_as_soon_as> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as soon as"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As soon as"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#76_except>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#76_except> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "except"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Except"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#77_in_short>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#77_in_short> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In short"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#78_neither_nor>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#78_neither_nor> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "neither nor"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#79_furthermore>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#79_furthermore> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "furthermore"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Furthermore"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#7_for_example>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#7_for_example> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "for example"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "For example"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#80_lest>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#80_lest> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "lest"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#81_as_though>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#81_as_though> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as though"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#82_specifically>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#82_specifically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "specifically"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Specifically"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#83_conversely>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#83_conversely> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Conversely"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#84_consequently>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#84_consequently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "consequently"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Consequently"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#85_as_well>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#85_as_well> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as well"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As well"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#86_much_as> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "much as"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#87_plus>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#87_plus> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Plus"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#88_And>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#88_And> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "And"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#89_hence>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#89_hence> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hence"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hence"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#8_until> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "until"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Until"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#90_by_then> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by then"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "By then"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#91_accordingly>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#91_accordingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "accordingly"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Accordingly"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#92_on_the_contrary>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#92_on_the_contrary> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "On the contrary"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#93_simultaneously>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#93_simultaneously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "simultaneously"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Simultaneously"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#94_for>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#94_for> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "for"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "For"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#95_in_sum>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#95_in_sum> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "In sum"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#96_when_and_if>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#96_when_and_if> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "When and if"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#97_insofar_as>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#97_insofar_as> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Insofar as"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#98_else>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#98_else> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "else"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#99_as_an_alternative>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#99_as_an_alternative> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "As an alternative"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#9_if> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "if"@en
+    ] ;
+    ontolex:otherForm [
+        ontolex:writtenRep "IF"@en
+    ], [
+        ontolex:writtenRep "If"@en
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#76_except> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#48_next> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#84_consequently> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#67_by_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#38_later> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#44_thus> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#74_in_other_words> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#78_neither_nor> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#82_specifically> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#71_regardless> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#60_otherwise> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#85_as_well> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#10_previously> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#92_on_the_contrary> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#75_as_soon_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#73_earlier> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#41_either_or> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#82_specifically> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#24_moreover> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#10_previously> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#58_in_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#93_simultaneously> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#60_otherwise> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#61_as_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#65_additionally> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#54_whereas> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#98_else> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#84_consequently> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#87_plus> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#57_till> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because> ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#24_moreover> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#96_when_and_if> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#46_further> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#31_unless> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#46_further> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#7_for_example> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#48_next> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#72_thereafter> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#91_accordingly> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#41_either_or> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#99_as_an_alternative> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#51_if_and_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#92_on_the_contrary> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#40_as_a_result> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#45_in_particular> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#73_earlier> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#81_as_though> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#40_as_a_result> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#54_whereas> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#92_on_the_contrary> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#7_for_example> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#56_by_comparison> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#78_neither_nor> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#29_for_instance> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#69_likewise> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#48_next> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#41_either_or> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#89_hence> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#44_thus> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#56_by_comparison> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#81_as_though> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#58_in_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#51_if_and_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#67_by_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#40_as_a_result> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#84_consequently> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#94_for> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#100_on_the_one_hand_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#58_in_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#61_as_if> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#42_therefore> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#83_conversely> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#47_afterward> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#67_by_contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#60_otherwise> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#54_whereas> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#64_before_and_after> ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#61_as_if> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#38_later> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#82_specifically> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#10_previously> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#79_furthermore> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#22_so_that> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#24_moreover> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#75_as_soon_as> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#72_thereafter> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#91_accordingly> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#78_neither_nor> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#45_in_particular> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#53_alternatively> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#51_if_and_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#74_in_other_words> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#80_lest> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#97_insofar_as> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#77_in_short> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#29_for_instance> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#25_in_addition> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:CONTIGENCY .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#76_except> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#53_alternatively> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#49_similarly> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#38_later> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#44_thus> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#80_lest> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime> ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#95_in_sum> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#88_And> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#62_thereby> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed> ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:TEMPORAL .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#74_in_other_words> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#76_except> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#49_similarly> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#31_unless> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#56_by_comparison> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless> ;
+    ontolex:reference pdtb:Contrast .
+

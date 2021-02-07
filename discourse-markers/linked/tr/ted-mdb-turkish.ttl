@@ -1,0 +1,386 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Turkish> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl#> .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k10_Yapra>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k10_Yapra> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Yapra"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k11_al_maz_Bun>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k11_al_maz_Bun> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "alışmaz. Bun"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k12_ar_G_n_b>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k12_ar_G_n_b> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ar. Gün b"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k13_du_Pek>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k13_du_Pek> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "du? Pek"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k14_emek_Yapabili>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k14_emek_Yapabili> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "emek. Yapabili"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k15_erekiyor_Ancak>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k15_erekiyor_Ancak> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "erekiyor. Ancak"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k16_e_il_mi_Di_er_bir_rnek_d>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k16_e_il_mi_Di_er_bir_rnek_d> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "eğil mi? Diğer bir örnek d"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k17_g_t_rebilir_Bunun_en_etkili_rnek>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k17_g_t_rebilir_Bunun_en_etkili_rnek> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "götürebilir. Bunun en etkili örnek"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k18_i_Boston_da>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k18_i_Boston_da> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "i, Boston'da"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k19_r_Se>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k19_r_Se> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "r) Se"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k1__Ve_bu_y>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k1__Ve_bu_y> ;
+    ontolex:otherForm [
+        ontolex:writtenRep ". Ve bu y"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k20_r_Us>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k20_r_Us> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "r. Us"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k21_rdim_A>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k21_rdim_A> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "rdim. A"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k22_s_Baldwin_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k22_s_Baldwin_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "s Baldwin'"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k23_s_n_z_Bir_ndedir_bir_tar>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k23_s_n_z_Bir_ndedir_bir_tar> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sünüz. Bir ... ndedir bir tar"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k24_s_rd_Antrenman_n>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k24_s_rd_Antrenman_n> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "sürdü. Antrenmanın"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k25_tti_As>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k25_tti_As> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tti. As"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k26_t_yor_Dol>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k26_t_yor_Dol> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "tıyor. Dol"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k27_ydir_Ve_e_er_d_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k27_ydir_Ve_e_er_d_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ydir. Ve eğer düş"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k28_zegen_Bu>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k28_zegen_Bu> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "zegen. Bu"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k29__r_yor_G_rd_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k29__r_yor_G_rd_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "örüyor. Gördüğü"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k2__CalPERS_di_e>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k2__CalPERS_di_e> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "? CalPERS, diğe"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k30__il_mi_Devam>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k30__il_mi_Devam> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ğil mi? Devam"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k31__yorlar_Bir_rnek_bizim_i_in_o>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k31__yorlar_Bir_rnek_bizim_i_in_o> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "ıyorlar? Bir örnek bizim için ço"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k3_Bunun_hak>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k3_Bunun_hak> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Bunun hak"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k4_Hem>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k4_Hem> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Hem"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k5_NONE>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k5_NONE> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "NONE"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k6_Peki>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k6_Peki> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Peki"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k7_Peki_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k7_Peki_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Peki,"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k8_Sonu_olarak>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k8_Sonu_olarak> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Sonuç olarak"@tr
+    ] .
+
+<http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k9_T>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Turkish/k9_T> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "T"@tr
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k21_rdim_A> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k28_zegen_Bu> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k23_s_n_z_Bir_ndedir_bir_tar> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k5_NONE> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k22_s_Baldwin_> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k11_al_maz_Bun> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k13_du_Pek> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k14_emek_Yapabili> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k24_s_rd_Antrenman_n> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k8_Sonu_olarak> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k20_r_Us> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k7_Peki_> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k29__r_yor_G_rd_> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k15_erekiyor_Ancak> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k2__CalPERS_di_e> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k17_g_t_rebilir_Bunun_en_etkili_rnek> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k26_t_yor_Dol> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k12_ar_G_n_b> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k6_Peki> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k19_r_Se> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k9_T> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k31__yorlar_Bir_rnek_bizim_i_in_o> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k4_Hem> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k10_Yapra> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k18_i_Boston_da> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k1__Ve_bu_y> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k27_ydir_Ve_e_er_d_> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k28_zegen_Bu> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k25_tti_As> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k16_e_il_mi_Di_er_bir_rnek_d> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k30__il_mi_Devam> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k3_Bunun_hak> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k5_NONE> ;
+    ontolex:reference pdtb:specification .
+
