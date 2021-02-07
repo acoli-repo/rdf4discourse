@@ -29,9 +29,12 @@ for file in `find $UNLINKED | egrep 'ttl$'`; do
 	
 	echo $lang $file 1>&2
 	
+	# linking
 	$UPDATE --data=$file --update=link.sparql --dump | \
 	sort -u | \
-	$RAPPER -i turtle -o turtle - file:$file \
+	$RAPPER -i turtle -o turtle - file:$file \ |
+	\
+	# publication: move to 
 	> $lang/`basename $file`
 	
 	if egrep -m 1 'ontolex.reference' $lang/`basename $file` >&/dev/null; then

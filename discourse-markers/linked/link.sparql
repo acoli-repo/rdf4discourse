@@ -2,30 +2,17 @@ PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
 PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
 PREFIX pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-CREATE GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
-
-LOAD <http://purl.org/olia/discourse/discourse.PDTB.owl>; # INTO GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
-
-# prep PDTB2
-INSERT {
-	?sense rdfs:label ?label
-} WHERE {
-	#GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl> {
-		?sense rdfs:subClassOf+ pdtb:Sense.
-		BIND(replace(replace(str(?sense),'.*[/#]',''),'([a-z])([A-Z])','$1 $2') AS ?label)
-	#}
-};
-
-#DROP GRAPH <http://purl.org/olia/discourse/discourse.PDTB.owl>;
+#LOAD <http://purl.org/olia/discourse/discourse.PDTB.owl>; 
+LOAD <file:///C:/Users/chiarcos/Desktop/olia/trunk/owl/experimental/discourse/discourse.PDTB.owl>;
 
 INSERT {
-	?a ontolex:reference ?sense.
+        ?dimlex_relation ontolex:reference ?pdtb_sense.
 } WHERE {
-	?a dimlex:sense ?string.
-	BIND(replace(?string,'.*[^a-zA-Z ]','') AS ?label)
-	?sense rdfs:label ?sense_label.
-	FILTER(lcase(?label)=lcase(?sense_label))
+        ?dimlex_relation dimlex:sense ?label.
+        ?pdtb_sense (rdfs:label|skos:altLabel) ?sense_label.
+        FILTER(lcase(?label)=lcase(?sense_label))
 };
 
 MOVE DEFAULT TO <http://placehold.er>;
