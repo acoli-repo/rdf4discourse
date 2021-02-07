@@ -5,10 +5,11 @@ for every converted OntoLex discourse marker inventory
 - match dimlex:sense against PDTB labels
 - create ontolex:reference between OntoLex sense and PDTB concept
 - return OntoLex propertys or classes, prune everything else
+- manually added machine-readable license information 
 
 ## known issues
 
-machine-readable license information (to be manually added)
+add attribution information
 
 ## history
 

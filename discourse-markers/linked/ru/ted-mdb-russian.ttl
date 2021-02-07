@@ -6,6 +6,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl> a lime:Lexicon; 
+	lime:entry
+<http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k11__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k12__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k13__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k14__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k15__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k16__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k17__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k18__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k19__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k1__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k20__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k21__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k2__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k3__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k4__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k5__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k6__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k7__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k8__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k9__>;
+dct:license <http://creativecommons.org/licenses/by/4.0/>.
 
 <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__>
     a ontolex:LexicalEntry ;

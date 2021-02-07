@@ -6,6 +6,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+
+<http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl> a lime:Lexicon; 
+	lime:entry
+ <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k10_Tak_jak>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k11_W_skr_cie>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k12_em_ES>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k1_A_po_tym>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k2_Cz>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k3_Czym>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k4_Dop_ki>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k5_ESG>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k6_Jes>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k7_Je_li_to>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k8_Odk_d>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k9_Podobnie_jak>;
+       dct:license <http://creativecommons.org/licenses/by/4.0/>.
+
 
 <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k10_Tak_jak>
     a ontolex:LexicalEntry ;

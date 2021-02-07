@@ -6,6 +6,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+
+<http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl> a lime:Lexicon; 
+	lime:entry
+<http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k10_It_s_like>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k11_NONE>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k12_Now>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k13_On_the_one_hand_but>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k14_One_example_is_near_and_dear_to_our_hearts>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k15_One_of_the_most_vivid_examples_of_this_comes>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k16_See>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k17_That_s_the_equivalent_of>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k18_That_s_why>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k19_The_reason_was>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k1_Are>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k20_This_is_why>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k21_Until>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k22_Where>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k23_Who_here_knows>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k24_Years_have_passed>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k2_Do>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k3_Even>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k4_Even_if>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k5_I_mean>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k6_If_if>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k7_It_does_not_matter>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k8_It_means>, <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k9_It_would_be_the_same_thing> ;
+             dct:license <http://creativecommons.org/licenses/by/4.0/>.
 
 <http://purl.org/acoli/dimlex/en/ted-mdb-english.ttl/k10_It_s_like>
     a ontolex:LexicalEntry ;
