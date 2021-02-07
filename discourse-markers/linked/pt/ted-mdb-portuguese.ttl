@@ -1,0 +1,303 @@
+@base <https://github.com/MurathanKurfali/Ted-MDB-Annotations/tree/master/Portuguese> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <../../../../discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl> a lime:Lexicon; 
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/MurathanKurfali/Ted-MDB-Annotations>;
+	rdfs:comment """attribution of the source data:
+	
+    @article{zeyrek2019ted,
+      title={TED Multilingual Discourse Bank (TED-MDB): a parallel corpus annotated in the PDTB style},
+      author={Zeyrek, Deniz and Mendes, Amalia and Grishina, Yulia and Kurfali, Murathan and Gibbon, Samuel and Ogrodniczuk,    Maciej},
+      journal={Language Resources and Evaluation},
+      pages={1--38},
+      year={2019},
+      publisher={Springer}
+    }
+
+    @inproceedings{zeyrek2018multilingual,
+      title={Multilingual Extension of PDTB-Style Annotation: The Case of TED Multilingual Discourse Bank.},
+      author={Zeyrek, Deniz and Mendes, Amalia and Kurfali, Murathan},
+      booktitle={LREC},
+      year={2018}
+    }
+
+	""" ;
+	lime:entry
+	<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k10_Para_que_percebam_melhor>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k11_Por_outras_palavras>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k12_Por_um_lado_mas_tamb_m>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k13_Porque_que>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k14_Porqu_>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k15_Quem>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k16_Resumindo>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k17_Se_ent_o>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k18_Seria_o_mesmo>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k19_Temos_um_exemplo_bem_perto_que_nos_muito_querido>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k1__N_o_importa>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k20_Um_de_os_exemplos_mais_vivos_de_isso_aparece>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k21_isto_>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k22__como>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k2_A_raz_o_era_que>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k3_At_>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k4_Da_mesma_forma>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k5_E_se>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k6_Esta_a_raz_o_por_que>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k7_Isso_significa>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k8_Isto_equivale_a>, <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k9_O_que_que>
+	;
+dct:license <http://creativecommons.org/licenses/by/4.0/>.
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k10_Para_que_percebam_melhor>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k10_Para_que_percebam_melhor> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Para que percebam melhor"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k11_Por_outras_palavras>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k11_Por_outras_palavras> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Por outras palavras"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k12_Por_um_lado_mas_tamb_m>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k12_Por_um_lado_mas_tamb_m> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Por um lado ... mas também"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k13_Porque_que>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k13_Porque_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Porque é que"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k14_Porqu_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k14_Porqu_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Porquê"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k15_Quem>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k15_Quem> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Quem"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k16_Resumindo>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k16_Resumindo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Resumindo"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k17_Se_ent_o>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k17_Se_ent_o> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Se ... então"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k18_Seria_o_mesmo>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k18_Seria_o_mesmo> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Seria o mesmo"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k19_Temos_um_exemplo_bem_perto_que_nos_muito_querido>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k19_Temos_um_exemplo_bem_perto_que_nos_muito_querido> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Temos um exemplo bem perto que nos é muito querido"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k1__N_o_importa>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k1__N_o_importa> ;
+    ontolex:otherForm [
+        ontolex:writtenRep ". Não importa"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k20_Um_de_os_exemplos_mais_vivos_de_isso_aparece>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k20_Um_de_os_exemplos_mais_vivos_de_isso_aparece> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Um de_ os exemplos mais vivos de_ isso aparece"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k21_isto_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k21_isto_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "isto È"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k22__como>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k22__como> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "É como"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k2_A_raz_o_era_que>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k2_A_raz_o_era_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "A razão ... era que"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k3_At_>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k3_At_> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Até"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k4_Da_mesma_forma>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k4_Da_mesma_forma> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Da mesma forma"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k5_E_se>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k5_E_se> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "E se"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k6_Esta_a_raz_o_por_que>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k6_Esta_a_raz_o_por_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Esta é a razão por que"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k7_Isso_significa>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k7_Isso_significa> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Isso significa"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k8_Isto_equivale_a>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k8_Isto_equivale_a> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "Isto equivale a"@pt
+    ] .
+
+<http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k9_O_que_que>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <Portuguese/k9_O_que_que> ;
+    ontolex:otherForm [
+        ontolex:writtenRep "O que é que"@pt
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k16_Resumindo> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k12_Por_um_lado_mas_tamb_m> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k19_Temos_um_exemplo_bem_perto_que_nos_muito_querido> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k20_Um_de_os_exemplos_mais_vivos_de_isso_aparece> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k4_Da_mesma_forma> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k2_A_raz_o_era_que> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k5_E_se> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k8_Isto_equivale_a> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k18_Seria_o_mesmo> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k13_Porque_que> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k3_At_> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k9_O_que_que> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k1__N_o_importa> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k7_Isso_significa> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k14_Porqu_> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k22__como> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k11_Por_outras_palavras> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k10_Para_que_percebam_melhor> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k21_isto_> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k15_Quem> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k17_Se_ent_o> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/pt/ted-mdb-portuguese.ttl/k6_Esta_a_raz_o_por_que> ;
+    ontolex:reference pdtb:reason .
+
