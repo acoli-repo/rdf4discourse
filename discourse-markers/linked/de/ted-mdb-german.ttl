@@ -8,8 +8,32 @@
 @prefix : <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
 
 <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl> a lime:Lexicon; 
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/MurathanKurfali/Ted-MDB-Annotations>;
+	rdfs:comment """attribution of the source data:
+	
+    @article{zeyrek2019ted,
+      title={TED Multilingual Discourse Bank (TED-MDB): a parallel corpus annotated in the PDTB style},
+      author={Zeyrek, Deniz and Mendes, Amalia and Grishina, Yulia and Kurfali, Murathan and Gibbon, Samuel and Ogrodniczuk,    Maciej},
+      journal={Language Resources and Evaluation},
+      pages={1--38},
+      year={2019},
+      publisher={Springer}
+    }
+
+    @inproceedings{zeyrek2018multilingual,
+      title={Multilingual Extension of PDTB-Style Annotation: The Case of TED Multilingual Discourse Bank.},
+      author={Zeyrek, Deniz and Mendes, Amalia and Kurfali, Murathan},
+      booktitle={LREC},
+      year={2018}
+    }
+
+	""";
 	lime:entry
 <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k10_Eines_der_anschaulichsten_Beispiele_ist>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k11_Es_ist_wie>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k12_Ganz_gleich>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k13_Ich_meine>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k14_In_diesem_Moment>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k15_Insbesondere_wenn>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k16_Kurz_gesagt>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k17_Nachdem>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k18_Schlussendlich>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k19_Sie_kennen_das_alle>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k1_Am_Ende_der_bung>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k20_Um_zu>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k21_Und_deshalb>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k22_Und_sogar>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k23_Vielmehr>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k24_Warum>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k25_Was>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k26_Wie_oft>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k27_Wie_viele>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k28_Zack>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k29_Zugegeben>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k2_Dadurch>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k30_in_dieser_Zeit>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k31_mit_anderen_Worten>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k3_Darauf_gibt_es_so_viele_Antworten_wie_Menschen_die_dieses_Leben_f_hren_aber_Herumreisende_antworten_oft_mit_einem_Wort>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k4_Darum_weil>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k5_Der_Grund_waren>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k6_Die_Antwort_ist_ganz_einfach>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k7_Die_Jahre_sind_vergangen>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k8_Durch>, <http://purl.org/acoli/dimlex/de/ted-mdb-german.ttl/k9_Ein_Beispiel_geht_uns_besonders_zu_Herzen> ;
              dct:license <http://creativecommons.org/licenses/by/4.0/>.

@@ -8,8 +8,31 @@
 @prefix : <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl> a lime:Lexicon; 
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/MurathanKurfali/Ted-MDB-Annotations>;
+	rdfs:comment """attribution of the source data:
+	
+    @article{zeyrek2019ted,
+      title={TED Multilingual Discourse Bank (TED-MDB): a parallel corpus annotated in the PDTB style},
+      author={Zeyrek, Deniz and Mendes, Amalia and Grishina, Yulia and Kurfali, Murathan and Gibbon, Samuel and Ogrodniczuk,    Maciej},
+      journal={Language Resources and Evaluation},
+      pages={1--38},
+      year={2019},
+      publisher={Springer}
+    }
+
+    @inproceedings{zeyrek2018multilingual,
+      title={Multilingual Extension of PDTB-Style Annotation: The Case of TED Multilingual Discourse Bank.},
+      author={Zeyrek, Deniz and Mendes, Amalia and Kurfali, Murathan},
+      booktitle={LREC},
+      year={2018}
+    }
+
+	""";
 	lime:entry
 <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k10_Yapra>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k11_al_maz_Bun>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k12_ar_G_n_b>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k13_du_Pek>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k14_emek_Yapabili>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k15_erekiyor_Ancak>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k16_e_il_mi_Di_er_bir_rnek_d>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k17_g_t_rebilir_Bunun_en_etkili_rnek>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k18_i_Boston_da>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k19_r_Se>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k1__Ve_bu_y>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k20_r_Us>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k21_rdim_A>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k22_s_Baldwin_>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k23_s_n_z_Bir_ndedir_bir_tar>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k24_s_rd_Antrenman_n>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k25_tti_As>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k26_t_yor_Dol>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k27_ydir_Ve_e_er_d_>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k28_zegen_Bu>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k29__r_yor_G_rd_>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k2__CalPERS_di_e>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k30__il_mi_Devam>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k31__yorlar_Bir_rnek_bizim_i_in_o>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k3_Bunun_hak>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k4_Hem>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k5_NONE>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k6_Peki>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k7_Peki_>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k8_Sonu_olarak>, <http://purl.org/acoli/dimlex/tr/ted-mdb-turkish.ttl/k9_T>;
 dct:license <http://creativecommons.org/licenses/by/4.0/>.

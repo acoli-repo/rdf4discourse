@@ -8,8 +8,35 @@
 @prefix : <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl> a lime:Lexicon; 
+
+
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/MurathanKurfali/Ted-MDB-Annotations>;
+	rdfs:comment """attribution of the source data:
+	
+    @article{zeyrek2019ted,
+      title={TED Multilingual Discourse Bank (TED-MDB): a parallel corpus annotated in the PDTB style},
+      author={Zeyrek, Deniz and Mendes, Amalia and Grishina, Yulia and Kurfali, Murathan and Gibbon, Samuel and Ogrodniczuk,    Maciej},
+      journal={Language Resources and Evaluation},
+      pages={1--38},
+      year={2019},
+      publisher={Springer}
+    }
+
+    @inproceedings{zeyrek2018multilingual,
+      title={Multilingual Extension of PDTB-Style Annotation: The Case of TED Multilingual Discourse Bank.},
+      author={Zeyrek, Deniz and Mendes, Amalia and Kurfali, Murathan},
+      booktitle={LREC},
+      year={2018}
+    }
+
+	""";
+
+
 	lime:entry
 <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k10__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k11__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k12__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k13__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k14__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k15__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k16__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k17__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k18__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k19__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k1__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k20__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k21__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k2__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k3__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k4__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k5__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k6__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k7__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k8__>, <http://purl.org/acoli/dimlex/ru/ted-mdb-russian.ttl/k9__>;
 dct:license <http://creativecommons.org/licenses/by/4.0/>.

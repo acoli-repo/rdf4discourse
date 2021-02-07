@@ -6,6 +6,7 @@ for every converted OntoLex discourse marker inventory
 - create ontolex:reference between OntoLex sense and PDTB concept
 - return OntoLex propertys or classes, prune everything else
 - manually added machine-readable license information 
+- attribution information added
 
 ## known issues
 

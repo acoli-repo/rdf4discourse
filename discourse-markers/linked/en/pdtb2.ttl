@@ -6,6 +6,55 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <http://purl.org/acoli/dimlex/en/pdtb2.ttl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://purl.org/acoli/dimlex/en/pdtb2.ttl> a lime:Lexicon; 
+
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/discourse-lab/Connective-Lex.info/tree/master/Original%20lexicons/PDTB-DiMLex>,<https://catalog.ldc.upenn.edu/LDC2008T05>, <https://www.cis.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf>;
+	rdfs:comment """
+	According to its name, this seems to be a plain excerpt of the PDTB 2.0 corpus, as also provided in the appendix of the manual (https://catalog.ldc.upenn.edu/LDC2008T05).
+	As this is a literature excerpt, we consider this to be a non-literal quite, and its copyright is thus unproblematic.
+	
+	A further enriched version is the English Discourse Marker Lexicon v. 1.0 available from http://connective-lex.info/. We copy attribution information below and adopt the same version. Also, the attribution information is given below, but unless confirmation for any extension in this data, the recommended attribution is to the PDTB 2 corpus manual:
+	
+		The PDTB Research Group. 2008. The PDTB 2.0. Annotation Manual. Technical Report IRCS-08-01. Institute for Research in Cognitive Science, University of Pennsylvania, https://www.cis.upenn.edu/~pdtb/PDTBAPI/pdtb-annotation-manual.pdf.
+	
+	ATtribution information for the Eng-DimLex:
+	
+	Eng-DiMLex
+
+		English Discourse Marker Lexicon v. 1.0
+
+		The information in this lexicon has been extracted from the Penn Discourse Treebank 2.0 corpus and the RST Signalling Corpus.
+
+		Released 2018-09-14 by Universität Potsdam, Department of Linguistics
+
+		Language: English (en-US)
+
+		Homepage: https://github.com/discourse-lab/en_dimlex/blob/master/en_dimlex.xml
+
+		License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+
+		First released: 2016
+
+		Authors:
+
+			Tatjana Scheffler, Universität Potsdam, Department of Linguistics
+
+		Publications:
+
+			Debopam Das, Tatjana Scheffler, Peter Bourgonje and Manfred Stede. Constructing a Lexicon of English Discourse Connectives. In: K. Komatani, D. Litman, K. Yu, A. Papangelis, L. Cavedon, M. Nakano (eds.): Proceedings of the 19th Annual SIGdial Meeting on Discourse and Dialogue. Melbourne, Australia , July 2018
+
+	""";
+	dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+	lime:entry
+ <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#100_on_the_one_hand_on_the_other_hand>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#10_previously>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#11_when>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#12_and>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#13_so>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#14_then>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#15_while>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#16_as_long_as>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#17_however>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#18_also>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#19_after>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#1_although>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#20_separately>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#21_still>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#22_so_that>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#23_or>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#24_moreover>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#25_in_addition>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#26_instead>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#27_on_the_other_hand>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#28_as>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#29_for_instance>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#2_though>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#30_nonetheless>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#31_unless>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#32_meanwhile>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#33_yet>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#34_since>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#35_rather>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#36_in_fact>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#37_indeed>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#38_later>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#39_ultimately>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#3_but>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#40_as_a_result>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#41_either_or>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#42_therefore>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#43_in_turn>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#44_thus>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#45_in_particular>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#46_further>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#47_afterward>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#48_next>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#49_similarly>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#4_because>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#50_besides>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#51_if_and_when>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#52_nor>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#53_alternatively>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#54_whereas>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#55_overall>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#56_by_comparison>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#57_till>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#58_in_contrast>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#59_finally>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#5_nevertheless>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#60_otherwise>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#61_as_if>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#62_thereby>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#63_now_that>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#64_before_and_after>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#65_additionally>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#66_meantime>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#67_by_contrast>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#68_if_then>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#69_likewise>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#6_before>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#70_in_the_end>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#71_regardless>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#72_thereafter>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#73_earlier>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#74_in_other_words>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#75_as_soon_as>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#76_except>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#77_in_short>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#78_neither_nor>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#79_furthermore>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#7_for_example>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#80_lest>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#81_as_though>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#82_specifically>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#83_conversely>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#84_consequently>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#85_as_well>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#86_much_as>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#87_plus>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#88_And>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#89_hence>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#8_until>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#90_by_then>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#91_accordingly>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#92_on_the_contrary>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#93_simultaneously>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#94_for>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#95_in_sum>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#96_when_and_if>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#97_insofar_as>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#98_else>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#99_as_an_alternative>, <http://purl.org/acoli/dimlex/en/pdtb2.ttl#9_if> .
 
 <http://purl.org/acoli/dimlex/en/pdtb2.ttl#0_once>
     a ontolex:LexicalEntry ;

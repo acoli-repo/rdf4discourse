@@ -8,8 +8,33 @@
 @prefix : <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl> a lime:Lexicon; 
+
+
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://github.com/MurathanKurfali/Ted-MDB-Annotations>;
+	rdfs:comment """attribution of the source data:
+	
+    @article{zeyrek2019ted,
+      title={TED Multilingual Discourse Bank (TED-MDB): a parallel corpus annotated in the PDTB style},
+      author={Zeyrek, Deniz and Mendes, Amalia and Grishina, Yulia and Kurfali, Murathan and Gibbon, Samuel and Ogrodniczuk,    Maciej},
+      journal={Language Resources and Evaluation},
+      pages={1--38},
+      year={2019},
+      publisher={Springer}
+    }
+
+    @inproceedings{zeyrek2018multilingual,
+      title={Multilingual Extension of PDTB-Style Annotation: The Case of TED Multilingual Discourse Bank.},
+      author={Zeyrek, Deniz and Mendes, Amalia and Kurfali, Murathan},
+      booktitle={LREC},
+      year={2018}
+    }
+
+	""";
 	lime:entry
  <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k10_Tak_jak>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k11_W_skr_cie>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k12_em_ES>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k1_A_po_tym>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k2_Cz>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k3_Czym>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k4_Dop_ki>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k5_ESG>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k6_Jes>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k7_Je_li_to>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k8_Odk_d>, <http://purl.org/acoli/dimlex/pl/ted-mdb-polish.ttl/k9_Podobnie_jak>;
        dct:license <http://creativecommons.org/licenses/by/4.0/>.
