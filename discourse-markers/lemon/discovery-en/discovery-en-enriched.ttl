@@ -1,0 +1,1707 @@
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://raw.githubusercontent.com/synapse-developpement/Discovery/master/data/markers_list.txt#>
+
+:absolutely
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "absolutely"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, yet, otherwise"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7942460775375366"; a ontolex:LexicalSense; ontolex:isSenseOf :absolutely ] ] ] .
+
+:accordingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "accordingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :accordingly ] ] ] .
+
+:actually
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "actually"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9451425075531006"; a ontolex:LexicalSense; ontolex:isSenseOf :actually ] ] ] .
+
+:additionally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "additionally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :additionally ] ] ] .
+
+:admittedly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "admittedly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from nonetheless, otherwise"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.528336763381958"; a ontolex:LexicalSense; ontolex:isSenseOf :admittedly ] ] ] .
+
+:afterward
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "afterward"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :afterward ] ] ] .
+
+:again
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "again"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from finally, then, but, later, in the end, next, however"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.9636514782905579"; a ontolex:LexicalSense; ontolex:isSenseOf :again ] ] ] .
+
+:already
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "already"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from still, though, but, although, yet, on the other hand, however, previously"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.9274515509605408"; a ontolex:LexicalSense; ontolex:isSenseOf :already ] ] ] .
+
+:also
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "also"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :also],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :also],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :also ] ] ] .
+
+:alternately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "alternately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.5838769674301147"; a ontolex:LexicalSense; ontolex:isSenseOf :alternately ] ] ] .
+
+:alternatively
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "alternatively"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :alternatively ] ] ] .
+
+:although
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "although"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :although],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :although],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :although],
+				 [dimlex:sense "EXPANSION:Exception"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :although ] ] ] .
+
+:altogether
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "altogether"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from otherwise, instead"; dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "0.75328129529953"; a ontolex:LexicalSense; ontolex:isSenseOf :altogether ] ] ] .
+
+:amazingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "amazingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.5549497008323669"; a ontolex:LexicalSense; ontolex:isSenseOf :amazingly ] ] ] .
+
+:and
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "and"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "CONTINGENCY:Condition"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :and ] ] ] .
+
+:anyway
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "anyway"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8698139786720276"; a ontolex:LexicalSense; ontolex:isSenseOf :anyway ] ] ] .
+
+:apparently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "apparently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from but, though, still, yet, although, however, on the other hand, on the contrary"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8210716247558594"; a ontolex:LexicalSense; ontolex:isSenseOf :apparently ] ] ] .
+
+:arguably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "arguably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from yet, indeed, nonetheless, though"; dimlex:sense "COMPARISON"; dimlex:confidence "0.6236839890480042"; a ontolex:LexicalSense; ontolex:isSenseOf :arguably ] ] ] .
+
+:as%20a%20result
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "as a result"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :as%20a%20result ] ] ] .
+
+:basically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "basically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, still, yet"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8324436545372009"; a ontolex:LexicalSense; ontolex:isSenseOf :basically ] ] ] .
+
+:because%20of%20that
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "because of that"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from as a result"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9512403011322021"; a ontolex:LexicalSense; ontolex:isSenseOf :because%20of%20that ] ] ] .
+
+:because%20of%20this
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "because of this"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from as a result"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9660096764564514"; a ontolex:LexicalSense; ontolex:isSenseOf :because%20of%20this ] ] ] .
+
+:besides
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "besides"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :besides],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :besides ] ] ] .
+
+:but
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "but"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "EXPANSION:Exception"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "EXPANSION:Substitution"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :but ] ] ] .
+
+:by%20comparison
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "by comparison"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20comparison],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20comparison ] ] ] .
+
+:by%20contrast
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "by contrast"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20contrast ] ] ] .
+
+:by%20doing%20this
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "by doing this"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from but, as a result"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9466925859451294"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20doing%20this ] ] ] .
+
+:by%20then
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "by then"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20then],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Succession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20then],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :by%20then ] ] ] .
+
+:certainly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "certainly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8924592733383179"; a ontolex:LexicalSense; ontolex:isSenseOf :certainly ] ] ] .
+
+:clearly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "clearly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, nevertheless"; dimlex:sense "COMPARISON"; dimlex:confidence "0.917680561542511"; a ontolex:LexicalSense; ontolex:isSenseOf :clearly ] ] ] .
+
+:coincidentally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "coincidentally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from later, thereafter"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.4804344177246094"; a ontolex:LexicalSense; ontolex:isSenseOf :coincidentally ] ] ] .
+
+:collectively
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "collectively"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from likewise"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.675777018070221"; a ontolex:LexicalSense; ontolex:isSenseOf :collectively ] ] ] .
+
+:consequently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "consequently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :consequently ] ] ] .
+
+:conversely
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "conversely"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :conversely ] ] ] .
+
+:curiously
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "curiously"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.5891993045806885"; a ontolex:LexicalSense; ontolex:isSenseOf :curiously ] ] ] .
+
+:currently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "currently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from also, for example"; dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "0.7922055721282959"; a ontolex:LexicalSense; ontolex:isSenseOf :currently ] ] ] .
+
+:elsewhere
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "elsewhere"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from further"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7719246745109558"; a ontolex:LexicalSense; ontolex:isSenseOf :elsewhere ] ] ] .
+
+:especially
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "especially"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from besides, though"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8632262945175171"; a ontolex:LexicalSense; ontolex:isSenseOf :especially ] ] ] .
+
+:essentially
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "essentially"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, though"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8738989233970642"; a ontolex:LexicalSense; ontolex:isSenseOf :essentially ] ] ] .
+
+:eventually
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "eventually"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from finally, then, ultimately, later, however"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.9206749796867371"; a ontolex:LexicalSense; ontolex:isSenseOf :eventually ] ] ] .
+
+:evidently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "evidently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, nevertheless"; dimlex:sense "COMPARISON"; dimlex:confidence "0.7754015326499939"; a ontolex:LexicalSense; ontolex:isSenseOf :evidently ] ] ] .
+
+:finally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "finally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :finally],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :finally],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :finally ] ] ] .
+
+:first
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "first"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from in the end, in contrast"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8691617250442505"; a ontolex:LexicalSense; ontolex:isSenseOf :first ] ] ] .
+
+:firstly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "firstly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from accordingly"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.5471199750900269"; a ontolex:LexicalSense; ontolex:isSenseOf :firstly ] ] ] .
+
+:for%20example
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "for example"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :for%20example],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :for%20example ] ] ] .
+
+:for%20instance
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "for instance"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :for%20instance ] ] ] .
+
+:fortunately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "fortunately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, otherwise, yet"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6981908679008484"; a ontolex:LexicalSense; ontolex:isSenseOf :fortunately ] ] ] .
+
+:frankly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "frankly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, yet, nonetheless, nevertheless"; dimlex:sense "COMPARISON"; dimlex:confidence "0.7117139101028442"; a ontolex:LexicalSense; ontolex:isSenseOf :frankly ] ] ] .
+
+:frequently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "frequently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7854563593864441"; a ontolex:LexicalSense; ontolex:isSenseOf :frequently ] ] ] .
+
+:further
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "further"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :further ] ] ] .
+
+:furthermore
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "furthermore"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :furthermore ] ] ] .
+
+:generally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "generally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.9093990921974182"; a ontolex:LexicalSense; ontolex:isSenseOf :generally ] ] ] .
+
+:gradually
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "gradually"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from thus"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.7314487099647522"; a ontolex:LexicalSense; ontolex:isSenseOf :gradually ] ] ] .
+
+:happily
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "happily"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from afterward"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.6236702799797058"; a ontolex:LexicalSense; ontolex:isSenseOf :happily ] ] ] .
+
+:hence
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "hence"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :hence ] ] ] .
+
+:here
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "here"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from still, but, next"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.8406650424003601"; a ontolex:LexicalSense; ontolex:isSenseOf :here ] ] ] .
+
+:historically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "historically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.793616533279419"; a ontolex:LexicalSense; ontolex:isSenseOf :historically ] ] ] .
+
+:honestly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "honestly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from regardless"; dimlex:sense "COMPARISON:Concession"; dimlex:confidence "0.5990275144577026"; a ontolex:LexicalSense; ontolex:isSenseOf :honestly ] ] ] .
+
+:hopefully
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "hopefully"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from yet, next"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6618966460227966"; a ontolex:LexicalSense; ontolex:isSenseOf :hopefully ] ] ] .
+
+:however
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "however"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :however],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :however],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :however],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :however ] ] ] .
+
+:ideally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "ideally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from therefore"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.6160609722137451"; a ontolex:LexicalSense; ontolex:isSenseOf :ideally ] ] ] .
+
+:immediately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "immediately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from then, however, later"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.8432909846305847"; a ontolex:LexicalSense; ontolex:isSenseOf :immediately ] ] ] .
+
+:importantly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "importantly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from moreover"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7659546136856079"; a ontolex:LexicalSense; ontolex:isSenseOf :importantly ] ] ] .
+
+:in%20contrast
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in contrast"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20contrast ] ] ] .
+
+:in%20fact
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in fact"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20fact ] ] ] .
+
+:in%20other%20words
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in other words"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Equivalence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20other%20words],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20other%20words],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20other%20words ] ] ] .
+
+:in%20particular
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in particular"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20particular],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20particular ] ] ] .
+
+:in%20short
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in short"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20short ] ] ] .
+
+:in%20sum
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in sum"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20sum ] ] ] .
+
+:in%20the%20end
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in the end"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20end ] ] ] .
+
+:in%20the%20meantime
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in the meantime"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from in the end, in contrast"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.9530330896377563"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20the%20meantime ] ] ] .
+
+:in%20turn
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "in turn"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20turn],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20turn],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20turn],
+				 [dimlex:sense "TEMPORAL:Asynchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20turn],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :in%20turn ] ] ] .
+
+:incidentally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "incidentally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from alternatively"; dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "0.5105367302894592"; a ontolex:LexicalSense; ontolex:isSenseOf :incidentally ] ] ] .
+
+:increasingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "increasingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7645801305770874"; a ontolex:LexicalSense; ontolex:isSenseOf :increasingly ] ] ] .
+
+:indeed
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "indeed"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "CONTINGENCY:Cause"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION:Equivalence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION:Instantiation"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :indeed ] ] ] .
+
+:inevitably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "inevitably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, rather"; dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "0.7370019555091858"; a ontolex:LexicalSense; ontolex:isSenseOf :inevitably ] ] ] .
+
+:initially
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "initially"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from previously, although"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.9079487919807434"; a ontolex:LexicalSense; ontolex:isSenseOf :initially ] ] ] .
+
+:instead
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "instead"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :instead],
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :instead],
+				 [dimlex:sense "EXPANSION:Substitution"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :instead ] ] ] .
+
+:interestingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "interestingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from conversely"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.6825213432312012"; a ontolex:LexicalSense; ontolex:isSenseOf :interestingly ] ] ] .
+
+:ironically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "ironically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, though"; dimlex:sense "COMPARISON"; dimlex:confidence "0.7879641652107239"; a ontolex:LexicalSense; ontolex:isSenseOf :ironically ] ] ] .
+
+:lastly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "lastly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from accordingly"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.6302743554115295"; a ontolex:LexicalSense; ontolex:isSenseOf :lastly ] ] ] .
+
+:lately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "lately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from still, though, yet, indeed"; dimlex:sense "COMPARISON"; dimlex:confidence "0.7219720482826233"; a ontolex:LexicalSense; ontolex:isSenseOf :lately ] ] ] .
+
+:later
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "later"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :later],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :later ] ] ] .
+
+:likewise
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "likewise"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :likewise ] ] ] .
+
+:locally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "locally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from additionally"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7252167463302612"; a ontolex:LexicalSense; ontolex:isSenseOf :locally ] ] ] .
+
+:luckily
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "luckily"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from afterward"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.4793314039707184"; a ontolex:LexicalSense; ontolex:isSenseOf :luckily ] ] ] .
+
+:maybe
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "maybe"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8761388659477234"; a ontolex:LexicalSense; ontolex:isSenseOf :maybe ] ] ] .
+
+:meaning
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "meaning"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from hence"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8436521887779236"; a ontolex:LexicalSense; ontolex:isSenseOf :meaning ] ] ] .
+
+:meantime
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "meantime"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meantime],
+				 [dimlex:sense "TEMPORAL:Asynchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meantime],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Succession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meantime],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meantime ] ] ] .
+
+:meanwhile
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "meanwhile"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meanwhile],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meanwhile],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meanwhile],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :meanwhile ] ] ] .
+
+:moreover
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "moreover"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :moreover ] ] ] .
+
+:mostly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "mostly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7673951387405396"; a ontolex:LexicalSense; ontolex:isSenseOf :mostly ] ] ] .
+
+:namely
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "namely"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from furthermore"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7085014581680298"; a ontolex:LexicalSense; ontolex:isSenseOf :namely ] ] ] .
+
+:nationally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "nationally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from additionally"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.634317934513092"; a ontolex:LexicalSense; ontolex:isSenseOf :nationally ] ] ] .
+
+:naturally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "naturally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, therefore"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.7285676598548889"; a ontolex:LexicalSense; ontolex:isSenseOf :naturally ] ] ] .
+
+:nevertheless
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "nevertheless"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nevertheless],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nevertheless],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nevertheless ] ] ] .
+
+:next
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "next"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :next],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :next ] ] ] .
+
+:nonetheless
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "nonetheless"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nonetheless],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nonetheless],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nonetheless],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :nonetheless ] ] ] .
+
+:normally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "normally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, instead, though"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8066343069076538"; a ontolex:LexicalSense; ontolex:isSenseOf :normally ] ] ] .
+
+:notably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "notably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from by comparison, by contrast"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.7979429364204407"; a ontolex:LexicalSense; ontolex:isSenseOf :notably ] ] ] .
+
+:now
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "now"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from still, once"; dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "0.9391729831695557"; a ontolex:LexicalSense; ontolex:isSenseOf :now ] ] ] .
+
+:obviously
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "obviously"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8691195845603943"; a ontolex:LexicalSense; ontolex:isSenseOf :obviously ] ] ] .
+
+:occasionally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "occasionally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from instead, rather, on the other hand"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.7476713061332703"; a ontolex:LexicalSense; ontolex:isSenseOf :occasionally ] ] ] .
+
+:oddly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "oddly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6858950853347778"; a ontolex:LexicalSense; ontolex:isSenseOf :oddly ] ] ] .
+
+:often
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "often"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, though"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.9052397608757019"; a ontolex:LexicalSense; ontolex:isSenseOf :often ] ] ] .
+
+:on%20the%20contrary
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "on the contrary"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :on%20the%20contrary ] ] ] .
+
+:on%20the%20other%20hand
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 dimlex:type "phrasal";
+		 ontolex:writtenRep "on the other hand"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :on%20the%20other%20hand],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :on%20the%20other%20hand],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :on%20the%20other%20hand ] ] ] .
+
+:once
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "once"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Condition"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :once],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Succession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :once],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :once ] ] ] .
+
+:only
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "only"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from but, as a result"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9242712259292603"; a ontolex:LexicalSense; ontolex:isSenseOf :only ] ] ] .
+
+:optionally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "optionally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from alternatively"; dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "0.6939293146133423"; a ontolex:LexicalSense; ontolex:isSenseOf :optionally ] ] ] .
+
+:or
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "or"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "CONTINGENCY:Condition"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "EXPANSION:Equivalence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :or ] ] ] .
+
+:originally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "originally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from previously, although"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8202518224716187"; a ontolex:LexicalSense; ontolex:isSenseOf :originally ] ] ] .
+
+:otherwise
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "otherwise"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :otherwise],
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :otherwise],
+				 [dimlex:sense "EXPANSION:Exception"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :otherwise ] ] ] .
+
+:overall
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "overall"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :overall],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :overall],
+				 [dimlex:sense "EXPANSION:Level-of-detail:Arg1-as-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :overall ] ] ] .
+
+:particularly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "particularly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from though, indeed"; dimlex:sense "COMPARISON"; dimlex:confidence "0.84772789478302"; a ontolex:LexicalSense; ontolex:isSenseOf :particularly ] ] ] .
+
+:perhaps
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "perhaps"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, yet, though"; dimlex:sense "COMPARISON"; dimlex:confidence "0.951697587966919"; a ontolex:LexicalSense; ontolex:isSenseOf :perhaps ] ] ] .
+
+:personally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "personally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from afterward"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.714978814125061"; a ontolex:LexicalSense; ontolex:isSenseOf :personally ] ] ] .
+
+:plus
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "plus"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :plus ] ] ] .
+
+:preferably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "preferably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from or, plus"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.4368751347064972"; a ontolex:LexicalSense; ontolex:isSenseOf :preferably ] ] ] .
+
+:presently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "presently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from additionally"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6726769804954529"; a ontolex:LexicalSense; ontolex:isSenseOf :presently ] ] ] .
+
+:presumably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "presumably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, rather"; dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "0.8302550911903381"; a ontolex:LexicalSense; ontolex:isSenseOf :presumably ] ] ] .
+
+:previously
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "previously"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :previously],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Succession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :previously ] ] ] .
+
+:probably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "probably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from though, indeed"; dimlex:sense "COMPARISON"; dimlex:confidence "0.9272733926773071"; a ontolex:LexicalSense; ontolex:isSenseOf :probably ] ] ] .
+
+:rather
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "rather"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :rather],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :rather],
+				 [dimlex:sense "EXPANSION:Substitution"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :rather ] ] ] .
+
+:realistically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "realistically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, otherwise"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.5092615485191345"; a ontolex:LexicalSense; ontolex:isSenseOf :realistically ] ] ] .
+
+:really
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "really"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9144517779350281"; a ontolex:LexicalSense; ontolex:isSenseOf :really ] ] ] .
+
+:recently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "recently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from by comparison, by contrast"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8646624088287354"; a ontolex:LexicalSense; ontolex:isSenseOf :recently ] ] ] .
+
+:regardless
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "regardless"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :regardless ] ] ] .
+
+:remarkably
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "remarkably"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7591284513473511"; a ontolex:LexicalSense; ontolex:isSenseOf :remarkably ] ] ] .
+
+:sadly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "sadly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, yet, otherwise"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6820111274719238"; a ontolex:LexicalSense; ontolex:isSenseOf :sadly ] ] ] .
+
+:second
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "second"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from in the end, in contrast"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8284764289855957"; a ontolex:LexicalSense; ontolex:isSenseOf :second ] ] ] .
+
+:secondly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "secondly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from accordingly"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.5537368655204773"; a ontolex:LexicalSense; ontolex:isSenseOf :secondly ] ] ] .
+
+:separately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "separately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :separately],
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :separately ] ] ] .
+
+:seriously
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "seriously"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from but, so"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.7197008728981018"; a ontolex:LexicalSense; ontolex:isSenseOf :seriously ] ] ] .
+
+:significantly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "significantly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from moreover"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.8094756007194519"; a ontolex:LexicalSense; ontolex:isSenseOf :significantly ] ] ] .
+
+:similarly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "similarly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :similarly ] ] ] .
+
+:simultaneously
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "simultaneously"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :simultaneously ] ] ] .
+
+:slowly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "slowly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from finally, then, still"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.7321842312812805"; a ontolex:LexicalSense; ontolex:isSenseOf :slowly ] ] ] .
+
+:so
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "so"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Reason"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :so],
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :so ] ] ] .
+
+:sometimes
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "sometimes"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, though"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.9034461379051208"; a ontolex:LexicalSense; ontolex:isSenseOf :sometimes ] ] ] .
+
+:soon
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "soon"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from finally, later, then, however"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.9032621383666992"; a ontolex:LexicalSense; ontolex:isSenseOf :soon ] ] ] .
+
+:specifically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "specifically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :specifically],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :specifically ] ] ] .
+
+:still
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "still"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :still],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :still],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :still],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :still],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :still ] ] ] .
+
+:strangely
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "strangely"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.6300364136695862"; a ontolex:LexicalSense; ontolex:isSenseOf :strangely ] ] ] .
+
+:subsequently
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "subsequently"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from later, thereafter"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.88591068983078"; a ontolex:LexicalSense; ontolex:isSenseOf :subsequently ] ] ] .
+
+:suddenly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "suddenly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from once, still"; dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "0.8092864155769348"; a ontolex:LexicalSense; ontolex:isSenseOf :suddenly ] ] ] .
+
+:supposedly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "supposedly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, rather"; dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "0.7789289951324463"; a ontolex:LexicalSense; ontolex:isSenseOf :supposedly ] ] ] .
+
+:surely
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "surely"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, yet, ultimately"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.844115138053894"; a ontolex:LexicalSense; ontolex:isSenseOf :surely ] ] ] .
+
+:surprisingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "surprisingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from nonetheless, similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7665585875511169"; a ontolex:LexicalSense; ontolex:isSenseOf :surprisingly ] ] ] .
+
+:technically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "technically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from otherwise, similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.7124438285827637"; a ontolex:LexicalSense; ontolex:isSenseOf :technically ] ] ] .
+
+:thankfully
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "thankfully"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from otherwise, indeed, yet"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.4861106872558594"; a ontolex:LexicalSense; ontolex:isSenseOf :thankfully ] ] ] .
+
+:then
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "then"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "CONTINGENCY:Cause:Reason"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "CONTINGENCY:Condition"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "EXPANSION:Disjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then],
+				 [dimlex:sense "TEMPORAL:Synchronous"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :then ] ] ] .
+
+:theoretically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "theoretically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from therefore"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.7436834573745728"; a ontolex:LexicalSense; ontolex:isSenseOf :theoretically ] ] ] .
+
+:thereafter
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "thereafter"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :thereafter],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Succession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :thereafter ] ] ] .
+
+:thereby
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "thereby"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :thereby ] ] ] .
+
+:therefore
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "therefore"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :therefore ] ] ] .
+
+:third
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "third"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from next, in the end, overall"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.8127180933952332"; a ontolex:LexicalSense; ontolex:isSenseOf :third ] ] ] .
+
+:thirdly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "thirdly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from accordingly"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.4239630401134491"; a ontolex:LexicalSense; ontolex:isSenseOf :thirdly ] ] ] .
+
+:this
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "this"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from as a result"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.9381095767021179"; a ontolex:LexicalSense; ontolex:isSenseOf :this ] ] ] .
+
+:though
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "though"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :though],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :though],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :though ] ] ] .
+
+:thus
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "thus"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :thus ] ] ] .
+
+:together
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "together"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from and, on the other hand, instead"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8494391441345215"; a ontolex:LexicalSense; ontolex:isSenseOf :together ] ] ] .
+
+:traditionally
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "traditionally"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from similarly"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.737450122833252"; a ontolex:LexicalSense; ontolex:isSenseOf :traditionally ] ] ] .
+
+:truly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "truly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from yet, rather"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.7791606187820435"; a ontolex:LexicalSense; ontolex:isSenseOf :truly ] ] ] .
+
+:truthfully
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "truthfully"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from afterward"; dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "0.4287850558757782"; a ontolex:LexicalSense; ontolex:isSenseOf :truthfully ] ] ] .
+
+:typically
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "typically"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from or, additionally"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.8333349227905273"; a ontolex:LexicalSense; ontolex:isSenseOf :typically ] ] ] .
+
+:ultimately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "ultimately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "EXPANSION"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :ultimately],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :ultimately],
+				 [dimlex:sense "EXPANSION:Level-of-detail"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :ultimately],
+				 [dimlex:sense "TEMPORAL:Asynchronous:Precedence"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :ultimately ] ] ] .
+
+:undoubtedly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "undoubtedly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from indeed, nevertheless"; dimlex:sense "COMPARISON"; dimlex:confidence "0.8230277299880981"; a ontolex:LexicalSense; ontolex:isSenseOf :undoubtedly ] ] ] .
+
+:unfortunately
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "unfortunately"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from so, but"; dimlex:sense "CONTINGENCY:Cause:Result"; dimlex:confidence "0.8857595920562744"; a ontolex:LexicalSense; ontolex:isSenseOf :unfortunately ] ] ] .
+
+:unsurprisingly
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "unsurprisingly"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from nonetheless, conversely"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.430022656917572"; a ontolex:LexicalSense; ontolex:isSenseOf :unsurprisingly ] ] ] .
+
+:usually
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "usually"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from rather, or, instead"; dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "0.8740627765655518"; a ontolex:LexicalSense; ontolex:isSenseOf :usually ] ] ] .
+
+:well
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "well"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [rdfs:comment "inferred from and, on the other hand, also"; dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "0.941204309463501"; a ontolex:LexicalSense; ontolex:isSenseOf :well ] ] ] .
+
+:yet
+	 a ontolex:LexicalEntry ;
+	 ontolex:canonicalForm [
+		 ontolex:writtenRep "yet"@en];
+	 dimlex:syn [
+		 dimlex:sem [
+			 dimlex:pdtb2_relation
+				 [dimlex:sense "COMPARISON"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :yet],
+				 [dimlex:sense "COMPARISON:Concession"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :yet],
+				 [dimlex:sense "COMPARISON:Contrast"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :yet],
+				 [dimlex:sense "EXPANSION:Conjunction"; dimlex:confidence "1.0"; a ontolex:LexicalSense; ontolex:isSenseOf :yet ] ] ] .
+
