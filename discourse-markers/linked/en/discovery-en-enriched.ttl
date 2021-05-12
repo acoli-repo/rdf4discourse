@@ -6,6 +6,54 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix : <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl> a lime:Lexicon; 
+
+	prov:wasGeneratedBy <http://www.acoli.informatik.uni-frankfurt.de>;
+	dct:source <https://raw.githubusercontent.com/synapse-developpement/Discovery/master/data/markers_list.txt>,<http://purl.org/acoli/dimlex/en/pdtb2.ttl>;
+	rdfs:comment """
+	Automatically induced discourse marker inventory 
+	
+Discourse markers from Discovery : Mining Discourse Markers for Unsupervised Sentence Representation Learning
+
+Original data under https://github.com/synapse-developpement/Discovery, no license given.
+
+Attribution:
+Authors: Damien Sileo, Tim Van de Cruys, Camille Pradel and Philippe Muller
+"Mining Discourse Markers for Unsupervised Sentence Representation Learning"
+NAACL 2019, https://www.aclweb.org/anthology/N19-1351/
+
+Enrichment with sense information by Christian Chiarcos, GU Frankfurt, 2021-05-12 using the existing PDTB OntoLex DimLex and heuristically extrapolating to unseen discourse markers.
+
+Note that the authors do not provide PDTB senses but only a plain list of discourse markers. The original data is thus enriched by a match with the PDTB inventory. For unknown discourse markers, the dominant PDTB3 sense of their distributional context is inferred in the following way:
+
+- if a discourse marker is listed at PDTB, return this analysis, set confidence score to 1.0 and break
+- rank all Discovery discourse markers with respect to their distributional similarity*
+- we initialize the pool of senses with those of the highest-scored discourse marker, initially, these scores are 1 / number of senses
+- if there is a single sense with maximum score, return it and the set of discourse markers consulted so far as "supporters"
+- if there are multiple senses that entertain maximum score, iterate the procedure, add scores for every marker
+- remove all supporters that do not feature the top-ranked sense
+- the resulting score is the cosine distance from the highest-ranking supporter
+
+As a result, every "novel" discourse marker receives a single tentative PDTB3 sense assignment (PDTB1-2 senses are extrapolated on this basis) along with a confidence score < 1.0.
+
+* We calculate distributional similarity as cosine similarity over the GloVe 6B 50d embeddings. Aggregate embeddings for phrasal expressions are determined by average. Lookup is performed with flexible degrees of normalization:
+
+	- Direct lookup; if it fails, then
+	- Direct lookup of lower case form; then
+	- dropping [^a-zA-Z0-9 ]; then
+	- -"- with lowercase; 
+	- then failure
+
+No explicit license information, but the threshold of originality of the original data (which was induced in an unsupervised fashion is probably too low to justify copyright protetion according to German law (§2 UrhG). Re-issued as CC-BY-NC-SA 4.0 with required attribution to the original authors (as this probably captures their intentions.
+	
+	""";
+	dct:license <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+	lime:entry
+:absolutely, :accordingly, :actually, :additionally, :admittedly, :afterward, :again, :already, :also, :alternately, :alternatively, :although, :altogether, :amazingly, :and, :anyway, :apparently, :arguably, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#as%20a%20result>, :basically, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20that>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20this>, :besides, :but, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20comparison>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20contrast>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20doing%20this>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20then>, :certainly, :clearly, :coincidentally, :collectively, :consequently, :conversely, :curiously, :currently, :elsewhere, :especially, :essentially, :eventually, :evidently, :finally, :first, :firstly, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20example>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20instance>, :fortunately, :frankly, :frequently, :further, :furthermore, :generally, :gradually, :happily, :hence, :here, :historically, :honestly, :hopefully, :however, :ideally, :immediately, :importantly, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20contrast>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20other%20words>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20particular>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20short>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20sum>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20meantime>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn>, :incidentally, :increasingly, :indeed, :inevitably, :initially, :instead, :interestingly, :ironically, :lastly, :lately, :later, :likewise, :locally, :luckily, :maybe, :meaning, :meantime, :meanwhile, :moreover, :mostly, :namely, :nationally, :naturally, :nevertheless, :next, :nonetheless, :normally, :notably, :now, :obviously, :occasionally, :oddly, :often, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20contrary>, <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20other%20hand>, :once, :only, :optionally, :or, :originally, :otherwise, :overall, :particularly, :perhaps, :personally, :plus, :preferably, :presently, :presumably, :previously, :probably, :rather, :realistically, :really, :recently, :regardless, :remarkably, :sadly, :second, :secondly, :separately, :seriously, :significantly, :similarly, :simultaneously, :slowly, :so, :sometimes, :soon, :specifically, :still, :strangely, :subsequently, :suddenly, :supposedly, :surely, :surprisingly, :technically, :thankfully, :then, :theoretically, :thereafter, :thereby, :therefore, :third, :thirdly, :this, :though, :thus, :together, :traditionally, :truly, :truthfully, :typically, :ultimately, :undoubtedly, :unfortunately, :unsurprisingly, :usually, :well, :yet .
 
 :absolutely
     a ontolex:LexicalEntry ;
