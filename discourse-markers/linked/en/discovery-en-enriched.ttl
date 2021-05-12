@@ -1,0 +1,2670 @@
+@base <https://raw.githubusercontent.com/synapse-developpement/Discovery/master/data/markers_list.txt> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#> .
+
+:absolutely
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#absolutely> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "absolutely"@en
+    ] .
+
+:accordingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#accordingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "accordingly"@en
+    ] .
+
+:actually
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#actually> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "actually"@en
+    ] .
+
+:additionally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#additionally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "additionally"@en
+    ] .
+
+:admittedly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#admittedly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "admittedly"@en
+    ] .
+
+:afterward
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#afterward> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "afterward"@en
+    ] .
+
+:again
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#again> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "again"@en
+    ] .
+
+:already
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#already> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "already"@en
+    ] .
+
+:also
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#also> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "also"@en
+    ] .
+
+:alternately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#alternately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alternately"@en
+    ] .
+
+:alternatively
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#alternatively> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "alternatively"@en
+    ] .
+
+:although
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#although> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "although"@en
+    ] .
+
+:altogether
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#altogether> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "altogether"@en
+    ] .
+
+:amazingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#amazingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "amazingly"@en
+    ] .
+
+:and
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#and> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "and"@en
+    ] .
+
+:anyway
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#anyway> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "anyway"@en
+    ] .
+
+:apparently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#apparently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "apparently"@en
+    ] .
+
+:arguably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#arguably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "arguably"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#as%20a%20result>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#as%20a%20result> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "as a result"@en
+    ] .
+
+:basically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#basically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "basically"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20that>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#because%20of%20that> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "because of that"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20this>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#because%20of%20this> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "because of this"@en
+    ] .
+
+:besides
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#besides> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "besides"@en
+    ] .
+
+:but
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#but> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "but"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20comparison>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#by%20comparison> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by comparison"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20contrast>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#by%20contrast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by contrast"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20doing%20this>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#by%20doing%20this> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by doing this"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20then>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#by%20then> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "by then"@en
+    ] .
+
+:certainly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#certainly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "certainly"@en
+    ] .
+
+:clearly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#clearly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "clearly"@en
+    ] .
+
+:coincidentally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#coincidentally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "coincidentally"@en
+    ] .
+
+:collectively
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#collectively> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "collectively"@en
+    ] .
+
+:consequently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#consequently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "consequently"@en
+    ] .
+
+:conversely
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#conversely> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "conversely"@en
+    ] .
+
+:curiously
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#curiously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "curiously"@en
+    ] .
+
+:currently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#currently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "currently"@en
+    ] .
+
+:elsewhere
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#elsewhere> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "elsewhere"@en
+    ] .
+
+:especially
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#especially> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "especially"@en
+    ] .
+
+:essentially
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#essentially> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "essentially"@en
+    ] .
+
+:eventually
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#eventually> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "eventually"@en
+    ] .
+
+:evidently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#evidently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "evidently"@en
+    ] .
+
+:finally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#finally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "finally"@en
+    ] .
+
+:first
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#first> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "first"@en
+    ] .
+
+:firstly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#firstly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "firstly"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20example>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#for%20example> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "for example"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20instance>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#for%20instance> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "for instance"@en
+    ] .
+
+:fortunately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#fortunately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "fortunately"@en
+    ] .
+
+:frankly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#frankly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "frankly"@en
+    ] .
+
+:frequently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#frequently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "frequently"@en
+    ] .
+
+:further
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#further> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "further"@en
+    ] .
+
+:furthermore
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#furthermore> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "furthermore"@en
+    ] .
+
+:generally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#generally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "generally"@en
+    ] .
+
+:gradually
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#gradually> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "gradually"@en
+    ] .
+
+:happily
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#happily> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "happily"@en
+    ] .
+
+:hence
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#hence> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hence"@en
+    ] .
+
+:here
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#here> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "here"@en
+    ] .
+
+:historically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#historically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "historically"@en
+    ] .
+
+:honestly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#honestly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "honestly"@en
+    ] .
+
+:hopefully
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#hopefully> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "hopefully"@en
+    ] .
+
+:however
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#however> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "however"@en
+    ] .
+
+:ideally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#ideally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ideally"@en
+    ] .
+
+:immediately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#immediately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "immediately"@en
+    ] .
+
+:importantly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#importantly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "importantly"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20contrast>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20contrast> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in contrast"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20fact> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in fact"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20other%20words>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20other%20words> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in other words"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20particular>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20particular> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in particular"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20short>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20short> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in short"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20sum>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20sum> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in sum"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20the%20end> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in the end"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20meantime>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20the%20meantime> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in the meantime"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#in%20turn> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "in turn"@en
+    ] .
+
+:incidentally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#incidentally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "incidentally"@en
+    ] .
+
+:increasingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#increasingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "increasingly"@en
+    ] .
+
+:indeed
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#indeed> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "indeed"@en
+    ] .
+
+:inevitably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#inevitably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "inevitably"@en
+    ] .
+
+:initially
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#initially> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "initially"@en
+    ] .
+
+:instead
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#instead> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "instead"@en
+    ] .
+
+:interestingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#interestingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "interestingly"@en
+    ] .
+
+:ironically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#ironically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ironically"@en
+    ] .
+
+:lastly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#lastly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "lastly"@en
+    ] .
+
+:lately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#lately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "lately"@en
+    ] .
+
+:later
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#later> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "later"@en
+    ] .
+
+:likewise
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#likewise> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "likewise"@en
+    ] .
+
+:locally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#locally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "locally"@en
+    ] .
+
+:luckily
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#luckily> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "luckily"@en
+    ] .
+
+:maybe
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#maybe> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "maybe"@en
+    ] .
+
+:meaning
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#meaning> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "meaning"@en
+    ] .
+
+:meantime
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#meantime> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "meantime"@en
+    ] .
+
+:meanwhile
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#meanwhile> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "meanwhile"@en
+    ] .
+
+:moreover
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#moreover> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "moreover"@en
+    ] .
+
+:mostly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#mostly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "mostly"@en
+    ] .
+
+:namely
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#namely> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "namely"@en
+    ] .
+
+:nationally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#nationally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nationally"@en
+    ] .
+
+:naturally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#naturally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "naturally"@en
+    ] .
+
+:nevertheless
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#nevertheless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nevertheless"@en
+    ] .
+
+:next
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#next> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "next"@en
+    ] .
+
+:nonetheless
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#nonetheless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "nonetheless"@en
+    ] .
+
+:normally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#normally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "normally"@en
+    ] .
+
+:notably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#notably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "notably"@en
+    ] .
+
+:now
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#now> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "now"@en
+    ] .
+
+:obviously
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#obviously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "obviously"@en
+    ] .
+
+:occasionally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#occasionally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "occasionally"@en
+    ] .
+
+:oddly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#oddly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "oddly"@en
+    ] .
+
+:often
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#often> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "often"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20contrary>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#on%20the%20contrary> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "on the contrary"@en
+    ] .
+
+<http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20other%20hand>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#on%20the%20other%20hand> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "on the other hand"@en
+    ] .
+
+:once
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#once> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "once"@en
+    ] .
+
+:only
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#only> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "only"@en
+    ] .
+
+:optionally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#optionally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "optionally"@en
+    ] .
+
+:or
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#or> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "or"@en
+    ] .
+
+:originally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#originally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "originally"@en
+    ] .
+
+:otherwise
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#otherwise> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "otherwise"@en
+    ] .
+
+:overall
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#overall> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "overall"@en
+    ] .
+
+:particularly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#particularly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "particularly"@en
+    ] .
+
+:perhaps
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#perhaps> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "perhaps"@en
+    ] .
+
+:personally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#personally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "personally"@en
+    ] .
+
+:plus
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#plus> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "plus"@en
+    ] .
+
+:preferably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#preferably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "preferably"@en
+    ] .
+
+:presently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#presently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "presently"@en
+    ] .
+
+:presumably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#presumably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "presumably"@en
+    ] .
+
+:previously
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#previously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "previously"@en
+    ] .
+
+:probably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#probably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "probably"@en
+    ] .
+
+:rather
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#rather> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "rather"@en
+    ] .
+
+:realistically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#realistically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "realistically"@en
+    ] .
+
+:really
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#really> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "really"@en
+    ] .
+
+:recently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#recently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "recently"@en
+    ] .
+
+:regardless
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#regardless> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "regardless"@en
+    ] .
+
+:remarkably
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#remarkably> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "remarkably"@en
+    ] .
+
+:sadly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#sadly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sadly"@en
+    ] .
+
+:second
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#second> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "second"@en
+    ] .
+
+:secondly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#secondly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "secondly"@en
+    ] .
+
+:separately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#separately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "separately"@en
+    ] .
+
+:seriously
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#seriously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "seriously"@en
+    ] .
+
+:significantly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#significantly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "significantly"@en
+    ] .
+
+:similarly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#similarly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "similarly"@en
+    ] .
+
+:simultaneously
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#simultaneously> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "simultaneously"@en
+    ] .
+
+:slowly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#slowly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "slowly"@en
+    ] .
+
+:so
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#so> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "so"@en
+    ] .
+
+:sometimes
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#sometimes> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "sometimes"@en
+    ] .
+
+:soon
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#soon> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "soon"@en
+    ] .
+
+:specifically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#specifically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "specifically"@en
+    ] .
+
+:still
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#still> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "still"@en
+    ] .
+
+:strangely
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#strangely> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "strangely"@en
+    ] .
+
+:subsequently
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#subsequently> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "subsequently"@en
+    ] .
+
+:suddenly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#suddenly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "suddenly"@en
+    ] .
+
+:supposedly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#supposedly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "supposedly"@en
+    ] .
+
+:surely
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#surely> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "surely"@en
+    ] .
+
+:surprisingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#surprisingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "surprisingly"@en
+    ] .
+
+:technically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#technically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "technically"@en
+    ] .
+
+:thankfully
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#thankfully> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thankfully"@en
+    ] .
+
+:then
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#then> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "then"@en
+    ] .
+
+:theoretically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#theoretically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "theoretically"@en
+    ] .
+
+:thereafter
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#thereafter> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thereafter"@en
+    ] .
+
+:thereby
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#thereby> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thereby"@en
+    ] .
+
+:therefore
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#therefore> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "therefore"@en
+    ] .
+
+:third
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#third> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "third"@en
+    ] .
+
+:thirdly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#thirdly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thirdly"@en
+    ] .
+
+:this
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#this> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "this"@en
+    ] .
+
+:though
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#though> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "though"@en
+    ] .
+
+:thus
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#thus> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "thus"@en
+    ] .
+
+:together
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#together> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "together"@en
+    ] .
+
+:traditionally
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#traditionally> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "traditionally"@en
+    ] .
+
+:truly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#truly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "truly"@en
+    ] .
+
+:truthfully
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#truthfully> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "truthfully"@en
+    ] .
+
+:typically
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#typically> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "typically"@en
+    ] .
+
+:ultimately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#ultimately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "ultimately"@en
+    ] .
+
+:undoubtedly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#undoubtedly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "undoubtedly"@en
+    ] .
+
+:unfortunately
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#unfortunately> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "unfortunately"@en
+    ] .
+
+:unsurprisingly
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#unsurprisingly> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "unsurprisingly"@en
+    ] .
+
+:usually
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#usually> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "usually"@en
+    ] .
+
+:well
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#well> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "well"@en
+    ] .
+
+:yet
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#yet> ;
+    ontolex:canonicalForm [
+        ontolex:writtenRep "yet"@en
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :locally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :specifically ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :overall ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :subsequently ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nonetheless ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :third ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :really ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :honestly ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :yet ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :essentially ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20particular> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :luckily ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :firstly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :already ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :frequently ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :truthfully ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :rather ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :anyway ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :undoubtedly ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :coincidentally ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :often ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :consequently ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20doing%20this> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :truly ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :generally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ultimately ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :likewise ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20particular> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :instead ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :conversely ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :here ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :similarly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :fortunately ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :presumably ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :alternately ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thus ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thereafter ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :clearly ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :besides ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :moreover ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :finally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :overall ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20other%20hand> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :later ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nonetheless ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nevertheless ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :well ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thereafter ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :incidentally ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meantime ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :altogether ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :frankly ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :so ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ultimately ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :interestingly ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :typically ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :elsewhere ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20example> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :increasingly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :seriously ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20sum> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :importantly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :normally ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :next ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :recently ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :actually ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :eventually ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meantime ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :previously ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :usually ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ultimately ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :previously ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :so ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20comparison> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :originally ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#as%20a%20result> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :furthermore ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :presently ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:Cause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :realistically ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :hopefully ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :otherwise ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :admittedly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :still ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :now ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :instead ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :preferably ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :apparently ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thereby ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :rather ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :though ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :though ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :lately ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :surely ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :particularly ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :unfortunately ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :once ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :personally ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :strangely ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :unsurprisingly ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :initially ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :happily ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :maybe ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :currently ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20then> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :however ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20short> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :immediately ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :specifically ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :regardless ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :besides ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :basically ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :surprisingly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :amazingly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :yet ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20that> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meanwhile ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :otherwise ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20instance> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nationally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :next ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20other%20hand> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :supposedly ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :instead ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :first ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meantime ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ideally ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thankfully ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meanwhile ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :separately ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20meantime> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :afterward ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :gradually ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20contrast> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :significantly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :second ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :thirdly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :arguably ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :oddly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :absolutely ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :overall ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :or ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :still ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meantime ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :optionally ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :yet ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :however ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :yet ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :although ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20other%20words> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :further ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :especially ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :however ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :perhaps ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :naturally ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :still ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :though ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meanwhile ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meanwhile ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :finally ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ultimately ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :although ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nevertheless ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nevertheless ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20contrary> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :later ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :once ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :but ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nonetheless ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :plus ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :although ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#on%20the%20other%20hand> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :although ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :again ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :suddenly ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :only ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20turn> ;
+    ontolex:reference pdtb:Asynchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :ironically ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :finally ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :however ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20other%20words> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20fact> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :soon ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :nonetheless ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :sadly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :this ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :also ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :remarkably ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#for%20example> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :separately ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :occasionally ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :inevitably ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20then> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :simultaneously ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20other%20words> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :collectively ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#in%20the%20end> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :evidently ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :meaning ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :slowly ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :sometimes ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :still ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :mostly ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :probably ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :rather ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :historically ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :secondly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :together ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :namely ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :alternatively ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :accordingly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20then> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :also ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :curiously ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :technically ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :once ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#because%20of%20this> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :also ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :otherwise ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :certainly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :therefore ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :notably ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :lastly ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :additionally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/en/discovery-en-enriched.ttl#by%20comparison> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :theoretically ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :traditionally ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :indeed ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :hence ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :obviously ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :still ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :and ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf :then ;
+    ontolex:reference pdtb:disjunctive .
+
