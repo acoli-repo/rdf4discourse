@@ -1,4 +1,7 @@
 # given parallel annotation, induce annotations
+
+# note that precision and recall are switched below
+
 import sys,os,re,traceback
 import argparse
 from pprint import pprint
@@ -51,10 +54,10 @@ def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_con
         sentence = [ row.strip().split("\t") for row in sentence if "\t" in row and not row.strip().startswith("#")  ]
         words=[row[words_col] for row in sentence ]
         for nr,row in enumerate(sentence):
-            if words[nr] in word2cues:
+            if words[nr] in word2cues.keys():
                 text=" "+" ".join(words[nr:])+" "
                 for cue in word2cues[words[nr]]:
-                    if text.startswith(" "+cue+" ") and not row[dm_col] != "?" : # do not count alignment errors
+                    if text.startswith(" "+cue+" ") and row[dm_col] != "?" : # do not count alignment errors
                         cue2total[cue]+=1
 
                         # simplification: we only consider annotations of the first word
@@ -75,6 +78,7 @@ def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_con
     rels=0
     dimlex={ }   # for every cue, we have confidence scores and *all* relation scores
     for cue in cues:
+        # print(cue,cue2total[cue],len(cue2scores[cue]))
         if cue2total[cue]>min_freq and len(cue2scores[cue])/cue2total[cue] > min_conf:
             dimlex[cue]= {}
 
@@ -329,9 +333,13 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
         sys.stderr.write("|\t")
 
         # dm scores
-        prec=dm_tp/(dm_tp + dm_fp)
-        rec=dm_tp/(dm_tp + fn)
-        f=2*prec*rec/(prec+rec)
+        prec=dm_tp/max(1,dm_tp + dm_fp)
+        rec=dm_tp/max(1,dm_tp + fn)
+        f=0
+        try:
+            f=2*prec*rec/(prec+rec)
+        except:
+            pass # division by 0
 
         sys.stderr.write(str(acc_dm)+"\t")      # accuracy (discourse marker)
         sys.stderr.write(str(prec)+"\t")        # precision (discourse marker)
@@ -340,9 +348,13 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
         sys.stderr.write("|\t")
 
         # rel scores
-        prec=rel_tp/(rel_tp + rel_fp)
-        rec=rel_tp/(rel_tp + fn)
-        f=2*prec*rec/(prec+rec)
+        prec=rel_tp/max(1,rel_tp + rel_fp)
+        rec=rel_tp/max(1,rel_tp + fn)
+        f=0
+        try:
+            f=2*prec*rec/(prec+rec)
+        except:
+            pass # divison by 0
         sys.stderr.write(str(acc_rel)+"\t")     # accuracy (relation)
         sys.stderr.write(str(prec)+"\t")        # precision (relation)
         sys.stderr.write(str(rec)+"\t")         # recall (relation)
@@ -468,7 +480,7 @@ for conf in confs:
         if conf.no_output:
             output=StringIO()
         else:
-            output=sys-stdout
+            output=sys.stdout
 
         if conf.self_supervision:
             annotate(buffer, pred=conf.predictor, eval=conf.evaluator, dimlex=dimlex, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, conf_threshold=conf.min_confidence, words_col=conf.words_col, output=output, slim_output=conf.slim_output)
