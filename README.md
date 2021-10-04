@@ -39,6 +39,12 @@ etc.
 
 For every aligned translation, the columns WORD TOK_ID, NORM, LANG and PDTB1..3 are repeated.
 
+In the annotation columns, `_` means that alignment was successful but that no discourse information could be confirmed. `?` means that no target language alignment could be established.
+
+For evaluation, run
+
+    $> bash -e ./eval.sh
+
 ## notes
 
 cf. http://www.semantic-web-journal.net/system/files/swj2898.pdf, also for related research
