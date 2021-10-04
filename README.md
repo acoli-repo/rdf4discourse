@@ -6,7 +6,7 @@
 - pick your target language, here, Bavarian
 - for all translations with discourse marker inventories, annotate all senses of the longest matching discourse marker
 - by alignment, project these to target language (`build.sh` => `build.mrg.conll`)
-- use these projections as an ensemble to predict the most likely discourse relation for the target language (here: the suggested relation(s) that are least frequently rejected)
+- use these projections as an ensemble to predict the most likely discourse relation for the target language (here: the suggested relation(s) that are least frequently rejected, `ensembly.py`, called by `eval.sh`)
 - as we don't have target language annotations, evaluate against another projection (`eval.sh`)
 
 ## building
