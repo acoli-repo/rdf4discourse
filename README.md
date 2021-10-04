@@ -1,6 +1,15 @@
 # discourse marker introduction
 
-## howto
+## idea
+
+- given massively parallel text (e.g., bibles) and multilingual discourse marker inventories
+- pick your target language, here, Bavarian
+- for all translations with discourse marker inventories, annotate all senses of the longest matching discourse marker
+- by alignment, project these to target language (`build.sh` => `build.mrg.conll`)
+- use these projections as an ensemble to predict the most likely discourse relation for the target language (here: the suggested relation(s) that are least frequently rejected, `ensembly.py`, called by `eval.sh`)
+- as we don't have target language annotations, evaluate against another projection (`eval.sh`)
+
+## building
 
 run
 
@@ -23,12 +32,7 @@ Columns:
 - 6 PDTB1_SENSE
 - 7 PDTB2_SENSE
 - 8 PDTB3_SENSE
-- 5 TOK_ID
-- 6 LANG
-- 7 PDTB1_SENSE
-- 8 PDTB2_SENSE
-- 9 PDTB3_SENSE
-etc.
+(cols 3 to 8 iterate for all other alignment pairs)
 
 - ID: original token id (whitespace tokenization)
 - WORD: original token
@@ -38,6 +42,16 @@ etc.
 - PDTBx_SENSE: discourse relation(s), PDTB hierarchy depth x with x from 1 to 3
 
 For every aligned translation, the columns WORD TOK_ID, NORM, LANG and PDTB1..3 are repeated.
+For the current setup, the aligned languages are
+
+- Czech (cols 6-8)
+- German (cols 12-14)
+- English (cols 18-20)
+- French (cols 24-26)
+- Italian (cols 30-32)
+- Dutch (cols 36-38)
+- Portuguese (cols 42-44)
+- Spanish (cols 48-50)
 
 In the annotation columns, `_` means that alignment was successful but that no discourse information could be confirmed. `?` means that no target language alignment could be established.
 
