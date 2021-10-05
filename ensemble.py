@@ -105,8 +105,6 @@ def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_con
 
     return dimlex
 
-#    raise Exception("discourse marker induction not yet implemented")
-
 def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=None, conf_threshold=-1.0):
         """ row is a single CoNLL line, split at \t
         returns probability of row encoding a discourse marker, top senses, and top score
@@ -142,27 +140,32 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
 
             dm_score=dm_true/max(1,dm_total)
 
-            if dm_true>max(dm_threshold,0.0): # and (conf_threshold<=0 or (dimlex_entry!=None and dimlex_entry["confidence"]>conf_threshold)):
+            # if(dm_true>max(dm_threshold,0.0) and dimlex_entry!=None):
+            #     print(dimlex_entry["confidence"],conf_threshold,dimlex_entry["confidence"]>conf_threshold)
+            if dm_true>max(dm_threshold,0.0) and (conf_threshold<=0 or (dimlex_entry!=None and dimlex_entry["confidence"]>conf_threshold)):
+                # print(".")
                 for p in pred:
                     if not fields[p] in ["_","?"]:
                         positive=set(fields[p].split("|"))
                         for sense in senses:
                             if sense in positive:
                                 sense2positives[sense]+=1
+                # print(sense2positives[sense],dm_true)
                 sense2score= { sense : sense2positives[sense]/dm_true for sense in senses }
                 top_score=max(sense2score.values())
                 sense2score= { sense : score for sense,score in sense2score.items() if score==top_score }
 
                 # disambiguate using dimlex
                 if len(sense2score)>1 and dimlex_entry!=None:
-                    # print(sense2score)
+                    # print(1,sense2score)
                     sense2score= dict( (sense,dimlex_entry["rels"][sense]) if sense in dimlex_entry["rels"] else (sense , 0) for sense,_ in sense2score.items() )
-                    # print(sense2score)
+                    # print(2,sense2score)
                     sense2score= { sense : score for sense,score in sense2score.items() if score==max(sense2score.values())}
-                    #print(sense2score)
+                    # print(3,sense2score)
 
                 # predict top sense(s)
                 top_senses="|".join(sorted(sense2score.keys()))
+                # print(dm_score, top_senses, top_score)
 
         return dm_score, top_senses, top_score
 
