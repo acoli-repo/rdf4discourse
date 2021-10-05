@@ -286,8 +286,9 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
 
         output.write("\t".join(fields)+"\n")
         output.flush()
-        # print(fields,dm_tp, dm_fp, rel_tp, rel_fp, fn, tn)
-        return dm_tp, dm_fp, rel_tp, rel_fp, fn, tn
+
+    # print(fields,dm_tp, dm_fp, rel_tp, rel_fp, fn, tn)
+    return dm_tp, dm_fp, rel_tp, rel_fp, fn, tn
 
 def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf_threshold=-1.0, eval_threshold=0.0, words_col=1, output=sys.stdout, slim_output=False):
     """ annotate a CoNLL stream, annotate two columns for pred predictions, if eval!=None, annotate two more columns for eval predictions """
