@@ -142,7 +142,7 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
 
             # if(dm_true>max(dm_threshold,0.0) and dimlex_entry!=None):
             #     print(dimlex_entry["confidence"],conf_threshold,dimlex_entry["confidence"]>conf_threshold)
-            if dm_true>max(dm_threshold,0.0) and (conf_threshold<=0 or (dimlex_entry!=None and dimlex_entry["confidence"]>conf_threshold)):
+            if dm_score>max(dm_threshold,0.0) and (conf_threshold<=0 or (dimlex_entry!=None and dimlex_entry["confidence"]>conf_threshold)):
                 # print(".")
                 for p in pred:
                     if not fields[p] in ["_","?"]:
