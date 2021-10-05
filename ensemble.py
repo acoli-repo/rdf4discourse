@@ -222,14 +222,17 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
         fields=line.split("\t")
 
         dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold)
-        if eval!=None:
-            ev_score, ev_senses, ev_score=_predict(fields, eval, dm_threshold=eval_threshold, conf_threshold=conf_threshold)
+        if eval==None or len(eval)==0:
+            ev_score, ev_senses, ev_score="_","_","_"
+        else:
+            ev_score, ev_senses, ev_score=_predict(fields, eval, dm_threshold=eval_threshold)   # no conf_threshold, this requires a dimlex
             if ev_senses=="_":
                 evs=sorted(set([ fields[e] for e in eval ]))
                 if len(evs)==1 and evs[0]=="?":
                     ev_senses="?"
-        else:
-            ev_score, ev_senses, ev_score="_","_","_"
+            sys.stderr.flush()
+            # print("\n",fields)
+            # print("EVAL:",fields[words_col], eval, fields[eval[0]], ev_score, ev_senses, ev_score)
 
         if eval!=None:
             if ev_senses!="?":
@@ -264,6 +267,8 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
                             if false_positive:
                                 true_positive=False
                                 break
+                    sys.stderr.flush()
+                    # print(top_senses,ev_senses, true_positive)
                     if true_positive:
                         rel_tp+=1
                     else:
@@ -281,10 +286,12 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
 
         output.write("\t".join(fields)+"\n")
         output.flush()
+        # print(fields,dm_tp, dm_fp, rel_tp, rel_fp, fn, tn)
         return dm_tp, dm_fp, rel_tp, rel_fp, fn, tn
 
 def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf_threshold=-1.0, eval_threshold=0.0, words_col=1, output=sys.stdout, slim_output=False):
     """ annotate a CoNLL stream, annotate two columns for pred predictions, if eval!=None, annotate two more columns for eval predictions """
+    # print("annotate:","stream", pred, eval, "dimlex", pred_threshold, conf_threshold, eval_threshold, words_col, output, slim_output)
     buffer=[]
     stream.seek(0)
     toks=0
@@ -300,6 +307,7 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
                     zip(scores,\
                         _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output)\
                     ) ]
+                # print(scores)
                 #dm_tp, dm_fp, rel_tp, rel_fp, fn, tn += \
                 toks+=len(buffer)
                 sys.stderr.write("ensemble prediction: "+str(toks)+" tokens\r")
@@ -314,6 +322,7 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
                 zip(scores,\
                     _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output)\
                 ) ]
+        print(scores)
         toks+=len(buffer)
         output.write("\n\n")
     sys.stderr.write("ensemble prediction: "+str(toks)+" tokens\n")
