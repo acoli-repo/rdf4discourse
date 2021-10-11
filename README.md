@@ -1,5 +1,7 @@
 # discourse marker introduction
 
+TODO: merge with rdf4discourse, but drop textual content (`annotated/`, `bibl*`).
+
 ## idea
 
 - given massively parallel text (e.g., bibles) and multilingual discourse marker inventories
