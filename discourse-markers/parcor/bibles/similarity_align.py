@@ -3,6 +3,12 @@ from pprint import pprint
 from weighted_levenshtein import lev
 import unicodedata
 
+"""
+	Given two CoNLL files, perform an alignment based on string identity (Myer's
+	diff) and similarity (Levenshtein distance). This is to be used to align
+	different versions of the same text *in the same language*.
+"""
+
 # arguments: conll files
 # given a context window
 # partial reimplementation of CoNLL merge in Python
@@ -259,7 +265,7 @@ try:
 except:
 	help()
 	sys.exit(1)
-	
+
 cols=[]
 
 inputs=[]
