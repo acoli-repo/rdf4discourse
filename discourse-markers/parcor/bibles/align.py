@@ -5,7 +5,7 @@ import tempfile
 from pprint import pprint
 import systran_align
 
-""" provide word alignments for bibles in CES/XML and TSV formats
+""" provide word alignments for bibles in CES/XML and TSV/Text formats
     args: file1 file2
     output as CoNLL file to stdout, for every source line
     requires the use of identical verse IDs in both resources
@@ -37,6 +37,15 @@ class Bible:
             return "xml",my_open
         if name.endswith("tsv"):
             return "tsv",my_open
+        if name.endswith("txt"):
+            with my_open(file,"r") as input:
+                try:
+                    for iteration in range(20):
+                        if "\t" in input.readline():
+                            return "tsv",my_open
+                except:
+                    pass
+
         with my_open(file,"r") as input:
             for line in input:
                 line=line.strip()
@@ -231,11 +240,13 @@ class Bible:
                 print("_\t_\t"+str(t+1)+"\t"+tgt[t])
         print()
 
-sys.stderr.write("synopsis: "+sys.argv[0]+" bib1 bib2 [-low] [-tok]\n")
-sys.stderr.write("  bibi      bible in CES/XML or TSV format\n"+\
-                 "  -low      lower case\n"+\
-                 "  -tok      tokenize\n"+\
-                 "  -no-punct remove everything matching [^a-zA-ZäöüÄÖÜß]")
+if not "-silent" in sys.argv:
+    sys.stderr.write("synopsis: "+sys.argv[0]+" bib1 bib2 [-low] [-tok] [-no-punct] [-silent]\n")
+    sys.stderr.write("  bibi      bible in CES/XML or TSV format\n"+\
+                     "  -low      lower case\n"+\
+                     "  -tok      tokenize\n"+\
+                     "  -no-punct remove everything matching [^a-zA-ZäöüÄÖÜß]\n"+\
+                     "  -silent   skip usage information")
 
 bible=Bible()
 bible.add(sys.argv[1])
@@ -252,6 +263,7 @@ if "-low" in sys.argv:
 if "-no-punct" in sys.argv:
     sys.stderr.write("remove punctuation\n")
     bible.replace(r"[^a-zA-Z0-9öäüÖÄÜß\s]+", "")
+
 
 #print(bible.print_parallel_data())
 bible.align()

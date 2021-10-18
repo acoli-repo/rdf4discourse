@@ -1,16 +1,34 @@
 all: retrieve.py data
-	@(for lang in en de; do \
+	@(langs="en de"; \
+	for lang in $$langs; do \
 		if [ ! -e data/$$lang.conll ]; then \
-			echo -n data/$$lang.conll': ' 1>&2; \
-			python3 retrieve.py $$lang -f conll -no_comments > data/$$lang.orig.conll 2>/dev/null; \
-			python3 retrieve.py $$lang -f conll -no_comments -lower -no_punct > data/$$lang.norm.conll 2>/dev/null; \
-			python3 similarity_align.py 20  data/$$lang.orig.conll=1 data/$$lang.norm.conll=1 | cut -f 1,2,4 > data/$$lang.conll; \
-			if [ -s data/$$lang.conll ]; then \
-				rm data/$$lang.*.conll;\
-			fi;\
-			egrep '^[0-9]' data/$$lang.conll | wc -l | sed s/'$$'/' tokens'/; \
+			echo data/$$lang.conll 1>&2; \
+			python3 retrieve.py $$lang -f text -no_comments > data/$$lang.txt 2>/dev/null; \
+			python3 retrieve.py $$lang -f conll -no_comments > data/$$lang.conll 2>/dev/null; \
 		fi; \
-	done)
+	done; \
+	for src in data/*txt; do \
+		for tgt in data/*txt; do \
+			l1=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
+			l2=`basename $$tgt | sed s/'\.[^\.\/]*$$'//`; \
+			if [ $$l1 != $$l2 ]; then \
+				mrg=data/$$l1-$$l2.conll;\
+				if [ ! -s $$mrg ]; then \
+					echo $$mrg 1>&2; \
+					(python3 align.py $$src $$tgt -low -tok -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
+				fi; \
+			fi; \
+		done; \
+	done; \
+	)
+
+
+	# python3 similarity_align.py 20  data/$$lang.orig.conll=1 data/$$lang.norm.conll=1 | cut -f 1,2,4 > data/$$lang.conll; \
+	# if [ -s data/$$lang.conll ]; then \
+	# 	rm data/$$lang.*.conll;\
+	# fi;\
+	# egrep '^[0-9]' data/$$lang.conll | wc -l | sed s/'$$'/' tokens'/; \
+
 
 data:
 	mkdir data
