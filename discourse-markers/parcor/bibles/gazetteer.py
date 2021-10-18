@@ -3,7 +3,7 @@ from copy import copy
 from pprint import pprint
 
 args=argparse.ArgumentParser(description="annotation of parallel (translated) text in CoNLL format, using gazeteers, annotations of each gazeteer are appended at the end of every non-comment line, if none applies, _ is written instead")
-args.add_argument("input",type=str,help="input file, should be one word per line, tab-separated")
+args.add_argument("input",type=str,help="input file, should be one word per line, tab-separated; use - (single hyphen) to read from stdin")
 args.add_argument("gazetteers",type=str,nargs="+",help="one or multiple gazetteers; format: one phrase per line, line: TOKS<TAB>ANNO1[<TAB>ANNO2...]; TOKS are space-sepa}rated strings to match against")
 args.add_argument("-tgt", "--target_word_column", type=int, default=1, help="column that contains the text whose annotation is to be bootstrapped from the annotation of the word_column, for non-translated text, this can be identical to word_column, defaults to 1 (second col); this feature is checked in slim mode only")
 args.add_argument("-word", "--word_column", type=int, default=1, help="word column to match the gazetteer against, can, for example, be a translation, then, not necessarily in text order, defaults to 1 (second col)")
@@ -156,9 +156,20 @@ class Annotator:
 
             return result
 
+print(args)
+
+
 annotator=Annotator(args.gazetteers, tgt_col=args.target_word_column, order_col=args.order_column, word_col=args.word_column)
 
-with open(args.input,"r") as input:
+input=sys.stdin
+
+if args.input=="-":
+    sys.stderr.write("reading from stdin\n")
+    sys.stderr.flush()
+else:
+    input=open(args.input,"r")
+
+if True:
     buffer=""
     for line in input:
         line=line.strip()
@@ -170,3 +181,6 @@ with open(args.input,"r") as input:
             buffer+=line+"\n"
     if len(buffer)>0:
         print(annotator.annotate(buffer,suppress_translations=args.skip_translations))
+
+if args.input=="-":
+    input.close()
