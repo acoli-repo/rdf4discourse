@@ -43,8 +43,6 @@ For English, the resulting file `parcos/bibles/gazetters/en/pdtb2.tsv` will be a
     ?string	?label	?rst	?oliaDistance	?basicOp	?order	?polarity	?source	?temporality
     "In other words"@en	"equivalence.Restatement.EXPANSION"	"MultiNuclearRestatement"	3	"Additive|Causal"		"Positive"	"Objective|Subjective"
     "In other words"@en	"equivalence.Restatement.EXPANSION"	"Summary"	3	"Additive|Causal"		"Positive"	"Objective|Subjective"
-    "in other words"@en	"equivalence.Restatement.EXPANSION"	"MultiNuclearRestatement"	3	"Additive|Causal"		"Positive"	"Objective|Subjective"
-    "in other words"@en	"equivalence.Restatement.EXPANSION"	"Summary"	3	"Additive|Causal"		"Positive"	"Objective|Subjective"
 
 This corresponds to the following table:
 
@@ -52,8 +50,6 @@ This corresponds to the following table:
 |---------------------|-------------------------------------|---------------------------|---------------|--------------------|------------|-------------------------|---------|--------------|
 | "In other words"@en | "equivalence.Restatement.EXPANSION" | "MultiNuclearRestatement" | 3             | "Additive\|Causal" | "Positive" | "Objective\|Subjective" |         |              |
 | "In other words"@en | "equivalence.Restatement.EXPANSION" | "Summary"                 | 3             | "Additive\|Causal" | "Positive" | "Objective\|Subjective" |         |              |
-| "in other words"@en | "equivalence.Restatement.EXPANSION" | "MultiNuclearRestatement" | 3             | "Additive\|Causal" | "Positive" | "Objective\|Subjective" |         |              |
-| "in other words"@en | "equivalence.Restatement.EXPANSION" | "Summary"                 | 3             | "Additive\|Causal" | "Positive" | "Objective\|Subjective" |         |              |
 
 Here, `?string` is the (string form of the) discourse marker, with Turtle-style annotation for the language (`@en`), `?label` is the path in the PDTB hierarchy, `?rst` is a possible RST interpretation, `?oliaDistance` quantifies the mismatch between PDTB and RST (higher values indicate more loose fit), `?basicOp` and the following columns are CCR features (`|` indicates alternative interpretations, no value indicates underspecification). Both RST and CCR interpretations are derived from the original PDTB annotation. When using this table as a gazetteer for PDTB, RST or CCR, you need to aggregate over all rows for a given marker in order to get all possible interpretations.
 
