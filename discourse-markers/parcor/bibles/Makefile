@@ -1,4 +1,4 @@
-all: retrieve.py data
+all: retrieve.py data gazeteers
 	@(langs="en de"; \
 	for lang in $$langs; do \
 		if [ ! -e data/$$lang.conll ]; then \
@@ -29,6 +29,25 @@ all: retrieve.py data
 	# fi;\
 	# egrep '^[0-9]' data/$$lang.conll | wc -l | sed s/'$$'/' tokens'/; \
 
+olia:
+	@echo 'Shall I clone OLiA [Y/n]?' 1>&2
+	@(read x; if echo $$x | grep -i "n" ; then echo Please create the olia/ directory by hand, e.g., as a symlink to your OLiA repo 1>&2; exit 1 ;fi 1>/dev/null)
+	git clone https://github.com/acoli-repo/olia
+
+gazetteers: olia
+	@# these gazeteers are automatically derived from ../../linked, but we filter out some low-coverage ones
+	mkdir gazetteers
+	(for ttl in ../../linked/*/*.ttl; do \
+		if echo -n $$ttl | grep -v ted-mdb ; then \
+			lang=`basename $$(dirname $$ttl)`;\
+			if [ ! -e gazetteers/$$lang ]; then mkdir gazetteers/$$lang; fi;\
+			tgt=gazetteers/$$lang/`basename $$ttl | sed s/'.ttl'//`.tsv; \
+			if [ ! -s $$tgt ]; then \
+				echo ' >' $$tgt;\
+				arq --data $$ttl --namedgraph olia/owl/experimental/discourse/discourse.PDTB.owl --namedgraph olia/owl/experimental/discourse/discourse.PDTB-link.rdf --namedGraph olia/owl/experimental/discourse/olia_discourse.owl --namedGraph olia/owl/experimental/discourse/discourse.RST-link.rdf --namedGraph olia/owl/experimental/discourse/discourse.PDTB-CCR-link.rdf --namedGraph olia/owl/experimental/discourse/discourse.CCR.owl --query olia2gazetteer.sparql --results=TSV > $$tgt; \
+			fi;\
+		fi;\
+	done;)
 
 data:
 	mkdir data

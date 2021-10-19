@@ -1,6 +1,4 @@
-# discourse marker introduction
-
-TODO: merge with rdf4discourse, but drop textual content (`annotated/`, `bibl*`).
+# discourse marker induction
 
 ## idea
 
@@ -13,9 +11,16 @@ TODO: merge with rdf4discourse, but drop textual content (`annotated/`, `bibl*`)
 
 ## building
 
+requirements:
+- Unix-style shell, tested on Ubuntu 20.4
+- python3, Java (Apache Jena), Perl, make
+- arq (Apache Jena, get it from https://jena.apache.org/download/index.cgi)
+
 run
 
-    $> bash -e ./build.sh
+    $> make
+
+### to be updated / not integrated yet
 
 creates `build.mrg.conll`, with
 

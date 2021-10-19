@@ -1,0 +1,211 @@
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rst: <http://purl.org/olia/discourse/discourse.RST.owl#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX olia: <http://purl.org/olia/discourse/olia_discourse.owl#>
+PREFIX ccr: <http://purl.org/olia/discourse/discourse.CCR.owl#>
+PREFIX pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#>
+
+SELECT DISTINCT ?string ?label ?rst ?oliaDistance ?basicOp ?order ?polarity ?source ?temporality
+WHERE {
+
+  #####################################
+  # discourse marker to PDTB relation #
+  #####################################
+  # retrieve writtenRep and PDTB path for every marker
+
+  ?entry
+    (ontolex:otherForm|ontolex:canonicalForm|ontolex:lexicalForm)/ontolex:writtenRep ?string.
+  ?entry (ontolex:sense|^ontolex:isSenseOf)/(ontolex:reference|^ontolex:isReferenceOf) ?relation.
+    GRAPH ?pdtb {
+      { SELECT ?relation (GROUP_CONCAT(?rel; separator=".") as ?label)
+        WHERE {
+          ?relation rdfs:subClassOf* ?class.
+          ?class rdfs:subClassOf+ pdtb:Sense.
+
+          BIND(replace(str(?class),".*#","") as ?rel)
+        } GROUP BY ?relation
+      }
+    }
+    FILTER(strends(str(?pdtb), 'discourse.PDTB.owl'))
+
+
+      GRAPH ?link {
+          ?relation rdfs:subClassOf ?oliaClass.
+          FILTER(contains(str(?oliaClass),'olia_discourse'))
+      }
+      FILTER(contains(str(?link), 'discourse.PDTB-link'))
+
+    ###############
+    # PDTB to CCR #
+    ###############
+    # retrieve possible CCR interpretations, based on PDTB mapping
+
+    OPTIONAL {
+        SELECT ?pdtb ?relation (GROUP_CONCAT(distinct ?label; separator="|") as ?basicOp)
+        WHERE {
+          GRAPH ?pdtb {
+            ?relation (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))* ?pdtbConcept.
+          }
+          GRAPH ?ccr {
+            ?ccrFeat rdfs:subClassOf+ ccr:BasicOperation.
+            BIND(replace(str(?ccrFeat),'.*#','') as ?label)
+          }
+          GRAPH ?ccrLink {
+            ?pdtbConcept (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))+ ?ccrFeat
+            FILTER(contains(str(?pdtbConcept),'discourse.PDTB'))
+            FILTER(contains(str(?ccrFeat),'discourse.CCR'))
+          }
+        } GROUP BY ?relation ?pdtb
+    }
+
+    OPTIONAL {
+        SELECT ?pdtb ?relation (GROUP_CONCAT(distinct ?label; separator="|") as ?order)
+        WHERE {
+          GRAPH ?pdtb {
+            ?relation (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))* ?pdtbConcept.
+          }
+          GRAPH ?ccr {
+            ?ccrFeat rdfs:subClassOf+ ccr:Order.
+            BIND(replace(str(?ccrFeat),'.*#','') as ?label)
+          }
+          GRAPH ?ccrLink {
+            ?pdtbConcept (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))+ ?ccrFeat
+            FILTER(contains(str(?pdtbConcept),'discourse.PDTB'))
+            FILTER(contains(str(?ccrFeat),'discourse.CCR'))
+          }
+        } GROUP BY ?relation ?pdtb
+    }
+
+    OPTIONAL {
+        SELECT ?pdtb ?relation (GROUP_CONCAT(distinct ?label; separator="|") as ?polarity)
+        WHERE {
+          GRAPH ?pdtb {
+            ?relation (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))* ?pdtbConcept.
+          }
+          GRAPH ?ccr {
+            ?ccrFeat rdfs:subClassOf+ ccr:Polarity.
+            BIND(replace(str(?ccrFeat),'.*#','') as ?label)
+          }
+          GRAPH ?ccrLink {
+            ?pdtbConcept (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))+ ?ccrFeat
+            FILTER(contains(str(?pdtbConcept),'discourse.PDTB'))
+            FILTER(contains(str(?ccrFeat),'discourse.CCR'))
+          }
+        } GROUP BY ?relation ?pdtb
+    }
+
+    OPTIONAL {
+        SELECT ?pdtb ?relation (GROUP_CONCAT(distinct ?label; separator="|") as ?source)
+        WHERE {
+          GRAPH ?pdtb {
+            ?relation (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))* ?pdtbConcept.
+          }
+          GRAPH ?ccr {
+            ?ccrFeat rdfs:subClassOf+ ccr:Source.
+            BIND(replace(str(?ccrFeat),'.*#','') as ?label)
+          }
+          GRAPH ?ccrLink {
+            ?pdtbConcept (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))+ ?ccrFeat
+            FILTER(contains(str(?pdtbConcept),'discourse.PDTB'))
+            FILTER(contains(str(?ccrFeat),'discourse.CCR'))
+          }
+        } GROUP BY ?relation ?pdtb
+    }
+
+    OPTIONAL {
+        SELECT ?pdtb ?relation (GROUP_CONCAT(distinct ?label; separator="|") as ?temporality)
+        WHERE {
+          GRAPH ?pdtb {
+            ?relation (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))* ?pdtbConcept.
+          }
+          GRAPH ?ccr {
+            ?ccrFeat rdfs:subClassOf+ ccr:Temporality.
+            BIND(replace(str(?ccrFeat),'.*#','') as ?label)
+          }
+          GRAPH ?ccrLink {
+            ?pdtbConcept (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first))+ ?ccrFeat
+            FILTER(contains(str(?pdtbConcept),'discourse.PDTB'))
+            FILTER(contains(str(?ccrFeat),'discourse.CCR'))
+          }
+        } GROUP BY ?relation ?pdtb
+    }
+
+    #########################
+    # PDTB to (closest) RST #
+    #########################
+    # map PDTB to RST relations with best fit (i.e., preferrably not more generic)
+
+      { SELECT ?oliaClass (MIN(?oliaDistance) as ?min_dist)
+        WHERE {
+           # count steps up, select those with minimum
+            GRAPH ?olia {
+              SELECT ?oliaClass ?super (count(distinct ?upsteps) as ?oliaDistance)
+              WHERE {
+                ?super rdfs:subClassOf/rdfs:subClassOf+ olia:DiscourseRelation. # the top-level relations are EntityBasedRelation and CoherenceRelation ;)
+                FILTER(contains(str(?super), 'olia_discourse'))
+                ?oliaClass ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+                FILTER(contains(str(?oliaClass),'olia_discourse'))
+                ?oliaClass ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?upsteps.
+                ?upsteps ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+              } GROUP BY ?oliaClass ?super
+            }
+            FILTER(contains(str(?olia), 'olia_discourse'))
+
+            GRAPH ?olia {
+              ?sub ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+              FILTER(contains(str(?super),'olia_discourse'))
+              FILTER(contains(str(?sub),'olia_discourse'))
+            }
+            FILTER(contains(str(?olia), 'olia_discourse'))
+
+            GRAPH ?rstLink {
+              ?rstrel ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)+ ?sub.
+              FILTER(contains(str(?sub), 'olia_discourse'))
+              FILTER(contains(str(?rstrel), 'discourse.RST.owl'))
+              FILTER(?rstrel != rst:RSTRelation)
+              FILTER(?rstrel != rst:RSTStructure)
+              FILTER(?rstrel != rst:RSTSchema)
+            }
+            FILTER(contains(str(?rstLink), 'discourse.RST-link'))
+
+        } GROUP BY ?oliaClass
+
+      }
+
+           # count steps up, select those with minimum
+            GRAPH ?olia {
+              SELECT ?oliaClass ?super (count(distinct ?upsteps) as ?oliaDistance)
+              WHERE {
+                ?super rdfs:subClassOf/rdfs:subClassOf+ olia:DiscourseRelation. # the top-level relations are EntityBasedRelation and CoherenceRelation ;)
+                FILTER(contains(str(?super), 'olia_discourse'))
+                ?oliaClass ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+                FILTER(contains(str(?oliaClass),'olia_discourse'))
+                ?oliaClass ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?upsteps.
+                ?upsteps ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+              } GROUP BY ?oliaClass ?super
+            }
+            FILTER(contains(str(?olia), 'olia_discourse'))
+
+            GRAPH ?olia {
+              ?sub ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)* ?super.
+              FILTER(contains(str(?super),'olia_discourse'))
+              FILTER(contains(str(?sub),'olia_discourse'))
+            }
+            FILTER(contains(str(?olia), 'olia_discourse'))
+
+            GRAPH ?rstLink {
+              ?rstrel ((rdfs:subClassOf|owl:sameAs|owl:equivalentClass)/((owl:intersectionOf|owl:unionOf)/rdf:rest*/rdf:first)?)+ ?sub.
+              FILTER(contains(str(?sub), 'olia_discourse'))
+              FILTER(contains(str(?rstrel), 'discourse.RST.owl'))
+              FILTER(?rstrel != rst:RSTRelation)
+              FILTER(?rstrel != rst:RSTStructure)
+              FILTER(?rstrel != rst:RSTSchema)
+            }
+            FILTER(contains(str(?rstLink), 'discourse.RST-link'))
+            BIND(replace(str(?rstrel), ".*#","") as ?rst)
+
+            FILTER(?oliaDistance = ?min_dist)
+
+}
