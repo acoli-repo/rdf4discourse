@@ -37,8 +37,11 @@ def merge_levenshtein(pool,buffers,cols,lens,matrix, *flags):
 				result[-1]=result[-1][0:lens[0]]+[ re.sub(r"(^[\?_\*]\+)?(.*)(\+[\?_\*])?$",r"\2",val1+"+"+val2) for val1,val2 in zip(result[-1][lens[0]:],buffers[1][y]) ]
 			else:	# default mode
 				if len(buffers[1][y])>cols[1]:		# we skip empty lines
-					result.append( [ "?" ] * cols[0] + ["*"+buffers[1][y][cols[1]]+"*"] + [ "?" ] * (lens[0]-cols[0]) + buffers[1][y])
+					newrow=[ "?" ] * (cols[0]) + ["*"+buffers[1][y][cols[1]]+"*"] + ([ "?" ] * (lens[0]-cols[0]-1)) + buffers[1][y]
+					result.append(newrow)
+
 		return result
+
 
 	if len(pool[1])==0:
 		for x in pool[0]:
@@ -103,7 +106,7 @@ def merge_levenshtein(pool,buffers,cols,lens,matrix, *flags):
 			else:	# default mode
 				if len(buffers[1][y])>cols[1]:
 					# print(buffers[1][y])
-					result.append( [ "?" ] * cols[0] + ["*"+buffers[1][y][cols[1]]+"*"] + [ "?" ] * (lens[0]-cols[0]) + buffers[1][y])
+					result.append( [ "?" ] * cols[0] + ["*"+buffers[1][y][cols[1]]+"*"] + [ "?" ] * (lens[0]-cols[0]-1) + buffers[1][y])
 	elif max_y==0: # "r"
 		for x in pool[0][0:max_x]:
 			if len(buffers[0][x])==1 and buffers[0][x][0]=="":
@@ -126,7 +129,7 @@ def merge_levenshtein(pool,buffers,cols,lens,matrix, *flags):
 				result[-1]=result[-1][0:lens[0]]+[ re.sub(r"(^[\?_\*]\+)?(.*)(\+[\?_\*])?$",r"\2",val1+"+"+val2) for val1,val2 in zip(result[-1][lens[0]:],buffers[1][y]) ]
 			else:	# default mode
 				if len(buffers[1][y])>cols[1]:
-					result.append( [ "?" ] * cols[0] + ["*"+buffers[1][y][cols[1]]+"*"] + [ "?" ] * (lens[0]-cols[0]) + buffers[1][y])
+					result.append( [ "?" ] * cols[0] + ["*"+buffers[1][y][cols[1]]+"*"] + [ "?" ] * (lens[0]-cols[0]-1) + buffers[1][y])
 	elif max_y==len(pool[1])-1: # "r"
 		for x in pool[0][max_x+1:]:
 			if len(buffers[0][x])==1 and buffers[0][x][0]=="":
