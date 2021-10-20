@@ -29,7 +29,7 @@ class Annotator:
                     if line[0] not in "#?" and not line=="":
                         fields=line.split("\t")
                         if len(fields)>1:
-                            toks=fields[0]
+                            toks=fields[0].lower()
                             lang="_"
                             if "@" in toks:
                                 lang=toks[toks.index("@")+1:]
