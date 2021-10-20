@@ -128,7 +128,7 @@ class Annotator:
                     text=" "+" ".join(words[w:])+" "
                     order2len2annos[o]= { 0 : ["_"]*cols }
                     for toks in toks2vals:
-                        if text.startswith(" "+toks.strip()+" "):
+                        if text.startswith(" "+toks.strip()+" ") or text.lower().startswith(" "+toks.strip()+" "):
                             vals=[toks]+toks2vals[toks]
                             length=len(toks.split(" "))
                             for w_ in range(w,w+length):
