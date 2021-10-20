@@ -57,7 +57,7 @@ all: retrieve.py data gazetteers
 				mrg=data/$$l1-$$l2.conll;\
 				if [ ! -s $$mrg ]; then \
 					echo $$mrg 1>&2; \
-					(python3 align.py $$src $$tgt -low -tok -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
+					(python3 align_bibles.py $$src $$tgt -low -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
 				fi; \
 			fi; \
 		done; \

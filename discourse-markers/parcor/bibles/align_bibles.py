@@ -5,7 +5,7 @@ import tempfile
 from pprint import pprint
 import systran_align
 
-""" provide word alignments for bibles in CES/XML and TSV/Text formats
+""" provide word alignments for Bibles in CES/XML and TSV/Text formats
     args: file1 file2
     output as CoNLL file to stdout, for every source line
     requires the use of identical verse IDs in both resources
