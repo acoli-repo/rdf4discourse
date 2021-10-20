@@ -1,5 +1,7 @@
 all: retrieve.py data gazetteers
 	@(langs="en de"; \
+	\
+	echo create initial conll files;\
 	for lang in $$langs; do \
 		if [ ! -e data/$$lang.conll ]; then \
 			echo data/$$lang.conll 1>&2; \
@@ -16,6 +18,37 @@ all: retrieve.py data gazetteers
 			fi;\
 		done;\
 	done; \
+	echo; \
+	\
+	echo annotate every language for all gazeteers, split for layers 1>&2; \
+	for col in 5 6 8 9 10 11 12; do \
+		for src in data/*txt; do \
+			lang=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
+			tgt=data/$$lang.conll;\
+			tgt=data/$$lang.conll.gaz.$$col; \
+			if [ -s $$tgt ]; then \
+				echo keeping $$tgt 1>&2;\
+			else \
+				tmp=$$tgt.tmp;\
+				(echo '# cols: ID WORD'; echo; cat data/$$lang.conll) > $$tgt; \
+				for gaz in data/$$lang.*.conll; do \
+					echo $$tgt': adding '$$gaz 1>&2; \
+					cp $$tgt $$tmp; \
+					gaz=`basename $$gaz | sed s/'^[^\.]*\.\(.*\)\.conll$$'/'\1'/`;\
+					cut -f 2,$$col data/$$lang.$$gaz.conll | \
+					python3 similarity_align.py 25 $$tmp=1 - | \
+					sed -e s/'^\(#[^\?]*\)[\? \t]*$$'/'\1'/g -e s/'^# cols: .*'/'& '$$lang.$$gaz/ > $$tgt; \
+					cols=`egrep -m 1 '^1' $$tgt | perl -pe 's/\t/\n/g;' | wc -l`; \
+					drop_col=`echo $$cols -1 | bc`;\
+					cut --complement -f $$drop_col $$tgt > $$tmp; \
+					mv $$tmp $$tgt; \
+				done;\
+			fi;\
+		done;\
+	done;\
+	echo ; \
+	\
+	echo alignments 1>&2;\
 	for src in data/*txt; do \
 		for tgt in data/*txt; do \
 			l1=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
@@ -29,6 +62,7 @@ all: retrieve.py data gazetteers
 			fi; \
 		done; \
 	done; \
+	echo;\
 	)
 
 

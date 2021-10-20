@@ -49,6 +49,19 @@ This will create
     4	was	_	_	_	_	_	_	_	_	_	_
     5	waste	_	_	_	_	_	_	_	_	_	_
 
+- monolingual CoNLL files with that aggregate over all gazeteers for that language, but split for different columns (annotations) of the gazetteers, e.g., `data/en.conll.gaz.5` (PDTB annotation from all gazeteers):
+
+    # cols: ID WORD	 en.discmar.en	 en.discovery-en-enriched	 en.pdtb2
+    # b.GEN.1.2
+    1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION
+    2	the	_	_	_
+    3	earth	_	_	_
+    4	was	_	_	_
+    5	waste	_	_	_
+
+  Analoguously, `*.6` represents RST annotations, `*.8` .. `*.12` represent CCR annotations.
+
+
 ### to be updated / not integrated yet
 
 creates `build.mrg.conll`, with
