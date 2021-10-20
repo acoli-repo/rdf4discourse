@@ -1,11 +1,20 @@
-all: retrieve.py data gazeteers
+all: retrieve.py data gazetteers
 	@(langs="en de"; \
 	for lang in $$langs; do \
 		if [ ! -e data/$$lang.conll ]; then \
 			echo data/$$lang.conll 1>&2; \
 			python3 retrieve.py $$lang -f text -no_comments > data/$$lang.txt 2>/dev/null; \
 			python3 retrieve.py $$lang -f conll -no_comments > data/$$lang.conll 2>/dev/null; \
-		fi; \
+		fi;\
+		for g in gazetteers/$$lang/*tsv; do \
+			tgt=data/$$lang.`basename $$g | sed s/'\.[^\.]*$$'//`.conll;\
+			if [ -s $$tgt ]; then \
+				echo keeping existing $$tgt 1>&2; \
+			else \
+				echo $$tgt 1>&2; \
+				python3 gazetteer.py data/$$lang.conll $$g > $$tgt; \
+			fi;\
+		done;\
 	done; \
 	for src in data/*txt; do \
 		for tgt in data/*txt; do \

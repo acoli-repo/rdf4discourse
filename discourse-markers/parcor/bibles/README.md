@@ -20,6 +20,35 @@ run
 
     $> make
 
+This will create
+- monolingual CoNLL files, without annotation (original spelling and use whitespace tokenization), e.g., `data/en.conll`:
+
+    # b.GEN.1.2
+    1	And
+    2	the
+    3	earth
+    4	was
+    5	waste
+
+- bilingual CoNLL files, with translation as annotation (lowercase, using heuristic tokenization), e.g., `data/en-de.conll`:
+
+    # text: and the earth was waste and empty , and darkness was on the face of the deep , and the spirit of god was hovering over the face of the waters .
+    # translation: und die erde war wüst und leer , und es war finster auf der tiefe ; und der geist gottes schwebte auf dem wasser .
+    1	and	1	und
+    2	the	2	die
+    3	earth	3	erde
+    4	was	4	war
+    5	waste	5	wüst
+
+- monolingual CoNLL files with Gazetteer-based annotation (all *possible* senses, none of these is confirmed at this stage; original spelling and use whitespace tokenization), e.g., `data/en.pdtb2.conll`:
+
+    # b.GEN.1.2
+    1	And	And	en	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Antithesis|Background|Circumstance|Concession|Condition|Conjunction|Contrast|Disjunction|Enablement|Evaluation|Interpretation|List|Means|MultiNuclearRestatement|NonVolitionalResult|Otherwise|Preparation|Purpose|Sequence|Summary|Unless|VolitionalResult	1|2|3	Additive|Causal|Conditional|NonConditionalCause	CauseConsequence|ConsequenceCause	Negative|Positive	Objective|Subjective	Antichronological|Chronological
+    2	the	_	_	_	_	_	_	_	_	_	_
+    3	earth	_	_	_	_	_	_	_	_	_	_
+    4	was	_	_	_	_	_	_	_	_	_	_
+    5	waste	_	_	_	_	_	_	_	_	_	_
+
 ### to be updated / not integrated yet
 
 creates `build.mrg.conll`, with

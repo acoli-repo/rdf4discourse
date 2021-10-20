@@ -4,7 +4,7 @@ from pprint import pprint
 
 args=argparse.ArgumentParser(description="annotation of parallel (translated) text in CoNLL format, using gazeteers, annotations of each gazeteer are appended at the end of every non-comment line, if none applies, _ is written instead")
 args.add_argument("input",type=str,help="input file, should be one word per line, tab-separated; use - (single hyphen) to read from stdin")
-args.add_argument("gazetteers",type=str,nargs="+",help="one or multiple gazetteers; format: one phrase per line, line: TOKS<TAB>ANNO1[<TAB>ANNO2...]; TOKS are space-sepa}rated strings to match against")
+args.add_argument("gazetteers",type=str,nargs="+",help="one or multiple gazetteers; format: one phrase per line, line: \"TOKS\"@LANG<TAB>\"ANNO1\"[<TAB>\"ANNO2\"...]; TOKS are space-separated strings to match against, @LANG is a BCP47 language code")
 args.add_argument("-tgt", "--target_word_column", type=int, default=1, help="column that contains the text whose annotation is to be bootstrapped from the annotation of the word_column, for non-translated text, this can be identical to word_column, defaults to 1 (second col); this feature is checked in slim mode only")
 args.add_argument("-word", "--word_column", type=int, default=1, help="word column to match the gazetteer against, can, for example, be a translation, then, not necessarily in text order, defaults to 1 (second col)")
 args.add_argument("-order", "--order_column", type=int, default=None, help="column that encodes the order of words in the --word_column, if different from text order, defaults to None")
@@ -26,11 +26,31 @@ class Annotator:
             with open(gaz,"r") as input:
                 for line in input:
                     line=line.strip()
-                    if not line.startswith("#") and not line=="":
+                    if line[0] not in "#?" and not line=="":
                         fields=line.split("\t")
                         if len(fields)>1:
                             toks=fields[0]
-                            annos=fields[1:]
+                            lang="_"
+                            if "@" in toks:
+                                lang=toks[toks.index("@")+1:]
+                                toks=toks[0:toks.index("@")]
+
+                            annos=[toks,lang]+fields[1:]
+
+                            # strip surrounding "" and '' from annos
+                            for x in range(len(annos)):
+                                anno=annos[x]
+                                if anno.startswith('"""') and anno.endswith('"""'):
+                                    anno=anno[3:-3]
+                                if anno.startswith('"') and anno.endswith('"'):
+                                    anno=anno[1:-1]
+                                if anno.startswith("'") and anno.endswith("'"):
+                                    anno=anno[1:-1]
+                                annos[x]=anno
+
+                            toks=annos[0]
+                            annos=annos[1:]
+
                             if not gaz in gaz2len:
                                 gaz2len[gaz]=len(annos)
                             else:
@@ -42,14 +62,16 @@ class Annotator:
                             else:
                                 # sys.stderr.write("warning: multiple values for \""+toks+"\" in "+gaz+", trying to merge\n")
                                 for nr,(old,new) in enumerate(zip(gaz2toks2vals[gaz][toks], copy(annos))):
-                                    if old==None: old=new
-                                    if new==None: new=old
-                                    val="_"
-                                    if old!=None:
-                                        val=old
-                                        old=old.split("|")
-                                        if not new in old:
-                                            val="|".join(old)+"|"+new
+                                    if old==None or old in ["","_"]: old=new
+                                    if new==None or new in ["","_"]: new=old
+                                    if old==None:
+                                        old=""
+
+                                    vals=sorted(set(old.split("|")+new.split("|")))
+                                    vals=[ val for val in vals if not val in ["_",""] ]
+                                    val="|".join(vals)
+                                    if val=="":
+                                        val="_"
                                     annos[nr]=val
                                 gaz2toks2vals[gaz][toks]=annos
         # pprint(gaz2toks2vals)
@@ -60,6 +82,7 @@ class Annotator:
         self.word_col=word_col
         self.order_col=order_col
         self.tgt_col=tgt_col
+        # print(gaz2toks2vals)
 
     def annotate(self, buffer:str, suppress_translations=False):
         """ read conll sentence(s) in text format, append annotations according to configuration, return conll data as plain text """
@@ -105,10 +128,10 @@ class Annotator:
                     text=" "+" ".join(words[w:])+" "
                     order2len2annos[o]= { 0 : ["_"]*cols }
                     for toks in toks2vals:
-                        if text.startswith(" "+toks+" "):
+                        if text.startswith(" "+toks.strip()+" "):
                             vals=[toks]+toks2vals[toks]
                             length=len(toks.split(" "))
-                            for w_ in range(w,length):
+                            for w_ in range(w,w+length):
                                 o_ = order[w]
                                 if not o_ in order2len2annos:
                                     order2len2annos[o_]={length : vals}
@@ -155,9 +178,6 @@ class Annotator:
             result+="\n".join(rows)+"\n"
 
             return result
-
-print(args)
-
 
 annotator=Annotator(args.gazetteers, tgt_col=args.target_word_column, order_col=args.order_column, word_col=args.word_column)
 
