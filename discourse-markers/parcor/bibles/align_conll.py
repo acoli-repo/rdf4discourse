@@ -82,6 +82,7 @@ class WordAligner:
 
             if sent_id==None:
                 sent_id=str(len(file2id2buffer[file]))
+            sent_id=sent_id.strip()
 
             # append to sentence, nmormally the sentence will be initially []
             if sent_id in file2id2buffer[file]:
@@ -148,6 +149,7 @@ class WordAligner:
         """ write fast_align training data into a file """
 
         result=""
+        parallel_sentences=0
         if format=="fast_align":
             files=list(self.file2id2buffer.keys())
             if len(files)==0:
@@ -166,13 +168,19 @@ class WordAligner:
                         if sent_id in self.file2id2buffer[file]:
                             toks=self._get_toks(file, self.file2id2buffer[file][sent_id])
                             toks=" ".join(toks)
-                            pairs.append(toks)
+                            if len(toks.strip())>0:
+                                pairs.append(toks)
                         else:
                             break
                     if len(pairs)==len(files):
                         result+= " ||| ".join(pairs)+"\n"
+                        parallel_sentences+=1
+
         else:
             raise Exception("unsupported output format \""+format+"\"")
+
+        sys.stderr.write("parallel sentences: "+str(parallel_sentences)+"\n")
+        sys.stderr.flush()
 
         return result
 
@@ -191,9 +199,13 @@ class WordAligner:
             input_path=input.name
             input.write(self.print_parallel_data().encode())
 
+        # print("encode")
+        #
         systran_align.generate_alignment_probabilities(input_path,fw_path,bw_path)
 
+        # sys.stderr.write("training data in "+input_path+"\n")
         os.remove(input_path)
+
         return fw_path, bw_path
 
     def _get_toks(self, file, src_buffer : list):
@@ -217,36 +229,42 @@ class WordAligner:
         fw_path, bw_path=self._align()
 
         # the following line causes a segdump
-        aligner=systran_align.Aligner(fw_path,bw_path)
+        if(True):
 
-        if len(self.file2id2buffer)!=2:
-            raise Exception("we currently provide bilingual alignment only, we need two files")
+            # sys.stderr.write("alignments in "+str(fw_path)+ " and "+ str(bw_path)+"\n")
+            # will segfault with insufficient training data
 
-        files=list(self.file2id2buffer.keys())
+            aligner=systran_align.Aligner(fw_path,bw_path)
 
-        for sent_id in self.file2id2buffer[files[0]]:
+            if len(self.file2id2buffer)!=2:
+                raise Exception("we currently provide bilingual alignment only, we need two files")
 
-            src_buffer=self.file2id2buffer[files[0]][sent_id]
-            src_toks=self._get_toks(files[0], src_buffer)
+            files=list(self.file2id2buffer.keys())
 
-            if sent_id in self.file2id2buffer[files[1]]:
-                tgt_buffer=self.file2id2buffer[files[1]][sent_id]
-                tgt_toks=self._get_toks(files[1], tgt_buffer)
+            for sent_id in self.file2id2buffer[files[0]]:
 
-                alignment = aligner.align(src_toks,tgt_toks)
-                print("# sent_id = "+sent_id)
-                self.print_alignment(src_buffer,tgt_buffer,alignment, src_file=files[0], tgt_file=files[1])
+                src_buffer=self.file2id2buffer[files[0]][sent_id]
+                src_toks=self._get_toks(files[0], src_buffer)
 
-            else:
-                # unaligned
-                print("# sent_id = "+sent_id)
-                print("# text = "+" ".join(src_toks))
-                output=[ row + ["?"]*self.file2width[files[1]] for row in src_buffer ]
-                output=[ "\t".join(row) for row in output ]
-                print("\n".join(output)+"\n")
+                if sent_id in self.file2id2buffer[files[1]]:
+                    tgt_buffer=self.file2id2buffer[files[1]][sent_id]
+                    tgt_toks=self._get_toks(files[1], tgt_buffer)
 
-        os.remove(fw_path)
-        os.remove(bw_path)
+                    alignment = aligner.align(src_toks,tgt_toks)
+                    print("# sent_id = "+sent_id)
+                    self.print_alignment(src_buffer,tgt_buffer,alignment, src_file=files[0], tgt_file=files[1])
+
+                else:
+                    # unaligned
+                    print("# sent_id = "+sent_id)
+                    print("# text = "+" ".join(src_toks))
+                    output=[ row + ["?"]*self.file2width[files[1]] for row in src_buffer ]
+                    output=[ "\t".join(row) for row in output ]
+                    print("\n".join(output)+"\n")
+
+            os.remove(fw_path)
+            os.remove(bw_path)
+
 
     def print_alignment(self, src_buffer: list, tgt_buffer:list, alignments:dict, src_file=None, tgt_file=None):
         """ write CoNLL format
