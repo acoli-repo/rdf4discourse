@@ -1,5 +1,8 @@
 all: retrieve.py data gazetteers
-	@(langs="en de"; \
+	@(langs="en de cs es fr it nl pt"; \
+		# ar: no bible \
+		# bn: no bible \
+		# ca: no bible \
 	  gazcols="5 6 8 9 10 11 12"; \
 	\
 	echo create initial conll files;\

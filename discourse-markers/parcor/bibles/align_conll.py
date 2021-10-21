@@ -113,9 +113,10 @@ class WordAligner:
                                     buffer=[]
                             else:
                                 if not "\t" in line:
-                                    if file in file2id2buffer:
-                                        file2id2buffer.pop(file)
-                                    raise Exception("not a CoNLL/TSV format, line \""+line+"\" does not contain a tabulator")
+                                    # if file in file2id2buffer:
+                                    #     file2id2buffer.pop(file)
+                                    sys.stderr.write("warning: line \""+line+"\" from file "+file+" does not contain a tabulator. Is this a CoNLL format?\n")
+                                    sys.stderr.flush()
                                 else:
                                     fields=line.split("\t")
                                     buffer.append(fields)
@@ -297,7 +298,7 @@ class WordAligner:
             while len(src_buffer[s])<src_width:
                 src_buffer[s].append("?")
         for t in range(len(tgt_buffer)):
-            while(len(tgt_buffer[t])<tgt_width:
+            while len(tgt_buffer[t])<tgt_width:
                 tgt_buffer[s].append("?")
 
         tgts=[] # previously printed tgts
