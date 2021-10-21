@@ -10,7 +10,14 @@
 - TODO: update evaluation loop from `experiment/eval.sh`
 - TBC: evaluation strategy: against another projections ?
 
-## Building raw annotations (`ensemble/`)
+  * [Building raw annotations](#building-raw-annotations)
+  * [Experimental setup](#experimental-setup)
+  * [Experiments](#experiments)
+  * [Notes](#notes)
+
+## Building raw annotations
+
+After running the `make` script, raw annotations (gazeteer-based, no disambiguation) will be deposited under `ensemble/`.
 
 requirements:
 - Unix-style shell, tested on Ubuntu 20.4
@@ -137,7 +144,7 @@ Other modes:
                               all other arguments except for input, -p, -e, -w
 
 
-### Experiments
+## Experiments
 
 Individual experiments and their results under [`experiment/`](experiment).
 
@@ -157,7 +164,7 @@ For the current setup, the aligned languages are
 - Portuguese (cols 42-44)
 - Spanish (cols 48-50)
 
-## notes
+## Notes
 
 cf. http://www.semantic-web-journal.net/system/files/swj2898.pdf, also for related research
 
