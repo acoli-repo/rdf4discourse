@@ -1,3 +1,4 @@
+
 # Weakly Supervised Discourse Marker Induction
 
 ## Idea
@@ -91,7 +92,7 @@ if `ensemble/de.5.conll` holds direct annotations in column 5 and predictor anno
 
 Also produces evaluation scores: accuracy, prec, recall, f (for discourse marker detection and discourse relation disambiguation). From these, accuracy is not a meaningful measurement because discourse markers are overall underrepresented and the majority class (no prediction) beats any meaningful prediction. Focus on precision and recall instead.
 
-Other modes:
+Other options:
 - `-silent` return evaluation results only, no data
 - `-dimlex` bootstrap discourse marker inventory instead of/in addition to doing annotation
 - `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
@@ -146,28 +147,32 @@ Other modes:
 
 ## Experiments
 
-Individual experiments and their results under [`experiment/`](experiment).
+Individual experiments and their results under [`experiment/`](experiment), based on current configuration of `Makefile`, e.g., for `ensemble/de.5.conll`:
 
-TODO:
-- update and describe experiments
-- loop over all DimLex languages
+| TGT |  | cs |  |  | de |  |  | en |  |  |  |  | es |  |  | fr |  |  | it |  |  | nl |  |  | pt |  |  |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ID | WORD | ID | WORD | CzedLex | ID | WORD | DimLex | ID | WORD | DiscMar | Discovery | PDTB | ID | WORD | DiscMar | ID | WORD | LexConn | ID | WORD | LICO | ID | WORD | DisCo | ID | WORD | LDM |
+| 1 | Und | ? | ? | ? | 1 | Und | Conjunction.EXPANSION\|... | 1 | And | _ | Concession.COMPARISON\|... | Concession.COMPARISON\|... | 1 | Y | _ | ? | ? | ? | 1 | E | Conjunction.EXPANSION\|... | ? | ? | ? | 1 | A | _ |
+| 2 | die | 2 | pak | Asynchronous.TEMPORAL\|... | 2 | die | _ | 2 | the | _ | _ | _ | 2 | la | _ | 1 | La | _ | 2 | la | _ | 1 | De | _ | 1 | A | _ |
+| 3 | Erde | 1 | Země | _ | 3 | Erde | _ | 3 | earth | _ | _ | _ | 3 | tierra | _ | 2 | terre | _ | 3 | terra | _ | 2 | aarde | _ | 2 | terra | _ |
+| 4 | war | 3 | byla | _ | 4 | war | _ | 4 | was | _ | _ | _ | 4 | estaba | _ | 3 | �tait | _ | 4 | era | _ | 3 | was | _ | 3 | era | _ |
+| 5 | wüst | 4 | nesličná | _ | 5 | wüst | _ | 5 | waste | _ | _ | _ | 8 | Vac�a. | _ | 4 | informe | _ | 7 | deserta | _ | 4 | woest | _ | 4 | sem | Conjunction.EXPANSION\|... |
 
-#### to be updated
-For the current setup, the aligned languages are
+In the current setup, the column structure is
 
-- Czech (cols 6-8)
-- German (cols 12-14)
-- English (cols 18-20)
-- French (cols 24-26)
-- Italian (cols 30-32)
-- Dutch (cols 36-38)
-- Portuguese (cols 42-44)
-- Spanish (cols 48-50)
+- target language (cols 1-2)
+- Czech (cols 3-5)
+- German (cols 6-8)
+- English (cols 9-13)
+- Spanish (cols 14-16)
+- French (cols 17-19)
+- Italian (cols 20-22)
+- Dutch (cols 23-25)
+- Portuguese (cols 26-28)
 
-## Notes
+For each column group, the first two columns are ID and WORD, the third and following represent different gazetteers.
 
-cf. http://www.semantic-web-journal.net/system/files/swj2898.pdf, also for related research
+## Related Research
 
-they demonstrate robustness of discourse annotations across (a certain sample) of languages
-
-a difference is that we are completely annotation-free
+- [Özer et al., subm.](http://www.semantic-web-journal.net/system/files/swj2898.pdf) previously demonstrated robustness of discourse annotations across (a certain sample) of languages.
+A difference is that this experiment is completely annotation-free.
