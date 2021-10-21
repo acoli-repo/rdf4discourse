@@ -76,11 +76,11 @@ if `ensemble/de.5.conll` holds direct annotations in column 5 and predictor anno
 - the same types of columns for evaluation data (`-e` column[s], without an `-e` flag, these will be empty)
 
 
-    1	Und	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	0.6666666666666666	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1.0	1.0	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1.0
-    2	die	2	die	_	2	the	_	_	_	0.0	_	0.0	0.0	_	0.0
-    3	Erde	3	Erde	_	3	earth	_	_	_	0.0	_	0.0	0.0	_	0.0
-    4	war	4	war	_	4	was	_	_	_	0.0	_	0.0	0.0	_	0.0
-    5	wüst	5	wüst	_	5	waste	_	_	_	0.0	_	0.0	0.0	_	0.0
+      1	Und	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	0.6666666666666666	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1.0	1.0	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1.0
+      2	die	2	die	_	2	the	_	_	_	0.0	_	0.0	0.0	_	0.0
+      3	Erde	3	Erde	_	3	earth	_	_	_	0.0	_	0.0	0.0	_	0.0
+      4	war	4	war	_	4	was	_	_	_	0.0	_	0.0	0.0	_	0.0
+      5	wüst	5	wüst	_	5	waste	_	_	_	0.0	_	0.0	0.0	_	0.0
 
 Also produces evaluation scores: accuracy, prec, recall, f (for discourse marker detection and discourse relation disambiguation). From these, accuracy is not a meaningful measurement because discourse markers are overall underrepresented and the majority class (no prediction) beats any meaningful prediction. Focus on precision and recall instead.
 
