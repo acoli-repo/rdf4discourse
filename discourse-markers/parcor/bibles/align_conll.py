@@ -321,7 +321,6 @@ if not "-silent" in sys.argv or len(sys.argv)<=2:
                      "  -nopunct  strip punctuation before doing alignment, helpful for whitespace tokenization\n"+\
                      "  -noids    suppress id generation (not recommended, breaks alignment of multi-word tokens)\n"+\
                      "  -silent   skip usage information\n"+\
-
                      "In the resulting CoNLL data, the following notations are used for n:m alignment:\n"+\
                      "   * (for source/conll1 annotations) m:1 the last aligned source word is aligned with the current target word\n"+\
                      "   ? (for source/conll1 annotations) 0:1 the current target word does not have a source alignment\n"+\

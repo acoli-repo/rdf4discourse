@@ -1,5 +1,6 @@
 all: retrieve.py data gazetteers
 	@(langs="en de"; \
+	  gazcols="5 6 8 9 10 11 12"; \
 	\
 	echo create initial conll files;\
 	for lang in $$langs; do \
@@ -21,7 +22,7 @@ all: retrieve.py data gazetteers
 	echo; \
 	\
 	echo annotate every language for all gazeteers, split for layers 1>&2; \
-	for col in 5 6 8 9 10 11 12; do \
+	for col in $$gazcols; do \
 		for src in data/*txt; do \
 			lang=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
 			tgt=data/$$lang.conll;\
@@ -53,20 +54,44 @@ all: retrieve.py data gazetteers
 	echo ; \
 	\
 	echo alignments 1>&2;\
-	for src in data/*txt; do \
-		for tgt in data/*txt; do \
-			l1=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
-			l2=`basename $$tgt | sed s/'\.[^\.\/]*$$'//`; \
-			if [ $$l1 != $$l2 ]; then \
-				mrg=data/$$l1-$$l2.conll;\
-				if [ ! -s $$mrg ]; then \
-					echo $$mrg 1>&2; \
-					(python3 align_bibles.py $$src $$tgt -low -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
-				fi; \
-			fi; \
-		done; \
-	done; \
-	echo;\
+	if [ ! -e ensemble ]; then \
+		mkdir ensemble; \
+	fi; \
+	for col in $$gazcols; do \
+		for src in data/*txt; do \
+			lang=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
+			tgt=ensemble/$$lang.$$col.conll; \
+			if [ -s $$tgt ]; then \
+				echo $$tgt found 1>&2; \
+			else \
+				cp data/$$lang.conll $$tgt; \
+				for gaz in data/*.gaz.$$col; do \
+					tmp=$$tgt.tmp; \
+					echo $$tgt": adding "$$gaz 1>&2; \
+					python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
+					egrep -v '^[\?\*_]' > $$tmp; \
+					mv $$tmp $$tgt; \
+					head -n 30 $$tgt;\
+					echo; \
+				done; \
+			fi;\
+		done;\
+	done;\
+	echo ; \
+	# \
+	# 	for tgt in data/*txt; do \
+	# 		l1=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
+	# 		l2=`basename $$tgt | sed s/'\.[^\.\/]*$$'//`; \
+	# 		if [ $$l1 != $$l2 ]; then \
+	# 			mrg=data/$$l1-$$l2.conll;\
+	# 			if [ ! -s $$mrg ]; then \
+	# 				echo $$mrg 1>&2; \
+	# 				(python3 align_bibles.py $$src $$tgt -low -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
+	# 			fi; \
+	# 		fi; \
+	# 	done; \
+	# done; \
+	# echo;\
 	)
 
 
