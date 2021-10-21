@@ -28,7 +28,8 @@ class WordAligner:
     """ defines the alignment column """
 
     lcase_files=[]
-    """ files to be lowercased before alignment """
+    nopunct_files=[]
+    """ files to be normalized before alignment """
 
     def __init__(self, ids=True):
         """ if ids=False, do not generate IDs. Use only if no multi-word alignment is required """
@@ -131,10 +132,17 @@ class WordAligner:
         self.file2id2buffer=file2id2buffer
 
     def lower(self,files=None):
-        """ overwrites the WORD/FORM column ! but keeps tokenization """
+        """ can be specified for different input files """
         if files==None:
             files=self.file2id2buffer.keys()
         self.lcase_files=files
+
+    def nopunct(self,files=None):
+        """ can be specified for different input files """
+        if files==None:
+            files=self.file2id2buffer.keys()
+        self.nopunct_files=files
+
 
     def print_parallel_data(self, format="fast_align"):
         """ write fast_align training data into a file """
@@ -196,6 +204,8 @@ class WordAligner:
 
         src_col=self.file2word_cols[file]
         src_toks=[ row[src_col].strip() for row in src_buffer ]
+        if file in self.nopunct_files:
+            src_toks=[ re.sub(r"[,.:;!?()\[\]{}\"\'\-\\/_]+","",tok) for tok in src_toks ]
         src_toks=[ tok if len(tok) > 0 else "_" for tok in src_toks ]
         src_toks=[ re.sub(r"\s+","_",tok) for tok in src_toks ]
         if file in self.lcase_files:
@@ -303,13 +313,15 @@ class WordAligner:
                 print("\t".join(anno))
         print()
 
-if not "-silent" in sys.argv:
-    sys.stderr.write("synopsis: "+sys.argv[0]+" conll1[=col1] conll2[=col2] [-low] [-silent] [-noids]\n")
+if not "-silent" in sys.argv or len(sys.argv)<=2:
+    sys.stderr.write("synopsis: "+sys.argv[0]+" conll1[=col1] conll2[=col2] [-low] [-silent] [-noids] [-nopunct]\n")
     sys.stderr.write("  conlli    CoNLL file(s), must be sentence-aligned\n"+\
                      "  coli      column over which the alignment is to be performed, defaults to 1 (second column, WORD/FORM column in CoNLL-U)\n"+\
                      "  -low      perform alignment over lower case\n"+\
-                     "  -silent   skip usage information\n"+\
+                     "  -nopunct  strip punctuation before doing alignment, helpful for whitespace tokenization\n"+\
                      "  -noids    suppress id generation (not recommended, breaks alignment of multi-word tokens)\n"+\
+                     "  -silent   skip usage information\n"+\
+
                      "In the resulting CoNLL data, the following notations are used for n:m alignment:\n"+\
                      "   * (for source/conll1 annotations) m:1 the last aligned source word is aligned with the current target word\n"+\
                      "   ? (for source/conll1 annotations) 0:1 the current target word does not have a source alignment\n"+\
@@ -317,33 +329,38 @@ if not "-silent" in sys.argv:
                      "There is no special notation for 1:n alignments, the target/conll2 annotation is just repeated.\n"+\
                      "For n and m > 1, n:m alignments are represented as a series of m:1 and 1:n alignments.")
 
-file1=sys.argv[1]
-file2=sys.argv[2]
-col1=1
-col2=1
+if len(sys.argv) >2:
+    file1=sys.argv[1]
+    file2=sys.argv[2]
+    col1=1
+    col2=1
 
-if "=" in file1:
-    if not os.path.exists(file1):
-        col1=int(file1.split("=")[-1])
-        file1="=".join(file1.split("=")[0:-1])
+    if "=" in file1:
+        if not os.path.exists(file1):
+            col1=int(file1.split("=")[-1])
+            file1="=".join(file1.split("=")[0:-1])
 
-if "=" in file2:
-    if not os.path.exists(file2):
-        col2=int(file2.split("=")[-1])
-        file2="=".join(file2.split("=")[0:-1])
+    if "=" in file2:
+        if not os.path.exists(file2):
+            col2=int(file2.split("=")[-1])
+            file2="=".join(file2.split("=")[0:-1])
 
-ids=True
-if "-noids" in sys.argv:
-    sys.stderr.write("suppress ID generation\n")
-    ids=False
+    ids=True
+    if "-noids" in sys.argv:
+        sys.stderr.write("suppress ID generation\n")
+        ids=False
 
-alignment=WordAligner(ids=ids)
-alignment.add(file1,col1)
-alignment.add(file2,col2)
+    alignment=WordAligner(ids=ids)
+    alignment.add(file1,col1)
+    alignment.add(file2,col2)
 
-if "-low" in sys.argv:
-    sys.stderr.write("lower case\n")
-    alignment.lower()
+    if "-low" in sys.argv:
+        sys.stderr.write("lower case\n")
+        alignment.lower()
 
-# print(alignment.print_parallel_data())
-alignment.align()
+    if "-nopunct" in sys.argv:
+        sys.stderr.write("strip punctuation\n")
+        alignment.nopunct()
+
+    # print(alignment.print_parallel_data())
+    alignment.align()
