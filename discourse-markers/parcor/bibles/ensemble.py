@@ -221,71 +221,79 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
     for nr,line in enumerate(buffer):
         fields=line.split("\t")
 
-        dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold)
-        if eval==None or len(eval)==0:
-            ev_score, ev_senses, ev_score="_","_","_"
-        else:
-            ev_score, ev_senses, ev_score=_predict(fields, eval, dm_threshold=eval_threshold)   # no conf_threshold, this requires a dimlex
-            if ev_senses=="_":
-                evs=sorted(set([ fields[e] for e in eval ]))
-                if len(evs)==1 and evs[0]=="?":
-                    ev_senses="?"
-            sys.stderr.flush()
-            # print("\n",fields)
-            # print("EVAL:",fields[words_col], eval, fields[eval[0]], ev_score, ev_senses, ev_score)
+        try:
+            dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold)
 
-        if eval!=None:
-            if ev_senses!="?":
-                if top_senses=="_":
-                    if ev_senses=="_":
-                        tn+=1
-                    else:
-                        fn+=1
-                else:
-                    if ev_senses=="_":
-                        dm_fp+=1
-                    else:
-                        dm_tp+=1
+            if eval==None or len(eval)==0:
+                ev_score, ev_senses, ev_score="_","_","_"
+            else:
+                ev_score, ev_senses, ev_score=_predict(fields, eval, dm_threshold=eval_threshold)   # no conf_threshold, this requires a dimlex
+                if ev_senses=="_":
+                    evs=sorted(set([ fields[e] for e in eval ]))
+                    if len(evs)==1 and evs[0]=="?":
+                        ev_senses="?"
+                sys.stderr.flush()
+                # print("\n",fields)
+                # print("EVAL:",fields[words_col], eval, fields[eval[0]], ev_score, ev_senses, ev_score)
 
-                    # relationals
-                    true_positive=True
-                    for sense in top_senses.split("|"):                             # cond (1)
-                        if not sense in ev_senses:
-                            # we allow an ev sense to be more generic, i.e.
-                            # pred COMPARISON.Contrast vs. gold COMPARISON.Contrast :   tp (trivial)
-                            # pred COMPARISON.Contrast vs. gold COMPARISON :            tp (cond 2)
-                            # pred COMPARISON.Concession vs. gold COMPARISON.Contrast:  fp (trivial)
-                            # pred COMPARISON          vs. gold COMPARISON.Contrast :   tp (cond1)
-                            # pred COMPARISON          vs. COMPARISON|TEMPORAL :        tp (cond1)
-                            # pred COMPARISON|TEMPORAL vs. COMPARISON:                  fp (viol cond 1)
-                            # pred COMPARISON          vs. _:                           fp (trivial)
-                            false_positive=True
-                            for esense in ev_senses.split("|"):
-                                if esense in sense:                                 # cond (2)
-                                    false_positive=False
+            if eval!=None:
+                if ev_senses!="?":
+                    if top_senses=="_":
+                        if ev_senses=="_":
+                            tn+=1
+                        else:
+                            fn+=1
+                    else:
+                        if ev_senses=="_":
+                            dm_fp+=1
+                        else:
+                            dm_tp+=1
+
+                        # relationals
+                        true_positive=True
+                        for sense in top_senses.split("|"):                             # cond (1)
+                            if not sense in ev_senses:
+                                # we allow an ev sense to be more generic, i.e.
+                                # pred COMPARISON.Contrast vs. gold COMPARISON.Contrast :   tp (trivial)
+                                # pred COMPARISON.Contrast vs. gold COMPARISON :            tp (cond 2)
+                                # pred COMPARISON.Concession vs. gold COMPARISON.Contrast:  fp (trivial)
+                                # pred COMPARISON          vs. gold COMPARISON.Contrast :   tp (cond1)
+                                # pred COMPARISON          vs. COMPARISON|TEMPORAL :        tp (cond1)
+                                # pred COMPARISON|TEMPORAL vs. COMPARISON:                  fp (viol cond 1)
+                                # pred COMPARISON          vs. _:                           fp (trivial)
+                                false_positive=True
+                                for esense in ev_senses.split("|"):
+                                    if esense in sense:                                 # cond (2)
+                                        false_positive=False
+                                        break
+                                if false_positive:
+                                    true_positive=False
                                     break
-                            if false_positive:
-                                true_positive=False
-                                break
-                    sys.stderr.flush()
-                    # print(top_senses,ev_senses, true_positive)
-                    if true_positive:
-                        rel_tp+=1
-                    else:
-                        rel_fp+=1
+                        sys.stderr.flush()
+                        # print(top_senses,ev_senses, true_positive)
+                        if true_positive:
+                            rel_tp+=1
+                        else:
+                            rel_fp+=1
 
-        if slim_output:
-                tmp=[]
-                for x in range(len(fields)):
-                    if x==words_col or (pred!=None and x in pred) or (eval!=None and x in eval):
-                        tmp.append(fields[x])
-                fields=tmp
+            if slim_output:
+                    tmp=[]
+                    for x in range(len(fields)):
+                        if x==words_col or (pred!=None and x in pred) or (eval!=None and x in eval):
+                            tmp.append(fields[x])
+                    fields=tmp
 
-        fields+=[str(dm_score),top_senses,str(top_score)]
-        fields+=[str(ev_score),ev_senses,str(ev_score)]
+            fields+=[str(dm_score),top_senses,str(top_score)]
+            fields+=[str(ev_score),ev_senses,str(ev_score)]
 
-        output.write("\t".join(fields)+"\n")
-        output.flush()
+            output.write("\t".join(fields)+"\n")
+        except:
+            traceback.print_exc()
+            sys.stderr.write("skipping row\n"+str(fields)+"\n")
+            sys.stderr.flush()
+            output.write("#"+"\t".join(fields)+"\n")
+
+    output.flush()
 
     # print(fields,dm_tp, dm_fp, rel_tp, rel_fp, fn, tn)
     return dm_tp, dm_fp, rel_tp, rel_fp, fn, tn

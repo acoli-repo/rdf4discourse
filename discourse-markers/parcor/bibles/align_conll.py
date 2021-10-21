@@ -292,9 +292,16 @@ class WordAligner:
         src_width=len(src_buffer[0])
         tgt_width=len(tgt_buffer[0])
 
+        # this can happen if a row is aligned with a sentence break -- shouldn't, though
+        for s in range(len(src_buffer)):
+            while len(src_buffer[s])<src_width:
+                src_buffer[s].append("?")
+        for t in range(len(tgt_buffer)):
+            while(len(tgt_buffer[t])<tgt_width:
+                tgt_buffer[s].append("?")
+
         tgts=[] # previously printed tgts
         for s,src_row in enumerate(src_buffer):
-
             anno=[str(s+1)]+src_row
             if self.ids==False:
                 anno=anno=src_row
