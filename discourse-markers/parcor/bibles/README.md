@@ -61,36 +61,21 @@ This will create
 
   Analoguously, `*.6` represents RST annotations, `*.8` .. `*.12` represent CCR annotations.
 
+- multilingual CoNLL files that aggregate over all multilingual gazeteers, including the source language (ordered by $LANGUAGE_ID.$GAZETTEER, split into separate files for every annotation layers, e.g., `ensemble/en.5.conll` (PDTB annotations from all gazeteers):
 
-### to be updated / not integrated yet
+    # sent_id = b.GEN.1.2
+    1	And	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION
+    2	the	2	die	_	2	the	_	_	_
+    3	earth	3	Erde	_	3	earth	_	_	_
+    4	was	4	war	_	4	was	_	_	_
+    5	waste	5	wüst	_	5	waste	_	_	_
 
-creates `build.mrg.conll`, with
+  Annotations are ordered by language, then by name of gazeteer (as in data files). Here, the first annotation (columns 2-4) is German (col 2: ID, col3: WORD, col4: DimLex gazeteer), then English (columns 5-9; col 5: ID, col 6: WORD, col 7: DiscMar, col 8: Discovery, col 9: PDTB).
 
-    # b.GEN.1.2
-    # Und d Erdn war oed und laer , finster war s über dyr Teuffn , und yn n Herrgot sein Geist gschwöbt über n Wasser .
-    1	Und	1	und	?	?	?	?	1	und	de	COMPARISON|EXPANSION|TEMPORAL	COMPARISON:Contrast|EXPANSION:Conjunction|TEMPORAL:Asynchronous	COMPARISON:Contrast|EXPANSION:Conjunction|TEMPORAL:Asynchronous:Precedence	1	und	?	?	?	?	1	und	?	?	?	?	1	und	it	EXPANSION|TEMPORAL	EXPANSION:Conjunction|TEMPORAL:Asynchronous	EXPANSION:Conjunction|TEMPORAL:Asynchronous:Precedence	1	und	?	?	?	?	1	und	?	?	?	?	1	und	_	_	_	_
-    2	d	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_	2	d	_	_	_	_
+### to be updated
 
-Columns:
+update and describe combination
 
-- 1 ID
-- 2 WORD
-- 3 TOK_ID
-- 4 NORM
-- 5 LANG
-- 6 PDTB1_SENSE
-- 7 PDTB2_SENSE
-- 8 PDTB3_SENSE
-(cols 3 to 8 iterate for all other alignment pairs)
-
-- ID: original token id (whitespace tokenization)
-- WORD: original token
-- TOK_ID: token id of normalized text
-- NORM: normalized token, may split several WORD tokens
-- LANG: translation language that the last two and the following three columns refer to
-- PDTBx_SENSE: discourse relation(s), PDTB hierarchy depth x with x from 1 to 3
-
-For every aligned translation, the columns WORD TOK_ID, NORM, LANG and PDTB1..3 are repeated.
 For the current setup, the aligned languages are
 
 - Czech (cols 6-8)
@@ -101,6 +86,8 @@ For the current setup, the aligned languages are
 - Dutch (cols 36-38)
 - Portuguese (cols 42-44)
 - Spanish (cols 48-50)
+
+### to be integrated
 
 In the annotation columns, `_` means that alignment was successful but that no discourse information could be confirmed. `?` means that no target language alignment could be established.
 

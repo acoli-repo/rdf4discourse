@@ -71,8 +71,9 @@ all: retrieve.py data gazetteers
 					python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
 					egrep -v '^[\?\*_]' > $$tmp; \
 					mv $$tmp $$tgt; \
-					cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
-					head -n 30 $$tgt;\
+					# debugging: \
+					# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
+					# head -n 30 $$tgt;\
 					echo; \
 				done; \
 			fi;\
