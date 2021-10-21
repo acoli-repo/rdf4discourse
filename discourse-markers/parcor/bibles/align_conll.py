@@ -8,7 +8,7 @@ import systran_align
 """ provide word alignments for CoNLL files
     args: file1 file2
 
-    requires pre-existing sentence alignment over CoNLL files
+    requires pre-existing sentence alignment over CoNLL files, either by position or explicit sent_id properties
     output as CoNLL file to stdout, with file2 annotations appended to corresponding file1 rows
 
 """
@@ -18,8 +18,11 @@ class WordAligner:
         input is sentence-aligned CoNLL files, output is a file merged along word alignment, currently using FastText (Systran reimplementation)
     """
 
-    file2buffers={}
-    """ filename -> array of buffers, in this context, a buffer is an array of conll rows (arrays) that represent one sentence each """
+    file2id2buffer={}
+    """ filename -> sent_id -> buffer, in this context, a buffer is an array of conll rows (arrays) that represent one sentence each """
+
+    file2width={}
+    """ if we have no alignment, we fill it up with question marks, but we need column width """
 
     file2word_cols={}
     """ defines the alignment column """
@@ -27,8 +30,10 @@ class WordAligner:
     lcase_files=[]
     """ files to be lowercased before alignment """
 
-    def __init__(self):
-         self.file2buffers={}
+    def __init__(self, ids=True):
+        """ if ids=False, do not generate IDs. Use only if no multi-word alignment is required """
+        self.ids=ids
+        self.file2id2buffer={}
 
     def guess_format(self, file:str):
         """ return format and open method. here, the former is always "conll" """
@@ -61,64 +66,74 @@ class WordAligner:
         """ add a file that contains a monolingual sentence-aligned CoNLL file,
             note that these are later identified by their file name
             word_col is the column that contains the text to be aligned
-            sent_id is a sentence id, if None, we just count, if integer,
-                    we append to an existing buffer
+            sent_id is a sentence id, if None per buffer, use (string representations of integers), if the same id re-occurs, then concatenate
             buffer is a list of rows that represents a single conll sentence
             """
-        file2buffers=self.file2buffers
-        if not file in file2buffers:
-            file2buffers[file]=[]
+        file2id2buffer=self.file2id2buffer
+        if not file in file2id2buffer:
+            file2id2buffer[file]={}
         if not word_col in self.file2word_cols:
             self.file2word_cols[file]=word_col
         if word_col != self.file2word_cols[file]:
             raise Exception("word_col mismatch: failed to override "+str(self.file2word_cols[file])+" with "+str(word_col))
-        if sent_id==None:
-            sent_id=len(file2buffers[file])
-        while len(file2buffers[file])<=sent_id:
-            file2buffers[file].append([])
 
         if type(buffer)==list:
-                # append to sentence, nmormally the sentence will be initially []
-                file2buffers[file][sent_id]+=buffer
-        else:
-            # print(file,self.file2buffers)
-            # not file in self.file2buffers or len(file2buffers[file])==0: # ignore buffer, but add complete file (but only if not in yet)
 
+            if sent_id==None:
+                sent_id=str(len(file2id2buffer[file]))
+
+            # append to sentence, nmormally the sentence will be initially []
+            if sent_id in file2id2buffer[file]:
+                file2id2buffer[file][sent_id]+=buffer
+            else:
+                file2id2buffer[file][sent_id]=buffer
+        else:
             format,my_open=self.guess_format(file)
             if format=="conll":
                 with my_open(file, "r") as input:
                     sys.stderr.write("reading "+file+"\r")
                     # we strip all CoNLL comments and split at empty lines
+                    sent_id=None
                     buffer=[]
 
                     for line in input:
                         line=line.strip()
-                        if not line.startswith("#"):
+                        if line.startswith("#"):
+                            line=line[1:].strip()
+                            if "=" in line:
+                                fields=line.split("=")
+                                if fields[0].strip()=="sent_id":
+                                    sent_id=fields[1]
+                        else:
                             if line=="":
                                 if len(buffer)>0:
-                                    self.add(file,word_col,buffer=buffer)
+                                    self.add(file,word_col,sent_id=sent_id, buffer=buffer)
                                     buffer=[]
                             else:
                                 if not "\t" in line:
-                                    if file in file2buffers:
-                                        file2buffers.pop(file)
+                                    if file in file2id2buffer:
+                                        file2id2buffer.pop(file)
                                     raise Exception("not a CoNLL/TSV format, line \""+line+"\" does not contain a tabulator")
                                 else:
-                                    buffer.append(line.split("\t"))
+                                    fields=line.split("\t")
+                                    buffer.append(fields)
+                                    if not file in self.file2width:
+                                        self.file2width[file]=len(fields)
+
                     if len(buffer)>0:
-                        self.add(file,word_col,buffer=buffer)
+                        self.add(file,word_col,sent_id=sent_id, buffer=buffer)
 
             else:
                     raise Exception("Support for format "+format+" not implemented yet")
 
-            sys.stderr.write("reading "+file+": "+str(len(file2buffers[file]))+" sentences\n")
+            sys.stderr.write("reading "+file+": "+str(len(file2id2buffer[file]))+" sentences\n")
 
-        self.file2buffers=file2buffers
+        self.file2id2buffer=file2id2buffer
 
     def lower(self,files=None):
         """ overwrites the WORD/FORM column ! but keeps tokenization """
         if files==None:
-            files=self.file2buffers.keys()
+            files=self.file2id2buffer.keys()
         self.lcase_files=files
 
     def print_parallel_data(self, format="fast_align"):
@@ -126,7 +141,7 @@ class WordAligner:
 
         result=""
         if format=="fast_align":
-            files=list(self.file2buffers.keys())
+            files=list(self.file2id2buffer.keys())
             if len(files)==0:
                 raise Exception("please provide two texts for alignment")
             if len(files)==1:
@@ -136,19 +151,18 @@ class WordAligner:
                 sys.stderr.write("warning: fast_align supports alignment between only two texts, restricting to "+files[0]+" and "+files[1])
                 files=files[0:2]
             if len(files)==2:
-                sents=len(self.file2buffers[files[0]])
-                if sents != len(self.file2buffers[files[1]]):
-                    raise Exception("alignment error: different number of sentences: "+str(sents)+" in "+files[0]+" vs. "+str(len(self.file2buffers[files[1]]))+" in "+files[1])
-
-                for nr in range(sents):
+                for sent_id in self.file2id2buffer[files[0]].keys():
                     pairs=[]
 
                     for file in files:
-                        toks=self._get_toks(file, self.file2buffers[file][nr])
-                        toks=" ".join(toks)
-                        pairs.append(toks)
-
-                    result+= " ||| ".join(pairs)+"\n"
+                        if sent_id in self.file2id2buffer[file]:
+                            toks=self._get_toks(file, self.file2id2buffer[file][sent_id])
+                            toks=" ".join(toks)
+                            pairs.append(toks)
+                        else:
+                            break
+                    if len(pairs)==len(files):
+                        result+= " ||| ".join(pairs)+"\n"
         else:
             raise Exception("unsupported output format \""+format+"\"")
 
@@ -195,21 +209,31 @@ class WordAligner:
         # the following line causes a segdump
         aligner=systran_align.Aligner(fw_path,bw_path)
 
-        if len(self.file2buffers)!=2:
+        if len(self.file2id2buffer)!=2:
             raise Exception("we currently provide bilingual alignment only, we need two files")
 
-        files=list(self.file2buffers.keys())
+        files=list(self.file2id2buffer.keys())
 
-        for sent_nr in range(len(self.file2buffers[files[0]])):
+        for sent_id in self.file2id2buffer[files[0]]:
 
-            src_buffer=self.file2buffers[files[0]][sent_nr]
+            src_buffer=self.file2id2buffer[files[0]][sent_id]
             src_toks=self._get_toks(files[0], src_buffer)
 
-            tgt_buffer=self.file2buffers[files[1]][sent_nr]
-            tgt_toks=self._get_toks(files[0], tgt_buffer)
+            if sent_id in self.file2id2buffer[files[1]]:
+                tgt_buffer=self.file2id2buffer[files[1]][sent_id]
+                tgt_toks=self._get_toks(files[1], tgt_buffer)
 
-            alignment = aligner.align(src_toks,tgt_toks)
-            self.print_alignment(src_buffer,tgt_buffer,alignment, src_file=files[0], tgt_file=files[1])
+                alignment = aligner.align(src_toks,tgt_toks)
+                print("# sent_id = "+sent_id)
+                self.print_alignment(src_buffer,tgt_buffer,alignment, src_file=files[0], tgt_file=files[1])
+
+            else:
+                # unaligned
+                print("# sent_id = "+sent_id)
+                print("# text = "+" ".join(src_toks))
+                output=[ row + ["?"]*self.file2width[files[1]] for row in src_buffer ]
+                output=[ "\t".join(row) for row in output ]
+                print("\n".join(output)+"\n")
 
         os.remove(fw_path)
         os.remove(bw_path)
@@ -237,15 +261,23 @@ class WordAligner:
                 else:
                     a2b[a].append(b)
 
-        tgts=[] # oreviously printed tgts
+        src_width=len(src_buffer[0])
+        tgt_width=len(tgt_buffer[0])
+
+        tgts=[] # previously printed tgts
         for s,src_row in enumerate(src_buffer):
+
             anno=[str(s+1)]+src_row
+            if self.ids==False:
+                anno=anno=src_row
+
             if not s in src2tgt:
-                anno+=["_","_"]
+                anno+=["?"]*tgt_width
                 print("\t".join(anno))
             else:
                 for t in src2tgt[s]:
-                    anno.append(str(t+1))
+                    if not self.ids==False:
+                        anno.append(str(t+1))
                     if True: # t in tgts:
                     #     anno.append("*")
                     #     print("\t".join(anno))
@@ -255,20 +287,35 @@ class WordAligner:
                         print("\t".join(anno))
                         while(t+1<len(tgt_buffer) and not t+1 in tgts and not t+1 in tgt2src):
                             t=t+1
-                            print("_\t_\t"+str(t+1)+"\t"+tgt_buffer[t])
+                            anno=["?"]+["?"]*src_width+[str(t+1)]+tgt_buffer[t]
+                            if self.ids==False:
+                                anno=["?"]*src_width+tgt_buffer[t]
+                            print("\t".join(anno))
                             tgts.append(t)
-                    anno=[anno[0],"*"]
+                    anno=[str(s+1)]+["*"]*src_width
+                    if self.ids==False:
+                        anno=["*"]*src_width
         for t in range(len(tgt_buffer)):
             if not t in tgts:
-                print("_\t_\t"+str(t+1)+"\t"+tgt_buffer[t])
+                anno=["?"]+["?"]*src_width+[str(t+1)]+tgt_buffer[t]
+                if self.ids==False:
+                    anno=["?"]*src_width+tgt_buffer[t]
+                print("\t".join(anno))
         print()
 
 if not "-silent" in sys.argv:
-    sys.stderr.write("synopsis: "+sys.argv[0]+" conll1[=col1] conll2[=col2] [-low] [-silent]\n")
+    sys.stderr.write("synopsis: "+sys.argv[0]+" conll1[=col1] conll2[=col2] [-low] [-silent] [-noids]\n")
     sys.stderr.write("  conlli    CoNLL file(s), must be sentence-aligned\n"+\
                      "  coli      column over which the alignment is to be performed, defaults to 1 (second column, WORD/FORM column in CoNLL-U)\n"+\
                      "  -low      perform alignment over lower case\n"+\
-                     "  -silent   skip usage information")
+                     "  -silent   skip usage information\n"+\
+                     "  -noids    suppress id generation (not recommended, breaks alignment of multi-word tokens)\n"+\
+                     "In the resulting CoNLL data, the following notations are used for n:m alignment:\n"+\
+                     "   * (for source/conll1 annotations) m:1 the last aligned source word is aligned with the current target word\n"+\
+                     "   ? (for source/conll1 annotations) 0:1 the current target word does not have a source alignment\n"+\
+                     "   ? (for target/conll2 annotations) 1:0 the current source word does not have a target alignment\n"+\
+                     "There is no special notation for 1:n alignments, the target/conll2 annotation is just repeated.\n"+\
+                     "For n and m > 1, n:m alignments are represented as a series of m:1 and 1:n alignments.")
 
 file1=sys.argv[1]
 file2=sys.argv[2]
@@ -285,7 +332,12 @@ if "=" in file2:
         col2=int(file2.split("=")[-1])
         file2="=".join(file2.split("=")[0:-1])
 
-alignment=WordAligner()
+ids=True
+if "-noids" in sys.argv:
+    sys.stderr.write("suppress ID generation\n")
+    ids=False
+
+alignment=WordAligner(ids=ids)
 alignment.add(file1,col1)
 alignment.add(file2,col2)
 
