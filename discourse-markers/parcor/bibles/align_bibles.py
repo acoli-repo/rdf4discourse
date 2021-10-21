@@ -5,10 +5,25 @@ import tempfile
 from pprint import pprint
 import systran_align
 
-""" provide word alignments for Bibles in CES/XML and TSV/Text formats
+"""
+    This is a piece of legacy code that is not actively used, it is however, operational and provides additional functionality, so it is kept in the repo.
+    For actual multilingual gazetteer ensembles, we use a reimplementation based on the CoNLL format.
+
+    provide word alignments for Bibles in CES/XML and TSV/Text formats
     args: file1 file2
     output as CoNLL file to stdout, for every source line
     requires the use of identical verse IDs in both resources
+
+    Will produce bilingual CoNLL files, with translation as annotation (lowercase, using heuristic tokenization), e.g., `data/en-de.conll`:
+
+      # text: and the earth was waste and empty , and darkness was on the face of the deep , and the spirit of god was hovering over the face of the waters .
+      # translation: und die erde war wüst und leer , und es war finster auf der tiefe ; und der geist gottes schwebte auf dem wasser .
+      1	and	1	und
+      2	the	2	die
+      3	earth	3	erde
+      4	was	4	war
+      5	waste	5	wüst
+
 """
 
 class Bible:

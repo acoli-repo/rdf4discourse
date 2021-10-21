@@ -30,16 +30,6 @@ This will create
       4	was
       5	waste
 
-- bilingual CoNLL files, with translation as annotation (lowercase, using heuristic tokenization), e.g., `data/en-de.conll`:
-
-      # text: and the earth was waste and empty , and darkness was on the face of the deep , and the spirit of god was hovering over the face of the waters .
-      # translation: und die erde war wüst und leer , und es war finster auf der tiefe ; und der geist gottes schwebte auf dem wasser .
-      1	and	1	und
-      2	the	2	die
-      3	earth	3	erde
-      4	was	4	war
-      5	waste	5	wüst
-
 - monolingual CoNLL files with Gazetteer-based annotation (all *possible* senses, none of these is confirmed at this stage; original spelling and use whitespace tokenization), e.g., `data/en.pdtb2.conll`:
 
       # b.GEN.1.2
