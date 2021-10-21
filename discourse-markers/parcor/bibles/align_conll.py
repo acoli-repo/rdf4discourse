@@ -21,7 +21,7 @@ class WordAligner:
     file2buffers={}
     """ filename -> array of buffers, in this context, a buffer is an array of conll rows (arrays) that represent one sentence each """
 
-    file2word_col={}
+    file2word_cols={}
     """ defines the alignment column """
 
     lcase_files=[]
@@ -68,10 +68,10 @@ class WordAligner:
         file2buffers=self.file2buffers
         if not file in file2buffers:
             file2buffers[file]=[]
-        if not word_col in self.file2word_col:
-            self.file2word_col[file]=word_col
-        if word_col != self.file2word_col[file]:
-            raise Exception("word_col mismatch: failed to override "+str(self.file2word_col[file])+" with "+str(word_col))
+        if not word_col in self.file2word_cols:
+            self.file2word_cols[file]=word_col
+        if word_col != self.file2word_cols[file]:
+            raise Exception("word_col mismatch: failed to override "+str(self.file2word_cols[file])+" with "+str(word_col))
         if sent_id==None:
             sent_id=len(file2buffers[file])
         while len(file2buffers[file])<=sent_id:
@@ -80,7 +80,10 @@ class WordAligner:
         if type(buffer)==list:
                 # append to sentence, nmormally the sentence will be initially []
                 file2buffers[file][sent_id]+=buffer
-        else: # ignore buffer, but add complete file
+        else:
+            # print(file,self.file2buffers)
+            # not file in self.file2buffers or len(file2buffers[file])==0: # ignore buffer, but add complete file (but only if not in yet)
+
             format,my_open=self.guess_format(file)
             if format=="conll":
                 with my_open(file, "r") as input:
@@ -132,9 +135,10 @@ class WordAligner:
             if len(files)>2:
                 sys.stderr.write("warning: fast_align supports alignment between only two texts, restricting to "+files[0]+" and "+files[1])
                 files=files[0:2]
-                sents=len(file2buffers[files[0]])
-                if sents != len(file2buffers[files[1]]):
-                    raise Exception("alignment error: different number of sentences: "+str(sents)+" in "+file[0]+" vs. "+str(len(file2buffers[files[1]]))+" in "+file[1])
+            if len(files)==2:
+                sents=len(self.file2buffers[files[0]])
+                if sents != len(self.file2buffers[files[1]]):
+                    raise Exception("alignment error: different number of sentences: "+str(sents)+" in "+files[0]+" vs. "+str(len(self.file2buffers[files[1]]))+" in "+files[1])
 
                 for nr in range(sents):
                     pairs=[]
@@ -187,6 +191,8 @@ class WordAligner:
     def align(self):
         """ calls systran_align.Aligner """
         fw_path, bw_path=self._align()
+
+        # the following line causes a segdump
         aligner=systran_align.Aligner(fw_path,bw_path)
 
         if len(self.file2buffers)!=2:
@@ -197,10 +203,10 @@ class WordAligner:
         for sent_nr in range(len(self.file2buffers[files[0]])):
 
             src_buffer=self.file2buffers[files[0]][sent_nr]
-            src_toks=self._get_toks(file, src_buffer)
+            src_toks=self._get_toks(files[0], src_buffer)
 
             tgt_buffer=self.file2buffers[files[1]][sent_nr]
-            tgt_toks=self._get_toks(file, tgt_buffer)
+            tgt_toks=self._get_toks(files[0], tgt_buffer)
 
             alignment = aligner.align(src_toks,tgt_toks)
             self.print_alignment(src_buffer,tgt_buffer,alignment, src_file=files[0], tgt_file=files[1])
@@ -213,10 +219,10 @@ class WordAligner:
             src_buffer and tgt_buffer are one CoNLL buffer each that is position-aligned via alignments
         """
 
-        if src_file in self.file2word_col:
-            print("# text:  "+" ".join([ row[self.file2word_col[src_file]] for row in src_buffer ]))
-        if tgt_file in self.file2word_col:
-            print("# trans: "+" ".join([ row[self.file2word_col[tgt_file]] for row in tgt_buffer ]))
+        if src_file in self.file2word_cols:
+            print("# text:  "+" ".join([ row[self.file2word_cols[src_file]] for row in src_buffer ]))
+        if tgt_file in self.file2word_cols:
+            print("# trans: "+" ".join([ row[self.file2word_cols[tgt_file]] for row in tgt_buffer ]))
 
         for key in alignments:
             if key!="alignments":
@@ -287,5 +293,5 @@ if "-low" in sys.argv:
     sys.stderr.write("lower case\n")
     alignment.lower()
 
-#print(alignment.print_parallel_data())
+# print(alignment.print_parallel_data())
 alignment.align()
