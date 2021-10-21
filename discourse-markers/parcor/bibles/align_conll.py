@@ -299,7 +299,7 @@ class WordAligner:
                 src_buffer[s].append("?")
         for t in range(len(tgt_buffer)):
             while len(tgt_buffer[t])<tgt_width:
-                tgt_buffer[s].append("?")
+                tgt_buffer[t].append("?")
 
         tgts=[] # previously printed tgts
         for s,src_row in enumerate(src_buffer):
