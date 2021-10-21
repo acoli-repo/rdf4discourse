@@ -37,6 +37,10 @@ all: retrieve.py data gazetteers
 					gaz=`basename $$gaz | sed s/'^[^\.]*\.\(.*\)\.conll$$'/'\1'/`;\
 					cut -f 2,$$col data/$$lang.$$gaz.conll | \
 					python3 similarity_align.py 25 $$tmp=1 - | \
+					# drop misalignments\
+					grep -v '^?' | \
+					# restore incorrectly aligned sentence breaks\
+					sed s/'^\s\s*\?.*'//g | \
 					sed -e s/'^\(#[^\?]*\)[\? \t]*$$'/'\1'/g -e s/'^# cols: .*'/'& '$$lang.$$gaz/ > $$tgt; \
 					cols=`egrep -m 1 '^1' $$tgt | perl -pe 's/\t/\n/g;' | wc -l`; \
 					drop_col=`echo $$cols -1 | bc`;\
