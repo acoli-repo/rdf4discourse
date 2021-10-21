@@ -87,54 +87,54 @@ Also produces evaluation scores: accuracy, prec, recall, f (for discourse marker
 Other modes:
 - `-silent` return evaluation results only, no data
 - `-dimlex` bootstrap discourse marker inventory instead of/in addition to doing annotation
-. `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
+- `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
 
-    usage: ensemble.py [-h] [-p PREDICTOR [PREDICTOR ...]]
-                       [-e [EVALUATOR [EVALUATOR ...]]] [-dimlex] [-iterate]
-                       [-w WORDS_COL] [-th PRED_THRESHOLD] [-c MIN_CONFIDENCE]
-                       [-eth EVAL_THRESHOLD] [-slim] [-silent] [-auto]
-                       input
+      usage: ensemble.py [-h] [-p PREDICTOR [PREDICTOR ...]]
+                         [-e [EVALUATOR [EVALUATOR ...]]] [-dimlex] [-iterate]
+                         [-w WORDS_COL] [-th PRED_THRESHOLD] [-c MIN_CONFIDENCE]
+                         [-eth EVAL_THRESHOLD] [-slim] [-silent] [-auto]
+                         input
 
-    if a text has been annotated by multiple tools according to the same schema,
-    run a number of bootstrapping experiments
+      if a text has been annotated by multiple tools according to the same schema,
+      run a number of bootstrapping experiments
 
-    positional arguments:
-      input                 CoNLL file to read from, if omitted, read from stdin
+      positional arguments:
+        input                 CoNLL file to read from, if omitted, read from stdin
 
-    optional arguments:
-      -h, --help            show this help message and exit
-      -p PREDICTOR [PREDICTOR ...], --predictor PREDICTOR [PREDICTOR ...]
-                            columns that contain the invidual input predictions
-      -e [EVALUATOR [EVALUATOR ...]], --evaluator [EVALUATOR [EVALUATOR ...]]
-                            columns that constitute an ensemble that the predictor
-                            is evaluated against
-      -dimlex, --dimlex_mode
-                            instead of doing annotation, bootstrap a discourse
-                            marker inventory, note that this requires input to be
-                            a file
-      -iterate, --self_supervision
-                            bootstrap a discourse marker inventory, then use it to
-                            re-annotate the input, note that this requires input
-                            to be a file
-      -w WORDS_COL, --words_col WORDS_COL
-                            WORDS/FORM column, needed for
-                            -iterate/--self_supervision
-      -th PRED_THRESHOLD, --pred_threshold PRED_THRESHOLD
-                            threshold for predictions: predict only if probability
-                            for a discourse marker is at least at this value, 0.4
-                            is a good guess
-      -c MIN_CONFIDENCE, --min_confidence MIN_CONFIDENCE
-                            threshold for predictions: predict only if dimlex
-                            confidence >= min_confidence, in iterative mode, only
-      -eth EVAL_THRESHOLD, --eval_threshold EVAL_THRESHOLD
-                            threshold for evaluation, if evaluated against a
-                            single target annotation, defaults to --pred_threshold
-      -slim, --slim_output  return only --words_col, --predictor and --evaluator
-                            columns, as well as their predictions
-      -silent, --no_output  return only scores, no annotations
-      -auto, --test_all_combinations
-                            if set, explore all possible combinations, overrides
-                            all other arguments except for input, -p, -e, -w
+      optional arguments:
+        -h, --help            show this help message and exit
+        -p PREDICTOR [PREDICTOR ...], --predictor PREDICTOR [PREDICTOR ...]
+                              columns that contain the invidual input predictions
+        -e [EVALUATOR [EVALUATOR ...]], --evaluator [EVALUATOR [EVALUATOR ...]]
+                              columns that constitute an ensemble that the predictor
+                              is evaluated against
+        -dimlex, --dimlex_mode
+                              instead of doing annotation, bootstrap a discourse
+                              marker inventory, note that this requires input to be
+                              a file
+        -iterate, --self_supervision
+                              bootstrap a discourse marker inventory, then use it to
+                              re-annotate the input, note that this requires input
+                              to be a file
+        -w WORDS_COL, --words_col WORDS_COL
+                              WORDS/FORM column, needed for
+                              -iterate/--self_supervision
+        -th PRED_THRESHOLD, --pred_threshold PRED_THRESHOLD
+                              threshold for predictions: predict only if probability
+                              for a discourse marker is at least at this value, 0.4
+                              is a good guess
+        -c MIN_CONFIDENCE, --min_confidence MIN_CONFIDENCE
+                              threshold for predictions: predict only if dimlex
+                              confidence >= min_confidence, in iterative mode, only
+        -eth EVAL_THRESHOLD, --eval_threshold EVAL_THRESHOLD
+                              threshold for evaluation, if evaluated against a
+                              single target annotation, defaults to --pred_threshold
+        -slim, --slim_output  return only --words_col, --predictor and --evaluator
+                              columns, as well as their predictions
+        -silent, --no_output  return only scores, no annotations
+        -auto, --test_all_combinations
+                              if set, explore all possible combinations, overrides
+                              all other arguments except for input, -p, -e, -w
 
 
 ### Experiments
