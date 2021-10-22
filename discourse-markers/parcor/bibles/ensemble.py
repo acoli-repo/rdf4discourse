@@ -126,6 +126,13 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
             dm_total=0
             sense2positives={}
 
+            if max(pred)>=len(fields):
+                    sys.stderr.write("warning: incomplete row "+str(fields)+" (len "+str(len(fields))+")\n"+
+                                     "         should have at least "+str(max(pred)+1)+" elements. Filling up with '?'. Alignment error?\n")
+                    sys.stderr.flush()
+                    while max(pred)>=len(fields):
+                        fields+="?"
+
             for p in pred:
                 if fields[p] == "_":
                     dm_total+=1
@@ -151,7 +158,7 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
                             if sense in positive:
                                 sense2positives[sense]+=1
                 # print(sense2positives[sense],dm_true)
-                sense2score= { sense : sense2positives[sense]/dm_true for sense in senses }
+                sense2score= { sense : sense2positives[sense]/dm_true for sense in senses if sense!="?" }
                 top_score=max(sense2score.values())
                 sense2score= { sense : score for sense,score in sense2score.items() if score==top_score }
 
@@ -221,7 +228,7 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
     for nr,line in enumerate(buffer):
         fields=line.split("\t")
 
-        try:
+        if True:
             dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold)
 
             if eval==None or len(eval)==0:
@@ -237,6 +244,8 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
                 # print("EVAL:",fields[words_col], eval, fields[eval[0]], ev_score, ev_senses, ev_score)
 
             if eval!=None:
+                ev_senses=ev_senses.strip()
+                top_senses=top_senses.strip()
                 if ev_senses!="?":
                     if top_senses=="_":
                         if ev_senses=="_":
@@ -244,7 +253,7 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
                         else:
                             fn+=1
                     else:
-                        if ev_senses=="_":
+                        if ev_senses.strip()=="_":
                             dm_fp+=1
                         else:
                             dm_tp+=1
@@ -287,11 +296,6 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
             fields+=[str(ev_score),ev_senses,str(ev_score)]
 
             output.write("\t".join(fields)+"\n")
-        except:
-            traceback.print_exc()
-            sys.stderr.write("skipping row\n"+str(fields)+"\n")
-            sys.stderr.flush()
-            output.write("#"+"\t".join(fields)+"\n")
 
     output.flush()
 
@@ -386,6 +390,10 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
 
         # config
         sys.stderr.write(str(eval)+" <= "+str(pred))
+        if dimlex==None:
+            sys.stderr.write(", direct")
+        else:
+            sys.stderr.write(", -iterate/-dimlex")
         sys.stderr.write("\n")
         sys.stderr.flush()
 

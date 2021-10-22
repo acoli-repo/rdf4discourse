@@ -4,33 +4,23 @@
 MYHOME=`dirname $0`
 ANNOS=$MYHOME/../ensemble
 
-#gazes="5 6 8 9 10 11 12"
-gazes=5
+gazes="5 6 8 9 10 11 12"
+#gazes=5
 
 # different configurations for individual languages, note that we evaluate against PDTB
 for gaz in $gazes; do
-  (echo "-e -p	predicted_dm	gold_dm	tp	|	acc_dm	p_dm	r_dm	f_dm	|	acc_r	p_r	r_r	f_r | conf" | sed s/'\s\s*'/'\t'/g;
-    python3 $MYHOME/../ensemble.py $ANNOS/cs.$gaz.conll -w 1 -e 4 -p 7 12 15 18 21 24 27    -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/de.$gaz.conll -w 1 -p 4 -e 7 -p 12 15 18 21 24 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/en.$gaz.conll -w 1 -p 4 7 -e 12 -p 15 18 21 24 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/es.$gaz.conll -w 1 -p 4 7 12 -e 15 -p 18 21 24 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/fr.$gaz.conll -w 1 -p 4 7 12 15 -e 18 -p 21 24 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/it.$gaz.conll -w 1 -p 4 7 12 15 18 -e 21 -p 24 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/nl.$gaz.conll -w 1 -p 4 7 12 15 18 21 -e 24 -p 27 -silent -auto 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -silent -auto 2>&1 | egrep '0.*\|';
-  echo) | tee $MYHOME/ensemble.$gaz.direct.tsv &
 
+  # note: iterate produces both raw and then iterated score
   (echo "-e -p	predicted_dm	gold_dm	tp	|	acc_dm	p_dm	r_dm	f_dm	|	acc_r	p_r	r_r	f_r | conf" | sed s/'\s\s*'/'\t'/g;
-    python3 $MYHOME/../ensemble.py $ANNOS/cs.$gaz.conll -w 1 -e 4 -p 7 12 15 18 21 24 27    -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/de.$gaz.conll -w 1 -p 4 -e 7 -p 12 15 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/en.$gaz.conll -w 1 -p 4 7 -e 12 -p 15 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/es.$gaz.conll -w 1 -p 4 7 12 -e 15 -p 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/fr.$gaz.conll -w 1 -p 4 7 12 15 -e 18 -p 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/it.$gaz.conll -w 1 -p 4 7 12 15 18 -e 21 -p 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/nl.$gaz.conll -w 1 -p 4 7 12 15 18 21 -e 24 -p 27 -silent -auto -iterate 2>&1 | egrep '0.*\|';
-    python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -silent -auto -iterate 2>&1 | egrep '0.*\|';
-  echo) | tee $MYHOME/ensemble.$gaz.iterate.tsv
-
+    python3 $MYHOME/../ensemble.py $ANNOS/cs.$gaz.conll -w 1 -e 4 -p 7 12 15 18 21 24 27    -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/de.$gaz.conll -w 1 -p 4 -e 7 -p 12 15 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/en.$gaz.conll -w 1 -p 4 7 -e 12 -p 15 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/es.$gaz.conll -w 1 -p 4 7 12 -e 15 -p 18 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/fr.$gaz.conll -w 1 -p 4 7 12 15 -e 18 -p 21 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/it.$gaz.conll -w 1 -p 4 7 12 15 18 -e 21 -p 24 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/nl.$gaz.conll -w 1 -p 4 7 12 15 18 21 -e 24 -p 27 -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+    python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -silent -auto -iterate 2>&1 | egrep '0.*\|.*=';
+  echo) | tee $MYHOME/ensemble.$gaz.tsv &
 done
 
 
