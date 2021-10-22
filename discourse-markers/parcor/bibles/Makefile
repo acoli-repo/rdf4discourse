@@ -28,7 +28,6 @@ all: retrieve.py data gazetteers
 	for col in $$gazcols; do \
 		for src in data/*txt; do \
 			lang=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
-			tgt=data/$$lang.conll;\
 			tgt=data/$$lang.conll.gaz.$$col; \
 			if [ -s $$tgt ]; then \
 				echo keeping $$tgt 1>&2;\
