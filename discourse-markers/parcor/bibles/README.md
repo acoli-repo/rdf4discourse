@@ -8,13 +8,11 @@
 - for all translations with discourse marker inventories, annotate all senses of the longest matching discourse marker (=> [`data/*.conll`](data))
 - by alignment, project these to target language ([`ensemble/`](ensemble))
 - use these projections as an ensemble to predict the most likely discourse relation for the target language (here: the suggested relation(s) that are least frequently rejected, `ensembly.py`)
-- TODO: update evaluation loop from `experiment/eval.sh`
-- TBC: evaluation strategy: against another projections ?
 
   * [Building raw annotations](#building-raw-annotations)
   * [Experimental setup](#experimental-setup)
   * [Experiments](#experiments)
-  * [Notes](#notes)
+  * [Related research](#related-research)
 
 ## Building raw annotations
 
@@ -171,6 +169,12 @@ In the current setup, the column structure is
 - Portuguese (cols 26-28)
 
 For each column group, the first two columns are ID and WORD, the third and following represent different gazetteers.
+
+- TODO: update evaluation loop from `experiment/eval.sh`
+
+Evaluation strategies:
+- against annotation with target language gazeteer (as currently implemented in `ensemble.py`)
+- evaluation of bootstrapped DimLex against target language DimLex
 
 ## Related Research
 
