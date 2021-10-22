@@ -346,8 +346,10 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
         acc_dm=(dm_tp+tn)/total
         acc_rel=(rel_tp+tn)/total
 
-        sys.stderr.write("predicted dm\tgold dm\ttp\t|\tacc_dm\tp_dm\tr_dm\tf_dm\t|\tacc_r\tp_r\tr_r\tf_r\n")
+        sys.stderr.write("-p\t-e\tpredicted dm\tgold dm\ttp\t|\tacc_dm\tp_dm\tr_dm\tf_dm\t|\tacc_r\tp_r\tr_r\tf_r\t|\tconf\n")
 
+        sys.stderr.write(",".join( [ str(e) for e in eval ])+"\t")   # target annotation
+        sys.stderr.write(str(len(pred))+"\t")   # number of predictors, this is for later aggregation
         sys.stderr.write(str(dm_tp+dm_fp)+"\t") # predicted discourse markers
         sys.stderr.write(str(dm_tp+fn)+"\t")    # gold discourse markers
         sys.stderr.write(str(dm_tp)+"\t")       # true positives
@@ -362,10 +364,10 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
         except:
             pass # division by 0
 
-        sys.stderr.write(str(acc_dm)+"\t")      # accuracy (discourse marker)
-        sys.stderr.write(str(prec)+"\t")        # precision (discourse marker)
-        sys.stderr.write(str(rec)+"\t")         # recall (discourse marker)
-        sys.stderr.write(str(f)+"\t")           # f1 (discourse marker)
+        sys.stderr.write(str(acc_dm)[0:7]+"\t")      # accuracy (discourse marker)
+        sys.stderr.write(str(prec)[0:7]+"\t")        # precision (discourse marker)
+        sys.stderr.write(str(rec)[0:7]+"\t")         # recall (discourse marker)
+        sys.stderr.write(str(f)[0:7]+"\t")           # f1 (discourse marker)
         sys.stderr.write("|\t")
 
         # rel scores
@@ -376,10 +378,14 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
             f=2*prec*rec/(prec+rec)
         except:
             pass # divison by 0
-        sys.stderr.write(str(acc_rel)+"\t")     # accuracy (relation)
-        sys.stderr.write(str(prec)+"\t")        # precision (relation)
-        sys.stderr.write(str(rec)+"\t")         # recall (relation)
-        sys.stderr.write(str(f)+"\t")           # f1 (relation)
+        sys.stderr.write(str(acc_rel)[0:7]+"\t")     # accuracy (relation)
+        sys.stderr.write(str(prec)[0:7]+"\t")        # precision (relation)
+        sys.stderr.write(str(rec)[0:7]+"\t")         # recall (relation)
+        sys.stderr.write(str(f)[0:7]+"\t")           # f1 (relation)
+        sys.stderr.write("|\t")
+
+        # config
+        sys.stderr.write(str(eval)+" <= "+str(pred))
         sys.stderr.write("\n")
         sys.stderr.flush()
 

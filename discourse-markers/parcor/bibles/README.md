@@ -94,6 +94,7 @@ Other options:
 - `-silent` return evaluation results only, no data
 - `-dimlex` bootstrap discourse marker inventory instead of/in addition to doing annotation
 - `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
+- `-auto` test all subsets of predictors, if no `-e` is given, run against every individual predictor as evaluation basis 
 
       usage: ensemble.py [-h] [-p PREDICTOR [PREDICTOR ...]]
                          [-e [EVALUATOR [EVALUATOR ...]]] [-dimlex] [-iterate]
