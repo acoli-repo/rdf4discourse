@@ -21,7 +21,7 @@ for gaz in $gazes; do
     python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -silent -auto;
   ) 2>&1 | \
   egrep '0.*\|'
-  echo) | tee $MYHOME/ensemble.$gaz.direct.tsv
+  echo) | tee $MYHOME/ensemble.$gaz.direct.tsv &
 
   (echo "-e -p	predicted_dm	gold_dm	tp	|	acc_dm	p_dm	r_dm	f_dm	|	acc_r	p_r	r_r	f_r | conf" | sed s/'\s\s*'/'\t'/g;
   (
