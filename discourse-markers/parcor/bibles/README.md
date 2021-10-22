@@ -88,13 +88,13 @@ if `ensemble/de.5.conll` holds direct annotations in column 5 and predictor anno
       4	war	4	war	_	4	was	_	_	_	0.0	_	0.0	0.0	_	0.0
       5	wüst	5	wüst	_	5	waste	_	_	_	0.0	_	0.0	0.0	_	0.0
 
-Also produces evaluation scores: accuracy, prec, recall, f (for discourse marker detection and discourse relation disambiguation). From these, accuracy is not a meaningful measurement because discourse markers are overall underrepresented and the majority class (no prediction) beats any meaningful prediction. Focus on precision and recall instead.
+Also produces evaluation scores: accuracy, prec, recall, f (for discourse marker detection and discourse relation disambiguation). From these, accuracy is not a meaningful measurement because discourse markers are overall underrepresented and the majority class (no prediction) beats almost any meaningful prediction (e.g., for Czech, not to predict any discourse marker gives you 92.4% accuracy, many combinations of predictors beat that, but they don't have a large margin to improve upon, so accuracy just doesn't you insight about the significance of these improvements). Focus on precision and recall instead.
 
 Other options:
 - `-silent` return evaluation results only, no data
 - `-dimlex` bootstrap discourse marker inventory instead of/in addition to doing annotation
 - `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
-- `-auto` test all subsets of predictors, if no `-e` is given, run against every individual predictor as evaluation basis 
+- `-auto` test all subsets of predictors, if no `-e` is given, run against every individual predictor as evaluation basis
 
       usage: ensemble.py [-h] [-p PREDICTOR [PREDICTOR ...]]
                          [-e [EVALUATOR [EVALUATOR ...]]] [-dimlex] [-iterate]
@@ -166,7 +166,7 @@ In the current setup, the column structure is
 - Spanish (cols 14-16)
 - French (cols 17-19)
 - Italian (cols 20-22)
-- Dutch (cols 23-25)
+- Dutch (cols 23-25)  
 - Portuguese (cols 26-28)
 
 For each column group, the first two columns are ID and WORD, the third and following represent different gazetteers.
