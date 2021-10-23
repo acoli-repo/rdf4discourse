@@ -67,6 +67,7 @@ all: data gazetteers
 					python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
 					egrep -v '^[\?\*_]' > $$tmp; \
 					mv $$tmp $$tgt; \
+					cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
 					# debugging: \
 					# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
 					# head -n 30 $$tgt;\
@@ -79,7 +80,7 @@ all: data gazetteers
 	)
 
 data:	ted2020.tsv.gz
-	mkdir data
+	@if [ ! -e data ]; then mkdir data; fi
 	python3 split_ted.py ted2020.tsv.gz data/
 
 olia:
