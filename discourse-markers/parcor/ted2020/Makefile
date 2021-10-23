@@ -1,78 +1,98 @@
 all: data gazetteers
-	@(langs="en de ar bn ca cs es fr it nl pt"; \
+	@(\
+		langs="en de ar bn ca cs es fr it nl pt"; \
 	  gazcols="5 6 8 9 10 11 12"; \
 		# debug config\
 		langs="en de";\
 		gazcols="5";\
+		\
+		all_langs_in () { \
+			echo $$0 $$1 1>&2;\
+				for lang in $$langs; do \
+					if [ ! -e $$1/$$lang.conll ]; then	\
+						return 1; \
+					fi;\
+				done;\
+				return 0;\
+			};\
 	\
 	echo create initial conll files;\
-	for lang in $$langs; do \
-		for g in gazetteers/$$lang/*tsv; do \
-			tgt=data/$$lang.`basename $$g | sed s/'\.[^\.]*$$'//`.conll;\
-			if [ -s $$tgt ]; then \
-				echo keeping existing $$tgt 1>&2; \
-			else \
-				echo $$tgt 1>&2; \
-				python3 gazetteer.py data/$$lang.conll $$g > $$tgt; \
-			fi;\
-		done;\
-	done; \
-	echo; \
-	\
-	echo annotate every language for all gazeteers, split for layers 1>&2; \
-	for col in $$gazcols; do \
+	# for doc in data/*/; do \
+	for doc in data/1/; do \
 		for lang in $$langs; do \
-			src=data/$$lang.conll;\
-			tgt=data/$$lang.conll.gaz.$$col; \
-			if [ -s $$tgt ]; then \
-				echo keeping $$tgt 1>&2;\
-			else \
-				tmp=$$tgt.tmp;\
-				(echo '# cols: ID WORD'; echo; cat data/$$lang.conll) > $$tgt; \
-				for gaz in data/$$lang.*.conll; do \
-					echo $$tgt': adding '$$gaz 1>&2; \
-					cp $$tgt $$tmp; \
-					gaz=`basename $$gaz | sed s/'^[^\.]*\.\(.*\)\.conll$$'/'\1'/`;\
-					cut -f 2,$$col data/$$lang.$$gaz.conll | \
-					python3 similarity_align.py 25 $$tmp=1 - | \
-					# drop misalignments\
-					grep -v '^?' | \
-					# restore incorrectly aligned sentence breaks\
-					sed s/'^\s\s*\?.*'//g | \
-					sed -e s/'^\(#[^\?]*\)[\? \t]*$$'/'\1'/g -e s/'^# cols: .*'/'& '$$lang.$$gaz/ > $$tgt; \
-					cols=`egrep -m 1 '^1' $$tgt | perl -pe 's/\t/\n/g;' | wc -l`; \
-					drop_col=`echo $$cols -1 | bc`;\
-					cut --complement -f $$drop_col $$tgt > $$tmp; \
-					mv $$tmp $$tgt; \
+			if [ -e $$doc/$$lang.conll ]; then \
+				for g in gazetteers/$$lang/*tsv; do \
+					tgt=$$doc/$$lang.`basename $$g | sed s/'\.[^\.]*$$'//`.conll;\
+					if [ -s $$tgt ]; then \
+						echo keeping existing $$tgt 1>&2; \
+					else \
+						echo $$tgt 1>&2; \
+						python3 gazetteer.py $$doc/$$lang.conll $$g > $$tgt; \
+					fi;\
 				done;\
 			fi;\
-		done;\
-	done;\
-	echo ; \
-	\
-	echo alignments 1>&2;\
-	if [ ! -e ensemble ]; then \
-		mkdir ensemble; \
-	fi; \
-	for col in $$gazcols; do \
-		for lang in $$langs; do \
-			tgt=ensemble/$$lang.$$col.conll; \
-			if [ -s $$tgt ]; then \
-				echo $$tgt found 1>&2; \
-			else \
-				cp data/$$lang.conll $$tgt; \
-				for gaz in data/*.gaz.$$col; do \
-					tmp=$$tgt.tmp; \
-					echo $$tgt": adding "$$gaz 1>&2; \
-					python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
-					egrep -v '^[\?\*_]' > $$tmp; \
-					mv $$tmp $$tgt; \
-					cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
-					# debugging: \
-					# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
-					# head -n 30 $$tgt;\
-					echo; \
-				done; \
+		done; \
+		echo; \
+		\
+		# annotate every language for all gazeteers, split for layers 1>&2; \
+		for col in $$gazcols; do \
+			for lang in $$langs; do \
+				src=$$doc/$$lang.conll;\
+				tgt=$$doc/$$lang.conll.gaz.$$col; \
+				if [ -e $$src ]; then \
+					if [ -s $$tgt ]; then \
+						echo keeping $$tgt 1>&2;\
+					else \
+						tmp=$$tgt.tmp;\
+						(echo '# cols: ID WORD'; echo; cat $$doc/$$lang.conll) > $$tgt; \
+						for gaz in $$doc/$$lang.*.conll; do \
+							echo $$tgt': adding '$$gaz 1>&2; \
+							cp $$tgt $$tmp; \
+							gaz=`basename $$gaz | sed s/'^[^\.]*\.\(.*\)\.conll$$'/'\1'/`;\
+							cut -f 2,$$col $$doc/$$lang.$$gaz.conll | \
+							python3 similarity_align.py 25 $$tmp=1 - | \
+							# drop misalignments\
+							grep -v '^?' | \
+							# restore incorrectly aligned sentence breaks\
+							sed s/'^\s\s*\?.*'//g | \
+							sed -e s/'^\(#[^\?]*\)[\? \t]*$$'/'\1'/g -e s/'^# cols: .*'/'& '$$lang.$$gaz/ > $$tgt; \
+							cols=`egrep -m 1 '^1' $$tgt | perl -pe 's/\t/\n/g;' | wc -l`; \
+							drop_col=`echo $$cols -1 | bc`;\
+							cut --complement -f $$drop_col $$tgt > $$tmp; \
+							mv $$tmp $$tgt; \
+						done;\
+					fi;\
+				fi;\
+			done;\
+			echo ; \
+			\
+			if all_langs_in $$doc; then \
+				echo alignments 1>&2;\
+				ensemble=ensemble/`basename $$doc`;\
+				if [ ! -e $$ensemble ]; then \
+					mkdir -p $$ensemble; \
+					ls -l $$ensemble;\
+				fi; \
+				for lang in $$langs; do \
+					tgt=$$ensemble/$$lang.$$col.conll; \
+					if [ -s $$tgt ]; then \
+						echo $$tgt found 1>&2; \
+					else \
+						cp $$doc/$$lang.conll $$tgt; \
+						for gaz in $$doc/*.gaz.$$col; do \
+							tmp=$$tgt.tmp; \
+							echo $$tgt": adding "$$gaz 1>&2; \
+							python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
+							egrep -v '^[\?\*_]' > $$tmp; \
+							mv $$tmp $$tgt; \
+							# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
+							# debugging: \
+							# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
+							# head -n 30 $$tgt;\
+							echo; \
+						done; \
+					fi;\
+				done;\
 			fi;\
 		done;\
 	done;\

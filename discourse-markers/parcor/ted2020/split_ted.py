@@ -51,9 +51,9 @@ with my_open(args.tsv_file, "rt") as input:
                         file.write(str(nr+1)+"\t"+tok+"\n")
                     file.write("\n")
                     file.flush()
-            sentid+=1
-            sys.stderr.write(str(sentid)+" sentences, "+str(files)+" open files \r")
-            sys.stderr.flush()
+        sentid+=1
+        sys.stderr.write(str(sentid)+" sentences, "+str(files)+" open files \r")
+        sys.stderr.flush()
 
 for file in doc2col2file[docid].values():
         if file!=None:
