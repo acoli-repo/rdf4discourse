@@ -2,12 +2,12 @@ all: data gazetteers
 	@(\
 		langs="en de ar bn ca cs es fr it nl pt"; \
 	  gazcols="5 6 8 9 10 11 12"; \
-		# debug config\
-		langs="en de";\
-		gazcols="5";\
+		# # debug config\
+		# langs="en de";\
+		# gazcols="5";\
 		\
 		all_langs_in () { \
-			echo $$0 $$1 1>&2;\
+			#echo $$0 $$1 1>&2;\
 				for lang in $$langs; do \
 					if [ ! -e $$1/$$lang.conll ]; then	\
 						return 1; \
@@ -17,8 +17,8 @@ all: data gazetteers
 			};\
 	\
 	echo create initial conll files;\
-	# for doc in data/*/; do \
-	for doc in data/1/; do \
+	for doc in data/*/; do \
+		# for doc in data/1/ data/2/; do \
 		for lang in $$langs; do \
 			if [ -e $$doc/$$lang.conll ]; then \
 				for g in gazetteers/$$lang/*tsv; do \
@@ -29,9 +29,9 @@ all: data gazetteers
 						echo $$tgt 1>&2; \
 						python3 gazetteer.py $$doc/$$lang.conll $$g > $$tgt; \
 					fi;\
-				done;\
+				done; # $$g \
 			fi;\
-		done; \
+		done; 		# $$lang \
 		echo; \
 		\
 		# annotate every language for all gazeteers, split for layers 1>&2; \
@@ -60,43 +60,64 @@ all: data gazetteers
 							drop_col=`echo $$cols -1 | bc`;\
 							cut --complement -f $$drop_col $$tgt > $$tmp; \
 							mv $$tmp $$tgt; \
-						done;\
+						done; #$$gaz \
 					fi;\
 				fi;\
-			done;\
+			done; 			# $$lang \
 			echo ; \
-			\
-			if all_langs_in $$doc; then \
-				echo alignments 1>&2;\
-				ensemble=ensemble/`basename $$doc`;\
-				if [ ! -e $$ensemble ]; then \
-					mkdir -p $$ensemble; \
-					ls -l $$ensemble;\
-				fi; \
+		done; 				# $$col \
+		\
+		echo alignments 1>&2;\
+		if [ ! -e ensemble ]; then \
+			mkdir ensemble; \
+		fi;\
+		if all_langs_in $$doc; then \
+			for col in $$gazcols; do \
 				for lang in $$langs; do \
-					tgt=$$ensemble/$$lang.$$col.conll; \
-					if [ -s $$tgt ]; then \
-						echo $$tgt found 1>&2; \
-					else \
-						cp $$doc/$$lang.conll $$tgt; \
-						for gaz in $$doc/*.gaz.$$col; do \
-							tmp=$$tgt.tmp; \
-							echo $$tgt": adding "$$gaz 1>&2; \
-							python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
-							egrep -v '^[\?\*_]' > $$tmp; \
-							mv $$tmp $$tgt; \
-							# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
-							# debugging: \
-							# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
-							# head -n 30 $$tgt;\
-							echo; \
-						done; \
-					fi;\
-				done;\
-			fi;\
-		done;\
-	done;\
-	echo ; \
+					ensemble=ensemble/`basename $$doc`;\
+					if [ ! -e $$ensemble ]; then \
+						mkdir $$ensemble; \
+						ls -l $$ensemble;\
+					fi; \
+						tgt=$$ensemble/$$lang.$$col.conll; \
+						if [ -s $$tgt ]; then \
+							echo $$tgt found 1>&2; \
+						else \
+							cp $$doc/$$lang.conll $$tgt; \
+							for gaz in $$doc/*.gaz.$$col; do \
+								tmp=$$tgt.tmp; \
+								#echo python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct;\
+								echo $$tgt": adding "$$gaz 1>&2; \
+								python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct | \
+								egrep -v '^[\?\*_]' > $$tmp; \
+								mv $$tmp $$tgt; \
+								# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
+								# debugging: \
+								# cp $$tgt $$tgt.`ls $$tgt* | wc -l`;\
+								# head -n 30 $$tgt;\
+								echo; \
+							done; # $$gaz \
+						fi;\
+				done;					# $$lang \
+			done;						# $$col	\
+		fi;\
+	done;										# $$doc\
+	for lang in $$langs; do \
+		for gaz in $$gazcols; do \
+			tgt=ensemble/$$lang.$$gaz.conll;\
+			if [ -s $$tgt ]; then \
+				echo $$tgt found 1>&2; \
+			else \
+				echo $$tgt 1>&2;\
+				for doc in ensemble/*/; do \
+					cat $$doc/$$lang.$$gaz.conll; \
+					echo ;\
+				done > $$tgt; # $$doc \
+			fi; \
+	done;							# $$gaz \
+	done;								# $$lang \
+	\
+	echo done 1>&2; \
 	)
 
 data:	ted2020.tsv.gz
@@ -127,3 +148,8 @@ gazetteers: olia
 					fi;\
 				fi;\
 			done;)
+
+eval:
+	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/English eval/ted-mdb/en
+	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Portuguese eval/ted-mdb/pt
+	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/German eval/ted-mdb/de
