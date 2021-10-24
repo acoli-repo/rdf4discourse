@@ -7,6 +7,7 @@ import argparse
 from pprint import pprint
 from io import StringIO
 from copy import copy, deepcopy
+import gzip
 
 def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_confidence_col=None, min_freq=10, min_conf=0.25):
 
@@ -457,7 +458,10 @@ for conf in confs:
         conf.eval_threshold=conf.pred_threshold
 
     if os.path.exists(str(conf.input)):
-        conf.input=open(conf.input,"r")
+        if conf.input.endswith("gz"):
+            conf.input=gzip.open(conf.input,"rt")
+        else:
+            conf.input=open(conf.input,"rt")
     else:
         if conf.input!=None:
             sys.stderr.write("could not find input file \""+input+"\", ")
