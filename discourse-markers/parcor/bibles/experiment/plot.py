@@ -5,6 +5,7 @@ args=argparse.ArgumentParser(description=" read a TSV file from stdin, assume th
 args.add_argument("-t","--title", type=str)
 args.add_argument("-min","--min_y", type=float)
 args.add_argument("-max","--max_y", type=float)
+args.add_argument("-o", "--output_file", type=str, help="output file, use - (default) to plot on screen", default="-")
 args=args.parse_args()
 
 x2col2vals={}
@@ -70,4 +71,8 @@ if args.min_y!=None or args.max_y!=None:
 
 if args.title!=None:
     plot.title(args.title)
-plot.show()
+
+if args.output_file=="-":
+    plot.show()
+else:
+    plot.savefig(args.output_file)
