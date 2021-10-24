@@ -118,6 +118,7 @@ all: data gazetteers
 	done;							# $$gaz \
 	done;								# $$lang \
 	\
+	gzip ensemble/*.conll; \
 	echo done 1>&2; \
 	)
 

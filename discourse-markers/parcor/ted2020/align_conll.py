@@ -11,6 +11,8 @@ import systran_align
     requires pre-existing sentence alignment over CoNLL files, either by position or explicit sent_id properties
     output as CoNLL file to stdout, with file2 annotations appended to corresponding file1 rows
 
+    can be optionally complemented with a pre-compiled dictionary (for small-scale alignments)
+
 """
 
 class WordAligner:
@@ -31,8 +33,9 @@ class WordAligner:
     nopunct_files=[]
     """ files to be normalized before alignment """
 
-    def __init__(self, ids=True):
-        """ if ids=False, do not generate IDs. Use only if no multi-word alignment is required """
+    def __init__(self, ids=True, bidict=None):
+        """ if ids=False, do not generate IDs. Use only if no multi-word alignment is required
+        """
         self.ids=ids
         self.file2id2buffer={}
 
