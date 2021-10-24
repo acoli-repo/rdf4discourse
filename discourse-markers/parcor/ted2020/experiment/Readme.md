@@ -16,3 +16,10 @@ target annotations: encoded in file name
 flags:
 - `-direct` predict via majority vote
 - `-iterate`, `-dimlex` annotate as with `-direct` in first run, bootstrap a discourse marker inventory with frequency informaiton, if an ensemble predicts more than one option, predict the one with higher overall likelihood
+
+
+## intermediate observations
+
+- the alignment quality is poor, because we do document-level alignment rather than alignment over all language data
+- `en` performance is roughly en par with that on `bibles/`
+- `ar` underperforms massively. Possibly, the data is just too different, there are differences in orthography between text and lexicon (vowelization?) or there is some level of morphological variation that is not captured in the discourse markers (cliticism?). Requires feedback from a language expert.

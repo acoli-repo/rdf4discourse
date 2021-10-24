@@ -13,10 +13,15 @@ target annotations: encoded in file name
   - `11`: subjectivity
   - `12`: temporality
 
+for basic evaluation and plots, run
+
+    $> cat ensemble.5.tsv | grep  direct | cut -f 2,9,15  | python3 plot.py -min 0.2 -max 0.9 -t direct
+
 intermediate results:
 
 - relations can be predicted with an f-score close of up to 80% for PDTB, RST and most CCR dimensions
 - this is with the exception of the CCR dimension order. The best prediction with full ensemble here is 26%. However, small-scale ensembles perform much better.
+- `-iterate` helps relation prediction, but it hurts discourse marker prediction
 
 flags:
 - `-direct` predict via majority vote
