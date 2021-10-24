@@ -1,4 +1,5 @@
 all: data gazetteers
+	@echo 'builds data/ and ensemble/, for eval/, call "make eval", for building all from scratch rather than archived versions, call "make clear" beforehand' 1>&2
 	@(\
 		langs="en de ar bn ca cs es fr it nl pt"; \
 	  gazcols="5 6 8 9 10 11 12"; \
@@ -106,7 +107,7 @@ all: data gazetteers
 		for gaz in $$gazcols; do \
 			tgt=ensemble/$$lang.$$gaz.conll;\
 			if [ -s $$tgt ]; then \
-				echo $$tgt found 1>&2; \
+			echo $$tgt found 1>&2; \
 			else \
 				echo $$tgt 1>&2;\
 				for doc in ensemble/*/; do \
@@ -149,7 +150,45 @@ gazetteers: olia
 				fi;\
 			done;)
 
-eval:
-	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/English eval/ted-mdb/en
-	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Portuguese eval/ted-mdb/pt
-	svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/German eval/ted-mdb/de
+clear:
+	rm -rf data eval/ted-mdb
+
+eval/ted-mdb:
+	@# note that we include a static conversion of the corpus in CoNLL format, call make clear to rebuild
+	@(svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/English eval/ted-mdb/en;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Portuguese eval/ted-mdb/pt;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/German eval/ted-mdb/de;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Polish eval/ted-mdb/pl;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Russian eval/ted-mdb/ru;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Turkish eval/ted-mdb/tr;\
+		svn checkout https://github.com/MurathanKurfali/Ted-MDB-Annotations.git/trunk/Lithuanian eval/ted-mdb/lt;\
+		\
+		dirs=eval/ted-mdb/*/;\
+		\
+		mkdir eval/ted-mdb/conll;\
+		wget https://raw.githubusercontent.com/MurathanKurfali/Ted-MDB-Annotations/master/README.md -O eval/ted-mdb/README.md;\
+		\
+		for dir in $$dirs; do \
+			lang=`basename $$dir`; \
+			echo $$lang $$dir $$dirs;\
+			talkids=`ls $$dir/raw/*/talk*txt | sed -e s/'.*\/'//g -e s/'[^0-9]'//g | egrep '[0-9]' | sort -u`; \
+			for talk in $$talkids; do \
+				raw=$$dir/raw/01/talk_$${talk}_$$lang.txt;\
+				ann=$$dir/ann/01/talk_$${talk}_$$lang.txt;\
+				if [ ! -e $$raw ]; then	\
+					for r in $$dir/raw/*/talk_$${talk}_$$lang*.txt; do \
+						cp $$r $$raw;\
+					done; # raw\
+					for a in $$dir/ann/*/talk_$${talk}_$$lang*.txt; do \
+						cat $$a >> $$ann;\
+					done; # ann \
+				fi;\
+				if [ ! -e eval/ted-mdb/conll/$$talk ]; then \
+					mkdir -p eval/ted-mdb/conll/$$talk;\
+				fi; \
+				python3 pdtb2conll.py $$raw $$ann > eval/ted-mdb/conll/$$talk/$$lang.conll; \
+				done; # talk\
+			done; # dir\
+		)
+
+eval: eval/ted-mdb
