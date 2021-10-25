@@ -1,11 +1,11 @@
 PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
 PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
-PREFIX pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#>
+PREFIX cdtb: <http://purl.org/olia/discourse/discourse.CDTB.owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-LOAD <http://purl.org/olia/discourse/discourse.PDTB.owl>;
-#LOAD <file:///C:/Users/chiarcos/Desktop/olia/trunk/owl/experimental/discourse/discourse.PDTB.owl>;
+#LOAD <http://purl.org/olia/discourse/discourse.CDTB.owl>;
+LOAD <file:///home/chiarcos/Desktop/github/olia/owl/experimental/discourse/discourse.CDTB.owl>;
 
 INSERT {
         ?dimlex_relation ontolex:reference ?pdtb_sense.
