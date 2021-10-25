@@ -13,168 +13,168 @@ PREFIX xml: <http://www.w3.org/TR/xml/#>
 PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
 
   :1__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :1__ ] ] ].
 
   :2__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 二"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 二"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :2__ ] ] ].
 
   :3__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 二 三 四"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 二 三 四"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :3__ ] ] ].
 
   :4__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :4__ ] ] ].
 
   :5__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 方面 一 方面"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 方面 一 方面"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :5__ ] ] ].
 
   :6__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 方面 一 方面 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 方面 一 方面 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :6__ ] ] ].
 
   :7__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 方面 但是 另 一 方面"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 方面 但是 另 一 方面"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :7__ ] ] ].
 
   :8__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一 是 二 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一 是 二 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :8__ ] ] ].
 
   :9__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一旦"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一旦"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :9__ ] ] ].
 
   :10__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "一旦 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "一旦 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :10__ ] ] ].
 
   :11__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "七 八"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "七 八"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :11__ ] ] ].
 
   :12__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "三 四"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "三 四"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :12__ ] ] ].
 
   :13__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "三 是 四 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "三 是 四 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :13__ ] ] ].
 
   :14__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :14__ ] ] ].
 
   :15__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 不 而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 不 而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :15__ ] ] ].
 
   :16__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 不 而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 不 而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :16__ ] ] ].
 
   :17__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 再 只是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 再 只是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :17__ ] ] ].
 
   :18__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :18__ ] ] ].
 
   :19__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :19__ ] ] ].
 
   :20__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :20__ ] ] ].
 
   :21__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是 却 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是 却 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ] ].
 
   :22__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是 才 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是 才 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :22__ ] ] ].
 
   :23__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :23__ ] ] ].
 
   :24__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 是 而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 是 而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
@@ -184,35 +184,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :24__ ] ] ].
 
   :25__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :25__ ] ] ].
 
   :26__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不 要 说 就 连"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不 要 说 就 连"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :26__ ] ] ].
 
   :27__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不久"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不久"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :27__ ] ] ].
 
   :28__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 不 反而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 不 反而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :28__ ] ] ].
 
   :29__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "7";
@@ -222,14 +222,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :29__ ] ] ].
 
   :30__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 更"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 更"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :30__ ] ] ].
 
   :31__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 而且"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 而且"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "3";
@@ -239,14 +239,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :31__ ] ] ].
 
   :32__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 而且 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 而且 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :32__ ] ] ].
 
   :33__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 而且 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 而且 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -256,7 +256,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :33__ ] ] ].
 
   :34__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -266,14 +266,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :34__ ] ] ].
 
   :35__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不仅仅 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅仅 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :35__ ] ] ].
 
   :36__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不管"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不管"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
@@ -286,21 +286,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :36__ ] ] ].
 
   :37__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不管 总"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不管 总"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ] ].
 
   :38__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不管 还 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不管 还 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ] ].
 
   :39__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不管 还是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不管 还是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
@@ -310,49 +310,49 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :39__ ] ] ].
 
   :40__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不论"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不论"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :40__ ] ] ].
 
   :41__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不论 均"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不论 均"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :41__ ] ] ].
 
   :42__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不论 都"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不论 都"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :42__ ] ] ].
 
   :43__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不过"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不过"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "26";
         a ontolex:LexicalSense; ontolex:isSenseOf :43__ ] ] ].
 
   :44__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不过 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不过 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :44__ ] ] ].
 
   :45__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "不过 并"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "不过 并"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :45__ ] ] ].
 
   :46__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "与 此 同时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "与 此 同时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "8";
@@ -362,7 +362,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :46__ ] ] ].
 
   :47__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "与 此 同时 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "与 此 同时 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -372,70 +372,70 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :47__ ] ] ].
 
   :48__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "与 此 同时 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "与 此 同时 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :48__ ] ] ].
 
   :49__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "与 相比"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "与 相比"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :49__ ] ] ].
 
   :50__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "与其 不如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "与其 不如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :50__ ] ] ].
 
   :51__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "且"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "且"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :51__ ] ] ].
 
   :52__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "50";
         a ontolex:LexicalSense; ontolex:isSenseOf :52__ ] ] ].
 
   :53__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "为 此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "为 此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :53__ ] ] ].
 
   :54__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "为了"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "为了"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "34";
         a ontolex:LexicalSense; ontolex:isSenseOf :54__ ] ] ].
 
   :55__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "为了 为了"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "为了 为了"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :55__ ] ] ].
 
   :56__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "之前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "之前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :56__ ] ] ].
 
   :57__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "之后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "之后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -445,35 +445,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :57__ ] ] ].
 
   :58__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "之所以 因为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "之所以 因为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :58__ ] ] ].
 
   :59__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "之所以 是 因为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "之所以 是 因为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :59__ ] ] ].
 
   :60__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "之所以 是 因为 的 缘故"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "之所以 是 因为 的 缘故"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :60__ ] ] ].
 
   :61__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "九 十"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "九 十"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :61__ ] ] ].
 
   :62__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "217";
@@ -483,14 +483,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :62__ ] ] ].
 
   :63__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "也 因此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "也 因此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :63__ ] ] ].
 
   :64__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "也 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "也 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation";
@@ -500,112 +500,112 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :64__ ] ] ].
 
   :65__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "也 就 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "也 就 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :65__ ] ] ].
 
   :66__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "也 就 是 说"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "也 就 是 说"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :66__ ] ] ].
 
   :67__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "事实上"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "事实上"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :67__ ] ] ].
 
   :68__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "二 三"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "二 三"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :68__ ] ] ].
 
   :69__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "二 是 三 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "二 是 三 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ] ].
 
   :70__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "二 是 此外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "二 是 此外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :70__ ] ] ].
 
   :71__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "于是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "于是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :71__ ] ] ].
 
   :72__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "五 六"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "五 六"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :72__ ] ] ].
 
   :73__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "五 是 六 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "五 是 六 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :73__ ] ] ].
 
   :74__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "亦"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "亦"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "15";
         a ontolex:LexicalSense; ontolex:isSenseOf :74__ ] ] ].
 
   :75__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "仅仅 因为 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "仅仅 因为 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ] ].
 
   :76__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "仍"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "仍"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :76__ ] ] ].
 
   :77__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "仍然"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "仍然"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :77__ ] ] ].
 
   :78__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "从 以来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "从 以来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :78__ ] ] ].
 
   :79__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "从 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "从 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :79__ ] ] ].
 
   :80__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "从而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "从而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "9";
@@ -618,7 +618,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :80__ ] ] ].
 
   :81__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "从而 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "从而 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation";
@@ -628,21 +628,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :81__ ] ] ].
 
   :82__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "从而 使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "从而 使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :82__ ] ] ].
 
   :83__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "令"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "令"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :83__ ] ] ].
 
   :84__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -652,63 +652,63 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :84__ ] ] ].
 
   :85__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以 使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以 使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :85__ ] ] ].
 
   :86__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以 期"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以 期"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :86__ ] ] ].
 
   :87__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以便"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以便"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :87__ ] ] ].
 
   :88__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以免"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以免"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ] ].
 
   :89__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以及"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以及"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "24";
         a ontolex:LexicalSense; ontolex:isSenseOf :89__ ] ] ].
 
   :90__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :90__ ] ] ].
 
   :91__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "以来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "以来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "16";
         a ontolex:LexicalSense; ontolex:isSenseOf :91__ ] ] ].
 
   :92__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "107";
         a ontolex:LexicalSense; ontolex:isSenseOf :92__ ] ] ].
 
   :93__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但 也 并"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但 也 并"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -718,49 +718,49 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :93__ ] ] ].
 
   :94__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :94__ ] ] ].
 
   :95__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :95__ ] ] ].
 
   :96__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但 实际上"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但 实际上"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :96__ ] ] ].
 
   :97__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "54";
         a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ] ].
 
   :98__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但是 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但是 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :98__ ] ] ].
 
   :99__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但是 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但是 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :99__ ] ] ].
 
   :100__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "但是 同时 又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "但是 同时 又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -770,91 +770,91 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :100__ ] ] ].
 
   :101__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "何况 还 有"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "何况 还 有"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :101__ ] ] ].
 
   :102__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :102__ ] ] ].
 
   :103__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "使得"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "使得"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :103__ ] ] ].
 
   :104__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "例如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "例如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ] ].
 
   :105__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "假使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "假使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ] ].
 
   :106__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "假如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "假如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :106__ ] ] ].
 
   :107__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "像是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "像是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :107__ ] ] ].
 
   :108__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "先"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "先"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :108__ ] ] ].
 
   :109__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "先 然后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "先 然后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :109__ ] ] ].
 
   :110__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "八 九"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "八 九"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :110__ ] ] ].
 
   :111__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "六 七"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "六 七"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :111__ ] ] ].
 
   :112__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "六 是 七 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "六 是 七 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :112__ ] ] ].
 
   :113__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "其中"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "其中"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -864,35 +864,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :113__ ] ] ].
 
   :114__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "其後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "其後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :114__ ] ] ].
 
   :115__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "其次"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "其次"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ] ].
 
   :116__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "其次 此外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "其次 此外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :116__ ] ] ].
 
   :117__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "其次 第三"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "其次 第三"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :117__ ] ] ].
 
   :118__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "再"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "再"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -905,14 +905,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :118__ ] ] ].
 
   :119__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "再说"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "再说"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ] ].
 
   :120__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "20";
@@ -925,98 +925,98 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :120__ ] ] ].
 
   :121__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "初期"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "初期"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :121__ ] ] ].
 
   :122__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "别 说 连"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "别 说 连"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :122__ ] ] ].
 
   :123__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "到 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "到 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :123__ ] ] ].
 
   :124__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :124__ ] ] ].
 
   :125__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "加上"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "加上"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :125__ ] ] ].
 
   :126__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "加之"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "加之"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :126__ ] ] ].
 
   :127__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "包括"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "包括"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "11";
         a ontolex:LexicalSense; ontolex:isSenseOf :127__ ] ] ].
 
   :128__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "即"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "即"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "9";
         a ontolex:LexicalSense; ontolex:isSenseOf :128__ ] ] ].
 
   :129__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "即使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "即使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :129__ ] ] ].
 
   :130__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "即使 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "即使 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ] ].
 
   :131__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "即使 至少"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "即使 至少"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :131__ ] ] ].
 
   :132__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "即便 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "即便 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :132__ ] ] ].
 
   :133__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :133__ ] ] ].
 
   :134__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "却 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "却 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -1026,35 +1026,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :134__ ] ] ].
 
   :135__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "25";
         a ontolex:LexicalSense; ontolex:isSenseOf :135__ ] ] ].
 
   :136__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "及"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "及"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ] ].
 
   :137__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "反倒"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "反倒"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :137__ ] ] ].
 
   :138__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :138__ ] ] ].
 
   :139__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另 一 方面"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另 一 方面"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "3";
@@ -1064,7 +1064,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :139__ ] ] ].
 
   :140__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "15";
@@ -1074,35 +1074,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :140__ ] ] ].
 
   :141__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另外 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另外 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :141__ ] ] ].
 
   :142__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另外 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另外 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :142__ ] ] ].
 
   :143__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "另外 还 有"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "另外 还 有"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :143__ ] ] ].
 
   :144__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :144__ ] ] ].
 
   :145__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
@@ -1112,56 +1112,56 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :145__ ] ] ].
 
   :146__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只有 才"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只有 才"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :146__ ] ] ].
 
   :147__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只有 才 能"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只有 才 能"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :147__ ] ] ].
 
   :148__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只要"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只要"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :148__ ] ] ].
 
   :149__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "只要 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "只要 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :149__ ] ] ].
 
   :150__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "可"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "可"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :150__ ] ] ].
 
   :151__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "可是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "可是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "23";
         a ontolex:LexicalSense; ontolex:isSenseOf :151__ ] ] ].
 
   :152__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "可是 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "可是 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :152__ ] ] ].
 
   :153__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "44";
@@ -1171,7 +1171,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :153__ ] ] ].
 
   :154__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "16";
@@ -1181,14 +1181,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :154__ ] ] ].
 
   :155__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时 亦"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时 亦"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :155__ ] ] ].
 
   :156__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时 并"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时 并"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -1198,14 +1198,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :156__ ] ] ].
 
   :157__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时 更"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时 更"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :157__ ] ] ].
 
   :158__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同时 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同时 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "5";
@@ -1215,21 +1215,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :158__ ] ] ].
 
   :159__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "同样"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "同样"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :159__ ] ] ].
 
   :160__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "74";
         a ontolex:LexicalSense; ontolex:isSenseOf :160__ ] ] ].
 
   :161__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "后 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "后 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -1239,14 +1239,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :161__ ] ] ].
 
   :162__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "后来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "后来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :162__ ] ] ].
 
   :163__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "否则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "否则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "2";
@@ -1259,77 +1259,77 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :163__ ] ] ].
 
   :164__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "和"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "和"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :164__ ] ] ].
 
   :165__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "四 五"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "四 五"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :165__ ] ] ].
 
   :166__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "四 是 五 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "四 是 五 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :166__ ] ] ].
 
   :167__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "8";
         a ontolex:LexicalSense; ontolex:isSenseOf :167__ ] ] ].
 
   :168__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因 故"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因 故"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :168__ ] ] ].
 
   :169__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "38";
         a ontolex:LexicalSense; ontolex:isSenseOf :169__ ] ] ].
 
   :170__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因为 因为 由於"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因为 因为 由於"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :170__ ] ] ].
 
   :171__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "37";
         a ontolex:LexicalSense; ontolex:isSenseOf :171__ ] ] ].
 
   :172__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "因而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "因而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :172__ ] ] ].
 
   :173__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 上"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 上"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :173__ ] ] ].
 
   :174__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 下"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 下"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "10";
@@ -1342,105 +1342,105 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :174__ ] ] ].
 
   :175__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 下 在 的 基础 上"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 下 在 的 基础 上"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :175__ ] ] ].
 
   :176__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 中"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 中"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :176__ ] ] ].
 
   :177__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 之前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 之前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :177__ ] ] ].
 
   :178__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 之后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 之后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :178__ ] ] ].
 
   :179__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 之际"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 之际"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :179__ ] ] ].
 
   :180__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :180__ ] ] ].
 
   :181__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 前夕"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 前夕"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :181__ ] ] ].
 
   :182__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "28";
         a ontolex:LexicalSense; ontolex:isSenseOf :182__ ] ] ].
 
   :183__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :183__ ] ] ].
 
   :184__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "19";
         a ontolex:LexicalSense; ontolex:isSenseOf :184__ ] ] ].
 
   :185__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 时 在 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 时 在 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :185__ ] ] ].
 
   :186__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 期间"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 期间"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :186__ ] ] ].
 
   :187__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 此 之前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 此 之前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :187__ ] ] ].
 
   :188__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 前 一 天"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 前 一 天"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :188__ ] ] ].
 
   :189__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 同时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 同时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -1450,7 +1450,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :189__ ] ] ].
 
   :190__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 同时 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 同时 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -1460,7 +1460,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :190__ ] ] ].
 
   :191__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 同时 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 同时 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast";
@@ -1470,7 +1470,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :191__ ] ] ].
 
   :192__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 同时 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 同时 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -1480,14 +1480,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :192__ ] ] ].
 
   :193__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 年代"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 年代"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :193__ ] ] ].
 
   :194__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 情况 下"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 情况 下"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
@@ -1500,42 +1500,42 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :194__ ] ] ].
 
   :195__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 情况 下 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 情况 下 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :195__ ] ] ].
 
   :196__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 时候"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 时候"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :196__ ] ] ].
 
   :197__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 的 过程 中"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 的 过程 中"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :197__ ] ] ].
 
   :198__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "在 过程 中"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "在 过程 中"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :198__ ] ] ].
 
   :199__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "大概 是 由于 所以"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "大概 是 由于 所以"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :199__ ] ] ].
 
   :200__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "11";
@@ -1545,28 +1545,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :200__ ] ] ].
 
   :201__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如 便"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如 便"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :201__ ] ] ].
 
   :202__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :202__ ] ] ].
 
   :203__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :203__ ] ] ].
 
   :204__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -1576,35 +1576,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :204__ ] ] ].
 
   :205__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 仍然 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 仍然 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :205__ ] ] ].
 
   :206__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :206__ ] ] ].
 
   :207__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 将"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 将"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :207__ ] ] ].
 
   :208__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :208__ ] ] ].
 
   :209__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 说 的话 那么 又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 说 的话 那么 又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional";
@@ -1614,28 +1614,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :209__ ] ] ].
 
   :210__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 那"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 那"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :210__ ] ] ].
 
   :211__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 那么"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 那么"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "12";
         a ontolex:LexicalSense; ontolex:isSenseOf :211__ ] ] ].
 
   :212__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "如果 那么 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "如果 那么 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :212__ ] ] ].
 
   :213__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尤其"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尤其"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -1645,14 +1645,14 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :213__ ] ] ].
 
   :214__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尤其是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尤其是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :214__ ] ] ].
 
   :215__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
@@ -1662,77 +1662,77 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :215__ ] ] ].
 
   :216__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "就 在 的 时候"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "就 在 的 时候"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :216__ ] ] ].
 
   :217__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :217__ ] ] ].
 
   :218__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 仍然"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 仍然"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :218__ ] ] ].
 
   :219__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 但"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 但"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "20";
         a ontolex:LexicalSense; ontolex:isSenseOf :219__ ] ] ].
 
   :220__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 但是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 但是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :220__ ] ] ].
 
   :221__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 但是 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 但是 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :221__ ] ] ].
 
   :222__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 然而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 然而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :222__ ] ] ].
 
   :223__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管 还是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管 还是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :223__ ] ] ].
 
   :224__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管如此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管如此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :224__ ] ] ].
 
   :225__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "尽管如此 ，"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管如此 ，"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :225__ ] ] ].
 
   :226__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "并"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "并"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "253";
@@ -1742,56 +1742,56 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :226__ ] ] ].
 
   :227__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "并 不 是 而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "并 不 是 而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :227__ ] ] ].
 
   :228__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "并 不 而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "并 不 而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :228__ ] ] ].
 
   :229__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "并 不 而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "并 不 而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :229__ ] ] ].
 
   :230__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "并且"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "并且"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "14";
         a ontolex:LexicalSense; ontolex:isSenseOf :230__ ] ] ].
 
   :231__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :231__ ] ] ].
 
   :232__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :232__ ] ] ].
 
   :233__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当 後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当 後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :233__ ] ] ].
 
   :234__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
@@ -1801,28 +1801,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :234__ ] ] ].
 
   :235__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当 的 时候"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当 的 时候"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :235__ ] ] ].
 
   :236__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "当时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "当时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :236__ ] ] ].
 
   :237__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "14";
         a ontolex:LexicalSense; ontolex:isSenseOf :237__ ] ] ].
 
   :238__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "後 才"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "後 才"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional";
@@ -1832,49 +1832,49 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :238__ ] ] ].
 
   :239__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "总之"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "总之"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :239__ ] ] ].
 
   :240__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "或"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "或"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :240__ ] ] ].
 
   :241__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "或 或"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "或 或"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :241__ ] ] ].
 
   :242__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "或是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "或是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "4";
         a ontolex:LexicalSense; ontolex:isSenseOf :242__ ] ] ].
 
   :243__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "或者"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "或者"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :243__ ] ] ].
 
   :244__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "所以"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "所以"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "15";
         a ontolex:LexicalSense; ontolex:isSenseOf :244__ ] ] ].
 
   :245__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "才"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "才"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -1884,133 +1884,133 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :245__ ] ] ].
 
   :246__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "换句话说"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "换句话说"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :246__ ] ] ].
 
   :247__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "接着"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "接着"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :247__ ] ] ].
 
   :248__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "故"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "故"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :248__ ] ] ].
 
   :249__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "於是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "於是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :249__ ] ] ].
 
   :250__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "无论"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "无论"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :250__ ] ] ].
 
   :251__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "无论 也 会"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "无论 也 会"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :251__ ] ] ].
 
   :252__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "既 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "既 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "10";
         a ontolex:LexicalSense; ontolex:isSenseOf :252__ ] ] ].
 
   :253__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "既 又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "既 又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :253__ ] ] ].
 
   :254__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "早 在 中"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "早 在 中"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :254__ ] ] ].
 
   :255__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "16";
         a ontolex:LexicalSense; ontolex:isSenseOf :255__ ] ] ].
 
   :256__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :256__ ] ] ].
 
   :257__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "是 不 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "是 不 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :257__ ] ] ].
 
   :258__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "是 为了"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "是 为了"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :258__ ] ] ].
 
   :259__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "是 因为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "是 因为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :259__ ] ] ].
 
   :260__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "是 还是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "是 还是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :260__ ] ] ].
 
   :261__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "更"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "更"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :261__ ] ] ].
 
   :262__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "更是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "更是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :262__ ] ] ].
 
   :263__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "最后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "最后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :263__ ] ] ].
 
   :264__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "最终"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "最终"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2020,140 +2020,140 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :264__ ] ] ].
 
   :265__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "有鉴于此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "有鉴于此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :265__ ] ] ].
 
   :266__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "期间"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "期间"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :266__ ] ] ].
 
   :267__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "本来 结果"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "本来 结果"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :267__ ] ] ].
 
   :268__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "9";
         a ontolex:LexicalSense; ontolex:isSenseOf :268__ ] ] ].
 
   :269__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "正 值 之 际"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "正 值 之 际"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :269__ ] ] ].
 
   :270__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "正 因为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "正 因为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :270__ ] ] ].
 
   :271__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "正 当 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "正 当 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :271__ ] ] ].
 
   :272__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :272__ ] ] ].
 
   :273__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :273__ ] ] ].
 
   :274__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "37";
         a ontolex:LexicalSense; ontolex:isSenseOf :274__ ] ] ].
 
   :275__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此外 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此外 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :275__ ] ] ].
 
   :276__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此外 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此外 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "13";
         a ontolex:LexicalSense; ontolex:isSenseOf :276__ ] ] ].
 
   :277__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "此外 还 有"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "此外 还 有"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :277__ ] ] ].
 
   :278__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "每 到 时节"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "每 到 时节"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :278__ ] ] ].
 
   :279__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "每 当"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "每 当"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :279__ ] ] ].
 
   :280__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "每 逢"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "每 逢"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :280__ ] ] ].
 
   :281__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "每当"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "每当"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :281__ ] ] ].
 
   :282__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "比如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "比如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :282__ ] ] ].
 
   :283__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "比如说"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "比如说"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :283__ ] ] ].
 
   :284__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "然后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "然后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2163,35 +2163,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :284__ ] ] ].
 
   :285__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "然而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "然而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "22";
         a ontolex:LexicalSense; ontolex:isSenseOf :285__ ] ] ].
 
   :286__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "然而 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "然而 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :286__ ] ] ].
 
   :287__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "然而 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "然而 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :287__ ] ] ].
 
   :288__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "特别"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "特别"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :288__ ] ] ].
 
   :289__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "特别是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "特别是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2204,7 +2204,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :289__ ] ] ].
 
   :290__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "甚至"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "甚至"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2214,7 +2214,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :290__ ] ] ].
 
   :291__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由 此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由 此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -2224,91 +2224,91 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :291__ ] ] ].
 
   :292__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "54";
         a ontolex:LexicalSense; ontolex:isSenseOf :292__ ] ] ].
 
   :293__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于 于是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于 于是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :293__ ] ] ].
 
   :294__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于 令"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于 令"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :294__ ] ] ].
 
   :295__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于 因此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于 因此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :295__ ] ] ].
 
   :296__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于 因而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于 因而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :296__ ] ] ].
 
   :297__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由于 所以"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由于 所以"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :297__ ] ] ].
 
   :298__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由於"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由於"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "7";
         a ontolex:LexicalSense; ontolex:isSenseOf :298__ ] ] ].
 
   :299__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "由於 故"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "由於 故"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :299__ ] ] ].
 
   :300__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "的 同时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "的 同时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :300__ ] ] ].
 
   :301__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "的 同时 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "的 同时 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :301__ ] ] ].
 
   :302__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "的 目的 就 是 要"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "的 目的 就 是 要"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :302__ ] ] ].
 
   :303__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "直 至"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "直 至"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :303__ ] ] ].
 
   :304__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "相反"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "相反"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
@@ -2318,42 +2318,42 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :304__ ] ] ].
 
   :305__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "相反 的"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "相反 的"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :305__ ] ] ].
 
   :306__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "稍后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "稍后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :306__ ] ] ].
 
   :307__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "稍早 前"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "稍早 前"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :307__ ] ] ].
 
   :308__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "第三 最后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "第三 最后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :308__ ] ] ].
 
   :309__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "第二 第三"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "第二 第三"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :309__ ] ] ].
 
   :310__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "经"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "经"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "1";
@@ -2363,7 +2363,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :310__ ] ] ].
 
   :311__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "经过"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "经过"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation";
@@ -2376,28 +2376,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :311__ ] ] ].
 
   :312__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "经过 之后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "经过 之后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :312__ ] ] ].
 
   :313__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "结果"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "结果"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :313__ ] ] ].
 
   :314__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "继 之后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "继 之后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :314__ ] ] ].
 
   :315__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "继 以来 又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "继 以来 又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction";
@@ -2407,21 +2407,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :315__ ] ] ].
 
   :316__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "继 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "继 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :316__ ] ] ].
 
   :317__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "继而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "继而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :317__ ] ] ].
 
   :318__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "2";
@@ -2440,28 +2440,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :318__ ] ] ].
 
   :319__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 不 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 不 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :319__ ] ] ].
 
   :320__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 不过"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 不过"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :320__ ] ] ].
 
   :321__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "10";
         a ontolex:LexicalSense; ontolex:isSenseOf :321__ ] ] ].
 
   :322__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 亦"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 亦"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -2471,7 +2471,7 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :322__ ] ] ].
 
   :323__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -2481,35 +2481,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :323__ ] ] ].
 
   :324__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :324__ ] ] ].
 
   :325__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 又"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 又"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :325__ ] ] ].
 
   :326__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 就 更为"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 就 更为"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :326__ ] ] ].
 
   :327__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :327__ ] ] ].
 
   :328__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而且"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而且"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "29";
@@ -2519,175 +2519,175 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :328__ ] ] ].
 
   :329__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "而且 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "而且 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :329__ ] ] ].
 
   :330__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自 之后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自 之后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :330__ ] ] ].
 
   :331__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自 以来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自 以来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "22";
         a ontolex:LexicalSense; ontolex:isSenseOf :331__ ] ] ].
 
   :332__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "5";
         a ontolex:LexicalSense; ontolex:isSenseOf :332__ ] ] ].
 
   :333__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自 後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自 後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :333__ ] ] ].
 
   :334__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自 此"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自 此"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :334__ ] ] ].
 
   :335__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自从 以后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自从 以后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :335__ ] ] ].
 
   :336__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自从 以来"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自从 以来"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :336__ ] ] ].
 
   :337__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "自从 后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "自从 后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :337__ ] ] ].
 
   :338__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "至于 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "至于 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :338__ ] ] ].
 
   :339__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "至於"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "至於"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :339__ ] ] ].
 
   :340__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "至於 则"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "至於 则"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :340__ ] ] ].
 
   :341__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "若"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "若"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "14";
         a ontolex:LexicalSense; ontolex:isSenseOf :341__ ] ] ].
 
   :342__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "若 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "若 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :342__ ] ] ].
 
   :343__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "若 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "若 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :343__ ] ] ].
 
   :344__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽 但"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽 但"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :344__ ] ] ].
 
   :345__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :345__ ] ] ].
 
   :346__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽 然而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽 然而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :346__ ] ] ].
 
   :347__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :347__ ] ] ].
 
   :348__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然 但"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然 但"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "21";
         a ontolex:LexicalSense; ontolex:isSenseOf :348__ ] ] ].
 
   :349__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然 但 却"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然 但 却"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :349__ ] ] ].
 
   :350__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然 但是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然 但是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "6";
         a ontolex:LexicalSense; ontolex:isSenseOf :350__ ] ] ].
 
   :351__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然 可是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然 可是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :351__ ] ] ].
 
   :352__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "虽然 如此 但是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然 如此 但是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :352__ ] ] ].
 
   :353__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "要"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "要"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
@@ -2697,21 +2697,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :353__ ] ] ].
 
   :354__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "要 想 就"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "要 想 就"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :354__ ] ] ].
 
   :355__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "诸如"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "诸如"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :355__ ] ] ].
 
   :356__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -2724,77 +2724,77 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :356__ ] ] ].
 
   :357__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "还 再"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "还 再"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :357__ ] ] ].
 
   :358__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "还 有"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "还 有"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :358__ ] ] ].
 
   :359__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "还 甚至"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "还 甚至"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :359__ ] ] ].
 
   :360__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "还是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "还是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Alternative"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :360__ ] ] ].
 
   :361__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "这 说明"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "这 说明"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Expansion"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :361__ ] ] ].
 
   :362__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "这样"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "这样"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :362__ ] ] ].
 
   :363__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "进一步"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "进一步"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :363__ ] ] ].
 
   :364__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "进而"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "进而"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :364__ ] ] ].
 
   :365__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "远 不 是 而 是"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "远 不 是 而 是"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Contrast"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :365__ ] ] ].
 
   :366__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "连"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "连"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :366__ ] ] ].
 
   :367__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "通过"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "通过"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "1";
@@ -2804,35 +2804,35 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :367__ ] ] ].
 
   :368__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "通过 使"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "通过 使"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Purpose"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :368__ ] ] ].
 
   :369__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "那"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "那"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :369__ ] ] ].
 
   :370__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "鉴於"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "鉴於"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :370__ ] ] ].
 
   :371__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "间"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "间"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :371__ ] ] ].
 
   :372__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除 外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除 外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -2842,21 +2842,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :372__ ] ] ].
 
   :373__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除 外 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除 外 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :373__ ] ] ].
 
   :374__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除 外 并"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除 外 并"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "3";
         a ontolex:LexicalSense; ontolex:isSenseOf :374__ ] ] ].
 
   :375__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除 外 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除 外 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -2866,28 +2866,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :375__ ] ] ].
 
   :376__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除了 之外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除了 之外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Progression"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :376__ ] ] ].
 
   :377__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除了 之外 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除了 之外 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :377__ ] ] ].
 
   :378__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除了 外"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除了 外"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :378__ ] ] ].
 
   :379__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除了 外 还"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除了 外 还"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2897,28 +2897,28 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :379__ ] ] ].
 
   :380__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "除非"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "除非"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :380__ ] ] ].
 
   :381__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "随后"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "随后"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "12";
         a ontolex:LexicalSense; ontolex:isSenseOf :381__ ] ] ].
 
   :382__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "随後"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "随後"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :382__ ] ] ].
 
   :383__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "随着"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "随着"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Causation"; dimlex:freq "2";
@@ -2931,21 +2931,21 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :383__ ] ] ].
 
   :384__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "随着 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "随着 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :384__ ] ] ].
 
   :385__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "随着 时"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "随着 时"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :385__ ] ] ].
 
   :386__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "首先"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "首先"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
@@ -2955,42 +2955,42 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :386__ ] ] ].
 
   :387__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "首先 其次"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "首先 其次"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :387__ ] ] ].
 
   :388__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "首先 再"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "首先 再"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Temporal"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :388__ ] ] ].
 
   :389__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "首先 同时 也"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "首先 同时 也"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :389__ ] ] ].
 
   :390__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "首先 第二"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "首先 第二"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :390__ ] ] ].
 
   :391__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 一 ） 及 （ 二 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 一 ） 及 （ 二 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :391__ ] ] ].
 
   :392__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 一 ） （ 二 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 一 ） （ 二 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
@@ -3000,56 +3000,56 @@ PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
         a ontolex:LexicalSense; ontolex:isSenseOf :392__ ] ] ].
 
   :393__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 三 ） （ 四 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 三 ） （ 四 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :393__ ] ] ].
 
   :394__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 丙 ） 及 （ 丁 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 丙 ） 及 （ 丁 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :394__ ] ] ].
 
   :395__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 乙 ） （ 丙 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 乙 ） （ 丙 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :395__ ] ] ].
 
   :396__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 二 ） （ 三 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 二 ） （ 三 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :396__ ] ] ].
 
   :397__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "（ 甲 ） （ 乙 ）"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "（ 甲 ） （ 乙 ）"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :397__ ] ] ].
 
   :398__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "＊ ＊"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "＊ ＊"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "2";
         a ontolex:LexicalSense; ontolex:isSenseOf :398__ ] ] ].
 
   :399__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "，"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "，"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conjunction"; dimlex:freq "1";
         a ontolex:LexicalSense; ontolex:isSenseOf :399__ ] ] ].
 
   :400__ a ontolex:LexicalEntry; ;
-      ontolex:otherForm [ ontolex:writtenRep "， 一旦"@bn];
+      ontolex:lexicalForm [ ontolex:writtenRep "， 一旦"@zh];
     dimlex:syn [ 
       dimlex:sem [ 
         dimlex:chdt_relation [ dimlex:sense "Conditional"; dimlex:freq "1";

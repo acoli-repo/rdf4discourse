@@ -57,14 +57,9 @@ PREFIX : &lt;</xsl:text>
     <xsl:template match="orth">
         <xsl:text>;&#10;</xsl:text>
         <xsl:call-template name="get-indent"/>
-        <xsl:text>ontolex:</xsl:text>
-        <xsl:choose>
-            <xsl:when test="@canonical='1'">canonical</xsl:when>
-            <xsl:otherwise>other</xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>Form [ ontolex:writtenRep "</xsl:text>
+        <xsl:text>ontolex:lexicalForm [ ontolex:writtenRep "</xsl:text>
         <xsl:value-of select="string-join(part/text(),' ')"/>
-        <xsl:text>"@bn</xsl:text>
+        <xsl:text>"@zh</xsl:text>
         <xsl:for-each select="@*|part/@*">
             <xsl:if test="name()!='canonical'">
                 <xsl:text>; dimlex:</xsl:text>
