@@ -2,19 +2,25 @@ import re,sys,os,traceback,json
 from pprint import pprint
 
 cue2sense2freq={}
+senses=[]
 for file in sys.argv[1:]:
     with open(file) as input:
         for line in input:
             data=json.loads(line)
+            sense="|".join(sorted(set(data["Sense"])))
+            if not sense in senses:
+                senses.append(sense)
             if data["Type"]=="Explicit":
                 cue=data["Connective"]["RawText"]
-                sense="|".join(sorted(set(data["Sense"])))
                 if not cue in cue2sense2freq:
                     cue2sense2freq[cue]={ sense : 1 }
                 elif not sense in cue2sense2freq[cue]:
                     cue2sense2freq[cue][sense] = 1
                 else:
                     cue2sense2freq[cue][sense]+=1
+
+sys.stderr.write("relations:\n"+"\n".join(sorted(set("|".join(senses).split("|"))))+"\n\n")
+sys.stderr.flush()
 
 # write xml to stdout
 print("""<?xml version='1.0' encoding='UTF-8'?>
