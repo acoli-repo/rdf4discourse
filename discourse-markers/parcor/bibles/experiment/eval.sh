@@ -40,6 +40,31 @@ for gaz in $gazes; do
   echo;
 done
 
+# plot distance between languages, direct predictions
+echo
+echo pair-wise direct projection
+for gaz in $gazes; do
+  echo -n $gaz;
+  for tlang in `cut -f 1 $MYHOME/ensemble.$gaz.tsv | sort -n -u | egrep '^[0-9]*[0-9]$'`; do
+    echo -n ' '$tlang;
+  done;
+  echo;
+  for slang in `cut -f 1 $MYHOME/ensemble.$gaz.tsv | sort -n -u | egrep '^[0-9]*[0-9]$'`; do
+    echo -n $slang
+    for tlang in `cut -f 1 $MYHOME/ensemble.$gaz.tsv | sort -n -u | egrep '^[0-9]*[0-9]$'`; do
+      if [ $slang = $tlang ]; then
+        echo -n ' _'
+      else
+        echo -n ' ';
+        egrep 'direct' $MYHOME/ensemble.$gaz.tsv | egrep '^'$tlang'\s' | egrep -m 1 '<= \['$slang'\]' | cut -f 15 | perl -pe 's/\s*//g;'
+      fi;
+    done;
+    echo
+  done;
+  echo
+done;
+echo
+
 # todo: explore parameters for one specific constellation
 
 # echo effect of -th, discourse 3 only
