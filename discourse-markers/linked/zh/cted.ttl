@@ -1,0 +1,2599 @@
+@base <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dimlex: <DimLex.dtd#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pdtb: <http://purl.org/olia/discourse/discourse.PDTB.owl#> .
+@prefix cdtb: <http://purl.org/olia/discourse/discourse.CDTB.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <http://purl.org/acoli/dimlex/zh/cted.ttl#> .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#100__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#100__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "无论"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#101__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#101__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "既"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#102__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#102__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "既然"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#103__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#103__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "时"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#104__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#104__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "时候"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#105__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#105__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#106__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#106__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "更"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#107__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#107__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "最后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#108__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#108__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "有顷"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#109__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#109__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "期间"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#10__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#10__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不然"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#110__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#110__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "来"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#111__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#111__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "根据"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#112__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#112__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "此"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#113__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#113__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "比如"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#114__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#114__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "比方说"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#115__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#115__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "然后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#116__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#116__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "然而"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#117__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#117__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "甚至"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#118__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#118__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "用"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#119__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#119__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "的"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#11__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#11__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不管"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#120__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#120__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "的话"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#121__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#121__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "直"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#122__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#122__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "直到"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#123__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#123__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "相反"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#124__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#124__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "相对"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#125__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#125__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "确实"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#126__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#126__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "第二"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#127__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#127__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "等"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#128__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#128__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "结果"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#129__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#129__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "考卷"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#12__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#12__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不要"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#130__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#130__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "而"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#131__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#131__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "而且"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#132__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#132__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "而是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#133__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#133__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "虽然"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#134__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#134__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "要"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#135__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#135__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "要是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#136__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#136__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "让"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#137__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#137__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "话"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#138__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#138__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "起"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#139__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#139__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "过程"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#13__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#13__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不过"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#140__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#140__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "还"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#141__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#141__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "还是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#142__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#142__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "还有"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#143__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#143__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "这"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#144__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#144__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "这样"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#145__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#145__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "通过"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#146__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#146__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "那"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#147__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#147__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "那么"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#148__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#148__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "那就是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#149__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#149__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "那时"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#14__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#14__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "与其"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#150__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#150__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "那时候"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#151__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#151__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "都"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#152__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#152__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "除了"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#153__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#153__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "除非"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#154__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#154__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "非"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#155__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#155__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "，也"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#156__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#156__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "，结果"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#157__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#157__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "，而"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#15__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#15__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "为了"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#16__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#16__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "为的是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#17__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#17__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "之前"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#18__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#18__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "之后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#19__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#19__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "之外"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#1__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#1__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "一旦"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#20__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#20__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "之所以"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#21__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#21__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "也"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#22__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#22__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "也就是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#23__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#23__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "也就是说"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#24__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#24__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "了"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#25__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#25__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "事后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#26__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#26__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "于"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#27__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#27__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "于是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#28__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#28__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "于是，"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#29__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#29__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "从"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#2__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#2__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "一样"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#30__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#30__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "从而"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#31__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#31__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "令"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#32__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#32__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "以"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#33__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#33__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "以及"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#34__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#34__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "以后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#35__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#35__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "以来"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#36__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#36__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "以至于"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#37__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#37__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "但"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#38__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#38__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "但是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#39__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#39__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "何况"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#3__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#3__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "一直"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#40__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#40__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "使"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#41__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#41__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "使得"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#42__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#42__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "便"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#43__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#43__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "倒不如"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#44__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#44__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "借由"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#45__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#45__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "假如"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#46__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#46__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "像"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#47__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#47__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "再"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#48__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#48__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "再来"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#49__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#49__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "凭着"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#4__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#4__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "一部分"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#50__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#50__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "到"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#51__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#51__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "前"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#52__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#52__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "包括"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#53__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#53__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "即"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#54__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#54__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "即使"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#55__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#55__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "却"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#56__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#56__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "去"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#57__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#57__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "又"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#58__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#58__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "另外"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#59__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#59__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "只是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#5__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#5__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#60__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#60__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "只有"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#61__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#61__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "只要"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#62__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#62__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "可"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#63__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#63__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "可是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#64__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#64__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "同时"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#65__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#65__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "后"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#66__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#66__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "后来"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#67__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#67__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "否则"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#68__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#68__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "哪怕"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#69__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#69__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "因为"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#6__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#6__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不仅仅"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#70__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#70__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "因此"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#71__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#71__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "在"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#72__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#72__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "天"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#73__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#73__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "好像"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#74__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#74__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "如同"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#75__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#75__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "如果"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#76__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#76__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "宁愿"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#77__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#77__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "将"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#78__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#78__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "就"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#79__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#79__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "就像"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#7__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#7__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不仅如此"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#80__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#80__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "就是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#81__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#81__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "就是说"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#82__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#82__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "就算"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#83__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#83__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "尽管"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#84__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#84__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "并"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#85__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#85__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "并且"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#86__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#86__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "应该"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#87__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#87__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "开始"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#88__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#88__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "当"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#89__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#89__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "当中"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#8__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#8__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不但"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#90__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#90__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "当时"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#91__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#91__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "当然"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#92__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#92__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "总之"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#93__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#93__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "我"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#94__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#94__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "或"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#95__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#95__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "或是"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#96__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#96__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "或者"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#97__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#97__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "所以"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#98__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#98__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "才"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#99__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#99__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "换言之"@zh
+    ] .
+
+<http://purl.org/acoli/dimlex/zh/cted.ttl#9__>
+    a ontolex:LexicalEntry ;
+    rdfs:isDefinedBy <#9__> ;
+    ontolex:lexicalForm [
+        ontolex:writtenRep "不是"@zh
+    ] .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#115__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#41__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#157__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#46__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#82__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#81__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#31__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#52__> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#103__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#30__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#91__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#136__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#50__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#76__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#128__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#78__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#131__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#2__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#54__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#1__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#19__> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#36__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#85__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#116__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#120__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#140__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#146__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#147__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#96__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#17__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#51__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#123__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#121__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#117__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#67__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#24__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#60__> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#79__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#129__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#128__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#71__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#18__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#78__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#73__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#144__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#71__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#87__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#147__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#71__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#20__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#40__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#138__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#103__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#108__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#131__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#132__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#98__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#45__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#139__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#40__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#148__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#7__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#64__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#153__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#151__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#107__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#32__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#37__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#55__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#30__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#122__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#37__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#98__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#116__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#32__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#101__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#66__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#38__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#43__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#82__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#5__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#46__> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#27__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#102__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#115__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#32__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#77__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#6__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#49__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#53__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#9__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#38__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#30__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#104__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#112__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#143__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#60__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#37__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#147__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#50__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#5__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#12__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#42__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#137__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#57__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#104__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#126__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#84__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#62__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#40__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#45__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#65__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#111__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#54__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#99__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#92__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#13__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#145__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#24__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#39__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#110__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#15__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#100__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#152__> ;
+    ontolex:reference pdtb:Exception .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#37__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#95__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#11__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#60__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#42__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#47__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#32__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#115__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#102__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#120__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#34__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#26__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#56__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#48__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#83__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#10__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#133__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#3__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#134__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#103__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#84__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#91__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#61__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#12__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#155__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#72__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#136__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#89__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#109__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#83__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#59__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#29__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#136__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#44__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#120__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#104__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#59__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#22__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#41__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#128__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#37__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#5__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#117__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#6__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#149__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#68__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#153__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#40__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#90__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#141__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#113__> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#4__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#5__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#58__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#110__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#115__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#133__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#124__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#27__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#134__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#102__> ;
+    ontolex:reference pdtb:reason .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#36__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#75__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#154__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#153__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#41__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#119__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#130__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#125__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#38__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#156__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#28__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#118__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#144__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#134__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#91__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#25__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#136__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#80__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#65__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#45__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#118__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#18__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#106__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#145__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#59__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#114__> ;
+    ontolex:reference pdtb:Instantiation .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#150__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#38__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#74__> ;
+    ontolex:reference pdtb:COMPARISON .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#117__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#35__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#69__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#118__> .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#21__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#135__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#91__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#38__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#86__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#8__> ;
+    ontolex:reference pdtb:Progression .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#136__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#104__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#97__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#11__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#105__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#146__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#84__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#70__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#104__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#70__> ;
+    ontolex:reference pdtb:result .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#14__> ;
+    ontolex:reference pdtb:Alternative .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#23__> ;
+    ontolex:reference pdtb:equivalence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#142__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#115__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#94__> ;
+    ontolex:reference pdtb:disjunctive .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#78__> ;
+    ontolex:reference pdtb:Condition .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#20__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#68__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#63__> ;
+    ontolex:reference pdtb:Concession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#112__> ;
+    ontolex:reference pdtb:specification .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#127__> ;
+    ontolex:reference pdtb:succession .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#49__> ;
+    ontolex:reference pdtb:EXPANSION .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#93__> ;
+    ontolex:reference pdtb:Synchronous .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#63__> ;
+    ontolex:reference pdtb:Contrast .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#94__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#16__> ;
+    ontolex:reference pdtb:PragmaticCause .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#33__> ;
+    ontolex:reference pdtb:Conjunction .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#88__> ;
+    ontolex:reference pdtb:precedence .
+
+[]
+    a ontolex:LexicalSense ;
+    ontolex:isSenseOf <http://purl.org/acoli/dimlex/zh/cted.ttl#64__> ;
+    ontolex:reference pdtb:Conjunction .
+
