@@ -1,0 +1,1542 @@
+
+PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
+PREFIX pdtb3: <https://raw.githubusercontent.com/discourse-lab/dimlex/master/inventory-pdtb3-senses.txt#> # preliminary, there is no official documentation yet
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX synsem: <http://www.w3.org/ns/lemon/synsem#>
+PREFIX decomp: <http://www.w3.org/ns/lemon/decomp#>
+PREFIX vartrans: <http://www.w3.org/ns/lemon/vartrans#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX : <https://github.com/discourse-lab/dimlex/blob/master/DimLex.xml#>
+
+  :1__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "一旦"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :1__ ] ] ].
+
+  :2__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "一样"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :2__ ] ] ].
+
+  :3__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "一直"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :3__ ] ] ].
+
+  :4__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "一部分"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Reason+Belief"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :4__ ] ] ].
+
+  :5__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :5__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :5__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :5__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "15";
+        a ontolex:LexicalSense; ontolex:isSenseOf :5__ ] ] ].
+
+  :6__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅仅"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :6__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :6__ ] ] ].
+
+  :7__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不仅如此"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :7__ ] ] ].
+
+  :8__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不但"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :8__ ] ] ].
+
+  :9__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :9__ ] ] ].
+
+  :10__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不然"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg1-as-negCond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :10__ ] ] ].
+
+  :11__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不管"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :11__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :11__ ] ] ].
+
+  :12__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不要"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :12__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :12__ ] ] ].
+
+  :13__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "不过"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :13__ ] ] ].
+
+  :14__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "与其"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :14__ ] ] ].
+
+  :15__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "为了"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :15__ ] ] ].
+
+  :16__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "为的是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :16__ ] ] ].
+
+  :17__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "之前"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :17__ ] ] ].
+
+  :18__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "之后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :18__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "23";
+        a ontolex:LexicalSense; ontolex:isSenseOf :18__ ] ] ].
+
+  :19__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "之外"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Exception.Arg2-as-excpt"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :19__ ] ] ].
+
+  :20__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "之所以"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :20__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :20__ ] ] ].
+
+  :21__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "也"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "49";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :21__ ] ] ].
+
+  :22__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "也就是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :22__ ] ] ].
+
+  :23__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "也就是说"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :23__ ] ] ].
+
+  :24__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "了"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :24__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :24__ ] ] ].
+
+  :25__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "事后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :25__ ] ] ].
+
+  :26__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "于"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :26__ ] ] ].
+
+  :27__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "于是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :27__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "11";
+        a ontolex:LexicalSense; ontolex:isSenseOf :27__ ] ] ].
+
+  :28__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "于是，"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :28__ ] ] ].
+
+  :29__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "从"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :29__ ] ] ].
+
+  :30__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "从而"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :30__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :30__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :30__ ] ] ].
+
+  :31__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "令"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :31__ ] ] ].
+
+  :32__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "以"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg1-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :32__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :32__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :32__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :32__ ] ] ].
+
+  :33__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "以及"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :33__ ] ] ].
+
+  :34__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "以后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :34__ ] ] ].
+
+  :35__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "以来"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :35__ ] ] ].
+
+  :36__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "以至于"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.NegResult"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :36__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :36__ ] ] ].
+
+  :37__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "但"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "54";
+        a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :37__ ] ] ].
+
+  :38__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "但是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "77";
+        a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "7";
+        a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :38__ ] ] ].
+
+  :39__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "何况"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :39__ ] ] ].
+
+  :40__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "使"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :40__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :40__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :40__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :40__ ] ] ].
+
+  :41__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "使得"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :41__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :41__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :41__ ] ] ].
+
+  :42__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "便"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :42__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :42__ ] ] ].
+
+  :43__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "倒不如"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :43__ ] ] ].
+
+  :44__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "借由"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :44__ ] ] ].
+
+  :45__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "假如"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :45__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :45__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :45__ ] ] ].
+
+  :46__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "像"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "7";
+        a ontolex:LexicalSense; ontolex:isSenseOf :46__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation.Arg2-as-instance"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :46__ ] ] ].
+
+  :47__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "再"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :47__ ] ] ].
+
+  :48__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "再来"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :48__ ] ] ].
+
+  :49__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "凭着"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :49__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :49__ ] ] ].
+
+  :50__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "到"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :50__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :50__ ] ] ].
+
+  :51__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "前"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :51__ ] ] ].
+
+  :52__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "包括"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation.Arg2-as-instance"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :52__ ] ] ].
+
+  :53__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "即"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :53__ ] ] ].
+
+  :54__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "即使"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :54__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :54__ ] ] ].
+
+  :55__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "却"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :55__ ] ] ].
+
+  :56__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "去"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :56__ ] ] ].
+
+  :57__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "又"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :57__ ] ] ].
+
+  :58__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "另外"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :58__ ] ] ].
+
+  :59__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "只是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :59__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :59__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :59__ ] ] ].
+
+  :60__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "只有"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :60__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :60__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Exception.Arg2-as-excpt"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :60__ ] ] ].
+
+  :61__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "只要"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :61__ ] ] ].
+
+  :62__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "可"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :62__ ] ] ].
+
+  :63__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "可是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "24";
+        a ontolex:LexicalSense; ontolex:isSenseOf :63__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :63__ ] ] ].
+
+  :64__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "同时"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :64__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :64__ ] ] ].
+
+  :65__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :65__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :65__ ] ] ].
+
+  :66__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "后来"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :66__ ] ] ].
+
+  :67__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "否则"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg1-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :67__ ] ] ].
+
+  :68__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "哪怕"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :68__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :68__ ] ] ].
+
+  :69__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "因为"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Reason+Belief"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Result+Belief"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Reason+SpeechAct"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "97";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :69__ ] ] ].
+
+  :70__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "因此"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :70__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "10";
+        a ontolex:LexicalSense; ontolex:isSenseOf :70__ ] ] ].
+
+  :71__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "在"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :71__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :71__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :71__ ] ] ].
+
+  :72__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "天"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :72__ ] ] ].
+
+  :73__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "好像"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :73__ ] ] ].
+
+  :74__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "如同"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :74__ ] ] ].
+
+  :75__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "如果"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition+SpeechAct"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "38";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "14";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :75__ ] ] ].
+
+  :76__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "宁愿"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :76__ ] ] ].
+
+  :77__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "将"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :77__ ] ] ].
+
+  :78__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "就"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :78__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :78__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :78__ ] ] ].
+
+  :79__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "就像"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :79__ ] ] ].
+
+  :80__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "就是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :80__ ] ] ].
+
+  :81__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "就是说"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :81__ ] ] ].
+
+  :82__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "就算"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :82__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :82__ ] ] ].
+
+  :83__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "尽管"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :83__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :83__ ] ] ].
+
+  :84__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "并"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :84__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :84__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :84__ ] ] ].
+
+  :85__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "并且"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "17";
+        a ontolex:LexicalSense; ontolex:isSenseOf :85__ ] ] ].
+
+  :86__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "应该"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :86__ ] ] ].
+
+  :87__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "开始"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :87__ ] ] ].
+
+  :88__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "当"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition+SpeechAct"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "48";
+        a ontolex:LexicalSense; ontolex:isSenseOf :88__ ] ] ].
+
+  :89__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "当中"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :89__ ] ] ].
+
+  :90__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "当时"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :90__ ] ] ].
+
+  :91__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "当然"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession+SpeechAct.Arg2-as-denier+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :91__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :91__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :91__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :91__ ] ] ].
+
+  :92__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "总之"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :92__ ] ] ].
+
+  :93__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "我"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :93__ ] ] ].
+
+  :94__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "或"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :94__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :94__ ] ] ].
+
+  :95__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "或是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :95__ ] ] ].
+
+  :96__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "或者"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "7";
+        a ontolex:LexicalSense; ontolex:isSenseOf :96__ ] ] ].
+
+  :97__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "所以"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Result+Belief"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Reason+SpeechAct"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Result+SpeechAct"; dimlex:freq "14";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "69";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :97__ ] ] ].
+
+  :98__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "才"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :98__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :98__ ] ] ].
+
+  :99__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "换言之"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :99__ ] ] ].
+
+  :100__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "无论"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :100__ ] ] ].
+
+  :101__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "既"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :101__ ] ] ].
+
+  :102__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "既然"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+SpeechAct.Reason+SpeechAct"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :102__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :102__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :102__ ] ] ].
+
+  :103__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "时"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :103__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :103__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "12";
+        a ontolex:LexicalSense; ontolex:isSenseOf :103__ ] ] ].
+
+  :104__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "时候"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition+SpeechAct"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "99";
+        a ontolex:LexicalSense; ontolex:isSenseOf :104__ ] ] ].
+
+  :105__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Similarity"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause+Belief.Reason+Belief"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Reason"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "11";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "30";
+        a ontolex:LexicalSense; ontolex:isSenseOf :105__ ] ] ].
+
+  :106__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "更"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :106__ ] ] ].
+
+  :107__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "最后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :107__ ] ] ].
+
+  :108__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "有顷"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :108__ ] ] ].
+
+  :109__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "期间"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :109__ ] ] ].
+
+  :110__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "来"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :110__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :110__ ] ] ].
+
+  :111__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "根据"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :111__ ] ] ].
+
+  :112__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "此"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :112__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :112__ ] ] ].
+
+  :113__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "比如"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation.Arg2-as-instance"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :113__ ] ] ].
+
+  :114__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "比方说"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Instantiation.Arg2-as-instance"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :114__ ] ] ].
+
+  :115__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "然后"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "47";
+        a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :115__ ] ] ].
+
+  :116__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "然而"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :116__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :116__ ] ] ].
+
+  :117__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "甚至"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :117__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "24";
+        a ontolex:LexicalSense; ontolex:isSenseOf :117__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Undecided"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :117__ ] ] ].
+
+  :118__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "用"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg1-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :118__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :118__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Undecided"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :118__ ] ] ].
+
+  :119__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "的"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition+SpeechAct"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "100";
+        a ontolex:LexicalSense; ontolex:isSenseOf :119__ ] ] ].
+
+  :120__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "的话"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :120__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "9";
+        a ontolex:LexicalSense; ontolex:isSenseOf :120__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :120__ ] ] ].
+
+  :121__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "直"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :121__ ] ] ].
+
+  :122__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "直到"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :122__ ] ] ].
+
+  :123__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "相反"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :123__ ] ] ].
+
+  :124__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "相对"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :124__ ] ] ].
+
+  :125__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "确实"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Equivalence"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :125__ ] ] ].
+
+  :126__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "第二"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :126__ ] ] ].
+
+  :127__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "等"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :127__ ] ] ].
+
+  :128__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "结果"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :128__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :128__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :128__ ] ] ].
+
+  :129__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "考卷"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :129__ ] ] ].
+
+  :130__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "而"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "15";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Contrast"; dimlex:freq "6";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "13";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg1-as-subst"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "10";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Precedence"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :130__ ] ] ].
+
+  :131__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "而且"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :131__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Progression.Arg2-as-progr"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :131__ ] ] ].
+
+  :132__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "而是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "8";
+        a ontolex:LexicalSense; ontolex:isSenseOf :132__ ] ] ].
+
+  :133__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "虽然"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg1-as-denier"; dimlex:freq "5";
+        a ontolex:LexicalSense; ontolex:isSenseOf :133__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :133__ ] ] ].
+
+  :134__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "要"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :134__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :134__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :134__ ] ] ].
+
+  :135__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "要是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :135__ ] ] ].
+
+  :136__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "让"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg1-as-goal"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Purpose.Arg2-as-goal"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "0";
+        a ontolex:LexicalSense; ontolex:isSenseOf :136__ ] ] ].
+
+  :137__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "话"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :137__ ] ] ].
+
+  :138__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "起"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Asynchronous.Succession"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :138__ ] ] ].
+
+  :139__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "过程"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :139__ ] ] ].
+
+  :140__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "还"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :140__ ] ] ].
+
+  :141__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "还是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Disjunction"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :141__ ] ] ].
+
+  :142__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "还有"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :142__ ] ] ].
+
+  :143__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "这"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :143__ ] ] ].
+
+  :144__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "这样"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg1-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :144__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :144__ ] ] ].
+
+  :145__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "通过"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg1-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :145__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Manner.Arg2-as-manner"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :145__ ] ] ].
+
+  :146__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "那"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :146__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :146__ ] ] ].
+
+  :147__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "那么"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Cause.Result"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :147__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg1-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :147__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Condition.Arg2-as-cond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :147__ ] ] ].
+
+  :148__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "那就是"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Level-of-detail.Arg2-as-detail"; dimlex:freq "3";
+        a ontolex:LexicalSense; ontolex:isSenseOf :148__ ] ] ].
+
+  :149__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "那时"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :149__ ] ] ].
+
+  :150__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "那时候"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Temporal.Synchronous"; dimlex:freq "2";
+        a ontolex:LexicalSense; ontolex:isSenseOf :150__ ] ] ].
+
+  :151__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "都"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :151__ ] ] ].
+
+  :152__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "除了"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Exception.Arg2-as-excpt"; dimlex:freq "4";
+        a ontolex:LexicalSense; ontolex:isSenseOf :152__ ] ] ].
+
+  :153__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "除非"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg1-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :153__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negCond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :153__ ] ];
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Contingency.Negative-condition.Arg2-as-negcond"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :153__ ] ] ].
+
+  :154__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "非"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Substitution.Arg2-as-subst"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :154__ ] ] ].
+
+  :155__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "，也"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :155__ ] ] ].
+
+  :156__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "，结果"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Comparison.Concession.Arg2-as-denier"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :156__ ] ] ].
+
+  :157__ a ontolex:LexicalEntry; ;
+      ontolex:lexicalForm [ ontolex:writtenRep "，而"@zh];
+    dimlex:syn [ 
+      dimlex:sem [ 
+        dimlex:pdtb3_relation [ dimlex:sense "Expansion.Conjunction"; dimlex:freq "1";
+        a ontolex:LexicalSense; ontolex:isSenseOf :157__ ] ] ].
+
