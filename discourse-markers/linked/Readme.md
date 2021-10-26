@@ -20,28 +20,33 @@ Note that this is currently hosted by GitHub, so, no support for content negotat
 - 2020-02-07 linking with discourse marker lexicons (via labels and altLabels)
 - 2020-02-07 manual enrichment with licensing information, attribution; manual correction of Portuguese TED dataset.
 - 2020-02-07 resolvable URIs in the namespace http://purl.org/acoli/dimlex
-- 2021-02-04 linking revised, models:
+- 2021-02-04 linking revised; TextLink/DimLex inventories:
 
     | language | resource family | relations | sense linking |
     |---------|---------|---------|---------|
     | Bangla  | DimLex  | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | Catalan | DiscMar | DiscMar | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | Czech   | CzedLex | CzedLex | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | German  | DimLex  | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | German  | TED-MDB | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | English | DiscMar | DiscMar | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | English | PDTB2   | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | English | TED-MDB | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | Spanish | DiscMar | DiscMar |  [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | French  | LexConn | SDRT | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | Italian | LICO    | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | Lithuanian | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | Dutch | DimLex | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    | Polish | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | Portuguese | DimLex | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    
+ - 2021-02-04 linking revised; non-DimLex inventories:
+
+    | language | resource family | relations | sense linking |
+    |---------|---------|---------|---------|
+    | Catalan | DiscMar | DiscMar | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | Czech   | CzedLex | CzedLex | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | German  | TED-MDB | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | English | DiscMar | DiscMar | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | English | TED-MDB | PDTB    | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | Spanish | DiscMar | DiscMar |  [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | Lithuanian | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
+    | Polish | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | Russian | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
     | Turkish | TED-MDB | PDTB | [pdtb](http://purl.org/olia/discourse/discourse.PDTB.owl) |
-    
+
  - 2021-05-12 addition
 
     | language | resource family | relations | sense linking |
