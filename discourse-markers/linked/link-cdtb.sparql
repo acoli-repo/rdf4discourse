@@ -1,21 +1,87 @@
+# annotate native and and closest OLiA senses
+
 PREFIX dimlex: <https://github.com/discourse-lab/dimlex/blob/master/DimLex.dtd#>
 PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
 PREFIX cdtb: <http://purl.org/olia/discourse/discourse.CDTB.owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX olia: <http://purl.org/olia/discourse/olia_discourse.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# annotate native
 
 #LOAD <http://purl.org/olia/discourse/discourse.CDTB.owl>;
 LOAD <file:///home/chiarcos/Desktop/github/olia/owl/experimental/discourse/discourse.CDTB.owl>;
 
 INSERT {
-        ?dimlex_relation ontolex:reference ?pdtb_sense.
+        ?dimlex_relation ontolex:reference ?cdtb_sense.
 } WHERE {
         ?dimlex_relation dimlex:sense ?label.
-        ?pdtb_sense (rdfs:label|skos:altLabel) ?sense_label.
+        ?cdtb_sense (rdfs:label|skos:altLabel) ?sense_label.
         FILTER(lcase(?label)=lcase(?sense_label))
 };
 
+# map to OLiA
+
+#LOAD <http://purl.org/olia/discourse/discourse.CDTB-link.rdf>;
+LOAD <file:///home/chiarcos/Desktop/github/olia/owl/experimental/discourse/discourse.CDTB-link.rdf>;
+
+INSERT {
+  ?dimlex ontolex:reference ?olia_sense.
+} WHERE {
+  ?dimlex ontolex:reference ?cdtb_sense.
+    { SELECT ?cdtb_sense (MIN(?distance) as ?minDistance)
+      { SELECT ?cdtb_sense ?olia_sense (COUNT(distinct ?step) as ?distance)
+        WHERE {
+          ?cdtb_sense (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)+ ?step.
+          ?step (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)* ?olia_sense.
+          FILTER(strstarts(str(?olia_sense), "http://purl.org/olia/discourse/olia_discourse.owl"))
+        } GROUP BY ?cdtb_sense ?olia_sense
+      } GROUP BY ?cdtb_sense
+    }
+    { SELECT ?cdtb_sense ?olia_sense (COUNT(distinct ?step) as ?distance)
+      WHERE {
+        ?cdtb_sense (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)+ ?step.
+        ?step (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)* ?olia_sense.
+        FILTER(strstarts(str(?olia_sense), "http://purl.org/olia/discourse/olia_discourse.owl"))
+      } GROUP BY ?cdtb_sense ?olia_sense
+    }
+    FILTER(?distance=?minDistance)
+  };
+
+  # map to PDTB (but only if these are proper subclasses)
+
+  #LOAD <http://purl.org/olia/discourse/discourse.PDTB-link.rdf>;
+  LOAD <file:///home/chiarcos/Desktop/github/olia/owl/experimental/discourse/discourse.PDTB-link.rdf>;
+
+  INSERT {
+    ?dimlex ontolex:reference ?pdtb_sense.
+  } WHERE {
+    ?dimlex ontolex:reference ?olia_sense.
+      { SELECT ?pdtb_sense (MIN(?distance) as ?minDistance)
+        { SELECT ?pdtb_sense ?olia_sense (COUNT(distinct ?step) as ?distance)
+          WHERE {
+            ?pdtb_sense (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)+ ?step.
+            ?step (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)* ?olia_sense.
+            FILTER(strstarts(str(?olia_sense), "http://purl.org/olia/discourse/olia_discourse.owl"))
+          } GROUP BY ?pdtb_sense ?olia_sense
+        } GROUP BY ?pdtb_sense
+      }
+      { SELECT ?pdtb_sense ?olia_sense (COUNT(distinct ?step) as ?distance)
+        WHERE {
+          ?pdtb_sense (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)+ ?step.
+          ?step (rdfs:subClassOf|owl:sameAs|owl:equivalentClass|(rdf:rest*/rdf:first)|owl:intersectionOf|owl:join)* ?olia_sense.
+          FILTER(strstarts(str(?olia_sense), "http://purl.org/olia/discourse/olia_discourse.owl"))
+        } GROUP BY ?pdtb_sense ?olia_sense
+      }
+      FILTER(?distance=?minDistance)
+    };
+
+
 MOVE DEFAULT TO <http://placehold.er>;
+
+# keep ontolex core information only
 
 INSERT {
 	?a ?b ?c
