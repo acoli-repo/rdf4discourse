@@ -4,7 +4,7 @@ Parallel corpus from https://github.com/UKPLab/sentence-transformers/blob/master
 
 Setup largely replicates [`../bibles`](../bibles), see there for explanations.
 
-Retrieve source data, build `gazetteers/`, `data/` and `ensemble/` with
+Retrieve source data, build `gazetteers/`, `data/`, `ensemble/` and `eval/` with
 
     $> make
 
@@ -50,3 +50,4 @@ Within each language, the first column holds the token ID, the second the WORD, 
 
 - Move gazetteer construction into main repo.
 - Consolidate scripts with `bibles/`. The ones here are newer, but mostly minor changes.
+- Add support for Chinese. This requires either character-based tokenization or a more advanced tokenization script such as https://github.com/fxsjy/jieba
