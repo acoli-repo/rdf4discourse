@@ -106,7 +106,7 @@ def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_con
 
     return dimlex
 
-def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=None, conf_threshold=-1.0):
+def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=None, conf_threshold=-1.0, p_weights=None):
         """ row is a single CoNLL line, split at \t
         returns probability of row encoding a discourse marker, top senses, and top score
         if a dimlex entry is given, use dimlex information for disambiguation
@@ -114,6 +114,12 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
 
         conf_threshold means that we only annotate if this value is exceeded
         """
+
+        if p_weights==None or p_weights==[]:
+            p_weights=[1]*len(ensemble_cols)
+
+        if len(p_weights)!=len(ensemble_cols):
+            raise Exception("length mismatch between p and p_weights. p:"+str(p)+", p_weights:"+str(p_weights))
 
         fields=row
         pred=ensemble_cols
@@ -134,12 +140,12 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
                     while max(pred)>=len(fields):
                         fields+="?"
 
-            for p in pred:
+            for nr,p in enumerate(pred):
                 if fields[p] == "_":
-                    dm_total+=1
+                    dm_total+=p_weights[nr]
                 elif fields[p]!= "?":
-                    dm_true+=1
-                    dm_total+=1
+                    dm_true+=p_weights[nr]
+                    dm_total+=p_weights[nr]
                     for sense in fields[p].split("|"):
                         if not sense in senses:
                             senses.append(sense)
@@ -152,12 +158,12 @@ def _predict(row : list, ensemble_cols: list, dm_threshold=0.0, dimlex_entry=Non
             #     print(dimlex_entry["confidence"],conf_threshold,dimlex_entry["confidence"]>conf_threshold)
             if dm_score>max(dm_threshold,0.0) and (conf_threshold<=0 or (dimlex_entry!=None and dimlex_entry["confidence"]>conf_threshold)):
                 # print(".")
-                for p in pred:
+                for nr,p in enumerate(pred):
                     if not fields[p] in ["_","?"]:
                         positive=set(fields[p].split("|"))
                         for sense in senses:
                             if sense in positive:
-                                sense2positives[sense]+=1
+                                sense2positives[sense]+=p_weights[nr]
                 # print(sense2positives[sense],dm_true)
                 sense2score= { sense : sense2positives[sense]/dm_true for sense in senses if sense!="?" }
                 top_score=max(sense2score.values())
@@ -202,11 +208,13 @@ def _apply_dimlex(buffer, dimlex, words_col):
             result.append(None)
     return result
 
-def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=1, pred_threshold=0.0, eval_threshold=0.0, conf_threshold=-1.0, output=sys.stdout, slim_output=False):
+def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=1, pred_threshold=0.0, eval_threshold=0.0, conf_threshold=-1.0, output=sys.stdout, slim_output=False, p_weights=None):
     """ buffer is a list of conll rows for one sentence as one string, no comments, no line breaks, no gaps
         add three columns for pred predictions (dm probability, top relations, top relation score)
         add three more columns for eval (or three "_" if not specified)
         write results to output
+
+        p_weights define a pre-weighting of predictors
 
         if eval is specified:
             return values are dm_tp, dm_fp, rel_tp, rel_fp, fn, tn, i.e.,
@@ -230,7 +238,7 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
         fields=line.split("\t")
 
         if True:
-            dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold)
+            dm_score, top_senses, top_score=_predict(fields, pred, dm_threshold=pred_threshold, dimlex_entry=row2dimlex[nr], conf_threshold=conf_threshold, p_weights=p_weights)
 
             if eval==None or len(eval)==0:
                 ev_score, ev_senses, ev_score="_","_","_"
@@ -303,9 +311,20 @@ def _annotate_buffer(buffer: list, pred=None, eval=None, dimlex=None, words_col=
     # print(fields,dm_tp, dm_fp, rel_tp, rel_fp, fn, tn)
     return dm_tp, dm_fp, rel_tp, rel_fp, fn, tn
 
-def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf_threshold=-1.0, eval_threshold=0.0, words_col=1, output=sys.stdout, slim_output=False):
+def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf_threshold=-1.0, eval_threshold=0.0, words_col=1, output=sys.stdout, slim_output=False, p_weights=None):
     """ annotate a CoNLL stream, annotate two columns for pred predictions, if eval!=None, annotate two more columns for eval predictions """
     # print("annotate:","stream", pred, eval, "dimlex", pred_threshold, conf_threshold, eval_threshold, words_col, output, slim_output)
+
+    if p_weights!=None:
+        sys.stderr.write("annotate() with weights "+str(p_weights)+"\n")
+
+    if p_weights==None or p_weights==[]:
+        p_weights=[1]*len(pred)
+
+    sum_weights=sum(p_weights)
+    p_weights=[ len(p_weights)*w/sum_weights for w in p_weights ]
+    # we normalize here, only: sum of weights normalized to number of predictors
+
     buffer=[]
     stream.seek(0)
     toks=0
@@ -319,7 +338,7 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
             if len(buffer)>0:
                 scores=[ score+delta for score,delta in \
                     zip(scores,\
-                        _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output)\
+                        _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output, p_weights=p_weights)\
                     ) ]
                 # print(scores)
                 #dm_tp, dm_fp, rel_tp, rel_fp, fn, tn += \
@@ -334,7 +353,7 @@ def annotate(stream, pred=None, eval=None, dimlex=None, pred_threshold=0.0, conf
         #dm_tp, dm_fp, rel_tp, rel_fp, fn, tn += \
         scores=[ score+delta for score,delta in \
                 zip(scores,\
-                    _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output)\
+                    _annotate_buffer(buffer,pred, eval=eval, dimlex=dimlex, pred_threshold=pred_threshold, eval_threshold=eval_threshold, conf_threshold=conf_threshold, output=output, slim_output=slim_output, p_weights=p_weights)\
                 ) ]
         print(scores)
         toks+=len(buffer)
@@ -421,6 +440,7 @@ args=argparse.ArgumentParser(description="if a text has been annotated by multip
 args.add_argument("input", type=str, help="CoNLL file to read from, if omitted, read from stdin",default=None)
 args.add_argument("-p", "--predictor", type=int, nargs="+", action="extend", help="columns that contain the invidual input predictions")
 args.add_argument("-e", "--evaluator", type=int, nargs="*", action="extend", help="columns that constitute an ensemble that the predictor is evaluated against")
+args.add_argument("-weighted", "--self_weighted", action="store_true", help="use the first run to weigh different predictors for their agreement with the majority")
 args.add_argument("-dimlex", "--dimlex_mode", action="store_true", help="instead of doing annotation, bootstrap a discourse marker inventory, note that this requires input to be a file")
 args.add_argument("-iterate", "--self_supervision", action="store_true", help="bootstrap a discourse marker inventory, then use it to re-annotate the input, note that this requires input to be a file")
 args.add_argument("-w", "--words_col", type=int, default=1, help="WORDS/FORM column, needed for -iterate/--self_supervision")
@@ -479,6 +499,50 @@ for conf in confs:
         raise Exception("overlap between predictor and evaluator: "+", ".join(overlap))
 
     #
+    # train initial weights
+    ########################
+    input=conf.input
+    weights=None
+    if conf.self_weighted and len(conf.predictor)>1:
+        sys.stderr.write(str(conf.evaluator)+"\t<=\t"+str(conf.predictor)+": pre-train weights\n")
+        buffer=StringIO()
+        annotate(input, pred=conf.predictor, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, output=buffer)
+
+        majority=buffer.getvalue().split("\n")
+        majority=[ row for row in majority if len(row)>0 and row[0] in "0123456789" ]
+        majority=[ row.split("\t")[-5] for row in majority ]
+        majority=[ "|".join(sorted(set(row.split("|")))) for row in majority ]
+
+        weights=[]
+        for p in conf.predictor:
+            buffer=StringIO()
+            annotate(input, pred=[p], pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, output=buffer)
+            prediction=buffer.getvalue().split("\n")
+            prediction=[ row for row in prediction if len(row)>0 and row[0] in "0123456789" ]
+            prediction=[ row.split("\t")[-5] for row in prediction ]
+
+            true_positive=0
+            total=0 #    this is not actually total, but true_pos + false_pos + false_neg
+
+            # true positive is *partial label overlap* here
+            # note that this gives a bias against fine-grained predictors
+
+            for p,m in zip(prediction,majority):
+                if m!="_" or p!="_":
+                    total+=1
+                    for sense in p.split("|"):
+                        if p in m:
+                            true_positive+=1
+                            break
+                    #print(p,m,true_positive)
+            weights.append(true_positive/max(1,total))
+
+        weights=[ w+0.00000001 for w in weights ]
+        sum_weights=sum(weights)
+        weights=[w/sum_weights for w in weights ]
+        print(weights)
+
+    #
     # first annotation round
     ##########################
     # adds four columns to conll file:
@@ -491,7 +555,7 @@ for conf in confs:
         buffer=StringIO()
 
     sys.stderr.write(str(conf.evaluator)+"\t<=\t"+str(conf.predictor)+"\n")
-    annotate(conf.input, pred=conf.predictor, eval=conf.evaluator, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, output=buffer, slim_output=conf.slim_output and not conf.self_supervision)
+    annotate(input, pred=conf.predictor, eval=conf.evaluator, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, output=buffer, slim_output=conf.slim_output and not conf.self_supervision, p_weights=weights)
 
     conf.input.close()
 
@@ -522,4 +586,4 @@ for conf in confs:
             output=sys.stdout
 
         if conf.self_supervision:
-            annotate(buffer, pred=conf.predictor, eval=conf.evaluator, dimlex=dimlex, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, conf_threshold=conf.min_confidence, words_col=conf.words_col, output=output, slim_output=conf.slim_output)
+            annotate(buffer, pred=conf.predictor, eval=conf.evaluator, dimlex=dimlex, pred_threshold=conf.pred_threshold, eval_threshold=conf.eval_threshold, conf_threshold=conf.min_confidence, words_col=conf.words_col, output=output, slim_output=conf.slim_output, p_weights=weights)
