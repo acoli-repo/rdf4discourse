@@ -95,7 +95,7 @@ Other options:
 - `-dimlex` bootstrap discourse marker inventory instead of/in addition to doing annotation
 - `-iterate` after a first run of annotation, bootstrap a discourse marker inventory and use it for pruning raw predictions
 - `-auto` test all subsets of predictors, if no `-e` is given, run against every individual predictor as evaluation basis
-- `-weighted` self-supervision: weigh predictors wrt. agreement with predictor majority, if used in combination with `-dimlex` or `-iterate`, these are performed after initial weighting
+- `-weighted` self-supervision: weigh predictors wrt. agreement with predictor majority, if used in combination with `-dimlex` or `-iterate`, these are performed after initial weighting. Note that this operates on predicted *relations*. Its scoring function maximizes true_positive/(true_positive + false_positive + false_negative), with true_positive defined as partial overlap.
 
       usage: ensemble.py [-h] [-p PREDICTOR [PREDICTOR ...]]
                          [-e [EVALUATOR [EVALUATOR ...]]] [-weighted] [-dimlex]
