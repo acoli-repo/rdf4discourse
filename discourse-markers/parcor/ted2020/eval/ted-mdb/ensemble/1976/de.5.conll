@@ -1,0 +1,1613 @@
+# sent_id = 132690
+# text:  Im All wimmelt es von Planeten.
+# trans: O universo está repleto de planetas.
+# forward_log_prob: -16.344756060937915
+# backward_log_prob: -15.909921064873611
+1	Im	1	الكون	_	1	?	_	1	?	_	1	?	_	1	Im	_	1	The	_	_	_	1	El	_	1	L'univers	_	1	L'universo	_	1	Het	_	2	universo	_
+2	All	1	الكون	_	1	?	_	1	?	_	1	?	_	2	All	_	2	universe	_	_	_	2	universo	_	1	L'univers	_	1	L'universo	_	2	heelal	_	1	O	_
+3	wimmelt	2	يزخر	_	1	?	_	1	?	_	1	?	_	3	wimmelt	_	3	is	_	_	_	3	está	_	2	grouille	_	1	L'universo	_	3	krioelt	_	3	está	_
+4	es	2	يزخر	_	1	?	_	1	?	_	1	?	_	4	es	_	4	teeming	_	_	_	4	lleno	_	2	grouille	_	2	è	_	3	krioelt	_	4	repleto	_
+5	von	3	بالكواكب.	_	1	?	_	1	?	_	1	?	_	5	von	_	4	teeming	_	_	_	4	lleno	_	2	grouille	_	3	pieno	_	3	krioelt	_	4	repleto	_
+6	Planeten.	3	بالكواكب.	_	1	?	_	1	?	_	1	?	_	6	Planeten.	_	6	planets.	_	_	_	6	planetas.	_	4	planètes.	_	5	pianeti.	_	5	de	_	6	planetas.	_
+
+# sent_id = 132691
+# text:  Ich will, dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen, das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann, ob es dort Leben geben könnte.
+# trans: Gostaria que, na próxima década, construíssemos um telescópio espacial que conseguisse a imagem de uma Terra na órbita de outra estrela e descobrisse se pode ter vida.
+# forward_log_prob: -94.02899261849431
+# backward_log_prob: -121.97636242519921
+1	Ich	3	العقد	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	2	que	_	1	Je	_	2	che	_	1	Ik	_	2	que,	_
+2	will,	1	أريد،	_	1	?	_	1	?	_	1	?	_	2	will,	_	3	us,	_	_	_	3	nosotros,	_	?	?	?	4	prossimi	_	?	?	?	4	próxima	_
+3	dass	?	?	?	1	?	_	1	?	_	1	?	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	?	?	3	nosotros,	_	3	que,	_	?	?	?	?	?	?	?	?	?
+4	wir	5	أن	_	1	?	_	1	?	_	1	?	_	4	wir	_	?	?	?	?	?	?	?	?	9	nous	_	?	?	?	4	we	_	?	?	?
+5	in	2	في	_	1	?	_	1	?	_	1	?	_	5	in	_	4	in	_	_	_	4	en	_	4	dans	_	?	?	?	5	in	_	3	na	_
+6	nur	8	يكون	_	1	?	_	1	?	_	1	?	_	6	nur	Contrast.COMPARISON	8	to	_	_	_	?	?	?	13	capable	_	?	?	?	?	?	?	?	?	?
+7	einem	?	?	?	1	?	_	1	?	_	1	?	_	7	einem	_	2	want	_	_	_	1	Quiero	_	2	veux	_	1	Vorrei	_	2	wil	_	1	Gostaria	_
+8	Jahrzehnt	4	القادم	_	1	?	_	1	?	_	1	?	_	8	Jahrzehnt	_	6	next	_	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	próxima	_	10	construisions	_	5	dieci	_	7	volgende	_	5	década,	_
+9	ein	7	تيليسكوبا	_	1	?	_	1	?	_	1	?	_	9	ein	_	10	a	_	_	_	9	un	_	11	un	_	8	un	_	9	een	_	7	um	_
+10	Weltraumteleskop	7	تيليسكوبا	_	1	?	_	1	?	_	1	?	_	10	Weltraumteleskop	_	11	space	_	_	_	10	telescopio	_	10	construisions	_	9	telescopio	_	10	ruimtetelescoop	_	8	telescópio	_
+11	bauen,	9	قادرًا	_	1	?	_	1	?	_	1	?	_	11	bauen,	_	9	build	_	_	_	12	capaz	_	10	construisions	_	?	?	?	11	bouwen	_	9	espacial	_
+12	das	?	?	?	1	?	_	1	?	_	1	?	_	12	das	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	3	dat	_	10	que	_
+13	das	?	?	?	1	?	_	1	?	_	1	?	_	13	das	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	10	que	_
+14	Bild	?	?	?	1	?	_	1	?	_	1	?	_	14	Bild	_	17	image	_	_	_	16	imagen	_	?	?	?	?	?	?	15	maken	_	13	imagem	_
+15	einer	11	تصوير	_	1	?	_	1	?	_	1	?	_	15	einer	_	14	be	_	_	_	?	?	?	16	les	_	11	in	_	14	kan	_	11	conseguisse	_
+16	Erde	10	على	_	1	?	_	1	?	_	1	?	_	16	Erde	_	19	Earth	_	_	_	19	Tierra	_	19	Terre	_	15	una	_	18	Aarde	_	16	Terra	_
+17	im	10	على	_	1	?	_	1	?	_	1	?	_	17	im	_	?	?	?	?	?	20	alrededor	_	?	?	?	?	?	?	?	?	?	14	de	_
+18	Orbit	11	تصوير	_	1	?	_	1	?	_	1	?	_	18	Orbit	_	13	that'll	_	_	_	14	captar	_	17	images	_	14	mostrare	_	21	buurt	_	?	?	?
+19	eines	13	شمسي	_	1	?	_	1	?	_	1	?	_	19	eines	_	21	another	_	_	_	22	otra	_	18	d'une	_	18	a	_	22	van	_	20	outra	_
+20	anderen	13	شمسي	_	1	?	_	1	?	_	1	?	_	20	anderen	_	20	about	_	_	_	22	otra	_	20	orbitant	_	17	vicino	_	24	andere	_	20	outra	_
+21	Sterns	13	شمسي	_	1	?	_	1	?	_	1	?	_	21	Sterns	_	21	another	_	_	_	22	otra	_	22	d'une	_	19	un'altra	_	24	andere	_	20	outra	_
+22	erfassen	16	ويستنتج	_	1	?	_	1	?	_	1	?	_	22	erfassen	_	24	figure	_	_	_	25	averiguar	_	23	autre	_	22	scoprire	_	27	erachter	_	23	descobrisse	_
+23	und	?	?	?	1	?	_	1	?	_	1	?	_	23	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	23	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	24	y	_	25	et	Conjunction.EXPANSION	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	26	en	Conjunction.EXPANSION	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+24	herausfinden	18	إذا	_	1	?	_	1	?	_	1	?	_	24	herausfinden	_	24	figure	_	_	_	25	averiguar	_	26	comprendre	_	22	scoprire	_	27	erachter	_	23	descobrisse	_
+25	kann,	18	إذا	_	1	?	_	1	?	_	1	?	_	25	kann,	_	24	figure	_	_	_	25	averiguar	_	26	comprendre	_	22	scoprire	_	27	erachter	_	23	descobrisse	_
+26	ob	21	حياة	_	1	?	_	1	?	_	1	?	_	26	ob	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	29	of	disjunctive.Alternative.EXPANSION	?	?	?
+27	es	21	حياة	_	1	?	_	1	?	_	1	?	_	27	es	_	27	it	_	_	_	26	si	TEMPORAL	27	si	Concession.COMPARISON|Condition.CONTIGENCY	?	?	?	30	er	_	24	se	CONTIGENCY|Condition.CONTIGENCY
+28	dort	21	حياة	_	1	?	_	1	?	_	1	?	_	28	dort	_	28	can	_	_	_	28	albergar	_	29	peut	_	28	ospitare	_	31	leven	_	27	vida.	_
+29	Leben	21	حياة	_	1	?	_	1	?	_	1	?	_	29	Leben	_	29	harbor	_	_	_	28	albergar	_	34	vie.	_	28	ospitare	_	31	leven	_	26	ter	_
+30	geben	21	حياة	_	1	?	_	1	?	_	1	?	_	30	geben	_	29	harbor	_	_	_	28	albergar	_	34	vie.	_	30	vita.	_	31	leven	_	27	vida.	_
+31	könnte.	21	حياة	_	1	?	_	1	?	_	1	?	_	31	könnte.	_	30	life.	_	_	_	29	vida.	_	34	vie.	_	23	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	32	zou	_	27	vida.	_
+
+# sent_id = 132692
+# text:  Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie, die in einigen Jahren genau dazu in der Lage sein wird.
+# trans: Eu e os meus colegas no Laboratório de Propulsão a Jacto da NASA, em Princeton, estamos a trabalhar na tecnologia que fará isso mesmo nos próximos anos.
+# forward_log_prob: -99.06256305086265
+# backward_log_prob: -98.8026556663398
+1	Meine	1	أنا	_	1	?	_	1	?	_	1	?	_	1	Meine	_	2	colleagues	_	_	_	2	colegas	_	1	Mes	_	3	i	_	2	collega's	_	4	meus	_
+2	Kollegen	2	وزملائي	_	1	?	_	1	?	_	1	?	_	2	Kollegen	_	2	colleagues	_	_	_	2	colegas	_	2	collègues	_	5	colleghi	_	2	collega's	_	5	colegas	_
+3	im	?	?	?	1	?	_	1	?	_	1	?	_	3	im	_	3	at	_	_	_	3	en	_	4	Jet	_	8	di	_	3	van	_	6	no	_
+4	NASA	4	مختبر	_	1	?	_	1	?	_	1	?	_	4	NASA	_	5	NASA	_	_	_	5	Laboratorio	_	3	du	_	1	Io	_	5	NASA	_	7	Laboratório	_
+5	Jet	4	مختبر	_	1	?	_	1	?	_	1	?	_	5	Jet	_	5	NASA	_	_	_	5	Laboratorio	_	5	Propulsion	_	7	Laboratorio	_	5	NASA	_	7	Laboratório	_
+6	Propulsion	5	ناسا	_	1	?	_	1	?	_	1	?	_	6	Propulsion	_	6	Jet	_	_	_	7	Propulsión	_	6	Laboratory	_	7	Laboratorio	_	6	Jet	_	7	Laboratório	_
+7	Laboratory	5	ناسا	_	1	?	_	1	?	_	1	?	_	7	Laboratory	_	8	Laboratory	_	_	_	9	Chorro	_	6	Laboratory	_	9	Propulsione	_	7	Propulsion	_	7	Laboratório	_
+8	in	9	في	_	1	?	_	1	?	_	1	?	_	8	in	_	9	at	_	_	_	13	en	_	12	et	Conjunction.EXPANSION	11	della	_	9	in	_	3	os	_
+9	Princeton	7	النفّاث	_	1	?	_	1	?	_	1	?	_	9	Princeton	_	10	Princeton	_	_	_	12	NASA	_	11	Princeton	_	14	Princeton	_	8	Laboratorium	_	9	Propulsão	_
+10	und	12	على	_	1	?	_	1	?	_	1	?	_	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	y	_	12	et	Conjunction.EXPANSION	2	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	2	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	ich	13	تكنولوجيا	_	1	?	_	1	?	_	1	?	_	11	ich	_	12	I	_	_	_	24	hacer	_	11	Princeton	_	28	nei	_	12	ik	_	?	?	?
+12	arbeiten	11	نعمل	_	1	?	_	1	?	_	1	?	_	12	arbeiten	_	14	working	_	_	_	18	trabajando	_	10	à	specification.Restatement.EXPANSION	15	stiamo	_	13	werken	_	18	trabalhar	_
+13	an	13	تكنولوجيا	_	1	?	_	1	?	_	1	?	_	13	an	_	14	working	_	_	_	8	a	_	13	moi	_	14	Princeton	_	13	werken	_	18	trabalhar	_
+14	einer	?	?	?	1	?	_	1	?	_	1	?	_	14	einer	_	13	are	_	_	_	16	yo	_	16	une	_	18	una	_	?	?	?	12	da	_
+15	Technologie,	?	?	?	1	?	_	1	?	_	1	?	_	15	Technologie,	_	16	technology	_	_	_	21	tecnología	_	17	technologie	_	19	tecnologia	_	15	technologie	_	20	tecnologia	_
+16	die	?	?	?	1	?	_	1	?	_	1	?	_	16	die	_	?	?	?	?	?	20	la	_	?	?	?	20	che	_	16	die	_	17	a	_
+17	in	?	?	?	1	?	_	1	?	_	1	?	_	17	in	_	?	?	?	?	?	19	en	_	20	capable	_	22	in	_	?	?	?	19	na	_
+18	einigen	14	قادرة	_	1	?	_	1	?	_	1	?	_	18	einigen	_	27	coming	_	_	_	23	podrá	_	18	qui	_	21	sarà	_	17	net	_	15	Princeton,	_
+19	Jahren	?	?	?	1	?	_	1	?	_	1	?	_	19	Jahren	_	28	years.	_	_	_	30	años.	_	26	à	specification.Restatement.EXPANSION	17	ad	_	?	?	?	27	anos.	_
+20	genau	16	فعل	_	1	?	_	1	?	_	1	?	_	20	genau	_	28	years.	_	_	_	28	los	_	?	?	?	?	?	?	?	?	?	22	fará	_
+21	dazu	?	?	?	1	?	_	1	?	_	1	?	_	21	dazu	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	27	coming	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+22	in	18	في	_	1	?	_	1	?	_	1	?	_	22	in	_	25	in	_	_	_	27	en	_	23	dans	_	?	?	?	19	in	_	24	mesmo	_
+23	der	18	في	_	1	?	_	1	?	_	1	?	_	23	der	_	26	the	_	_	_	27	en	_	?	?	?	24	di	_	20	de	_	24	mesmo	_
+24	Lage	19	السنوات	_	1	?	_	1	?	_	1	?	_	24	Lage	_	27	coming	_	_	_	25	precisamente	EXPANSION	25	années	_	25	fare	_	21	komende	_	25	nos	_
+25	sein	19	السنوات	_	1	?	_	1	?	_	1	?	_	25	sein	_	19	be	_	_	_	29	próximos	_	?	?	?	?	?	?	22	jaren	_	26	próximos	_
+26	wird.	20	المقبلة.	_	1	?	_	1	?	_	1	?	_	26	wird.	_	18	will	_	_	_	29	próximos	_	22	cela	_	26	proprio	_	25	doen.	_	26	próximos	_
+
+# sent_id = 132693
+# text:  Astronomen glauben heute, dass jeder Stern in der Galaxis einen Planeten hat. Sie schätzen, dass bis zu ein Fünftel davon einen erdähnlichen Planeten hat, auf dem Leben möglich wäre. Gesehen aber haben wir noch keinen; wir haben sie nur indirekt erfasst.
+# trans: Os astrónomos acreditam que cada estrela da galáxia tem um planeta, e especulam que até um quinto deles tem um planeta do tipo da Terra que poderá ter vida, mas ainda não vimos nenhum deles.
+# forward_log_prob: -130.55635474622787
+# backward_log_prob: -166.81010138234652
+1	Astronomen	1	علماء	_	1	?	_	1	?	_	1	?	_	1	Astronomen	_	1	Astronomers	_	_	_	2	astrónomos	_	2	astronomes	_	2	gli	_	1	Astronomen	_	2	astrónomos	_
+2	glauben	1	علماء	_	1	?	_	1	?	_	1	?	_	2	glauben	_	1	Astronomers	_	_	_	2	astrónomos	_	2	astronomes	_	2	gli	_	2	geloven	_	2	astrónomos	_
+3	heute,	2	الفلك	_	1	?	_	1	?	_	1	?	_	3	heute,	_	3	believe	_	_	_	3	creen	_	3	pensent	_	1	Oggi	_	2	geloven	_	3	acreditam	_
+4	dass	3	الآن	_	1	?	_	1	?	_	1	?	_	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	2	now	_	Synchronous.TEMPORAL	_	3	creen	_	4	désormais	_	4	credono	_	2	geloven	_	3	acreditam	_
+5	jeder	4	يعتقدون	_	1	?	_	1	?	_	1	?	_	5	jeder	_	5	every	_	_	_	5	todas	_	4	désormais	_	4	credono	_	2	geloven	_	5	cada	_
+6	Stern	4	يعتقدون	_	1	?	_	1	?	_	1	?	_	6	Stern	_	6	star	_	_	_	5	todas	_	7	étoile	_	7	stella	_	6	ster	_	6	estrela	_
+7	in	8	في	_	1	?	_	1	?	_	1	?	_	7	in	_	7	in	_	_	_	8	en	_	14	et	Conjunction.EXPANSION	8	nella	_	7	in	_	12	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	der	8	في	_	1	?	_	1	?	_	1	?	_	8	der	_	8	the	_	_	_	9	la	_	8	de	_	?	?	?	8	de	_	7	da	_
+9	Galaxis	6	كل	_	1	?	_	1	?	_	1	?	_	9	Galaxis	_	9	galaxy	_	_	_	10	galaxia	_	9	notre	_	9	galassia	_	9	Melkweg	_	8	galáxia	_
+10	einen	7	نجم	_	1	?	_	1	?	_	1	?	_	10	einen	_	9	galaxy	_	_	_	10	galaxia	_	12	une	_	10	abbia	_	9	Melkweg	_	8	galáxia	_
+11	Planeten	?	?	?	1	?	_	1	?	_	1	?	_	11	Planeten	_	12	planet,	_	_	_	13	planeta,	_	13	planète,	_	12	pianeta,	_	11	planeet	_	11	planeta,	_
+12	hat.	9	المجرة	_	1	?	_	1	?	_	1	?	_	12	hat.	_	10	has	_	_	_	?	?	?	?	?	?	14	si	_	12	heeft,	_	?	?	?
+13	Sie	?	?	?	1	?	_	1	?	_	1	?	_	13	Sie	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	9	tem	_
+14	schätzen,	10	لديه	_	1	?	_	1	?	_	1	?	_	14	schätzen,	_	14	they	_	_	_	15	especulan	_	16	supposent	_	15	domandano	_	12	heeft,	_	13	especulam	_
+15	dass	19	كوكب	_	1	?	_	1	?	_	1	?	_	15	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	15	speculate	_	_	_	14	y	_	16	supposent	_	15	domandano	_	15	speculeren	_	13	especulam	_
+16	bis	11	كواكب،	_	1	?	_	1	?	_	1	?	_	16	bis	precedence.Asynchronous.TEMPORAL	15	speculate	_	_	_	15	especulan	_	15	ils	_	15	domandano	_	15	speculeren	_	13	especulam	_
+17	zu	16	هذه	_	1	?	_	1	?	_	1	?	_	17	zu	_	18	to	_	_	_	?	?	?	30	être	_	16	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	14	ze	_	?	?	?
+18	ein	17	النجوم	_	1	?	_	1	?	_	1	?	_	18	ein	_	?	?	?	?	?	18	una	_	?	?	?	17	un	_	18	een	_	16	um	_
+19	Fünftel	13	بأن	_	1	?	_	1	?	_	1	?	_	19	Fünftel	_	19	one	_	_	_	19	quinta	_	18	cinquième	_	18	quinto	_	17	tot	_	15	até	_
+20	davon	14	حوالي	_	1	?	_	1	?	_	1	?	_	20	davon	_	20	fifth	_	_	_	19	quinta	_	11	à	specification.Restatement.EXPANSION	21	abbia	_	19	vijfde	_	17	quinto	_
+21	einen	14	حوالي	_	1	?	_	1	?	_	1	?	_	21	einen	_	20	fifth	_	_	_	19	quinta	_	22	une	_	29	in	_	18	een	_	18	deles	_
+22	erdähnlichen	20	شبيه	_	1	?	_	1	?	_	1	?	_	22	erdähnlichen	_	24	an	_	_	_	25	planeta	_	23	planète	_	23	pianeta	_	22	Aarde-achtige	_	23	tipo	_
+23	Planeten	?	?	?	1	?	_	1	?	_	1	?	_	23	Planeten	_	26	planet	_	_	_	25	planeta	_	23	planète	_	23	pianeta	_	23	planeet	_	21	planeta	_
+24	hat,	18	لديها	_	1	?	_	1	?	_	1	?	_	24	hat,	_	22	them	_	_	_	23	tienen	_	20	celles-ci	_	?	?	?	?	?	?	22	do	_
+25	auf	?	?	?	1	?	_	1	?	_	1	?	_	25	auf	_	?	?	?	?	?	?	?	?	?	?	?	24	come	EXPANSION|Synchronous.TEMPORAL	?	?	?	?	?	?
+26	dem	?	?	?	1	?	_	1	?	_	1	?	_	26	dem	_	?	?	?	?	?	?	?	?	28	qui	_	27	che	_	25	die	_	24	da	_
+27	Leben	25	حياة	_	1	?	_	1	?	_	1	?	_	27	Leben	_	32	harbor	_	_	_	31	podría	_	27	Terre	_	32	ospitare	_	26	leven	_	25	Terra	_
+28	möglich	?	?	?	1	?	_	1	?	_	1	?	_	28	möglich	_	?	?	?	?	?	26	similar	_	29	pourrait	_	?	?	?	24	heeft	_	?	?	?
+29	wäre.	?	?	?	1	?	_	1	?	_	1	?	_	29	wäre.	_	?	?	?	?	?	22	ellas,	_	29	pourrait	_	?	?	?	24	heeft	_	?	?	?
+30	Gesehen	?	?	?	1	?	_	1	?	_	1	?	_	30	Gesehen	_	37	seen	_	_	_	27	a	_	40	vu.	_	28	sia	_	37	gezien.	_	?	?	?
+31	aber	22	قد	_	1	?	_	1	?	_	1	?	_	31	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	34	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	pero	precedence.Asynchronous.TEMPORAL	35	mais	Contrast.COMPARISON|Exception.EXPANSION	28	sia	_	30	maar	_	30	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+32	haben	?	?	?	1	?	_	1	?	_	1	?	_	32	haben	_	17	up	_	_	_	?	?	?	21	ont	_	?	?	?	?	?	?	20	um	_
+33	wir	?	?	?	1	?	_	1	?	_	1	?	_	33	wir	_	35	we	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+34	noch	27	لم	_	1	?	_	1	?	_	1	?	_	34	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	36	haven't	_	_	_	35	no	_	32	d'abriter	_	36	non	_	31	zo	Instantiation.EXPANSION	31	ainda	Conjunction.EXPANSION|EXPANSION
+35	keinen;	26	لكننا	_	1	?	_	1	?	_	1	?	_	35	keinen;	_	38	any	_	_	_	38	ninguno	_	32	d'abriter	_	37	ne	_	29	herbergen,	_	32	não	_
+36	wir	?	?	?	1	?	_	1	?	_	1	?	_	36	wir	_	35	we	_	_	_	?	?	?	36	nous	_	?	?	?	33	we	_	?	?	?
+37	haben	?	?	?	1	?	_	1	?	_	1	?	_	37	haben	_	?	?	?	?	?	?	?	?	38	avons	_	38	abbiamo	_	32	hebben	_	?	?	?
+38	sie	23	يكون	_	1	?	_	1	?	_	1	?	_	38	sie	_	?	?	?	?	?	37	visto	_	?	?	?	39	visto	_	32	hebben	_	?	?	?
+39	nur	24	عليه	_	1	?	_	1	?	_	1	?	_	39	nur	Contrast.COMPARISON	30	able	_	_	_	?	?	?	31	capable	_	30	grado	_	?	?	?	?	?	?
+40	indirekt	28	نر	_	1	?	_	1	?	_	1	?	_	40	indirekt	_	40	them.	_	_	_	40	ellos.	_	39	jamais	_	39	visto	_	36	geen	_	34	nenhum	_
+41	erfasst.	30	منها.	_	1	?	_	1	?	_	1	?	_	41	erfasst.	_	40	them.	_	_	_	40	ellos.	_	39	jamais	_	40	nessuno.	_	?	?	?	35	deles.	_
+
+# sent_id = 132695
+# text:  Dies ist das berühmte NASA-Foto vom blass-blauen Punkt.
+# trans: Esta é a famosa imagem da NASA do ponto azul pálido.
+# forward_log_prob: -29.880243865950114
+# backward_log_prob: -23.94530374589549
+1	Dies	1	هذه	_	1	?	_	1	?	_	1	?	_	1	Dies	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esta	_	4	photo	_	1	Questa	_	1	Dit	_	1	Esta	_
+2	ist	3	النقطة	_	1	?	_	1	?	_	1	?	_	2	ist	_	2	is	_	_	_	2	es	_	2	la	_	2	è	_	2	is	_	2	é	_
+3	das	?	?	?	1	?	_	1	?	_	1	?	_	3	das	_	2	is	_	_	_	?	?	?	1	Voici	_	2	è	_	5	beeld	_	5	imagem	_
+4	berühmte	6	المشهورة	_	1	?	_	1	?	_	1	?	_	4	berühmte	_	3	NASA's	_	_	_	3	la	_	3	célèbre	_	4	famosa	_	3	NASA's	_	4	famosa	_
+5	NASA-Foto	6	المشهورة	_	1	?	_	1	?	_	1	?	_	5	NASA-Foto	_	4	famous	_	_	_	5	foto	_	3	célèbre	_	7	NASA	_	4	beroemde	_	7	NASA	_
+6	vom	6	المشهورة	_	1	?	_	1	?	_	1	?	_	6	vom	_	5	picture	_	_	_	9	del	_	9	prise	_	7	NASA	_	6	van	_	8	do	_
+7	blass-blauen	6	المشهورة	_	1	?	_	1	?	_	1	?	_	7	blass-blauen	_	4	famous	_	_	_	8	NASA	_	10	par	_	7	NASA	_	9	stip.	_	7	NASA	_
+8	Punkt.	5	الزرقاء	_	1	?	_	1	?	_	1	?	_	8	Punkt.	_	8	pale	_	_	_	10	punto	_	8	pâle	_	9	pallido	_	8	bleekblauwe	_	9	ponto	_
+
+# sent_id = 132696
+# text:  Aufgenommen wurde es 1990 von der Raumsonde Voyager, als man sie beim Verlassen des Sonnensystems drehte, um aus einer Entfernung von 6 Mrd. km eine Foto von der Erde zu machen.
+# trans: Foi tirada pela nave Voyager em 1990, quando a fizeram rodar ao sair do sistema solar para tirar uma foto da Terra à distância de seis mil milhões de quilómetros.
+# forward_log_prob: -113.63202125239778
+# backward_log_prob: -121.98510024251652
+1	Aufgenommen	1	أُلتقطت	_	1	?	_	1	?	_	1	?	_	1	Aufgenommen	_	2	was	_	_	_	2	tomada	_	1	Elle	_	3	scattata	_	?	?	?	2	tirada	_
+2	wurde	6	عام	_	1	?	_	1	?	_	1	?	_	2	wurde	_	2	was	_	_	_	1	Fue	_	9	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	2	stata	_	3	in	_	1	Foi	_
+3	es	2	بواسطة	_	1	?	_	1	?	_	1	?	_	3	es	_	1	It	_	_	_	6	espacial	_	?	?	?	1	È	_	2	is	_	?	?	?
+4	1990	2	بواسطة	_	1	?	_	1	?	_	1	?	_	4	1990	_	6	Voyager	_	_	_	5	sonda	_	7	sonde	_	4	dal	_	4	1990	_	3	pela	_
+5	von	4	الصناعي	_	1	?	_	1	?	_	1	?	_	5	von	_	6	Voyager	_	_	_	5	sonda	_	7	sonde	_	5	veicolo	_	5	gemaakt	_	5	Voyager	_
+6	der	3	القمر	_	1	?	_	1	?	_	1	?	_	6	der	_	5	the	_	_	_	4	la	_	6	la	_	8	nel	_	7	de	_	?	?	?
+7	Raumsonde	5	فوياجر	_	1	?	_	1	?	_	1	?	_	7	Raumsonde	_	7	spacecraft	_	_	_	7	Voyager	_	8	Voyager	_	7	Voyager	_	8	Voyager	_	7	1990,	_
+8	Voyager,	5	فوياجر	_	1	?	_	1	?	_	1	?	_	8	Voyager,	_	9	1990,	_	_	_	7	Voyager	_	10	1990,	_	9	1990,	_	8	Voyager	_	7	1990,	_
+9	als	13	من	_	1	?	_	1	?	_	1	?	_	9	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	?	?	?	?	?	34	milliards	_	31	miliardi	_	9	ruimtesonde.	_	?	?	?
+10	man	7	1990،	_	1	?	_	1	?	_	1	?	_	10	man	_	12	turned	_	_	_	9	1990,	_	?	?	?	12	fatto	_	10	Ze	_	?	?	?
+11	sie	?	?	?	1	?	_	1	?	_	1	?	_	11	sie	_	13	it	_	_	_	11	la	_	?	?	?	?	?	?	12	zich	_	?	?	?
+12	beim	8	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	12	beim	_	11	they	_	_	_	10	cuando	TEMPORAL	12	qu'elle	_	13	girare	_	11	keerde	_	10	fizeram	_
+13	Verlassen	9	جعلوه	_	1	?	_	1	?	_	1	?	_	13	Verlassen	_	12	turned	_	_	_	13	saliendo	_	14	demi-tour	_	13	girare	_	11	keerde	_	13	sair	_
+14	des	14	النظام	_	1	?	_	1	?	_	1	?	_	14	des	_	19	the	_	_	_	15	sistema	_	20	solaire	_	14	nel	_	15	het	_	15	sistema	_
+15	Sonnensystems	14	النظام	_	1	?	_	1	?	_	1	?	_	15	Sonnensystems	_	20	solar	_	_	_	14	del	_	18	du	_	20	sistema	_	14	bij	_	14	do	_
+16	drehte,	11	وهو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	16	drehte,	_	17	was	_	_	_	13	saliendo	_	17	sortie	_	17	cui	_	16	verlaten	_	13	sair	_
+17	um	10	ينعطف	_	1	?	_	1	?	_	1	?	_	17	um	_	14	around	_	_	_	17	para	CONTIGENCY|Cause.CONTIGENCY	?	?	?	?	?	?	20	om	PragmaticCause.CONTIGENCY	17	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+18	aus	?	?	?	1	?	_	1	?	_	1	?	_	18	aus	_	16	it	_	_	_	?	?	?	15	à	specification.Restatement.EXPANSION	?	?	?	?	?	?	18	tirar	_
+19	einer	15	الشمسي	_	1	?	_	1	?	_	1	?	_	19	einer	_	22	to	_	_	_	20	imagen	_	?	?	?	16	in	_	22	​​foto	_	18	tirar	_
+20	Entfernung	15	الشمسي	_	1	?	_	1	?	_	1	?	_	20	Entfernung	_	?	?	?	?	?	?	?	?	21	afin	specification.Restatement.EXPANSION	?	?	?	22	​​foto	_	20	foto	_
+21	von	16	ليلتقط	_	1	?	_	1	?	_	1	?	_	21	von	_	23	take	_	_	_	18	tomar	_	24	une	_	23	fotografare	_	22	​​foto	_	20	foto	_
+22	6	16	ليلتقط	_	1	?	_	1	?	_	1	?	_	22	6	_	30	six	_	_	_	25	6000	_	33	six	_	30	sei	_	29	zes	_	26	seis	_
+23	Mrd.	18	للأرض	_	1	?	_	1	?	_	1	?	_	23	Mrd.	_	25	picture	_	_	_	25	6000	_	25	photo	_	?	?	?	?	?	?	24	distância	_
+24	km	18	للأرض	_	1	?	_	1	?	_	1	?	_	24	km	_	?	?	?	?	?	25	6000	_	?	?	?	?	?	?	?	?	?	23	à	_
+25	eine	19	من	_	1	?	_	1	?	_	1	?	_	25	eine	_	24	a	_	_	_	24	a	_	?	?	?	?	?	?	21	een	_	19	uma	_
+26	Foto	20	بُعد	_	1	?	_	1	?	_	1	?	_	26	Foto	_	29	from	_	_	_	25	6000	_	31	distance	_	28	distanza	_	27	nemen	_	27	mil	_
+27	von	20	بُعد	_	1	?	_	1	?	_	1	?	_	27	von	_	?	?	?	?	?	?	?	?	30	une	_	23	fotografare	_	27	nemen	_	25	de	_
+28	der	17	صورة	_	1	?	_	1	?	_	1	?	_	28	der	_	28	Earth	_	_	_	22	la	_	27	la	_	24	la	_	28	op	_	21	da	_
+29	Erde	?	?	?	1	?	_	1	?	_	1	?	_	29	Erde	_	28	Earth	_	_	_	23	Tierra	_	28	Terre	_	25	Terra	_	25	Aarde	_	22	Terra	_
+30	zu	?	?	?	1	?	_	1	?	_	1	?	_	30	zu	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	26	te	_	?	?	?
+31	machen.	?	?	?	1	?	_	1	?	_	1	?	_	31	machen.	_	?	?	?	?	?	?	?	?	?	?	?	22	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	26	te	_	29	de	_
+
+# sent_id = 132697
+# text:  So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen.
+# trans: Gostaria de ter uma de um planeta do tipo da Terra na órbita de outra estrela.
+# forward_log_prob: -51.843453915800254
+# backward_log_prob: -51.624123213368335
+1	So	?	?	?	1	?	_	1	?	_	1	?	_	1	So	_	?	?	?	?	?	4	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	?
+2	ein	2	أن	_	1	?	_	1	?	_	1	?	_	2	ein	_	6	of	_	_	_	3	una	_	?	?	?	3	un	_	7	een	_	4	uma	_
+3	Bild	3	ألتقط	_	1	?	_	1	?	_	1	?	_	3	Bild	_	2	want	_	_	_	4	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	7	avec	_	?	?	?	4	foto	_	2	de	_
+4	möchte	1	أريد	_	1	?	_	1	?	_	1	?	_	4	möchte	_	2	want	_	_	_	4	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	5	même	Conjunction.EXPANSION|Exception.EXPANSION	5	simile	_	2	wil	_	3	ter	_
+5	ich	1	أريد	_	1	?	_	1	?	_	1	?	_	5	ich	_	1	I	_	_	_	1	Quiero	_	1	Je	_	5	simile	_	1	Ik	_	1	Gostaria	_
+6	von	?	?	?	1	?	_	1	?	_	1	?	_	6	von	_	4	take	_	_	_	2	tomar	_	8	une	_	2	fotografare	_	6	van	_	9	tipo	_
+7	einem	6	شمسي	_	1	?	_	1	?	_	1	?	_	7	einem	_	7	an	_	_	_	9	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	2	veux	_	1	Vorrei	_	5	maken	_	9	tipo	_
+8	erdähnlichen	5	لكوكب	_	1	?	_	1	?	_	1	?	_	8	erdähnlichen	_	8	Earth-like	_	_	_	7	un	_	9	planète	_	4	pianeta	_	8	Aarde-achtige	_	8	do	_
+9	Planeten	5	لكوكب	_	1	?	_	1	?	_	1	?	_	9	Planeten	_	9	planet	_	_	_	8	planeta	_	9	planète	_	?	?	?	9	planeet	_	7	planeta	_
+10	eines	6	شمسي	_	1	?	_	1	?	_	1	?	_	10	eines	_	11	another	_	_	_	14	otra	_	16	d'une	_	9	a	_	11	een	_	14	de	_
+11	anderen	6	شمسي	_	1	?	_	1	?	_	1	?	_	11	anderen	_	10	about	_	_	_	14	otra	_	14	orbitant	_	8	vicino	_	12	andere	_	12	na	_
+12	Sterns	7	شبيه	_	1	?	_	1	?	_	1	?	_	12	Sterns	_	11	another	_	_	_	14	otra	_	16	d'une	_	10	un'altra	_	12	andere	_	15	outra	_
+13	machen.	?	?	?	1	?	_	1	?	_	1	?	_	13	machen.	_	9	planet	_	_	_	?	?	?	17	étoile.	_	10	un'altra	_	12	andere	_	15	outra	_
+
+# sent_id = 132698
+# text:  Warum gibt es das noch nicht? Warum ist das schwer?
+# trans: Porque ainda não o conseguimos? Porque é tão difícil?
+# forward_log_prob: -24.537376099013684
+# backward_log_prob: -26.31979452483034
+1	Warum	1	لماذا	reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	1	Warum	result.Cause.CONTIGENCY	1	Why	_	_	_	1	¿Por	_	1	Pourquoi	_	1	Perché	reason.Cause.CONTIGENCY	1	Waarom	result.Cause.CONTIGENCY	1	Porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+2	gibt	1	لماذا	reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	2	gibt	_	1	Why	_	_	_	2	qué	_	2	n'avons-nous	_	2	non	_	5	niet?	_	1	Porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+3	es	1	لماذا	reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	3	es	_	3	we	_	_	_	4	lo	_	3	pas	_	2	non	_	3	we	_	3	não	_
+4	das	4	ذلك	_	1	?	_	1	?	_	1	?	_	4	das	_	?	?	?	?	?	4	lo	_	4	fait	_	?	?	?	4	dat	_	4	o	_
+5	noch	?	?	?	1	?	_	1	?	_	1	?	_	5	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	?	?	?	?	?	5	hemos	_	4	fait	_	4	ancora	_	6	Waarom	result.Cause.CONTIGENCY	2	ainda	Conjunction.EXPANSION|EXPANSION
+6	nicht?	6	الآن؟	_	1	?	_	1	?	_	1	?	_	6	nicht?	_	5	that?	_	_	_	7	¿Por	_	6	?	_	6	Perché	reason.Cause.CONTIGENCY	6	Waarom	result.Cause.CONTIGENCY	6	Porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+7	Warum	5	إلى	_	1	?	_	1	?	_	1	?	_	7	Warum	result.Cause.CONTIGENCY	4	done	_	_	_	6	hecho?	_	5	cela	_	5	fatto?	_	6	Waarom	result.Cause.CONTIGENCY	5	conseguimos?	_
+8	ist	8	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	8	ist	_	7	is	_	_	_	9	es	_	8	est-ce	_	7	è	_	7	is	_	7	é	_
+9	das	9	بتلك	_	1	?	_	1	?	_	1	?	_	9	das	_	8	that	_	_	_	10	tan	_	7	Pourquoi	_	9	difficile?	_	8	dat	_	7	é	_
+10	schwer?	8	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	10	schwer?	_	9	hard?	_	_	_	11	difícil?	_	9	difficile	_	8	così	result.Cause.CONTIGENCY	10	moeilijk?	_	9	difícil?	_
+
+# sent_id = 132699
+# text:  Stellen Sie sich vor, wir nähmen das Hubble Weltraumteleskop, drehten es um und setzten es in eine Umlaufbahn um den Mars.
+# trans: Bem, imaginemos que pegamos no Telescópio Espacial Hubble e o rodamos e o deslocamos para a órbita de Marte.
+# forward_log_prob: -60.97093299472582
+# backward_log_prob: -71.90876685870428
+1	Stellen	1	حسنًا	_	1	?	_	1	?	_	1	?	_	1	Stellen	_	1	Well	_	Conjunction.EXPANSION	_	3	verlo,	_	1	Imaginions	_	1	Immaginiamo	_	1	Stel	_	1	Bem,	_
+2	Sie	1	حسنًا	_	1	?	_	1	?	_	1	?	_	2	Sie	_	2	to	_	_	_	5	a	_	2	que	_	1	Immaginiamo	_	2	je	_	?	?	?
+3	sich	10	ينعطف	_	1	?	_	1	?	_	1	?	_	3	sich	_	?	?	?	?	?	?	?	?	5	le	_	1	Immaginiamo	_	3	voor	succession.Asynchronous.TEMPORAL	?	?	?
+4	vor,	?	?	?	1	?	_	1	?	_	1	?	_	4	vor,	_	?	?	?	?	?	6	imaginar	_	4	prenions	_	?	?	?	3	voor	succession.Asynchronous.TEMPORAL	5	no	_
+5	wir	?	?	?	1	?	_	1	?	_	1	?	_	5	wir	_	6	we	_	_	_	5	a	_	3	nous	_	?	?	?	5	we	_	?	?	?
+6	nähmen	3	لنتخيل	_	1	?	_	1	?	_	1	?	_	6	nähmen	_	5	imagine	_	_	_	6	imaginar	_	4	prenions	_	3	prendere	_	?	?	?	4	pegamos	_
+7	das	?	?	?	1	?	_	1	?	_	1	?	_	7	das	_	?	?	?	?	?	7	que	_	?	?	?	?	?	?	4	dat	_	3	que	_
+8	Hubble	5	أخذنا	_	1	?	_	1	?	_	1	?	_	8	Hubble	_	9	Hubble	_	_	_	8	tomamos	_	8	Hubble	_	7	Hubble	_	7	Hubble	_	8	Hubble	_
+9	Weltraumteleskop,	6	تيليسكوب	_	1	?	_	1	?	_	1	?	_	9	Weltraumteleskop,	_	10	Space	_	_	_	10	telescopio	_	13	retournions	_	5	telescopio	_	8	Ruimtetelescoop	_	6	Telescópio	_
+10	drehten	7	هابل	_	1	?	_	1	?	_	1	?	_	10	drehten	_	14	turn	_	_	_	12	Hubble,	_	12	le	_	7	Hubble	_	7	Hubble	_	8	Hubble	_
+11	es	7	هابل	_	1	?	_	1	?	_	1	?	_	11	es	_	13	we	_	_	_	13	lo	_	10	que	_	9	girarlo	_	9	omdraaien	_	10	o	_
+12	um	8	الفضائي	_	1	?	_	1	?	_	1	?	_	12	um	_	16	around	_	_	_	14	giramos	_	13	retournions	_	9	girarlo	_	9	omdraaien	_	11	rodamos	_
+13	und	12	باتجاه	_	1	?	_	1	?	_	1	?	_	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	y	_	14	et	Conjunction.EXPANSION	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	12	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+14	setzten	9	وجعلناه	_	1	?	_	1	?	_	1	?	_	14	setzten	_	19	move	_	_	_	17	movemos	_	15	le	_	12	portarlo	_	11	verplaatsen	_	14	deslocamos	_
+15	es	11	ويتحرك	_	1	?	_	1	?	_	1	?	_	15	es	_	18	we	_	_	_	16	lo	_	16	déplacions	_	12	portarlo	_	11	verplaatsen	_	13	o	_
+16	in	?	?	?	1	?	_	1	?	_	1	?	_	16	in	_	?	?	?	?	?	?	?	?	?	?	?	13	fuori	_	10	en	Conjunction.EXPANSION	13	o	_
+17	eine	?	?	?	1	?	_	1	?	_	1	?	_	17	eine	_	20	it	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+18	Umlaufbahn	13	مدار	_	1	?	_	1	?	_	1	?	_	18	Umlaufbahn	_	24	orbit	_	_	_	22	órbita	_	20	l'orbite	_	14	dall'orbita	_	14	baan	_	17	órbita	_
+19	um	?	?	?	1	?	_	1	?	_	1	?	_	19	um	_	?	?	?	?	?	20	a	_	21	de	_	15	di	_	?	?	?	15	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+20	den	?	?	?	1	?	_	1	?	_	1	?	_	20	den	_	21	out	_	_	_	21	la	_	?	?	?	?	?	?	13	de	_	16	a	_
+21	Mars.	14	المريخ.	_	1	?	_	1	?	_	1	?	_	21	Mars.	_	26	Mars.	_	_	_	24	Marte.	_	22	Mars.	_	16	Marte.	_	16	Mars.	_	19	Marte.	_
+
+# sent_id = 132700
+# text:  Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen, weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind.
+# trans: Veríamos algo assim, Uma imagem algo difusa da Terra, porque é um telescópio um pouco pequeno na órbita de Marte.
+# forward_log_prob: -65.61467065608969
+# backward_log_prob: -75.52185348770112
+1	Wir	?	?	?	1	?	_	1	?	_	1	?	_	1	Wir	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	3	we	_	?	?	?
+2	würden	1	سنرى	_	1	?	_	1	?	_	1	?	_	2	würden	_	1	We'll	_	_	_	1	Veremos	_	1	On	_	1	Vedremmo	_	1	Dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	1	Veríamos	_
+3	vermutlich	?	?	?	1	?	_	1	?	_	1	?	_	3	vermutlich	_	3	something	_	_	_	1	Veremos	_	2	obtiendrait	_	1	Vedremmo	_	2	kregen	_	1	Veríamos	_
+4	ein	?	?	?	1	?	_	1	?	_	1	?	_	4	ein	_	6	a	_	_	_	4	una	_	4	une	_	3	di	_	4	een	_	4	Uma	_
+5	leicht	4	هذا،	_	1	?	_	1	?	_	1	?	_	5	leicht	_	8	blurry	_	_	_	6	levemente	_	7	floue	_	5	genere,	_	5	wat	_	7	difusa	_
+6	unscharfes	4	هذا،	_	1	?	_	1	?	_	1	?	_	6	unscharfes	_	7	slightly	_	_	_	6	levemente	_	6	légèrement	_	5	genere,	_	6	wazig	_	6	algo	_
+7	Bild	6	مشوشة	_	1	?	_	1	?	_	1	?	_	7	Bild	_	9	picture	_	_	_	5	imagen	_	?	?	?	?	?	?	7	beeld	_	5	imagem	_
+8	der	5	صورة	_	1	?	_	1	?	_	1	?	_	8	der	_	11	the	_	_	_	9	la	_	9	la	_	11	Terra	_	9	de	_	8	da	_
+9	Erde	?	?	?	1	?	_	1	?	_	1	?	_	9	Erde	_	12	Earth,	_	_	_	10	Tierra,	_	10	Terre,	_	11	Terra	_	10	Aarde,	_	9	Terra,	_
+10	sehen,	?	?	?	1	?	_	1	?	_	1	?	_	10	sehen,	_	2	see	_	_	_	12	es	_	13	c'est	_	9	sfocata	_	12	het	_	11	é	_
+11	weil	3	مثل	_	1	?	_	1	?	_	1	?	_	11	weil	reason.Cause.CONTIGENCY	13	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	11	porque	CONTIGENCY|Cause.CONTIGENCY	11	parce	specification.Restatement.EXPANSION	12	perché	reason.Cause.CONTIGENCY	11	want	reason.Cause.CONTIGENCY	10	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+12	wir	?	?	?	1	?	_	1	?	_	1	?	_	12	wir	_	?	?	?	?	?	?	?	?	?	?	?	13	siamo	_	?	?	?	12	um	_
+13	ein	13	إلى	_	1	?	_	1	?	_	1	?	_	13	ein	_	15	a	_	_	_	13	un	_	14	un	_	14	un	_	14	een	_	12	um	_
+14	recht	12	صغير	_	1	?	_	1	?	_	1	?	_	14	recht	_	14	we're	_	_	_	15	bastante	_	15	assez	_	16	piuttosto	Alternative.EXPANSION	15	vrij	_	15	pouco	_
+15	kleines	12	صغير	_	1	?	_	1	?	_	1	?	_	15	kleines	_	16	fairly	_	_	_	15	bastante	_	15	assez	_	16	piuttosto	Alternative.EXPANSION	15	vrij	_	15	pouco	_
+16	Teleskop	14	حد	_	1	?	_	1	?	_	1	?	_	16	Teleskop	_	18	telescope	_	_	_	14	telescopio	_	17	télescope	_	15	telescopio	_	17	telescoop	_	13	telescópio	_
+17	in	16	في	_	1	?	_	1	?	_	1	?	_	17	in	_	20	at	_	_	_	17	en	_	19	sur	_	18	fuori	_	18	in	_	?	?	?
+18	der	16	في	_	1	?	_	1	?	_	1	?	_	18	der	_	21	the	_	_	_	18	la	_	19	sur	_	?	?	?	19	de	_	?	?	?
+19	Umlaufbahn	17	مدار	_	1	?	_	1	?	_	1	?	_	19	Umlaufbahn	_	22	orbit	_	_	_	19	órbita	_	20	l'orbite	_	20	di	_	22	Mars.	_	18	órbita	_
+20	des	17	مدار	_	1	?	_	1	?	_	1	?	_	20	des	_	23	of	_	_	_	18	la	_	19	sur	_	?	?	?	21	van	_	19	de	_
+21	Mars	18	المريخ.	_	1	?	_	1	?	_	1	?	_	21	Mars	_	19	out	_	_	_	21	Marte.	_	22	Mars.	_	21	Marte.	_	22	Mars.	_	20	Marte.	_
+22	sind.	17	مدار	_	1	?	_	1	?	_	1	?	_	22	sind.	_	20	at	_	_	_	?	?	?	?	?	?	13	siamo	_	?	?	?	17	na	_
+
+# sent_id = 132701
+# text:  Nun gehen wir auf die 10-fache Distanz.
+# trans: Afastemo-nos dez vezes mais.
+# forward_log_prob: -11.868892059177323
+# backward_log_prob: -21.557383781664473
+1	Nun	1	والآن	_	1	?	_	1	?	_	1	?	_	1	Nun	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	1	Maintenant	Exception.EXPANSION	1	Adesso	_	1	Nu	_	1	Afastemo-nos	_
+2	gehen	2	دعونا	_	1	?	_	1	?	_	1	?	_	2	gehen	_	2	let's	_	_	_	2	vamos	_	2	éloignons-nous	_	2	spostiamoci	_	2	gaan	_	1	Afastemo-nos	_
+3	wir	3	نبتعد	_	1	?	_	1	?	_	1	?	_	3	wir	_	3	move	_	_	_	3	a	_	3	dix	_	3	dieci	_	3	we	_	2	dez	_
+4	auf	?	?	?	1	?	_	1	?	_	1	?	_	4	auf	_	?	?	?	?	?	4	ir	_	4	fois	_	4	volte	_	?	?	?	3	vezes	_
+5	die	4	عشر	_	1	?	_	1	?	_	1	?	_	5	die	_	?	?	?	?	?	7	más	_	?	?	?	5	più	_	?	?	?	4	mais.	_
+6	10-fache	5	مرات	_	1	?	_	1	?	_	1	?	_	6	10-fache	_	4	ten	_	_	_	5	diez	_	2	éloignons-nous	_	4	volte	_	5	keer	_	3	vezes	_
+7	Distanz.	6	أكثر	_	1	?	_	1	?	_	1	?	_	7	Distanz.	_	6	further	_	Conjunction.EXPANSION	Conjunction.EXPANSION	8	lejos.	_	2	éloignons-nous	_	6	lontano.	_	7	weg.	_	4	mais.	_
+
+# sent_id = 132702
+# text:  Hier sind wir in der Umlaufbahn des Uranus.
+# trans: Aqui estamos na órbita de Urano.
+# forward_log_prob: -16.242850505581337
+# backward_log_prob: -20.924805532734748
+1	Hier	2	هنا	_	1	?	_	1	?	_	1	?	_	1	Hier	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	1	Aquí	_	2	sommes	_	1	Eccoci	_	1	Hier	_	2	estamos	_
+2	sind	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	are	_	_	_	1	Aquí	_	2	sommes	_	1	Eccoci	_	2	zitten	_	1	Aqui	_
+3	wir	1	نحن	_	1	?	_	1	?	_	1	?	_	3	wir	_	2	we	_	_	_	3	en	_	1	Nous	_	1	Eccoci	_	3	we	_	2	estamos	_
+4	in	3	في	_	1	?	_	1	?	_	1	?	_	4	in	_	4	at	_	_	_	3	en	_	3	sur	_	2	nell'orbita	_	5	de	_	3	na	_
+5	der	3	في	_	1	?	_	1	?	_	1	?	_	5	der	_	5	the	_	_	_	4	la	_	3	sur	_	2	nell'orbita	_	5	de	_	3	na	_
+6	Umlaufbahn	4	مدار	_	1	?	_	1	?	_	1	?	_	6	Umlaufbahn	_	6	orbit	_	_	_	5	órbita	_	4	l'orbite	_	2	nell'orbita	_	4	op	_	4	órbita	_
+7	des	5	أورانوس.	_	1	?	_	1	?	_	1	?	_	7	des	_	7	of	_	_	_	6	de	_	5	d'Uranus.	_	4	Urano.	_	7	van	_	5	de	_
+8	Uranus.	5	أورانوس.	_	1	?	_	1	?	_	1	?	_	8	Uranus.	_	8	Uranus.	_	_	_	7	Urano.	_	5	d'Uranus.	_	4	Urano.	_	8	Uranus.	_	6	Urano.	_
+
+# sent_id = 132703
+# text:  Das Bild ist kleiner, weniger detailliert, gröber.
+# trans: Ficou mais pequena, com menos detalhe, menor resolução.
+# forward_log_prob: -24.482186353117694
+# backward_log_prob: -19.991504597817176
+1	Das	2	الصورة	_	1	?	_	1	?	_	1	?	_	1	Das	_	2	gotten	_	_	_	?	?	?	?	?	?	1	È	_	3	kleiner	_	1	Ficou	_
+2	Bild	2	الصورة	_	1	?	_	1	?	_	1	?	_	2	Bild	_	3	smaller,	_	_	_	5	pequeño,	_	3	petit,	_	2	più	_	3	kleiner	_	2	mais	Conjunction.EXPANSION|EXPANSION
+3	ist	3	أصغر،	_	1	?	_	1	?	_	1	?	_	3	ist	_	4	it's	_	_	_	4	más	_	1	C'est	_	1	È	_	2	is	_	5	menos	_
+4	kleiner,	4	أقل	_	1	?	_	1	?	_	1	?	_	4	kleiner,	_	3	smaller,	_	_	_	1	Se	_	2	plus	_	4	ha	_	3	kleiner	_	3	pequena,	_
+5	weniger	5	تفصيلا،	_	1	?	_	1	?	_	1	?	_	5	weniger	_	6	less	_	_	_	7	menos	_	7	détails,	_	6	dettagli,	_	6	minder	_	6	detalhe,	_
+6	detailliert,	6	وأقل	_	1	?	_	1	?	_	1	?	_	6	detailliert,	_	8	less	_	_	_	8	detalle,	_	8	moins	_	7	meno	_	8	minder	_	7	menor	_
+7	gröber.	7	دقة.	_	1	?	_	1	?	_	1	?	_	7	gröber.	_	9	resolve.	_	_	_	9	menos	_	8	moins	_	7	meno	_	9	resolutie.	_	7	menor	_
+
+# sent_id = 132704
+# text:  Man sieht den kleinen Mond noch. Gehen wir wieder 10-mal so weit weg!
+# trans: Ainda podemos ver a pequena Lua, mas afastemo-nos de novo dez vezes mais,
+# forward_log_prob: -42.10901766710733
+# backward_log_prob: -48.177363272391936
+1	Man	2	زال	_	1	?	_	1	?	_	1	?	_	1	Man	_	1	We	_	_	_	1	Todavía	_	1	Nous	_	1	Possiamo	_	4	steeds	_	5	pequena	_
+2	sieht	2	زال	_	1	?	_	1	?	_	1	?	_	2	sieht	_	3	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	1	Todavía	_	3	toujours	_	?	?	?	4	steeds	_	5	pequena	_
+3	den	4	رؤية	_	1	?	_	1	?	_	1	?	_	3	den	_	4	see	_	_	_	3	ver	_	3	toujours	_	?	?	?	4	steeds	_	4	a	_
+4	kleinen	3	بإمكاننا	_	1	?	_	1	?	_	1	?	_	4	kleinen	_	6	little	_	_	_	5	pequeña	_	3	toujours	_	3	vedere	_	3	nog	_	5	pequena	_
+5	Mond	5	القمر	_	1	?	_	1	?	_	1	?	_	5	Mond	_	7	moon,	_	_	_	6	luna,	_	5	la	_	6	la	_	7	maan.	_	6	Lua,	_
+6	noch.	6	الصغير،	_	1	?	_	1	?	_	1	?	_	6	noch.	_	8	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	pequeña	_	6	petite	_	2	ancora	_	?	?	?	1	Ainda	Conjunction.EXPANSION|EXPANSION
+7	Gehen	8	دعونا	_	1	?	_	1	?	_	1	?	_	7	Gehen	_	9	let's	_	_	_	9	diez	_	9	éloignons	_	9	allontaniamoci	_	?	?	?	8	afastemo-nos	_
+8	wir	9	نبتعد	_	1	?	_	1	?	_	1	?	_	8	wir	_	9	let's	_	_	_	10	veces	_	10	nous	_	10	dieci	_	1	We	_	9	de	_
+9	wieder	11	آخرى	_	1	?	_	1	?	_	1	?	_	9	wieder	_	11	ten	_	_	_	9	diez	_	11	encore	Exception.EXPANSION	10	dieci	_	8	Nog	_	10	novo	_
+10	10-mal	10	مرة	_	1	?	_	1	?	_	1	?	_	10	10-mal	_	11	ten	_	_	_	11	más	_	12	dix	_	10	dieci	_	9	tien	_	11	dez	_
+11	so	10	مرة	_	1	?	_	1	?	_	1	?	_	11	so	_	10	go	_	_	_	13	de	_	9	éloignons	_	8	Ma	Concession.COMPARISON|Contrast.COMPARISON	10	keer	_	9	de	_
+12	weit	11	آخرى	_	1	?	_	1	?	_	1	?	_	12	weit	_	15	again.	_	_	_	14	nuevo.	_	9	éloignons	_	9	allontaniamoci	_	?	?	?	10	novo	_
+13	weg!	13	مرات	_	1	?	_	1	?	_	1	?	_	13	weg!	_	?	?	?	?	?	?	?	?	14	plus.	_	12	più	_	12	weg	_	13	mais,	_
+
+# sent_id = 132705
+# text:  Hier sind wir am Rand des Sonnensystems, im Kuipergürtel.
+# trans: Estamos no limiar do sistema solar, na Cintura de Kuiper.
+# forward_log_prob: -31.45309645661507
+# backward_log_prob: -27.59425846920949
+1	Hier	2	هنا	_	1	?	_	1	?	_	1	?	_	1	Hier	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	1	Aquí	_	3	trouvons	_	?	?	?	1	staan	_	1	Estamos	_
+2	sind	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	are	_	_	_	1	Aquí	_	3	trouvons	_	1	Qui	_	1	staan	_	1	Estamos	_
+3	wir	1	نحن	_	1	?	_	1	?	_	1	?	_	3	wir	_	2	we	_	_	_	4	el	_	1	Nous	_	2	siamo	_	2	we	_	1	Estamos	_
+4	am	3	على	_	1	?	_	1	?	_	1	?	_	4	am	_	6	edge	_	_	_	5	borde	_	5	limites	_	4	confine	_	3	aan	_	3	limiar	_
+5	Rand	4	حافة	_	1	?	_	1	?	_	1	?	_	5	Rand	_	6	edge	_	_	_	5	borde	_	4	aux	_	3	al	_	5	rand	_	8	Cintura	_
+6	des	5	النظام	_	1	?	_	1	?	_	1	?	_	6	des	_	7	of	_	_	_	9	en	_	8	solaire,	_	8	fuori	_	6	van	_	6	solar,	_
+7	Sonnensystems,	5	النظام	_	1	?	_	1	?	_	1	?	_	7	Sonnensystems,	_	9	solar	_	_	_	7	sistema	_	7	système	_	6	sistema	_	8	zonnestelsel,	_	5	sistema	_
+8	im	7	على	_	1	?	_	1	?	_	1	?	_	8	im	_	12	at	_	_	_	10	el	_	12	de	_	11	di	_	10	de	_	9	de	_
+9	Kuipergürtel.	9	كويبر.	_	1	?	_	1	?	_	1	?	_	9	Kuipergürtel.	_	15	Belt.	_	_	_	11	Cinturón	_	11	ceinture	_	10	fascia	_	11	Kuipergordel.	_	8	Cintura	_
+
+# sent_id = 132706
+# text:  Es gibt gar keine Auflösung mehr.
+# trans: Agora não tem qualquer resolução.
+# forward_log_prob: -12.383261705340951
+# backward_log_prob: -16.26086612105881
+1	Es	1	الآن	_	1	?	_	1	?	_	1	?	_	1	Es	_	2	it's	_	_	_	?	?	?	?	?	?	2	non	_	2	en	Conjunction.EXPANSION	2	não	_
+2	gibt	2	أصبحت	_	1	?	_	1	?	_	1	?	_	2	gibt	_	3	not	_	_	_	2	no	_	3	résolution	_	2	non	_	4	zijn	_	2	não	_
+3	gar	1	الآن	_	1	?	_	1	?	_	1	?	_	3	gar	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	1	Maintenant	Exception.EXPANSION	1	Ora	_	3	Aarde	_	1	Agora	Conjunction.EXPANSION|EXPANSION
+4	keine	3	الدقة	_	1	?	_	1	?	_	1	?	_	4	keine	_	2	it's	_	_	_	?	?	?	3	résolution	_	4	alcuna	_	6	meer	_	4	qualquer	_
+5	Auflösung	4	معدومة	_	1	?	_	1	?	_	1	?	_	5	Auflösung	_	5	at	_	_	_	4	ninguna	_	4	est	_	4	alcuna	_	6	meer	_	4	qualquer	_
+6	mehr.	4	معدومة	_	1	?	_	1	?	_	1	?	_	6	mehr.	_	6	all.	_	_	_	5	resolución.	_	5	nulle.	_	5	risoluzione.	_	8	onderscheiden.	_	5	resolução.	_
+
+# sent_id = 132707
+# text:  Die Erde ist nun Carl Sagans blass-blauer Punkt.
+# trans: É o ponto azul pálido, de Carl Sagan.
+# forward_log_prob: -23.622092661565127
+# backward_log_prob: -25.85141120774521
+1	Die	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Die	_	?	?	?	?	?	?	?	?	2	le	_	?	?	?	?	?	?	?	?	?
+2	Erde	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	2	Erde	_	2	that	_	_	_	2	ese	_	3	point	_	?	?	?	1	Het	_	?	?	?
+3	ist	2	تلك	_	1	?	_	1	?	_	1	?	_	3	ist	_	1	It's	_	_	_	1	Es	_	3	point	_	1	È	_	2	bleekblauwe	_	1	É	_
+4	nun	?	?	?	1	?	_	1	?	_	1	?	_	4	nun	_	?	?	?	?	?	4	azul	_	4	bleu	_	2	il	_	3	stipje	_	?	?	?
+5	Carl	4	الزرقاء	_	1	?	_	1	?	_	1	?	_	5	Carl	_	3	pale	_	_	_	7	Carl	_	3	point	_	3	pallido	_	2	bleekblauwe	_	3	ponto	_
+6	Sagans	5	الباهتة	_	1	?	_	1	?	_	1	?	_	6	Sagans	_	6	of	_	_	_	7	Carl	_	7	Carl	_	7	Carl	_	5	Carl	_	6	de	_
+7	blass-blauer	6	لكارل	_	1	?	_	1	?	_	1	?	_	7	blass-blauer	_	7	Carl	_	_	_	7	Carl	_	7	Carl	_	7	Carl	_	5	Carl	_	7	Carl	_
+8	Punkt.	5	الباهتة	_	1	?	_	1	?	_	1	?	_	8	Punkt.	_	?	?	?	?	?	5	pálido	_	?	?	?	?	?	?	6	Sagan.	_	?	?	?
+
+# sent_id = 132708
+# text:  Wir entfernen uns wieder um das 10-Fache.
+# trans: Mas afastemo-nos de novo mais dez vezes.
+# forward_log_prob: -19.549484512879616
+# backward_log_prob: -22.86891395111585
+1	Wir	?	?	?	1	?	_	1	?	_	1	?	_	1	Wir	_	2	let's	_	_	_	2	vamos	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	3	di	_	3	we	_	3	de	_
+2	entfernen	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	2	entfernen	_	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	2	éloignons-nous	_	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+3	uns	3	ومرة	_	1	?	_	1	?	_	1	?	_	3	uns	_	4	yet	_	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	3	a	_	3	encore	Exception.EXPANSION	4	nuovo	_	2	laten	_	3	de	_
+4	wieder	4	آخرى	_	1	?	_	1	?	_	1	?	_	4	wieder	_	5	again	_	Conjunction.EXPANSION	_	6	vez	_	3	encore	Exception.EXPANSION	5	dieci	_	4	nog	_	4	novo	_
+5	um	3	ومرة	_	1	?	_	1	?	_	1	?	_	5	um	_	4	yet	_	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	?	?	?	3	encore	Exception.EXPANSION	4	nuovo	_	?	?	?	4	novo	_
+6	das	?	?	?	1	?	_	1	?	_	1	?	_	6	das	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+7	10-Fache.	7	عشر	_	1	?	_	1	?	_	1	?	_	7	10-Fache.	_	8	further	_	Conjunction.EXPANSION	Conjunction.EXPANSION	9	más	_	6	plus.	_	7	più	_	9	verder	Conjunction.EXPANSION	6	dez	_
+
+# sent_id = 132709
+# text:  Nun sind wir in der Oort'schen Wolke außerhalb des Sonnensystems, und wir sehen, wie die Sonne langsam in unser Sichtfeld rückt, wo sich der Planet befindet.
+# trans: Aqui estamos na Nuvem de Oort, fora do sistema solar, aqui começamos a ver o Sol a mover-se para o campo de visão e a sobrepor-se ao planeta.
+# forward_log_prob: -94.17960202044871
+# backward_log_prob: -92.1007519880061
+1	Nun	3	على	_	1	?	_	1	?	_	1	?	_	1	Nun	_	?	?	?	?	?	3	fuera	_	2	sommes	_	5	nube	_	?	?	?	4	Nuvem	_
+2	sind	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	1	Aquí	_	2	sommes	_	1	Qui	_	1	Hier	_	1	Aqui	_
+3	wir	1	نحن	_	1	?	_	1	?	_	1	?	_	3	wir	_	2	we	_	_	_	4	de	_	1	Nous	_	2	siamo	_	3	we	_	?	?	?
+4	in	2	هنا	_	1	?	_	1	?	_	1	?	_	4	in	_	5	at	_	_	_	5	la	_	5	du	_	3	fuori	_	?	?	?	?	?	?
+5	der	1	نحن	_	1	?	_	1	?	_	1	?	_	5	der	_	6	the	_	_	_	5	la	_	5	du	_	2	siamo	_	5	de	_	?	?	?
+6	Oort'schen	4	سحب	_	1	?	_	1	?	_	1	?	_	6	Oort'schen	_	7	Oort	_	_	_	6	Nube	_	3	au	_	7	Oort,	_	4	bij	_	6	Oort,	_
+7	Wolke	5	أوورت،	_	1	?	_	1	?	_	1	?	_	7	Wolke	_	9	outside	_	_	_	8	Oort,	_	8	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	7	Oort,	_	6	Oortwolk,	_	7	fora	_
+8	außerhalb	6	خارج	_	1	?	_	1	?	_	1	?	_	8	außerhalb	_	9	outside	_	_	_	8	Oort,	_	9	dehors	_	7	Oort,	_	6	Oortwolk,	_	7	fora	_
+9	des	7	النظام	_	1	?	_	1	?	_	1	?	_	9	des	_	12	system,	_	_	_	11	sistema	_	12	solaire,	_	10	sistema	_	8	het	_	11	aqui	_
+10	Sonnensystems,	7	النظام	_	1	?	_	1	?	_	1	?	_	10	Sonnensystems,	_	11	solar	_	_	_	10	del	_	10	du	_	10	sistema	_	9	zonnestelsel,	_	8	do	_
+11	und	?	?	?	1	?	_	1	?	_	1	?	_	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	13	et	Conjunction.EXPANSION	22	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	13	a	_
+12	wir	11	أن	_	1	?	_	1	?	_	1	?	_	12	wir	_	?	?	?	?	?	?	?	?	14	nous	_	?	?	?	11	we	_	?	?	?
+13	sehen,	10	نرى	_	1	?	_	1	?	_	1	?	_	13	sehen,	_	17	see	_	_	_	16	a	_	17	voir	_	15	vedere	_	12	zien	_	14	ver	_
+14	wie	9	بدأنا	_	1	?	_	1	?	_	1	?	_	14	wie	COMPARISON|Synchronous.TEMPORAL	23	field	_	_	_	23	campo	_	16	à	specification.Restatement.EXPANSION	?	?	?	?	?	?	?	?	?
+15	die	10	نرى	_	1	?	_	1	?	_	1	?	_	15	die	_	18	the	_	_	_	?	?	?	?	?	?	16	il	_	13	de	_	17	a	_
+16	Sonne	12	الشمس	_	1	?	_	1	?	_	1	?	_	16	Sonne	_	19	sun	_	_	_	19	Sol	_	19	soleil	_	17	sole,	_	14	zon	_	16	Sol	_
+17	langsam	13	قد	_	1	?	_	1	?	_	1	?	_	17	langsam	_	20	move	_	_	_	20	moverse	_	20	entrer	_	18	spostarsi	_	?	?	?	18	mover-se	_
+18	in	15	في	_	1	?	_	1	?	_	1	?	_	18	in	_	21	into	_	_	_	21	en	_	21	dans	_	20	campo	_	?	?	?	24	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+19	unser	14	دخلت	_	1	?	_	1	?	_	1	?	_	19	unser	_	25	view	_	_	_	25	visión	_	22	notre	_	19	nel	_	17	dichter	_	21	campo	_
+20	Sichtfeld	16	مجال	_	1	?	_	1	?	_	1	?	_	20	Sichtfeld	_	25	view	_	_	_	25	visión	_	23	champ	_	21	visivo	_	17	dichter	_	23	visão	_
+21	rückt,	16	مجال	_	1	?	_	1	?	_	1	?	_	21	rückt,	_	25	view	_	_	_	25	visión	_	25	vision,	_	21	visivo	_	16	veel	_	23	visão	_
+22	wo	17	الرؤية	_	1	?	_	1	?	_	1	?	_	22	wo	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	27	get	_	_	_	27	meterse	_	26	là	_	23	arrivare	_	17	dichter	_	23	visão	_
+23	sich	19	باتجاه	_	1	?	_	1	?	_	1	?	_	23	sich	_	28	into	_	_	_	29	donde	TEMPORAL	28	se	_	24	dove	_	?	?	?	26	sobrepor-se	_
+24	der	20	الكوكب.	_	1	?	_	1	?	_	1	?	_	24	der	_	30	the	_	_	_	28	en	_	29	trouve	_	?	?	?	19	de	_	27	ao	Synchronous.TEMPORAL|TEMPORAL
+25	Planet	20	الكوكب.	_	1	?	_	1	?	_	1	?	_	25	Planet	_	29	where	TEMPORAL	_	_	31	el	_	29	trouve	_	26	il	_	20	planeet	_	26	sobrepor-se	_
+26	befindet.	19	باتجاه	_	1	?	_	1	?	_	1	?	_	26	befindet.	_	29	where	TEMPORAL	_	_	30	está	_	?	?	?	25	c'è	_	?	?	?	26	sobrepor-se	_
+
+# sent_id = 132710
+# text:  Und wieder 10-mal weiter weg.
+# trans: Mais uma vez, dez vezes mais distantes.
+# forward_log_prob: -18.786171166210767
+# backward_log_prob: -14.438424998156023
+1	Und	1	مرة	_	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	1	Una	_	1	Une	_	2	una	_	2	eens	_	2	uma	_
+2	wieder	2	أخرى،	_	1	?	_	1	?	_	1	?	_	2	wieder	_	4	ten	_	_	_	2	vez	_	2	fois	_	3	volta,	_	1	Nog	_	1	Mais	Conjunction.EXPANSION|EXPANSION
+3	10-mal	1	مرة	_	1	?	_	1	?	_	1	?	_	3	10-mal	_	4	ten	_	_	_	4	diez	_	5	dix	_	1	Ancora	_	3	tien	_	4	dez	_
+4	weiter	2	أخرى،	_	1	?	_	1	?	_	1	?	_	4	weiter	_	1	One	_	_	_	6	más	_	6	fois	_	2	una	_	2	eens	_	7	distantes.	_
+5	weg.	5	أبعد.	_	1	?	_	1	?	_	1	?	_	5	weg.	_	6	further	_	Conjunction.EXPANSION	Conjunction.EXPANSION	7	lejos.	_	7	plus	_	6	più	_	6	weg	_	6	mais	Conjunction.EXPANSION|EXPANSION
+
+# sent_id = 132711
+# text:  Nun sind wir bei Alpha Centauri, unserem nächsten Nachbarstern, und der Planet ist weg.
+# trans: Agora estamos na Alfa Centauri, a nossa estrela vizinha mais próxima, e o planeta desapareceu.
+# forward_log_prob: -47.5956057306521
+# backward_log_prob: -46.902099339289855
+1	Nun	2	على	_	1	?	_	1	?	_	1	?	_	1	Nun	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	4	Alpha	_	?	?	?	?	?	?	4	Alfa	_
+2	sind	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	at	_	_	_	2	estamos	_	2	sommes	_	2	siamo	_	1	zijn	_	2	estamos	_
+3	wir	1	نحن	_	1	?	_	1	?	_	1	?	_	3	wir	_	2	we're	_	_	_	3	en	_	1	Nous	_	2	siamo	_	2	we	_	2	estamos	_
+4	bei	3	ألفا	_	1	?	_	1	?	_	1	?	_	4	bei	_	3	at	_	_	_	3	en	_	?	?	?	5	Centauri,	_	3	bij	_	4	Alfa	_
+5	Alpha	4	سانتوري،	_	1	?	_	1	?	_	1	?	_	5	Alpha	_	5	Centauri,	_	_	_	4	Alfa	_	6	Centaure,	_	4	Alpha	_	5	Centauri,	_	5	Centauri,	_
+6	Centauri,	4	سانتوري،	_	1	?	_	1	?	_	1	?	_	6	Centauri,	_	5	Centauri,	_	_	_	7	estrella	_	6	Centaure,	_	5	Centauri,	_	5	Centauri,	_	5	Centauri,	_
+7	unserem	6	شمس	_	1	?	_	1	?	_	1	?	_	7	unserem	_	5	Centauri,	_	_	_	8	vecina	_	10	proche	_	9	vicina	_	7	dichtstbijzijnde	_	7	nossa	_
+8	nächsten	6	شمس	_	1	?	_	1	?	_	1	?	_	8	nächsten	_	8	neighbor	_	_	_	9	más	_	9	plus	_	8	più	_	7	dichtstbijzijnde	_	9	vizinha	_
+9	Nachbarstern,	7	مجاورة	_	1	?	_	1	?	_	1	?	_	9	Nachbarstern,	_	8	neighbor	_	_	_	10	cercana,	_	10	proche	_	9	vicina	_	7	dichtstbijzijnde	_	9	vizinha	_
+10	und	9	الكوكب	_	1	?	_	1	?	_	1	?	_	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	10	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	13	et	Conjunction.EXPANSION	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	9	en	Conjunction.EXPANSION	12	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	der	9	الكوكب	_	1	?	_	1	?	_	1	?	_	11	der	_	11	the	_	_	_	?	?	?	14	la	_	?	?	?	10	de	_	13	o	_
+12	Planet	9	الكوكب	_	1	?	_	1	?	_	1	?	_	12	Planet	_	12	planet	_	_	_	12	el	_	15	planète	_	13	il	_	11	planeet	_	13	o	_
+13	ist	?	?	?	1	?	_	1	?	_	1	?	_	13	ist	_	13	is	_	_	_	?	?	?	14	la	_	15	è	_	12	is	_	13	o	_
+14	weg.	11	اختفى.	_	1	?	_	1	?	_	1	?	_	14	weg.	_	14	gone.	_	_	_	15	ha	_	16	a	_	16	sparito.	_	13	verdwenen.	_	?	?	?
+
+# sent_id = 132712
+# text:  Alles, was wir sehen, ist das große strahlende Bild des Sterns, der 10-Mrd.-mal heller leuchtet als der Planet, der in dem kleinen roten Kreis sein sollte.
+# trans: Tudo o que vemos é a imagem de grandes feixes da estrela que é dez mil milhões de vezes mais brilhante do que o planeta, que deveria estar naquele pequeno círculo vermelho.
+# forward_log_prob: -112.03687545284437
+# backward_log_prob: -98.91629513874413
+1	Alles,	1	كل	_	1	?	_	1	?	_	1	?	_	1	Alles,	_	?	?	?	?	?	1	Todo	_	?	?	?	1	Tutto	_	3	alleen	Exception.EXPANSION	1	Tudo	_
+2	was	3	نراه	_	1	?	_	1	?	_	1	?	_	2	was	_	1	All	_	_	_	2	lo	_	?	?	?	2	quello	_	?	?	?	2	o	_
+3	wir	2	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	wir	_	2	we're	_	_	_	?	?	?	1	Nous	_	?	?	?	1	We	_	?	?	?
+4	sehen,	2	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	sehen,	_	3	seeing	_	_	_	5	viendo	_	2	voyons	_	6	vedere	_	2	zien	_	?	?	?
+5	ist	4	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	5	ist	_	4	is	_	_	_	6	es	_	6	de	_	7	è	_	14	is	_	5	é	_
+6	das	?	?	?	1	?	_	1	?	_	1	?	_	6	das	_	?	?	?	?	?	3	que	_	?	?	?	3	che	_	?	?	?	13	que	_
+7	große	6	كبيرة	_	1	?	_	1	?	_	1	?	_	7	große	_	6	big	_	_	_	8	gran	_	2	voyons	_	9	grande	_	6	grote	_	9	grandes	_
+8	strahlende	6	كبيرة	_	1	?	_	1	?	_	1	?	_	8	strahlende	_	7	beaming	_	_	_	10	radiante	_	3	seulement	_	10	immagine	_	7	stralende	_	10	feixes	_
+9	Bild	7	مشعة	_	1	?	_	1	?	_	1	?	_	9	Bild	_	8	image	_	_	_	9	imagen	_	5	rayonnement	_	5	a	_	8	ster	_	7	imagem	_
+10	des	?	?	?	1	?	_	1	?	_	1	?	_	10	des	_	9	of	_	_	_	12	la	_	7	l'étoile	_	12	della	_	?	?	?	11	da	_
+11	Sterns,	?	?	?	1	?	_	1	?	_	1	?	_	11	Sterns,	_	11	star	_	_	_	13	estrella	_	?	?	?	11	splendente	_	8	ster	_	12	estrela	_
+12	der	5	صورة	_	1	?	_	1	?	_	1	?	_	12	der	_	10	the	_	_	_	12	la	_	?	?	?	8	la	_	11	miljard	_	11	da	_
+13	10-Mrd.-mal	11	ملايير	_	1	?	_	1	?	_	1	?	_	13	10-Mrd.-mal	_	14	billion	_	_	_	16	10	_	9	milliards	_	16	dieci	_	9	die	_	16	mil	_
+14	heller	9	يشع	_	1	?	_	1	?	_	1	?	_	14	heller	_	13	ten	_	_	_	?	?	?	13	brillant	_	?	?	?	10	tien	_	?	?	?
+15	leuchtet	12	ضعف	_	1	?	_	1	?	_	1	?	_	15	leuchtet	_	16	brighter	_	_	_	22	brillante	_	13	brillant	_	21	luminosa	_	13	helderder	_	21	brilhante	_
+16	als	11	ملايير	_	1	?	_	1	?	_	1	?	_	16	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	17	than	_	_	_	18	millones	_	12	plus	_	17	miliardi	_	15	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	22	do	_
+17	der	13	الكوكب	_	1	?	_	1	?	_	1	?	_	17	der	_	18	the	_	_	_	18	millones	_	15	la	_	?	?	?	16	de	_	?	?	?
+18	Planet,	13	الكوكب	_	1	?	_	1	?	_	1	?	_	18	Planet,	_	19	planet,	_	_	_	4	estamos	_	16	planète,	_	23	pianeta,	_	17	planeet,	_	24	o	_
+19	der	13	الكوكب	_	1	?	_	1	?	_	1	?	_	19	der	_	18	the	_	_	_	30	ese	_	18	se	_	?	?	?	16	de	_	?	?	?
+20	in	16	بأن	_	1	?	_	1	?	_	1	?	_	20	in	_	22	be	_	_	_	29	en	_	20	dans	_	24	che	_	18	in	_	?	?	?
+21	dem	16	بأن	_	1	?	_	1	?	_	1	?	_	21	dem	_	23	in	_	_	_	30	ese	_	17	qui	_	28	quel	_	17	planeet,	_	27	deveria	_
+22	kleinen	18	تلك	_	1	?	_	1	?	_	1	?	_	22	kleinen	_	25	little	_	_	_	28	estar	_	22	cercle	_	27	in	_	20	kleine	_	27	deveria	_
+23	roten	19	الدائرة	_	1	?	_	1	?	_	1	?	_	23	roten	_	26	red	_	_	_	27	debe	_	22	cercle	_	28	quel	_	21	rode	_	28	estar	_
+24	Kreis	19	الدائرة	_	1	?	_	1	?	_	1	?	_	24	Kreis	_	26	red	_	_	_	31	pequeño	_	21	le	_	30	cerchio	_	21	rode	_	29	naquele	_
+25	sein	20	الصغيرة	_	1	?	_	1	?	_	1	?	_	25	sein	_	26	red	_	_	_	32	círculo	_	22	cercle	_	26	essere	_	21	rode	_	31	círculo	_
+26	sollte.	21	الحمراء.	_	1	?	_	1	?	_	1	?	_	26	sollte.	_	27	circle.	_	_	_	33	rojo.	_	23	rouge.	_	31	rosso.	_	22	cirkeltje.	_	32	vermelho.	_
+
+# sent_id = 132713
+# text:  Das wollen wir sehen. Deshalb ist es so schwer!
+# trans: É o que queremos ver. É por isso que é difícil.
+# forward_log_prob: -28.22492715572769
+# backward_log_prob: -26.33610279148906
+1	Das	1	ذلك	_	1	?	_	1	?	_	1	?	_	1	Das	_	1	That's	_	_	_	2	es	_	1	C'est	_	1	Questo	_	1	Dat	_	1	É	_
+2	wollen	2	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	2	wollen	_	2	what	_	_	_	1	Eso	_	2	ce	_	3	quello	_	2	willen	_	4	queremos	_
+3	wir	2	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	wir	_	3	we	_	_	_	4	que	_	4	nous	_	6	vedere.	_	3	we	_	5	ver.	_
+4	sehen.	4	رؤيته،	_	1	?	_	1	?	_	1	?	_	4	sehen.	_	6	see.	_	_	_	6	ver.	_	6	voir.	_	4	che	_	4	zien.	_	5	ver.	_
+5	Deshalb	4	رؤيته،	_	1	?	_	1	?	_	1	?	_	5	Deshalb	result.Cause.CONTIGENCY	7	That's	CONTIGENCY|Cause.CONTIGENCY	_	_	8	por	CONTIGENCY|Cause.CONTIGENCY	5	voulons	_	5	vogliamo	_	5	Daarom	reason.Cause.CONTIGENCY	4	queremos	_
+6	ist	5	ذلك	_	1	?	_	1	?	_	1	?	_	6	ist	_	7	That's	CONTIGENCY|Cause.CONTIGENCY	_	_	7	Es	_	7	C'est	result.Cause.CONTIGENCY	9	è	_	6	is	_	6	É	_
+7	es	7	سبب	_	1	?	_	1	?	_	1	?	_	7	es	_	8	why	_	_	_	10	que	_	8	pourquoi	_	9	è	_	8	moeilijk.	_	9	que	_
+8	so	8	صعوبة	_	1	?	_	1	?	_	1	?	_	8	so	_	9	it's	_	_	_	?	?	?	10	difficile.	_	?	?	?	7	het	_	10	é	_
+9	schwer!	9	الأمر.	_	1	?	_	1	?	_	1	?	_	9	schwer!	_	10	hard.	_	_	_	12	difícil.	_	10	difficile.	_	10	così	result.Cause.CONTIGENCY	8	moeilijk.	_	11	difícil.	_
+
+# sent_id = 132714
+# text:  Das Licht vom Stern wird gebeugt, im Inneren des Teleskops gestreut,
+# trans: A luz da estrela sofre difracção.
+# forward_log_prob: -17.531208708797216
+# backward_log_prob: -37.91637201856158
+1	Das	?	?	?	1	?	_	1	?	_	1	?	_	1	Das	_	1	The	_	_	_	?	?	?	1	La	_	1	La	_	?	?	?	1	A	_
+2	Licht	?	?	?	1	?	_	1	?	_	1	?	_	2	Licht	_	2	light	_	_	_	2	luz	_	2	lumière	_	2	luce	_	2	licht	_	2	luz	_
+3	vom	?	?	?	1	?	_	1	?	_	1	?	_	3	vom	_	3	from	_	_	_	?	?	?	3	provenant	_	3	della	_	3	van	_	?	?	?
+4	Stern	3	النجم	_	1	?	_	1	?	_	1	?	_	4	Stern	_	?	?	?	?	?	1	La	_	3	provenant	_	4	stella	_	?	?	?	3	da	_
+5	wird	2	نور	_	1	?	_	1	?	_	1	?	_	5	wird	_	?	?	?	?	?	5	estrella	_	3	provenant	_	3	della	_	1	Het	_	4	estrela	_
+6	gebeugt,	2	نور	_	1	?	_	1	?	_	1	?	_	6	gebeugt,	_	?	?	?	?	?	?	?	?	3	provenant	_	3	della	_	?	?	?	5	sofre	_
+7	im	2	نور	_	1	?	_	1	?	_	1	?	_	7	im	_	4	the	_	_	_	3	de	_	3	provenant	_	3	della	_	4	de	_	4	estrela	_
+8	Inneren	1	شعاع	_	1	?	_	1	?	_	1	?	_	8	Inneren	_	5	star	_	_	_	4	la	_	3	provenant	_	?	?	?	5	ster	_	4	estrela	_
+9	des	3	النجم	_	1	?	_	1	?	_	1	?	_	9	des	_	6	is	_	_	_	?	?	?	5	l'étoile	_	?	?	?	5	ster	_	5	sofre	_
+10	Teleskops	4	يحيد،	_	1	?	_	1	?	_	1	?	_	10	Teleskops	_	6	is	_	_	_	6	se	_	6	est	_	5	viene	_	6	ondergaat	_	5	sofre	_
+11	gestreut,	4	يحيد،	_	1	?	_	1	?	_	1	?	_	11	gestreut,	_	7	diffracting.	_	_	_	7	difracta.	_	7	diffractée.	_	6	diffranta.	_	7	diffractie.	_	5	sofre	_
+
+# sent_id = 132715
+# text:  und erzeugt das sehr helle Bild, das den Planeten verblassen lässt.
+# trans: Dispersa-se dentro do telescópio, criando esta imagem muito brilhante que ofusca o planeta.
+# forward_log_prob: -42.9368124952471
+# backward_log_prob: -35.280295999959144
+1	und	2	ينتشر	_	1	?	_	1	?	_	1	?	_	1	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	4	the	_	_	_	1	Su	_	4	dans	_	4	del	_	1	Het	_	?	?	?
+2	erzeugt	1	إنه	_	1	?	_	1	?	_	1	?	_	2	erzeugt	_	1	It's	_	_	_	2	dispersión	_	1	Elle	_	1	Viene	_	2	wordt	_	1	Dispersa-se	_
+3	das	3	داخل	_	1	?	_	1	?	_	1	?	_	3	das	_	7	that	_	_	_	3	dentro	_	?	?	?	4	del	_	?	?	?	?	?	?
+4	sehr	4	التيليسكوب،	_	1	?	_	1	?	_	1	?	_	4	sehr	_	5	telescope,	_	_	_	9	muy	_	5	le	_	5	telescopio,	_	6	telescoop,	_	4	telescópio,	_
+5	helle	5	مولدًا	_	1	?	_	1	?	_	1	?	_	5	helle	_	6	creating	_	_	_	10	brillante	_	7	créant	_	6	creando	_	7	vandaar	result.Cause.CONTIGENCY	5	criando	_
+6	Bild,	6	تلك	_	1	?	_	1	?	_	1	?	_	6	Bild,	_	10	image	_	_	_	8	imagen	_	9	image	_	9	luminosa	_	10	beeld	_	7	imagem	_
+7	das	7	الصورة	_	1	?	_	1	?	_	1	?	_	7	das	_	11	that	_	_	_	11	que	_	?	?	?	10	che	_	8	dat	_	10	que	_
+8	den	8	المشعة	_	1	?	_	1	?	_	1	?	_	8	den	_	12	washes	_	_	_	6	crea	_	?	?	?	12	il	_	9	lichtsterk	_	?	?	?
+9	Planeten	10	تحجب	_	1	?	_	1	?	_	1	?	_	9	Planeten	_	15	planet.	_	_	_	15	planeta.	_	15	planète.	_	13	pianeta.	_	13	planeet	_	13	planeta.	_
+10	verblassen	9	والتي	Conjunction.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	10	verblassen	_	12	washes	_	_	_	12	hace	_	11	brillante	_	11	slava	_	13	planeet	_	11	ofusca	_
+11	lässt.	10	تحجب	_	1	?	_	1	?	_	1	?	_	11	lässt.	_	12	washes	_	_	_	13	desaparecer	_	13	cache	_	11	slava	_	14	overspoelt.	_	11	ofusca	_
+
+# sent_id = 132716
+# text:  Um den Planeten sichtbar zu machen, müssen wir etwas gegen all das Licht tun.
+# trans: Para vermos o planeta, temos que fazer algo em relação a toda esta luz.
+# forward_log_prob: -45.43057024326006
+# backward_log_prob: -45.9321573830733
+1	Um	?	?	?	1	?	_	1	?	_	1	?	_	1	Um	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	para	CONTIGENCY|Cause.CONTIGENCY	2	pour	specification.Restatement.EXPANSION	?	?	?	1	Om	PragmaticCause.CONTIGENCY	1	Para	CONTIGENCY|PragmaticCause.CONTIGENCY
+2	den	?	?	?	1	?	_	1	?	_	1	?	_	2	den	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	para	CONTIGENCY|Cause.CONTIGENCY	2	pour	specification.Restatement.EXPANSION	3	il	_	2	de	_	2	vermos	_
+3	Planeten	3	الكوكب،	_	1	?	_	1	?	_	1	?	_	3	Planeten	_	?	?	?	?	?	?	?	?	3	voir	_	?	?	?	3	planeet	_	4	planeta,	_
+4	sichtbar	1	ولكي	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	4	sichtbar	_	?	?	?	?	?	1	Así	CONTIGENCY|Cause.CONTIGENCY	1	Donc,	_	1	Per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	4	te	_	2	vermos	_
+5	zu	3	الكوكب،	_	1	?	_	1	?	_	1	?	_	5	zu	_	?	?	?	?	?	?	?	?	2	pour	specification.Restatement.EXPANSION	?	?	?	4	te	_	7	fazer	_
+6	machen,	3	الكوكب،	_	1	?	_	1	?	_	1	?	_	6	machen,	_	5	planet,	_	_	_	6	planeta,	_	8	faire	_	4	pianeta	_	4	te	_	4	planeta,	_
+7	müssen	4	يجب	_	1	?	_	1	?	_	1	?	_	7	müssen	_	7	have	_	_	_	7	tenemos	_	7	devons	_	5	dobbiamo	_	7	moeten	_	5	temos	_
+8	wir	5	أن	_	1	?	_	1	?	_	1	?	_	8	wir	_	6	we	_	_	_	7	tenemos	_	6	nous	_	5	dobbiamo	_	8	we	_	?	?	?
+9	etwas	7	شيئا	_	1	?	_	1	?	_	1	?	_	9	etwas	_	10	something	_	_	_	10	algo	_	9	quelque	_	7	qualcosa	_	9	iets	_	10	relação	_
+10	gegen	6	نفعل	_	1	?	_	1	?	_	1	?	_	10	gegen	_	9	do	_	_	_	9	hacer	_	11	au	_	6	fare	_	9	iets	_	10	relação	_
+11	all	10	الشعاع.	_	1	?	_	1	?	_	1	?	_	11	all	_	12	all	_	_	_	11	con	_	13	cette	_	9	tutta	_	9	iets	_	12	toda	_
+12	das	9	ذلك	_	1	?	_	1	?	_	1	?	_	12	das	_	14	that	_	_	_	?	?	?	?	?	?	9	tutta	_	11	dat	_	13	esta	_
+13	Licht	10	الشعاع.	_	1	?	_	1	?	_	1	?	_	13	Licht	_	15	light.	_	_	_	13	esa	_	14	lumière.	_	10	quella	_	12	licht	_	12	toda	_
+14	tun.	?	?	?	1	?	_	1	?	_	1	?	_	14	tun.	_	?	?	?	?	?	12	toda	_	?	?	?	9	tutta	_	13	doen.	_	13	esta	_
+
+# sent_id = 132717
+# text:  Wir müssen es loswerden.
+# trans: Temos que nos livrar dela.
+# forward_log_prob: -13.870644865343158
+# backward_log_prob: -9.312521905573107
+1	Wir	2	أن	_	1	?	_	1	?	_	1	?	_	1	Wir	_	1	We	_	_	_	1	Tenemos	_	1	Nous	_	1	Dobbiamo	_	3	we	_	1	Temos	_
+2	müssen	1	يجب	_	1	?	_	1	?	_	1	?	_	2	müssen	_	2	have	_	_	_	2	que	_	3	débarrasser.	_	1	Dobbiamo	_	2	moeten	_	1	Temos	_
+3	es	3	نتخلص	_	1	?	_	1	?	_	1	?	_	3	es	_	5	rid	_	_	_	4	de	_	3	débarrasser.	_	2	liberarcene.	_	1	Dat	_	4	livrar	_
+4	loswerden.	4	منه.	_	1	?	_	1	?	_	1	?	_	4	loswerden.	_	4	get	_	_	_	3	deshacernos	_	2	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	2	liberarcene.	_	4	kwijt.	_	3	nos	_
+
+# sent_id = 132718
+# text:  Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck, aber ich möchte Ihnen heute die vorstellen, die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert.
+# trans: Tenho vários colegas a trabalhar em tecnologias fantásticas para fazer isso, mas hoje quero falar-vos de uma que penso ser a mais fixe, e provavelmente a que tem mais hipóteses de nos conseguir uma Terra na próxima década.
+# forward_log_prob: -139.1413961213913
+# backward_log_prob: -139.216951259619
+1	Viele	1	لدي	_	1	?	_	1	?	_	1	?	_	1	Viele	_	4	lot	_	_	_	1	Tengo	_	1	Beaucoup	_	1	Ho	_	2	heb	_	1	Tenho	_
+2	meiner	2	الكثير	_	1	?	_	1	?	_	1	?	_	2	meiner	_	4	lot	_	_	_	3	montón	_	1	Beaucoup	_	2	molti	_	2	heb	_	2	vários	_
+3	Kollegen	7	تكنولوجيا	_	1	?	_	1	?	_	1	?	_	3	Kollegen	_	6	colleagues	_	_	_	2	un	_	3	mes	_	3	colleghi	_	6	werken	_	3	colegas	_
+4	arbeiten	6	على	_	1	?	_	1	?	_	1	?	_	4	arbeiten	_	7	working	_	_	_	5	colegas	_	4	collègues	_	3	colleghi	_	6	werken	_	5	trabalhar	_
+5	an	7	تكنولوجيا	_	1	?	_	1	?	_	1	?	_	5	an	_	6	colleagues	_	_	_	5	colegas	_	4	collègues	_	3	colleghi	_	5	die	_	5	trabalhar	_
+6	tollen	4	الزملاء	_	1	?	_	1	?	_	1	?	_	6	tollen	_	10	amazing	_	_	_	7	trabajan	_	5	travaillent	_	5	stanno	_	4	collega’s	_	7	tecnologias	_
+7	Technologien	5	يعملون	_	1	?	_	1	?	_	1	?	_	7	Technologien	_	9	really	_	result.Cause.CONTIGENCY	_	9	tecnologías	_	8	technologies	_	8	tecnologie	_	8	geweldige	_	8	fantásticas	_
+8	zu	9	لفعل	_	1	?	_	1	?	_	1	?	_	8	zu	_	12	to	_	_	_	12	para	CONTIGENCY|Cause.CONTIGENCY	23	être	_	11	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	9	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+9	dem	8	رائعة	_	1	?	_	1	?	_	1	?	_	9	dem	_	20	you	_	_	_	11	sorprendentes	_	?	?	?	4	che	_	?	?	?	8	fantásticas	_
+10	Zweck,	8	رائعة	_	1	?	_	1	?	_	1	?	_	10	Zweck,	_	11	technologies	_	_	_	11	sorprendentes	_	11	cela,	_	12	riuscirci,	_	11	vandaag	_	13	hoje	_
+11	aber	8	رائعة	_	1	?	_	1	?	_	1	?	_	11	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	15	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	pero	precedence.Asynchronous.TEMPORAL	12	mais	Contrast.COMPARISON|Exception.EXPANSION	13	ma	Concession.COMPARISON|Contrast.COMPARISON	10	maar	_	12	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+12	ich	12	أريد	_	1	?	_	1	?	_	1	?	_	12	ich	_	16	I	_	_	_	14	eso,	_	13	je	_	15	voglio	_	13	ik	_	11	isso,	_
+13	möchte	12	أريد	_	1	?	_	1	?	_	1	?	_	13	möchte	_	17	want	_	_	_	16	quiero	_	14	voudrais	_	15	voglio	_	12	wil	_	15	falar-vos	_
+14	Ihnen	11	واليوم	_	1	?	_	1	?	_	1	?	_	14	Ihnen	_	23	today	_	_	_	17	contarles	_	15	vous	_	16	parlarvi	_	16	over	_	14	quero	_
+15	heute	?	?	?	1	?	_	1	?	_	1	?	_	15	heute	_	22	one	_	_	_	18	hoy	_	17	aujourd'hui	_	14	oggi	_	15	hebben	_	15	falar-vos	_
+16	die	16	أعتقد	_	1	?	_	1	?	_	1	?	_	16	die	_	?	?	?	?	?	?	?	?	20	que	_	?	?	?	18	die	_	19	penso	_
+17	vorstellen,	13	إخباركم	_	1	?	_	1	?	_	1	?	_	17	vorstellen,	_	23	today	_	_	_	19	sobre	_	19	celle	_	20	particolare	_	?	?	?	20	ser	_
+18	die	16	أعتقد	_	1	?	_	1	?	_	1	?	_	18	die	_	?	?	?	?	?	22	creo	_	20	que	_	21	che	_	18	die	_	21	a	_
+19	ich	?	?	?	1	?	_	1	?	_	1	?	_	19	ich	_	25	I	_	_	_	21	que	_	21	je	_	37	nei	_	19	ik	_	19	penso	_
+20	am	17	أنها	_	1	?	_	1	?	_	1	?	_	20	am	_	?	?	?	?	?	29	probablemente,	_	?	?	?	?	?	?	25	waarschijnlijk	_	25	provavelmente	_
+21	coolsten	17	أنها	_	1	?	_	1	?	_	1	?	_	21	coolsten	_	26	think	_	_	_	29	probablemente,	_	22	pense	_	27	probabilmente	_	25	waarschijnlijk	_	25	provavelmente	_
+22	finde	18	الأفضل،	_	1	?	_	1	?	_	1	?	_	22	finde	_	29	coolest,	_	_	_	27	excitante,	_	26	cool,	_	26	fantastica,	_	24	met	_	25	provavelmente	_
+23	und	21	على	_	1	?	_	1	?	_	1	?	_	23	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	30	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	28	y,	_	27	et	Conjunction.EXPANSION	25	più	_	23	en	Conjunction.EXPANSION	24	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+24	die	?	?	?	1	?	_	1	?	_	1	?	_	24	die	_	28	the	_	_	_	25	la	_	?	?	?	29	che	_	26	de	_	26	a	_
+25	uns	20	ستساعدنا	_	1	?	_	1	?	_	1	?	_	25	uns	_	37	us	_	_	_	33	a	_	30	fera	_	30	più	_	?	?	?	28	tem	_
+26	am	21	على	_	1	?	_	1	?	_	1	?	_	26	am	_	34	likely	_	_	_	32	propensa	_	30	fera	_	31	verosimilmente	_	28	kans	_	30	hipóteses	_
+27	ehesten	22	الأرجح	_	1	?	_	1	?	_	1	?	_	27	ehesten	_	33	most	_	_	_	32	propensa	_	31	probablement	_	31	verosimilmente	_	27	meeste	_	30	hipóteses	_
+28	innerhalb	22	الأرجح	_	1	?	_	1	?	_	1	?	_	28	innerhalb	_	34	likely	_	_	_	32	propensa	_	32	découvrir	_	33	porterà	_	30	binnen	_	30	hipóteses	_
+29	des	23	على	_	1	?	_	1	?	_	1	?	_	29	des	_	33	most	_	_	_	37	en	_	36	la	_	35	una	_	?	?	?	31	de	_
+30	nächsten	25	أرض	_	1	?	_	1	?	_	1	?	_	30	nächsten	_	34	likely	_	_	_	31	más	_	35	dans	_	34	su	_	?	?	?	37	próxima	_
+31	Jahrzehnts	25	أرض	_	1	?	_	1	?	_	1	?	_	31	Jahrzehnts	_	34	likely	_	_	_	?	?	?	37	décennie	_	33	porterà	_	32	jaar	_	33	conseguir	_
+32	eine	25	أرض	_	1	?	_	1	?	_	1	?	_	32	eine	_	33	most	_	_	_	?	?	?	33	une	_	35	una	_	33	een	_	34	uma	_
+33	Erde	27	العقد	_	1	?	_	1	?	_	1	?	_	33	Erde	_	39	Earth	_	_	_	35	una	_	34	Terre	_	36	Terra	_	34	Aarde	_	35	Terra	_
+34	liefert.	28	المقبل.	_	1	?	_	1	?	_	1	?	_	34	liefert.	_	42	next	_	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	34	conseguirnos	_	39	venir.	_	40	anni.	_	35	te	_	38	década.	_
+
+# sent_id = 132719
+# text:  Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops, Lyman Spitzer. Dazu angeregt hatte ihn eine Eklipse.
+# trans: Foi inicialmente sugerida por Lyman Spitzer, o pai do telescópio espacial, em 1962, que se inspirou num eclipse,
+# forward_log_prob: -60.929995618294726
+# backward_log_prob: -62.08976265126179
+1	Vorgestellt	2	اقترح	_	1	?	_	1	?	_	1	?	_	1	Vorgestellt	_	3	first	_	Contrast.COMPARISON	_	2	sugerida	_	1	Lyman	_	3	suggerita	_	2	idee	_	2	inicialmente	_
+2	wurde	1	من	_	1	?	_	1	?	_	1	?	_	2	wurde	_	1	It	_	_	_	1	Fue	_	1	Lyman	_	2	stata	_	1	Het	_	1	Foi	_
+3	die	2	اقترح	_	1	?	_	1	?	_	1	?	_	3	die	_	8	the	_	_	_	?	?	?	3	le	_	6	da	_	7	die	_	4	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+4	Idee	3	هذه	_	1	?	_	1	?	_	1	?	_	4	Idee	_	6	Lyman	_	_	_	4	primera	_	4	père	_	5	prima	succession.Asynchronous.TEMPORAL	5	Lyman	_	3	sugerida	_
+5	1962	5	كان	_	1	?	_	1	?	_	1	?	_	5	1962	_	6	Lyman	_	_	_	7	Lyman	_	4	père	_	6	da	_	5	Lyman	_	5	Lyman	_
+6	vom	6	لايمان	_	1	?	_	1	?	_	1	?	_	6	vom	_	21	from	_	_	_	11	del	_	5	du	_	7	Lyman	_	4	van	_	9	do	_
+7	Vater	7	سبيتزر،	_	1	?	_	1	?	_	1	?	_	7	Vater	_	9	father	_	_	_	10	padre	_	4	père	_	10	padre	_	9	1962	_	8	pai	_
+8	des	10	تيليسكوب	_	1	?	_	1	?	_	1	?	_	8	des	_	10	of	_	_	_	9	el	_	8	l'a	_	11	del	_	10	de	_	?	?	?
+9	Weltraumteleskops,	9	فكرة	_	1	?	_	1	?	_	1	?	_	9	Weltraumteleskops,	_	15	1962,	_	_	_	10	padre	_	10	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	10	padre	_	9	1962	_	?	?	?
+10	Lyman	9	فكرة	_	1	?	_	1	?	_	1	?	_	10	Lyman	_	15	1962,	_	_	_	10	padre	_	11	premier,	_	13	spaziale,	_	11	ruimtetelescoop	_	11	espacial,	_
+11	Spitzer.	13	1962،	_	1	?	_	1	?	_	1	?	_	11	Spitzer.	_	7	Spitzer,	_	_	_	8	Spitzer,	_	9	suggéré	_	8	Spitzer,	_	6	Spitzer,	_	6	Spitzer,	_
+12	Dazu	13	1962،	_	1	?	_	1	?	_	1	?	_	12	Dazu	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	en	_	13	1962.	_	21	una	_	13	Hij	_	12	em	_
+13	angeregt	13	1962،	_	1	?	_	1	?	_	1	?	_	13	angeregt	_	18	took	_	_	_	15	1962,	_	13	1962.	_	17	ha	_	14	liet	_	13	1962,	_
+14	hatte	15	استلهم	_	1	?	_	1	?	_	1	?	_	14	hatte	_	19	his	_	_	_	17	se	_	15	s'est	_	18	preso	_	16	inspireren	_	15	se	CONTIGENCY|Condition.CONTIGENCY
+15	ihn	16	الفكرة	_	1	?	_	1	?	_	1	?	_	15	ihn	_	20	inspiration	_	_	_	18	inspiró	_	16	inspiré	_	19	spunto	_	16	inspireren	_	16	inspirou	_
+16	eine	17	من	_	1	?	_	1	?	_	1	?	_	16	eine	_	23	eclipse.	_	_	_	20	un	_	18	éclipse.	_	20	da	_	17	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	17	num	_
+17	Eklipse.	18	الكسوف.	_	1	?	_	1	?	_	1	?	_	17	Eklipse.	_	22	an	_	_	_	21	eclipse.	_	17	d'une	_	22	eclissi.	_	19	eclips.	_	16	inspirou	_
+
+# sent_id = 132720
+# text:  Sie kennen das alle: eine Sonnenfinsternis.
+# trans: Já todos viram isto. É um eclipse solar.
+# forward_log_prob: -23.73783573069825
+# backward_log_prob: -18.07756222356129
+1	Sie	1	كلكم	_	1	?	_	1	?	_	1	?	_	1	Sie	_	1	You've	_	_	_	3	visto	_	2	une	_	1	L'avrete	_	2	hebben	_	3	viram	_
+2	kennen	1	كلكم	_	1	?	_	1	?	_	1	?	_	2	kennen	_	1	You've	_	_	_	1	Todos	_	1	Voici	_	2	vista	_	1	Jullie	_	1	Já	COMPARISON|Contrast.COMPARISON
+3	das	3	رأيتموه،	_	1	?	_	1	?	_	1	?	_	3	das	_	4	that.	_	_	_	4	esto.	_	1	Voici	_	5	è	_	4	ooit	_	5	É	_
+4	alle:	3	رأيتموه،	_	1	?	_	1	?	_	1	?	_	4	alle:	_	5	That's	_	_	_	5	Eso	_	5	Vous	_	4	Questa	_	4	ooit	_	4	isto.	_
+5	eine	4	كسوف	_	1	?	_	1	?	_	1	?	_	5	eine	_	6	a	_	_	_	7	un	_	4	solaire.	_	7	solare.	_	5	een	_	7	eclipse	_
+6	Sonnenfinsternis.	4	كسوف	_	1	?	_	1	?	_	1	?	_	6	Sonnenfinsternis.	_	8	eclipse.	_	_	_	8	eclipse	_	8	déjà	Conjunction.EXPANSION|specification.Restatement.EXPANSION	6	un'eclissi	_	6	zonsverduistering	_	7	eclipse	_
+
+# sent_id = 132721
+# text:  Der Mond hat sich vor die Sonne geschoben.
+# trans: A Lua colocou-se à frente do Sol.
+# forward_log_prob: -20.67058429338711
+# backward_log_prob: -23.721387420402124
+1	Der	1	القمر	_	1	?	_	1	?	_	1	?	_	1	Der	_	1	The	_	_	_	1	La	_	1	La	_	1	La	_	1	De	_	1	A	_
+2	Mond	1	القمر	_	1	?	_	1	?	_	1	?	_	2	Mond	_	2	moon	_	_	_	2	Luna	_	2	lune	_	2	luna	_	2	maan	_	2	Lua	_
+3	hat	2	يتحرك	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	has	_	_	_	?	?	?	4	place	_	5	spostata	_	3	komt	_	3	colocou-se	_
+4	sich	2	يتحرك	_	1	?	_	1	?	_	1	?	_	4	sich	_	4	moved	_	_	_	3	se	_	3	se	_	3	si	_	5	voor	succession.Asynchronous.TEMPORAL	3	colocou-se	_
+5	vor	3	أمام	_	1	?	_	1	?	_	1	?	_	5	vor	_	5	in	_	_	_	6	delante	_	5	devant	_	4	è	_	5	voor	succession.Asynchronous.TEMPORAL	4	à	_
+6	die	4	الشمس.	_	1	?	_	1	?	_	1	?	_	6	die	_	8	the	_	_	_	8	Sol.	_	4	place	_	8	sole,	_	6	de	_	7	Sol.	_
+7	Sonne	4	الشمس.	_	1	?	_	1	?	_	1	?	_	7	Sonne	_	9	sun.	_	_	_	4	ha	_	6	le	_	8	sole,	_	7	zon.	_	6	do	_
+8	geschoben.	4	الشمس.	_	1	?	_	1	?	_	1	?	_	8	geschoben.	_	9	sun.	_	_	_	5	movido	_	7	soleil.	_	7	al	_	7	zon.	_	7	Sol.	_
+
+# sent_id = 132722
+# text:  Er deckt den Großteils des Lichts ab und wir sehen um ihn herum eine matte Korona.
+# trans: Bloqueou a maior parte da sua luz por isso podemos ver a coroa ténue à sua volta.
+# forward_log_prob: -57.69415844025838
+# backward_log_prob: -57.73148170502216
+1	Er	1	فيحجب	_	1	?	_	1	?	_	1	?	_	1	Er	_	1	It	_	_	_	1	Bloquea	_	2	occulte	_	1	bloccando	_	2	blokkeert	_	1	Bloqueou	_
+2	deckt	1	فيحجب	_	1	?	_	1	?	_	1	?	_	2	deckt	_	2	blocks	_	_	_	1	Bloquea	_	1	Elle	_	1	bloccando	_	1	Ze	_	1	Bloqueou	_
+3	den	2	أغلب	_	1	?	_	1	?	_	1	?	_	3	den	_	3	out	_	_	_	2	la	_	4	toute	_	1	bloccando	_	5	licht	_	2	a	_
+4	Großteils	1	فيحجب	_	1	?	_	1	?	_	1	?	_	4	Großteils	_	2	blocks	_	_	_	1	Bloquea	_	3	presque	_	?	?	?	4	meeste	_	1	Bloqueou	_
+5	des	3	أشعتها	_	1	?	_	1	?	_	1	?	_	5	des	_	5	of	_	_	_	5	de	_	5	la	_	5	della	_	3	het	_	5	da	_
+6	Lichts	3	أشعتها	_	1	?	_	1	?	_	1	?	_	6	Lichts	_	4	most	_	_	_	7	luz	_	6	lumière,	_	4	parte	_	5	licht	_	3	maior	_
+7	ab	3	أشعتها	_	1	?	_	1	?	_	1	?	_	7	ab	_	7	light	_	_	_	10	podamos	_	7	ce	_	8	noi	_	6	zodat	PragmaticCause.CONTIGENCY|result.Cause.CONTIGENCY	6	sua	_
+8	und	4	وعندها	_	1	?	_	1	?	_	1	?	_	8	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	9	que	_	8	qui	_	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	5	licht	_	?	?	?
+9	wir	6	رؤية	_	1	?	_	1	?	_	1	?	_	9	wir	_	9	we	_	_	_	11	ver	_	9	nous	_	10	vedere	_	7	we	_	11	ver	_
+10	sehen	6	رؤية	_	1	?	_	1	?	_	1	?	_	10	sehen	_	11	see	_	_	_	11	ver	_	12	voir	_	10	vedere	_	12	zien.	_	11	ver	_
+11	um	7	الهالة	_	1	?	_	1	?	_	1	?	_	11	um	_	8	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	8	para	CONTIGENCY|Cause.CONTIGENCY	11	de	_	16	circonda.	_	8	de	_	?	?	?
+12	ihn	7	الهالة	_	1	?	_	1	?	_	1	?	_	12	ihn	_	?	?	?	?	?	16	su	_	10	permet	_	16	circonda.	_	?	?	?	8	por	CONTIGENCY|Cause.CONTIGENCY|result.Cause.CONTIGENCY
+13	herum	9	بها.	_	1	?	_	1	?	_	1	?	_	13	herum	_	15	around	_	_	_	?	?	?	10	permet	_	11	questa	_	10	corona	_	15	à	_
+14	eine	8	المحيطة	_	1	?	_	1	?	_	1	?	_	14	eine	_	16	it.	_	_	_	15	a	_	15	solaire.	_	13	corona	_	10	corona	_	13	coroa	_
+15	matte	8	المحيطة	_	1	?	_	1	?	_	1	?	_	15	matte	_	13	dim	_	_	_	13	tenue	_	14	couronne	_	13	corona	_	9	lichtzwakke	_	13	coroa	_
+16	Korona.	8	المحيطة	_	1	?	_	1	?	_	1	?	_	16	Korona.	_	14	corona	_	_	_	14	corona	_	14	couronne	_	13	corona	_	10	corona	_	13	coroa	_
+
+# sent_id = 132723
+# text:  Es ist wie wenn ich den Daumen hochhalte und den Strahler abblocke, der mich blendet: Ich kann Sie in der hinteren Reihe sehen.
+# trans: Seria o mesmo se erguesse o meu polegar e bloqueasse o ponto luminoso à frente dos meus olhos, poderia vê-los na última fila.
+# forward_log_prob: -84.10918597415586
+# backward_log_prob: -79.81791960555567
+1	Es	?	?	?	1	?	_	1	?	_	1	?	_	1	Es	_	1	It	_	_	_	2	lo	_	?	?	?	1	È	_	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	2	o	_
+2	ist	?	?	?	1	?	_	1	?	_	1	?	_	2	ist	_	?	?	?	?	?	?	?	?	4	la	_	1	È	_	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	?	?	?
+3	wie	3	الشي	_	1	?	_	1	?	_	1	?	_	3	wie	COMPARISON|Synchronous.TEMPORAL	6	thing	_	_	_	6	pongo	_	2	se	_	2	come	EXPANSION|Synchronous.TEMPORAL	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	5	erguesse	_
+4	wenn	4	لو	Condition.CONTIGENCY	1	?	_	1	?	_	1	?	_	4	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	7	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	si	TEMPORAL	7	si	Concession.COMPARISON|Condition.CONTIGENCY	3	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	4	se	CONTIGENCY|Condition.CONTIGENCY
+5	ich	3	الشي	_	1	?	_	1	?	_	1	?	_	5	ich	_	8	I	_	_	_	6	pongo	_	8	je	_	4	sollevo	_	2	ik	_	5	erguesse	_
+6	den	5	وضعت	_	1	?	_	1	?	_	1	?	_	6	den	_	?	?	?	?	?	10	hacia	TEMPORAL	?	?	?	4	sollevo	_	5	omhoog	_	5	erguesse	_
+7	Daumen	6	إبهامي	_	1	?	_	1	?	_	1	?	_	7	Daumen	_	10	my	_	_	_	7	mi	_	15	mon	_	6	mio	_	3	mijn	_	6	o	_
+8	hochhalte	7	وحجبت	_	1	?	_	1	?	_	1	?	_	8	hochhalte	_	9	put	_	_	_	8	dedo	_	9	bloquais	_	9	bloccare	_	6	houd	_	5	erguesse	_
+9	und	9	ذلك	_	1	?	_	1	?	_	1	?	_	9	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	12	du	_	?	?	?	7	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+10	den	8	أشعة	_	1	?	_	1	?	_	1	?	_	10	den	_	14	blocked	_	_	_	15	luz	_	11	lumière	_	11	luce	_	11	voor	succession.Asynchronous.TEMPORAL	10	bloqueasse	_
+11	Strahler	8	أشعة	_	1	?	_	1	?	_	1	?	_	11	Strahler	_	14	blocked	_	_	_	13	bloqueo	_	13	projecteur	_	13	faretto	_	9	spot	_	10	bloqueasse	_
+12	abblocke,	10	النور	_	1	?	_	1	?	_	1	?	_	12	abblocke,	_	16	spotlight	_	_	_	17	está	_	13	projecteur	_	13	faretto	_	10	recht	_	12	ponto	_
+13	der	?	?	?	1	?	_	1	?	_	1	?	_	13	der	_	19	right	_	_	_	17	está	_	10	la	_	10	la	_	12	mijn	_	?	?	?
+14	mich	11	المتجه	_	1	?	_	1	?	_	1	?	_	14	mich	_	18	getting	_	_	_	16	que	_	?	?	?	14	puntata	_	13	oog	_	?	?	?
+15	blendet:	12	نحو	_	1	?	_	1	?	_	1	?	_	15	blendet:	_	18	getting	_	_	_	21	mi	_	14	avec	_	14	puntata	_	12	mijn	_	15	frente	_
+16	Ich	13	عيني،	_	1	?	_	1	?	_	1	?	_	16	Ich	_	23	I	_	_	_	22	ojo,	_	17	Je	_	16	nei	_	16	ik	_	17	meus	_
+17	kann	13	عيني،	_	1	?	_	1	?	_	1	?	_	17	kann	_	22	eye,	_	_	_	23	Puedo	_	18	pourrais	_	16	nei	_	8	die	_	16	dos	_
+18	Sie	?	?	?	1	?	_	1	?	_	1	?	_	18	Sie	_	26	you	_	_	_	21	mi	_	19	vous	_	15	proprio	_	15	zie	_	15	frente	_
+19	in	16	في	_	1	?	_	1	?	_	1	?	_	19	in	_	27	in	_	_	_	20	en	_	22	dernier	_	19	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	de	_	21	na	_
+20	der	16	في	_	1	?	_	1	?	_	1	?	_	20	der	_	28	the	_	_	_	28	la	_	21	au	_	20	vi	_	17	de	_	21	na	_
+21	hinteren	15	رؤيتكم	_	1	?	_	1	?	_	1	?	_	21	hinteren	_	30	row.	_	_	_	29	fila	_	21	au	_	21	vedo	_	18	achterste	_	18	olhos,	_
+22	Reihe	17	الصف	_	1	?	_	1	?	_	1	?	_	22	Reihe	_	29	back	_	_	_	29	fila	_	22	dernier	_	22	sullo	_	18	achterste	_	22	última	_
+23	sehen.	18	الخلفي.	_	1	?	_	1	?	_	1	?	_	23	sehen.	_	25	see	_	_	_	24	ver	_	20	voir,	_	23	sfondo.	_	?	?	?	23	fila.	_
+
+# sent_id = 132724
+# text:  Also, was passiert hier?
+# trans: Bem, o que está a acontecer?
+# forward_log_prob: -14.393959545684531
+# backward_log_prob: -14.670994391499892
+1	Also,	1	حسنًا،	_	1	?	_	1	?	_	1	?	_	1	Also,	_	1	Well,	_	_	_	1	Bueno,	_	1	Eh	_	1	Cosa	_	1	Hoe	_	1	Bem,	_
+2	was	2	مالذي	_	1	?	_	1	?	_	1	?	_	2	was	_	2	what's	_	_	_	2	¿qué	_	3	que	_	2	sta	_	1	Hoe	_	2	o	_
+3	passiert	2	مالذي	_	1	?	_	1	?	_	1	?	_	3	passiert	_	3	going	_	_	_	2	¿qué	_	5	passe-t-il	_	2	sta	_	2	komt	_	4	está	_
+4	hier?	4	هنا؟	_	1	?	_	1	?	_	1	?	_	4	hier?	_	3	going	_	_	_	4	pasando?	_	5	passe-t-il	_	3	succedendo?	_	2	komt	_	6	acontecer?	_
+
+# sent_id = 132725
+# text:  Nun, der Mond wirft einen Schatten auf die Erde.
+# trans: Bem, a Lua projecta uma sombra na Terra.
+# forward_log_prob: -21.601425894686177
+# backward_log_prob: -27.98654672071966
+1	Nun,	1	حسنا،	_	1	?	_	1	?	_	1	?	_	1	Nun,	_	4	is	_	_	_	1	Pues	_	1	Eh	_	?	?	?	1	Nou,	_	1	Bem,	_
+2	der	2	القمر	_	1	?	_	1	?	_	1	?	_	2	der	_	2	the	_	_	_	2	la	_	3	la	_	1	La	_	2	de	_	2	a	_
+3	Mond	2	القمر	_	1	?	_	1	?	_	1	?	_	3	Mond	_	3	moon	_	_	_	3	Luna	_	4	lune	_	2	luna	_	3	maan	_	3	Lua	_
+4	wirft	1	حسنا،	_	1	?	_	1	?	_	1	?	_	4	wirft	_	5	casting	_	_	_	4	está	_	5	jette	_	3	proietta	_	4	werpt	_	4	projecta	_
+5	einen	4	ظلًا	_	1	?	_	1	?	_	1	?	_	5	einen	_	5	casting	_	_	_	5	proyectando	_	5	jette	_	4	un'ombra	_	4	werpt	_	4	projecta	_
+6	Schatten	6	الأسفل	_	1	?	_	1	?	_	1	?	_	6	Schatten	_	7	shadow	_	_	_	7	sombra	_	7	ombre	_	4	un'ombra	_	6	schaduw	_	5	uma	_
+7	auf	6	الأسفل	_	1	?	_	1	?	_	1	?	_	7	auf	_	8	down	_	_	_	?	?	?	?	?	?	5	sulla	_	7	op	_	4	projecta	_
+8	die	7	على	_	1	?	_	1	?	_	1	?	_	8	die	_	10	the	_	_	_	8	sobre	_	9	la	_	5	sulla	_	8	de	_	?	?	?
+9	Erde.	8	الأرض	_	1	?	_	1	?	_	1	?	_	9	Erde.	_	11	Earth.	_	_	_	10	Tierra.	_	10	Terre.	_	6	Terra.	_	9	aarde.	_	8	Terra.	_
+
+# sent_id = 132726
+# text:  Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten, blicken zurück auf die Sonne, der Großteil des Lichts ist weg, und wir können die matte, feine Struktur in der Korona erkennen.
+# trans: Colocamos um telescópio ou uma câmara nessa sombra, e olhamos para o Sol, e a maior parte da luz foi removida e podemos ver essa ténue e fina estrutura na coroa.
+# forward_log_prob: -112.72283426822425
+# backward_log_prob: -117.43362826381967
+1	Wir	?	?	?	1	?	_	1	?	_	1	?	_	1	Wir	_	1	We	_	_	_	?	?	?	1	Nous	_	?	?	?	1	We	_	?	?	?
+2	platzieren	2	وضعنا	_	1	?	_	1	?	_	1	?	_	2	platzieren	_	2	put	_	_	_	1	Ponemos	_	3	placé	_	1	Mettiamo	_	2	zetten	_	?	?	?
+3	ein	3	تيليسكوبا	_	1	?	_	1	?	_	1	?	_	3	ein	_	3	a	_	_	_	2	un	_	4	un	_	2	un	_	3	een	_	2	um	_
+4	Teleskop	5	كاميرا	_	1	?	_	1	?	_	1	?	_	4	Teleskop	_	4	telescope	_	_	_	3	telescopio	_	5	télescope	_	3	telescopio	_	4	telescoop	_	3	telescópio	_
+5	oder	4	أو	disjunctive.Alternative.EXPANSION	1	?	_	1	?	_	1	?	_	5	oder	disjunctive.Alternative.EXPANSION	5	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	4	o	_	6	ou	COMPARISON	4	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	5	of	disjunctive.Alternative.EXPANSION	4	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+6	eine	4	أو	disjunctive.Alternative.EXPANSION	1	?	_	1	?	_	1	?	_	6	eine	_	?	?	?	?	?	?	?	?	7	un	_	?	?	?	6	een	_	5	uma	_
+7	Kamera	8	الظل،	_	1	?	_	1	?	_	1	?	_	7	Kamera	_	7	camera	_	_	_	6	cámara	_	8	appareil	_	6	macchina	_	7	camera	_	6	câmara	_
+8	in	6	في	_	1	?	_	1	?	_	1	?	_	8	in	_	8	in	_	_	_	7	en	_	10	dans	_	5	una	_	8	in	_	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+9	diesen	9	ونظرنا	_	1	?	_	1	?	_	1	?	_	9	diesen	_	7	camera	_	_	_	8	esa	_	11	cette	_	9	quell'ombra,	_	7	camera	_	10	olhamos	_
+10	Schatten,	12	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	10	Schatten,	_	10	shadow,	_	_	_	9	sombra,	_	12	ombre,	_	?	?	?	10	schaduw,	_	8	sombra,	_
+11	blicken	12	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	11	blicken	_	12	look	_	_	_	10	miramos	_	14	regardons	_	11	guardiamo	_	12	kijken	_	10	olhamos	_
+12	zurück	12	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	12	zurück	_	13	back	_	_	_	10	miramos	_	14	regardons	_	12	nuovamente	_	12	kijken	_	10	olhamos	_
+13	auf	14	حُجبت	_	1	?	_	1	?	_	1	?	_	13	auf	_	?	?	?	?	?	11	al	_	14	regardons	_	12	nuovamente	_	20	nu	_	10	olhamos	_
+14	die	18	نرى	_	1	?	_	1	?	_	1	?	_	14	die	_	15	the	_	_	_	13	la	_	?	?	?	13	il	_	14	de	_	15	a	_
+15	Sonne,	11	الشمس	_	1	?	_	1	?	_	1	?	_	15	Sonne,	_	16	sun,	_	_	_	12	Sol,	_	15	le	_	14	sole,	_	15	zon.	_	13	Sol,	_
+16	der	21	الخافت	_	1	?	_	1	?	_	1	?	_	16	der	_	16	sun,	_	_	_	17	la	_	18	la	_	15	la	_	15	zon.	_	13	Sol,	_
+17	Großteil	20	الضوء	_	1	?	_	1	?	_	1	?	_	17	Großteil	_	18	most	_	_	_	14	mayor	_	19	plupart	_	17	parte	_	?	?	?	7	nessa	_
+18	des	16	نستطيع	_	1	?	_	1	?	_	1	?	_	18	des	_	19	of	_	_	_	?	?	?	?	?	?	?	?	?	17	meeste	_	20	foi	_
+19	Lichts	15	أشعتها	_	1	?	_	1	?	_	1	?	_	19	Lichts	_	18	most	_	_	_	18	luz	_	22	lumière	_	18	della	_	18	licht	_	16	maior	_
+20	ist	19	ذلك	_	1	?	_	1	?	_	1	?	_	20	ist	_	?	?	?	?	?	19	ha	_	29	voir	_	?	?	?	19	is	_	?	?	?
+21	weg,	?	?	?	1	?	_	1	?	_	1	?	_	21	weg,	_	23	removed	_	_	_	?	?	?	25	éliminée	_	21	eliminata	_	21	weg	_	21	removida	_
+22	und	?	?	?	1	?	_	1	?	_	1	?	_	22	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	24	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	26	et	Conjunction.EXPANSION	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	22	en	Conjunction.EXPANSION	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+23	wir	?	?	?	1	?	_	1	?	_	1	?	_	23	wir	_	25	we	_	_	_	24	ver	_	27	nous	_	25	vedere	_	23	we	_	24	ver	_
+24	können	?	?	?	1	?	_	1	?	_	1	?	_	24	können	_	26	can	_	_	_	23	podemos	_	?	?	?	22	così	result.Cause.CONTIGENCY	24	kunnen	_	?	?	?
+25	die	?	?	?	1	?	_	1	?	_	1	?	_	25	die	_	?	?	?	?	?	?	?	?	?	?	?	23	da	_	25	de	_	?	?	?
+26	matte,	25	الهالة	_	1	?	_	1	?	_	1	?	_	26	matte,	_	29	dim,	_	_	_	25	esa	_	?	?	?	16	maggior	_	26	lichtzwakke,	_	23	podemos	_
+27	feine	22	والتفاصيل	_	1	?	_	1	?	_	1	?	_	27	feine	_	30	fine	_	_	_	27	fina	_	30	cette	_	26	quella	_	27	fijne	_	28	fina	_
+28	Struktur	23	الدقيقة	_	1	?	_	1	?	_	1	?	_	28	Struktur	_	30	fine	_	_	_	27	fina	_	34	fine	_	27	fioca	_	28	structuur	_	28	fina	_
+29	in	24	في	_	1	?	_	1	?	_	1	?	_	29	in	_	32	in	_	_	_	29	en	_	33	et	Conjunction.EXPANSION	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	29	in	_	30	na	_
+30	der	33	في	_	1	?	_	1	?	_	1	?	_	30	der	_	33	the	_	_	_	30	la	_	36	la	_	?	?	?	30	de	_	30	na	_
+31	Korona	?	?	?	1	?	_	1	?	_	1	?	_	31	Korona	_	34	corona.	_	_	_	31	corona.	_	37	couronne	_	32	corona.	_	31	corona	_	31	coroa.	_
+32	erkennen.	34	الفضاء.	_	1	?	_	1	?	_	1	?	_	32	erkennen.	_	?	?	?	?	?	26	tenue,	_	32	sombre	_	?	?	?	?	?	?	26	ténue	_
+
+# sent_id = 132727
+# text:  Spitzer schlug vor, das im Weltraum nachzustellen.
+# trans: A sugestão de Spitzer foi que o fizéssemos no espaço.
+# forward_log_prob: -28.219879304392325
+# backward_log_prob: -23.35915863317002
+1	Spitzer	2	شاشة	_	1	?	_	1	?	_	1	?	_	1	Spitzer	_	1	Spitzer's	_	_	_	1	La	_	1	Spitzer	_	1	Il	_	1	Spitzer	_	1	A	_
+2	schlug	1	نبني	_	1	?	_	1	?	_	1	?	_	2	schlug	_	2	suggestion	_	_	_	2	sugerencia	_	2	a	_	2	suggerimento	_	2	stelde	_	2	sugestão	_
+3	vor,	3	عملاقة،	_	1	?	_	1	?	_	1	?	_	3	vor,	_	2	suggestion	_	_	_	2	sugerencia	_	3	suggéré	_	6	stato	_	3	voor	succession.Asynchronous.TEMPORAL	2	sugestão	_
+4	das	3	عملاقة،	_	1	?	_	1	?	_	1	?	_	4	das	_	?	?	?	?	?	6	que	_	4	de	_	5	è	_	4	dat	_	6	que	_
+5	im	4	ونرسلها	_	1	?	_	1	?	_	1	?	_	5	im	_	?	?	?	?	?	8	hiciéramos	_	9	dans	_	7	di	_	7	in	_	8	fizéssemos	_
+6	Weltraum	4	ونرسلها	_	1	?	_	1	?	_	1	?	_	6	Weltraum	_	5	do	_	_	_	7	lo	_	7	même	Conjunction.EXPANSION|Exception.EXPANSION	8	riprodurlo	_	9	ruimte	_	8	fizéssemos	_
+7	nachzustellen.	6	الفضاء	_	1	?	_	1	?	_	1	?	_	7	nachzustellen.	_	8	space.	_	_	_	8	hiciéramos	_	10	l'espace.	_	8	riprodurlo	_	10	zouden	_	8	fizéssemos	_
+
+# sent_id = 132728
+# text:  Wir bauen eine große Lichtblende, fliegen sie ins All, platzieren sie vor dem Stern, verdecken den Großteil des Lichts, fliegen ein Weltraumteleskop in den so erzeugten Schatten und "Zack!" -- wir sehen Planeten.
+# trans: Construíamos uma tela grande, colocávamo-la no espaço, em frente a uma estrela, bloqueávamos a maior parte da luz, colocávamos um telescópio espacial nessa sombra criada, e zás, conseguíamos ver os planetas.
+# forward_log_prob: -114.56369476952709
+# backward_log_prob: -121.42653660443726
+1	Wir	?	?	?	1	?	_	1	?	_	1	?	_	1	Wir	_	1	We	_	_	_	?	?	?	1	Nous	_	?	?	?	1	We	_	?	?	?
+2	bauen	1	ونجعلها	_	1	?	_	1	?	_	1	?	_	2	bauen	_	2	build	_	_	_	?	?	?	?	?	?	?	?	?	2	bouwen	_	?	?	?
+3	eine	?	?	?	1	?	_	1	?	_	1	?	_	3	eine	_	3	a	_	_	_	2	una	_	3	un	_	2	un	_	3	een	_	2	uma	_
+4	große	?	?	?	1	?	_	1	?	_	1	?	_	4	große	_	4	big	_	_	_	3	gran	_	4	écran	_	3	grande	_	5	scherm,	_	3	tela	_
+5	Lichtblende,	5	فتحجب	_	1	?	_	1	?	_	1	?	_	5	Lichtblende,	_	5	screen,	_	_	_	3	gran	_	5	géant,	_	4	schermo,	_	5	scherm,	_	3	tela	_
+6	fliegen	5	فتحجب	_	1	?	_	1	?	_	1	?	_	6	fliegen	_	7	fly	_	_	_	5	volamos	_	6	l'envoyons	_	6	spediamo	_	4	groot	_	5	colocávamo-la	_
+7	sie	8	ثم	Asynchronous.TEMPORAL	1	?	_	1	?	_	1	?	_	7	sie	_	8	it	_	_	_	9	la	_	9	le	_	5	lo	_	4	groot	_	8	em	_
+8	ins	?	?	?	1	?	_	1	?	_	1	?	_	8	ins	_	10	space,	_	_	_	8	espacio,	_	8	l'espace,	_	7	nello	_	10	ruimte	_	6	no	_
+9	All,	?	?	?	1	?	_	1	?	_	1	?	_	9	All,	_	10	space,	_	_	_	7	el	_	8	l'espace,	_	8	spazio,	_	10	ruimte	_	7	espaço,	_
+10	platzieren	2	تتحرك	_	1	?	_	1	?	_	1	?	_	10	platzieren	_	12	put	_	_	_	10	ponemos	_	11	devant	_	10	mettiamo	_	13	zetten	_	9	frente	_
+11	sie	8	ثم	Asynchronous.TEMPORAL	1	?	_	1	?	_	1	?	_	11	sie	_	13	it	_	_	_	13	la	_	12	une	_	9	lo	_	14	het	_	9	frente	_
+12	vor	3	أمام	_	1	?	_	1	?	_	1	?	_	12	vor	_	15	in	_	_	_	11	delante	_	11	devant	_	8	spazio,	_	15	voor	succession.Asynchronous.TEMPORAL	9	frente	_
+13	dem	?	?	?	1	?	_	1	?	_	1	?	_	13	dem	_	15	in	_	_	_	15	bloqueamos	_	16	grande	_	12	fronte	_	11	in,	_	13	bloqueávamos	_
+14	Stern,	4	النجم.	_	1	?	_	1	?	_	1	?	_	14	Stern,	_	19	star,	_	_	_	14	estrella,	_	13	étoile,	_	14	stella,	_	17	ster	_	12	estrela,	_
+15	verdecken	9	نرسل	_	1	?	_	1	?	_	1	?	_	15	verdecken	_	21	block	_	_	_	15	bloqueamos	_	14	occultant	_	15	bloccando	_	19	blokkeren	_	13	bloqueávamos	_
+16	den	?	?	?	1	?	_	1	?	_	1	?	_	16	den	_	20	we	_	_	_	?	?	?	20	lumière,	_	15	bloccando	_	18	en	Conjunction.EXPANSION	?	?	?
+17	Großteil	11	فضائي	_	1	?	_	1	?	_	1	?	_	17	Großteil	_	20	we	_	_	_	17	mayor	_	?	?	?	17	parte	_	13	zetten	_	23	nessa	_
+18	des	?	?	?	1	?	_	1	?	_	1	?	_	18	des	_	23	most	_	_	_	20	la	_	?	?	?	18	della	_	20	het	_	17	da	_
+19	Lichts,	15	وعندها	_	1	?	_	1	?	_	1	?	_	19	Lichts,	_	23	most	_	_	_	21	luz,	_	22	envoyons	_	19	luce,	_	25	licht.	_	15	maior	_
+20	fliegen	13	الظل	_	1	?	_	1	?	_	1	?	_	20	fliegen	_	28	fly	_	_	_	22	hacemos	_	22	envoyons	_	20	spediamo	_	22	deel	_	19	colocávamos	_
+21	ein	12	إلى	_	1	?	_	1	?	_	1	?	_	21	ein	_	29	a	_	_	_	24	un	_	23	un	_	21	un	_	23	van	_	20	um	_
+22	Weltraumteleskop	10	تيليسكوب	_	1	?	_	1	?	_	1	?	_	22	Weltraumteleskop	_	30	space	_	_	_	25	telescopio	_	23	un	_	22	telescopio	_	30	ruimtetelescoop	_	21	telescópio	_
+23	in	?	?	?	1	?	_	1	?	_	1	?	_	23	in	_	32	in	_	_	_	27	a	_	25	dans	_	?	?	?	31	in	_	30	os	_
+24	den	?	?	?	1	?	_	1	?	_	1	?	_	24	den	_	32	in	_	_	_	32	crea,	_	26	cette	_	?	?	?	?	?	?	?	?	?
+25	so	22	كهذا.	_	1	?	_	1	?	_	1	?	_	25	so	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+26	erzeugten	16	ياللروعة،	_	1	?	_	1	?	_	1	?	_	26	erzeugten	_	35	that's	_	_	_	35	conseguimos	_	28	ainsi	result.Cause.CONTIGENCY	24	nell'ombra	_	35	hopla,	_	25	criada,	_
+27	Schatten	18	الكواكب.	_	1	?	_	1	?	_	1	?	_	27	Schatten	_	34	shadow	_	_	_	29	sombra	_	27	ombre	_	25	così	result.Cause.CONTIGENCY	33	schaduw,	_	24	sombra	_
+28	und	20	ذلك	_	1	?	_	1	?	_	1	?	_	28	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	37	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	33	y	_	30	et	Conjunction.EXPANSION	27	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	34	en	Conjunction.EXPANSION	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+29	"Zack!"	21	تقريبًا	_	1	?	_	1	?	_	1	?	_	29	"Zack!"	_	38	boom,	_	_	_	34	listo,	_	31	boum,	_	28	boom,	_	35	hopla,	_	27	zás,	_
+30	--	21	تقريبًا	_	1	?	_	1	?	_	1	?	_	30	--	_	?	?	?	?	?	31	se	_	?	?	?	31	vediamo	_	36	daar	reason.Cause.CONTIGENCY	28	conseguíamos	_
+31	wir	?	?	?	1	?	_	1	?	_	1	?	_	31	wir	_	39	we	_	_	_	36	ver	_	32	nous	_	?	?	?	38	we	_	29	ver	_
+32	sehen	?	?	?	1	?	_	1	?	_	1	?	_	32	sehen	_	42	see	_	_	_	36	ver	_	33	voyons	_	30	che	_	37	zien	_	29	ver	_
+33	Planeten.	?	?	?	1	?	_	1	?	_	1	?	_	33	Planeten.	_	43	planets.	_	_	_	38	planetas.	_	34	les	_	32	i	_	40	planeten.	_	31	planetas.	_
+
+# sent_id = 132729
+# text:  Aussehen würde das ungefähr so:
+# trans: Seria algo parecido com isto.
+# forward_log_prob: -11.989865362800051
+# backward_log_prob: -12.461031859750985
+1	Aussehen	1	تلك	_	1	?	_	1	?	_	1	?	_	1	Aussehen	_	3	would	_	_	_	1	Bueno,	_	1	Eh	_	1	Ecco,	_	1	Zo	Instantiation.EXPANSION	1	Seria	_
+2	würde	2	هي	_	1	?	_	1	?	_	1	?	_	2	würde	_	3	would	_	_	_	2	sería	_	4	aurait	_	2	dovrebbe	_	2	zou	_	1	Seria	_
+3	das	3	الشاشة	_	1	?	_	1	?	_	1	?	_	3	das	_	2	that	_	_	_	5	esto.	_	5	l'air	_	5	di	_	4	er	_	4	com	_
+4	ungefähr	4	العملاقة،	_	1	?	_	1	?	_	1	?	_	4	ungefähr	_	5	something	_	_	_	3	algo	_	10	ça.	_	4	qualcosa	_	4	er	_	3	parecido	_
+5	so:	4	العملاقة،	_	1	?	_	1	?	_	1	?	_	5	so:	_	6	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	4	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	8	chose	_	8	questo.	_	5	ongeveer	_	5	isto.	_
+
+# sent_id = 132730
+# text:  Da ist die große Lichtblende -- und es gibt keine Planeten. Denn leider funktioniert das so nicht sehr gut, weil die Lichtwellen des Lichts und die Wellen um die Lichtblende gebeugt werden, auf dieselbe Weise wie im Teleskop.
+# trans: Aqui está a tela grande, e não há planetas, porque, infelizmente, não funciona lá muito bem por causa das ondas luminosas e as ondas sofrem difracção à volta dessa tela tal como no telescópio.
+# forward_log_prob: -133.1333716813715
+# backward_log_prob: -140.17907118420254
+1	Da	1	وهناك	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Habría	_	1	Voilà	_	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	?	?	?	1	Aqui	_
+2	ist	2	لا	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	2	ist	_	?	?	?	?	?	?	?	?	8	pas	_	?	?	?	2	is	_	2	está	_
+3	die	3	نرى	_	1	?	_	1	?	_	1	?	_	3	die	_	2	there's	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	3	a	_
+4	große	4	أية	_	1	?	_	1	?	_	1	?	_	4	große	_	4	big	_	_	_	3	gran	_	3	géant,	_	4	grande	_	4	grote	_	4	tela	_
+5	Lichtblende	4	أية	_	1	?	_	1	?	_	1	?	_	5	Lichtblende	_	5	screen,	_	_	_	3	gran	_	3	géant,	_	5	schermo,	_	5	scherm,	_	4	tela	_
+6	--	3	نرى	_	1	?	_	1	?	_	1	?	_	6	--	_	7	there's	_	_	_	4	pantalla,	_	3	géant,	_	?	?	?	5	scherm,	_	4	tela	_
+7	und	?	?	?	1	?	_	1	?	_	1	?	_	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	6	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	y	_	4	et	Conjunction.EXPANSION	6	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	en	Conjunction.EXPANSION	6	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	es	8	لا	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	8	es	_	12	it	_	_	_	10	no	_	?	?	?	7	non	_	9	geen	_	7	não	_
+9	gibt	7	للأسف	_	1	?	_	1	?	_	1	?	_	9	gibt	_	7	there's	_	_	_	10	no	_	7	a	_	2	c'è	_	7	er	_	7	não	_
+10	keine	8	لا	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	10	keine	_	?	?	?	?	?	10	no	_	15	ne	_	7	non	_	9	geen	_	7	não	_
+11	Planeten.	?	?	?	1	?	_	1	?	_	1	?	_	11	Planeten.	_	9	planets,	_	_	_	7	planeta,	_	10	planètes,	_	10	pianeti	_	10	planeten,	_	9	planetas,	_
+12	Denn	9	تعمل	_	1	?	_	1	?	_	1	?	_	12	Denn	reason.Cause.CONTIGENCY	8	no	_	_	_	11	funciona	_	13	hélas,	_	9	sono	_	12	helaas	_	8	há	_
+13	leider	11	المطلوب،	_	1	?	_	1	?	_	1	?	_	13	leider	_	13	doesn't	_	_	_	15	debido	CONTIGENCY|Cause.CONTIGENCY	13	hélas,	_	12	sfortunatamente,	_	12	helaas	_	11	infelizmente,	_
+14	funktioniert	11	المطلوب،	_	1	?	_	1	?	_	1	?	_	14	funktioniert	_	13	doesn't	_	_	_	14	bien,	_	13	hélas,	_	12	sfortunatamente,	_	12	helaas	_	13	funciona	_
+15	das	12	ذلك	_	1	?	_	1	?	_	1	?	_	15	das	_	?	?	?	?	?	17	que	_	?	?	?	?	?	?	3	dat	_	?	?	?
+16	so	?	?	?	1	?	_	1	?	_	1	?	_	16	so	_	?	?	?	?	?	?	?	?	14	ça	_	3	questo	_	14	het	_	?	?	?
+17	nicht	15	الأشعة	_	1	?	_	1	?	_	1	?	_	17	nicht	_	15	work	_	_	_	16	a	_	17	pas	_	?	?	?	15	niet	_	10	porque,	_
+18	sehr	15	الأشعة	_	1	?	_	1	?	_	1	?	_	18	sehr	_	16	very	_	_	_	13	muy	_	18	très	_	19	molto	_	16	bijster	_	15	muito	_
+19	gut,	16	والموجات	_	1	?	_	1	?	_	1	?	_	19	gut,	_	?	?	?	?	?	18	las	_	16	fonctionne	_	18	funziona	_	16	bijster	_	16	bem	_
+20	weil	26	مثل	_	1	?	_	1	?	_	1	?	_	20	weil	reason.Cause.CONTIGENCY	17	well,	_	_	_	8	porque	CONTIGENCY|Cause.CONTIGENCY	20	parce	specification.Restatement.EXPANSION	21	perché	reason.Cause.CONTIGENCY	18	omdat	reason.Cause.CONTIGENCY	17	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+21	die	?	?	?	1	?	_	1	?	_	1	?	_	21	die	_	?	?	?	?	?	23	las	_	22	les	_	22	le	_	17	goed,	_	?	?	?
+22	Lichtwellen	18	تحيد	_	1	?	_	1	?	_	1	?	_	22	Lichtwellen	_	21	waves	_	_	_	24	ondas	_	23	ondes	_	23	onde	_	16	bijster	_	19	das	_
+23	des	?	?	?	1	?	_	1	?	_	1	?	_	23	des	_	22	of	_	_	_	21	luz	_	?	?	?	26	della	_	19	licht	_	?	?	?
+24	Lichts	?	?	?	1	?	_	1	?	_	1	?	_	24	Lichts	_	?	?	?	?	?	21	luz	_	?	?	?	25	luce	_	19	licht	_	?	?	?
+25	und	?	?	?	1	?	_	1	?	_	1	?	_	25	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	25	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	?	?	?	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	21	en	Conjunction.EXPANSION	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+26	die	?	?	?	1	?	_	1	?	_	1	?	_	26	die	_	?	?	?	?	?	?	?	?	22	les	_	29	le	_	?	?	?	23	as	_
+27	Wellen	21	بنفس	_	1	?	_	1	?	_	1	?	_	27	Wellen	_	26	waves	_	_	_	26	alrededor	_	24	lumineuses	_	29	le	_	22	golven	_	24	ondas	_
+28	um	?	?	?	1	?	_	1	?	_	1	?	_	28	um	_	28	around	_	_	_	?	?	?	27	autour	_	?	?	?	24	rond	_	27	à	_
+29	die	?	?	?	1	?	_	1	?	_	1	?	_	29	die	_	31	the	_	_	_	31	la	_	?	?	?	?	?	?	?	?	?	?	?	?
+30	Lichtblende	27	موجات	_	1	?	_	1	?	_	1	?	_	30	Lichtblende	_	30	screen	_	_	_	29	pantalla	_	30	écran	_	35	schermo	_	26	scherm	_	30	tela	_
+31	gebeugt	27	موجات	_	1	?	_	1	?	_	1	?	_	31	gebeugt	_	24	light	_	_	_	32	misma	_	29	cet	_	27	luce	_	?	?	?	26	difracção	_
+32	werden,	27	موجات	_	1	?	_	1	?	_	1	?	_	32	werden,	_	32	same	_	_	_	33	manera	_	29	cet	_	32	diffrangono	_	28	zoals	COMPARISON|Instantiation.EXPANSION	28	volta	_
+33	auf	28	الماء	_	1	?	_	1	?	_	1	?	_	33	auf	_	32	same	_	_	_	?	?	?	19	bien,	_	31	si	_	28	zoals	COMPARISON|Instantiation.EXPANSION	?	?	?
+34	dieselbe	29	الجاري	_	1	?	_	1	?	_	1	?	_	34	dieselbe	_	33	way	_	_	_	35	lo	_	?	?	?	33	intorno	_	27	net	_	31	tal	COMPARISON
+35	Weise	29	الجاري	_	1	?	_	1	?	_	1	?	_	35	Weise	_	33	way	_	_	_	36	hacen	_	31	comme	COMPARISON|specification.Restatement.EXPANSION	34	allo	_	28	zoals	COMPARISON|Instantiation.EXPANSION	31	tal	COMPARISON
+36	wie	30	الملتفة	_	1	?	_	1	?	_	1	?	_	36	wie	COMPARISON|Synchronous.TEMPORAL	32	same	_	_	_	36	hacen	_	31	comme	COMPARISON|specification.Restatement.EXPANSION	36	come	EXPANSION|Synchronous.TEMPORAL	27	net	_	32	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+37	im	?	?	?	1	?	_	1	?	_	1	?	_	37	im	_	36	in	_	_	_	37	en	_	32	dans	_	?	?	?	27	net	_	33	no	_
+38	Teleskop.	24	التيليسكوب.	_	1	?	_	1	?	_	1	?	_	38	Teleskop.	_	38	telescope.	_	_	_	39	telescopio.	_	34	télescope.	_	38	telescopio.	_	31	telescoop.	_	34	telescópio.	_
+
+# sent_id = 132731
+# text:  Es ist wie Wasser, das einen Stein im Bach umfließt, und all das Licht zerstört den Schatten einfach.
+# trans: É como a água que contorna uma pedra numa corrente, e toda essa luz destrói a sombra.
+# forward_log_prob: -54.33415330608702
+# backward_log_prob: -57.40983974039242
+1	Es	1	وكل	_	1	?	_	1	?	_	1	?	_	1	Es	_	1	It's	_	_	_	?	?	?	1	C'est	_	1	È	_	2	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	?	?	?
+2	ist	2	ذلك	_	1	?	_	1	?	_	1	?	_	2	ist	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	È	_	2	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	É	_
+3	wie	1	وكل	_	1	?	_	1	?	_	1	?	_	3	wie	COMPARISON|Synchronous.TEMPORAL	4	bending	_	_	_	5	flexionándose	_	2	comme	COMPARISON|specification.Restatement.EXPANSION	2	come	EXPANSION|Synchronous.TEMPORAL	1	Net	_	2	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+4	Wasser,	1	وكل	_	1	?	_	1	?	_	1	?	_	4	Wasser,	_	3	water	_	_	_	4	agua	_	3	l'eau	_	3	l'acqua	_	3	water	_	4	água	_
+5	das	2	ذلك	_	1	?	_	1	?	_	1	?	_	5	das	_	?	?	?	?	?	4	agua	_	3	l'eau	_	4	che	_	?	?	?	5	que	_
+6	einen	4	يشوه	_	1	?	_	1	?	_	1	?	_	6	einen	_	6	a	_	_	_	5	flexionándose	_	5	une	_	5	lambisce	_	5	een	_	6	contorna	_
+7	Stein	3	الشعاع	_	1	?	_	1	?	_	1	?	_	7	Stein	_	5	around	_	_	_	5	flexionándose	_	4	contournant	_	7	rocce	_	6	stroom	_	6	contorna	_
+8	im	4	يشوه	_	1	?	_	1	?	_	1	?	_	8	im	_	7	rock	_	_	_	9	roca	_	6	pierre	_	7	rocce	_	4	in	_	8	pedra	_
+9	Bach	5	الظل	_	1	?	_	1	?	_	1	?	_	9	Bach	_	10	stream,	_	_	_	9	roca	_	6	pierre	_	7	rocce	_	9	rots	_	8	pedra	_
+10	umfließt,	6	وكل	_	1	?	_	1	?	_	1	?	_	10	umfließt,	_	10	stream,	_	_	_	11	un	_	8	un	_	10	ruscello,	_	9	rots	_	9	numa	_
+11	und	?	?	?	1	?	_	1	?	_	1	?	_	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	7	dans	_	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	all	?	?	?	1	?	_	1	?	_	1	?	_	12	all	_	12	all	_	_	_	14	toda	_	11	cette	_	12	tutta	_	?	?	?	12	toda	_
+13	das	7	ذلك	_	1	?	_	1	?	_	1	?	_	13	das	_	13	that	_	_	_	?	?	?	?	?	?	?	?	?	14	dat	_	?	?	?
+14	Licht	8	الضوء	_	1	?	_	1	?	_	1	?	_	14	Licht	_	14	light	_	_	_	16	luz	_	12	lumière	_	13	quella	_	15	licht	_	14	luz	_
+15	zerstört	9	يخرب	_	1	?	_	1	?	_	1	?	_	15	zerstört	_	16	destroys	_	_	_	17	simplemente	_	13	détruit	_	15	distrugge	_	12	verknoeit	_	13	essa	_
+16	den	10	الظل.	_	1	?	_	1	?	_	1	?	_	16	den	_	?	?	?	?	?	19	la	_	12	lumière	_	14	luce	_	16	de	_	14	luz	_
+17	Schatten	10	الظل.	_	1	?	_	1	?	_	1	?	_	17	Schatten	_	18	shadow.	_	_	_	20	sombra.	_	?	?	?	15	distrugge	_	17	schaduw.	_	17	sombra.	_
+18	einfach.	10	الظل.	_	1	?	_	1	?	_	1	?	_	18	einfach.	_	15	just	_	_	_	?	?	?	?	?	?	16	l'ombra.	_	?	?	?	?	?	?
+
+# sent_id = 132732
+# text:  Es ist ein schlechter Schatten: Wir sehen keine Planeten.
+# trans: É uma sombra terrível. E não conseguimos ver planetas.
+# forward_log_prob: -25.84870543769763
+# backward_log_prob: -24.91033293533636
+1	Es	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It's	_	_	_	2	una	_	1	C'est	_	1	È	_	1	Het	_	1	É	_
+2	ist	2	ظل	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	È	_	2	is	_	1	É	_
+3	ein	3	فظيع.	_	1	?	?	1	?	?	1	?	?	3	ein	_	2	a	_	_	_	2	una	_	2	une	_	3	terribile.	_	3	geen	_	2	uma	_
+4	schlechter	1	إنه	_	1	?	?	1	?	?	1	?	?	4	schlechter	_	3	terrible	_	_	_	4	terrible.	_	3	très	_	3	terribile.	_	4	goede	_	4	terrível.	_
+5	Schatten:	2	ظل	_	1	?	?	1	?	?	1	?	?	5	Schatten:	_	4	shadow.	_	_	_	3	sombra	_	5	ombre.	_	2	un'ombra	_	5	schaduw.	_	3	sombra	_
+6	Wir	6	رؤية	_	1	?	?	1	?	?	1	?	?	6	Wir	_	6	we	_	_	_	7	podemos	_	6	Nous	_	8	vedere	_	6	We	_	7	conseguimos	_
+7	sehen	6	رؤية	_	1	?	?	1	?	?	1	?	?	7	sehen	_	8	see	_	_	_	8	ver	_	10	voir	_	8	vedere	_	7	zien	_	8	ver	_
+8	keine	4	لا	Contrast.COMPARISON	1	?	?	1	?	?	1	?	?	8	keine	_	7	can't	_	_	_	6	no	_	9	pas	_	5	non	_	8	geen	_	6	não	_
+9	Planeten.	7	الكواكب.	_	1	?	?	1	?	?	1	?	?	9	Planeten.	_	9	planets.	_	_	_	9	planetas.	_	11	les	_	9	i	_	9	planeten.	_	9	planetas.	_
+
+# sent_id = 132733
+# text:  Aber Spitzer kannte die Lösung.
+# trans: Mas Spitzer sabia a solução.
+# forward_log_prob: -9.457865230545611
+# backward_log_prob: -10.002722555432051
+1	Aber	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	1	?	?	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Tuttavia	Concession.COMPARISON	2	kende	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+2	Spitzer	2	سبيتزر	_	1	?	?	1	?	?	1	?	?	2	Spitzer	_	2	Spitzer	_	_	_	2	Spitzer	_	2	Spitzer	_	2	Spitzer	_	1	Spitzer	_	2	Spitzer	_
+3	kannte	3	قد	_	1	?	?	1	?	?	1	?	?	3	kannte	_	3	actually	precedence.Asynchronous.TEMPORAL	result.Cause.CONTIGENCY	_	3	realmente	_	3	avait	_	3	conosceva	_	2	kende	_	3	sabia	_
+4	die	5	الحل.	_	1	?	?	1	?	?	1	?	?	4	die	_	5	the	_	_	_	3	realmente	_	4	la	_	4	la	_	3	de	_	4	a	_
+5	Lösung.	4	وجد	_	1	?	?	1	?	?	1	?	?	5	Lösung.	_	6	answer.	_	_	_	6	respuesta.	_	5	réponse.	_	5	risposta.	_	4	oplossing.	_	5	solução.	_
+
+# sent_id = 132734
+# text:  Wenn wir die Kanten aufbrechen, sie weicher machen könnten, um die Beugung zu reduzieren, dann können wir einen Planeten sehen. In den letzten, rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden.
+# trans: Se conseguirmos suavizar as arestas de modo a controlar a difracção, então poderemos ver um planeta, e nos últimos 10 anos conseguimos soluções ideais para o conseguir.
+# forward_log_prob: -100.58739077107185
+# backward_log_prob: -127.60118016811356
+1	Wenn	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	1	Se	CONTIGENCY|Condition.CONTIGENCY
+2	wir	?	?	?	1	?	?	1	?	?	1	?	?	2	wir	_	2	we	_	_	_	2	hacemos	_	2	nous	_	9	così	result.Cause.CONTIGENCY	9	we	_	?	?	?
+3	die	?	?	?	1	?	?	1	?	?	1	?	?	3	die	_	5	the	_	_	_	4	en	_	5	les	_	4	i	_	5	de	_	4	as	_
+4	Kanten	?	?	?	1	?	?	1	?	?	1	?	?	4	Kanten	_	6	edges,	_	_	_	8	los	_	9	contrôler	_	?	?	?	6	randen	_	5	arestas	_
+5	aufbrechen,	3	تعديل	_	1	?	?	1	?	?	1	?	?	5	aufbrechen,	_	7	soften	_	_	_	5	las	_	3	pouvions	_	5	margini,	_	1	Door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	2	conseguirmos	_
+6	sie	?	?	?	1	?	?	1	?	?	1	?	?	6	sie	_	?	?	?	?	?	?	?	?	8	de	_	7	quei	_	?	?	?	?	?	?
+7	weicher	6	الحواف	_	1	?	?	1	?	?	1	?	?	7	weicher	_	7	soften	_	_	_	7	suavizamos	_	6	bords	_	8	margini	_	?	?	?	7	modo	_
+8	machen	6	الحواف	_	1	?	?	1	?	?	1	?	?	8	machen	_	10	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	14	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	7	afin	specification.Restatement.EXPANSION	8	margini	_	?	?	?	?	?	?
+9	könnten,	7	وتحكمنا	_	1	?	?	1	?	?	1	?	?	9	könnten,	_	?	?	?	?	?	?	?	?	13	pourrions	_	16	potremmo	_	?	?	?	?	?	?
+10	um	7	وتحكمنا	_	1	?	?	1	?	?	1	?	?	10	um	_	15	well	_	Conjunction.EXPANSION	_	15	para	CONTIGENCY|Cause.CONTIGENCY	?	?	?	18	il	_	?	?	?	?	?	?
+11	die	?	?	?	1	?	?	1	?	?	1	?	?	11	die	_	?	?	?	?	?	12	la	_	?	?	?	13	la	_	7	en	Conjunction.EXPANSION	8	a	_
+12	Beugung	9	حيود	_	1	?	?	1	?	?	1	?	?	12	Beugung	_	13	control	_	_	_	11	controlar	_	11	diffraction,	_	12	controllare	_	8	controleren	_	9	controlar	_
+13	zu	11	عندها	_	1	?	?	1	?	?	1	?	?	13	zu	_	12	can	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+14	reduzieren,	10	الضوء،	_	1	?	?	1	?	?	1	?	?	14	reduzieren,	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	11	difracção,	_
+15	dann	11	عندها	_	1	?	?	1	?	?	1	?	?	15	dann	Condition.CONTIGENCY|Conjunction.EXPANSION|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	18	can	_	_	_	10	podemos	_	?	?	?	?	?	?	13	kunnen	_	13	poderemos	_
+16	können	12	فقط،	_	1	?	?	1	?	?	1	?	?	16	können	_	16	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	18	un	_	18	ces	_	10	da	_	12	Dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	12	então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+17	wir	14	رؤية	_	1	?	?	1	?	?	1	?	?	17	wir	_	17	we	_	_	_	?	?	?	12	nous	_	?	?	?	14	we	_	?	?	?
+18	einen	15	كوكب،	_	1	?	?	1	?	?	1	?	?	18	einen	_	20	a	_	_	_	?	?	?	15	une	_	?	?	?	?	?	?	?	?	?
+19	Planeten	14	رؤية	_	1	?	?	1	?	?	1	?	?	19	Planeten	_	21	planet,	_	_	_	19	planeta,	_	16	planète,	_	19	pianeta,	_	15	planeten	_	16	planeta,	_
+20	sehen.	14	رؤية	_	1	?	?	1	?	?	1	?	?	20	sehen.	_	19	see	_	_	_	17	ver	_	14	voir	_	17	vedere	_	16	zien.	_	14	ver	_
+21	In	8	في	_	1	?	?	1	?	?	1	?	?	21	In	_	22	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	20	y	_	17	et	Conjunction.EXPANSION	20	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	In	_	17	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+22	den	?	?	?	1	?	?	1	?	?	1	?	?	22	den	_	?	?	?	?	?	?	?	?	?	?	?	34	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	18	de	_	?	?	?
+23	letzten,	19	الماضية،	_	1	?	?	1	?	?	1	?	?	23	letzten,	_	25	last	_	_	_	29	llegado	_	20	dernières	_	25	ultimi	_	19	laatste	_	19	últimos	_
+24	rund	19	الماضية،	_	1	?	?	1	?	?	1	?	?	24	rund	_	26	10	_	_	_	29	llegado	_	19	dix	_	23	meno	_	19	laatste	_	18	nos	_
+25	zehn	19	الماضية،	_	1	?	?	1	?	?	1	?	?	25	zehn	_	29	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	27	así	_	20	dernières	_	28	siamo	_	19	laatste	_	19	últimos	_
+26	Jahren	18	سنوات	_	1	?	?	1	?	?	1	?	?	26	Jahren	_	27	years	_	_	_	25	años	_	21	années,	_	27	anni	_	21	jaar	_	21	anos	_
+27	haben	22	نجد	_	1	?	?	1	?	?	1	?	?	27	haben	_	32	up	_	_	_	?	?	?	23	avons	_	29	arrivati	_	22	hebben	_	15	um	_
+28	wir	21	أن	_	1	?	?	1	?	?	1	?	?	28	wir	_	?	?	?	?	?	30	a	_	22	nous	_	?	?	?	23	we	_	?	?	?
+29	genau	22	نجد	_	1	?	?	1	?	?	1	?	?	29	genau	_	?	?	?	?	?	22	los	_	21	années,	_	?	?	?	24	daarvoor	precedence.Asynchronous.TEMPORAL	?	?	?
+30	dafür	23	الحل	_	1	?	?	1	?	?	1	?	?	30	dafür	Contrast.COMPARISON	33	with	_	_	_	32	solución	_	25	des	_	32	soluzione	_	24	daarvoor	precedence.Asynchronous.TEMPORAL	23	soluções	_
+31	optimale	24	الأنسب	_	1	?	?	1	?	?	1	?	?	31	optimale	_	35	solutions	_	_	_	33	óptima	_	27	optimales	_	33	ottimale	_	26	optimale	_	24	ideais	_
+32	Lösungen	24	الأنسب	_	1	?	?	1	?	?	1	?	?	32	Lösungen	_	35	solutions	_	_	_	33	óptima	_	27	optimales	_	35	ottenere	_	27	oplossingen	_	24	ideais	_
+33	gefunden.	24	الأنسب	_	1	?	?	1	?	?	1	?	?	33	gefunden.	_	35	solutions	_	_	_	33	óptima	_	27	optimales	_	35	ottenere	_	28	gevonden.	_	24	ideais	_
+
+# sent_id = 132735
+# text:  Eine davon sieht ungefähr so aus:
+# trans: É algo parecido com isto.
+# forward_log_prob: -12.716876319838502
+# backward_log_prob: -18.121814287308514
+1	Eine	1	سيبدو	_	1	?	?	1	?	?	1	?	?	1	Eine	_	1	It	_	_	_	1	Parece	_	4	peu	_	1	Assomiglia	_	1	Het	_	2	algo	_
+2	davon	1	سيبدو	_	1	?	?	1	?	?	1	?	?	2	davon	_	2	looks	_	_	_	1	Parece	_	3	à	specification.Restatement.EXPANSION	1	Assomiglia	_	3	er	_	1	É	_
+3	sieht	2	شيئًا	_	1	?	?	1	?	?	1	?	?	3	sieht	_	2	looks	_	_	_	1	Parece	_	2	ressemble	_	1	Assomiglia	_	2	ziet	_	3	parecido	_
+4	ungefähr	2	شيئًا	_	1	?	?	1	?	?	1	?	?	4	ungefähr	_	3	something	_	_	_	2	algo	_	1	Ça	_	3	qualcosa	_	5	beetje	_	3	parecido	_
+5	so	3	كهذا.	_	1	?	?	1	?	?	1	?	?	5	so	_	4	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	3	así.	_	7	ça.	_	4	di	_	6	zo	Instantiation.EXPANSION	4	com	_
+6	aus:	3	كهذا.	_	1	?	?	1	?	?	1	?	?	6	aus:	_	?	?	?	?	?	3	así.	_	6	à	specification.Restatement.EXPANSION	6	tipo.	_	7	uit.	_	5	isto.	_
+
+# sent_id = 132736
+# text:  Wir nennen sie blütenförmige Sternenblende ("Starshade").
+# trans: Chamamos-lhe a nossa sombra estelar em pétalas de flor
+# forward_log_prob: -25.89415516040377
+# backward_log_prob: -20.388999751375827
+1	Wir	1	وقد	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	A	_	1	Nous	_	2	battezzato	_	1	We	_	2	a	_
+2	nennen	2	أسميناه	_	1	?	?	1	?	?	1	?	?	2	nennen	_	2	call	_	_	_	2	eso	_	2	l'appelons	_	1	L'abbiamo	_	2	noemen	_	1	Chamamos-lhe	_
+3	sie	3	ب"بتلات	_	1	?	?	1	?	?	1	?	?	3	sie	_	3	that	_	_	_	4	llamamos	_	3	le	_	5	fiore	_	2	noemen	_	6	em	_
+4	blütenförmige	4	الوردة	_	1	?	?	1	?	?	1	?	?	4	blütenförmige	_	4	our	_	_	_	4	llamamos	_	6	forme	_	6	dai	_	2	noemen	_	5	estelar	_
+5	Sternenblende	5	الحاجبة	_	1	?	?	1	?	?	1	?	?	5	Sternenblende	_	6	petal	_	_	_	9	pétalos	_	8	pétales	_	7	petali	_	4	ons	_	7	pétalas	_
+6	("Starshade").	5	الحاجبة	_	1	?	?	1	?	?	1	?	?	6	("Starshade").	_	7	starshade.	_	_	_	10	de	_	9	de	_	8	"ombreggia	_	5	bloemblaadjes-sterrenscherm.	_	8	de	_
+
+# sent_id = 132737
+# text:  Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen, regulieren wir ihre Form so, dass wir die Beugung reduzieren. Nun ist es ein toller Schatten.
+# trans: Se fizermos as arestas da forma correcta, se controlarmos a sua forma, podemos controlar a difracção, e conseguimos uma grande sombra.
+# forward_log_prob: -71.38081147757634
+# backward_log_prob: -87.14289247616479
+1	Wenn	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
+2	wir	?	?	?	1	?	?	1	?	?	1	?	?	2	wir	_	2	we	_	_	_	2	hacemos	_	2	nous	_	?	?	?	2	we	_	?	?	?
+3	die	?	?	?	1	?	?	1	?	?	1	?	?	3	die	_	4	the	_	_	_	3	los	_	?	?	?	?	?	?	3	de	_	3	as	_
+4	Kanten	?	?	?	1	?	?	1	?	?	1	?	?	4	Kanten	_	5	edges	_	_	_	4	bordes	_	7	des	_	3	perfettamente	_	4	randen	_	4	arestas	_
+5	der	11	في	_	1	?	?	1	?	?	1	?	?	5	der	_	4	the	_	_	_	5	de	_	5	le	_	11	la	_	6	de	_	5	da	_
+6	Blütenblätter	3	جعل	_	1	?	?	1	?	?	1	?	?	6	Blütenblätter	_	8	petals	_	_	_	7	pétalos	_	8	pétales,	_	7	questi	_	7	bloemblaadjes	_	6	forma	_
+7	genau	7	مناسبة	_	1	?	?	1	?	?	1	?	?	7	genau	_	?	?	?	?	?	6	los	_	?	?	?	5	bordi	_	5	van	_	?	?	?
+8	richtig	6	البتلات	_	1	?	?	1	?	?	1	?	?	8	richtig	_	9	exactly	_	_	_	12	su	_	12	leur	_	4	i	_	13	hun	_	7	correcta,	_
+9	hinbekommen,	7	مناسبة	_	1	?	?	1	?	?	1	?	?	9	hinbekommen,	_	9	exactly	_	_	_	8	exactamente	_	6	bord	_	10	controlliamo	_	8	precies	_	7	correcta,	_
+10	regulieren	?	?	?	1	?	?	1	?	?	1	?	?	10	regulieren	_	9	exactly	_	_	_	8	exactamente	_	11	contrôlons	_	9	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	10	maken,	_	9	controlarmos	_
+11	wir	?	?	?	1	?	?	1	?	?	1	?	?	11	wir	_	12	we	_	_	_	?	?	?	10	nous	_	?	?	?	12	we	_	?	?	?
+12	ihre	10	تحكمنا	_	1	?	?	1	?	?	1	?	?	12	ihre	_	13	control	_	_	_	11	controlamos	_	11	contrôlons	_	12	loro	_	14	vorm	_	?	?	?
+13	Form	12	شكلها،	_	1	?	?	1	?	?	1	?	?	13	Form	_	14	their	_	_	_	11	controlamos	_	11	contrôlons	_	12	loro	_	14	vorm	_	11	sua	_
+14	so,	?	?	?	1	?	?	1	?	?	1	?	?	14	so,	_	?	?	?	?	?	14	podemos	_	15	pouvons	_	14	possiamo	_	?	?	?	?	?	?
+15	dass	14	التحكم	_	1	?	?	1	?	?	1	?	?	15	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	15	shape,	_	_	_	13	forma,	_	?	?	?	13	forma,	_	16	kunnen	_	?	?	?
+16	wir	13	سنستطيع	_	1	?	?	1	?	?	1	?	?	16	wir	_	16	we	_	_	_	?	?	?	14	nous	_	?	?	?	17	we	_	?	?	?
+17	die	15	في	_	1	?	?	1	?	?	1	?	?	17	die	_	?	?	?	?	?	16	la	_	17	la	_	16	la	_	?	?	?	15	a	_
+18	Beugung	16	حيود	_	1	?	?	1	?	?	1	?	?	18	Beugung	_	17	can	_	_	_	15	controlar	_	16	contrôler	_	15	controllare	_	18	diffractie	_	14	controlar	_
+19	reduzieren.	17	الضوء،	_	1	?	?	1	?	?	1	?	?	19	reduzieren.	_	19	diffraction,	_	_	_	17	difracción,	_	18	diffraction,	_	17	diffrazione,	_	19	controleren,	_	14	controlar	_
+20	Nun	18	وسيصبح	_	1	?	?	1	?	?	1	?	?	20	Nun	_	21	now	_	Synchronous.TEMPORAL	_	19	ahora	_	19	et	Conjunction.EXPANSION	?	?	?	19	controleren,	_	?	?	?
+21	ist	?	?	?	1	?	?	1	?	?	1	?	?	21	ist	_	?	?	?	?	?	?	?	?	21	l'ombre	_	18	così	result.Cause.CONTIGENCY	?	?	?	18	conseguimos	_
+22	es	?	?	?	1	?	?	1	?	?	1	?	?	22	es	_	22	we	_	_	_	20	tenemos	_	21	l'ombre	_	?	?	?	20	en	Conjunction.EXPANSION	17	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+23	ein	22	رائع.	_	1	?	?	1	?	?	1	?	?	23	ein	_	24	a	_	_	_	21	una	_	?	?	?	21	un'	_	23	een	_	19	uma	_
+24	toller	19	لدينا	_	1	?	?	1	?	?	1	?	?	24	toller	_	23	have	_	_	_	22	excelente	_	22	est	_	20	avere	_	24	geweldige	_	20	grande	_
+25	Schatten.	21	ظل	_	1	?	?	1	?	?	1	?	?	25	Schatten.	_	26	shadow.	_	_	_	23	sombra.	_	21	l'ombre	_	22	ombra	_	25	schaduw.	_	21	sombra.	_
+
+# sent_id = 132738
+# text:  Er ist etwa 10-Mrd.-mal dunkler als zuvor, und wir erkennen die angestrahlten Planeten -- einfach so.
+# trans: É cerca de 10 mil milhões de vezes mais ténue do que era, e conseguimos ver os planetas a aparecer.
+# forward_log_prob: -66.10478122074709
+# backward_log_prob: -59.028683239826634
+1	Er	1	أعتم	_	1	?	?	1	?	?	1	?	?	1	Er	_	?	?	?	?	?	1	Cerca	_	2	10	_	8	tenue	_	5	donkerder	_	?	?	?
+2	ist	2	بـ	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	It's	_	_	_	2	de	_	1	environ	_	1	È	_	6	is	_	1	É	_
+3	etwa	1	أعتم	_	1	?	?	1	?	?	1	?	?	3	etwa	_	2	about	_	_	_	1	Cerca	_	2	10	_	2	circa	_	2	10	_	2	cerca	_
+4	10-Mrd.-mal	4	ملايير	_	1	?	?	1	?	?	1	?	?	4	10-Mrd.-mal	_	4	billion	_	_	_	3	10	_	3	milliards	_	3	dieci	_	1	die	_	5	mil	_
+5	dunkler	3	10	_	1	?	?	1	?	?	1	?	?	5	dunkler	_	6	dimmer	_	_	_	11	antes,	_	?	?	?	2	circa	_	5	donkerder	_	?	?	?
+6	als	4	ملايير	_	1	?	?	1	?	?	1	?	?	6	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	7	than	_	_	_	10	que	_	6	plus	_	7	più	_	7	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	11	do	_
+7	zuvor,	3	10	_	1	?	?	1	?	?	1	?	?	7	zuvor,	_	9	was	_	_	_	11	antes,	_	8	qu'avant,	_	10	prima,	_	8	eerst.	_	13	era,	_
+8	und	5	مرة	_	1	?	?	1	?	?	1	?	?	8	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	8	it	_	_	_	12	y	_	9	et	Conjunction.EXPANSION	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+9	wir	8	سنستطيع	_	1	?	?	1	?	?	1	?	?	9	wir	_	12	we	_	_	_	?	?	?	10	nous	_	13	vedere	_	11	we	_	?	?	?
+10	erkennen	7	السابق،	_	1	?	?	1	?	?	1	?	?	10	erkennen	_	13	can	_	_	_	9	tenue	_	7	sombre	_	18	così.	_	10	kunnen	_	10	ténue	_
+11	die	8	سنستطيع	_	1	?	?	1	?	?	1	?	?	11	die	_	15	the	_	_	_	?	?	?	?	?	?	?	?	?	12	de	_	19	a	_
+12	angestrahlten	9	عندها	_	1	?	?	1	?	?	1	?	?	12	angestrahlten	_	17	beam	_	_	_	16	grupo	_	15	rayonner	_	16	risplendere	_	14	duidelijk	_	13	era,	_
+13	Planeten	10	رؤية	_	1	?	?	1	?	?	1	?	?	13	Planeten	_	16	planets	_	_	_	18	planetas	_	12	voir	_	14	i	_	13	planeten	_	17	os	_
+14	--	12	تظهر	_	1	?	?	1	?	?	1	?	?	14	--	_	17	beam	_	_	_	15	el	_	15	rayonner	_	16	risplendere	_	14	duidelijk	_	16	ver	_
+15	einfach	12	تظهر	_	1	?	?	1	?	?	1	?	?	15	einfach	_	19	just	_	_	_	19	así.	_	15	rayonner	_	16	risplendere	_	14	duidelijk	_	20	aparecer.	_
+16	so.	13	هكذا.	_	1	?	?	1	?	?	1	?	?	16	so.	_	20	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	17	de	_	16	d'un	_	12	possiamo	_	14	duidelijk	_	?	?	?
+
+# sent_id = 132739
+# text:  Sie muss natürlich größer sein als mein Daumen.
+# trans: Tem que ser, claro, maior do que o meu polegar.
+# forward_log_prob: -25.064196064994206
+# backward_log_prob: -25.511926075637213
+1	Sie	?	?	?	1	?	?	1	?	?	1	?	?	1	Sie	_	1	That,	_	_	_	2	supuesto,	_	3	il	_	?	?	?	1	Het	_	1	Tem	_
+2	muss	3	يجب	_	1	?	?	1	?	?	1	?	?	2	muss	_	4	has	_	_	_	3	tiene	_	2	sûr,	_	3	deve	_	2	moet	_	2	que	_
+3	natürlich	1	وذلك	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY|TEMPORAL|result.Cause.CONTIGENCY	1	?	?	1	?	?	1	?	?	3	natürlich	_	3	course,	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	1	Bien	_	1	Ovviamente	_	3	natuurlijk	_	4	claro,	_
+4	größer	2	بالطبع،	_	1	?	?	1	?	?	1	?	?	4	größer	_	3	course,	_	_	_	7	grande	_	4	faut	_	1	Ovviamente	_	4	groter	_	4	claro,	_
+5	sein	5	يكون	_	1	?	?	1	?	?	1	?	?	5	sein	_	6	be	_	_	_	7	grande	_	9	gros	_	6	grande	_	5	worden	_	4	claro,	_
+6	als	6	أكبر	_	1	?	?	1	?	?	1	?	?	6	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	8	than	_	_	_	6	más	_	8	plus	_	5	più	_	6	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	9	meu	_
+7	mein	6	أكبر	_	1	?	?	1	?	?	1	?	?	7	mein	_	7	bigger	_	_	_	7	grande	_	9	gros	_	8	mio	_	8	duim.	_	9	meu	_
+8	Daumen.	8	إبهامي.	_	1	?	?	1	?	?	1	?	?	8	Daumen.	_	9	my	_	_	_	9	mi	_	11	mon	_	9	pollice.	_	7	mijn	_	8	o	_
+
+# sent_id = 132740
+# text:  Starshade ist halb so groß wie ein Fußballfeld. Sie muss 50 000 Kilometer vom Teleskop wegfliegen, das exakt in ihrem Schatten bleiben muss, und dann können wir diese Planeten sehen.
+# trans: Esta sombra estelar tem cerca de metade do tamanho de um campo de futebol e tem que se distanciar 50 000 quilómetros do telescópio que tem que ser mantido na sua sombra, e então poderemos ver os planetas.
+# forward_log_prob: -136.15267199113612
+# backward_log_prob: -112.17021709487778
+1	Starshade	2	حاجبة	_	1	?	?	1	?	?	1	?	?	1	Starshade	_	1	That	_	_	_	1	Esta	_	2	starshade	_	1	"L'ombreggia	_	1	Dat	_	1	Esta	_
+2	ist	1	حجم	_	1	?	?	1	?	?	1	?	?	2	ist	_	3	is	_	_	_	4	es	_	?	?	?	3	ha	_	3	is	_	5	cerca	_
+3	halb	1	حجم	_	1	?	?	1	?	?	1	?	?	3	halb	_	4	about	_	_	_	?	?	?	4	environ	_	4	all'incirca	_	4	ongeveer	_	4	tem	_
+4	so	5	نصف	_	1	?	?	1	?	?	1	?	?	4	so	_	4	about	_	_	_	5	de	_	?	?	?	4	all'incirca	_	4	ongeveer	_	?	?	?
+5	groß	5	نصف	_	1	?	?	1	?	?	1	?	?	5	groß	_	6	size	_	_	_	7	del	_	7	taille	_	4	all'incirca	_	6	half	_	7	metade	_
+6	wie	5	نصف	_	1	?	?	1	?	?	1	?	?	6	wie	COMPARISON|Synchronous.TEMPORAL	8	half	_	_	_	8	tamaño	_	7	taille	_	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	half	_	7	metade	_
+7	ein	4	تلك	_	1	?	?	1	?	?	1	?	?	7	ein	_	7	of	_	_	_	13	un	_	?	?	?	7	di	_	5	een	_	11	um	_
+8	Fußballfeld.	6	مساحة	_	1	?	?	1	?	?	1	?	?	8	Fußballfeld.	_	10	football	_	_	_	14	campo	_	8	d'un	_	6	dimensione	_	7	voetbalveld	_	12	campo	_
+9	Sie	5	نصف	_	1	?	?	1	?	?	1	?	?	9	Sie	_	13	it	_	_	_	10	la	_	7	taille	_	?	?	?	8	groot	_	8	do	_
+10	muss	?	?	?	1	?	?	1	?	?	1	?	?	10	muss	_	14	has	_	_	_	18	tiene	_	13	doit	_	13	deve	_	10	moet	_	16	tem	_
+11	50	?	?	?	1	?	?	1	?	?	1	?	?	11	50	_	17	50,000	_	_	_	22	50	_	14	s'envoler	_	15	50	_	13	50.000	_	20	50	_
+12	000	?	?	?	1	?	?	1	?	?	1	?	?	12	000	_	17	50,000	_	_	_	22	50	_	14	s'envoler	_	15	50	_	13	50.000	_	20	50	_
+13	Kilometer	?	?	?	1	?	?	1	?	?	1	?	?	13	Kilometer	_	16	fly	_	_	_	22	50	_	14	s'envoler	_	15	50	_	13	50.000	_	20	50	_
+14	vom	16	من	_	1	?	?	1	?	?	1	?	?	14	vom	_	20	from	_	_	_	27	del	_	19	du	_	19	dal	_	16	van	_	23	do	_
+15	Teleskop	17	التيليسكوب	_	1	?	?	1	?	?	1	?	?	15	Teleskop	_	22	telescope	_	_	_	28	telescopio	_	20	télescope	_	20	telescopio	_	18	telescoop	_	24	telescópio	_
+16	wegfliegen,	12	تبتعد	_	1	?	?	1	?	?	1	?	?	16	wegfliegen,	_	?	?	?	?	?	24	km	_	?	?	?	14	volare	_	19	bevinden.	_	19	distanciar	_
+17	das	?	?	?	1	?	?	1	?	?	1	?	?	17	das	_	23	that	_	_	_	19	que	_	21	qui	_	21	che	_	?	?	?	17	que	_
+18	exakt	?	?	?	1	?	?	1	?	?	1	?	?	18	exakt	_	25	to	_	_	_	?	?	?	?	?	?	?	?	?	12	op	_	?	?	?
+19	in	?	?	?	1	?	?	1	?	?	1	?	?	19	in	_	29	in	_	_	_	34	en	_	12	et	Conjunction.EXPANSION	?	?	?	23	in	_	30	na	_
+20	ihrem	18	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	20	ihrem	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	22	precies	_	29	mantido	_
+21	Schatten	18	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	21	Schatten	_	31	shadow,	_	_	_	36	sombra,	_	27	ombre	_	30	così	result.Cause.CONTIGENCY	25	schaduw	_	32	sombra,	_
+22	bleiben	22	مثبّت	_	1	?	?	1	?	?	1	?	?	22	bleiben	_	27	held	_	_	_	32	mantenerse	_	24	positionné	_	24	tenuto	_	24	die	_	29	mantido	_
+23	muss,	19	يجب	_	1	?	?	1	?	?	1	?	?	23	muss,	_	24	has	_	_	_	29	que	_	22	doit	_	22	deve	_	26	worden	_	28	ser	_
+24	und	?	?	?	1	?	?	1	?	?	1	?	?	24	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	32	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	37	y	_	25	dans	_	29	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	33	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+25	dann	?	?	?	1	?	?	1	?	?	1	?	?	25	dann	Condition.CONTIGENCY|Conjunction.EXPANSION|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	35	can	_	_	_	39	podemos	_	29	façon	_	?	?	?	30	kunnen	_	35	poderemos	_
+26	können	?	?	?	1	?	?	1	?	?	1	?	?	26	können	_	33	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	?	?	?	26	nella	_	32	die	_	34	então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+27	wir	?	?	?	1	?	?	1	?	?	1	?	?	27	wir	_	34	we	_	_	_	?	?	?	?	?	?	?	?	?	31	we	_	?	?	?
+28	diese	27	تلك	_	1	?	?	1	?	?	1	?	?	28	diese	_	26	be	_	_	_	41	esos	_	33	ces	_	33	questi	_	?	?	?	?	?	?
+29	Planeten	28	الكواكب.	_	1	?	?	1	?	?	1	?	?	29	Planeten	_	38	planets.	_	_	_	42	planetas.	_	34	planètes.	_	34	pianeti.	_	33	planeten	_	37	os	_
+30	sehen.	26	سنرى	_	1	?	?	1	?	?	1	?	?	30	sehen.	_	36	see	_	_	_	40	ver	_	32	voir	_	32	vedere	_	34	zien.	_	36	ver	_
+
+# sent_id = 132741
+# text:  Das klingt schwierig, aber brillante Ingenieure, meine Kollegen bei JPL, haben ein fabelhaftes Design entwickelt, und das sieht so aus.
+# trans: Isto parece formidável, mas engenheiros brilhantes, colegas meus no LPJ, conseguiram um "design" fabuloso para o conseguir e é parecido com isto.
+# forward_log_prob: -72.1778600339885
+# backward_log_prob: -66.21455856542916
+1	Das	2	ذلك	_	1	?	?	1	?	?	1	?	?	1	Das	_	?	?	?	?	?	?	?	?	3	l'air	_	1	Questo	_	1	Dit	_	1	Isto	_
+2	klingt	1	يبدو	_	1	?	?	1	?	?	1	?	?	2	klingt	_	1	This	_	result.Cause.CONTIGENCY	_	1	Suena	_	1	Ça	_	2	sembra	_	2	klinkt	_	2	parece	_
+3	schwierig,	3	صعبًا	_	1	?	?	1	?	?	1	?	?	3	schwierig,	_	5	brilliant	_	_	_	4	brillantes	_	3	l'air	_	5	geniali	_	3	formidabel,	_	3	formidável,	_
+4	aber	5	لكن	Concession.COMPARISON	1	?	?	1	?	?	1	?	?	4	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	4	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	pero	precedence.Asynchronous.TEMPORAL	5	mais	Contrast.COMPARISON|Exception.EXPANSION	4	ma	Concession.COMPARISON|Contrast.COMPARISON	4	maar	_	4	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+5	brillante	4	جدًا،	_	1	?	?	1	?	?	1	?	?	5	brillante	_	6	engineers,	_	_	_	5	ingenieros,	_	6	des	_	6	ingegneri,	_	5	briljante	_	5	engenheiros	_
+6	Ingenieure,	6	المهندسين	_	1	?	?	1	?	?	1	?	?	6	Ingenieure,	_	9	mine	_	_	_	7	míos	_	7	ingénieurs	_	6	ingegneri,	_	6	ingenieurs,	_	6	brilhantes,	_
+7	meine	7	العباقرة،	_	1	?	?	1	?	?	1	?	?	7	meine	_	7	colleagues	_	_	_	6	colegas	_	10	mes	_	7	i	_	7	collega's	_	8	meus	_
+8	Kollegen	8	زملائي	_	1	?	?	1	?	?	1	?	?	8	Kollegen	_	7	colleagues	_	_	_	6	colegas	_	10	mes	_	9	colleghi	_	7	collega's	_	7	colegas	_
+9	bei	8	زملائي	_	1	?	?	1	?	?	1	?	?	9	bei	_	10	at	_	_	_	8	en	_	13	JPL,	_	13	Propulsione	_	10	bij	_	9	no	_
+10	JPL,	10	JPL،	_	1	?	?	1	?	?	1	?	?	10	JPL,	_	11	JPL,	_	_	_	10	JPL,	_	12	au	_	14	Jet	_	11	JPL,	_	10	LPJ,	_
+11	haben	10	JPL،	_	1	?	?	1	?	?	1	?	?	11	haben	_	11	JPL,	_	_	_	10	JPL,	_	14	ont	_	14	Jet	_	11	JPL,	_	10	LPJ,	_
+12	ein	13	رائع	_	1	?	?	1	?	?	1	?	?	12	ein	_	15	a	_	_	_	12	un	_	16	un	_	17	una	_	14	een	_	12	um	_
+13	fabelhaftes	11	ابتكروا	_	1	?	?	1	?	?	1	?	?	13	fabelhaftes	_	14	with	_	_	_	11	lograron	_	15	conçu	_	15	hanno	_	12	kwamen	_	11	conseguiram	_
+14	Design	13	رائع	_	1	?	?	1	?	?	1	?	?	14	Design	_	19	how	_	_	_	16	cómo	_	15	conçu	_	19	favoloso	_	15	fantastisch	_	14	fabuloso	_
+15	entwickelt,	14	للغاية	_	1	?	?	1	?	?	1	?	?	15	entwickelt,	_	19	how	_	_	_	16	cómo	_	17	projet	_	19	favoloso	_	15	fantastisch	_	14	fabuloso	_
+16	und	16	عمل	_	1	?	?	1	?	?	1	?	?	16	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	to	_	_	_	18	y	_	19	et	Conjunction.EXPANSION	24	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	18	ziet	_	18	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+17	das	17	ذلك	_	1	?	?	1	?	?	1	?	?	17	das	_	22	that	_	_	_	?	?	?	20	qui	_	25	ha	_	17	Zo	Instantiation.EXPANSION	19	é	_
+18	sieht	19	كهذا.	_	1	?	?	1	?	?	1	?	?	18	sieht	_	25	looks	_	_	_	20	parece	_	21	ressemble	_	?	?	?	18	ziet	_	20	parecido	_
+19	so	19	كهذا.	_	1	?	?	1	?	?	1	?	?	19	so	_	26	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	20	parece	_	23	ça.	_	26	questo	_	17	Zo	Instantiation.EXPANSION	22	isto.	_
+20	aus.	19	كهذا.	_	1	?	?	1	?	?	1	?	?	20	aus.	_	24	it	_	_	_	20	parece	_	22	à	specification.Restatement.EXPANSION	27	aspetto.	_	18	ziet	_	21	com	_
+
+# sent_id = 132742
+# text:  Sie ist anfangs um eine Nabe gewickelt.
+# trans: De início está enrolado num eixo.
+# forward_log_prob: -17.022480913414878
+# backward_log_prob: -18.608543703790158
+1	Sie	2	البداية	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	It	_	_	_	1	Comienza	_	1	Il	_	2	impacchettata	_	1	Het	_	1	De	_
+2	ist	3	سيكون	_	1	?	?	1	?	?	1	?	?	2	ist	_	2	starts	_	_	_	2	envuelto	_	2	commence	_	2	impacchettata	_	2	begint	_	2	início	_
+3	anfangs	1	في	_	1	?	?	1	?	?	1	?	?	3	anfangs	_	3	wrapped	_	_	_	1	Comienza	_	1	Il	_	1	Parte	_	2	begint	_	2	início	_
+4	um	4	ملتفًا	_	1	?	?	1	?	?	1	?	?	4	um	_	4	around	_	_	_	3	alrededor	_	3	enroulé	_	3	intorno	_	3	rond	_	4	enrolado	_
+5	eine	3	سيكون	_	1	?	?	1	?	?	1	?	?	5	eine	_	4	around	_	_	_	4	de	_	3	enroulé	_	?	?	?	4	een	_	5	num	_
+6	Nabe	4	ملتفًا	_	1	?	?	1	?	?	1	?	?	6	Nabe	_	6	hub.	_	_	_	5	un	_	4	autour	_	4	a	_	5	hub.	_	4	enrolado	_
+7	gewickelt.	6	محور.	_	1	?	?	1	?	?	1	?	?	7	gewickelt.	_	6	hub.	_	_	_	6	eje.	_	6	moyeu.	_	6	fulcro.	_	5	hub.	_	6	eixo.	_
+
+# sent_id = 132743
+# text:  Sie trennt sich vom Teleskop.
+# trans: Separa-se do telescópio.
+# forward_log_prob: -6.249954511082457
+# backward_log_prob: -11.77481535148779
+1	Sie	1	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	1	Sie	_	1	It	_	_	_	2	separa	_	1	Il	_	2	separa	_	1	Het	_	1	Separa-se	_
+2	trennt	2	ينفصل	_	1	?	?	1	?	?	1	?	?	2	trennt	_	2	separates	_	_	_	2	separa	_	1	Il	_	2	separa	_	2	scheidt	_	1	Separa-se	_
+3	sich	2	ينفصل	_	1	?	?	1	?	?	1	?	?	3	sich	_	2	separates	_	_	_	1	Se	_	2	se	_	1	Si	_	2	scheidt	_	1	Separa-se	_
+4	vom	3	عن	_	1	?	?	1	?	?	1	?	?	4	vom	_	3	from	_	_	_	3	del	_	4	du	_	3	dal	_	3	van	_	2	do	_
+5	Teleskop.	4	التيليسكوب.	_	1	?	?	1	?	?	1	?	?	5	Teleskop.	_	5	telescope.	_	_	_	4	telescopio.	_	5	télescope.	_	4	telescopio.	_	5	telescoop.	_	3	telescópio.	_
+
+# sent_id = 132744
+# text:  Die Blütenblätter entfalten sich -- öffnen sich. Das Teleskop dreht sich herum.
+# trans: As pétalas desdobram-se, abrem-se, o telescópio vira-se.
+# forward_log_prob: -20.495542531184043
+# backward_log_prob: -33.17600869823863
+1	Die	2	البتلات	_	1	?	?	1	?	?	1	?	?	1	Die	_	1	The	_	_	_	1	Los	_	1	Les	_	1	I	_	1	De	_	1	As	_
+2	Blütenblätter	1	فتنتشر	_	1	?	?	1	?	?	1	?	?	2	Blütenblätter	_	2	petals	_	_	_	2	pétalos	_	2	pétale	_	2	petali	_	2	bladen	_	1	As	_
+3	entfalten	1	فتنتشر	_	1	?	?	1	?	?	1	?	?	3	entfalten	_	3	unfurl,	_	_	_	1	Los	_	1	Les	_	1	I	_	3	ontrollen	_	2	pétalas	_
+4	sich	2	البتلات	_	1	?	?	1	?	?	1	?	?	4	sich	_	3	unfurl,	_	_	_	3	se	_	3	se	_	3	si	_	4	zich,	_	3	desdobram-se,	_
+5	--	3	وتتفتح،	_	1	?	?	1	?	?	1	?	?	5	--	_	5	open	_	_	_	5	se	_	4	déploient,	_	4	srotolano,	_	6	open,	_	3	desdobram-se,	_
+6	öffnen	3	وتتفتح،	_	1	?	?	1	?	?	1	?	?	6	öffnen	_	4	they	_	_	_	4	despliegan,	_	4	déploient,	_	4	srotolano,	_	5	gaan	_	4	abrem-se,	_
+7	sich.	4	بعدها	_	1	?	?	1	?	?	1	?	?	7	sich.	_	5	open	_	_	_	6	abren,	_	6	s'ouvrent,	_	5	si	_	4	zich,	_	4	abrem-se,	_
+8	Das	5	ينعطف	_	1	?	?	1	?	?	1	?	?	8	Das	_	?	?	?	?	?	9	se	_	?	?	?	7	il	_	?	?	?	5	o	_
+9	Teleskop	6	التيليسكوب.	_	1	?	?	1	?	?	1	?	?	9	Teleskop	_	8	telescope	_	_	_	8	telescopio	_	8	télescope	_	8	telescopio	_	9	telescoop	_	6	telescópio	_
+10	dreht	5	ينعطف	_	1	?	?	1	?	?	1	?	?	10	dreht	_	9	turns	_	_	_	10	da	_	10	retourne.	_	10	gira.	_	10	draait	_	7	vira-se.	_
+11	sich	5	ينعطف	_	1	?	?	1	?	?	1	?	?	11	sich	_	9	turns	_	_	_	9	se	_	9	se	_	9	si	_	11	zich	_	7	vira-se.	_
+12	herum.	4	بعدها	_	1	?	?	1	?	?	1	?	?	12	herum.	_	9	turns	_	_	_	11	la	_	10	retourne.	_	10	gira.	_	10	draait	_	7	vira-se.	_
+
+# sent_id = 132745
+# text:  Sie sehen, wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt.
+# trans: Então ele vira-se e afasta-se 50 000 quilómetros do telescópio.
+# forward_log_prob: -31.3953735813338
+# backward_log_prob: -36.281358877290764
+1	Sie	1	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	1	Sie	_	4	it	_	_	_	3	que	_	4	le	_	2	lo	_	1	Je	_	1	Então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+2	sehen,	2	سترونها	_	1	?	?	1	?	?	1	?	?	2	sehen,	_	3	see	_	_	_	3	que	_	5	voir	_	3	vedete	_	1	Je	_	1	Então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+3	wie	2	سترونها	_	1	?	?	1	?	?	1	?	?	3	wie	COMPARISON|Synchronous.TEMPORAL	4	it	_	_	_	4	gira	_	4	le	_	3	vedete	_	4	omkeren	_	2	ele	_
+4	Starshade	3	تنقلب	_	1	?	?	1	?	?	1	?	?	4	Starshade	_	5	flip	_	_	_	4	gira	_	7	retourner	_	4	capovolgersi	_	4	omkeren	_	2	ele	_
+5	wendet	4	وتطير	_	1	?	?	1	?	?	1	?	?	5	wendet	_	5	flip	_	_	_	6	se	_	7	retourner	_	6	decollare	_	4	omkeren	_	1	Então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+6	und	4	وتطير	_	1	?	?	1	?	?	1	?	?	6	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	6	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	y	_	8	et	Conjunction.EXPANSION	5	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	5	en	Conjunction.EXPANSION	4	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+7	50	5	مبتعدة	_	1	?	?	1	?	?	1	?	?	7	50	_	7	fly	_	_	_	8	50	_	9	s'envoler	_	?	?	?	8	50.000	_	6	50	_
+8	000	6	بـ50000	_	1	?	?	1	?	?	1	?	?	8	000	_	10	50,000	_	_	_	9	000	_	11	50	_	11	50	_	9	kilometer	_	7	000	_
+9	Kilometer	7	كيلومترا	_	1	?	?	1	?	?	1	?	?	9	Kilometer	_	11	kilometers	_	_	_	9	000	_	12	000	_	11	50	_	9	kilometer	_	7	000	_
+10	vom	8	عن	_	1	?	?	1	?	?	1	?	?	10	vom	_	13	from	_	_	_	13	del	_	16	du	_	14	dal	_	13	van	_	9	do	_
+11	Teleskop	9	التيليسكوب.	_	1	?	?	1	?	?	1	?	?	11	Teleskop	_	15	telescope.	_	_	_	14	telescopio.	_	17	télescope.	_	15	telescopio.	_	15	telescoop.	_	10	telescópio.	_
+12	wegfliegt.	7	كيلومترا	_	1	?	?	1	?	?	1	?	?	12	wegfliegt.	_	?	?	?	?	?	10	kilómetros	_	15	distance	_	?	?	?	12	buurt	_	?	?	?
+
+# sent_id = 132746
+# text:  Sie wird sich vor den Stern platzieren und, einfach so, einen wunderbaren Schatten erzeugen.
+# trans: Coloca-se à frente da estrela deste modo, criando uma sombra maravilhosa.
+# forward_log_prob: -37.561751550679425
+# backward_log_prob: -44.39993388669855
+1	Sie	2	تتحرك	_	1	?	?	1	?	?	1	?	?	1	Sie	_	3	to	_	_	_	1	Pasará	_	1	Il	_	?	?	?	1	Het	_	?	?	?
+2	wird	1	سوف	_	1	?	?	1	?	?	1	?	?	2	wird	_	2	going	_	_	_	1	Pasará	_	2	va	_	2	posiziona	_	2	plaatst	_	1	Coloca-se	_
+3	sich	3	أمام	_	1	?	?	1	?	?	1	?	?	3	sich	_	3	to	_	_	_	2	delante	_	3	se	_	1	Si	_	3	zich	_	3	frente	_
+4	vor	3	أمام	_	1	?	?	1	?	?	1	?	?	4	vor	_	5	in	_	_	_	2	delante	_	5	devant	_	3	davanti	_	4	voor	succession.Asynchronous.TEMPORAL	2	à	_
+5	den	2	تتحرك	_	1	?	?	1	?	?	1	?	?	5	den	_	5	in	_	_	_	4	la	_	?	?	?	4	alla	_	4	voor	succession.Asynchronous.TEMPORAL	3	frente	_
+6	Stern	4	النجم	_	1	?	?	1	?	?	1	?	?	6	Stern	_	9	star	_	_	_	5	estrella	_	4	placer	_	5	stella	_	6	ster	_	4	da	_
+7	platzieren	6	ترون	_	1	?	?	1	?	?	1	?	?	7	platzieren	_	?	?	?	?	?	8	crea	_	5	devant	_	?	?	?	8	zorgt	_	6	deste	_
+8	und,	6	ترون	_	1	?	?	1	?	?	1	?	?	8	und,	_	10	just	_	_	_	7	y	_	7	comme	COMPARISON|specification.Restatement.EXPANSION	6	proprio	_	7	en	Conjunction.EXPANSION	?	?	?
+9	einfach	5	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	9	einfach	_	10	just	_	_	_	6	así,	_	7	comme	COMPARISON|specification.Restatement.EXPANSION	9	modo,	_	8	zorgt	_	6	deste	_
+10	so,	7	تمامًا،	_	1	?	?	1	?	?	1	?	?	10	so,	_	11	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	6	así,	_	8	ça,	_	8	questo	_	8	zorgt	_	6	deste	_
+11	einen	8	مولدةً	_	1	?	?	1	?	?	1	?	?	11	einen	_	13	creates	_	_	_	9	una	_	11	une	_	7	in	_	8	zorgt	_	7	modo,	_
+12	wunderbaren	8	مولدةً	_	1	?	?	1	?	?	1	?	?	12	wunderbaren	_	13	creates	_	_	_	10	maravillosa	_	9	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	9	modo,	_	9	voor	succession.Asynchronous.TEMPORAL	8	criando	_
+13	Schatten	9	ظل	_	1	?	?	1	?	?	1	?	?	13	Schatten	_	16	shadow.	_	_	_	11	sombra.	_	12	ombre	_	11	un'ombra	_	12	schaduw.	_	9	uma	_
+14	erzeugen.	10	رئع.	_	1	?	?	1	?	?	1	?	?	14	erzeugen.	_	15	wonderful	_	_	_	10	maravillosa	_	13	exceptionnelle.	_	12	fantastica.	_	11	prachtige	_	11	maravilhosa.	_
+
+# sent_id = 132747
+# text:  Zack, wir kriegen die Planeten in seiner Umlaufbahn.
+# trans: Zás, vemos os planetas a orbitar à sua volta.
+# forward_log_prob: -27.781455818749027
+# backward_log_prob: -24.308782123691657
+1	Zack,	1	يا	_	1	?	?	1	?	?	1	?	?	1	Zack,	_	1	Boom,	_	_	_	1	Listo,	_	1	Boum,	_	1	Boom,	_	?	?	?	1	Zás,	_
+2	wir	2	سلام،	_	1	?	?	1	?	?	1	?	?	2	wir	_	2	we	_	_	_	3	los	_	4	voir	_	2	ecco	_	3	we	_	?	?	?
+3	kriegen	3	التقطنا	_	1	?	?	1	?	?	1	?	?	3	kriegen	_	3	get	_	_	_	2	obtenemos	_	2	on	_	3	i	_	1	Ziezo,	_	6	orbitar	_
+4	die	5	وهي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	die	_	3	get	_	_	_	3	los	_	5	les	_	3	i	_	5	de	_	5	a	_
+5	Planeten	4	الكواكب	_	1	?	?	1	?	?	1	?	?	5	Planeten	_	4	planets	_	_	_	4	planetas	_	6	planètes	_	4	pianeti	_	6	planeten	_	4	planetas	_
+6	in	6	تدور	_	1	?	?	1	?	?	1	?	?	6	in	_	5	orbiting	_	_	_	5	orbitando	_	7	orbitant	_	5	che	_	5	de	_	3	os	_
+7	seiner	6	تدور	_	1	?	?	1	?	?	1	?	?	7	seiner	_	5	orbiting	_	_	_	5	orbitando	_	8	tout	_	6	le	_	7	eromheen.	_	6	orbitar	_
+8	Umlaufbahn.	7	حوله.	_	1	?	?	1	?	?	1	?	?	8	Umlaufbahn.	_	5	orbiting	_	_	_	8	ella.	_	8	tout	_	7	orbitano	_	7	eromheen.	_	6	orbitar	_
+
+# sent_id = 132748
+# text:  (Applaus) Vielen Dank.
+# trans: (Aplausos) Obrigado.
+# forward_log_prob: -2.6624207821666266
+# backward_log_prob: -4.830562971423233
+1	(Applaus)	1	(تصفيق)	_	1	?	?	1	?	?	1	?	?	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
+2	Vielen	2	شكرًا	_	1	?	?	1	?	?	1	?	?	2	Vielen	_	2	Thank	_	_	_	2	Gracias.	_	2	Merci.	_	2	Grazie.	_	2	Dank	_	2	Obrigado.	_
+3	Dank.	3	لكم.	_	1	?	?	1	?	?	1	?	?	3	Dank.	_	2	Thank	_	_	_	2	Gracias.	_	2	Merci.	_	2	Grazie.	_	3	u.	_	2	Obrigado.	_
+
+# sent_id = 132749
+# text:  Das ist kein Science-Fiction.
+# trans: Não é ficção científica.
+# forward_log_prob: -9.328194480131968
+# backward_log_prob: -7.701802078761311
+1	Das	1	ذلك	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	That's	_	_	_	1	Esto	_	?	?	?	1	Non	_	1	Dat	_	2	é	_
+2	ist	2	ليس	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	That's	_	_	_	3	es	_	4	de	_	2	è	_	2	is	_	2	é	_
+3	kein	3	بخيال	_	1	?	?	1	?	?	1	?	?	3	kein	_	2	not	_	_	_	2	no	_	1	Ce	_	1	Non	_	3	geen	_	1	Não	_
+4	Science-Fiction.	4	علمي.	_	1	?	?	1	?	?	1	?	?	4	Science-Fiction.	_	4	fiction.	_	_	_	5	ficción.	_	6	science-fiction.	_	3	fantascienza.	_	4	sciencefiction.	_	4	científica.	_
+
+# sent_id = 132750
+# text:  Wir arbeiten seit 5 oder 6 Jahren daran.
+# trans: Estamos a trabalhar nisto há cinco ou seis anos.
+# forward_log_prob: -23.79134013132056
+# backward_log_prob: -22.01564652776386
+1	Wir	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We've	_	_	_	?	?	?	1	Nous	_	?	?	?	1	We	_	1	Estamos	_
+2	arbeiten	2	نعمل	_	1	?	?	1	?	?	1	?	?	2	arbeiten	_	3	working	_	_	_	3	trabajando	_	2	travaillons	_	1	Stiamo	_	2	werken	_	2	a	_
+3	seit	1	نحن	_	1	?	?	1	?	?	1	?	?	3	seit	succession.Asynchronous.TEMPORAL	5	this	_	result.Cause.CONTIGENCY	_	1	Hemos	_	4	ce	_	3	a	_	3	hier	_	4	nisto	_
+4	5	5	منذ	TEMPORAL	1	?	?	1	?	?	1	?	?	4	5	_	6	for	_	_	reason.Cause.CONTIGENCY	6	durante	TEMPORAL	5	projet	_	5	progetto	_	4	al	Concession.COMPARISON	4	nisto	_
+5	oder	4	ذلك	_	1	?	?	1	?	?	1	?	?	5	oder	disjunctive.Alternative.EXPANSION	10	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	6	durante	TEMPORAL	8	ou	COMPARISON	6	da	_	6	of	disjunctive.Alternative.EXPANSION	7	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+6	6	8	ست	_	1	?	?	1	?	?	1	?	?	6	6	_	11	six	_	_	_	8	últimos	_	9	six	_	9	sei	_	7	zes	_	8	seis	_
+7	Jahren	9	سنوات.	_	1	?	?	1	?	?	1	?	?	7	Jahren	_	12	years.	_	_	_	7	los	_	10	ans.	_	10	anni.	_	8	jaar	_	9	anos.	_
+8	daran.	8	ست	_	1	?	?	1	?	?	1	?	?	8	daran.	_	?	?	?	?	?	11	6	_	10	ans.	_	?	?	?	?	?	?	?	?	?
+
+# sent_id = 132751
+# text:  Letzten Sommer haben wir einen coolen Test durchgeführt, in Kalifornien bei Northrop Grumman.
+# trans: No último Verão, fizemos um teste mesmo fixe na Califórnia, na Northrop Grumman.
+# forward_log_prob: -40.40168071114546
+# backward_log_prob: -41.7348953911069
+1	Letzten	2	الصيف	_	1	?	?	1	?	?	1	?	?	1	Letzten	_	1	Last	_	_	_	3	pasado,	_	1	L'été	_	1	L'estate	_	1	Afgelopen	_	2	último	_
+2	Sommer	2	الصيف	_	1	?	?	1	?	?	1	?	?	2	Sommer	_	2	summer,	_	_	_	1	El	_	1	L'été	_	2	scorsa	_	2	zomer	_	1	No	_
+3	haben	1	في	_	1	?	?	1	?	?	1	?	?	3	haben	_	2	summer,	_	_	_	2	verano	_	4	avons	_	3	abbiamo	_	3	deden	_	3	Verão,	_
+4	wir	4	أجرينا	_	1	?	?	1	?	?	1	?	?	4	wir	_	3	we	_	_	_	?	?	?	3	nous	_	5	un	_	4	we	_	5	um	_
+5	einen	5	اختبارا	_	1	?	?	1	?	?	1	?	?	5	einen	_	5	a	_	_	_	5	una	_	4	avons	_	8	in	_	5	een	_	4	fizemos	_
+6	coolen	6	رهيبا	_	1	?	?	1	?	?	1	?	?	6	coolen	_	6	really	_	result.Cause.CONTIGENCY	_	7	muy	_	6	un	_	7	fantastico	_	6	echt	_	4	fizemos	_
+7	Test	4	أجرينا	_	1	?	?	1	?	?	1	?	?	7	Test	_	8	test	_	_	_	6	prueba	_	5	effectué	_	6	test	_	8	test	_	6	teste	_
+8	durchgeführt,	8	شركة	_	1	?	?	1	?	?	1	?	?	8	durchgeführt,	_	7	cool	_	_	_	8	excitante	_	8	vraiment	_	7	fantastico	_	7	coole	_	8	fixe	_
+9	in	7	في	_	1	?	?	1	?	?	1	?	?	9	in	_	10	in	_	_	_	9	en	_	12	à	specification.Restatement.EXPANSION	8	in	_	9	in	_	9	na	_
+10	Kalifornien	9	نورثروب	_	1	?	?	1	?	?	1	?	?	10	Kalifornien	_	11	California	_	_	_	10	California	_	11	Californie	_	10	presso	_	10	Californië	_	10	Califórnia,	_
+11	bei	10	غرومان	_	1	?	?	1	?	?	1	?	?	11	bei	_	11	California	_	_	_	10	California	_	10	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	10	presso	_	11	bij	_	10	Califórnia,	_
+12	Northrop	12	كاليفورنيا.	_	1	?	?	1	?	?	1	?	?	12	Northrop	_	13	Northrop	_	_	_	12	Northrop	_	13	Northrop	_	12	Northropp	_	12	Northrop	_	12	Northrop	_
+13	Grumman.	12	كاليفورنيا.	_	1	?	?	1	?	?	1	?	?	13	Grumman.	_	14	Grumman.	_	_	_	13	Grumman.	_	14	Grumman.	_	13	Grumman.	_	13	Grumman.	_	13	Grumman.	_
+
+# sent_id = 132752
+# text:  Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab.
+# trans: São quatro pétalas.
+# forward_log_prob: -13.634565820636501
+# backward_log_prob: -28.533879210401054
+1	Dies	1	تلك	_	1	?	?	1	?	?	1	?	?	1	Dies	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	?	?	?	1	Questi	_	?	?	?	1	São	_
+2	sind	2	أربع	_	1	?	?	1	?	?	1	?	?	2	sind	_	3	are	_	_	_	?	?	?	?	?	?	1	Questi	_	?	?	?	1	São	_
+3	vier	1	تلك	_	1	?	?	1	?	?	1	?	?	3	vier	_	2	those	_	_	_	3	4	_	?	?	?	2	sono	_	?	?	?	2	quatro	_
+4	Blütenblätter	2	أربع	_	1	?	?	1	?	?	1	?	?	4	Blütenblätter	_	2	those	_	_	_	2	son	_	1	Ici	_	1	Questi	_	?	?	?	1	São	_
+5	einer	2	أربع	_	1	?	?	1	?	?	1	?	?	5	einer	_	3	are	_	_	_	2	son	_	3	peut	_	2	sono	_	2	zijn	_	1	São	_
+6	Starshade	2	أربع	_	1	?	?	1	?	?	1	?	?	6	Starshade	_	2	those	_	_	_	2	son	_	3	peut	_	3	quattro	_	1	Dat	_	2	quatro	_
+7	im	3	بتلات.	_	1	?	?	1	?	?	1	?	?	7	im	_	4	four	_	_	_	3	4	_	5	quatre	_	3	quattro	_	3	vier	_	2	quatro	_
+8	kleinen	3	بتلات.	_	1	?	?	1	?	?	1	?	?	8	kleinen	_	4	four	_	_	_	2	son	_	4	voir	_	3	quattro	_	4	bloemblaadjes.	_	2	quatro	_
+9	Maßstab.	3	بتلات.	_	1	?	?	1	?	?	1	?	?	9	Maßstab.	_	4	four	_	_	_	1	Estos	_	6	pétales.	_	3	quattro	_	4	bloemblaadjes.	_	3	pétalas.	_
+
+# sent_id = 132754
+# text:  Sie ist ca. halb so groß wie die, die Sie eben sahen.
+# trans: Tem cerca de metade do tamanho da que viram antes.
+# forward_log_prob: -30.849342310527497
+# backward_log_prob: -35.71558903396223
+1	Sie	1	نصف	_	1	?	?	1	?	?	1	?	?	1	Sie	_	?	?	?	?	?	2	aproximadamente	_	3	moitié	_	2	grande	_	1	Het	_	1	Tem	_
+2	ist	1	نصف	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	It's	_	_	_	1	Es	_	2	la	_	1	È	_	2	is	_	2	cerca	_
+3	ca.	1	نصف	_	1	?	?	1	?	?	1	?	?	3	ca.	_	3	half	_	_	_	2	aproximadamente	_	3	moitié	_	5	metà	_	4	half	_	4	metade	_
+4	halb	2	حجم	_	1	?	?	1	?	?	1	?	?	4	halb	_	2	about	_	_	_	4	mitad	_	6	taille	_	3	all'incirca	_	3	ongeveer	_	4	metade	_
+5	so	2	حجم	_	1	?	?	1	?	?	1	?	?	5	so	_	5	size	_	_	_	6	tamaño	_	6	taille	_	2	grande	_	5	zo	Instantiation.EXPANSION	?	?	?
+6	groß	2	حجم	_	1	?	?	1	?	?	1	?	?	6	groß	_	5	size	_	_	_	5	del	_	6	taille	_	3	all'incirca	_	4	half	_	5	do	_
+7	wie	2	حجم	_	1	?	?	1	?	?	1	?	?	7	wie	COMPARISON|Synchronous.TEMPORAL	5	size	_	_	_	6	tamaño	_	10	vous	_	?	?	?	6	groot	_	6	tamanho	_
+8	die,	3	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	8	die,	_	4	the	_	_	_	8	la	_	9	que	_	8	che	_	8	die	_	?	?	?
+9	die	3	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	9	die	_	7	the	_	_	_	9	que	_	9	que	_	8	che	_	8	die	_	8	que	_
+10	Sie	4	رأيتموها	_	1	?	?	1	?	?	1	?	?	10	Sie	_	9	you	_	_	_	10	acaban	_	10	vous	_	11	visto.	_	?	?	?	7	da	_
+11	eben	3	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	11	eben	reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	8	one	_	_	_	10	acaban	_	11	venez	_	9	avete	_	9	van	_	9	viram	_
+12	sahen.	5	سابقًا.	_	1	?	?	1	?	?	1	?	?	12	sahen.	_	11	saw.	_	_	_	10	acaban	_	11	venez	_	10	appena	_	10	daarnet.	_	10	antes.	_
+
+# sent_id = 132755
+# text:  Hier entfalten sich die Blätter.
+# trans: Podem ver as pétalas a desdobrar.
+# forward_log_prob: -15.88878318016924
+# backward_log_prob: -13.73633223834672
+1	Hier	1	تشاهدون	_	1	?	?	1	?	?	1	?	?	1	Hier	_	1	You'll	_	_	_	1	Verán	_	1	Vous	_	1	Adesso	_	1	De	_	1	Podem	_
+2	entfalten	1	تشاهدون	_	1	?	?	1	?	?	1	?	?	2	entfalten	_	1	You'll	_	_	_	1	Verán	_	2	voyez	_	2	vedrete	_	3	ontrollen	_	1	Podem	_
+3	sich	3	البتلات	_	1	?	?	1	?	?	1	?	?	3	sich	_	3	the	_	_	_	3	pétalos	_	5	se	_	6	si	_	3	ontrollen	_	3	as	_
+4	die	4	وهي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	die	_	4	petals	_	_	_	3	pétalos	_	3	les	_	5	che	_	3	ontrollen	_	5	a	_
+5	Blätter.	5	تتفتح.	_	1	?	?	1	?	?	1	?	?	5	Blätter.	_	4	petals	_	_	_	3	pétalos	_	4	pétales	_	4	petali	_	2	blaadjes	_	6	desdobrar.	_
+
+# sent_id = 132756
+# text:  Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut.
+# trans: Essas quatro pétalas foram construídas por quatro estudantes universitários num curso de verão no LPJ.
+# forward_log_prob: -48.50058790422587
+# backward_log_prob: -34.10820176490398
+1	Vier	1	تلك	_	1	?	?	1	?	?	1	?	?	1	Vier	_	1	Those	_	_	_	2	4	_	2	quatre	_	1	Questi	_	2	werden	_	1	Essas	_
+2	Studenten	2	الأربع	_	1	?	?	1	?	?	1	?	?	2	Studenten	_	5	built	_	_	_	1	Esos	_	1	Ces	_	5	stati	_	2	werden	_	4	foram	_
+3	haben	4	صممها	_	1	?	?	1	?	?	1	?	?	3	haben	_	5	built	_	_	_	4	fueron	_	4	ont	_	5	stati	_	1	Ze	_	4	foram	_
+4	diese	4	صممها	_	1	?	?	1	?	?	1	?	?	4	diese	_	4	were	_	_	_	5	construidos	_	?	?	?	6	realizzati	_	4	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	construídas	_
+5	vier	5	أربعة	_	1	?	?	1	?	?	1	?	?	5	vier	_	6	by	_	_	_	7	4	_	8	quatre	_	8	quattro	_	5	vier	_	6	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+6	Blätter	7	أثناء	_	1	?	?	1	?	?	1	?	?	6	Blätter	_	8	undergraduates	_	_	_	9	universitarios	_	3	pétales	_	11	che	_	6	studenten	_	8	estudantes	_
+7	im	12	JPL.	_	1	?	?	1	?	?	1	?	?	7	im	_	7	four	_	_	_	10	en	_	8	quatre	_	16	al	_	5	vier	_	7	quatro	_
+8	Sommerpraktikum	8	تدريبهم	_	1	?	?	1	?	?	1	?	?	8	Sommerpraktikum	_	9	doing	_	_	_	11	su	_	7	par	_	12	facevano	_	7	tijdens	Synchronous.TEMPORAL	9	universitários	_
+9	bei	9	الصيفي	_	1	?	?	1	?	?	1	?	?	9	bei	_	10	a	_	_	_	14	verano	_	10	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	15	estivo	_	10	bij	_	13	verão	_
+10	JPL	9	الصيفي	_	1	?	?	1	?	?	1	?	?	10	JPL	_	14	JPL.	_	_	_	17	JPL.	_	12	au	_	19	Propulsione	_	11	JPL.	_	15	LPJ.	_
+11	gebaut.	9	الصيفي	_	1	?	?	1	?	?	1	?	?	11	gebaut.	_	?	?	?	?	?	?	?	?	11	stage	_	?	?	?	?	?	?	?	?	?
+
+# sent_id = 132757
+# text:  Sie sehen, wie sie ausfahren.
+# trans: Agora podem vê-la a desenrolar.
+# forward_log_prob: -17.098768514537483
+# backward_log_prob: -12.166278970773735
+1	Sie	1	تشاهدونها	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	1	Maintenant	Exception.EXPANSION	1	Adesso	_	1	Nu	_	3	vê-la	_
+2	sehen,	1	تشاهدونها	_	1	?	?	1	?	?	1	?	?	2	sehen,	_	?	?	?	?	?	3	están	_	4	voyez	_	2	lo	_	2	zie	_	3	vê-la	_
+3	wie	1	تشاهدونها	_	1	?	?	1	?	?	1	?	?	3	wie	COMPARISON|Synchronous.TEMPORAL	?	?	?	?	?	3	están	_	3	le	_	3	vedete	_	2	zie	_	3	vê-la	_
+4	sie	4	تنتشر.	_	1	?	?	1	?	?	1	?	?	4	sie	_	4	it	_	_	_	4	viendo	_	5	se	_	3	vedete	_	5	zich	_	4	a	_
+5	ausfahren.	3	وهي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	5	ausfahren.	_	2	you're	_	_	_	3	están	_	4	voyez	_	4	posizionarsi.	_	4	ze	_	2	podem	_
+
+# sent_id = 132758
+# text:  Die Blätter müssen sich richtig drehen.
+# trans: As petalas têm que se colocar em posição.
+# forward_log_prob: -24.855055099587325
+# backward_log_prob: -19.237046341294164
+1	Die	2	أن	_	1	?	?	1	?	?	1	?	?	1	Die	_	2	petals	_	_	_	2	pétalos	_	2	pétales	_	1	I	_	1	Die	_	1	As	_
+2	Blätter	3	تتناوب	_	1	?	?	1	?	?	1	?	?	2	Blätter	_	1	Those	_	_	_	1	Esos	_	1	Ces	_	2	petali	_	2	blaadjes	_	2	petalas	_
+3	müssen	3	تتناوب	_	1	?	?	1	?	?	1	?	?	3	müssen	_	3	have	_	_	_	4	que	_	3	doivent	_	3	devono	_	3	moeten	_	3	têm	_
+4	sich	5	البتلات	_	1	?	?	1	?	?	1	?	?	4	sich	_	5	rotate	_	_	_	?	?	?	4	pivoter	_	4	ruotare	_	4	zich	_	3	têm	_
+5	richtig	6	في	_	1	?	?	1	?	?	1	?	?	5	richtig	_	5	rotate	_	_	_	7	su	_	6	leur	_	4	ruotare	_	6	hun	_	5	se	CONTIGENCY|Condition.CONTIGENCY
+6	drehen.	7	المكان.	_	1	?	?	1	?	?	1	?	?	6	drehen.	_	5	rotate	_	_	_	5	girar	_	5	à	specification.Restatement.EXPANSION	6	posizionarsi.	_	7	plaats	_	7	em	_
+
+# sent_id = 132759
+# text:  Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren, auf ein Zehntel Millimeter genau.
+# trans: A base dessas pétalas tem que se colocar sempre na mesma posição com a precisão de um décimo de milímetro.
+# forward_log_prob: -62.22607843098588
+# backward_log_prob: -60.400704584832134
+1	Das	2	تلك	_	1	?	?	1	?	?	1	?	?	1	Das	_	?	?	?	?	?	?	?	?	3	de	_	?	?	?	?	?	?	?	?	?
+2	Gerüst	1	قاعدة	_	1	?	?	1	?	?	1	?	?	2	Gerüst	_	2	base	_	_	_	2	base	_	2	base	_	2	base	_	2	basis	_	2	base	_
+3	der	?	?	?	1	?	?	1	?	?	1	?	?	3	der	_	1	The	_	_	_	1	La	_	1	La	_	1	La	_	1	De	_	?	?	?
+4	Blätter	3	البتلات	_	1	?	?	1	?	?	1	?	?	4	Blätter	_	4	those	_	_	_	4	los	_	6	pétales	_	5	petali	_	?	?	?	4	pétalas	_
+5	muss	4	يجب	_	1	?	?	1	?	?	1	?	?	5	muss	_	6	has	_	_	_	6	tiene	_	7	doit	_	6	deve	_	6	moet	_	5	tem	_
+6	jedes	6	تنتقل	_	1	?	?	1	?	?	1	?	?	6	jedes	_	8	go	_	_	_	8	ir	_	9	positionner	_	7	andare	_	5	bloemblaadjes	_	9	sempre	_
+7	Mal	6	تنتقل	_	1	?	?	1	?	?	1	?	?	7	Mal	Conjunction.EXPANSION	8	go	_	_	_	12	cada	_	9	positionner	_	7	andare	_	7	elke	_	8	colocar	_
+8	exakt	?	?	?	1	?	?	1	?	?	1	?	?	8	exakt	_	9	to	_	_	_	11	lugar	_	13	à	specification.Restatement.EXPANSION	9	stesso	_	10	dezelfde	_	12	posição	_
+9	zur	8	مرة	_	1	?	?	1	?	?	1	?	?	9	zur	_	16	within	_	_	_	12	cada	_	9	positionner	_	11	ogni	_	9	naar	_	10	na	_
+10	selben	13	حدود	_	1	?	?	1	?	?	1	?	?	10	selben	_	13	every	_	_	_	12	cada	_	9	positionner	_	12	volta	_	10	dezelfde	_	11	mesma	_
+11	Stelle	9	إلى	_	1	?	?	1	?	?	1	?	?	11	Stelle	_	11	same	_	_	_	9	al	_	10	au	_	13	con	_	10	dezelfde	_	12	posição	_
+12	ausfahren,	?	?	?	1	?	?	1	?	?	1	?	?	12	ausfahren,	_	?	?	?	?	?	16	rango	_	8	se	_	?	?	?	?	?	?	11	mesma	_
+13	auf	12	في	_	1	?	?	1	?	?	1	?	?	13	auf	_	?	?	?	?	?	?	?	?	15	fois,	_	15	scarto	_	13	op	_	18	décimo	_
+14	ein	?	?	?	1	?	?	1	?	?	1	?	?	14	ein	_	17	a	_	_	_	17	de	_	?	?	?	16	di	_	14	een	_	16	de	_
+15	Zehntel	14	عُشر	_	1	?	?	1	?	?	1	?	?	15	Zehntel	_	18	tenth	_	_	_	19	décima	_	16	au	_	18	decimo	_	15	tiende	_	18	décimo	_
+16	Millimeter	14	عُشر	_	1	?	?	1	?	?	1	?	?	16	Millimeter	_	21	millimeter.	_	_	_	19	décima	_	19	millimètre	_	18	decimo	_	18	millimeter.	_	18	décimo	_
+17	genau.	15	المليمتر	_	1	?	?	1	?	?	1	?	?	17	genau.	_	21	millimeter.	_	_	_	21	milímetro.	_	19	millimètre	_	19	di	_	18	millimeter.	_	19	de	_
+
+# sent_id = 132760
+# text:  Wir haben den Test 16-mal ausgeführt, und 16-mal blieb es exakt an derselben Stelle stehen, auf ein Zehntel Millimeter genau.
+# trans: Efectuámos este teste 16 vezes, e das 16 vezes voltou à posição exacta com a precisão de um décimo de milímetro.
+# forward_log_prob: -67.61047030650425
+# backward_log_prob: -68.06159077148841
+1	Wir	?	?	?	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	?	?	?	1	Nous	_	?	?	?	1	We	_	?	?	?
+2	haben	?	?	?	1	?	?	1	?	?	1	?	?	2	haben	_	?	?	?	?	?	?	?	?	2	avons	_	1	Abbiamo	_	4	test	_	3	teste	_
+3	den	?	?	?	1	?	?	1	?	?	1	?	?	3	den	_	?	?	?	?	?	?	?	?	12	elle	_	5	16	_	5	16	_	4	16	_
+4	Test	1	أجرينا	_	1	?	?	1	?	?	1	?	?	4	Test	_	4	test	_	_	_	3	prueba	_	3	effectué	_	4	test	_	2	deden	_	3	teste	_
+5	16-mal	2	هذا	_	1	?	?	1	?	?	1	?	?	5	16-mal	_	2	ran	_	_	_	1	Corrimos	_	4	ce	_	5	16	_	3	deze	_	1	Efectuámos	_
+6	ausgeführt,	5	مرة،	_	1	?	?	1	?	?	1	?	?	6	ausgeführt,	_	8	16	_	_	_	4	16	_	6	16	_	8	sedici	_	5	16	_	7	das	_
+7	und	6	وفي	TEMPORAL	1	?	?	1	?	?	1	?	?	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	7	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	y	_	8	et	Conjunction.EXPANSION	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	7	en	Conjunction.EXPANSION	6	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	16-mal	6	وفي	TEMPORAL	1	?	?	1	?	?	1	?	?	8	16-mal	_	8	16	_	_	_	8	16	_	?	?	?	8	sedici	_	8	16	_	8	16	_
+9	blieb	8	16	_	1	?	?	1	?	?	1	?	?	9	blieb	_	11	went	_	_	_	8	16	_	10	chaque	_	12	posizionato	_	9	keer	_	9	vezes	_
+10	es	?	?	?	1	?	?	1	?	?	1	?	?	10	es	_	10	it	_	_	_	8	16	_	?	?	?	11	è	_	11	ze	_	11	à	_
+11	exakt	?	?	?	1	?	?	1	?	?	1	?	?	11	exakt	_	?	?	?	?	?	?	?	?	9	à	specification.Restatement.EXPANSION	?	?	?	12	op	_	12	posição	_
+12	an	10	انتقلت	_	1	?	?	1	?	?	1	?	?	12	an	_	14	exact	_	_	_	?	?	?	14	placée	_	13	esattamente	_	13	exact	_	13	exacta	_
+13	derselben	10	انتقلت	_	1	?	?	1	?	?	1	?	?	13	derselben	_	14	exact	_	_	_	10	fueron	_	13	s'est	_	13	esattamente	_	13	exact	_	13	exacta	_
+14	Stelle	11	إلى	_	1	?	?	1	?	?	1	?	?	14	Stelle	_	15	same	_	_	_	11	al	_	16	au	_	14	nello	_	14	dezelfde	_	14	com	_
+15	stehen,	10	انتقلت	_	1	?	?	1	?	?	1	?	?	15	stehen,	_	14	exact	_	_	_	10	fueron	_	15	exactement	_	13	esattamente	_	13	exact	_	13	exacta	_
+16	auf	16	عُشر	_	1	?	?	1	?	?	1	?	?	16	auf	_	15	same	_	_	_	11	al	_	?	?	?	19	scarto	_	16	tot	_	19	décimo	_
+17	ein	15	إلى	_	1	?	?	1	?	?	1	?	?	17	ein	_	18	a	_	_	_	15	una	_	?	?	?	20	di	_	17	een	_	18	um	_
+18	Zehntel	16	عُشر	_	1	?	?	1	?	?	1	?	?	18	Zehntel	_	19	tenth	_	_	_	16	décima	_	19	au	_	22	decimo	_	18	tiende	_	19	décimo	_
+19	Millimeter	16	عُشر	_	1	?	?	1	?	?	1	?	?	19	Millimeter	_	22	millimeter.	_	_	_	18	milímetro.	_	22	millimètre	_	22	decimo	_	21	millimeter.	_	19	décimo	_
+20	genau.	17	المليمتر.	_	1	?	?	1	?	?	1	?	?	20	genau.	_	22	millimeter.	_	_	_	18	milímetro.	_	22	millimètre	_	23	di	_	21	millimeter.	_	20	de	_
+
+# sent_id = 132761
+# text:  Dies muss mit absoluter Präzision erfolgen, aber wenn es gelingt, diese Technologie zu bauen und ins All zu bringen, dann könnte man so etwas erblicken:
+# trans: Isto tem que ser feito com grande precisão, mas se o conseguirmos, se conseguirmos construir esta tecnologia, se a colocarmos no espaço, poderão ver algo assim.
+# forward_log_prob: -90.96877817617808
+# backward_log_prob: -98.42029875691031
+1	Dies	4	هذه	_	1	?	?	1	?	?	1	?	?	1	Dies	_	1	This	_	result.Cause.CONTIGENCY	_	6	con	_	?	?	?	18	questa	_	1	Dit	_	1	Isto	_
+2	muss	1	يجب	_	1	?	?	1	?	?	1	?	?	2	muss	_	2	has	_	_	_	2	tiene	_	2	doit	_	3	deve	_	2	moet	_	2	tem	_
+3	mit	3	تكون	_	1	?	?	1	?	?	1	?	?	3	mit	_	7	precisely,	_	_	_	1	Esto	_	1	Ça	_	1	Tutto	_	3	zeer	_	5	feito	_
+4	absoluter	5	العملية	_	1	?	?	1	?	?	1	?	?	4	absoluter	_	5	done	_	_	_	5	hecho	_	5	précis,	_	5	fatto	_	3	zeer	_	5	feito	_
+5	Präzision	5	العملية	_	1	?	?	1	?	?	1	?	?	5	Präzision	_	6	very	_	_	_	7	mucha	_	5	précis,	_	6	con	_	3	zeer	_	5	feito	_
+6	erfolgen,	6	دقيقة	_	1	?	?	1	?	?	1	?	?	6	erfolgen,	_	7	precisely,	_	_	_	7	mucha	_	5	précis,	_	7	grande	_	3	zeer	_	5	feito	_
+7	aber	10	عمل	_	1	?	?	1	?	?	1	?	?	7	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	8	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	pero	precedence.Asynchronous.TEMPORAL	6	mais	Contrast.COMPARISON|Exception.EXPANSION	9	ma	Concession.COMPARISON|Contrast.COMPARISON	5	maar	_	9	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+8	wenn	8	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	8	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	9	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	si	TEMPORAL	7	si	Concession.COMPARISON|Condition.CONTIGENCY	10	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	6	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	10	se	CONTIGENCY|Condition.CONTIGENCY
+9	es	8	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	9	es	_	10	we	_	_	_	10	si	TEMPORAL	8	nous	_	10	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	6	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	10	se	CONTIGENCY|Condition.CONTIGENCY
+10	gelingt,	14	بناء	_	1	?	?	1	?	?	1	?	?	10	gelingt,	_	13	this,	_	_	_	16	construir	_	14	pouvons	_	11	riuscissimo	_	8	deze	_	12	conseguirmos,	_
+11	diese	?	?	?	1	?	?	1	?	?	1	?	?	11	diese	_	13	this,	_	_	_	17	esta	_	15	construire	_	13	farlo,	_	?	?	?	16	esta	_
+12	Technologie	14	بناء	_	1	?	?	1	?	?	1	?	?	12	Technologie	_	12	do	_	_	_	18	tecnología,	_	17	technologie,	_	12	a	_	9	technologie	_	17	tecnologia,	_
+13	zu	13	استطعنا	_	1	?	?	1	?	?	1	?	?	13	zu	_	12	do	_	_	_	12	hacer	_	?	?	?	15	riuscissimo	_	10	kunnen	_	14	conseguirmos	_
+14	bauen	16	التكونولوجيا،	_	1	?	?	1	?	?	1	?	?	14	bauen	_	17	build	_	_	_	24	espacio,	_	22	dans	_	?	?	?	11	bouwen,	_	15	construir	_
+15	und	17	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	15	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	24	it	_	_	_	23	el	_	22	dans	_	16	a	_	12	en	Conjunction.EXPANSION	21	no	_
+16	ins	17	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	16	ins	_	21	we	_	_	_	24	espacio,	_	23	l'espace,	_	23	nello	_	13	we	_	22	espaço,	_
+17	All	19	إطلاقها	_	1	?	?	1	?	?	1	?	?	17	All	_	?	?	?	?	?	23	el	_	16	cette	_	24	spazio,	_	17	ruimte	_	22	espaço,	_
+18	zu	18	استطعنا	_	1	?	?	1	?	?	1	?	?	18	zu	_	?	?	?	?	?	21	conseguirlo	_	19	nous	_	21	potessimo	_	14	ze	_	?	?	?
+19	bringen,	19	إطلاقها	_	1	?	?	1	?	?	1	?	?	19	bringen,	_	25	into	_	_	_	21	conseguirlo	_	24	vous	_	22	portarla	_	18	krijgen,	_	20	colocarmos	_
+20	dann	18	استطعنا	_	1	?	?	1	?	?	1	?	?	20	dann	Condition.CONTIGENCY|Conjunction.EXPANSION|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	22	can	_	_	_	20	podemos	_	26	voir	_	21	potessimo	_	?	?	?	20	colocarmos	_
+21	könnte	26	شيء	_	1	?	?	1	?	?	1	?	?	21	könnte	_	28	might	_	_	_	19	si	TEMPORAL	25	pourrez	_	20	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	19	zou	_	23	poderão	_
+22	man	26	شيء	_	1	?	?	1	?	?	1	?	?	22	man	_	29	see	_	_	_	28	vean	_	20	pouvons	_	26	vedere	_	18	krijgen,	_	24	ver	_
+23	so	27	كهذا.	_	1	?	?	1	?	?	1	?	?	23	so	_	31	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	29	algo	_	29	comme	COMPARISON|specification.Restatement.EXPANSION	29	questo	_	18	krijgen,	_	25	algo	_
+24	etwas	26	شيء	_	1	?	?	1	?	?	1	?	?	24	etwas	_	30	something	_	_	_	29	algo	_	27	quelque	_	27	qualcosa	_	21	zoiets	_	25	algo	_
+25	erblicken:	25	مشاهدة	_	1	?	?	1	?	?	1	?	?	25	erblicken:	_	32	this.	_	_	_	28	vean	_	?	?	?	25	potreste	_	20	je	_	26	assim.	_
+
+# sent_id = 132762
+# text:  Dies ist ein Bild eines unserer Nachbarsterne vom Hubble-Weltraumteleskop.
+# trans: Isto é uma imagem de uma das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble.
+# forward_log_prob: -59.810889275682186
+# backward_log_prob: -32.891029645857635
+1	Dies	3	لواحد	_	1	?	?	1	?	?	1	?	?	1	Dies	_	3	picture	_	_	_	1	Esa	_	3	photo	_	2	l'immagine	_	1	Dat	_	1	Isto	EXPANSION|specification.Restatement.EXPANSION
+2	ist	?	?	?	1	?	?	1	?	?	1	?	?	2	ist	_	1	That's	_	_	_	2	es	_	1	C'est	_	1	È	_	2	is	_	2	é	_
+3	ein	?	?	?	1	?	?	1	?	?	1	?	?	3	ein	_	2	a	_	_	_	3	una	_	2	une	_	3	di	_	3	een	_	3	uma	_
+4	Bild	2	الصورة	_	1	?	?	1	?	?	1	?	?	4	Bild	_	9	stars	_	_	_	4	imagen	_	8	de	_	9	più	_	4	foto	_	4	imagem	_
+5	eines	7	المجاورة	_	1	?	?	1	?	?	1	?	?	5	eines	_	9	stars	_	_	_	10	vecinas	_	4	d'une	_	10	vicine	_	4	foto	_	11	de	_
+6	unserer	5	أقرب	_	1	?	?	1	?	?	1	?	?	6	unserer	_	5	one	_	_	_	8	nuestras	_	6	étoiles	_	10	vicine	_	8	onze	_	10	próximas	_
+7	Nachbarsterne	9	ألتقطت	_	1	?	?	1	?	?	1	?	?	7	Nachbarsterne	_	9	stars	_	_	_	13	tomadas	_	7	proches	_	11	ripresa	_	11	genomen	_	13	obtida	_
+8	vom	10	بالتيليسكوب	_	1	?	?	1	?	?	1	?	?	8	vom	_	12	the	_	_	_	16	telescopio	_	13	télescope	_	12	dal	_	11	genomen	_	16	Telescópio	_
+9	Hubble-Weltraumteleskop.	10	بالتيليسكوب	_	1	?	?	1	?	?	1	?	?	9	Hubble-Weltraumteleskop.	_	14	Space	_	_	_	17	espacial	_	15	Hubble.	_	11	ripresa	_	11	genomen	_	17	Espacial	_
+
+# sent_id = 132763
+# text:  Wenn wir ein ähnliches Weltraumteleskop, ein etwas größeres, dort hinausbringen und eine Blende davorfliegen könnten, dann sähen wir vielleicht so etwas ... Das ist ein Familienporträt des Sonnensystems --
+# trans: Se usarmos um telescópio semelhante, ligeiramente maior, se o colocarmos no espaço, se pusermos uma antepara à sua frente, o que poderemos ver é algo como isto — isto é um retrato de família do nosso sistema solar — mas não o nosso.
+# forward_log_prob: -162.92853794540392
+# backward_log_prob: -111.21867243517559
+1	Wenn	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
+2	wir	3	أن	_	1	?	?	1	?	?	1	?	?	2	wir	_	2	we	_	_	_	?	?	?	2	nous	_	?	?	?	2	we	_	?	?	?
+3	ein	5	تيليسكوبا	_	1	?	?	1	?	?	1	?	?	3	ein	_	5	a	_	_	_	4	un	_	5	un	_	4	un	_	3	een	_	3	um	_
+4	ähnliches	4	نأخذ	_	1	?	?	1	?	?	1	?	?	4	ähnliches	_	4	take	_	_	_	3	tomar	_	4	prendre	_	3	prendere	_	4	soortgelijke	_	2	usarmos	_
+5	Weltraumteleskop,	5	تيليسكوبا	_	1	?	?	1	?	?	1	?	?	5	Weltraumteleskop,	_	7	space	_	_	_	5	telescopio	_	6	télescope	_	5	telescopio	_	5	ruimtetelescoop,	_	4	telescópio	_
+6	ein	12	إلى	_	1	?	?	1	?	?	1	?	?	6	ein	_	?	?	?	?	?	8	un	_	?	?	?	8	questo	_	?	?	?	3	um	_
+7	etwas	7	مشابها،	_	1	?	?	1	?	?	1	?	?	7	etwas	_	10	larger,	_	_	_	9	poco	_	11	l'envoyer	_	9	tipo,	_	6	maar	_	10	colocarmos	_
+8	größeres,	8	أكبر	_	1	?	?	1	?	?	1	?	?	8	größeres,	_	9	slightly	_	_	_	9	poco	_	8	légèrement	_	11	po'	_	8	groter,	_	14	pusermos	_
+9	dort	11	ونرسله	_	1	?	?	1	?	?	1	?	?	9	dort	_	14	there,	_	_	_	12	ponerlo	_	10	grand,	_	15	lì	_	9	daar	reason.Cause.CONTIGENCY	13	se	CONTIGENCY|Condition.CONTIGENCY
+10	hinausbringen	11	ونرسله	_	1	?	?	1	?	?	1	?	?	10	hinausbringen	_	15	fly	_	_	_	13	ahí,	_	12	là-bas,	_	14	metterlo	_	11	plaatsen,	_	14	pusermos	_
+11	und	?	?	?	1	?	?	1	?	?	1	?	?	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	18	in	_	_	_	?	?	?	13	placer	_	?	?	?	?	?	?	17	à	_
+12	eine	?	?	?	1	?	?	1	?	?	1	?	?	12	eine	_	21	it,	_	_	_	?	?	?	16	occultant	_	20	occultatore,	_	14	een	_	15	uma	_
+13	Blende	16	الستارة	_	1	?	?	1	?	?	1	?	?	13	Blende	_	16	an	_	_	_	18	frente	_	14	un	_	20	occultatore,	_	16	ervoor,	_	16	antepara	_
+14	davorfliegen	16	الستارة	_	1	?	?	1	?	?	1	?	?	14	davorfliegen	_	19	front	_	_	_	18	frente	_	17	devant,	_	17	spedire	_	16	ervoor,	_	19	frente,	_
+15	könnten,	17	أمامه،	_	1	?	?	1	?	?	1	?	?	15	könnten,	_	?	?	?	?	?	20	él,	_	19	pourrions	_	23	potremmo	_	16	ervoor,	_	22	poderemos	_
+16	dann	17	أمامه،	_	1	?	?	1	?	?	1	?	?	16	dann	Condition.CONTIGENCY|Conjunction.EXPANSION|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	24	might	_	_	_	21	podríamos	_	19	pourrions	_	23	potremmo	_	20	kunnen	_	22	poderemos	_
+17	sähen	20	نراه	_	1	?	?	1	?	?	1	?	?	17	sähen	_	?	?	?	?	?	21	podríamos	_	?	?	?	?	?	?	?	?	?	?	?	?
+18	wir	?	?	?	1	?	?	1	?	?	1	?	?	18	wir	_	23	we	_	_	_	22	ver	_	18	nous	_	24	vedere	_	18	we	_	?	?	?
+19	vielleicht	22	شبيها	_	1	?	?	1	?	?	1	?	?	19	vielleicht	_	30	--	_	_	_	27	retrato	_	25	Voici	_	31	ritratto	_	22	-	_	28	—	_
+20	so	21	شيئًا	_	1	?	?	1	?	?	1	?	?	20	so	_	28	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	25	así,	_	22	chose	_	28	questo	_	23	een	_	27	isto	_
+21	etwas	?	?	?	1	?	?	1	?	?	1	?	?	21	etwas	_	27	something	_	_	_	24	algo	_	21	quelque	_	26	qualcosa	_	19	zoiets	_	25	algo	_
+22	...	?	?	?	1	?	?	1	?	?	1	?	?	22	...	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	26	ons	_	26	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+23	Das	?	?	?	1	?	?	1	?	?	1	?	?	23	Das	_	29	that	_	_	_	34	que	_	?	?	?	?	?	?	?	?	?	42	o	_
+24	ist	?	?	?	1	?	?	1	?	?	1	?	?	24	ist	_	31	that's	_	_	_	36	es	_	?	?	?	25	è	_	?	?	?	30	é	_
+25	ein	30	الشمسية	_	1	?	?	1	?	?	1	?	?	25	ein	_	32	a	_	_	_	26	un	_	26	une	_	30	un	_	23	een	_	31	um	_
+26	Familienporträt	27	عائلتنا	_	1	?	?	1	?	?	1	?	?	26	Familienporträt	_	33	family	_	_	_	30	nuestro	_	32	mais	Contrast.COMPARISON|Exception.EXPANSION	33	famiglia	_	28	-	_	36	nosso	_
+27	des	?	?	?	1	?	?	1	?	?	1	?	?	27	des	_	38	system	_	_	_	31	sistema	_	31	solaire,	_	36	sistema	_	31	het	_	37	sistema	_
+28	Sonnensystems	?	?	?	1	?	?	1	?	?	1	?	?	28	Sonnensystems	_	37	solar	_	_	_	31	sistema	_	30	système	_	36	sistema	_	27	zonnestelsel	_	37	sistema	_
+29	--	30	الشمسية	_	1	?	?	1	?	?	1	?	?	29	--	_	?	?	?	?	?	37	el	_	34	le	_	39	non	_	26	ons	_	41	não	_
+
+# sent_id = 132764
+# text:  aber nicht unseres; wir hoffen auf ein anderes Sonnensystem --, durch eine Blende gesehen, eine Starshade wie diese.
+# trans: Esperamos que seja outro sistema solar visto através de uma antepara, através de uma sombra estelar como esta.
+# forward_log_prob: -58.123251164259834
+# backward_log_prob: -61.47846025130933
+1	aber	?	?	?	1	?	?	1	?	?	1	?	?	1	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	2	hoping	_	_	_	2	que	_	?	?	?	2	che	_	2	hopen	_	2	que	_
+2	nicht	1	نتمنى	_	1	?	?	1	?	?	1	?	?	2	nicht	_	2	hoping	_	_	_	1	Esperamos	_	?	?	?	1	Speriamo	_	2	hopen	_	1	Esperamos	_
+3	unseres;	1	نتمنى	_	1	?	?	1	?	?	1	?	?	3	unseres;	_	1	We're	_	_	_	1	Esperamos	_	2	système	_	1	Speriamo	_	2	hopen	_	3	seja	_
+4	wir	2	أن	_	1	?	?	1	?	?	1	?	?	4	wir	_	?	?	?	?	?	?	?	?	?	?	?	4	il	_	1	We	_	?	?	?
+5	hoffen	4	المجموعة	_	1	?	?	1	?	?	1	?	?	5	hoffen	_	5	someone	_	_	_	7	sistema	_	5	quelqu'un	_	5	sistema	_	5	iemand	_	5	sistema	_
+6	auf	6	لآخرين	_	1	?	?	1	?	?	1	?	?	6	auf	_	6	else's	_	_	_	10	otro	_	7	vu	_	12	si	_	5	iemand	_	?	?	?
+7	ein	5	الشمسية	_	1	?	?	1	?	?	1	?	?	7	ein	_	?	?	?	?	?	17	una	_	?	?	?	15	un	_	12	een	_	?	?	?
+8	anderes	7	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	8	anderes	_	7	solar	_	_	_	13	ve	_	8	à	specification.Restatement.EXPANSION	8	qualcun	_	6	anders	Condition.CONTIGENCY	7	visto	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+9	Sonnensystem	8	تُرى	_	1	?	?	1	?	?	1	?	?	9	Sonnensystem	_	9	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	13	ve	_	9	travers	_	9	altro	_	6	anders	Condition.CONTIGENCY	8	através	EXPANSION
+10	--,	?	?	?	1	?	?	1	?	?	1	?	?	10	--,	_	?	?	?	?	?	12	se	_	10	un	_	?	?	?	9	zijn	_	11	antepara,	_
+11	durch	10	طريق	_	1	?	?	1	?	?	1	?	?	11	durch	reason.Cause.CONTIGENCY	11	through	_	_	_	15	través	_	9	travers	_	13	vede	_	13	afschermer,	_	12	através	EXPANSION
+12	eine	12	أو	disjunctive.Alternative.EXPANSION	1	?	?	1	?	?	1	?	?	12	eine	_	10	seen	_	_	_	14	a	_	12	occultant,	_	14	tramite	_	11	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	10	uma	_
+13	Blende	11	الستارة،	_	1	?	?	1	?	?	1	?	?	13	Blende	_	12	an	_	_	_	18	pantalla,	_	11	disque	_	16	occultatore,	_	?	?	?	11	antepara,	_
+14	gesehen,	14	خلال	_	1	?	?	1	?	?	1	?	?	14	gesehen,	_	14	through	_	_	_	19	a	_	13	à	specification.Restatement.EXPANSION	17	attraverso	_	10	gezien	reason.Cause.CONTIGENCY	12	através	EXPANSION
+15	eine	13	من	_	1	?	?	1	?	?	1	?	?	15	eine	_	13	occulter,	_	_	_	22	una	_	15	un	_	16	occultatore,	_	14	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	14	uma	_
+16	Starshade	15	حاجبة	_	1	?	?	1	?	?	1	?	?	16	Starshade	_	16	starshade	_	_	_	23	sombrilla	_	16	starshade	_	18	"un'ombreggia	_	16	sterrenscherm.	_	15	sombra	_
+17	wie	15	حاجبة	_	1	?	?	1	?	?	1	?	?	17	wie	COMPARISON|Synchronous.TEMPORAL	16	starshade	_	_	_	24	estelar	_	17	comme	COMPARISON|specification.Restatement.EXPANSION	20	come	EXPANSION|Synchronous.TEMPORAL	16	sterrenscherm.	_	17	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+18	diese.	15	حاجبة	_	1	?	?	1	?	?	1	?	?	18	diese.	_	16	starshade	_	_	_	24	estelar	_	16	starshade	_	?	?	?	16	sterrenscherm.	_	18	esta.	_
+
+# sent_id = 132765
+# text:  Sie sehen Jupiter, Saturn, Uranus, Neptun und, direkt dort in der Mitte, neben dem Rest an Licht, ist der blass-blaue Punkt.
+# trans: Podemos ver Júpiter, podemos ver Saturno, Urano, Neptuno, e mesmo no centro, próximo da luz residual está o ponto azul pálido.
+# forward_log_prob: -70.27830501857919
+# backward_log_prob: -72.71080708058179
+1	Sie	3	المشتري،	_	1	?	?	1	?	?	1	?	?	1	Sie	_	?	?	?	?	?	3	a	_	?	?	?	?	?	?	1	Je	_	?	?	?
+2	sehen	3	المشتري،	_	1	?	?	1	?	?	1	?	?	2	sehen	_	3	see	_	_	_	2	ver	_	3	voir	_	2	vedere	_	1	Je	_	2	ver	_
+3	Jupiter,	1	تستطيعون	_	1	?	?	1	?	?	1	?	?	3	Jupiter,	_	1	You	_	_	_	1	Pueden	_	1	On	_	1	Potete	_	2	ziet	_	1	Podemos	_
+4	Saturn,	3	المشتري،	_	1	?	?	1	?	?	1	?	?	4	Saturn,	_	4	Jupiter,	_	_	_	4	Júpiter,	_	4	Jupiter,	_	4	potete	_	4	Saturnus,	_	3	Júpiter,	_
+5	Uranus,	4	وزحل،	_	1	?	?	1	?	?	1	?	?	5	Uranus,	_	9	Uranus,	_	_	_	9	Urano,	_	8	Saturne,	_	7	Urano,	_	5	Uranus,	_	7	Urano,	_
+6	Neptun	5	وأورانوس،	_	1	?	?	1	?	?	1	?	?	6	Neptun	_	8	Saturn,	_	_	_	7	a	_	8	Saturne,	_	8	Nettuno,	_	6	Neptunus,	_	6	Saturno,	_
+7	und,	7	وهناك	_	1	?	?	1	?	?	1	?	?	7	und,	_	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	11	et	Conjunction.EXPANSION	9	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	7	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	direkt	6	ونيبتون،	_	1	?	?	1	?	?	1	?	?	8	direkt	_	10	Neptune,	_	_	_	10	Neptuno,	_	9	Uranus,	_	8	Nettuno,	_	6	Neptunus,	_	8	Neptuno,	_
+9	dort	6	ونيبتون،	_	1	?	?	1	?	?	1	?	?	9	dort	_	13	there	_	_	_	?	?	?	6	peut	_	11	lì	_	?	?	?	8	Neptuno,	_
+10	in	8	في	_	1	?	?	1	?	?	1	?	?	10	in	_	14	in	_	_	_	14	en	_	?	?	?	10	proprio	_	9	in	_	10	mesmo	_
+11	der	8	في	_	1	?	?	1	?	?	1	?	?	11	der	_	15	the	_	_	_	14	en	_	13	là	_	12	nel	_	9	in	_	10	mesmo	_
+12	Mitte,	9	المنتصف،	_	1	?	?	1	?	?	1	?	?	12	Mitte,	_	16	center,	_	_	_	16	centro,	_	14	au	_	13	centro,	_	11	centrum,	_	11	no	_
+13	neben	10	بجانب	_	1	?	?	1	?	?	1	?	?	13	neben	_	16	center,	_	_	_	17	junto	_	15	centre,	_	17	residua	_	14	resterende	_	13	próximo	_
+14	dem	10	بجانب	_	1	?	?	1	?	?	1	?	?	14	dem	_	17	next	_	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	22	ese	_	15	centre,	_	19	quel	_	14	resterende	_	13	próximo	_
+15	Rest	10	بجانب	_	1	?	?	1	?	?	1	?	?	15	Rest	_	20	residual	_	_	_	21	residual	_	20	résiduelle	_	18	c'è	_	14	resterende	_	16	residual	_
+16	an	10	بجانب	_	1	?	?	1	?	?	1	?	?	16	an	_	20	residual	_	_	_	21	residual	_	20	résiduelle	_	?	?	?	14	resterende	_	16	residual	_
+17	Licht,	11	الضوء	_	1	?	?	1	?	?	1	?	?	17	Licht,	_	21	light	_	_	_	20	luz	_	19	lumière	_	23	Quella	_	15	licht	_	15	luz	_
+18	ist	?	?	?	1	?	?	1	?	?	1	?	?	18	ist	_	22	is	_	_	_	26	Es	_	?	?	?	24	è	_	20	is	_	18	o	_
+19	der	12	الخافت	_	1	?	?	1	?	?	1	?	?	19	der	_	?	?	?	?	?	27	la	_	21	se	_	25	la	_	21	de	_	?	?	?
+20	blass-blaue	?	?	?	1	?	?	1	?	?	1	?	?	20	blass-blaue	_	28	Earth.	_	_	_	28	Tierra.	_	22	trouve	_	?	?	?	22	Aarde.	_	?	?	?
+21	Punkt.	14	النقطة	_	1	?	?	1	?	?	1	?	?	21	Punkt.	_	24	pale	_	_	_	23	punto	_	24	point	_	20	pallido	_	17	bleekblauwe	_	19	ponto	_
+
+# sent_id = 132766
+# text:  Das ist die Erde. Das wollen wir sehen -- sehen, ob es Wasser gibt, Sauerstoff, Ozon, Dinge, die uns verraten, ob es dort Leben geben könnte.
+# trans: É a Terra. Queremos ver isso, ver se tem água, oxigénio, ozono, as coisas que nos poderão dizer se poderá ter vida.
+# forward_log_prob: -73.37283663019024
+# backward_log_prob: -84.74150040477159
+1	Das	?	?	?	1	?	?	1	?	?	1	?	?	1	Das	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	Dat	_	1	É	_
+2	ist	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	ist	_	?	?	?	?	?	?	?	?	3	C'est	_	?	?	?	9	is,	_	1	É	_
+3	die	2	الأرض.	_	1	?	?	1	?	?	1	?	?	3	die	_	?	?	?	?	?	?	?	?	1	La	_	?	?	?	?	?	?	2	a	_
+4	Erde.	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	Erde.	_	?	?	?	?	?	2	verla,	_	2	Terre.	_	?	?	?	?	?	?	3	Terra.	_
+5	Das	?	?	?	1	?	?	1	?	?	1	?	?	5	Das	_	5	that,	_	_	_	?	?	?	?	?	?	?	?	?	1	Dat	_	?	?	?
+6	wollen	3	نريد	_	1	?	?	1	?	?	1	?	?	6	wollen	_	2	want	_	_	_	1	Queremos	_	7	voulons	_	1	Vogliamo	_	2	willen	_	4	Queremos	_
+7	wir	4	أن	_	1	?	?	1	?	?	1	?	?	7	wir	_	1	We	_	_	_	4	ver	_	6	nous	_	4	vedere	_	3	we	_	5	ver	_
+8	sehen	5	نرى	_	1	?	?	1	?	?	1	?	?	8	sehen	_	6	see	_	_	_	3	a	_	8	voir.	_	4	vedere	_	4	zien,	_	7	ver	_
+9	--	?	?	?	1	?	?	1	?	?	1	?	?	9	--	_	?	?	?	?	?	?	?	?	10	s'il	_	?	?	?	?	?	?	7	ver	_
+10	sehen,	8	نرى	_	1	?	?	1	?	?	1	?	?	10	sehen,	_	?	?	?	?	?	4	ver	_	9	Voir	_	4	vedere	_	5	zien	_	7	ver	_
+11	ob	8	نرى	_	1	?	?	1	?	?	1	?	?	11	ob	_	10	oxygen,	_	_	_	5	si	TEMPORAL	11	y	_	5	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	6	of	disjunctive.Alternative.EXPANSION	8	se	CONTIGENCY|Condition.CONTIGENCY
+12	es	9	الماء،	_	1	?	?	1	?	?	1	?	?	12	es	_	9	water,	_	_	_	6	hay	_	14	l'eau,	_	6	c'è	_	8	water	_	10	água,	_
+13	Wasser	9	الماء،	_	1	?	?	1	?	?	1	?	?	13	Wasser	_	9	water,	_	_	_	7	agua,	_	14	l'eau,	_	10	le	_	8	water	_	10	água,	_
+14	gibt,	10	والأكسجين،	_	1	?	?	1	?	?	1	?	?	14	gibt,	_	8	there's	_	_	_	6	hay	_	12	a	_	6	c'è	_	11	ozon,	_	9	tem	_
+15	Sauerstoff,	9	الماء،	_	1	?	?	1	?	?	1	?	?	15	Sauerstoff,	_	13	things	_	_	_	9	ozono,	_	18	l'ozone,	_	11	cose	_	10	zuurstof,	_	11	oxigénio,	_
+16	Ozon,	11	والأوزون،	_	1	?	?	1	?	?	1	?	?	16	Ozon,	_	13	things	_	_	_	11	cosas	_	18	l'ozone,	_	11	cose	_	12	dingen	_	14	coisas	_
+17	Dinge,	12	وتلك	_	1	?	?	1	?	?	1	?	?	17	Dinge,	_	13	things	_	_	_	13	nos	_	20	choses	_	13	ci	_	14	ons	_	14	coisas	_
+18	die	14	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	18	die	_	12	the	_	_	_	?	?	?	19	les	_	12	che	_	13	die	_	13	as	_
+19	uns	13	الأشياء	_	1	?	?	1	?	?	1	?	?	19	uns	_	16	tell	_	_	_	13	nos	_	23	pourraient	_	13	ci	_	15	vertellen	_	16	nos	_
+20	verraten,	13	الأشياء	_	1	?	?	1	?	?	1	?	?	20	verraten,	_	20	could	_	_	_	14	pueden	_	23	pourraient	_	14	possono	_	15	vertellen	_	17	poderão	_
+21	ob	16	تخبرنا	_	1	?	?	1	?	?	1	?	?	21	ob	_	17	us	_	_	_	15	indicar	_	25	dire	_	17	può	_	17	er	_	18	dizer	_
+22	es	?	?	?	1	?	?	1	?	?	1	?	?	22	es	_	19	it	_	_	_	16	que	_	22	nous	_	?	?	?	16	dat	_	19	se	CONTIGENCY|Condition.CONTIGENCY
+23	dort	?	?	?	1	?	?	1	?	?	1	?	?	23	dort	_	21	harbor	_	_	_	?	?	?	29	peut	_	18	ospitare	_	18	leven	_	19	se	CONTIGENCY|Condition.CONTIGENCY
+24	Leben	18	حياة.	_	1	?	?	1	?	?	1	?	?	24	Leben	_	21	harbor	_	_	_	17	podría	_	28	vie	_	18	ospitare	_	18	leven	_	20	poderá	_
+25	geben	18	حياة.	_	1	?	?	1	?	?	1	?	?	25	geben	_	21	harbor	_	_	_	18	albergar	_	28	vie	_	20	vita.	_	18	leven	_	22	vida.	_
+26	könnte.	18	حياة.	_	1	?	?	1	?	?	1	?	?	26	könnte.	_	22	life.	_	_	_	19	vida.	_	26	si	Concession.COMPARISON|Condition.CONTIGENCY	16	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	19	zou	_	?	?	?
+
+# sent_id = 132767
+# text:  Für mich ist dies die coolste Wissenschaft.
+# trans: Penso que esta é a ciência mais fixe possível.
+# forward_log_prob: -24.728656373085073
+# backward_log_prob: -22.21809438995973
+1	Für	1	أعتقد	_	1	?	?	1	?	?	1	?	?	1	Für	PragmaticCause.CONTIGENCY	2	think	_	_	_	1	Creo	_	6	science	_	1	Io	_	2	vind	_	1	Penso	_
+2	mich	3	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	mich	_	1	I	_	_	_	2	que	_	6	science	_	2	penso	_	1	Ik	_	?	?	?
+3	ist	2	أن	_	1	?	?	1	?	?	1	?	?	3	ist	_	4	is	_	_	_	4	es	_	4	c'est	_	4	questa	_	2	vind	_	4	é	_
+4	dies	5	أروع	_	1	?	?	1	?	?	1	?	?	4	dies	_	3	this	_	result.Cause.CONTIGENCY	_	3	esta	_	6	science	_	4	questa	_	3	dit	_	3	esta	_
+5	die	5	أروع	_	1	?	?	1	?	?	1	?	?	5	die	_	5	the	_	_	_	5	la	_	7	la	_	6	la	_	4	de	_	5	a	_
+6	coolste	6	علم	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	6	coolste	_	6	coolest	_	_	_	6	ciencia	_	6	science	_	5	sia	_	5	coolste	_	6	ciência	_
+7	Wissenschaft.	7	ممكن.	_	1	?	?	1	?	?	1	?	?	7	Wissenschaft.	_	7	possible	_	_	_	9	posible.	_	11	soit.	_	10	possibile.	_	6	wetenschap.	_	9	possível.	_
+
+# sent_id = 132768
+# text:  Darum arbeite ich in diesem Feld, weil ich denke, das wird die Welt verändern.
+# trans: É por isso que me dediquei a isto, porque penso que vai mudar o mundo.
+# forward_log_prob: -47.5675824746476
+# backward_log_prob: -47.482555138153145
+1	Darum	1	وهذا	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Darum	result.Cause.CONTIGENCY	1	That's	CONTIGENCY|Cause.CONTIGENCY	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	1	C'est	result.Cause.CONTIGENCY	3	motivo	_	1	Daarom	reason.Cause.CONTIGENCY	1	É	_
+2	arbeite	1	وهذا	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	arbeite	_	2	why	_	_	_	2	eso	_	2	pourquoi	_	2	il	_	2	wilde	_	2	por	CONTIGENCY|Cause.CONTIGENCY|result.Cause.CONTIGENCY
+3	ich	3	دفعني	_	1	?	?	1	?	?	1	?	?	3	ich	_	3	I	_	_	_	3	me	_	3	je	_	3	motivo	_	3	ik	_	3	isso	_
+4	in	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	in	_	5	into	_	_	_	5	a	_	5	cela,	_	2	il	_	5	doen,	_	4	que	_
+5	diesem	3	دفعني	_	1	?	?	1	?	?	1	?	?	5	diesem	_	4	got	_	_	_	4	metí	_	4	fais	_	5	cui	_	4	dit	_	5	me	_
+6	Feld,	4	لعمل	_	1	?	?	1	?	?	1	?	?	6	Feld,	_	4	got	_	_	_	4	metí	_	4	fais	_	6	sto	_	?	?	?	6	dediquei	_
+7	weil	4	لعمل	_	1	?	?	1	?	?	1	?	?	7	weil	reason.Cause.CONTIGENCY	8	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	8	porque	CONTIGENCY|Cause.CONTIGENCY	6	parce	specification.Restatement.EXPANSION	7	facendo	_	6	omdat	reason.Cause.CONTIGENCY	9	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+8	ich	6	لإيماني	_	1	?	?	1	?	?	1	?	?	8	ich	_	9	I	_	_	_	9	creo	_	8	je	_	7	facendo	_	7	ik	_	10	penso	_
+9	denke,	6	لإيماني	_	1	?	?	1	?	?	1	?	?	9	denke,	_	10	think	_	_	_	9	creo	_	9	pense	_	10	penso	_	8	denk	_	10	penso	_
+10	das	8	ذلك	_	1	?	?	1	?	?	1	?	?	10	das	_	11	that	_	_	_	10	que	_	?	?	?	11	che	_	9	dat	_	11	que	_
+11	wird	9	سيغير	_	1	?	?	1	?	?	1	?	?	11	wird	_	12	will	_	_	_	11	va	_	?	?	?	8	questo,	_	10	het	_	?	?	?
+12	die	?	?	?	1	?	?	1	?	?	1	?	?	12	die	_	14	the	_	_	_	?	?	?	10	que	_	14	il	_	11	de	_	?	?	?
+13	Welt	10	العالم.	_	1	?	?	1	?	?	1	?	?	13	Welt	_	15	world.	_	_	_	14	el	_	14	le	_	12	possa	_	12	wereld	_	15	mundo.	_
+14	verändern.	9	سيغير	_	1	?	?	1	?	?	1	?	?	14	verändern.	_	13	change	_	_	_	13	cambiar	_	12	va	_	15	mondo.	_	14	veranderen.	_	13	mudar	_
+
+# sent_id = 132769
+# text:  Wenn wir das sehen, wird das alles verändern.
+# trans: Irá mudar tudo quando surgir.
+# forward_log_prob: -18.454278536982375
+# backward_log_prob: -19.784934226481237
+1	Wenn	?	?	?	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	1	Cambierà	_	3	gaat	_	1	Irá	_
+2	wir	3	كل	_	1	?	?	1	?	?	1	?	?	2	wir	_	6	we	_	_	_	2	a	_	5	nous	_	1	Cambierà	_	2	zien,	_	1	Irá	_
+3	das	3	كل	_	1	?	?	1	?	?	1	?	?	3	das	_	1	That	_	_	_	3	cambiar	_	?	?	?	1	Cambierà	_	1	Dat	_	2	mudar	_
+4	sehen,	4	شئ	_	1	?	?	1	?	?	1	?	?	4	sehen,	_	7	see	_	_	_	4	todo	_	4	quand	Asynchronous.TEMPORAL|Condition.CONTIGENCY|specification.Restatement.EXPANSION	3	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	zien,	_	3	tudo	_
+5	wird	5	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	?	1	?	?	1	?	?	5	wird	_	2	will	_	_	_	3	cambiar	_	3	changer	_	4	vedremo	_	3	gaat	_	2	mudar	_
+6	das	9	ذلك.	_	1	?	?	1	?	?	1	?	?	6	das	_	8	that.	_	_	_	7	esto.	_	6	verrons	_	4	vedremo	_	4	alles	_	4	quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
+7	alles	7	من	_	1	?	?	1	?	?	1	?	?	7	alles	_	4	everything	_	_	_	5	cuando	TEMPORAL	6	verrons	_	2	tutto	_	4	alles	_	3	tudo	_
+8	verändern.	6	نتمكن	_	1	?	?	1	?	?	1	?	?	8	verändern.	_	3	change	_	_	_	6	veamos	_	6	verrons	_	4	vedremo	_	5	veranderen.	_	5	surgir.	_
+
+# sent_id = 132770
+# text:  Vielen Dank.
+# trans: Obrigado.
+# forward_log_prob: -1.518394427804822
+# backward_log_prob: -3.213871813375961
+1	Vielen	1	شكرًا	_	1	?	?	1	?	?	1	?	?	1	Vielen	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dank	_	1	Obrigado.	_
+2	Dank.	2	لكم.	_	1	?	?	1	?	?	1	?	?	2	Dank.	_	2	you.	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	2	u.	_	1	Obrigado.	_
+
+# sent_id = 132771
+# text:  (Applaus)
+# trans: (Aplausos)
+# forward_log_prob: -1.0940472257848814
+# backward_log_prob: -1.240334985452094
+1	(Applaus)	1	(تصفيق)	_	1	?	?	1	?	?	1	?	?	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
+

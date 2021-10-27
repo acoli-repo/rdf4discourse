@@ -199,11 +199,13 @@ eval/ted-mdb:
 		)
 
 eval/ted-mdb/data: data eval/ted-mdb
-	if [ ! -e eval/ted-mdb/data ] ; then mkdir eval/ted-mdb/data; fi
+	@(\
+	langs="en ru tr lt pl de pt ar bn ca cs es fr it nl"; \
+	if [ ! -e eval/ted-mdb/data ] ; then mkdir eval/ted-mdb/data; fi;\
 	for talk in eval/ted-mdb/conll/*/; do \
 		talkid=`basename $$talk`; \
 		mkdir eval/ted-mdb/data/$$talkid;\
-		for lang in en de ar bn ca cs es fr it nl pt; do \
+		for lang in $$langs; do \
 			if [ -e data/$$talkid/$$lang.conll ]; then \
 				cp data/$$talkid/$$lang.conll eval/ted-mdb/data/$$talkid/$$lang.conll;\
 			else \
@@ -211,21 +213,22 @@ eval/ted-mdb/data: data eval/ted-mdb
 				sed s/'$$'/'\n1\t?\n\n'/g > eval/ted-mdb/data/$$talkid/$$lang.conll;\
 			fi;\
 		done;\
-	done;
+	done;\
+	)
 
 eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
-	@(\
-		langs="en de ar bn ca cs es fr it nl pt"; \
-	  gazcols="5 6 8 9 10 11 12"; \
+		tlangs="en ru tr lt pl de pt";\
+		slangs="en de ar bn ca cs es fr it nl pt"; \
+		langs=`echo $$tlangs $$slangs | sed s/'\s'/'\n'/g | sort -u`; \
+	  gazcols="5"; \
 		# # debug config\
 		# langs="en de";\
 		# gazcols="5";\
 		\
-	\
 	echo create initial conll files;\
 	for doc in eval/ted-mdb/data/*/; do \
 		# for doc in data/1/ data/2/; do \
-		for lang in $$langs; do \
+		for lang in $$slangs; do \
 			if [ -e $$doc/$$lang.conll ]; then \
 				for g in gazetteers/$$lang/*tsv; do \
 					tgt=$$doc/$$lang.`basename $$g | sed s/'\.[^\.]*$$'//`.conll;\
@@ -242,7 +245,7 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 		\
 		# annotate every language for all gazeteers, split for layers 1>&2; \
 		for col in $$gazcols; do \
-			for lang in $$langs; do \
+			for lang in $$slangs; do \
 				src=$$doc/$$lang.conll;\
 				tgt=$$doc/$$lang.conll.gaz.$$col; \
 				if [ -e $$src ]; then \
@@ -278,7 +281,7 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 			mkdir eval/ted-mdb/ensemble; \
 		fi;\
 			for col in $$gazcols; do \
-				for lang in $$langs; do \
+				for lang in $$tlangs; do \
 					if [ -e data/`basename $$doc`/$$lang.conll ]; then \
 						ensemble=eval/ted-mdb/ensemble/`basename $$doc`;\
 						if [ ! -e $$ensemble ]; then \
@@ -308,7 +311,7 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 				done;					# $$lang \
 			done;						# $$col	\
 	done;										# $$doc\
-	for lang in $$langs; do \
+	for lang in $$tlangs; do \
 		for gaz in $$gazcols; do \
 			tgt=eval/ted-mdb/ensemble/$$lang.$$gaz.conll;\
 			if [ -s $$tgt ]; then \
@@ -324,6 +327,5 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 			fi; \
 	done;							# $$gaz \
 	done;								# $$lang \
-	)
 
 eval: eval/ted-mdb eval/ted-mdb/ensemble

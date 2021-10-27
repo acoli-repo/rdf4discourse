@@ -1,0 +1,937 @@
+# sent_id = 155857
+# text:  Kai kalbame apie miestų žemėlapius, paprastai galvojame apie kelius, gatves ir pastatus, ir gyvenamųjų vietų naratyvą, dėl kurio miestas kūrėsi, arba galvojame apie drąsią urbanistinio dizainerio viziją, bet galime ir kitaip galvoti apie miestų žemėlapius ir kaip jie buvo sukurti.
+# trans: Quando pensamos em mapas de cidades, pensamos habitualmente em estradas e ruas e edifícios e a narrativa explicativa que levou à sua criação, ou podemos pensar na visão ousada de um paisagista urbano, mas há outras formas de pensar em mapas de cidades e na forma como devem ser feitos.
+# forward_log_prob: -186.7254298309322
+# backward_log_prob: -153.26541615306462
+1	Kai	?	?	?	1	?	_	?	?	?	1	?	_	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	3	think	_	_	_	3	en	_	?	?	?	5	delle	_	3	in	_	12	ruas	_
+2	kalbame	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	Quan	TEMPORAL	1	?	_	?	?	?	1	When	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	1	Cuando	TEMPORAL	3	parle	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	Bij	_	1	Quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
+3	apie	?	?	?	1	?	_	3	en	_	1	?	_	3	über	_	4	about	_	_	_	5	ciudades,	_	?	?	?	3	alla	_	5	brengen	_	4	mapas	_
+4	miestų	4	رسم	_	1	?	_	4	crear	_	1	?	_	5	Kartierung	_	5	mapping	_	_	_	4	mapear	_	5	cartographies	_	7	tendiamo	_	?	?	?	4	mapas	_
+5	žemėlapius,	5	خريطة	_	1	?	_	5	mapes	_	1	?	_	6	von	_	9	to	_	_	_	6	tendemos	_	7	on	_	7	tendiamo	_	4	kaart	_	3	em	_
+6	paprastai	6	للمدن،	_	1	?	_	7	ciutats	_	1	?	_	7	Städten	_	8	tend	_	_	_	6	tendemos	_	9	tendance	_	7	tendiamo	_	7	steden	_	7	pensamos	_
+7	galvojame	7	نميل	_	1	?	_	8	tendim	_	1	?	_	8	nachdenken,	_	12	roads	_	_	_	?	?	?	9	tendance	_	7	tendiamo	_	8	denken	_	8	habitualmente	_
+8	apie	9	التفكير	_	1	?	_	11	en	_	1	?	_	?	?	?	11	about	_	_	_	8	pensar	_	10	à	specification.Restatement.EXPANSION	12	le	_	11	aan	_	10	estradas	_
+9	kelius,	?	?	?	1	?	_	12	carreteres,	_	1	?	_	11	an	_	12	roads	_	_	_	10	carreteras,	_	13	routes,	_	13	vie,	_	12	wegen,	_	?	?	?
+10	gatves	?	?	?	1	?	_	12	carreteres,	_	1	?	_	12	Wege,	_	12	roads	_	_	_	10	carreteras,	_	13	routes,	_	13	vie,	_	12	wegen,	_	?	?	?
+11	ir	?	?	?	1	?	_	?	?	?	1	?	_	14	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	?	?	?	16	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	14	en	Conjunction.EXPANSION	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	pastatus,	11	الطرق	_	1	?	_	14	y	_	1	?	_	15	Gebäude	_	12	roads	_	_	_	?	?	?	17	bâtiments,	_	15	palazzi	_	?	?	?	?	?	?
+13	ir	18	إلى	_	1	?	_	16	i	_	1	?	_	16	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	21	du	_	?	?	?	16	en	Conjunction.EXPANSION	?	?	?
+14	gyvenamųjų	13	والمباني	_	1	?	_	18	narrativa	_	1	?	_	15	Gebäude	_	19	settlement	_	_	_	16	historia	_	19	raconter	_	20	insediamento	_	18	verhaal	_	17	narrativa	_
+15	vietų	15	السكن	_	1	?	_	20	liquidació	_	1	?	_	15	Gebäude	_	20	narrative	_	_	_	18	asentamiento	_	22	peuplement	_	20	insediamento	_	20	leidde	_	18	explicativa	_
+16	naratyvą,	15	السكن	_	1	?	_	20	liquidació	_	1	?	_	23	Ergebnis	_	22	led	_	_	_	20	condujo	_	22	peuplement	_	22	ha	_	20	leidde	_	20	levou	_
+17	dėl	16	التي	specification.Restatement.EXPANSION	1	?	_	?	?	?	1	?	_	22	diesem	_	?	?	?	?	?	25	se	_	?	?	?	24	alla	_	?	?	?	21	à	_
+18	kurio	17	أدّت	_	1	?	_	22	portà	_	1	?	_	23	Ergebnis	_	24	their	_	_	_	22	su	_	25	mené	_	25	loro	_	23	ontstaan	_	22	sua	_
+19	miestas	20	أو	disjunctive.Alternative.EXPANSION	1	?	_	26	o	_	1	?	_	25	oder	disjunctive.Alternative.EXPANSION	26	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	24	o	_	29	ou	COMPARISON	6	città	_	25	een	_	24	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+20	kūrėsi,	19	بنائها،	_	1	?	_	25	creació,	_	1	?	_	24	führte,	_	25	creation,	_	_	_	24	o	_	28	création,	_	27	Oppure	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	?	?	?	23	criação,	_
+21	arba	20	أو	disjunctive.Alternative.EXPANSION	1	?	_	15	edificis	_	1	?	_	13	Straßen	_	28	might	_	_	_	13	edificios,	_	15	rues,	_	11	strade,	_	27	Of	disjunctive.Alternative.EXPANSION	14	edifícios	_
+22	galvojame	22	تفكر	_	1	?	_	28	penseu	_	1	?	_	27	denken	_	?	?	?	?	?	26	podría	_	30	bien	_	29	pensa	_	31	visie	_	28	visão	_
+23	apie	16	التي	specification.Restatement.EXPANSION	1	?	_	29	en	_	1	?	_	28	an	_	30	about	_	_	_	27	pensar	_	32	parler	_	30	alla	_	31	visie	_	26	pensar	_
+24	drąsią	24	بُعد	_	1	?	_	30	l’audaç	_	1	?	_	30	großen	_	32	bold	_	_	_	30	visión	_	35	vision	_	32	coraggiosa	_	31	visie	_	29	ousada	_
+25	urbanistinio	24	بُعد	_	1	?	_	31	visió	_	1	?	_	31	Visionen	_	33	vision	_	_	_	31	audaz	_	36	audacieuse	_	35	urban	_	31	visie	_	32	paisagista	_
+26	dizainerio	25	نظر	_	1	?	_	33	dissenyador	_	1	?	_	32	eines	_	33	vision	_	_	_	31	audaz	_	37	d'un	_	36	designer.	_	34	stadsontwerper,	_	32	paisagista	_
+27	viziją,	26	لمُصمِّم	_	1	?	_	34	urbà,	_	1	?	_	33	Städteplaners.	_	36	urban	_	_	_	34	urbanista.	_	38	urbaniste,	_	36	designer.	_	34	stadsontwerper,	_	33	urbano,	_
+28	bet	29	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	35	però	precedence.Asynchronous.TEMPORAL	1	?	_	35	gibt	_	38	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	35	Hay	_	39	mais	Contrast.COMPARISON|Exception.EXPANSION	37	Ma	Concession.COMPARISON|Contrast.COMPARISON	35	maar	_	34	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+29	galime	28	ولكن	Concession.COMPARISON	1	?	_	?	?	?	1	?	_	21	zu	_	?	?	?	?	?	33	un	_	34	la	_	40	anche	Concession.COMPARISON|Conjunction.EXPANSION	?	?	?	43	cidades	_
+30	ir	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	?	?	?	?	?	?	?	?	41	y	_	?	?	?	?	?	?	?	?	?
+31	kitaip	?	?	?	1	?	_	41	pensar	_	1	?	_	?	?	?	43	think	_	_	_	39	pensar	_	44	manières	_	44	pensare	_	42	te	_	39	pensar	_
+32	galvoti	?	?	?	1	?	_	41	pensar	_	1	?	_	47	diese	_	42	to	_	_	_	39	pensar	_	?	?	?	44	pensare	_	42	te	_	39	pensar	_
+33	apie	36	التي	specification.Restatement.EXPANSION	1	?	_	41	pensar	_	1	?	_	39	über	_	44	about	_	_	_	39	pensar	_	46	parler	_	45	alla	_	?	?	?	39	pensar	_
+34	miestų	30	طرق	_	1	?	_	44	mapes	_	1	?	_	38	Arten,	_	45	mapping	_	_	_	42	mapeo	_	48	cartographie	_	46	mappatura	_	41	hiernaar	_	41	mapas	_
+35	žemėlapius	35	والوسيلة	_	1	?	_	44	mapes	_	1	?	_	42	von	_	43	think	_	_	_	42	mapeo	_	53	on	_	50	al	_	43	kijken	_	40	em	_
+36	ir	?	?	?	1	?	_	47	i	_	1	?	_	45	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	47	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	45	y	_	?	?	?	48	città	_	44	en	Conjunction.EXPANSION	44	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+37	kaip	36	التي	specification.Restatement.EXPANSION	1	?	_	?	?	?	1	?	_	?	?	?	48	how	_	_	_	40	en	_	52	comment	_	53	cui	_	?	?	?	47	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+38	jie	37	يتم	_	1	?	_	48	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	_	48	entstanden	_	49	they	_	_	_	46	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	42	a	_	54	dovrebbero	_	50	stand	_	45	na	_
+39	buvo	38	بنائها	_	1	?	_	49	s’han	_	1	?	_	48	entstanden	_	50	got	_	_	_	48	ser	_	56	arrivé	_	54	dovrebbero	_	47	hoe	_	48	devem	_
+40	sukurti.	34	المدن	_	1	?	_	43	crear	_	1	?	_	?	?	?	?	?	?	?	?	44	ciudades	_	56	arrivé	_	47	delle	_	48	steden	_	50	feitos.	_
+
+# sent_id = 155858
+# text:  Šiandien jums parodysiu naujo tipo žemėlapį.
+# trans: Hoje quero mostrar-vos um novo tipo de mapa.
+# forward_log_prob: -19.33837860807003
+# backward_log_prob: -18.578779673711153
+1	Šiandien	1	في	_	1	?	_	1	Avui,	_	1	?	_	1	Heute	_	1	Today,	_	_	_	1	Hoy	_	1	Aujourd'hui,	_	1	Oggi	_	1	Vandaag	_	1	Hoje	_
+2	jums	3	اليوم،	_	1	?	_	3	ensenyar-vos	_	1	?	_	2	möchte	_	3	want	_	_	_	3	mostrarles	_	3	veux	_	3	mostrarvi	_	1	Vandaag	_	3	mostrar-vos	_
+3	parodysiu	4	أريد	_	1	?	_	3	ensenyar-vos	_	1	?	_	4	Ihnen	_	5	show	_	_	_	3	mostrarles	_	5	montrer	_	3	mostrarvi	_	4	een	_	3	mostrar-vos	_
+4	naujo	6	أريكم	_	1	?	_	5	nou	_	1	?	_	6	neue	_	5	show	_	_	_	5	nuevo	_	6	un	_	5	nuovo	_	5	nieuw	_	5	novo	_
+5	tipo	8	جديداً	_	1	?	_	5	nou	_	1	?	_	7	Art	_	5	show	_	_	_	5	nuevo	_	8	genre	_	6	tipo	_	6	soort	_	5	novo	_
+6	žemėlapį.	10	الخرائط.	_	1	?	_	5	nou	_	1	?	_	9	zeigen.	_	11	map.	_	_	_	5	nuevo	_	10	cartes.	_	6	tipo	_	6	soort	_	5	novo	_
+
+# sent_id = 155859
+# text:  Tai ne geografinis žemėlapis.
+# trans: Isto não é um mapa geográfico.
+# forward_log_prob: -15.410250363947924
+# backward_log_prob: -10.908571612703687
+1	Tai	1	هذه	_	1	?	_	2	no	_	1	?	_	1	Es	_	1	This	_	result.Cause.CONTIGENCY	_	1	No	_	2	n'est	_	1	Questa	_	1	Het	_	3	é	_
+2	ne	2	ليست	_	1	?	_	2	no	_	1	?	_	2	ist	_	2	is	_	_	_	1	No	_	3	pas	_	2	non	_	3	geen	_	2	não	_
+3	geografinis	1	هذه	_	1	?	_	1	Aquet	_	1	?	_	4	geografische	_	1	This	_	result.Cause.CONTIGENCY	_	3	un	_	4	une	_	4	una	_	4	geografische	_	1	Isto	_
+4	žemėlapis.	4	جغرافية.	_	1	?	_	6	geogràfic.	_	1	?	_	4	geografische	_	5	geographic	_	_	_	5	geográfico.	_	6	géographique,	_	6	geografica.	_	4	geografische	_	6	geográfico.	_
+
+# sent_id = 155860
+# text:  Jis vaizduoja ryšius tarp žmonių iš mano gimtojo miesto Baltimorės Merilende, ir kiekvienas taškas jame vaizduoja žmogų, kiekviena linija vaizduoja ryšį tarp tų žmonių, ir kiekviena spalva vaizduoja bendruomenę.
+# trans: Isto é um mapa das relações entre as pessoas na minha cidade de Baltimore, Maryland. Como veem aqui, cada ponto representa uma pessoa, cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro da rede.
+# forward_log_prob: -145.18635523025466
+# backward_log_prob: -107.31865274359907
+1	Jis	?	?	?	1	?	_	1	Aquet	_	1	?	_	?	?	?	?	?	?	?	?	8	personas	_	5	liens	_	6	tra	_	5	relatie	_	1	Isto	EXPANSION|specification.Restatement.EXPANSION
+2	vaizduoja	2	خريطة	_	1	?	_	4	mapa	_	1	?	_	4	Karte	_	4	map	_	_	_	3	mapa	_	5	liens	_	3	mappa	_	5	relatie	_	4	mapa	_
+3	ryšius	1	هذه	_	1	?	_	6	relacions	_	1	?	_	6	Beziehungen	_	7	relationships	_	_	_	6	relaciones	_	6	entre	_	4	delle	_	6	tussen	_	5	das	_
+4	tarp	4	بين	_	1	?	_	6	relacions	_	1	?	_	3	eine	_	8	between	TEMPORAL	_	_	6	relaciones	_	6	entre	_	6	tra	_	6	tussen	_	7	entre	_
+5	žmonių	5	الناس	_	1	?	_	16	el	_	1	?	_	9	Menschen	_	9	people	_	_	_	6	relaciones	_	6	entre	_	8	persone	_	7	mensen	_	9	pessoas	_
+6	iš	?	?	?	1	?	_	12	poble,	_	1	?	_	?	?	?	?	?	?	?	?	5	las	_	7	les	_	2	una	_	9	in	_	?	?	?
+7	mano	7	مسقط	_	1	?	_	11	meu	_	1	?	_	10	meiner	_	11	my	_	_	_	14	Maryland.	_	9	dans	_	10	mia	_	10	mijn	_	11	minha	_
+8	gimtojo	10	ماريلاند،	_	1	?	_	11	meu	_	1	?	_	10	meiner	_	12	hometown	_	_	_	14	Maryland.	_	10	ma	_	10	mia	_	10	mijn	_	11	minha	_
+9	miesto	11	وما	_	1	?	_	14	Maryland.	_	1	?	_	11	Heimatstadt,	_	15	Maryland,	_	_	_	14	Maryland.	_	8	personnes	_	11	città,	_	10	mijn	_	11	minha	_
+10	Baltimorės	9	بالتيمور،	_	1	?	_	13	Baltimore,	_	1	?	_	12	Baltimore,	_	14	Baltimore,	_	_	_	13	Baltimore,	_	8	personnes	_	12	Baltimora,	_	12	Baltimore,	_	14	Baltimore,	_
+11	Merilende,	12	تستطيعون	_	1	?	_	18	podeu	_	1	?	_	13	Maryland.	_	15	Maryland,	_	_	_	14	Maryland.	_	14	dans	_	13	nel	_	14	Wat	_	15	Maryland.	_
+12	ir	?	?	?	1	?	_	15	I	_	1	?	_	?	?	?	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	15	le	_	?	?	?	?	?	?	?	?	?
+13	kiekvienas	17	كلَّ	_	1	?	_	20	ací	_	1	?	_	19	Punkt	_	24	each	_	_	_	22	cada	_	16	Maryland.	_	15	Ogni	_	19	elke	_	17	veem	_
+14	taškas	17	كلَّ	_	1	?	_	23	cada	_	1	?	_	18	jeder	_	24	each	_	_	_	22	cada	_	18	chaque	_	17	rappresenta	_	19	elke	_	19	cada	_
+15	jame	18	نقطةٍ	_	1	?	_	23	cada	_	1	?	_	16	sehen,	_	24	each	_	_	_	23	punto	_	19	point	_	19	persona,	_	20	stip	_	21	representa	_
+16	vaizduoja	19	تمثل	_	1	?	_	24	punt	_	1	?	_	21	Person	_	25	dot	_	_	_	24	representa	_	20	représente	_	20	ogni	_	22	persoon	_	21	representa	_
+17	žmogų,	20	شخصاً	_	1	?	_	25	representa	_	1	?	_	22	darstellt,	_	26	represents	_	_	_	26	persona,	_	22	personne,	_	21	linea	_	23	voorstelt,	_	23	pessoa,	_
+18	kiekviena	21	وكلَّ	_	1	?	_	28	persona,	_	1	?	_	23	jede	_	28	person,	_	_	_	28	línea	_	23	chaque	_	22	rappresenta	_	25	lijn	_	25	linha	_
+19	linija	22	سطرٍ	_	1	?	_	29	cada	_	1	?	_	24	Linie	_	29	each	_	_	_	29	representa	_	24	ligne	_	23	una	_	27	connectie	_	26	representa	_
+20	vaizduoja	23	يمثل	_	1	?	_	31	representa	_	1	?	_	26	Beziehung	_	31	represents	_	_	_	31	relación	_	26	lien	_	24	relazione	_	28	weergeeft	_	28	relação	_
+21	ryšį	24	علاقة	_	1	?	_	33	relació	_	1	?	_	26	Beziehung	_	33	relationship	_	_	_	31	relación	_	26	lien	_	24	relazione	_	28	weergeeft	_	28	relação	_
+22	tarp	25	بين	_	1	?	_	35	eixes	_	1	?	_	25	eine	_	34	between	TEMPORAL	_	_	30	una	_	25	un	_	25	tra	_	29	tussen	_	27	uma	_
+23	tų	26	هؤلاء	_	1	?	_	36	persones	_	1	?	_	31	jede	_	35	those	_	_	_	36	cada	_	29	personnes,	_	29	ogni	_	33	elke	_	33	cada	_
+24	žmonių,	27	الأشخاص	_	1	?	_	38	cada	_	1	?	_	29	Menschen	_	36	people,	_	_	_	?	?	?	?	?	?	27	persone	_	31	mensen,	_	31	pessoas	_
+25	ir	?	?	?	1	?	_	37	i	_	1	?	_	30	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	37	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	35	y	_	?	?	?	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	32	en	Conjunction.EXPANSION	32	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+26	kiekviena	29	لونٍ	_	1	?	_	39	color	_	1	?	_	34	Gruppierung	_	39	color	_	_	_	40	comunidad	_	33	communauté	_	31	rappresenta	_	36	gemeenschap	_	34	cor	_
+27	spalva	32	داخل	_	1	?	_	42	comunitat	_	1	?	_	34	Gruppierung	_	42	community	_	_	_	41	dentro	_	34	au	_	33	comunità	_	37	binnen	_	37	comunidade	_
+28	vaizduoja	33	إطار	_	1	?	_	43	dins	_	1	?	_	35	innerhalb	_	43	within	_	_	_	44	red	_	35	sein	_	34	all'interno	_	39	netwerk	_	38	dentro	_
+29	bendruomenę.	33	إطار	_	1	?	_	43	dins	_	1	?	_	35	innerhalb	_	43	within	_	_	_	45	comunitaria.	_	35	sein	_	34	all'interno	_	40	vertegenwoordigt.	_	38	dentro	_
+
+# sent_id = 155861
+# text:  Aš esu žalioje pusėje, toli dešinėje su kitais moksliukais, TEDx irgi ten dešinėje. (Juokas) Kitoje tinklo pusėje daugiausia afroamerikiečiai ir žmonės kilę iš lotynų amerikos, kuriems rūpi kiek kiti dalykai, nei moksliukams, tuoj paaiškinsiu, kad žaliąją tinklo pusę ten gyvenantieji vadina Mažąja Baltimore, nes atrodo, kad gyvename labai mažame mieste.
+# trans: Eu estou aqui do lado verde, no extremo direito, onde estão os "geeks", (Risos) O TEDx também está em baixo, no extremo direito. (Risos) Na extremidade oposta da rede, há principalmente afro-americanos e latinos que se preocupam com coisas um pouco diferentes do que os "geeks". Para que percebam melhor, chamamos Smalltimore à parte verde da rede, aos que ali moram, porque parece que vivemos numa cidade muito pequena.
+# forward_log_prob: -286.7873835330325
+# backward_log_prob: -221.8033529029236
+1	Aš	2	أنا	_	1	?	_	1	Jo	_	1	?	_	1	Ich	_	2	I'm	_	_	_	1	Ahora	_	1	Je	_	1	Io	_	1	Ik	_	1	Eu	_
+2	esu	1	الآن،	_	?	?	?	2	estic	_	?	?	?	2	bin	_	1	Now,	_	_	_	2	me	_	2	suis	_	2	sono	_	2	hoor	_	2	estou	_
+3	žalioje	5	الجانب	_	?	?	?	6	color	_	?	?	?	6	grünen	_	6	green	_	_	_	3	encuentro	_	2	suis	_	4	nel	_	4	groen,	_	6	verde,	_
+4	pusėje,	4	على	_	?	?	?	15	geeks	_	?	?	?	4	auf	_	9	on	_	_	_	4	en	_	13	<i>geeks</i>.	_	5	lato	_	5	helemaal	_	4	do	_
+5	toli	6	الأخضر،	_	?	?	?	7	verd,	_	?	?	?	6	grünen	_	11	far	_	_	_	7	verde,	_	6	vert,	_	7	giù	_	7	waar	_	6	verde,	_
+6	dešinėje	9	أقصى	_	?	?	?	8	baix	_	?	?	?	8	unten,	_	12	right	_	_	_	8	abajo	_	8	à	specification.Restatement.EXPANSION	8	in	_	6	rechts,	_	?	?	?
+7	su	?	?	?	?	?	?	10	la	_	?	?	?	?	?	?	?	?	?	?	?	10	la	_	?	?	?	13	si	_	10	zich	_	38	com	_
+8	kitais	10	اليمين	_	?	?	?	12	on	TEMPORAL	?	?	?	11	rechten	_	13	where	TEMPORAL	_	_	12	donde	TEMPORAL	10	où	_	12	dove	_	11	bevinden	_	9	direito,	_
+9	moksliukais,	13	المهووسون	_	?	?	?	12	on	TEMPORAL	?	?	?	13	wo	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	18	TEDx	_	_	_	13	están	_	10	où	_	12	dove	_	11	bevinden	_	10	onde	_
+10	TEDx	14	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	?	?	?	17	TEDx	_	?	?	?	13	wo	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	18	TEDx	_	_	_	17	TEDx	_	14	TEDx	_	12	dove	_	13	waar	_	14	(Risos)	_
+11	irgi	15	TEDx	_	?	?	?	17	TEDx	_	?	?	?	17	Auch	Conjunction.EXPANSION	18	TEDx	_	_	_	17	TEDx	_	14	TEDx	_	?	?	?	14	TEDx	_	16	TEDx	_
+12	ten	18	الأسفل	_	?	?	?	?	?	?	?	?	?	18	TEDx	_	24	far	_	_	_	20	encuentra	_	14	TEDx	_	18	anche	Concession.COMPARISON|Conjunction.EXPANSION	25	wonen	_	16	TEDx	_
+13	dešinėje.	?	?	?	?	?	?	19	està	_	?	?	?	20	unten,	_	25	right.	_	_	_	21	abajo	_	?	?	?	21	in	_	?	?	?	18	está	_
+14	(Juokas)	20	أقصى	_	?	?	?	24	(Rialles)	_	?	?	?	21	weit	_	24	far	_	_	_	20	encuentra	_	19	côté-là.	_	19	TEDx	_	16	bijhoort!	_	21	no	_
+15	Kitoje	26	الآخر	_	?	?	?	26	l’altre	_	?	?	?	16	sind.	_	28	on	_	_	_	28	otro	_	21	A	_	13	si	_	20	andere	_	?	?	?
+16	tinklo	28	الشبكة،	_	?	?	?	30	xarxa	_	?	?	?	28	des	_	34	network,	_	_	_	32	red,	_	22	l'opposé,	_	28	della	_	22	van	_	28	da	_
+17	pusėje	24	على	_	?	?	?	27	costat	_	?	?	?	24	Auf	_	30	other	_	_	_	27	al	_	22	l'opposé,	_	27	parte	_	21	kant	_	27	oposta	_
+18	daugiausia	25	الجانب	_	?	?	?	31	solen	_	?	?	?	23	(Lachen)	_	31	side	_	_	_	25	(Risas)	_	?	?	?	25	(Risate)	_	?	?	?	23	direito.	_
+19	afroamerikiečiai	25	الجانب	_	?	?	?	31	solen	_	?	?	?	23	(Lachen)	_	31	side	_	_	_	26	Ahora,	_	?	?	?	26	Dall'altra	_	?	?	?	23	direito.	_
+20	ir	32	إلى	_	?	?	?	36	i	_	?	?	?	34	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	y	_	29	et	Conjunction.EXPANSION	17	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	12	en	Conjunction.EXPANSION	33	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+21	žmonės	?	?	?	?	?	?	43	coses	_	?	?	?	32	eher	_	43	folks	_	_	_	37	gente	_	25	a	_	30	si	_	32	zich	_	25	Na	_
+22	kilę	33	رؤية	_	?	?	?	35	afroamericans	_	?	?	?	33	Afroamerikaner	_	39	primarily	_	_	_	35	haber	_	28	Afro-Américains	_	31	trovano	_	26	vooral	_	31	principalmente	_
+23	iš	44	عن	_	?	?	?	46	les	_	?	?	?	29	Netzwerkes	_	32	of	_	_	_	49	las	_	27	les	_	?	?	?	25	wonen	_	39	coisas	_
+24	lotynų	36	الأمريكيين	_	?	?	?	37	llatinoamericans	_	?	?	?	35	Latinos,	_	42	Latino	_	_	_	38	afroamericana	_	31	Latinos,	_	35	Ispanici,	_	29	Latino	_	34	latinos	_
+25	amerikos,	36	الأمريكيين	_	?	?	?	39	solen	_	?	?	?	35	Latinos,	_	42	Latino	_	_	_	40	latina	_	31	Latinos,	_	35	Ispanici,	_	33	bezighouden	_	34	latinos	_
+26	kuriems	38	واللاتينيين	_	?	?	?	40	estar	_	?	?	?	35	Latinos,	_	49	somewhat	_	_	_	40	latina	_	31	Latinos,	_	37	sono	_	33	bezighouden	_	37	preocupam	_
+27	rūpi	39	القلقين	_	?	?	?	41	preocupats	_	?	?	?	38	ganz	_	49	somewhat	_	_	_	42	están	_	31	Latinos,	_	38	sostanzialmente	_	33	bezighouden	_	37	preocupam	_
+28	kiek	41	بشان	_	?	?	?	41	preocupats	_	?	?	?	40	Dinge	_	49	somewhat	_	_	_	43	realmente	_	36	choses	_	39	interessati	_	36	zaken	_	37	preocupam	_
+29	kiti	41	بشان	_	?	?	?	41	preocupats	_	?	?	?	41	besorgt	_	49	somewhat	_	_	_	44	preocupados	_	?	?	?	42	diverse	_	36	zaken	_	37	preocupam	_
+30	dalykai,	41	بشان	_	?	?	?	48	estan	_	?	?	?	41	besorgt	_	?	?	?	?	?	44	preocupados	_	?	?	?	42	diverse	_	36	zaken	_	37	preocupam	_
+31	nei	46	التي	specification.Restatement.EXPANSION	?	?	?	47	que	_	?	?	?	43	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	52	than	_	_	_	?	?	?	33	s'intéressent	_	43	rispetto	_	37	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	43	do	_
+32	moksliukams,	47	يقلق	_	?	?	?	51	Perque	_	?	?	?	49	Gefühl	_	57	just	_	_	_	54	dar	_	41	juste	_	47	darvi	_	43	verduidelijken:	_	49	percebam	_
+33	tuoj	48	بشأنها	_	?	?	?	51	Perque	_	?	?	?	49	Gefühl	_	59	give	_	_	_	54	dar	_	43	donner	_	47	darvi	_	43	verduidelijken:	_	49	percebam	_
+34	paaiškinsiu,	49	المهووسون،	_	?	?	?	53	feu	_	?	?	?	49	Gefühl	_	61	sense,	_	_	_	53	Para	CONTIGENCY|Cause.CONTIGENCY	45	sens,	_	48	un'idea,	_	43	verduidelijken:	_	49	percebam	_
+35	kad	?	?	?	?	?	?	57	la	_	?	?	?	48	ein	_	62	the	_	_	_	58	la	_	37	que	_	51	la	_	42	te	_	47	Para	CONTIGENCY|PragmaticCause.CONTIGENCY
+36	žaliąją	52	أعطيكم	_	?	?	?	55	idea	_	?	?	?	51	geben,	_	63	green	_	_	_	57	sentido,	_	47	appelons	_	50	chiamiamo	_	45	groene	_	50	melhor,	_
+37	tinklo	60	الشبكة	_	?	?	?	62	xarxa	_	?	?	?	55	des	_	67	network	_	_	_	63	red	_	44	du	_	52	parte	_	44	het	_	56	da	_
+38	pusę	50	ولكن	Concession.COMPARISON	?	?	?	50	geeks.	_	?	?	?	45	Geeks.	_	54	geeks	_	_	_	52	frikis.	_	39	<i>geeks</i>,	_	52	parte	_	39	nerds.	_	46	"geeks".	_
+39	ten	57	الجزء	_	?	?	?	70	ens	_	?	?	?	62	Leute,	_	72	those	_	_	_	73	si	TEMPORAL	51	nous	_	55	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	40	Om	PragmaticCause.CONTIGENCY	54	parte	_
+40	gyvenantieji	56	نسمي	_	?	?	?	65	l’habitem	_	?	?	?	57	nennen	_	69	call	_	_	_	64	llamada	_	50	<i>Petimore</i>,	_	54	"Smalltimora"	_	48	Smalltimore	_	55	verde	_
+41	vadina	61	سمولتيمور،	_	?	?	?	65	l’habitem	_	?	?	?	59	Klein-timore,	_	74	us	_	_	_	64	llamada	_	54	habitons,	_	58	noi	_	52	inwoners,	_	58	aos	_
+42	Mažąja	61	سمولتيمور،	_	?	?	?	66	l’anomenem	_	?	?	?	60	da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	74	us	_	_	_	65	"Smalltimore",	_	55	car	specification.Restatement.EXPANSION	60	vi	_	52	inwoners,	_	58	aos	_
+43	Baltimore,	63	للذين	_	?	?	?	67	Smalltimore	_	?	?	?	60	da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	68	we	_	_	_	51	los	_	55	car	specification.Restatement.EXPANSION	61	abitano,	_	55	soms	_	60	ali	_
+44	nes	64	يقطنونها	_	?	?	?	68	ja	_	?	?	?	60	da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	80	seems	_	_	_	68	viven	_	58	l'impression	_	61	abitano,	_	55	soms	_	61	moram,	_
+45	atrodo,	65	منا،	_	?	?	?	71	sembla	_	?	?	?	65	scheint,	_	80	seems	_	_	_	68	viven	_	58	l'impression	_	?	?	?	56	lijkt	_	61	moram,	_
+46	kad	59	من	_	?	?	?	72	que	_	?	?	?	?	?	?	75	that	_	_	_	62	la	_	62	une	_	?	?	?	?	?	?	64	que	_
+47	gyvename	68	وكأننا	_	?	?	?	73	vivim	_	?	?	?	67	einer	_	82	though	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON	74	viviéramos	_	60	vivre	_	66	vivessimo	_	58	men	_	65	vivemos	_
+48	labai	73	جداً.	_	?	?	?	74	en	_	?	?	?	66	in	_	87	very	_	_	_	71	parece	_	40	mais,	_	64	come	EXPANSION|Synchronous.TEMPORAL	59	in	_	67	cidade	_
+49	mažame	71	بلدة	_	?	?	?	76	poble	_	?	?	?	69	kleinen	_	88	small	_	_	_	77	pequeña	_	63	toute	_	70	molto	_	61	klein	_	69	pequena.	_
+50	mieste.	72	صغيرة	_	?	?	?	78	menut.	_	?	?	?	71	wohnen.	_	89	town.	_	_	_	77	pequeña	_	64	petite	_	71	piccola.	_	63	woont.	_	69	pequena.	_
+
+# sent_id = 155862
+# text:  Vėl ir vėl matome tuos pačius žmones, bet tik todėl, kad pakankamai neieškome visame miesto gylyje ir plotyje.
+# trans: Estamos sempre a encontrar as mesmas pessoas, mas isso acontece porque não exploramos toda a profundidade e amplitude da cidade.
+# forward_log_prob: -66.99030873786204
+# backward_log_prob: -60.815311819866395
+1	Vėl	1	نرى	_	1	?	_	1	Sempre	_	1	?	_	2	sehen	_	6	over	_	_	_	1	Vemos	_	1	On	_	1	Vediamo	_	3	telkens	_	1	Estamos	_
+2	ir	?	?	?	1	?	_	3	a	_	1	?	_	1	Wir	_	7	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	a	_	?	?	?	3	le	_	?	?	?	3	a	_
+3	vėl	4	مراراً	_	1	?	_	2	veiem	_	1	?	_	3	immer	_	6	over	_	_	_	3	la	_	5	mêmes	_	2	sempre	_	4	dezelfde	_	4	encontrar	_
+4	matome	4	مراراً	_	1	?	_	2	veiem	_	1	?	_	4	wieder	_	6	over	_	_	_	4	misma	_	5	mêmes	_	4	solite	_	6	keer	_	4	encontrar	_
+5	tuos	3	الأشخاص	_	1	?	_	6	gent	_	1	?	_	5	die	_	6	over	_	_	_	4	misma	_	4	les	_	4	solite	_	7	op	_	6	mesmas	_
+6	pačius	5	وتكراراً،	_	1	?	_	8	això	_	1	?	_	6	gleichen	_	8	over	_	_	_	8	otra	_	9	dû	_	4	solite	_	8	keer,	_	6	mesmas	_
+7	žmones,	?	?	?	1	?	_	4	la	_	1	?	_	?	?	?	9	again,	_	_	_	9	vez	_	9	dû	_	3	le	_	15	niet	_	6	mesmas	_
+8	bet	?	?	?	1	?	_	7	però	precedence.Asynchronous.TEMPORAL	1	?	_	?	?	?	10	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	vez	_	7	mais	Contrast.COMPARISON|Exception.EXPANSION	5	persone,	_	9	maar	_	8	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+9	tik	10	لا	Contrast.COMPARISON	1	?	_	10	perquè	CONTIGENCY|Cause.CONTIGENCY	1	?	_	12	ganze	_	12	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	11	no	_	11	fait	_	7	non	_	13	we	_	10	acontece	_
+10	todėl,	8	بسبب	reason.Cause.CONTIGENCY	1	?	_	11	en	_	1	?	_	?	?	?	11	that's	_	_	_	10	porque	CONTIGENCY|Cause.CONTIGENCY	10	au	Conjunction.EXPANSION	8	esploriamo	_	16	op	_	9	isso	_
+11	kad	9	أننا	_	1	?	_	15	la	_	1	?	_	11	die	_	15	really	_	result.Cause.CONTIGENCY	_	15	la	_	12	que	_	10	la	_	10	dat	_	15	a	_
+12	pakankamai	11	نكتشف	_	1	?	_	14	explorem	_	1	?	_	13	Breite	_	16	exploring	_	_	_	13	realmente	_	14	n'explorons	_	11	profondità	_	17	uitgaan	_	13	exploramos	_
+13	neieškome	11	نكتشف	_	1	?	_	16	profunditat	_	1	?	_	13	Breite	_	18	full	_	_	_	16	profundidad	_	14	n'explorons	_	11	profondità	_	20	volledige	_	13	exploramos	_
+14	visame	12	حقاً	_	1	?	_	16	profunditat	_	1	?	_	15	Tiefe	_	19	depth	_	_	_	16	profundidad	_	20	long	_	11	profondità	_	21	diepte	_	16	profundidade	_
+15	miesto	13	العمق	_	1	?	_	18	l’amplada	_	1	?	_	15	Tiefe	_	21	breadth	_	_	_	18	amplitud	_	20	long	_	13	l'ampiezza	_	23	breedte	_	16	profundidade	_
+16	gylyje	14	والعرض	_	1	?	_	18	l’amplada	_	1	?	_	15	Tiefe	_	21	breadth	_	_	_	18	amplitud	_	20	long	_	13	l'ampiezza	_	23	breedte	_	18	amplitude	_
+17	ir	?	?	?	1	?	_	17	i	_	1	?	_	14	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	17	y	_	19	de	_	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	22	en	Conjunction.EXPANSION	17	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+18	plotyje.	16	للمدينة.	_	1	?	_	18	l’amplada	_	1	?	_	18	erforschen.	_	21	breadth	_	_	_	18	amplitud	_	21	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	13	l'ampiezza	_	27	ontdekken.	_	18	amplitude	_
+
+# sent_id = 155863
+# text:  Kitoje tinklo pusėje yra žmonės, kurie domisi hip-hopo muzika ir jie net tapatina save labiau su Vašingtonu, Merilendu ir Virdžinija nei su Baltimorės miestu.
+# trans: Na outra extremidade da rede, temos pessoas que se interessam por música "hip-hop" e até se identificam dizendo que vivem na área DC/Maryland/Virginia, em vez de dizerem na cidade de Baltimore, a designação apropriada.
+# forward_log_prob: -122.38438363707758
+# backward_log_prob: -90.25528581238626
+1	Kitoje	3	الآخر	_	1	?	_	2	l’altre	_	1	?	_	4	Seite	_	1	On	_	_	_	1	En	_	1	A	_	1	All'altro	_	3	andere	_	3	extremidade	_
+2	tinklo	4	من	_	1	?	_	6	xarxa	_	1	?	_	5	des	_	5	of	_	_	_	7	red,	_	4	du	_	3	della	_	2	de	_	4	da	_
+3	pusėje	5	الشبكة،	_	1	?	_	?	?	?	1	?	_	2	der	_	4	end	_	_	_	7	red,	_	?	?	?	5	si	_	1	Aan	_	3	extremidade	_
+4	yra	?	?	?	1	?	_	5	la	_	1	?	_	?	?	?	?	?	?	?	?	6	la	_	?	?	?	?	?	?	?	?	?	8	que	_
+5	žmonės,	5	الشبكة،	_	1	?	_	12	coses	_	1	?	_	6	Netzwerkes	_	10	folks	_	_	_	?	?	?	11	s'intéressent	_	7	gente	_	8	zit	_	9	se	CONTIGENCY|Condition.CONTIGENCY
+6	kurie	6	تجد	_	1	?	_	10	interessada	_	1	?	_	15	interessiert	_	8	you	_	_	_	10	interesada	_	6	vous	_	8	interessata	_	16	muziek	_	12	música	_
+7	domisi	6	تجد	_	1	?	_	9	gent	_	1	?	_	15	interessiert	_	12	are	_	_	_	9	gente	_	7	avez	_	8	interessata	_	11	mensen	_	12	música	_
+8	hip-hopo	7	أناساً	_	1	?	_	?	?	?	1	?	_	14	Hip-Hop	_	11	who	_	_	_	4	extremo	_	2	l'autre	_	6	trova	_	10	groep	_	10	interessam	_
+9	muzika	14	وحتى	_	1	?	_	7	hi	_	1	?	_	15	interessiert	_	18	music	_	_	_	15	música	_	?	?	?	13	musica	_	?	?	?	12	música	_
+10	ir	?	?	?	1	?	_	17	i	_	1	?	_	8	sie	_	19	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	17	y	_	?	?	?	15	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	en	Conjunction.EXPANSION	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	jie	?	?	?	1	?	_	13	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	_	13	wie	COMPARISON|Synchronous.TEMPORAL	20	they	_	_	_	13	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	14	A	_	14	hip-hop	_	14	van	_	21	na	_
+12	net	15	أنهم	_	1	?	_	18	que	_	1	?	_	16	sind	_	21	even	_	_	_	?	?	?	15	leurs	_	18	identifica	_	20	met	_	15	até	_
+13	tapatina	15	أنهم	_	1	?	_	19	s’identifiquen	_	1	?	_	14	Hip-Hop	_	20	they	_	_	_	20	identifican	_	16	yeux,	_	18	identifica	_	19	identificeert	_	17	identificam	_
+14	save	16	يُعرفون	_	1	?	_	19	s’identifiquen	_	1	?	_	18	sich	_	20	they	_	_	_	20	identifican	_	17	ils	_	18	identifica	_	18	zich	_	18	dizendo	_
+15	labiau	17	بالعيش	_	1	?	_	22	vida	_	1	?	_	19	eher	_	22	identify	_	_	_	20	identifican	_	17	ils	_	21	fatto	_	19	identificeert	_	22	área	_
+16	su	17	بالعيش	_	1	?	_	20	amb	_	1	?	_	20	mit	_	23	with	_	_	_	19	se	_	19	la	_	21	fatto	_	20	met	_	16	se	CONTIGENCY|Condition.CONTIGENCY
+17	Vašingtonu,	19	منطقة	_	1	?	_	24	l’àrea	_	1	?	_	21	dem	_	24	living	_	_	_	22	habitantes	_	20	zone	_	23	vivere	_	22	gebied	_	25	vez	_
+18	Merilendu	20	نيويورك/ميريلاند/فيرجينيا	_	1	?	_	24	l’àrea	_	1	?	_	23	DC/Maryland/Virigina	_	27	DC/Maryland/Virginia	_	_	_	26	DC/Maryland/Virginia	_	21	District	_	25	zona	_	23	DC/	_	25	vez	_
+19	ir	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	?	?	?	?	?	?	?	?	22	de	_	32	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	24	em	Alternative.EXPANSION|COMPARISON
+20	Virdžinija	22	عند	TEMPORAL	1	?	_	26	WashingtonDC/Maryland/Virgina	_	1	?	_	24	identifizieren,	_	28	area	_	_	_	27	más	_	23	Columbia/Maryland/Virginie,	_	27	diciamo	_	26	eerder	succession.Asynchronous.TEMPORAL	27	dizerem	_
+21	nei	25	الاسم	_	1	?	_	28	que	_	1	?	_	25	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	?	?	?	?	?	24	plutôt	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION	28	oltre	_	27	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	27	dizerem	_
+22	su	25	الاسم	_	1	?	_	29	amb	_	1	?	_	26	mit	_	31	the	_	_	_	30	la	_	24	plutôt	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION	29	la	_	28	met	_	?	?	?
+23	Baltimorės	24	بالتيمور،	_	1	?	_	31	del	_	1	?	_	31	Baltimore.	_	32	Baltimore	_	_	_	33	Baltimore.	_	29	Baltimore.	_	31	vera	_	31	Baltimore	_	31	Baltimore,	_
+24	miestu.	26	الصحيح	_	1	?	_	32	propi	_	1	?	_	29	Stadtbezeichnung	_	33	city	_	_	_	31	ciudad	_	27	ville	_	33	propria.	_	30	stad	_	33	designação	_
+
+# sent_id = 155864
+# text:  Bet viduryje matote kai ką, kas jungia abidvi bendruomenes, tai sportas.
+# trans: Mas, no meio, vemos que há uma coisa que liga as duas comunidades. É o desporto.
+# forward_log_prob: -50.04112605298362
+# backward_log_prob: -35.96788189103431
+1	Bet	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	2	der	_	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	In	_	1	Mas,	_
+2	viduryje	2	ترى	_	1	?	_	2	al	_	1	?	_	1	In	_	4	middle,	_	_	_	3	el	_	2	au	_	3	mezzo	_	3	midden	_	2	no	_
+3	matote	4	الوسط	_	1	?	_	4	es	_	1	?	_	4	sehen	_	3	the	_	_	_	5	pueden	_	4	vous	_	4	vedremo	_	4	kan	_	4	vemos	_
+4	kai	7	شيئاً	_	1	?	_	7	alguna	_	1	?	_	6	etwas,	_	2	in	_	_	_	9	algo	_	6	quelque	_	7	qualcosa	_	9	iets	_	4	vemos	_
+5	ką,	8	ما	specification.Restatement.EXPANSION	1	?	_	8	cosa	_	1	?	_	6	etwas,	_	9	something	_	_	_	9	algo	_	9	relie	_	7	qualcosa	_	8	er	_	9	que	_
+6	kas	7	شيئاً	_	1	?	_	7	alguna	_	1	?	_	6	etwas,	_	9	something	_	_	_	9	algo	_	7	chose	_	7	qualcosa	_	11	beide	_	7	uma	_
+7	jungia	6	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	9	connecta	_	1	?	_	9	beiden	_	8	there's	_	_	_	8	hay	_	9	relie	_	9	lega	_	12	gemeenschappen	_	10	liga	_
+8	abidvi	10	هذين	_	1	?	_	9	connecta	_	1	?	_	11	verbindet,	_	13	two	_	_	_	13	dos	_	11	deux	_	11	due	_	13	met	_	11	as	_
+9	bendruomenes,	11	المجتمعين	_	1	?	_	12	dues	_	1	?	_	11	verbindet,	_	15	together,	_	_	_	14	comunidades,	_	12	communautés,	_	13	ed	_	15	verbindt:	_	13	comunidades.	_
+10	tai	13	وهو	specification.Restatement.EXPANSION	1	?	_	11	les	_	1	?	_	12	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	y	_	14	le	_	14	è	_	16	en	Conjunction.EXPANSION	14	É	_
+11	sportas.	14	الرياضة.	_	1	?	_	14	els	_	1	?	_	11	verbindet,	_	15	together,	_	_	_	14	comunidades,	_	15	sport.	_	15	lo	_	15	verbindt:	_	13	comunidades.	_
+
+# sent_id = 155865
+# text:  Turime Baltimore Orioles, Baltimore Ravens futbolo komandą, olimpininką Michael Phelps.
+# trans: Temos os Baltimore Orioles, a equipa de futebol Baltimore Ravens, Michael Phelps, o atleta olímpico,
+# forward_log_prob: -42.585293904324686
+# backward_log_prob: -30.180339336916393
+1	Turime	1	لدينا	_	1	?	_	1	Tenim	_	1	?	_	1	Wir	_	1	We	_	_	_	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	1	We	_	1	Temos	_
+2	Baltimore	2	فريق	_	1	?	_	3	Oriols	_	1	?	_	3	die	_	3	the	_	_	_	2	los	_	3	les	_	2	i	_	3	de	_	2	os	_
+3	Orioles,	4	أويلوس	_	1	?	_	2	als	_	1	?	_	4	Baltimore	_	4	Baltimore	_	_	_	3	Baltimore	_	4	<i>Orioles</i>,	_	3	Baltimore	_	4	Orioles	_	4	Orioles,	_
+4	Baltimore	5	وفريق	_	1	?	_	3	Oriols	_	1	?	_	5	Orioles,	_	5	Orioles,	_	_	_	5	en	_	5	l'équipe	_	4	Orioles,	_	5	(honkbal),	_	4	Orioles,	_
+5	Ravens	6	بالتيمور	_	1	?	_	5	Baltimore,	_	1	?	_	5	Orioles,	_	7	Baltimore	_	_	_	6	fútbol	_	7	football	_	4	Orioles,	_	7	Ravens	_	9	Baltimore	_
+6	futbolo	8	لكرة	_	1	?	_	8	Ravens,	_	1	?	_	6	die	_	9	football	_	_	_	9	Ravens	_	9	<i>Ravens</i>,	_	6	Baltimore	_	8	(football),	_	8	futebol	_
+7	komandą,	10	وفريق	_	1	?	_	8	Ravens,	_	1	?	_	9	[Football]	_	11	Michael	_	_	_	8	Baltimore	_	10	Michael	_	7	Ravens,	_	9	Michael	_	10	Ravens,	_
+8	olimpininką	10	وفريق	_	1	?	_	10	Michael	_	1	?	_	10	den	_	11	Michael	_	_	_	10	Michael	_	11	Phelps,	_	8	Michael	_	10	Phelps,	_	12	Phelps,	_
+9	Michael	12	فيليبس	_	1	?	_	11	Phelps,	_	1	?	_	12	Michael	_	12	Phelps,	_	_	_	11	Phelps,	_	13	champion	_	9	Phelps,	_	12	Olympische	_	13	o	_
+10	Phelps.	13	والأولومبيان.	_	1	?	_	12	l’olímpic.	_	1	?	_	13	Phelps,	_	14	Olympian.	_	_	_	13	olímpico.	_	14	olympique.	_	10	l'olimpionico.	_	13	zwemmer.	_	15	olímpico,	_
+
+# sent_id = 155866
+# text:  Galbūt girdėjote Baltimorės kompaniją Under Armour, ir ta sporto bendruomenė yra tiltas, jungiantis abi tinklo puses.
+# trans: a Under Armour, devem conhecer, uma empresa de Baltimore. O desporto atua como a única ponte entre estas duas pontas da rede.
+# forward_log_prob: -75.48745881139929
+# backward_log_prob: -56.234824843665876
+1	Galbūt	3	ربما	specification.Restatement.EXPANSION	1	?	_	2	Armour,	_	1	?	_	8	vielleicht	_	2	Armour,	_	_	_	2	Armour,	_	6	peut-être,	_	3	ne	_	3	misschien	_	1	a	_
+2	girdėjote	1	أندر	_	1	?	_	1	Under	_	1	?	_	3	Firma	_	1	Under	_	_	_	1	Under	_	1	<i>Under	_	1	Under	_	1	Under	_	3	Armour,	_
+3	Baltimorės	8	بالتيمور،	_	1	?	_	6	una	_	1	?	_	2	Baltimore	_	3	you	_	_	_	4	la	_	4	vous	_	4	avrete	_	10	Baltimore.	_	6	uma	_
+4	kompaniją	4	سمعتم	_	1	?	_	7	empresa	_	1	?	_	4	Under	_	11	company,	_	_	_	5	conozcan,	_	5	connaissez	_	4	avrete	_	5	je	_	5	conhecer,	_
+5	Under	6	شركة	_	1	?	_	7	empresa	_	1	?	_	5	Armour,	_	11	company,	_	_	_	8	empresa	_	9	entreprise	_	8	un'azienda	_	7	komt	_	7	empresa	_
+6	Armour,	6	شركة	_	1	?	_	7	empresa	_	1	?	_	9	kennen.	_	11	company,	_	_	_	8	empresa	_	9	entreprise	_	8	un'azienda	_	9	uit	_	7	empresa	_
+7	ir	7	في	_	1	?	_	10	I	_	1	?	_	6	die	_	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	?	?	?	?	?	?	?	?	?	?	?	?
+8	ta	10	الرياضات	_	1	?	_	11	aquesta	_	1	?	_	11	Sportverbundenheit	_	17	acts	_	_	_	12	esta	_	11	Cette	_	11	Quella	_	12	sportgemeenschap	_	12	atua	_
+9	sporto	11	ذاك	_	1	?	_	15	actua	_	1	?	_	10	Diese	_	15	of	_	_	_	14	deportiva	_	15	sport	_	13	di	_	13	fungeert	_	10	O	_
+10	bendruomenė	9	ومجتمع	_	1	?	_	12	comunitat	_	1	?	_	14	einzige	_	14	community	_	_	_	13	comunidad	_	?	?	?	12	comunità	_	15	de	_	14	a	_
+11	yra	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	13	that	_	_	_	6	es	_	16	est	_	?	?	?	?	?	?	?	?	?
+12	tiltas,	12	يتصرفون	_	1	?	_	17	l’únic	_	1	?	_	15	Brücke	_	20	only	_	result.Cause.CONTIGENCY	_	18	puente	_	18	seul	_	16	da	_	16	enige	_	15	única	_
+13	jungiantis	14	الوحيد	_	1	?	_	20	aquestes	_	1	?	_	19	Enden	_	22	between	TEMPORAL	_	_	20	los	_	19	pont	_	19	fra	_	19	deze	_	18	estas	_
+14	abi	17	الطرفين	_	1	?	_	22	puntes	_	1	?	_	18	beiden	_	24	two	_	_	_	22	extremos	_	22	deux	_	21	due	_	21	kanten	_	19	duas	_
+15	tinklo	18	من	_	1	?	_	24	la	_	1	?	_	20	des	_	26	of	_	_	_	24	la	_	24	du	_	23	della	_	22	van	_	21	da	_
+16	puses.	17	الطرفين	_	1	?	_	?	?	?	1	?	_	19	Enden	_	25	ends	_	_	_	?	?	?	23	extrémités	_	22	estremità	_	21	kanten	_	20	pontas	_
+
+# sent_id = 155867
+# text:  Pežvelkime į San Fransiską.
+# trans: Olhemos para São Francisco.
+# forward_log_prob: -7.473708146242208
+# backward_log_prob: -9.995116966897083
+1	Pežvelkime	1	دعونا	_	1	?	_	1	Si	TEMPORAL	1	?	_	1	Schauen	_	1	Let's	_	_	_	1	Miremos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Olhemos	_
+2	į	3	نظرة	_	1	?	_	2	mirem	_	1	?	_	2	wir	_	3	a	_	_	_	1	Miremos	_	2	maintenant	Exception.EXPANSION	2	un'occhiata	_	1	Laten	_	2	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+3	San	5	سان	_	1	?	_	3	San	_	1	?	_	4	San	_	6	San	_	_	_	3	San	_	3	San	_	4	San	_	3	San	_	3	São	_
+4	Fransiską.	6	فرانسيسكو.	_	1	?	_	2	mirem	_	1	?	_	3	uns	_	?	?	?	?	?	4	Francisco.	_	4	Francisco.	_	5	Francisco.	_	5	bekijken.	_	4	Francisco.	_
+
+# sent_id = 155868
+# text:  Jame kai kas gana kitaip.
+# trans: Vemos uma coisa um pouco diferente a acontecer em São Francisco.
+# forward_log_prob: -34.82619260613146
+# backward_log_prob: -19.102299921704773
+1	Jame	1	ترون	_	1	?	_	1	podem	_	1	?	_	1	Sie	_	1	You	_	_	_	1	En	_	1	Quelque	_	2	San	_	1	In	_	1	Vemos	_
+2	kai	2	شيئاً	_	1	?	_	3	que	_	1	?	_	4	dort	_	4	a	_	_	_	4	sucede	_	3	de	_	1	A	_	4	zie	_	3	coisa	_
+3	kas	4	يحدث	_	1	?	_	5	cosa	_	1	?	_	4	dort	_	8	happening	_	_	_	5	algo	_	6	se	_	5	qualcosa	_	5	je	_	8	acontecer	_
+4	gana	3	مختلفاً	_	1	?	_	7	passa	_	1	?	_	5	etwas	_	5	little	_	_	_	6	un	_	5	différent	_	8	po'	_	4	zie	_	8	acontecer	_
+5	kitaip.	7	فرانسيسكو.	_	1	?	_	6	diferent	_	1	?	_	6	anderes	_	7	different	_	_	_	8	distinto.	_	5	différent	_	6	di	_	9	patroon.	_	8	acontecer	_
+
+# sent_id = 155869
+# text:  Vienoje pusėje turime žiniasklaidos, politikos ir žinių žievę, kuri pastebima ir Baltimorėje, ir kitur, bet taip pat turime vieną labai aiškią moksliukų ir technologijos entuziastų grupę, kuri užima viršutinę tinklo pusę, o viena grupė tokia aiški, kad galime ją identifikuoti kaip Twitter darbuotojus, tarp technologijų entuziastų ir kompiuterinių žaidimų žaidėjų, priešingoje spektro pusėje nei hip-hopas.
+# trans: Por um lado, temos os "media", a política e a imprensa, grupo que também existe em Baltimore e noutras cidades, mas também temos este grupo predominante de "geeks" e técnicos que parece ocuparem a metade superior da rede. Há mesmo um grupo tão distinto e nítido que podemos identificá-lo como empregados do Twitter, ao pé dos "geeks", entre os jogadores e os "geeks", na extremidade oposta do espetro do "hip-hop".
+# forward_log_prob: -278.66476779783903
+# backward_log_prob: -232.40986431842728
+1	Vienoje	2	ناحية،	_	1	?	_	3	banda,	_	1	?	_	?	?	?	3	one	_	_	_	3	lado,	_	1	D'un	_	1	Da	_	3	ene	_	?	?	?
+2	pusėje	1	من	_	?	?	?	31	geeks	_	?	?	?	4	Seite	_	1	On	_	_	_	3	lado,	_	16	dans	_	3	lato	_	4	kant	_	3	lado,	_
+3	turime	5	والسياسة	_	?	?	?	4	tenim	_	?	?	?	?	?	?	7	have	_	_	_	?	?	?	?	?	?	6	i	_	7	politiek,	_	4	temos	_
+4	žiniasklaidos,	3	تجدون	_	?	?	?	5	lòbul	_	?	?	?	5	gibt	_	4	hand,	_	_	_	6	lado	_	7	média	_	7	media	_	6	media,	_	6	"media",	_
+5	politikos	6	والأقسام	_	?	?	?	7	mitjans	_	?	?	?	?	?	?	9	media,	_	_	_	8	los	_	6	zone	_	7	media	_	6	media,	_	6	"media",	_
+6	ir	8	التي	specification.Restatement.EXPANSION	?	?	?	11	i	_	?	?	?	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	5	une	_	8	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	8	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+7	žinių	7	الإخبارية	_	?	?	?	9	comunicació,	_	?	?	?	8	Medien-,	_	10	politics	_	_	_	9	medios,	_	9	politique,	_	7	media	_	10	nieuws.	_	8	política	_
+8	žievę,	7	الإخبارية	_	?	?	?	12	noticies	_	?	?	?	9	Politik-	_	12	news	_	_	_	12	política	_	11	existe	_	12	esiste	_	10	nieuws.	_	8	política	_
+9	kuri	11	التواجد	_	?	?	?	14	tendeix	_	?	?	?	11	Nachrichtenflügel,	_	13	lobe	_	_	_	12	política	_	11	existe	_	12	esiste	_	11	Vergelijkbaar	_	11	imprensa,	_
+10	pastebima	11	التواجد	_	?	?	?	14	tendeix	_	?	?	?	11	Nachrichtenflügel,	_	15	tends	_	_	_	15	noticias	_	11	existe	_	12	esiste	_	11	Vergelijkbaar	_	12	grupo	_
+11	ir	10	إلى	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	13	y	_	15	et	Conjunction.EXPANSION	?	?	?	14	en	Conjunction.EXPANSION	?	?	?
+12	Baltimorėje,	14	وغيرها	_	?	?	?	18	Baltimore	_	?	?	?	15	Baltimore	_	17	exist	_	_	_	17	tiende	_	?	?	?	15	Baltimora	_	16	steden,	_	15	existe	_
+13	ir	?	?	?	?	?	?	19	i	_	?	?	?	16	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	?	?	?	16	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	16	em	_
+14	kitur,	16	المدن،	_	?	?	?	20	altres	_	?	?	?	18	Städten	_	22	cities,	_	_	_	19	existir	_	17	d'autres	_	18	altre	_	?	?	?	17	Baltimore	_
+15	bet	15	من	_	?	?	?	22	però	precedence.Asynchronous.TEMPORAL	?	?	?	23	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	23	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	20	en	_	19	mais	Contrast.COMPARISON|Exception.EXPANSION	17	in	_	17	maar	_	21	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+16	taip	18	أيضاً	_	?	?	?	23	també	EXPANSION	?	?	?	24	auch	Conjunction.EXPANSION	25	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	26	también	EXPANSION	21	avez	_	21	c'è	_	20	ook	Conjunction.EXPANSION	22	também	Conjunction.EXPANSION|EXPANSION
+17	pat	18	أيضاً	_	?	?	?	23	també	EXPANSION	?	?	?	24	auch	Conjunction.EXPANSION	25	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	26	también	EXPANSION	22	aussi	COMPARISON|result.Cause.CONTIGENCY	21	c'è	_	20	ook	Conjunction.EXPANSION	22	também	Conjunction.EXPANSION|EXPANSION
+18	turime	13	بالتيمور	_	?	?	?	?	?	?	?	?	?	25	diese	_	26	have	_	_	_	?	?	?	34	la	_	?	?	?	26	uit	_	23	temos	_
+19	vieną	21	المجموعة	_	?	?	?	27	grup	_	?	?	?	26	tonangebende	_	29	predominant	_	_	_	28	este	_	24	groupe	_	23	questo	_	22	sterk	_	24	este	_
+20	labai	30	نوعاً	_	?	?	?	28	molt	_	?	?	?	14	in	_	28	very	_	_	_	30	muy	_	23	ce	_	19	città,	_	19	is	_	28	"geeks"	_
+21	aiškią	22	ذات	_	?	?	?	29	predominant	_	?	?	?	26	tonangebende	_	30	group	_	_	_	31	predominante	_	26	prédominant	_	25	predominante	_	25	bestaande	_	26	predominante	_
+22	moksliukų	27	المهووسين	_	?	?	?	33	techies	_	?	?	?	29	Geeks	_	34	techies	_	_	_	51	tan	_	26	prédominant	_	27	geek	_	24	groep	_	26	predominante	_
+23	ir	?	?	?	?	?	?	32	i	_	?	?	?	30	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	33	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	y	_	29	et	Conjunction.EXPANSION	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	29	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+24	technologijos	25	البسيطة	_	?	?	?	35	son	_	?	?	?	31	Technikbegeisterten,	_	37	sort	_	_	_	35	tecnos,	_	31	<i>techies</i>	_	29	smanettoni	_	29	techneuten	_	30	técnicos	_
+25	entuziastų	28	والفنيين	_	?	?	?	38	ocupen	_	?	?	?	31	Technikbegeisterten,	_	37	sort	_	_	_	37	parecen	_	33	dominent	_	31	occupano	_	32	bovenste	_	33	ocuparem	_
+26	grupę,	28	والفنيين	_	?	?	?	38	ocupen	_	?	?	?	31	Technikbegeisterten,	_	39	taking	_	_	_	38	estar	_	33	dominent	_	31	occupano	_	32	bovenste	_	33	ocuparem	_
+27	kuri	28	والفنيين	_	?	?	?	38	ocupen	_	?	?	?	31	Technikbegeisterten,	_	40	over	_	_	_	39	tomando	_	35	moitié	_	33	metà	_	33	helft	_	35	metade	_
+28	užima	32	يسيطرون	_	?	?	?	42	meitat	_	?	?	?	34	obere	_	42	top	_	_	_	41	mitad	_	36	supérieure	_	34	superiore	_	33	helft	_	36	superior	_
+29	viršutinę	32	يسيطرون	_	?	?	?	42	meitat	_	?	?	?	35	Hälfte	_	43	half	_	_	_	42	superior	_	36	supérieure	_	34	superiore	_	37	domineren.	_	36	superior	_
+30	tinklo	37	الشبكة،	_	?	?	?	45	xarxa	_	?	?	?	36	der	_	46	network,	_	_	_	45	red,	_	37	du	_	35	della	_	36	netwerk	_	37	da	_
+31	pusę,	38	حتى	_	?	?	?	52	molt	_	?	?	?	?	?	?	36	are	_	_	_	33	frikis	_	28	<i>geeks</i>	_	?	?	?	?	?	?	32	parece	_
+32	o	35	الأعلى	_	?	?	?	51	grup	_	?	?	?	38	dominieren,	_	51	group	_	_	_	48	además	EXPANSION	40	y	_	40	un	_	38	Er	_	41	um	_
+33	viena	34	النصف	_	?	?	?	51	grup	_	?	?	?	39	sowie	Conjunction.EXPANSION	51	group	_	_	_	48	además	EXPANSION	42	même	Conjunction.EXPANSION|Exception.EXPANSION	41	gruppo	_	42	overduidelijke	_	40	mesmo	_
+34	grupė	35	الأعلى	_	?	?	?	51	grup	_	?	?	?	39	sowie	Conjunction.EXPANSION	51	group	_	_	_	48	además	EXPANSION	44	groupe	_	41	gruppo	_	42	overduidelijke	_	43	tão	_
+35	tokia	35	الأعلى	_	?	?	?	51	grup	_	?	?	?	43	so	_	54	distinct	_	_	_	52	diferenciado	_	46	clairement	_	42	distinto	_	42	overduidelijke	_	44	distinto	_
+36	aiški,	?	?	?	?	?	?	53	distint	_	?	?	?	43	so	_	54	distinct	_	_	_	52	diferenciado	_	46	clairement	_	44	evidente	_	46	Twitter-werknemers	_	46	nítido	_
+37	kad	39	أن	_	?	?	?	44	la	_	?	?	?	?	?	?	57	that	_	_	_	44	la	_	?	?	?	32	la	_	?	?	?	47	que	_
+38	galime	?	?	?	?	?	?	?	?	?	?	?	?	49	wir	_	58	we	_	_	_	24	ciudades,	_	45	si	Concession.COMPARISON|Condition.CONTIGENCY	45	che	_	44	die	_	48	podemos	_
+39	ją	42	مميزة	_	?	?	?	57	identifiquem	_	?	?	?	46	ausgeprägt	_	?	?	?	?	?	57	empleados	_	49	voit	_	47	identificare	_	48	worden	_	49	identificá-lo	_
+40	identifikuoti	43	وواضحة	_	?	?	?	59	als	_	?	?	?	46	ausgeprägt	_	60	identify	_	_	_	57	empleados	_	51	s'agit	_	49	gli	_	49	geïdentificeerd.	_	51	empregados	_
+41	kaip	49	إلى	_	?	?	?	67	en	_	?	?	?	50	sie	_	61	it	_	_	_	65	en	_	?	?	?	?	?	?	?	?	?	50	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+42	Twitter	45	بإمكاننا	_	?	?	?	62	Twitter,	_	?	?	?	52	Twitter-Mitarbeiter	_	63	Twitter	_	_	_	60	al	_	53	salariés	_	50	impiegati	_	51	naast	Conjunction.EXPANSION	51	empregados	_
+43	darbuotojus,	47	كموظفي	_	?	?	?	62	Twitter,	_	?	?	?	52	Twitter-Mitarbeiter	_	64	employees,	_	_	_	63	los	_	53	salariés	_	50	impiegati	_	53	nerds,	_	51	empregados	_
+44	tarp	52	بين	_	?	?	?	61	de	_	?	?	?	58	zwischen	_	70	between	TEMPORAL	_	_	62	de	_	60	entre	_	56	tra	_	54	tussen	_	58	entre	_
+45	technologijų	?	?	?	?	?	?	68	mig	_	?	?	?	54	nahe	_	59	can	_	_	_	69	"gamers"	_	61	les	_	?	?	?	47	kan	_	60	jogadores	_
+46	entuziastų	50	جانب	_	?	?	?	68	mig	_	?	?	?	55	bei	_	72	gamers	_	_	_	68	los	_	62	joueurs	_	55	geek,	_	56	gamers	_	60	jogadores	_
+47	ir	?	?	?	?	?	?	71	i	_	?	?	?	60	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	73	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	70	y	_	63	et	Conjunction.EXPANSION	?	?	?	57	en	Conjunction.EXPANSION	61	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+48	kompiuterinių	53	اللاعبين	_	?	?	?	70	gamers	_	?	?	?	59	Gamern	_	72	gamers	_	_	_	69	"gamers"	_	62	joueurs	_	58	giocatori	_	56	gamers	_	60	jogadores	_
+49	žaidimų	53	اللاعبين	_	?	?	?	72	dels	_	?	?	?	59	Gamern	_	72	gamers	_	_	_	69	"gamers"	_	62	joueurs	_	58	giocatori	_	63	tegenovergestelde	_	60	jogadores	_
+50	žaidėjų,	54	والمهووسين،	_	?	?	?	73	geeks	_	?	?	?	59	Gamern	_	78	opposite	_	_	_	76	opuesto	_	62	joueurs	_	61	geek,	_	63	tegenovergestelde	_	60	jogadores	_
+51	priešingoje	56	الطرف	_	?	?	?	76	l’altra	_	?	?	?	63	entgegengesetzten	_	78	opposite	_	_	_	76	opuesto	_	62	joueurs	_	62	proprio	_	63	tegenovergestelde	_	68	espetro	_
+52	spektro	57	المقابل	_	?	?	?	77	punta	_	?	?	?	63	entgegengesetzten	_	78	opposite	_	_	_	75	lado	_	62	joueurs	_	63	dalla	_	63	tegenovergestelde	_	68	espetro	_
+53	pusėje	59	الهيب	_	?	?	?	81	hip-hop.	_	?	?	?	62	am	_	79	end	_	_	_	80	hip-hop.	_	67	l'opposé	_	64	parte	_	64	kant	_	64	na	_
+54	nei	59	الهيب	_	?	?	?	81	hip-hop.	_	?	?	?	51	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	80	of	_	_	_	?	?	?	71	hip-hop.	_	66	rispetto	_	67	hip-hop	_	65	extremidade	_
+55	hip-hopas.	58	لطيف	_	?	?	?	79	l’espectre	_	?	?	?	66	Hip-Hop-Spektrums.	_	83	spectrum.	_	_	_	78	espectro	_	70	zone	_	67	all'hip-hop.	_	68	spectrum.	_	68	espetro	_
+
+# sent_id = 155870
+# text:  Taigi kaip matote įtampa apie kurią girdėjome San Fransiske apie susirūpinimą dėl būsto kainų ir gyventojų išstūmimo ir technologijų kompanijų, kurios atneša daug turto ir įsikuria, yra tikra, ir to įrodymą matote šioje medžiagoje.
+# trans: (Risos) Mas podemos ver que são reais as tensões de que ouvimos falar em São Francisco em termos de pessoas preocupadas com a elitização e com todas as empresas tecnológicas que estão a trazer nova riqueza e nova população à cidade. Podemos ver isso aqui documentado.
+# forward_log_prob: -169.87896686355913
+# backward_log_prob: -133.45686236526674
+1	Taigi	1	إذن	_	1	?	_	4	pot	_	1	?	_	3	also,	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	_	12	--	_	?	?	?	1	Dus	result.Cause.CONTIGENCY	?	?	?
+2	kaip	?	?	?	1	?	_	5	veure	_	1	?	_	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	2	you	_	_	_	?	?	?	1	Vous	_	?	?	?	3	kan	_	2	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+3	matote	3	أن	_	1	?	_	3	es	_	1	?	_	1	Sie	_	3	can	_	_	_	2	pueden	_	2	voyez	_	2	vediamo	_	2	je	_	8	as	_
+4	įtampa	2	فبإمكانكم	_	1	?	_	2	també	EXPANSION	1	?	_	6	Spannungen,	_	5	though,	_	_	_	5	obstante,	_	3	donc	result.Cause.CONTIGENCY	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	?	?	?	7	reais	_
+5	apie	9	التي	specification.Restatement.EXPANSION	1	?	_	?	?	?	1	?	_	6	Spannungen,	_	?	?	?	?	?	7	las	_	?	?	?	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	?	?	?	8	as	_
+6	kurią	8	التوترات	_	1	?	_	8	tensions	_	1	?	_	6	Spannungen,	_	8	tensions	_	_	_	7	las	_	6	tensions	_	8	abbiamo	_	7	spanningen	_	7	reais	_
+7	girdėjome	8	التوترات	_	1	?	_	10	sentim	_	1	?	_	6	Spannungen,	_	8	tensions	_	_	_	8	tensiones	_	7	dont	_	9	sentito	_	10	hoort	_	9	tensões	_
+8	San	14	سان	_	1	?	_	12	San	_	1	?	_	10	San	_	14	San	_	_	_	14	San	_	10	entendu	_	12	San	_	12	San	_	15	São	_
+9	Fransiske	10	قد	_	1	?	_	15	quant	_	1	?	_	12	vernehmen,	_	?	?	?	?	?	11	han	_	9	avons	_	15	questioni	_	11	vanuit	_	12	ouvimos	_
+10	apie	9	التي	specification.Restatement.EXPANSION	1	?	_	11	sobre	_	1	?	_	12	vernehmen,	_	12	about	_	_	_	?	?	?	11	parler	_	14	le	_	22	van	_	14	em	_
+11	susirūpinimą	?	?	?	1	?	_	15	quant	_	1	?	_	12	vernehmen,	_	17	terms	_	_	_	12	producido	_	?	?	?	15	questioni	_	15	betreft	_	13	falar	_
+12	dėl	17	ناحية	_	1	?	_	15	quant	_	1	?	_	14	sich	_	22	about	_	_	_	10	se	_	?	?	?	7	cui	_	17	over	_	4	ver	_
+13	būsto	17	ناحية	_	1	?	_	21	preocupada	_	1	?	_	?	?	?	19	people	_	_	_	?	?	?	14	habitants	_	16	relative	_	18	gentrificatie,	_	18	termos	_
+14	kainų	17	ناحية	_	1	?	_	20	està	_	1	?	_	16	Leute	_	23	gentrification	_	_	_	16	con	_	15	préoccupés	_	18	gentrificazione	_	18	gentrificatie,	_	18	termos	_
+15	ir	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	24	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	18	et	Conjunction.EXPANSION	19	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	19	en	Conjunction.EXPANSION	17	em	_
+16	gyventojų	19	الأشخاص	_	1	?	_	24	gentrificació	_	1	?	_	18	Gentrifizierung	_	23	gentrification	_	_	_	18	preocupada	_	17	l'embourgeoisement	_	18	gentrificazione	_	21	invloed	_	21	preocupadas	_
+17	išstūmimo	21	بشأن	_	1	?	_	24	gentrificació	_	1	?	_	20	wegen	reason.Cause.CONTIGENCY	23	gentrification	_	_	_	21	aburguesamiento	_	20	<i>start-ups</i>	_	21	tutte	_	24	nieuwe	_	24	elitização	_
+18	ir	?	?	?	1	?	_	25	i	_	1	?	_	?	?	?	24	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	23	une	_	?	?	?	?	?	?	25	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+19	technologijų	23	وكل	_	1	?	_	27	companyies	_	1	?	_	23	Tech-Firmen,	_	28	tech	_	_	_	19	por	CONTIGENCY|Cause.CONTIGENCY	21	qui	_	29	un	_	27	die	_	27	todas	_
+20	kompanijų,	24	شركات	_	1	?	_	28	tecnològiques	_	1	?	_	22	neuen	_	27	new	_	_	_	24	nuevas	_	22	apportent	_	26	tecnologia	_	26	bedrijven	_	26	com	_
+21	kurios	26	الجديدة	_	1	?	_	30	porten	_	1	?	_	25	neuen	_	29	companies	_	_	_	25	compañías	_	24	nouvelle	_	26	tecnologia	_	28	welvaart	_	28	as	_
+22	atneša	28	تحضر	_	1	?	_	32	nova	_	1	?	_	26	Wohlstand	_	32	bringing	_	_	_	26	tecnológicas	_	25	richesse	_	28	portano	_	28	welvaart	_	30	tecnológicas	_
+23	daug	28	تحضر	_	1	?	_	32	nova	_	1	?	_	27	bringen	_	33	new	_	_	_	28	generan	_	25	richesse	_	28	portano	_	31	zich	_	30	tecnológicas	_
+24	turto	30	جديدةً	_	1	?	_	33	riquesa	_	1	?	_	27	bringen	_	34	wealth	_	_	_	28	generan	_	27	s'implantant	_	30	nuovo	_	32	vestigen	_	32	estão	_
+25	ir	32	إلى	_	1	?	_	34	i	_	1	?	_	28	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	35	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	30	y	_	?	?	?	32	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	30	en	Conjunction.EXPANSION	?	?	?
+26	įsikuria,	31	وسكناً	_	1	?	_	35	assentament	_	1	?	_	33	ansiedeln,	_	37	into	_	_	_	31	nuevos	_	28	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	31	benessere	_	36	echt	_	34	trazer	_
+27	yra	34	هي	_	1	?	_	37	la	_	1	?	_	32	Stadt	_	39	city	_	_	_	?	?	?	29	ville	_	27	che	_	35	stad,	_	31	que	_
+28	tikra,	35	توترات	_	1	?	_	39	són	_	1	?	_	33	ansiedeln,	_	40	are	_	_	_	32	asentamientos	_	31	sont	_	35	assetto	_	37	plaatsvindt	_	38	nova	_
+29	ir	?	?	?	1	?	_	41	i	_	1	?	_	?	?	?	42	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	35	y	_	?	?	?	37	città	_	38	en	Conjunction.EXPANSION	37	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+30	to	36	حقيقية،	_	1	?	_	40	reals,	_	1	?	_	35	sind.	_	?	?	?	?	?	34	reales,	_	34	pouvez	_	38	sono	_	43	duidelijk	_	40	à	_
+31	įrodymą	37	وبإمكانكم	_	1	?	_	43	pot	_	1	?	_	?	?	?	45	actually	precedence.Asynchronous.TEMPORAL	result.Cause.CONTIGENCY	_	34	reales,	_	34	pouvez	_	39	reali.	_	42	hier	_	42	Podemos	_
+32	matote	40	تشاهدوها	_	1	?	_	42	es	_	1	?	_	36	Sie	_	43	you	_	_	_	36	se	_	33	Vous	_	40	Le	_	39	dat	_	44	isso	_
+33	šioje	41	موثقة	_	1	?	_	46	estan	_	1	?	_	39	hier	_	48	documented	_	_	_	39	documentado	_	36	voir	_	42	documentate	_	45	beeld	_	45	aqui	_
+34	medžiagoje.	41	موثقة	_	1	?	_	47	documentades	_	1	?	_	40	dokumentiert.	_	48	documented	_	_	_	39	documentado	_	36	voir	_	42	documentate	_	45	beeld	_	46	documentado.	_
+
+# sent_id = 155871
+# text:  Matote, kad LGBT bendruomenė ne visai sutaria su moksliukų bendruomene, su menų bendruomene, su muzikos bendruomene.
+# trans: Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade "geek", com a comunidade das artes, com a comunidade da música.
+# forward_log_prob: -82.1721781544193
+# backward_log_prob: -52.7810867594231
+1	Matote,	1	بإمكانكم	_	1	?	_	1	Es	_	1	?	_	1	Sie	_	1	You	_	_	_	3	ver	_	1	Vous	_	1	Vediamo	_	1	Je	_	1	Vemos	_
+2	kad	2	أن	_	1	?	_	4	que	_	1	?	_	3	die	_	4	the	_	_	_	5	la	_	3	que	_	3	la	_	3	dat	_	2	que	_
+3	LGBT	3	تشاهدوا	_	1	?	_	6	comunitat	_	1	?	_	4	LGBT-Community,	_	5	LGBT	_	_	_	6	comunidad	_	5	communauté	_	5	LGBT	_	5	LHBT-gemeenschap	_	1	Vemos	_
+4	bendruomenė	6	المثليين	_	1	?	_	6	comunitat	_	1	?	_	3	die	_	6	community	_	_	_	4	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	6	LGBT	_	4	comunità	_	4	de	_	3	a	_
+5	ne	7	والمتحولين	_	1	?	_	8	no	_	1	?	_	4	LGBT-Community,	_	7	is	_	_	_	8	no	_	9	pas	_	6	non	_	5	LHBT-gemeenschap	_	10	dá	_
+6	visai	13	مع	_	1	?	_	7	LGBT	_	1	?	_	4	LGBT-Community,	_	10	getting	_	_	_	11	con	_	8	s'entend	_	7	vada	_	7	veel	_	10	dá	_
+7	sutaria	8	جنسياً	_	1	?	_	9	es	_	1	?	_	4	LGBT-Community,	_	9	really	_	result.Cause.CONTIGENCY	_	10	lleva	_	8	s'entend	_	8	molto	_	6	niet	_	10	dá	_
+8	su	10	يتماشى	_	1	?	_	12	amb	_	1	?	_	6	nicht	_	12	with	_	_	_	9	se	_	8	s'entend	_	10	con	_	10	met	_	9	se	CONTIGENCY|Condition.CONTIGENCY
+9	moksliukų	15	المهووسين	_	1	?	_	14	comunitat	_	1	?	_	8	den	_	13	the	_	_	_	15	tan	_	16	communauté	_	12	comunità	_	12	groep	_	14	a	_
+10	bendruomene,	14	مجتمع	_	1	?	_	15	geek,	_	1	?	_	10	passt,	_	14	geek	_	_	_	13	comunidad	_	16	communauté	_	12	comunità	_	?	?	?	16	"geek",	_
+11	su	16	بصورة	_	1	?	_	16	la	_	1	?	_	10	passt,	_	?	?	?	?	?	17	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	15	la	_	15	la	_	14	de	_	17	com	_
+12	menų	19	مع	_	1	?	_	17	comunitat	_	1	?	_	10	passt,	_	19	arts	_	_	_	18	con	_	14	avec	_	17	degli	_	15	kunstgemeenschap,	_	19	comunidade	_
+13	bendruomene,	17	جيدة،	_	1	?	_	18	d’art	_	1	?	_	12	Künstler,	_	17	well,	_	_	_	20	comunidad	_	18	celle	_	16	comunità	_	15	kunstgemeenschap,	_	20	das	_
+14	su	20	مجتمع	_	1	?	_	20	la	_	1	?	_	11	die	_	18	the	_	_	_	19	la	_	19	des	_	18	artisti	_	15	kunstgemeenschap,	_	22	com	_
+15	muzikos	19	مع	_	1	?	_	23	música.	_	1	?	_	14	Musiker.	_	19	arts	_	_	_	18	con	_	21	celle	_	21	musicisti.	_	18	muziekgemeenschap	_	24	comunidade	_
+16	bendruomene.	21	الفنون	_	1	?	_	21	comunitat	_	1	?	_	14	Musiker.	_	23	community.	_	_	_	23	musical.	_	23	musiciens.	_	20	dei	_	18	muziekgemeenschap	_	24	comunidade	_
+
+# sent_id = 155872
+# text:  Ir tai priveda prie tokių dalykų.
+# trans: Isso leva a coisas deste género.
+# forward_log_prob: -16.59228967626381
+# backward_log_prob: -14.399349143777817
+1	Ir	2	فإن	_	1	?	_	1	I	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	?	?	?	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	hetgeen	_	1	Isso	_
+2	tai	3	ذلك	_	1	?	_	?	?	?	1	?	_	2	dies	_	3	it	_	_	_	2	eso	_	1	Ça	_	3	porta	_	2	leidt	_	2	leva	_
+3	priveda	1	ولذا	result.Cause.CONTIGENCY	1	?	_	2	això	_	1	?	_	3	führt	_	2	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	conduce	_	2	mène	_	2	questo	_	1	hetgeen	_	1	Isso	_
+4	prie	4	يقود	_	1	?	_	3	porta	_	1	?	_	4	zu	_	4	leads	_	_	_	3	conduce	_	3	à	specification.Restatement.EXPANSION	4	a	_	3	tot	_	3	a	_
+5	tokių	5	إلى	_	1	?	_	5	coses	_	1	?	_	5	Dingen	_	6	things	_	_	_	3	conduce	_	6	comme	COMPARISON|specification.Restatement.EXPANSION	5	cose	_	4	uitspraken	_	5	deste	_
+6	dalykų.	7	كهذه.	_	1	?	_	7	aquestes.	_	1	?	_	7	diesen:	_	7	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	6	así.	_	7	ça.	_	5	cose	_	5	zoals	COMPARISON|Instantiation.EXPANSION	6	género.	_
+
+# sent_id = 155873
+# text:  [„Iškelti Twitter“] Gavau šią nuotrauką prieš kelias savaites ir joje matote, kas vyksta San Fransisko gatvėse, ir manau, kad tai galima suprasti žiūrint į šiuos žemėlapius.
+# trans: [Abaixo o Twitter] Enviaram-me esta foto há umas semanas. Mostra o que se passa no terreno, em São Francisco. Acho que podemos tentar perceber isso, olhando para um mapa como este.
+# forward_log_prob: -117.10501752171233
+# backward_log_prob: -97.7245585971734
+1	[„Iškelti	1	["قم	_	1	?	_	1	[“Esborreu	_	1	?	_	1	["Twitter	_	1	["Evict	_	_	_	1	[desahucia	_	1	[Virez	_	1	["Sfrattiamo	_	1	"verjaag	_	1	[Abaixo	_
+2	Twitter“]	3	تويتر"]	_	1	?	_	2	Twitter”]	_	1	?	_	2	raus"]	_	3	Somebody	_	_	_	1	[desahucia	_	1	[Virez	_	1	["Sfrattiamo	_	2	Twitter".	_	1	[Abaixo	_
+3	Gavau	4	أرسل	_	1	?	_	3	Vaig	_	1	?	_	4	Bild	_	4	sent	_	_	_	3	Me	_	5	envoyé	_	4	ricevuto	_	4	kreeg	_	3	Twitter]	_
+4	šią	6	أحدهم	_	1	?	_	4	rebre	_	1	?	_	5	bekam	_	7	photo	_	_	_	4	enviaron	_	5	envoyé	_	4	ricevuto	_	5	recent	_	4	Enviaram-me	_
+5	nuotrauką	6	أحدهم	_	1	?	_	6	foto	_	1	?	_	7	vor	_	7	photo	_	_	_	6	foto	_	7	photo	_	6	foto	_	7	foto,	_	6	foto	_
+6	prieš	8	الصورة	_	1	?	_	7	fa	_	1	?	_	7	vor	_	11	ago,	_	_	_	7	hace	_	7	photo	_	7	qualche	_	7	foto,	_	6	foto	_
+7	kelias	5	لي	_	1	?	_	8	unes	_	1	?	_	6	ich	_	9	few	_	_	_	8	unas	_	12	semaines,	_	3	Ho	_	6	deze	_	8	umas	_
+8	savaites	5	لي	_	1	?	_	9	setmanes	_	1	?	_	9	Wochen.	_	10	weeks	_	_	_	9	semanas,	_	12	semaines,	_	3	Ho	_	7	foto,	_	9	semanas.	_
+9	ir	?	?	?	1	?	_	10	i	_	1	?	_	?	?	?	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	y	_	10	a	_	?	?	?	?	?	?	?	?	?
+10	joje	12	وهي	specification.Restatement.EXPANSION	1	?	_	11	mostra	_	1	?	_	11	zeigt	_	14	shows	_	_	_	11	muestra	_	13	elle	_	12	sta	_	14	straat	_	10	Mostra	_
+11	matote,	?	?	?	1	?	_	13	que	_	1	?	_	23	sie	_	19	the	_	_	_	23	pueden	_	14	montre	_	13	succedendo	_	23	je	_	12	que	_
+12	kas	14	ما	specification.Restatement.EXPANSION	1	?	_	?	?	?	1	?	_	13	was	_	17	happening	_	_	_	23	pueden	_	17	se	_	?	?	?	15	in	_	11	o	_
+13	vyksta	?	?	?	1	?	_	23	ho	_	1	?	_	10	Es	_	13	it	_	_	_	12	lo	_	19	sur	_	20	si	_	18	gebeurt	_	13	se	CONTIGENCY|Condition.CONTIGENCY
+14	San	20	سان	_	1	?	_	17	San	_	1	?	_	18	San	_	22	San	_	_	_	18	San	_	23	San	_	15	San	_	16	San	_	18	São	_
+15	Fransisko	18	الأرض	_	1	?	_	15	passant	_	1	?	_	16	Boden	_	20	ground	_	_	_	15	sucediendo	_	21	terrain	_	21	possa	_	18	gebeurt	_	16	terreno,	_
+16	gatvėse,	18	الأرض	_	1	?	_	22	realment	_	1	?	_	16	Boden	_	20	ground	_	_	_	15	sucediendo	_	21	terrain	_	21	possa	_	18	gebeurt	_	16	terreno,	_
+17	ir	?	?	?	1	?	_	19	i	_	1	?	_	?	?	?	24	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	20	y	_	?	?	?	17	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	19	en	Conjunction.EXPANSION	17	em	_
+18	manau,	22	وأعتقد	_	1	?	_	20	crec	_	1	?	_	21	Ich	_	25	I	_	_	_	21	creo	_	20	le	_	18	credo	_	20	ik	_	15	no	_
+19	kad	27	أن	_	1	?	_	20	crec	_	1	?	_	21	Ich	_	25	I	_	_	_	21	creo	_	25	Je	_	19	che	_	24	dat	_	21	que	_
+20	tai	30	ذلك	_	1	?	_	30	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	_	?	?	?	33	that	_	_	_	22	que	_	33	une	_	29	una	_	?	?	?	?	?	?
+21	galima	28	تحاولوا	_	1	?	_	24	podeu	_	1	?	_	24	können	_	28	can	_	_	_	26	entenderlo	_	31	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	11	cosa	_	11	wat	_	22	podemos	_
+22	suprasti	29	فهم	_	1	?	_	25	entendre	_	1	?	_	25	versuchen,	_	32	understand	_	_	_	26	entenderlo	_	26	pense	_	25	capire	_	27	begrijpen	_	23	tentar	_
+23	žiūrint	32	خلال	_	1	?	_	26	al	_	1	?	_	26	das	_	34	through	_	_	_	26	entenderlo	_	27	qu'on	_	27	situazione	_	28	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	24	perceber	_
+24	į	33	النظر	_	1	?	_	28	un	_	1	?	_	30	solche	_	35	looking	_	_	_	27	mirando	_	?	?	?	24	a	_	30	naar	_	27	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+25	šiuos	32	خلال	_	1	?	_	?	?	?	1	?	_	31	Karten	_	40	this.	_	_	_	26	entenderlo	_	34	telle	_	?	?	?	29	zo	Instantiation.EXPANSION	26	olhando	_
+26	žemėlapius.	34	إلى	_	1	?	_	?	?	?	1	?	_	17	von	_	26	think	_	_	_	26	entenderlo	_	?	?	?	?	?	?	32	kaart	_	28	um	_
+
+# sent_id = 155874
+# text:  Pažvelkime į Rio de Žaneirą.
+# trans: Vejamos o Rio de Janeiro.
+# forward_log_prob: -10.518695804902853
+# backward_log_prob: -12.153659975829784
+1	Pažvelkime	1	دعونا	_	1	?	_	1	Donem	_	1	?	_	1	Betrachten	_	1	Let's	_	_	_	1	Veamos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Vejamos	_
+2	į	3	نظرة	_	1	?	_	3	cop	_	1	?	_	2	wir	_	3	a	_	_	_	1	Veamos	_	2	maintenant	Exception.EXPANSION	2	un'occhiata	_	2	we	_	2	o	_
+3	Rio	5	ريو	_	1	?	_	6	Rio	_	1	?	_	3	Rio	_	6	Rio	_	_	_	2	Rio	_	3	Rio	_	4	Rio	_	3	Rio	_	3	Rio	_
+4	de	5	ريو	_	1	?	_	6	Rio	_	1	?	_	4	de	_	7	de	_	_	_	3	de	_	4	de	_	5	de	_	5	Janeiro	_	4	de	_
+5	Žaneirą.	6	دي	_	1	?	_	8	Janeiro.	_	1	?	_	5	Janeiro.	_	8	Janeiro.	_	_	_	4	Janeiro.	_	5	Janeiro.	_	6	Janeiro.	_	6	nemen.	_	5	Janeiro.	_
+
+# sent_id = 155875
+# text:  Per paskutines kelias savaites rinkau duomenis apie Rio ir vienas dalykas labai išsiskyrė iš kitų: viskas yra išties labai susimaišę.
+# trans: Passei umas semanas a reunir dados sobre o Rio. Uma das coisas que ressaltou nesta cidade é que está tudo muito misturado.
+# forward_log_prob: -73.23098151959626
+# backward_log_prob: -69.87385906258652
+1	Per	1	أمضيت	_	1	?	_	1	He	_	1	?	_	2	sammelte	_	2	spent	_	_	_	1	He	_	1	J'ai	_	8	su	_	2	afgelopen	_	1	Passei	_
+2	paskutines	2	الأسابيع	_	1	?	_	2	passat	_	1	?	_	2	sammelte	_	4	last	_	_	_	2	pasado	_	2	passé	_	2	trascorso	_	3	paar	_	1	Passei	_
+3	kelias	4	الماضية	_	1	?	_	3	unes	_	1	?	_	1	Ich	_	5	few	_	_	_	3	unas	_	5	semaines	_	1	Ho	_	4	weken	_	2	umas	_
+4	savaites	14	لي	_	1	?	_	4	setmanes	_	1	?	_	5	Wochen	_	6	weeks	_	_	_	4	semanas	_	5	semaines	_	1	Ho	_	5	heb	_	3	semanas	_
+5	rinkau	5	وأنا	_	1	?	_	5	recollint	_	1	?	_	4	letzten	_	7	gathering	_	_	_	5	reuniendo	_	7	réunir	_	5	settimane	_	5	heb	_	5	reunir	_
+6	duomenis	19	كل	_	1	?	_	6	dades	_	1	?	_	6	Daten	_	8	data	_	_	_	6	datos	_	9	données	_	7	dati	_	7	data	_	6	dados	_
+7	apie	12	التي	specification.Restatement.EXPANSION	1	?	_	7	sobre	_	1	?	_	7	in	_	9	about	_	_	_	7	sobre	_	9	données	_	3	le	_	8	over	_	7	sobre	_
+8	Rio	10	وأحد	_	1	?	_	8	Rio	_	1	?	_	8	Rio.	_	10	Rio,	_	_	_	8	Rio	_	11	Rio,	_	9	Rio	_	9	Rio	_	8	o	_
+9	ir	?	?	?	1	?	_	9	i	_	1	?	_	?	?	?	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	y	_	12	et	Conjunction.EXPANSION	?	?	?	11	en	Conjunction.EXPANSION	?	?	?
+10	vienas	13	اتضحت	_	1	?	_	13	coses	_	1	?	_	10	Sache	_	12	one	_	_	_	13	cosas	_	?	?	?	13	mi	_	10	verzameld	_	12	coisas	_
+11	dalykas	13	اتضحت	_	1	?	_	14	que	_	1	?	_	12	mir	_	16	that	_	_	_	14	destacables	_	22	vraiment	_	11	cosa	_	?	?	?	10	Uma	_
+12	labai	15	عن	_	1	?	_	15	destaca	_	1	?	_	13	in	_	13	of	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	13	ce	_	15	colpito	_	13	van	_	?	?	?
+13	išsiskyrė	?	?	?	1	?	_	15	destaca	_	1	?	_	12	mir	_	18	out	_	_	_	14	destacables	_	15	m'a	_	14	ha	_	15	opvallendste	_	14	ressaltou	_
+14	iš	16	هذه	_	1	?	_	15	destaca	_	1	?	_	9	Eine	_	18	out	_	_	_	16	mi	_	15	m'a	_	10	una	_	17	in	_	11	das	_
+15	kitų:	20	شيء	_	1	?	_	15	destaca	_	1	?	_	16	auf:	_	26	everything's	_	_	_	18	esta	_	16	frappé	_	17	questa	_	16	dingen	_	15	nesta	_
+16	viskas	21	فيها	_	1	?	_	21	tot	_	1	?	_	17	Alles	_	26	everything's	_	_	_	22	todo	_	16	frappé	_	21	tutto	_	22	alles	_	?	?	?
+17	yra	18	أن	_	1	?	_	?	?	?	1	?	_	18	ist	_	23	city	_	_	_	20	es	_	19	que	_	19	è	_	19	stad	_	17	é	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+18	išties	24	مختلط	_	1	?	_	23	mesclat	_	1	?	_	19	wirklich	_	26	everything's	_	_	_	?	?	?	18	c'est	_	22	sia	_	22	alles	_	20	tudo	_
+19	labai	25	نوعاً	_	1	?	_	22	està	_	1	?	_	20	sehr	_	29	of	_	_	_	23	parece	_	?	?	?	20	come	EXPANSION|Synchronous.TEMPORAL	23	erg	_	19	está	_
+20	susimaišę.	24	مختلط	_	1	?	_	23	mesclat	_	1	?	_	21	gemischt.	_	28	kind	_	_	_	24	realmente	_	23	mélangé.	_	23	davvero	_	24	gemengd	_	22	misturado.	_
+
+# sent_id = 155876
+# text:  Tai labai heterogeniškas miestas, negu Baltimorė ar San Fransiskas.
+# trans: É uma cidade muito heterogénea, muito diferente de Baltimore ou São Francisco.
+# forward_log_prob: -31.778214703277992
+# backward_log_prob: -28.392977686408845
+1	Tai	?	?	?	1	?	_	1	És	_	1	?	_	1	Es	_	1	It's	_	_	_	1	Es	_	1	Cette	_	1	È	_	1	Het	_	1	É	_
+2	labai	4	جداً	_	1	?	_	2	una	_	1	?	_	4	sehr	_	3	very	_	_	_	2	una	_	3	est	_	4	molto	_	4	erg	_	3	cidade	_
+3	heterogeniškas	1	إنها	specification.Restatement.EXPANSION	1	?	_	4	molt	_	1	?	_	5	heterogene	_	4	heterogenous	_	_	_	5	heterogénea	_	4	hétérogène,	_	5	eterogenea,	_	5	heterogene	_	5	heterogénea,	_
+4	miestas,	5	بطريقة	_	1	?	_	3	ciutat	_	1	?	_	6	Stadt,	_	5	city	_	_	_	3	ciudad	_	5	mais	Contrast.COMPARISON|Exception.EXPANSION	6	ma	Concession.COMPARISON|Contrast.COMPARISON	6	stad,	_	?	?	?
+5	negu	6	تختلف	_	1	?	_	5	heterogènia,	_	1	?	_	5	heterogene	_	4	heterogenous	_	_	_	7	una	_	4	hétérogène,	_	5	eterogenea,	_	5	heterogene	_	6	muito	_
+6	Baltimorė	6	تختلف	_	1	?	_	5	heterogènia,	_	1	?	_	5	heterogene	_	10	Baltimore	_	_	_	10	Baltimore	_	4	hétérogène,	_	5	eterogenea,	_	5	heterogene	_	9	Baltimore	_
+7	ar	6	تختلف	_	1	?	_	9	o	_	1	?	_	8	wie	COMPARISON|Synchronous.TEMPORAL	9	that	_	_	_	11	o	_	6	pas	_	7	non	_	5	heterogene	_	10	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+8	San	10	سان	_	1	?	_	10	San	_	1	?	_	11	San	_	12	San	_	_	_	12	San	_	10	San	_	11	San	_	10	en	Conjunction.EXPANSION	11	São	_
+9	Fransiskas.	11	فرانسيسكو.	_	1	?	_	9	o	_	1	?	_	10	oder	disjunctive.Alternative.EXPANSION	15	not.	_	_	_	14	no	_	9	ou	COMPARISON	10	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	?	?	?	10	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+
+# sent_id = 155877
+# text:  Vis dar turime sluoksnį žmonių dirbančių valdžioje, laikrasčiuose, politikoje, rašytojų.
+# trans: Têm na mesma o grupo de pessoas envolvidas no governo, na imprensa, os políticos, os colunistas.
+# forward_log_prob: -48.52718313444096
+# backward_log_prob: -34.58785275825166
+1	Vis	1	لا	Contrast.COMPARISON	1	?	_	1	Així	_	1	?	_	1	Es	_	1	You	_	_	_	1	Sigue	_	1	Vous	_	2	ancora	_	3	nog	_	1	Têm	_
+2	dar	3	بإمكانك	_	1	?	_	3	tot	_	1	?	_	3	immer	_	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	habiendo	_	3	toujours	_	2	ancora	_	3	nog	_	3	mesma	_
+3	turime	3	بإمكانك	_	1	?	_	?	?	?	1	?	_	4	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	3	have	_	_	_	4	lugar	_	4	la	_	1	Abbiamo	_	5	de	_	5	grupo	_
+4	sluoksnį	5	تجد	_	1	?	_	5	el	_	1	?	_	6	Gruppen	_	5	lobe	_	_	_	4	lugar	_	5	zone	_	8	fare	_	4	steeds	_	8	envolvidas	_
+5	žmonių	7	من	_	1	?	_	7	de	_	1	?	_	7	an	_	6	of	_	_	_	7	gente	_	7	gens	_	11	governo,	_	7	die	_	7	pessoas	_
+6	dirbančių	9	يعملون	_	1	?	_	8	gent	_	1	?	_	6	Gruppen	_	8	involved	_	_	_	7	gente	_	9	gouvernement,	_	9	con	_	8	zich	_	9	no	_
+7	valdžioje,	11	الحكومة	_	1	?	_	10	en	_	1	?	_	10	Verwaltung,	_	9	with	_	_	_	8	del	_	11	journaux,	_	11	governo,	_	9	bezighoudt	_	10	governo,	_
+8	laikrasčiuose,	12	والصحف	_	1	?	_	11	govern,	_	1	?	_	11	Zeitungen,	_	10	government,	_	_	_	10	periódicos,	_	11	journaux,	_	13	giornali,	_	12	overheid,	_	13	os	_
+9	politikoje,	13	والسياسة	_	1	?	_	12	periòdics,	_	1	?	_	12	Politk	_	11	newspapers,	_	_	_	11	políticos,	_	16	l'information.	_	15	politica,	_	13	kranten,	_	14	políticos,	_
+10	rašytojų.	15	الصحفي.	_	1	?	_	14	columnistes.	_	1	?	_	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	columnists.	_	_	_	12	columnistas,	_	16	l'information.	_	17	editorialisti.	_	15	columnisten.	_	16	colunistas.	_
+
+# sent_id = 155878
+# text:  TEDxRio yra apačioje dešinėje, šalia blogerių ir rašytojų.
+# trans: TEDxRio está em baixo à direita, ao pé dos bloguistas e escritores.
+# forward_log_prob: -37.524880058911016
+# backward_log_prob: -23.861038708122273
+1	TEDxRio	1	يوجد	_	1	?	_	1	TEDxRio	_	1	?	_	1	TEDxRio	_	1	TEDxRio	_	_	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_
+2	yra	2	TEDxRio	_	1	?	_	5	la	_	1	?	_	2	is	_	2	is	_	_	_	5	la	_	2	est	_	2	è	_	2	bevindt	_	?	?	?
+3	apačioje	4	أسفل	_	1	?	_	?	?	?	1	?	_	2	is	_	4	in	_	_	_	7	cerca	_	4	bas	_	1	TEDxRio	_	5	onderin	_	4	baixo	_
+4	dešinėje,	5	اليمين،	_	1	?	_	6	dreta,	_	1	?	_	4	rechts,	_	7	right,	_	_	_	6	derecha	_	5	à	specification.Restatement.EXPANSION	3	in	_	3	zich	_	5	à	_
+5	šalia	6	مباشرةً	_	1	?	_	7	al	_	1	?	_	5	rechts	_	6	lower	_	_	_	7	cerca	_	8	côté	_	7	accanto	_	5	onderin	_	6	direita,	_
+6	blogerių	6	مباشرةً	_	1	?	_	9	dels	_	1	?	_	7	Bloggern	_	9	next	_	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	9	escritores	_	10	blogueurs	_	9	blogger	_	8	bloggers	_	9	dos	_
+7	ir	7	إلى	_	1	?	_	11	i	_	1	?	_	8	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	8	de	_	11	et	Conjunction.EXPANSION	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	7	de	_	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	rašytojų.	10	والمدونين.	_	1	?	_	13	escriptors.	_	1	?	_	9	Autoren.	_	13	writers.	_	_	_	11	blogueros.	_	12	des	_	12	scrittori.	_	10	schrijvers.	_	12	escritores.	_
+
+# sent_id = 155879
+# text:  Bet taip pat yra ši stebinanti žmonių įvairovė, žmonių, kurie domisi įvairiausia muzika.
+# trans: E também temos esta grande diversidade de pessoas interessadas em diferentes tipos de música.
+# forward_log_prob: -41.121532524286096
+# backward_log_prob: -41.82214107851695
+1	Bet	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	3	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+2	taip	2	أيضاً	_	1	?	_	2	també	EXPANSION	1	?	_	1	Es	_	2	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	también	EXPANSION	3	avez	_	3	c'è	_	3	is	_	2	também	Conjunction.EXPANSION|EXPANSION
+3	pat	2	أيضاً	_	1	?	_	2	també	EXPANSION	1	?	_	3	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	4	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	3	también	EXPANSION	4	aussi	COMPARISON|result.Cause.CONTIGENCY	3	c'è	_	4	ook	Conjunction.EXPANSION	2	também	Conjunction.EXPANSION|EXPANSION
+4	yra	3	تجد	_	1	?	_	5	una	_	1	?	_	?	?	?	11	that	_	_	_	4	esta	_	?	?	?	?	?	?	5	een	_	?	?	?
+5	ši	4	تنوعاً	_	1	?	_	6	gran	_	1	?	_	5	diese	_	6	this	_	result.Cause.CONTIGENCY	_	5	gran	_	5	cette	_	5	questa	_	6	enorme	_	4	esta	_
+6	stebinanti	5	هائلاً	_	1	?	_	6	gran	_	1	?	_	6	enorme	_	7	tremendous	_	_	_	5	gran	_	6	incroyable	_	7	enorme	_	6	enorme	_	5	grande	_
+7	žmonių	6	من	_	1	?	_	8	de	_	1	?	_	9	Menschen,	_	9	of	_	_	_	7	de	_	9	gens	_	9	persone	_	9	mensen	_	7	de	_
+8	įvairovė,	8	المهتمين	_	1	?	_	12	diferents	_	1	?	_	8	an	_	?	?	?	?	?	?	?	?	11	sont	_	11	ascoltano	_	11	interesse	_	9	interessadas	_
+9	žmonių,	7	الأشخاص	_	1	?	_	10	interessada	_	1	?	_	9	Menschen,	_	17	of	_	_	_	?	?	?	?	?	?	10	che	_	13	in	_	8	pessoas	_
+10	kurie	?	?	?	1	?	_	10	interessada	_	1	?	_	10	interessiert	_	12	are	_	_	_	11	interesada	_	10	qui	_	12	tipi	_	16	muziek.	_	10	em	_
+11	domisi	11	من	_	1	?	_	10	interessada	_	1	?	_	10	interessiert	_	13	interested	_	_	_	11	interesada	_	14	différents	_	13	diversi	_	16	muziek.	_	12	tipos	_
+12	įvairiausia	10	مختلفة	_	1	?	_	15	musica.	_	1	?	_	12	verschiedenen	_	15	different	_	_	_	13	diferentes	_	13	par	_	12	tipi	_	14	allerlei	_	11	diferentes	_
+13	muzika.	12	الموسيقى.	_	1	?	_	15	musica.	_	1	?	_	?	?	?	18	music.	_	_	_	16	música.	_	16	musicaux.	_	15	musica.	_	16	muziek.	_	13	de	_
+
+# sent_id = 155880
+# text:  Net Justin Bieber gerbėjai yra čia.
+# trans: Até há fãs de Justin Bieber aqui representados.
+# forward_log_prob: -20.839777675751833
+# backward_log_prob: -14.993734835731054
+1	Net	3	معجبي	_	1	?	_	2	mostren	_	1	?	_	1	Sogar	_	1	Even	_	_	_	1	Hasta	TEMPORAL	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	3	rappresentati	_	2	Justin	_	1	Até	_
+2	Justin	3	معجبي	_	1	?	_	1	Es	_	1	?	_	2	Justin	_	2	Justin	_	_	_	2	los	_	3	fans	_	1	Ci	_	1	Zelfs	_	2	há	_
+3	Bieber	4	جستن	_	1	?	_	4	els	_	1	?	_	2	Justin	_	3	Bieber	_	_	_	3	fans	_	5	Justin	_	4	anche	Concession.COMPARISON|Conjunction.EXPANSION	3	Bieber-fans	_	3	fãs	_
+4	gerbėjai	5	بيبر	_	1	?	_	5	fans	_	1	?	_	3	Bieber-Fans	_	4	fans	_	_	_	5	Justin	_	6	Bieber	_	6	fan	_	5	hierop	precedence.Asynchronous.TEMPORAL	5	Justin	_
+5	yra	7	تمثيلهم	_	1	?	_	6	de	_	1	?	_	4	sind	_	5	are	_	_	_	6	Bieber	_	7	sont	_	7	di	_	5	hierop	precedence.Asynchronous.TEMPORAL	6	Bieber	_
+6	čia.	6	تم	_	1	?	_	8	Bieber.	_	1	?	_	5	vertreten.	_	6	represented	_	_	_	7	están	_	9	ici.	_	9	Bieber.	_	5	hierop	precedence.Asynchronous.TEMPORAL	7	aqui	_
+
+# sent_id = 155881
+# text:  Kitos vaikinų grupės, kantri muzika, gospelai, fankas, repas ir komedijos pasirodymai, ir visa dalis aplink narkotikus ir humorą.
+# trans: Outras boy bands, cantores "country", música "gospel, "funk" e "rap" e artistas de comédia "stand-up". Há mesmo toda uma secção em torno de drogas e anedotas.
+# forward_log_prob: -87.51887787897786
+# backward_log_prob: -59.404890801846044
+1	Kitos	1	وهناك	_	1	?	?	1	Altres	_	1	?	?	1	Andere	_	1	Other	_	_	_	1	Otras	_	1	D'autres	_	1	Boy	_	1	Andere	_	1	Outras	_
+2	vaikinų	2	فرق	_	1	?	?	2	bandes,	_	1	?	?	2	Boy-Groups,	_	3	bands,	_	_	_	3	cantantes	_	3	bands</i>,	_	2	band,	_	2	boybands,	_	3	bands,	_
+3	grupės,	3	شابة	_	1	?	?	3	cantants	_	1	?	?	3	Countrysänger,	_	4	country	_	_	_	5	country,	_	4	chanteurs	_	3	cantanti	_	3	countryzangers,	_	4	cantores	_
+4	kantri	5	ومغنيو	_	1	?	?	4	country,	_	1	?	?	4	Gospelmusiker,	_	5	singers,	_	_	_	5	country,	_	6	country,	_	4	country,	_	4	gospelmuziek,	_	5	"country",	_
+5	muzika,	6	كونتري	_	1	?	?	5	musica	_	1	?	?	5	Funk,	_	7	music,	_	_	_	6	música	_	7	de	_	5	musica	_	5	funk	_	6	música	_
+6	gospelai,	7	وموسيقى	_	1	?	?	6	gospel,	_	1	?	?	6	Rap	_	8	funk	_	_	_	8	funk	_	10	funk,	_	6	gospel,	_	7	rap,	_	8	"funk"	_
+7	fankas,	8	غوسبل	_	1	?	?	8	rap	_	1	?	?	8	Stand-Up-Komödianten.	_	8	funk	_	_	_	10	rap	_	12	rap,	_	7	funk,	_	7	rap,	_	10	"rap"	_
+8	repas	9	وفنك	_	1	?	?	8	rap	_	1	?	?	8	Stand-Up-Komödianten.	_	10	rap	_	_	_	11	comedia	_	12	rap,	_	8	rap,	_	8	stand-up	_	12	artistas	_
+9	ir	?	?	?	1	?	?	9	i	_	1	?	?	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	9	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	y	_	?	?	?	?	?	?	6	en	Conjunction.EXPANSION	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+10	komedijos	11	وستاند	_	1	?	?	11	comèdia,	_	1	?	?	8	Stand-Up-Komödianten.	_	12	stand-up	_	_	_	15	incluso	_	15	up</i>,	_	10	C'è	_	10	er	_	14	comédia	_
+11	pasirodymai,	13	كوميدي،	_	1	?	?	11	comèdia,	_	1	?	?	11	eine	_	13	comedy,	_	_	_	15	incluso	_	15	up</i>,	_	12	un'intera	_	12	zelfs	_	15	"stand-up".	_
+12	ir	?	?	?	1	?	?	14	ha	_	1	?	?	?	?	?	14	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	19	en	_	?	?	?	?	?	?	?	?	?	?	?	?
+13	visa	17	قسم	_	1	?	?	15	una	_	1	?	?	13	Gruppe	_	18	whole	_	_	_	18	sección	_	26	drogue	_	13	area	_	14	heel	_	18	toda	_
+14	dalis	16	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	16	secció	_	1	?	?	14	rund	_	18	whole	_	_	_	20	torno	_	26	drogue	_	14	dedicata	_	15	segment	_	20	secção	_
+15	aplink	18	كامل	_	1	?	?	17	sencera	_	1	?	?	15	um	_	19	section	_	_	_	21	a	_	26	drogue	_	16	droghe	_	15	segment	_	22	torno	_
+16	narkotikus	18	كامل	_	1	?	?	19	drogues	_	1	?	?	16	Drogen	_	20	around	_	_	_	23	drogas	_	26	drogue	_	16	droghe	_	17	drugs	_	24	drogas	_
+17	ir	?	?	?	1	?	?	20	i	_	1	?	?	17	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	22	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	24	y	_	27	et	Conjunction.EXPANSION	17	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	18	en	Conjunction.EXPANSION	25	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+18	humorą.	20	المخدرات	_	1	?	?	21	bromes.	_	1	?	?	18	Witze.	_	23	jokes.	_	_	_	25	las	_	29	blagues.	_	18	alle	_	19	grappen.	_	26	anedotas.	_
+
+# sent_id = 155882
+# text:  Geras, ar ne?
+# trans: Não é fixe?
+# forward_log_prob: -6.943398714312951
+# backward_log_prob: -8.434433405063237
+1	Geras,	1	كم	_	1	?	?	1	Què	_	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿No	_	1	N'est-ce	_	1	Non	_	1	Hoe	_	1	Não	_
+2	ar	2	هذا	_	1	?	?	2	us	_	1	?	?	2	cool	_	2	cool	_	_	_	1	¿No	_	2	pas	_	2	è	_	2	stoer	_	2	é	_
+3	ne?	3	رائع!	_	1	?	?	3	pareix?	_	1	?	?	5	denn?	_	2	cool	_	_	_	3	genial?	_	3	super	_	3	fantastico?	_	2	stoer	_	3	fixe?	_
+
+# sent_id = 155883
+# text:  Ir Flamingo futbolo komanda taip pat čia.
+# trans: A equipa de futebol Flamengo também está representada aqui.
+# forward_log_prob: -23.375383786961617
+# backward_log_prob: -17.857350648306355
+1	Ir	3	فإن	_	1	?	?	1	I	_	1	?	?	2	die	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	El	_	1	Le	_	2	qui	_	3	het	_	1	A	_
+2	Flamingo	1	ومن	Asynchronous.TEMPORAL	1	?	?	2	l’equip	_	1	?	?	1	Auch	Conjunction.EXPANSION	2	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	Flamengo	_	2	club	_	6	Flamengo,	_	1	Daarnaast	Conjunction.EXPANSION	2	equipa	_
+3	futbolo	4	فريق	_	1	?	?	4	futbol	_	1	?	?	2	die	_	3	the	_	_	_	1	El	_	1	Le	_	6	Flamengo,	_	4	voetbalteam	_	4	futebol	_
+4	komanda	5	فلامينغو	_	1	?	?	5	Flamengo	_	1	?	?	3	Fußballmannschaft	_	4	Flamengo	_	_	_	2	Flamengo	_	6	Flamengo	_	5	il	_	3	het	_	5	Flamengo	_
+5	taip	9	تمثيله	_	1	?	?	6	també	EXPANSION	1	?	?	4	"Flamengo"	_	8	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	3	también	EXPANSION	5	de	_	4	anche	Concession.COMPARISON|Conjunction.EXPANSION	4	voetbalteam	_	6	também	Conjunction.EXPANSION|EXPANSION
+6	pat	11	أيضاً.	_	1	?	?	6	també	EXPANSION	1	?	?	4	"Flamengo"	_	8	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	3	también	EXPANSION	6	Flamengo	_	8	squadra	_	5	Flamengo	_	6	também	Conjunction.EXPANSION|EXPANSION
+7	čia.	8	تم	_	1	?	?	8	representat	_	1	?	?	6	vertreten.	_	9	represented	_	_	_	4	está.	_	9	ici.	_	10	calcio.	_	6	vertegenwoordigd.	_	9	aqui.	_
+
+# sent_id = 155884
+# text:  Taigi turime tą patį pasiskirstymą tarp sporto, pilietinių teisių, menų ir muzikos, bet tai pavaizduota visai kitaip, ir manau, kad tai gerai aititinka mūsų Rio de Žaneiro suvokimą, kad tai labai daugiakultūrinis ir muzikos prasme įvairus miestas.
+# trans: Temos assim o mesmo tipo de difusão no desporto, na sociedade civil, na arte e na música, mas está representada de modo muito diferente. Penso que isso deve corresponder à nossa ideia de que o Rio é uma cidade muito multicultural, musicalmente diversificada.
+# forward_log_prob: -165.10431148133029
+# backward_log_prob: -141.68281365039866
+1	Taigi	1	إذن	_	1	?	?	6	d’esports,	_	1	?	?	?	?	?	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	CONTIGENCY|Cause.CONTIGENCY	3	donc	result.Cause.CONTIGENCY	3	stessa	_	1	Je	_	3	o	_
+2	turime	2	تجدون	_	1	?	?	5	diversitat	_	1	?	?	2	haben	_	3	have	_	_	_	4	el	_	3	donc	result.Cause.CONTIGENCY	2	la	_	?	?	?	1	Temos	_
+3	tą	2	تجدون	_	1	?	?	6	d’esports,	_	1	?	?	4	Bandbreite	_	8	spread	_	_	_	3	tienes	_	2	avez	_	1	C'è	_	4	vergelijkbare	_	2	assim	CONTIGENCY|Cause.CONTIGENCY|result.Cause.CONTIGENCY
+4	patį	4	النوع	_	1	?	?	4	mateixa	_	1	?	?	4	Bandbreite	_	8	spread	_	_	_	3	tienes	_	5	même	Conjunction.EXPANSION|Exception.EXPANSION	4	diffusione	_	4	vergelijkbare	_	5	tipo	_
+5	pasiskirstymą	4	النوع	_	1	?	?	6	d’esports,	_	1	?	?	4	Bandbreite	_	8	spread	_	_	_	4	el	_	6	type	_	4	diffusione	_	5	spreiding	_	6	de	_
+6	tarp	?	?	?	1	?	?	?	?	?	1	?	?	?	?	?	7	of	_	_	_	7	de	_	?	?	?	7	ed	_	3	een	_	?	?	?
+7	sporto,	6	الانتشار	_	1	?	?	7	educació	_	1	?	?	8	Kunst	_	7	of	_	_	_	8	dispersión	_	10	sport	_	8	educazione	_	6	van	_	9	desporto,	_
+8	pilietinių	7	للرياضة	_	1	?	?	8	cívica,	_	1	?	?	6	Sport,	_	8	spread	_	_	_	8	dispersión	_	8	mélange	_	8	educazione	_	7	sport,	_	7	difusão	_
+9	teisių,	8	والتربية	_	1	?	?	8	cívica,	_	1	?	?	8	Kunst	_	12	civics	_	_	_	8	dispersión	_	8	mélange	_	9	civica,	_	9	kunst,	_	10	na	_
+10	menų	?	?	?	1	?	?	?	?	?	1	?	?	10	Musik,	_	15	arts	_	_	_	11	actividades	_	?	?	?	9	civica,	_	2	ziet	_	12	civil,	_
+11	ir	?	?	?	1	?	?	13	i	_	1	?	?	9	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	11	et	Conjunction.EXPANSION	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	15	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	muzikos,	?	?	?	1	?	?	15	música	_	1	?	?	10	Musik,	_	15	arts	_	_	_	12	cívicas,	_	20	avec	_	11	arte	_	?	?	?	?	?	?
+13	bet	15	مختلفة	_	1	?	?	16	però	precedence.Asynchronous.TEMPORAL	1	?	?	11	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	18	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	pero	precedence.Asynchronous.TEMPORAL	19	mais	Contrast.COMPARISON|Exception.EXPANSION	14	ma	Concession.COMPARISON|Contrast.COMPARISON	12	maar	_	18	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+14	tai	14	بطريقة	_	1	?	?	11	les	_	1	?	?	12	in	_	19	it's	_	_	_	?	?	?	?	?	?	15	è	_	13	het	_	?	?	?
+15	pavaizduota	11	والموسيقى	_	1	?	?	18	representat	_	1	?	?	14	ganz	_	20	represented	_	_	_	16	representado	_	18	musique,	_	16	rappresentata	_	15	heel	_	14	arte	_
+16	visai	21	مع	_	1	?	?	14	la	_	1	?	?	17	dargestellt.	_	17	music,	_	_	_	26	con	_	20	avec	_	16	rappresentata	_	?	?	?	17	música,	_
+17	kitaip,	16	جداً،	_	1	?	?	21	diferent	_	1	?	?	16	Art	_	24	different	_	_	_	19	forma	_	?	?	?	17	in	_	?	?	?	24	diferente.	_
+18	ir	?	?	?	1	?	?	22	i	_	1	?	?	?	?	?	26	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	?	?	?	?	?	?	?	?	?	?	?	?
+19	manau,	17	وأعتقد	_	1	?	?	23	crec	_	1	?	?	18	Ich	_	25	way,	_	_	_	23	creo	_	25	Je	_	22	credo	_	18	Ik	_	22	modo	_
+20	kad	17	وأعتقد	_	1	?	?	23	crec	_	1	?	?	18	Ich	_	27	I	_	_	_	23	creo	_	27	que	_	21	che	_	18	Ik	_	26	que	_
+21	tai	?	?	?	1	?	?	?	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	21	une	_	?	?	?	21	het	_	?	?	?
+22	gerai	20	يتناسب	_	1	?	?	25	s’adapta	_	1	?	?	19	denke,	_	23	very	_	_	_	20	muy	_	22	représentation	_	23	combaci	_	23	past	_	28	deve	_
+23	aititinka	20	يتناسب	_	1	?	?	25	s’adapta	_	1	?	?	24	Art,	_	?	?	?	?	?	21	distinta	_	28	cela	_	23	combaci	_	23	past	_	28	deve	_
+24	mūsų	22	فهمنا	_	1	?	?	20	forma	_	1	?	?	25	wie	COMPARISON|Synchronous.TEMPORAL	37	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	25	encaja	_	31	avec	_	23	combaci	_	23	past	_	28	deve	_
+25	Rio	24	ريو	_	1	?	?	30	Rio	_	1	?	?	27	Rio	_	36	Rio	_	_	_	30	Rio	_	35	Rio	_	29	Rio	_	28	Rio,	_	35	o	_
+26	de	24	ريو	_	1	?	?	30	Rio	_	1	?	?	27	Rio	_	36	Rio	_	_	_	30	Rio	_	35	Rio	_	29	Rio	_	28	Rio,	_	36	Rio	_
+27	Žaneiro	23	لمدينة	_	1	?	?	28	entenem	_	1	?	?	29	passen,	_	31	fits	_	_	_	27	nuestro	_	32	notre	_	26	nostra	_	24	bij	_	30	à	_
+28	suvokimą,	25	كونها	_	1	?	?	28	entenem	_	1	?	?	28	verstehen,	_	33	our	_	_	_	28	concepto	_	33	perception	_	27	idea	_	26	denkbeeld	_	32	ideia	_
+29	kad	?	?	?	1	?	?	27	que	_	1	?	?	28	verstehen,	_	?	?	?	?	?	?	?	?	?	?	?	25	la	_	?	?	?	34	que	_
+30	tai	26	مدينة	_	1	?	?	31	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	?	?	?	?	?	?	?	?	?	?	?	?	36	comme	COMPARISON|specification.Restatement.EXPANSION	30	come	EXPANSION|Synchronous.TEMPORAL	?	?	?	37	é	_
+31	labai	26	مدينة	_	1	?	?	30	Rio	_	1	?	?	32	sehr	_	35	of	_	_	_	32	una	_	39	très	_	30	come	EXPANSION|Synchronous.TEMPORAL	?	?	?	40	muito	_
+32	daugiakultūrinis	27	متعددة	_	1	?	?	34	multicultural	_	1	?	?	33	multikulturelle,	_	38	being	_	_	_	34	multicultural	_	38	vile	_	33	multiculturale	_	30	zijnde	_	41	multicultural,	_
+33	ir	?	?	?	1	?	?	35	i	_	1	?	?	?	?	?	?	?	?	?	?	35	y	_	?	?	?	35	anche	Concession.COMPARISON|Conjunction.EXPANSION	?	?	?	?	?	?
+34	muzikos	30	تعددية	_	1	?	?	36	amb	_	1	?	?	33	multikulturelle,	_	41	multicultural,	_	_	_	34	multicultural	_	40	multiculturelle,	_	34	diversa	_	32	multiculturele,	_	41	multicultural,	_
+35	prasme	31	موسيقية	_	1	?	?	?	?	?	1	?	?	34	musikalisch	_	40	very	_	_	_	34	multicultural	_	40	multiculturelle,	_	34	diversa	_	33	muzikaal	_	41	multicultural,	_
+36	įvairus	32	بشكل	_	1	?	?	38	diversa.	_	1	?	?	35	vielfältige	_	43	diverse	_	_	_	36	musicalmente	_	42	diverse	_	34	diversa	_	34	diverse	_	42	musicalmente	_
+37	miestas.	?	?	?	1	?	?	33	ciutat	_	1	?	?	36	Stadt.	_	44	city.	_	_	_	33	ciudad	_	43	musicalement.	_	32	città	_	35	stad.	_	38	uma	_
+
+# sent_id = 155885
+# text:  Mes turime šiuos duomenis.
+# trans: Temos pois todos estes dados.
+# forward_log_prob: -11.990237817219047
+# backward_log_prob: -8.844237217573047
+1	Mes	1	إذن	_	1	?	?	1	Així	CONTIGENCY|Cause.CONTIGENCY	1	?	?	1	Wir	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	1	Nu	_	1	Temos	_
+2	turime	2	لدينا	_	1	?	?	3	tenim	_	1	?	?	2	haben	_	3	have	_	_	_	2	pues	_	3	donc	result.Cause.CONTIGENCY	2	tutti	_	3	we	_	1	Temos	_
+3	šiuos	4	هذه	_	1	?	?	5	dades.	_	1	?	?	3	all	_	4	all	_	_	_	3	todos	_	4	toutes	_	3	questi	_	4	al	Concession.COMPARISON	3	todos	_
+4	duomenis.	5	البيانات.	_	1	?	?	4	aquestes	_	1	?	?	5	Daten,	_	6	data.	_	_	_	5	datos.	_	5	ces	_	4	dati.	_	6	data,	_	4	estes	_
+
+# sent_id = 155886
+# text:  Tai nepaprastai turtingas duomenų apie šiuos miestus rinkinys, galbūt net turtingesnis, nei iki šiol turėta.
+# trans: É um conjunto de dados muito rico que temos agora sobre as cidades, talvez mais ricos do que todos os que já tivemos até agora.
+# forward_log_prob: -86.26383044272505
+# backward_log_prob: -57.32294205023169
+1	Tai	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	És	_	1	?	?	?	?	?	1	It's	_	_	_	2	un	_	1	un	_	2	una	_	1	een	_	1	É	_
+2	nepaprastai	2	مجموعة	_	1	?	?	3	conjunt	_	1	?	?	1	ein	_	2	an	_	_	_	3	conjunto	_	2	jeu	_	1	Abbiamo	_	2	enorm	_	3	conjunto	_
+3	turtingas	4	بشكل	_	1	?	?	6	increïble	_	1	?	?	3	reichhaltiger	_	5	set	_	_	_	3	conjunto	_	5	incroyablement	_	4	notevole	_	3	rijke	_	7	rico	_
+4	duomenų	6	بالبيانات	_	1	?	?	6	increïble	_	1	?	?	4	Bestand	_	5	set	_	_	_	6	increíblemente	_	5	incroyablement	_	4	notevole	_	3	rijke	_	6	muito	_
+5	apie	7	التي	specification.Restatement.EXPANSION	1	?	?	10	sobre	_	1	?	?	5	an	_	6	of	_	_	_	8	sobre	_	?	?	?	6	dati	_	?	?	?	11	sobre	_
+6	šiuos	8	نملكها	_	1	?	?	5	dades	_	1	?	?	6	Daten	_	7	data	_	_	_	5	datos	_	4	données	_	6	dati	_	6	informatie	_	19	todos	_
+7	miestus	?	?	?	1	?	?	9	tenim	_	1	?	?	8	Städte.	_	8	that	_	_	_	10	ciudades,	_	9	villes,	_	8	città,	_	8	steden.	_	12	as	_
+8	rinkinys,	17	مجموعة	_	1	?	?	?	?	?	1	?	?	8	Städte.	_	?	?	?	?	?	9	las	_	8	les	_	9	forse	_	?	?	?	14	talvez	_
+9	galbūt	12	ربما	specification.Restatement.EXPANSION	1	?	?	13	potser	_	1	?	?	9	Vielleicht	_	14	maybe	_	result.Cause.CONTIGENCY	_	11	posiblemente	_	10	peut-être	_	9	forse	_	9	Misschien	_	14	talvez	_
+10	net	16	أي	_	1	?	?	14	millor	_	1	?	?	10	reichhaltiger	_	15	even	_	_	_	12	más	_	11	même	Conjunction.EXPANSION|Exception.EXPANSION	13	di	_	11	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	24	até	_
+11	turtingesnis,	13	أكثر	_	1	?	?	16	qualsevol	_	1	?	?	10	reichhaltiger	_	16	richer	_	_	_	13	rico	_	12	plus	_	14	quanto	_	10	gedetailleerder	_	15	mais	Conjunction.EXPANSION|EXPANSION
+12	nei	15	من	_	1	?	?	15	que	_	1	?	?	11	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	17	than	_	_	_	12	más	_	14	qu'aucun	_	14	quanto	_	11	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	17	do	_
+13	iki	19	قد	_	1	?	?	19	dades	_	1	?	?	15	je	_	22	we've	_	_	_	15	cualquier	_	15	jeu	_	16	ne	_	12	ooit	_	22	já	COMPARISON|Contrast.COMPARISON
+14	šiol	21	لنا	_	1	?	?	21	hagem	_	1	?	?	16	zuvor	succession.Asynchronous.TEMPORAL	23	ever	_	_	_	16	conjunto	_	17	données	_	18	mai	_	12	ooit	_	23	tivemos	_
+15	turėta.	23	امتلكناها.	_	1	?	?	22	tingut.	_	1	?	?	17	hatten.	_	25	before.	_	_	_	17	anterior.	_	18	auparavant.	_	19	avuti.	_	13	tevoren,	_	25	agora.	_
+
+# sent_id = 155887
+# text:  Ką galima su juo padaryti?
+# trans: O que é que podemos fazer com isto?
+# forward_log_prob: -19.178918823658986
+# backward_log_prob: -17.763649193695997
+1	Ką	2	ما	specification.Restatement.EXPANSION	1	?	?	2	podem	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	que,	_	2	pouvons-nous	_	3	fare	_	3	kunnen	_	1	O	_
+2	galima	1	إذن	_	1	?	?	1	Què	_	1	?	?	2	können	_	2	what	_	_	_	1	Así	_	2	pouvons-nous	_	1	Cosa	_	1	maar	_	4	que	_
+3	su	4	نستطيع	_	1	?	?	2	podem	_	1	?	?	4	damit	PragmaticCause.CONTIGENCY|result.Cause.CONTIGENCY	6	with	_	_	_	5	hacer	_	1	Que	_	4	con	_	3	kunnen	_	7	com	_
+4	juo	4	نستطيع	_	1	?	?	1	Què	_	1	?	?	3	wir	_	4	we	_	_	_	4	podemos	_	4	faire	_	3	fare	_	4	we	_	6	fazer	_
+5	padaryti?	6	بها؟	_	1	?	?	3	fer?	_	1	?	?	5	anfangen?	_	5	do	_	_	_	7	él?	_	4	faire	_	5	questi	_	7	mee?	_	8	isto?	_
+
+# sent_id = 155888
+# text:  Visų pirma, galime bandyti suprasti, kad segregacija yra socialinis fenomenas.
+# trans: Penso que a primeira coisa que podemos tentar compreender é que a segregação é uma construção social.
+# forward_log_prob: -48.812922996415054
+# backward_log_prob: -34.1201406844918
+1	Visų	2	أعتقد	_	1	?	?	4	primer	_	1	?	?	1	Ich	_	2	I	_	_	_	1	Pienso	_	1	Eh	_	2	credo	_	1	Ik	_	1	Penso	_
+2	pirma,	1	حسناً،	_	1	?	?	3	el	_	1	?	?	2	denke,	_	1	Well,	_	_	_	4	primero	_	1	Eh	_	1	Beh,	_	2	denk	_	4	primeira	_
+3	galime	4	أول	_	1	?	?	2	que	_	1	?	?	4	Erstes	_	4	the	_	_	_	4	primero	_	6	la	_	7	che	_	3	dat	_	4	primeira	_
+4	bandyti	5	شيء	_	1	?	?	5	és	_	1	?	?	5	sollten	_	5	first	_	Contrast.COMPARISON	_	5	es	_	7	première	_	8	possiamo	_	8	ermee	_	9	compreender	_
+5	suprasti,	7	أن	_	1	?	?	7	entendre	_	1	?	?	7	versuchen	_	9	can	_	_	_	6	entender	_	9	à	specification.Restatement.EXPANSION	9	capire	_	10	begrijpen,	_	7	podemos	_
+6	kad	10	هو	specification.Restatement.EXPANSION	1	?	?	8	que	_	1	?	?	8	zu	_	14	that	_	_	_	8	la	_	12	que	_	11	che	_	12	dat	_	11	que	_
+7	segregacija	9	فعله	_	1	?	?	10	segregació	_	1	?	?	11	diese	_	15	segregation	_	_	_	9	segregación	_	13	la	_	13	segregazione	_	13	segregatie	_	10	é	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+8	yra	12	أن	_	1	?	?	11	és	_	1	?	?	10	Ist	_	16	is	_	_	_	10	es	_	15	est	_	14	è	_	14	een	_	12	a	_
+9	socialinis	13	التمييز	_	1	?	?	13	construcció	_	1	?	?	13	ein	_	18	social	_	_	_	11	una	_	16	une	_	15	una	_	15	sociale	_	16	construção	_
+10	fenomenas.	16	إجتماعي.	_	1	?	?	14	social.	_	1	?	?	15	Konzept?	_	19	construct.	_	_	_	13	social	_	18	sociale.	_	17	sociale.	_	16	constructie	_	17	social.	_
+
+# sent_id = 155889
+# text:  Tai vyksta dėl mūsų pasirinkimo, o galėtų ir nevykti, ir jei pagalvoji, ką darome su šiais duomenimis, tai lyg paimtume teleskopą ir nukreipę į miestą žiūrėtume lyg į mokyklos valgyklą, ir matytume kaip visi susiskirstę per stalus.
+# trans: É uma coisa que escolhemos fazer, e podíamos escolher não a fazer. Se pensarmos bem nisso, o que estamos a fazer com estes dados é apontar um telescópio para uma cidade e olhar para ela como uma gigantesca cantina escolar, ver como toda a gente se instala numa planta de lugares.
+# forward_log_prob: -194.63454319946982
+# backward_log_prob: -149.2764032042788
+1	Tai	?	?	?	1	?	?	1	És	_	1	?	?	1	Ist	_	3	that	_	_	_	1	Es	_	?	?	?	1	È	_	1	Het	_	1	É	_
+2	vyksta	3	نختارُ	_	1	?	?	17	ho	_	1	?	?	2	es	_	?	?	?	?	?	?	?	?	13	y	_	4	scegliamo	_	4	keuze,	_	5	escolhemos	_
+3	dėl	?	?	?	1	?	?	4	que	_	1	?	?	?	?	?	22	about	_	_	_	4	elegimos	_	11	quand	Asynchronous.TEMPORAL|Condition.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	?	?	?	?	?	?
+4	mūsų	5	وبإمكاننا	_	1	?	?	2	una	_	1	?	?	6	wählen,	_	19	kind	_	_	_	4	elegimos	_	15	avec	_	?	?	?	16	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	?	?	?
+5	pasirinkimo,	7	نختار	_	1	?	?	7	volem	_	1	?	?	6	wählen,	_	5	choose	_	_	_	4	elegimos	_	6	pourrions	_	10	scegliere	_	7	zouden	_	8	podíamos	_
+6	o	7	نختار	_	1	?	?	7	volem	_	1	?	?	9	es	_	7	do,	_	_	_	8	podríamos	_	7	choisir	_	10	scegliere	_	8	ervoor	succession.Asynchronous.TEMPORAL	8	podíamos	_
+7	galėtų	8	عدم	_	1	?	?	?	?	?	1	?	?	7	obwohl	Concession.COMPARISON	10	could	_	_	_	8	podríamos	_	7	choisir	_	10	scegliere	_	10	kiezen	_	9	escolher	_
+8	ir	?	?	?	1	?	?	9	i	_	1	?	?	?	?	?	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	Y	_	10	et,	_	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	5	en	Conjunction.EXPANSION	7	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+9	nevykti,	10	وإذا	_	1	?	?	12	triar	_	1	?	?	?	?	?	?	?	?	?	?	12	piensan	_	9	contraire,	_	16	pensate,	_	?	?	?	14	pensarmos	_
+10	ir	?	?	?	1	?	?	15	i	_	1	?	?	?	?	?	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	Y	_	?	?	?	?	?	?	?	?	?	?	?	?
+11	jei	15	بطريقة	_	1	?	?	16	si	TEMPORAL	1	?	?	12	tun	_	17	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	si	TEMPORAL	18	nous	_	14	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	11	om	PragmaticCause.CONTIGENCY	13	Se	CONTIGENCY|Condition.CONTIGENCY
+12	pagalvoji,	14	الأمر	_	1	?	?	18	pensen	_	1	?	?	13	könnten?	_	?	?	?	?	?	14	ello	_	?	?	?	19	stiamo	_	15	doen.	_	15	bem	_
+13	ką	18	ما	specification.Restatement.EXPANSION	1	?	?	14	fer	_	1	?	?	3	etwas,	_	14	do	_	_	_	5	hacer	_	16	ces	_	21	con	_	17	je	_	17	o	_
+14	darome	17	فإن	_	1	?	?	21	fem	_	1	?	?	16	darüber	_	26	doing	_	_	_	17	hacemos	_	17	données,	_	20	facendo	_	19	even	_	16	nisso,	_
+15	su	4	فعله	_	1	?	?	22	amb	_	1	?	?	15	Sie	_	27	with	_	_	_	25	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	21	con	_	13	niet	_	22	com	_
+16	šiais	19	نفعله	_	1	?	?	21	fem	_	1	?	?	16	darüber	_	25	we're	_	_	_	19	dirigir	_	19	pointons	_	28	puntare	_	21	nadenkt,	_	?	?	?
+17	duomenimis,	20	بهذه	_	1	?	?	24	dades	_	1	?	?	16	darüber	_	26	doing	_	_	_	21	telescopio,	_	19	pointons	_	26	po'	_	21	nadenkt,	_	23	estes	_
+18	tai	?	?	?	1	?	?	25	és	_	1	?	?	21	haben	_	28	this	_	result.Cause.CONTIGENCY	_	24	ciudad	_	27	comme	COMPARISON|specification.Restatement.EXPANSION	27	come	EXPANSION|Synchronous.TEMPORAL	?	?	?	25	é	_
+19	lyg	23	توجيهُ	_	1	?	?	26	apuntar	_	1	?	?	24	Blick	_	31	aiming	_	_	_	22	mirando	_	21	télescope	_	30	telescopio	_	25	doen,	_	26	apontar	_
+20	paimtume	25	فضائي	_	1	?	?	28	telescopi	_	1	?	?	23	einen	_	31	aiming	_	_	_	?	?	?	21	télescope	_	30	telescopio	_	28	telescoop	_	28	telescópio	_
+21	teleskopą	26	نحو	_	1	?	?	28	telescopi	_	1	?	?	24	Blick	_	33	space	_	_	_	26	si	TEMPORAL	24	ville	_	35	guardarla	_	28	telescoop	_	28	telescópio	_
+22	ir	?	?	?	1	?	?	32	i	_	1	?	?	26	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	38	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	25	et	Conjunction.EXPANSION	33	città	_	31	stad	_	31	cidade	_
+23	nukreipę	28	والنظر	_	1	?	?	33	mirar-la	_	1	?	?	25	darauf	precedence.Asynchronous.TEMPORAL	?	?	?	?	?	27	fuera	_	26	l'observons	_	35	guardarla	_	32	richten	_	35	ela	_
+24	į	30	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	35	si	TEMPORAL	1	?	?	27	betrachten	_	39	looking	_	_	_	15	lo	_	22	sur	_	?	?	?	35	naar	_	33	olhar	_
+25	miestą	31	لو	Condition.CONTIGENCY	1	?	?	36	fos	_	1	?	?	32	riesigen	_	44	was	_	_	_	29	cafetería	_	29	c'était	_	40	mensa	_	?	?	?	35	ela	_
+26	žiūrėtume	32	كانت	_	1	?	?	36	fos	_	1	?	?	32	riesigen	_	41	it	_	_	_	30	gigantesca	_	29	c'était	_	40	mensa	_	?	?	?	35	ela	_
+27	lyg	33	كافيتريا	_	1	?	?	38	cafeteria	_	1	?	?	31	einen	_	43	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	33	escuela,	_	31	cafét'	_	43	liceo,	_	37	alsof	COMPARISON	38	gigantesca	_
+28	į	35	ثانوية	_	1	?	?	43	veure	_	1	?	?	?	?	?	?	?	?	?	?	36	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	45	il	_	36	kijken	_	?	?	?
+29	mokyklos	36	ضخمة،	_	1	?	?	40	d’un	_	1	?	?	33	Schulspeiseraum,	_	46	giant	_	_	_	35	viendo	_	32	universitaire	_	44	osservando	_	40	schoolkantine	_	39	cantina	_
+30	valgyklą,	37	ومشاهدة	_	1	?	?	41	institut	_	1	?	?	34	beobachten,	_	48	school	_	_	_	35	viendo	_	34	voyant	_	?	?	?	40	schoolkantine	_	40	escolar,	_
+31	ir	?	?	?	1	?	?	42	i	_	1	?	?	?	?	?	50	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	y	_	?	?	?	47	in	_	?	?	?	?	?	?
+32	matytume	39	قام	_	1	?	?	45	tothom	_	1	?	?	37	jeder	_	51	seeing	_	_	_	37	todos	_	36	tous	_	49	ognuno	_	43	analyseren	_	45	gente	_
+33	kaip	41	بترتيب	_	1	?	?	44	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	?	?	?	?	52	how	_	_	_	38	se	_	35	comment	_	48	cui	_	44	hoe	_	42	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+34	visi	42	أنفسهم	_	1	?	?	47	planejat	_	1	?	?	41	seinen	_	53	everybody	_	_	_	39	sitúan	_	37	s'installent	_	52	collocato	_	45	mensen	_	46	se	CONTIGENCY|Condition.CONTIGENCY
+35	susiskirstę	44	شكل	_	1	?	?	49	forma	_	1	?	?	41	seinen	_	55	themselves	_	_	_	39	sitúan	_	37	s'installent	_	52	collocato	_	47	verspreiden	_	47	instala	_
+36	per	44	شكل	_	1	?	?	48	una	_	1	?	?	38	in	_	55	themselves	_	_	_	39	sitúan	_	38	sur	_	31	su	_	48	over	_	47	instala	_
+37	stalus.	45	مخطط	_	1	?	?	52	seure.	_	1	?	?	42	Stuhl	_	55	themselves	_	_	_	44	asientos.	_	37	s'installent	_	58	sedere.	_	47	verspreiden	_	47	instala	_
+
+# sent_id = 155890
+# text:  Galbūt laikas šiek tiek sujudinti šį pasiskirstymą.
+# trans: Talvez seja altura de baralhar um pouco a planta de lugares.
+# forward_log_prob: -29.117031304822234
+# backward_log_prob: -22.623061423914343
+1	Galbūt	2	ربما	specification.Restatement.EXPANSION	1	?	?	1	Potser	_	1	?	?	1	Vielleicht	_	2	maybe	_	result.Cause.CONTIGENCY	_	2	que	_	2	est	_	2	forse	_	1	Misschien	_	1	Talvez	_
+2	laikas	1	حسناً،	_	1	?	?	3	hora	_	1	?	?	2	ist	_	1	Well	_	Conjunction.EXPANSION	_	1	Puede	_	1	Il	_	1	Beh	_	2	is	_	2	seja	_
+3	šiek	4	هو	specification.Restatement.EXPANSION	1	?	?	3	hora	_	1	?	?	4	Zeit,	_	5	to	_	_	_	5	momento	_	5	de	_	6	smuovere	_	4	tijd	_	5	baralhar	_
+4	tiek	6	لإعادة	_	1	?	?	5	sacsejar-la	_	1	?	?	5	an	_	6	shake	_	_	_	7	agitar	_	6	revoir	_	6	smuovere	_	7	zitplaatsen	_	5	baralhar	_
+5	sujudinti	7	تنظيم	_	1	?	?	5	sacsejar-la	_	1	?	?	7	Bestuhlung	_	9	seating	_	_	_	7	agitar	_	8	peu	_	9	questo	_	8	eens	_	5	baralhar	_
+6	šį	8	مخطط	_	1	?	?	5	sacsejar-la	_	1	?	?	8	etwas	_	10	chart	_	_	_	11	asientos	_	8	peu	_	11	dei	_	10	elkaar	_	9	planta	_
+7	pasiskirstymą.	10	قليلاً.	_	1	?	?	7	poc.	_	1	?	?	9	zu	_	11	a	_	_	_	10	de	_	11	de	_	14	sedere.	_	12	mengen.	_	10	de	_
+
+# sent_id = 155891
+# text:  Kitas dalykas, kurį supratome, kad rasė yra prastas būdas matuoti įvairovę.
+# trans: A outra coisa que começamos a perceber é que as etnias são de facto uma fraca prova para a diversidade.
+# forward_log_prob: -61.775412623816166
+# backward_log_prob: -42.280016667579666
+1	Kitas	1	الشيء	_	1	?	?	4	adonar-nos	_	1	?	?	1	Uns	_	2	other	_	_	_	1	La	_	1	Nous	_	1	L'altra	_	1	Verder	Conjunction.EXPANSION	2	outra	_
+2	dalykas,	1	الشيء	_	1	?	?	4	adonar-nos	_	1	?	?	2	wird	_	1	The	_	_	_	3	cosa	_	3	également	COMPARISON	2	cosa	_	2	beginnen	_	1	A	_
+3	kurį	3	الذي	specification.Restatement.EXPANSION	1	?	?	3	a	_	1	?	?	3	auch	Conjunction.EXPANSION	5	we	_	_	_	3	cosa	_	5	réaliser	_	4	iniziamo	_	3	we	_	5	começamos	_
+4	supratome,	5	ندركه	_	1	?	?	4	adonar-nos	_	1	?	?	4	bewusst,	_	6	start	_	_	_	6	a	_	5	réaliser	_	4	iniziamo	_	5	beseffen	_	5	começamos	_
+5	kad	6	هو	specification.Restatement.EXPANSION	1	?	?	6	que	_	1	?	?	7	ein	_	7	to	_	_	_	9	que	_	6	que	_	8	che	_	6	dat	_	9	que	_
+6	rasė	5	ندركه	_	1	?	?	8	raça	_	1	?	?	6	Rasse	_	8	realize	_	_	_	11	raza	_	8	race	_	10	razza	_	7	ras	_	10	as	_
+7	yra	7	أن	_	1	?	?	9	és	_	1	?	?	7	ein	_	9	is	_	_	_	10	la	_	9	est	_	11	è	_	8	een	_	15	uma	_
+8	prastas	10	مؤشر	_	1	?	?	10	un	_	1	?	?	8	miserabler	_	15	poor	_	_	_	13	una	_	11	un	_	12	un	_	9	slechte	_	14	facto	_
+9	būdas	11	ضعيف	_	1	?	?	12	substitut	_	1	?	?	9	Vertreter	_	14	really	_	result.Cause.CONTIGENCY	_	15	aproximación	_	13	limitant	_	13	aspetto	_	10	maatstaf	_	16	fraca	_
+10	matuoti	11	ضعيف	_	1	?	?	12	substitut	_	1	?	?	9	Vertreter	_	16	proxy	_	_	_	15	aproximación	_	13	limitant	_	15	marginale	_	12	voor	succession.Asynchronous.TEMPORAL	17	prova	_
+11	įvairovę.	11	ضعيف	_	1	?	?	12	substitut	_	1	?	?	9	Vertreter	_	16	proxy	_	_	_	15	aproximación	_	13	limitant	_	15	marginale	_	12	voor	succession.Asynchronous.TEMPORAL	17	prova	_
+
+# sent_id = 155892
+# text:  Turime visų rasių žmones pavaizduotus šiame žemėlapyje – žiūrėti tik į rasę nepadeda bandant prisidėti prie įvairumo vystymo.
+# trans: Temos pessoas representadas de todos os tipos diferentes de etnias por todo o mapa — olhar apenas para a etnia não contribui muito para o desenvolvimento da diversidade.
+# forward_log_prob: -96.73007509832404
+# backward_log_prob: -73.19662769413863
+1	Turime	1	لدينا	_	1	?	?	4	de	_	1	?	?	1	Wir	_	6	all	_	_	_	1	Tenemos	_	?	?	?	?	?	?	1	We	_	1	Temos	_
+2	visų	3	مثَّلوا	_	1	?	?	6	tipus	_	1	?	?	3	Verteter	_	5	from	_	_	_	2	representadas	_	5	selon	_	4	ci	_	7	verschillende	_	3	representadas	_
+3	rasių	2	أشخاص	_	1	?	?	5	tot	_	1	?	?	4	aus	_	1	We've	_	_	_	3	personas	_	2	gens	_	1	Su	_	3	hier	_	3	representadas	_
+4	žmones	5	الأعراق	_	1	?	?	5	tot	_	1	?	?	?	?	?	3	people	_	_	_	5	todo	_	1	Les	_	6	rappresentate	_	2	zien	_	2	pessoas	_
+5	pavaizduotus	6	المختلفة	_	1	?	?	6	tipus	_	1	?	?	6	Arten	_	7	different	_	_	_	6	tipo	_	6	leur	_	6	rappresentate	_	6	allerlei	_	7	tipos	_
+6	šiame	8	امتداد	_	1	?	?	8	races	_	1	?	?	8	Rassen	_	10	races	_	_	_	8	razas	_	9	cette	_	11	razze	_	8	rassen	_	10	etnias	_
+7	žemėlapyje	9	الخريطة	_	1	?	?	9	representades	_	1	?	?	8	Rassen	_	11	across	_	_	_	11	ancho	_	10	carte-ci	_	11	razze	_	9	verspreid	_	11	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+8	–	10	هنا	_	1	?	?	11	tot	_	1	?	?	13	verteilt.	_	13	entire	_	_	_	11	ancho	_	10	carte-ci	_	11	razze	_	12	hele	_	12	todo	_
+9	žiūrėti	11	بأكلمها	_	1	?	?	12	arreu	_	1	?	?	12	Karte	_	13	entire	_	_	_	13	todo	_	13	ne	_	13	considerare	_	12	hele	_	14	mapa	_
+10	tik	18	لا	Contrast.COMPARISON	1	?	?	15	Mirar	_	1	?	?	11	ganze	_	16	--	_	_	_	16	mirar	_	12	mais	Contrast.COMPARISON|Exception.EXPANSION	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	14	Slechts	_	15	—	_
+11	į	7	على	_	1	?	?	14	mapa.	_	1	?	?	18	betrachten,	_	18	looking	_	_	_	10	lo	_	8	sur	_	18	ci	_	15	kijken	_	18	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+12	rasę	17	وحده	_	1	?	?	16	nomes	_	1	?	?	19	erklärt	_	17	only	_	result.Cause.CONTIGENCY	_	17	solo	_	17	race	_	18	ci	_	17	ras	_	17	apenas	_
+13	nepadeda	16	العِرْق	_	1	?	?	20	contribueix	_	1	?	?	19	erklärt	_	20	race	_	_	_	17	solo	_	18	ne	_	19	aiuta	_	18	draagt	_	20	etnia	_
+14	bandant	17	وحده	_	1	?	?	20	contribueix	_	1	?	?	19	erklärt	_	21	doesn't	_	_	_	21	contribuye	_	19	contribue	_	21	sviluppare	_	18	draagt	_	22	contribui	_
+15	prisidėti	19	يساهم	_	1	?	?	20	contribueix	_	1	?	?	19	erklärt	_	23	contribute	_	_	_	21	contribuye	_	19	contribue	_	21	sviluppare	_	?	?	?	22	contribui	_
+16	prie	21	بتطوير	_	1	?	?	22	desenvolupament	_	1	?	?	19	erklärt	_	24	to	_	_	_	23	desarrollo	_	22	à	specification.Restatement.EXPANSION	23	nostro	_	21	tot	_	26	desenvolvimento	_
+17	įvairumo	21	بتطوير	_	1	?	?	22	desenvolupament	_	1	?	?	23	der	_	25	our	_	_	_	23	desarrollo	_	23	développer	_	24	concetto	_	23	ontwikkeling	_	26	desenvolvimento	_
+18	vystymo.	23	خاصتنا.	_	1	?	?	22	desenvolupament	_	1	?	?	24	Stadtentwicklung	_	26	development	_	_	_	23	desarrollo	_	23	développer	_	24	concetto	_	23	ontwikkeling	_	26	desenvolvimento	_
+
+# sent_id = 155893
+# text:  Bandome įvairumą naudoti sprendžiant kai kurias sudėtingesnes problemas, turime pradėti kitaip galvoti apie įvairumą.
+# trans: Se tentarmos usar a diversidade como forma de resolver alguns dos problemas mais difíceis, precisamos de começar a pensar sobre a diversidade de forma diferente.
+# forward_log_prob: -82.26301546261408
+# backward_log_prob: -50.31709474676391
+1	Bandome	1	لذا	result.Cause.CONTIGENCY	1	?	?	1	Si	TEMPORAL	1	?	?	7	nutzen,	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	4	estamos	_	1	Donc	result.Cause.CONTIGENCY	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
+2	įvairumą	3	كنا	_	1	?	?	3	d’usar	_	1	?	?	7	nutzen,	_	4	trying	_	_	_	3	si	TEMPORAL	3	nous	_	3	vogliamo	_	3	diversiteit	_	3	usar	_
+3	naudoti	4	نحاول	_	1	?	?	5	diversitat	_	1	?	?	7	nutzen,	_	6	use	_	_	_	5	tratando	_	5	utiliser	_	4	usare	_	5	gebruiken	_	3	usar	_
+4	sprendžiant	5	استخدام	_	1	?	?	7	una	_	1	?	?	7	nutzen,	_	6	use	_	_	_	7	usar	_	5	utiliser	_	8	affrontare	_	6	om	PragmaticCause.CONTIGENCY	7	forma	_
+5	kai	8	لمعالجة	_	1	?	?	11	front	_	1	?	?	7	nutzen,	_	11	to	_	_	_	7	usar	_	10	moyen	_	8	affrontare	_	?	?	?	?	?	?
+6	kurias	8	لمعالجة	_	1	?	?	10	fer	_	1	?	?	8	um	_	12	tackle	_	_	_	9	diversidad	_	12	résoudre	_	9	alcuni	_	9	te	_	9	resolver	_
+7	sudėtingesnes	10	مشاكلنا	_	1	?	?	13	nostres	_	1	?	?	10	Probleme	_	15	our	_	_	_	11	arreglar	_	12	résoudre	_	11	problemi	_	11	problemen	_	12	problemas	_
+8	problemas,	12	صعوبة،	_	1	?	?	15	més	_	1	?	?	11	anzugehen,	_	17	intractable	_	_	_	12	problemas	_	14	problèmes	_	14	dobbiamo	_	14	pakken,	_	14	difíceis,	_
+9	turime	15	للبدء	_	1	?	?	18	de	_	1	?	?	13	wir	_	19	we	_	_	_	15	comenzar	_	?	?	?	13	abbiamo	_	16	we	_	16	de	_
+10	pradėti	15	للبدء	_	1	?	?	19	començar	_	1	?	?	12	brauchen	_	21	to	_	_	_	15	comenzar	_	18	nous	_	7	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	17	op	_	17	começar	_
+11	kitaip	16	في	_	1	?	?	20	a	_	1	?	?	16	Art	_	24	think	_	_	_	17	pensar	_	21	à	specification.Restatement.EXPANSION	17	pensare	_	18	een	_	25	diferente.	_
+12	galvoti	17	التفكير	_	1	?	?	21	pensar	_	1	?	?	18	Denkens	_	23	to	_	_	_	17	pensar	_	22	la	_	17	pensare	_	19	andere	_	24	forma	_
+13	apie	18	بشأن	_	1	?	?	22	sobre	_	1	?	?	19	bezüglich	_	25	about	_	_	_	18	sobre	_	?	?	?	18	alla	_	23	kijken.	_	23	de	_
+14	įvairumą.	19	التعددية	_	1	?	?	24	diversitat	_	1	?	?	17	des	_	26	diversity	_	_	_	19	diversidad	_	23	diversité	_	19	diversità	_	20	manier	_	22	diversidade	_
+
+# sent_id = 155894
+# text:  Ir pabaigai, mes turime galimybę pradėti naujai formuoti savo miestus, ir manau, kad jei turime galimybę, netgi galime ir prisimti atsakomybę tai darydami.
+# trans: E, por fim, temos a possibilidade de criar intervenções para começar a reformular as nossas cidades de modo novo. Creio que, se temos essa capacidade, até podemos ter alguma responsabilidade em fazê-lo.
+# forward_log_prob: -117.96737860607139
+# backward_log_prob: -80.34287825497509
+1	Ir	?	?	?	1	?	?	4	de	_	1	?	?	4	die	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	6	de	_	?	?	?	?	?	?	1	E,	_
+2	pabaigai,	1	وفي	TEMPORAL	1	?	?	1	Finalment,	_	1	?	?	1	Schlussendlich	Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	lastly,	_	_	_	2	finalmente,	_	1	Enfin,	_	1	Possiamo	_	1	Tenslotte	precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+3	mes	3	لدينا	_	1	?	?	2	tenim	_	1	?	?	2	haben	_	3	we	_	_	_	3	tenemos	_	2	nous	_	2	agire	_	2	hebben	_	3	fim,	_
+4	turime	3	لدينا	_	1	?	?	2	tenim	_	1	?	?	2	haben	_	4	have	_	_	_	3	tenemos	_	4	la	_	4	dare	_	2	hebben	_	4	temos	_
+5	galimybę	5	لصناعة	_	1	?	?	5	crear	_	1	?	?	5	Fähigkeit,	_	6	ability	_	_	_	5	habilidad	_	5	possibilité	_	4	dare	_	7	interventies	_	6	possibilidade	_
+6	pradėti	7	للبدء	_	1	?	?	8	començar	_	1	?	?	7	zu	_	7	to	_	_	_	9	para	CONTIGENCY|Cause.CONTIGENCY	?	?	?	3	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	om	PragmaticCause.CONTIGENCY	11	começar	_
+7	naujai	9	إعادة	_	1	?	?	10	canviar	_	1	?	?	10	unsere	_	13	reshape	_	_	_	8	intervenciones	_	9	actions	_	6	nuova	_	9	creëren	_	9	intervenções	_
+8	formuoti	9	إعادة	_	1	?	?	10	canviar	_	1	?	?	10	unsere	_	13	reshape	_	_	_	12	reformar	_	11	remodeler	_	7	forma	_	11	onze	_	13	reformular	_
+9	savo	10	تشكيل	_	1	?	?	10	canviar	_	1	?	?	10	unsere	_	13	reshape	_	_	_	12	reformar	_	11	remodeler	_	9	nostre	_	14	reorganiseren	_	13	reformular	_
+10	miestus,	11	مُدُننا	_	1	?	?	14	les	_	1	?	?	11	Städte	_	15	cities	_	_	_	14	ciudades	_	13	villes	_	9	nostre	_	17	geloof	_	14	as	_
+11	ir	?	?	?	1	?	?	17	i	_	1	?	?	?	?	?	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	19	y	_	17	et	Conjunction.EXPANSION	11	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	15	en	Conjunction.EXPANSION	?	?	?
+12	manau,	13	جديدة،	_	1	?	?	12	forma	_	1	?	?	17	Ich	_	21	I	_	_	_	20	creo	_	18	je	_	14	questa	_	16	ik	_	18	modo	_
+13	kad	16	أننا	_	1	?	?	11	la	_	1	?	?	17	Ich	_	21	I	_	_	_	20	creo	_	18	je	_	12	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	21	dat	_	21	que,	_
+14	jei	12	بطريقة	_	1	?	?	20	si	TEMPORAL	1	?	?	18	glaube,	_	22	believe	_	_	_	18	modo,	_	19	crois	_	12	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	13	kunnen	_	22	se	CONTIGENCY|Condition.CONTIGENCY
+15	turime	?	?	?	1	?	?	21	tenim	_	1	?	?	20	wir	_	25	we	_	_	_	23	tenemos	_	23	avons	_	13	abbiamo	_	23	hebben,	_	23	temos	_
+16	galimybę,	17	إذا	_	1	?	?	?	?	?	1	?	?	21	dieses	_	28	capability,	_	_	_	24	esa	_	25	possibilité,	_	15	capacità,	_	22	vermogen	_	24	essa	_
+17	netgi	19	تلك	_	1	?	?	22	aquesta	_	1	?	?	22	Potential	_	28	capability,	_	_	_	24	esa	_	24	cette	_	15	capacità,	_	25	enige	_	24	essa	_
+18	galime	21	ربما	specification.Restatement.EXPANSION	1	?	?	?	?	?	1	?	?	24	Wir	_	27	that	_	_	_	21	que	_	28	la	_	17	anche	Concession.COMPARISON|Conjunction.EXPANSION	29	dat	_	27	podemos	_
+19	ir	?	?	?	1	?	?	25	la	_	1	?	?	27	die	_	?	?	?	?	?	?	?	?	?	?	?	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	31	em	_
+20	prisimti	22	نتحمل	_	1	?	?	23	capacitat	_	1	?	?	26	sogar	_	30	may	_	_	_	25	capacidad,	_	29	responsabilité	_	18	assumerci	_	27	dragen	_	28	ter	_
+21	atsakomybę	24	المسؤولية	_	1	?	?	26	responsabilitat	_	1	?	?	28	Verpflichtung	_	33	some	_	_	_	28	responsabilidad	_	29	responsabilité	_	20	responsabilità	_	30	ook	Conjunction.EXPANSION	29	alguma	_
+22	tai	26	ذلك.	_	1	?	?	?	?	?	1	?	?	29	es	_	?	?	?	?	?	?	?	?	31	le	_	?	?	?	?	?	?	?	?	?
+23	darydami.	25	لفعل	_	1	?	?	28	fer-ho.	_	1	?	?	28	Verpflichtung	_	36	do	_	_	_	30	hacerlo.	_	32	faire.	_	22	farlo.	_	32	te	_	32	fazê-lo.	_
+
+# sent_id = 155895
+# text:  Taigi, kas yra miestas?
+# trans: Então, o que é uma cidade?
+# forward_log_prob: -14.429859644201077
+# backward_log_prob: -11.310236706876882
+1	Taigi,	1	إذن	_	1	?	?	1	Què	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	¿Qué	_	1	Qu'est-ce	_	1	Cos'è	_	1	Dus,	_	1	Então,	_
+2	kas	2	ما	specification.Restatement.EXPANSION	1	?	?	2	és	_	1	?	?	2	ist	_	2	what	_	_	_	1	¿Qué	_	2	qu'une	_	1	Cos'è	_	3	is	_	1	Então,	_
+3	yra	3	هي	_	1	?	?	3	una	_	1	?	?	3	also	result.Cause.CONTIGENCY	3	is	_	_	_	2	es	_	3	ville	_	1	Cos'è	_	3	is	_	4	é	_
+4	miestas?	4	المدينة؟	_	1	?	?	4	ciutat?	_	1	?	?	4	eine	_	4	a	_	_	_	4	ciudad?	_	3	ville	_	3	città?	_	5	een	_	6	cidade?	_
+
+# sent_id = 155896
+# text:  Kai kas pasakytų, kad tai geografinė vieta arba gatvių ir pastatų rinkinys, bet aš tikiu, kad miestas yra suma visų ryšių tarp ten gyvenančių žmonių, ir tikiu, kad jei galime pradėti realiai tuos ryšius dokumentuoti, galbūt išties galėtume sukurti tokius miestus, kokių iš tikrųjų norime.
+# trans: Acho que alguns dirão que é uma área geográfica ou um conjunto de ruas e edifícios, mas penso que uma cidade é a soma das relações das pessoas que lá vivem. Acho que, se começarmos a documentar essas relações de forma real talvez tenhamos uma hipótese para criar o tipo de cidades que gostaríamos de ter,
+# forward_log_prob: -211.78664970361376
+# backward_log_prob: -185.80251857299922
+1	Kai	?	?	?	1	?	?	?	?	?	1	?	?	?	?	?	4	might	_	_	_	2	pueden	_	?	?	?	9	un	_	?	?	?	?	?	?
+2	kas	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	2	pueden	_	?	?	?	?	?	?	4	dat	_	7	uma	_
+3	pasakytų,	1	أعتقد	_	?	?	?	1	Alguns	_	?	?	?	1	Jemand	_	5	say	_	_	_	1	Algunos	_	4	certains	_	1	Qualcuno	_	1	Sommigen	_	1	Acho	_
+4	kad	2	أن	_	?	?	?	3	que	_	?	?	?	4	ein	_	6	that	_	_	_	4	que	_	1	Je	_	4	che	_	4	dat	_	2	que	_
+5	tai	?	?	?	?	?	?	4	és	_	?	?	?	?	?	?	?	?	?	?	?	4	que	_	2	pense	_	5	è	_	5	het	_	6	é	_
+6	geografinė	5	يقولون	_	?	?	?	6	àrea	_	?	?	?	5	geografisches	_	10	geographical	_	_	_	7	área	_	7	c'est	_	6	un'area	_	7	geografisch	_	8	área	_
+7	vieta	6	أنها	_	?	?	?	7	geogràfica	_	?	?	?	8	Reihe	_	10	geographical	_	_	_	8	geográfica,	_	9	zone	_	10	insieme	_	11	verzameling	_	9	geográfica	_
+8	arba	9	أو	disjunctive.Alternative.EXPANSION	?	?	?	8	o	_	?	?	?	9	von	_	12	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	12	calles	_	15	rues	_	12	strade	_	12	straten	_	10	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+9	gatvių	?	?	?	?	?	?	7	geogràfica	_	?	?	?	8	Reihe	_	14	collection	_	_	_	?	?	?	10	géographique,	_	?	?	?	11	verzameling	_	9	geográfica	_
+10	ir	?	?	?	?	?	?	13	i	_	?	?	?	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	16	et	Conjunction.EXPANSION	?	?	?	13	en	Conjunction.EXPANSION	15	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	pastatų	12	الشوارع	_	?	?	?	?	?	?	?	?	?	12	Gebäuden.	_	?	?	?	?	?	16	yo	_	13	ensemble	_	14	edifici,	_	?	?	?	?	?	?
+12	rinkinys,	10	مجموعة	_	?	?	?	10	conjunt	_	?	?	?	12	Gebäuden.	_	?	?	?	?	?	16	yo	_	12	un	_	14	edifici,	_	?	?	?	12	conjunto	_
+13	bet	11	من	_	?	?	?	15	però	precedence.Asynchronous.TEMPORAL	?	?	?	15	aber,	_	19	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	pero	precedence.Asynchronous.TEMPORAL	18	mais	Contrast.COMPARISON|Exception.EXPANSION	13	ed	_	16	maar	_	17	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+14	aš	14	ولكنني	_	?	?	?	16	jo	_	?	?	?	?	?	?	3	some	_	_	_	16	yo	_	19	je	_	16	io	_	?	?	?	?	?	?
+15	tikiu,	14	ولكنني	_	?	?	?	?	?	?	?	?	?	?	?	?	21	believe	_	_	_	16	yo	_	17	d'immeubles,	_	23	somma	_	18	vind	_	?	?	?
+16	kad	16	أن	_	?	?	?	18	que	_	?	?	?	13	Ich	_	20	I	_	_	_	?	?	?	19	je	_	22	la	_	17	ik	_	19	que	_
+17	miestas	18	هي	_	?	?	?	5	una	_	?	?	?	16	eine	_	24	city	_	_	_	20	ciudad	_	21	qu'une	_	19	una	_	20	een	_	20	uma	_
+18	yra	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	25	is	_	_	_	21	es	_	23	est	_	18	che	_	24	van	_	?	?	?
+19	suma	19	مجموع	_	?	?	?	21	suma	_	?	?	?	20	Summe	_	27	sum	_	_	_	23	suma	_	25	somme	_	23	somma	_	25	relaties	_	24	soma	_
+20	visų	15	أعتقد	_	?	?	?	17	crec	_	?	?	?	20	Summe	_	38	I	_	_	_	23	suma	_	20	pense	_	29	ci	_	25	relaties	_	18	penso	_
+21	ryšių	22	الذين	specification.Restatement.EXPANSION	?	?	?	24	relacions	_	?	?	?	20	Summe	_	35	live	_	_	_	26	relaciones	_	25	somme	_	30	vivono.	_	25	relaties	_	25	das	_
+22	tarp	22	الذين	specification.Restatement.EXPANSION	?	?	?	23	les	_	?	?	?	21	der	_	31	of	_	_	_	19	una	_	28	entre	_	25	relazioni	_	27	tussen	_	26	relações	_
+23	ten	?	?	?	?	?	?	?	?	?	?	?	?	24	Leute,	_	?	?	?	?	?	31	vive	_	29	les	_	41	in	_	32	wonen.	_	30	lá	_
+24	gyvenančių	?	?	?	?	?	?	?	?	?	?	?	?	26	dort	_	36	there,	_	_	_	31	vive	_	?	?	?	30	vivono.	_	?	?	?	30	lá	_
+25	žmonių,	21	الأشخاص	_	?	?	?	27	gent	_	?	?	?	?	?	?	33	people	_	_	_	29	gente	_	30	gens	_	27	persone	_	29	mensen	_	28	pessoas	_
+26	ir	?	?	?	?	?	?	30	i	_	?	?	?	?	?	?	37	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	32	en	_	?	?	?	31	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	?
+27	tikiu,	28	استطعنا	_	?	?	?	29	l’habita	_	?	?	?	30	anfangen	_	46	document	_	_	_	33	ella,	_	33	habitent.	_	36	iniziamo	_	39	relaties	_	32	Acho	_
+28	kad	25	وأعتقد	_	?	?	?	31	crec	_	?	?	?	?	?	?	?	?	?	?	?	35	creo	_	34	Je	_	34	che	_	33	Ik	_	33	que,	_
+29	jei	34	بطريقة	_	?	?	?	33	si	TEMPORAL	?	?	?	29	wir	_	41	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	37	si	TEMPORAL	35	crois	_	35	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	34	geloof	_	34	se	CONTIGENCY|Condition.CONTIGENCY
+30	galime	?	?	?	?	?	?	?	?	?	?	?	?	35	zu	_	42	we	_	_	_	?	?	?	35	crois	_	33	anche	Concession.COMPARISON|Conjunction.EXPANSION	44	kunnen	_	52	cidades	_
+31	pradėti	27	إن	_	?	?	?	?	?	?	?	?	?	35	zu	_	44	start	_	_	_	39	a	_	38	si	Concession.COMPARISON|Condition.CONTIGENCY	35	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	43	manier	_	41	forma	_
+32	realiai	35	حقيقية،	_	?	?	?	36	documentar	_	?	?	?	36	dokumentieren,	_	51	real	_	_	_	40	documentar	_	40	représentons	_	38	documentare	_	42	échte	_	42	real	_
+33	tuos	26	أننا	_	?	?	?	36	documentar	_	?	?	?	24	Leute,	_	51	real	_	_	_	40	documentar	_	40	représentons	_	?	?	?	40	op	_	42	real	_
+34	ryšius	32	هذه	_	?	?	?	38	relacions	_	?	?	?	33	Beziehungen	_	47	those	_	_	_	41	estas	_	41	ces	_	48	punto	_	38	deze	_	38	essas	_
+35	dokumentuoti,	36	عندها	_	?	?	?	41	l’oportunitat	_	?	?	?	37	hätten	_	53	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	46	real,	_	42	relations	_	44	reale,	_	49	ware	_	44	tenhamos	_
+36	galbūt	?	?	?	?	?	?	39	potser	_	?	?	?	?	?	?	54	maybe	_	result.Cause.CONTIGENCY	_	44	un	_	46	peut-être	_	45	forse	_	47	misschien	_	43	talvez	_
+37	išties	42	هذه	_	?	?	?	37	les	_	?	?	?	34	wirklich	_	59	shot	_	_	_	49	oportunidad	_	45	aurons	_	21	sia	_	50	kans	_	27	das	_
+38	galėtume	39	الفرصة	_	?	?	?	?	?	?	?	?	?	40	echte	_	58	real	_	_	_	49	oportunidad	_	47	l'occasion	_	50	partenza	_	50	kans	_	46	hipótese	_
+39	sukurti	45	المدن	_	?	?	?	43	crear	_	?	?	?	41	Chance,	_	?	?	?	?	?	?	?	?	47	l'occasion	_	50	partenza	_	53	steden	_	?	?	?
+40	tokius	43	الأنواع	_	?	?	?	41	l’oportunitat	_	?	?	?	?	?	?	61	creating	_	_	_	52	crear	_	47	l'occasion	_	50	partenza	_	?	?	?	50	tipo	_
+41	miestus,	?	?	?	?	?	?	40	tenim	_	?	?	?	43	Städte	_	65	cities	_	_	_	47	tenemos	_	51	villes	_	54	città	_	55	creëren	_	48	criar	_
+42	kokių	43	الأنواع	_	?	?	?	50	agradaria	_	?	?	?	45	erhalten,	_	67	we'd	_	_	_	53	esas	_	?	?	?	52	creare	_	56	zoals	COMPARISON|Instantiation.EXPANSION	?	?	?
+43	iš	42	هذه	_	?	?	?	48	que	_	?	?	?	39	eine	_	64	of	_	_	_	48	una	_	50	les	_	53	le	_	?	?	?	?	?	?
+44	tikrųjų	47	نود	_	?	?	?	50	agradaria	_	?	?	?	48	gerne	_	67	we'd	_	_	_	56	nos	_	54	aimerions	_	56	vorremmo	_	59	écht	_	54	gostaríamos	_
+45	norime.	48	امتلاكها.	_	?	?	?	51	tenir.	_	?	?	?	49	hätten.	_	67	we'd	_	_	_	58	tener.	_	55	avoir.	_	57	avere.	_	59	écht	_	54	gostaríamos	_
+
+# sent_id = 155897
+# text:  Ačiū.
+# trans: Obrigado.
+# forward_log_prob: -1.0845914446826626
+# backward_log_prob: -1.0845914446826626
+1	Ačiū.	1	شكراً	_	1	?	?	1	Gràcies.	_	1	?	?	1	Danke.	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dankuwel.	_	1	Obrigado.	_
+
+# sent_id = 155898
+# text:  (Plojimai)
+# trans: (Aplausos)
+# forward_log_prob: -0.3914442641661956
+# backward_log_prob: -0.3914442641661956
+1	(Plojimai)	1	(تصفيق)	_	1	?	?	1	(Aplaudiments)	_	1	?	?	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	?	?	?	1	(Applaus)	_	1	(Aplausos)	_
+

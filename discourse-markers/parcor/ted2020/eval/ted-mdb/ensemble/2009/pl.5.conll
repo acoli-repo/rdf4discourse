@@ -1,0 +1,708 @@
+# sent_id = 138295
+# text:  Jako dziewczynka wyobrażałam sobie, że pewnego dnia ucieknę.
+# trans: Em pequena, sempre imaginei que um dia fugiria.
+# forward_log_prob: -20.190277008383326
+# backward_log_prob: -23.30942111054412
+1	Jako	3	طفلة،	_	1	?	_	1	?	_	3	jsem	_	1	Als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	As	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	1	De	_	1	Petite,	_	4	immaginavo	_	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Em	_
+2	dziewczynka	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	3	Mädchen	_	3	little	_	_	_	3	siempre	_	1	Petite,	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	verbeeldde	_	2	pequena,	_
+3	wyobrażałam	4	تخيلت	_	1	?	_	1	?	_	2	malá	_	4	stellte	_	4	girl,	_	_	_	4	imaginé	_	3	toujours	_	3	piccola,	_	5	me	_	3	sempre	_
+4	sobie,	4	تخيلت	_	1	?	_	1	?	_	6	představovala,	_	7	vor,	_	7	imagined	_	_	_	4	imaginé	_	4	imaginé	_	5	sempre	_	11	dag	_	4	imaginei	_
+5	że	6	أنني	_	1	?	_	1	?	_	7	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	8	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	8	I	_	_	_	8	escaparía	_	5	qu'un	_	6	che	_	7	dat	_	5	que	_
+6	pewnego	7	سأهرب	_	1	?	_	1	?	_	8	jednou	_	9	ich	_	8	I	_	_	_	7	día	_	6	jour,	_	7	un	_	8	ik	_	4	imaginei	_
+7	dnia	9	يومًا	_	1	?	_	1	?	_	9	uteču	_	12	von	_	11	day	_	_	_	8	escaparía	_	7	je	_	9	sarei	_	11	dag	_	7	dia	_
+8	ucieknę.	9	يومًا	_	1	?	_	1	?	_	10	pryč.	_	14	weglaufe.	_	12	run	_	_	_	10	casa.	_	8	fuguerai.	_	10	scappata.	_	13	weglopen.	_	8	fugiria.	_
+
+# sent_id = 138296
+# text:  Odkąd skończyłam 6 lat, miałam spakowany plecak z ciuchami i puszki z jedzeniem schowane na dnie szafy.
+# trans: A partir dos meus 6 anos, passei a guardar uma mala com roupas e latas de comida escondidas na parte de trás de um roupeiro.
+# forward_log_prob: -81.46537100567356
+# backward_log_prob: -57.7068343335601
+1	Odkąd	2	عمر	_	1	?	_	1	?	_	1	Od	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	1	A	_	1	Dès	_	1	Da	succession.Asynchronous.TEMPORAL	1	Vanaf	succession.Asynchronous.TEMPORAL	1	A	_
+2	skończyłam	2	عمر	_	1	?	_	1	?	_	2	svých	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	2	partir	_	2	l'âge	_	3	avevo	_	2	mijn	_	2	partir	_
+3	6	3	السادسة،	_	1	?	_	1	?	_	3	šesti	_	3	sechsten	_	5	six	_	_	_	4	los	_	4	six	_	4	sei	_	3	zesde	_	4	meus	_
+4	lat,	4	بدأت	_	1	?	_	1	?	_	4	let	_	4	Lebensjahr	_	5	six	_	_	_	5	6	_	5	ans,	_	6	ho	_	3	zesde	_	5	6	_
+5	miałam	4	بدأت	_	1	?	_	1	?	_	5	jsem	_	5	bewahrte	_	7	I	_	_	_	6	años,	_	7	préparé	_	8	tenuto	_	5	ik	_	7	passei	_
+6	spakowany	5	الاحتفاظ	_	1	?	_	1	?	_	6	měla	_	5	bewahrte	_	10	packed	_	_	_	7	tuve	_	8	un	_	10	valigia	_	7	tas	_	9	guardar	_
+7	plecak	6	ببعض	_	1	?	_	1	?	_	7	nabalenou	_	7	eine	_	11	bag	_	_	_	9	maleta	_	9	sac	_	11	pronta,	_	7	tas	_	11	mala	_
+8	z	8	في	_	1	?	_	1	?	_	9	s	_	9	mit	_	12	with	_	_	_	11	de	_	10	avec	_	12	con	_	8	met	_	10	uma	_
+9	ciuchami	7	الملابس	_	1	?	_	1	?	_	10	oblečením	_	8	Tasche	_	13	some	_	_	_	12	ropa	_	12	vêtements	_	13	un	_	9	wat	_	13	roupas	_
+10	i	?	?	?	1	?	_	1	?	_	11	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	15	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	13	et	Conjunction.EXPANSION	17	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	puszki	9	كيس	_	1	?	_	1	?	_	12	plechovkami	_	10	Kleidung	_	16	cans	_	_	_	14	latas	_	15	boîtes	_	16	vestiti	_	12	blikjes	_	15	latas	_
+12	z	12	علب	_	1	?	_	1	?	_	?	?	?	9	mit	_	?	?	?	?	?	15	de	_	14	des	_	?	?	?	13	eten	_	19	na	_
+13	jedzeniem	11	بعض	_	1	?	_	1	?	_	13	jídla	_	12	Konservendosen	_	19	tucked	_	_	_	16	comida	_	17	conserve	_	21	scatola,	_	14	verstopt	_	18	escondidas	_
+14	schowane	12	علب	_	1	?	_	1	?	_	15	někde	_	14	meinem	_	23	back	_	_	_	18	al	_	19	je	_	22	nascosta	_	15	achter	_	22	trás	_
+15	na	13	الطعام	_	1	?	_	1	?	_	?	?	?	13	in	_	21	in	_	_	_	?	?	?	21	dans	_	23	sul	_	16	in	_	24	um	_
+16	dnie	14	خلف	_	1	?	_	1	?	_	16	vzadu	_	15	Wandschrank	_	23	back	_	_	_	21	un	_	22	mon	_	24	fondo	_	18	kast.	_	25	roupeiro.	_
+17	szafy.	15	الخزانة.	_	1	?	_	1	?	_	18	skříni.	_	15	Wandschrank	_	26	closet.	_	_	_	22	armario.	_	23	placard.	_	27	armadio.	_	18	kast.	_	25	roupeiro.	_
+
+# sent_id = 138297
+# text:  Był we mnie głęboki niepokój, lęk, że padnę ofiarą życia w rutynie i nudzie.
+# trans: Sentia uma profunda inquietação, um medo primordial de que seria vítima de uma vida de rotina e aborrecimento.
+# forward_log_prob: -51.827986726885705
+# backward_log_prob: -44.952234510392415
+1	Był	1	كان	_	1	?	_	1	?	_	1	Byl	_	2	mir	_	1	There	_	_	_	1	Sentía	_	3	profonde	_	1	C'era	_	1	Ik	_	1	Sentia	_
+2	we	2	هنالك	_	1	?	_	1	?	_	2	ve	_	1	In	_	3	a	_	_	_	2	una	_	3	profonde	_	2	una	_	3	rusteloos,	_	3	profunda	_
+3	mnie	3	شعور	_	1	?	_	1	?	_	3	mě	_	3	war	_	5	restlessness	_	_	_	3	inquietud,	_	2	cette	_	4	irrequietezza	_	3	rusteloos,	_	4	inquietação,	_
+4	głęboki	4	داخلي	_	1	?	_	1	?	_	4	obrovský	_	5	tiefe	_	7	me,	_	_	_	5	temor	_	4	angoisse,	_	5	dentro	_	6	instinctieve	_	6	medo	_
+5	niepokój,	5	عميق	_	1	?	_	1	?	_	6	surový	_	6	Unruhe,	_	7	me,	_	_	_	5	temor	_	4	angoisse,	_	7	me,	_	7	angst,	_	6	medo	_
+6	lęk,	6	بعدم	_	1	?	_	1	?	_	7	strach,	_	8	Angst,	_	9	primal	_	_	_	6	primitivo	_	6	peur	_	8	la	_	9	ik	_	7	primordial	_
+7	że	10	أنني	_	1	?	_	1	?	_	8	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	zu	_	11	that	_	_	_	8	ser	_	10	dans	_	10	primitiva	_	8	dat	_	9	que	_
+8	padnę	8	خوفٌ	_	1	?	_	1	?	_	9	bych	_	9	Opfer	_	13	would	_	_	_	9	víctima	_	7	intrinsèque	_	10	primitiva	_	11	prooi	_	10	seria	_
+9	ofiarą	9	بدائي	_	1	?	_	1	?	_	10	padla	_	11	werden,	_	14	fall	_	_	_	9	víctima	_	8	d'être	_	13	vittima	_	13	vallen	_	11	vítima	_
+10	życia	14	الحياة	_	1	?	_	1	?	_	9	bych	_	14	Leben	_	?	?	?	?	?	10	de	_	8	d'être	_	14	di	_	14	aan	_	12	de	_
+11	w	14	الحياة	_	1	?	_	1	?	_	?	?	?	14	Leben	_	16	to	_	_	_	10	de	_	?	?	?	17	di	_	?	?	?	15	de	_
+12	rutynie	12	ضحية	_	1	?	_	1	?	_	12	oběť	_	15	voller	_	17	a	_	_	_	12	rutina	_	12	train-train	_	18	abitudine	_	18	routine	_	16	rotina	_
+13	i	?	?	?	1	?	_	1	?	_	15	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	17	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	19	of	_	_	_	11	la	_	?	?	?	19	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	19	en	Conjunction.EXPANSION	17	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+14	nudzie.	15	والملل.	_	1	?	_	1	?	_	16	nudě.	_	18	Langeweile.	_	22	boredom.	_	_	_	14	el	_	13	quotidien.	_	20	noia.	_	20	verveling.	_	18	aborrecimento.	_
+
+# sent_id = 138298
+# text:  Dużo moich wspomnień z dzieciństwa zawiera zawiłe sny na jawie, w których przemierzam granice poszukując leśnych owoców i poznaję dziwnych ludzi prowadzących niekonwencjonalny, koczowniczy styl życia.
+# trans: Por isso, muitas das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras, a recolher bagas e a conhecer todo o tipo de pessoas estranhas, com vidas fora do convencional, pela estrada fora.
+# forward_log_prob: -139.63988189056948
+# backward_log_prob: -99.96123341846719
+1	Dużo	?	?	?	1	?	_	1	?	_	4	mých	_	1	Viele	_	2	so,	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	6	souvenirs	_	1	Quindi,	_	4	vroege	_	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+2	moich	5	أحلام	_	1	?	_	1	?	_	2	tak,	_	3	frühkindlichen	_	?	?	?	?	?	?	?	?	5	mes	_	4	miei	_	3	mijn	_	2	isso,	_
+3	wspomnień	2	ذكرياتي	_	1	?	_	1	?	_	3	mnoho	_	3	frühkindlichen	_	3	many	_	_	_	2	eso,	_	6	souvenirs	_	3	dei	_	4	vroege	_	3	muitas	_
+4	z	1	أغلب	_	1	?	_	1	?	_	?	?	?	?	?	?	4	of	_	_	_	4	de	_	16	des	_	?	?	?	?	?	?	?	?	?
+5	dzieciństwa	5	أحلام	_	1	?	_	1	?	_	5	raných	_	5	beinhalteten	_	5	my	_	_	_	10	sueños	_	11	rêves	_	17	mi	_	?	?	?	7	memórias	_
+6	zawiera	6	يقظة	_	1	?	_	1	?	_	6	vzpomínek	_	6	komplizierte	_	7	memories	_	_	_	5	mis	_	8	donc	result.Cause.CONTIGENCY	6	ricordi	_	6	bestonden	_	8	envolviam	_
+7	zawiłe	6	يقظة	_	1	?	_	1	?	_	8	spletité	_	7	Wachträume,	_	9	intricate	_	_	_	7	recuerdos	_	9	composée	_	8	intricati	_	8	ingewikkelde	_	10	acordada	_
+8	sny	7	أمشي	_	1	?	_	1	?	_	9	snění,	_	7	Wachträume,	_	10	daydreams	_	_	_	8	son	_	12	éveillés,	_	9	incubi	_	9	dagdromen,	_	10	acordada	_
+9	na	8	فيها	_	1	?	_	1	?	_	?	?	?	8	in	_	?	?	?	?	?	?	?	?	7	est	_	13	in	_	?	?	?	9	sonhar	_
+10	jawie,	9	وأعبر	_	1	?	_	1	?	_	11	bych	_	10	ich	_	12	I	_	_	_	?	?	?	14	je	_	11	occhi	_	12	grenzen	_	13	forma	_
+11	w	?	?	?	1	?	_	1	?	_	15	se	_	8	in	_	?	?	?	?	?	11	de	_	?	?	?	13	in	_	?	?	?	?	?	?
+12	których	17	كل	_	1	?	_	1	?	_	10	kde	_	9	denen	_	?	?	?	?	?	12	cruzar	_	1	Une	_	14	cui	_	10	waarin	_	18	a	_
+13	przemierzam	11	متناسيةً	_	1	?	_	1	?	_	13	hranice,	_	12	überschritt,	_	16	borders,	_	_	_	12	cruzar	_	20	baies	_	15	attraversavo	_	13	overstak,	_	17	fronteiras,	_
+14	granice	13	أقابل	_	1	?	_	1	?	_	14	pídila	_	14	sammelte	_	17	forage	_	_	_	13	fronteras,	_	20	baies	_	16	frontiere,	_	16	zocht	_	20	bagas	_
+15	poszukując	14	أناس	_	1	?	_	1	?	_	17	potravě,	_	14	sammelte	_	18	for	_	_	reason.Cause.CONTIGENCY	14	buscar	_	20	baies	_	18	cibavo	_	16	zocht	_	20	bagas	_
+16	leśnych	15	غرباء	_	1	?	_	1	?	_	17	potravě,	_	16	allerlei	_	19	berries,	_	_	_	15	bayas,	_	23	je	_	20	bacche,	_	18	allerlei	_	23	conhecer	_
+17	owoców	15	غرباء	_	1	?	_	1	?	_	19	potkávala	_	17	seltsame	_	21	meet	_	_	_	17	conocer	_	25	toutes	_	20	bacche,	_	19	vreemde	_	23	conhecer	_
+18	i	16	من	_	1	?	_	1	?	_	18	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	15	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	y	_	19	des	_	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	en	Conjunction.EXPANSION	27	de	_
+19	poznaję	18	الأنواع	_	1	?	_	1	?	_	20	nespočet	_	19	traf,	_	23	kinds	_	_	_	18	a	_	28	gens	_	22	incontravo	_	21	tegenkwam,	_	29	estranhas,	_
+20	dziwnych	18	الأنواع	_	1	?	_	1	?	_	22	lidí,	_	19	traf,	_	25	strange	_	_	_	19	gente	_	29	étranges	_	23	tantissime	_	22	die	_	28	pessoas	_
+21	ludzi	19	يعيشون	_	1	?	_	1	?	_	23	kteří	_	21	unkonventionelle	_	25	strange	_	_	_	20	extraña	_	30	vivant	_	25	strane	_	23	bijzondere	_	29	estranhas,	_
+22	prowadzących	19	يعيشون	_	1	?	_	1	?	_	24	vedou	_	21	unkonventionelle	_	27	living	_	_	_	20	extraña	_	32	vies	_	27	vivevano	_	24	levens	_	29	estranhas,	_
+23	niekonwencjonalny,	22	تقليدية	_	1	?	_	1	?	_	25	netradiční	_	21	unkonventionelle	_	28	unconventional	_	_	_	22	vidas	_	33	hors	_	27	vivevano	_	25	leidden,	_	34	convencional,	_
+24	koczowniczy	22	تقليدية	_	1	?	_	1	?	_	26	životy	_	26	führten.	_	28	unconventional	_	_	_	23	inusuales	_	35	commun	_	29	insolite	_	27	altijd	_	34	convencional,	_
+25	styl	22	تقليدية	_	1	?	_	1	?	_	26	životy	_	25	Straße	_	28	unconventional	_	_	_	23	inusuales	_	36	sur	_	29	insolite	_	28	onderweg	_	35	pela	_
+26	życia.	21	غير	_	1	?	_	1	?	_	28	cestě.	_	22	Leben	_	29	lives	_	_	_	22	vidas	_	37	ma	_	28	vite	_	?	?	?	?	?	?
+
+# sent_id = 138299
+# text:  Lata minęły, a wiele przygód, o których śniłam jako dziecko, podróżując i snując się pomiędzy światami innymi od mojego, zostało zrealizowanych dzięki mojej pracy dokumentalistki.
+# trans: Os anos passaram, mas muitas das aventuras que fantasiava em criança, a viajar e a tecer o meu caminho entre mundos para além do meu próprio, tornaram-se realidade através do meu trabalho como fotógrafa documental.
+# forward_log_prob: -128.75427835751478
+# backward_log_prob: -97.53567801534619
+1	Lata	1	مرت	_	1	?	_	1	?	_	1	Léta	_	2	Jahre	_	1	Years	_	_	_	1	Años	_	2	années	_	2	passati	_	1	Jaren	_	2	anos	_
+2	minęły,	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	2	Jahre	_	3	passed,	_	_	_	2	después,	_	3	ont	_	2	passati	_	2	gingen	_	3	passaram,	_
+3	a	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	4	vergangen,	_	3	passed,	_	_	_	3	las	_	3	ont	_	2	passati	_	3	voorbij,	_	3	passaram,	_
+4	wiele	3	لكن	Concession.COMPARISON	1	?	_	1	?	_	3	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	3	sind	_	4	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	4	aventuras	_	5	mais	Contrast.COMPARISON|Exception.EXPANSION	1	Sono	_	4	maar	_	4	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+5	przygód,	5	المغامرات	_	1	?	_	1	?	_	6	dobrodružství,	_	4	vergangen,	_	8	adventures	_	_	_	4	aventuras	_	?	?	?	5	ma	Concession.COMPARISON|Contrast.COMPARISON	7	deze	_	7	aventuras	_
+6	o	5	المغامرات	_	1	?	_	1	?	_	18	vlastní	_	9	von	_	8	adventures	_	_	_	?	?	?	1	Les	_	7	avventure	_	6	van	_	9	fantasiava	_
+7	których	4	أغلب	_	1	?	_	1	?	_	10	snila	_	10	denen	_	?	?	?	?	?	6	las	_	6	une	_	23	in	_	?	?	?	5	muitas	_
+8	śniłam	7	تخيلتها	_	1	?	_	1	?	_	11	jakožto	_	13	Kind	_	10	fantasized	_	_	_	8	fantaseaba	_	10	ces	_	10	da	_	8	avonturen,	_	11	criança,	_
+9	jako	9	طفلة،	_	1	?	_	1	?	_	9	jsem	_	11	ich	_	9	I	_	_	_	7	que	_	12	d'enfance	_	9	immaginavo	_	10	ik	_	10	em	_
+10	dziecko,	10	أسافر	_	1	?	_	1	?	_	13	--	_	14	fantasierte	_	14	child	_	_	_	?	?	?	13	--	_	14	costruirmi	_	13	fantaseerde:	_	13	viajar	_
+11	podróżując	11	وأشق	_	1	?	_	1	?	_	16	budování	_	14	fantasierte	_	16	traveling	_	_	_	12	viajar	_	15	me	_	16	mia	_	13	fantaseerde:	_	16	tecer	_
+12	i	?	?	?	1	?	_	1	?	_	15	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	?	?	?	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	18	des	_	13	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+13	snując	12	طريقي	_	1	?	_	1	?	_	19	cesty	_	17	reisen;	_	18	weaving	_	_	_	14	desplazarme	_	19	mondes	_	19	mondi	_	15	wegen	_	17	o	_
+14	się	15	غير	_	1	?	_	1	?	_	5	z	_	?	?	?	?	?	?	?	?	26	la	_	9	de	_	17	strada	_	?	?	?	15	a	_
+15	pomiędzy	13	بين	_	1	?	_	1	?	_	21	světy	_	22	zwischen	_	21	between	TEMPORAL	_	_	15	entre	TEMPORAL	17	entre	_	?	?	?	17	tussen	_	20	entre	_
+16	światami	14	عوالم	_	1	?	_	1	?	_	22	jinými	_	21	erfinden	_	22	worlds	_	_	_	17	distintos	_	20	autres	_	22	quello	_	18	andere	_	21	mundos	_
+17	innymi	16	عالمي	_	1	?	_	1	?	_	25	můj	_	24	anders	_	25	my	_	_	_	19	mío,	_	23	mien	_	25	vivevo,	_	19	werelden	_	23	além	_
+18	od	17	الخاص،	_	1	?	_	1	?	_	24	je	_	25	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	27	—	_	_	_	20	se	_	25	sont	_	26	sono	_	22	mijne	_	25	meu	_
+19	mojego,	18	أصبحت	_	1	?	_	1	?	_	26	vlastní	_	27	meinen	_	28	have	_	_	_	21	hicieron	_	26	devenues	_	27	diventate	_	23	-	_	26	próprio,	_
+20	zostało	19	واقعا	_	1	?	_	1	?	_	29	staly	_	27	meinen	_	29	become	_	_	_	22	realidad	_	27	réalité	_	28	realtà	_	23	-	_	28	realidade	_
+21	zrealizowanych	21	خلال	_	1	?	_	1	?	_	29	staly	_	29	wurden	_	30	realities	_	_	_	22	realidad	_	27	réalité	_	28	realtà	_	23	-	_	28	realidade	_
+22	dzięki	21	خلال	_	1	?	_	1	?	_	30	skutečností	_	31	meine	_	32	my	_	_	_	?	?	?	27	réalité	_	31	mio	_	26	mijn	_	31	meu	_
+23	mojej	22	عملي	_	1	?	_	1	?	_	32	moji	_	31	meine	_	34	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	?	?	?	31	mio	_	28	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	31	meu	_
+24	pracy	23	كمصورة	_	1	?	_	1	?	_	34	dokumentární	_	32	Arbeit	_	35	a	_	_	_	18	al	_	31	travail	_	30	al	_	29	documentaire-fotograaf	_	34	fotógrafa	_
+25	dokumentalistki.	24	وثائقية.	_	1	?	_	1	?	_	35	fotografky.	_	34	Dokumentarfotografin	_	37	photographer.	_	_	_	27	fotografía	_	33	photographe	_	34	fotografa	_	30	werkelijkheid.	_	35	documental.	_
+
+# sent_id = 138300
+# text:  Żadne inne doświadczenie nie było tak podobne do moich marzeń z dzieciństwa, jak dokumentowanie stylu życia włóczęgów w Stanach Zjednoczonych.
+# trans: Mas nenhuma outra experiência senti como tão fiel aos meus sonhos de infância, do que viver entre companheiros errantes pelos Estados Unidos e documentar as suas vidas.
+# forward_log_prob: -101.13186197790058
+# backward_log_prob: -73.04168390823648
+1	Żadne	2	ولا	_	1	?	_	1	?	_	1	Ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Ninguna	_	1	Cependant,	_	2	nessuna	_	1	Geen	_	2	nenhuma	_
+2	inne	2	ولا	_	1	?	_	1	?	_	2	žádná	_	2	keine	_	2	no	_	_	_	2	otra	_	3	expérience	_	3	esperienza	_	3	ervaring	_	3	outra	_
+3	doświadczenie	3	تجربة	_	1	?	_	1	?	_	3	jiná	_	4	Erfahrung	_	4	experience	_	_	_	3	experiencia	_	4	n'a	_	3	esperienza	_	4	voelde	_	4	experiência	_
+4	nie	12	العيش	_	1	?	_	1	?	_	11	jako	Conjunction.EXPANSION	5	kam	_	?	?	?	?	?	4	ha	_	13	celle	_	7	più	_	11	te	_	15	que	_
+5	było	4	أحسست	_	1	?	_	1	?	_	5	nebyla	_	6	meinen	_	6	felt	_	_	_	5	cumplido	_	6	plus	_	8	fedele	_	6	hetzelfde	_	8	fiel	_
+6	tak	5	أنها	_	1	?	_	1	?	_	6	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	8	so	_	7	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	8	à	specification.Restatement.EXPANSION	10	miei	_	5	zo	Instantiation.EXPANSION	6	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+7	podobne	6	حقيقة	_	1	?	_	1	?	_	7	věrná	_	9	nah,	_	8	true	_	_	_	6	los	_	11	d'enfant	_	11	sogni	_	9	kinderdromen,	_	8	fiel	_
+8	do	7	مثل	_	1	?	_	1	?	_	8	mým	_	10	wie	COMPARISON|Synchronous.TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	?	?	?	9	kinderdromen,	_	?	?	?
+9	moich	8	أحلام	_	1	?	_	1	?	_	9	dětským	_	9	nah,	_	10	my	_	_	_	7	sueños	_	9	mes	_	10	miei	_	8	mijn	_	13	infância,	_
+10	marzeń	9	طفولتي	_	1	?	_	1	?	_	10	snům,	_	13	andere	_	12	dreams	_	_	_	9	mi	_	15	j'ai	_	11	sogni	_	9	kinderdromen,	_	13	infância,	_
+11	z	10	غير	_	1	?	_	1	?	_	?	?	?	?	?	?	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	22	des	_	18	con	_	14	en	Conjunction.EXPANSION	?	?	?
+12	dzieciństwa,	10	غير	_	1	?	_	1	?	_	?	?	?	?	?	?	14	living	_	_	_	16	vidas	_	?	?	?	26	vite	_	16	levens	_	27	vidas.	_
+13	jak	13	وتوثيق	_	1	?	_	1	?	_	?	?	?	12	wie	COMPARISON|Synchronous.TEMPORAL	13	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	11	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	18	d'autres	_	19	altri	_	15	de	_	?	?	?
+14	dokumentowanie	13	وتوثيق	_	1	?	_	1	?	_	14	dokumentování	_	20	überall	_	17	documenting	_	_	_	12	convivir	_	17	parmi	_	20	girovaghi	_	18	documenteren	_	17	entre	_
+15	stylu	15	زملاء	_	1	?	_	1	?	_	15	životů	_	20	überall	_	21	fellow	_	_	_	14	documentar	_	17	parmi	_	22	ho	_	18	documenteren	_	19	errantes	_
+16	życia	14	حياة	_	1	?	_	1	?	_	17	poutníky	_	19	Leben	_	19	lives	_	_	_	18	vagabundos	_	?	?	?	?	?	?	19	van	_	?	?	?
+17	włóczęgów	?	?	?	1	?	_	1	?	_	17	poutníky	_	20	überall	_	?	?	?	?	?	18	vagabundos	_	27	un	_	?	?	?	20	mededolenden	_	24	documentar	_
+18	w	18	الولايات	_	1	?	_	1	?	_	18	po	_	21	in	_	23	across	_	_	_	17	de	_	25	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	?	?	?	21	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	23	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+19	Stanach	18	الولايات	_	1	?	_	1	?	_	21	státech.	_	22	den	_	25	United	_	_	_	?	?	?	23	États-Unis,	_	29	Stati	_	23	Verenigde	_	?	?	?
+20	Zjednoczonych.	19	المتحدة.	_	1	?	_	1	?	_	20	Spojených	_	23	USA	_	26	States.	_	_	_	?	?	?	23	États-Unis,	_	30	Uniti.	_	22	de	_	21	Estados	_
+
+# sent_id = 138301
+# text:  To jest właśnie sen wędrowców, inna wersja amerykańskiego snu, sposób życia młodych bezdomnych, podróżników, autostopowiczów, włóczęgów i kloszardów.
+# trans: Este é o sonho nómada, um tipo diferente de sonho americano vivido por jovens trabalhadores migratórios, viajantes, pedintes de boleia, vadios e vagabundos.
+# forward_log_prob: -75.97123339089734
+# backward_log_prob: -60.54375628367622
+1	To	1	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	Tohle	_	4	Traum	_	4	nomadic	_	_	_	3	el	_	1	C'est	_	?	?	?	?	?	?	1	Este	_
+2	jest	2	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	2	je	_	3	der	_	2	is	_	_	_	2	es	_	2	le	_	3	il	_	2	is	_	2	é	_
+3	właśnie	1	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	3	nomádský	_	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	1	Este	_	1	C'est	_	1	Questo	_	1	Dit	_	1	Este	_
+4	sen	4	المترحل،	_	1	?	_	1	?	_	4	sen,	_	4	Traum	_	4	nomadic	_	_	_	4	sueño	_	4	nomade,	_	5	nomade,	_	4	nomadische	_	5	nómada,	_
+5	wędrowców,	4	المترحل،	_	1	?	_	1	?	_	5	trochu	_	6	nomadischen	_	7	different	_	_	_	5	nómada,	_	6	autre	_	5	nomade,	_	4	nomadische	_	5	nómada,	_
+6	inna	5	نوع	_	1	?	_	1	?	_	5	trochu	_	6	nomadischen	_	7	different	_	_	_	6	otro	_	7	genre	_	7	altro	_	4	nomadische	_	8	diferente	_
+7	wersja	6	آخر	_	1	?	_	1	?	_	7	forma	_	6	nomadischen	_	8	kind	_	_	_	6	otro	_	7	genre	_	8	tipo	_	4	nomadische	_	8	diferente	_
+8	amerykańskiego	9	الأمريكي	_	1	?	_	1	?	_	8	amerického	_	5	vom	_	10	American	_	_	_	7	sueño	_	9	rêve	_	10	sogno	_	8	Amerikaanse	_	10	sonho	_
+9	snu,	8	الحلم	_	1	?	_	1	?	_	8	amerického	_	5	vom	_	10	American	_	_	_	8	estadounidense	_	10	américain	_	11	americano,	_	8	Amerikaanse	_	11	americano	_
+10	sposób	10	يعيشه	_	1	?	_	1	?	_	10	žitá	_	11	amerikanischer	_	11	dream	_	_	_	10	experimentan	_	12	par	_	12	inseguito	_	?	?	?	13	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+11	życia	10	يعيشه	_	1	?	_	1	?	_	?	?	?	9	andere	_	14	young	_	_	_	?	?	?	?	?	?	14	giovani	_	?	?	?	?	?	?
+12	młodych	11	شباب	_	1	?	_	1	?	_	11	mladými	_	15	jungen	_	13	by	_	_	_	12	desamparados,	_	14	jeunes	_	15	vagabondi,	_	12	jonge	_	15	trabalhadores	_
+13	bezdomnych,	12	متجولون	_	1	?	_	1	?	_	12	vandráky,	_	13	gelebt	_	12	lived	_	_	_	11	los	_	11	vécu	_	15	vagabondi,	_	10	geleefd	_	12	vivido	_
+14	podróżników,	12	متجولون	_	1	?	_	1	?	_	13	cestovateli,	_	16	Landstreichern,	_	15	hobos,	_	_	_	13	viajeros,	_	15	SDF,	_	16	viaggiatori,	_	13	landlopers,	_	17	viajantes,	_
+15	autostopowiczów,	13	ومسافرون،	_	1	?	_	1	?	_	14	stopaři,	_	17	Herumreisenden,	_	17	hitchhikers,	_	_	_	14	autoestopistas,	_	17	auto-stoppeurs,	_	18	senza	_	15	lifters,	_	20	boleia,	_
+16	włóczęgów	14	ومتنقلون	_	1	?	_	1	?	_	15	tuláky	_	19	Nichtsesshaften	_	18	vagrants	_	_	_	15	vagabundos	_	16	voyageurs,	_	20	dimora	_	16	vagebonden	_	20	boleia,	_
+17	i	?	?	?	1	?	_	1	?	_	16	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	20	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	19	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	y	_	19	et	Conjunction.EXPANSION	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	en	Conjunction.EXPANSION	19	de	_
+18	kloszardów.	15	ومتشردون	_	1	?	_	1	?	_	17	trampy.	_	21	Vagabunden.	_	20	tramps.	_	_	_	17	nómadas.	_	20	clochards.	_	22	barboni.	_	18	zwervers.	_	23	vagabundos.	_
+
+# sent_id = 138302
+# text:  Dla większości z nas postać wędrowca jest reliktem przeszłości.
+# trans: Na maioria das nossas mentes, o vagabundo é uma criatura do passado.
+# forward_log_prob: -36.85775689133401
+# backward_log_prob: -26.818697889104946
+1	Dla	1	في	_	1	?	_	1	?	_	1	Většinou	_	1	In	_	1	In	_	_	_	2	nuestras	_	1	Dans	_	1	La	_	1	Voor	succession.Asynchronous.TEMPORAL	2	maioria	_
+2	większości	2	أغلب	_	1	?	_	1	?	_	1	Většinou	_	2	den	_	2	most	_	_	_	1	En	_	3	plupart	_	2	maggior	_	3	meesten	_	1	Na	_
+3	z	2	أغلب	_	1	?	_	1	?	_	2	si	_	2	den	_	3	of	_	_	_	?	?	?	4	de	_	4	di	_	2	de	_	1	Na	_
+4	nas	3	عقولونا،	_	1	?	_	1	?	_	3	představíme	_	4	Köpfen	_	5	minds,	_	_	_	4	el	_	5	nos	_	5	noi	_	5	een	_	5	mentes,	_
+5	postać	4	المتشرد	_	1	?	_	1	?	_	4	tuláka	_	6	der	_	7	vagabond	_	_	_	8	criatura	_	6	esprits,	_	8	il	_	6	vagebond	_	5	mentes,	_
+6	wędrowca	5	مخلوق	_	1	?	_	1	?	_	5	jako	Conjunction.EXPANSION	7	Vagabund	_	10	creature	_	_	_	7	una	_	10	une	_	9	vagabondo	_	7	een	_	9	uma	_
+7	jest	6	أصبح	_	1	?	_	1	?	_	6	bytost	_	9	der	_	8	is	_	_	_	6	es	_	9	est	_	7	che	_	4	is	_	8	é	_
+8	reliktem	8	الماضي.	_	1	?	_	1	?	_	7	z	_	8	Teil	_	11	from	_	_	_	8	criatura	_	12	sortie	_	12	creatura	_	9	uit	_	10	criatura	_
+9	przeszłości.	8	الماضي.	_	1	?	_	1	?	_	8	minulosti.	_	10	Vergangenheit.	_	13	past.	_	_	_	10	pasado.	_	12	sortie	_	14	passato.	_	11	verleden.	_	12	passado.	_
+
+# sent_id = 138303
+# text:  Wyraz "włóczęga" przywołuje na myśl starą, biało-czarną fotografię postarzałego mężczyzny pokrytego węglem, z nogami zwisającymi z brzegu wagonu, ale te zdjęcia są w kolorze, przedstawiają społeczność rozpowszechnioną w całym kraju, nieustannie aktywną i kreatywnie wolną, obserwującą oblicza Ameryki, jakich nikt inny nie ma okazji zobaczyć.
+# trans: A palavra "vagabundo" evoca uma velha imagem a preto e branco, de um homem velho coberto com carvão, pernas para fora de uma carruagem de mercadorias. Mas estas fotos são a cor e retratam uma comunidade que percorre todo o país, ferozmente viva e criativamente livre, observando lados da América que mais ninguém consegue ver.
+# forward_log_prob: -213.90883900422565
+# backward_log_prob: -187.3920644107425
+1	Wyraz	1	كلمة	_	1	?	_	1	?	_	1	Slovo	equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	Das	_	3	"hobo"	_	_	_	1	Nos	_	3	«	_	3	"barbone"	_	3	landloper	_	4	evoca	_
+2	"włóczęga"	2	"متشرد"	_	?	?	?	?	?	?	2	"vandrák"	_	3	"Landstreicher"	_	3	"hobo"	_	_	_	2	hace	_	3	«	_	3	"barbone"	_	3	landloper	_	3	"vagabundo"	_
+3	przywołuje	3	تستحضر	_	?	?	?	?	?	?	3	vyčaruje	_	3	"Landstreicher"	_	4	conjures	_	_	_	3	pensar	_	3	«	_	4	richiama	_	4	roept	_	4	evoca	_
+4	na	3	تستحضر	_	?	?	?	?	?	?	?	?	?	?	?	?	1	The	_	_	_	?	?	?	?	?	?	10	in	_	9	op	_	1	A	_
+5	myśl	4	صورة	_	?	?	?	?	?	?	4	starý,	_	5	an	_	5	up	_	_	_	5	blanco	_	6	évoque	_	6	mente	_	6	oud	_	5	uma	_
+6	starą,	5	قديمة	_	?	?	?	?	?	?	6	obrázek	_	7	Schwarz-Weiß-Foto	_	7	old	_	_	_	5	blanco	_	7	une	_	8	vecchia	_	7	zwart-wit	_	7	imagem	_
+7	biało-czarną	6	بالأبيض	_	?	?	?	?	?	?	7	starého	_	7	Schwarz-Weiß-Foto	_	8	black	_	_	_	7	negro	_	9	ancienne,	_	9	immagine,	_	8	beeld	_	9	preto	_
+8	fotografię	7	والأسود	_	?	?	?	?	?	?	8	ošlehaného	_	7	Schwarz-Weiß-Foto	_	10	white	_	_	_	7	negro	_	11	noir	_	11	bianco	_	8	beeld	_	9	preto	_
+9	postarzałego	8	لرجل	_	?	?	?	?	?	?	9	muže	_	10	Wetter	_	11	image	_	_	_	9	un	_	11	noir	_	13	nero,	_	12	verlopen,	_	11	branco,	_
+10	mężczyzny	8	لرجل	_	?	?	?	?	?	?	10	umazaného	_	11	ausgesetzten,	_	11	image	_	_	_	10	anciano	_	13	blanc,	_	13	nero,	_	12	verlopen,	_	11	branco,	_
+11	pokrytego	9	شاحب	_	?	?	?	?	?	?	11	uhlím	_	12	verrußten	_	14	weathered	_	_	_	11	abrigado	_	13	blanc,	_	15	un	_	12	verlopen,	_	14	homem	_
+12	węglem,	10	اللون	_	?	?	?	?	?	?	11	uhlím	_	13	Mannes,	_	15	old	_	_	_	11	abrigado	_	15	d'un	_	17	segnato	_	14	roet	_	15	velho	_
+13	z	11	مغطى	_	?	?	?	?	?	?	12	s	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	7	una	_	13	met	_	17	com	_
+14	nogami	12	بالفحم،	_	?	?	?	?	?	?	13	nohami	_	15	seine	_	17	covered	_	_	_	13	cansado,	_	17	homme	_	21	coperto	_	16	oude	_	16	coberto	_
+15	zwisającymi	13	أقدام	_	?	?	?	?	?	?	14	visícími	_	16	Beine	_	19	coal,	_	_	_	15	un	_	19	couvert	_	21	coperto	_	17	man,	_	18	carvão,	_
+16	z	33	من	_	?	?	?	?	?	?	15	z	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	30	con	_	21	uit	_	17	com	_
+17	brzegu	14	تتدلى	_	?	?	?	?	?	?	16	povozu,	_	19	Waggon	_	20	legs	_	_	_	?	?	?	21	charbon,	_	23	carbone,	_	19	benen	_	21	fora	_
+18	wagonu,	15	خارج	_	?	?	?	?	?	?	18	tyto	_	20	baumeln	_	21	dangling	_	_	_	18	tren,	_	23	jambes	_	25	sul	_	20	bungelend	_	?	?	?
+19	ale	18	لكن	Concession.COMPARISON	?	?	?	?	?	?	17	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	18	einem	_	26	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	19	pero	precedence.Asynchronous.TEMPORAL	22	les	_	35	ma	Concession.COMPARISON|Contrast.COMPARISON	24	Maar	_	27	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+20	te	17	السيارة،	_	?	?	?	?	?	?	19	fotografie	_	23	diese	_	27	these	_	_	_	20	estas	_	28	ces	_	36	queste	_	25	deze	_	28	estas	_
+21	zdjęcia	17	السيارة،	_	?	?	?	?	?	?	19	fotografie	_	24	Fotos	_	25	boxcar,	_	_	_	21	fotografías	_	25	d'un	_	28	un	_	26	foto's	_	24	carruagem	_
+22	są	18	لكن	Concession.COMPARISON	?	?	?	?	?	?	20	jsou	_	?	?	?	26	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	25	una	_	27	Mais	Contrast.COMPARISON|Exception.EXPANSION	35	ma	Concession.COMPARISON|Contrast.COMPARISON	36	het	_	27	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+23	w	?	?	?	?	?	?	?	?	?	?	?	?	26	in	_	30	in	_	_	_	?	?	?	?	?	?	?	?	?	28	in	_	?	?	?
+24	kolorze,	20	الصور	_	?	?	?	?	?	?	23	zobrazují	_	27	Farbe:	_	29	are	_	_	_	23	color	_	29	photographies	_	34	penzoloni,	_	27	zijn	_	29	fotos	_
+25	przedstawiają	21	ملونة،	_	?	?	?	?	?	?	24	komunitu,	_	27	Farbe:	_	31	color,	_	_	_	24	representan	_	32	couleur	_	34	penzoloni,	_	29	kleur.	_	30	são	_
+26	społeczność	22	وتصف	_	?	?	?	?	?	?	25	která	_	29	porträtieren	_	31	color,	_	_	_	24	representan	_	32	couleur	_	37	fotografie	_	31	tonen	_	32	cor	_
+27	rozpowszechnioną	23	مجتمعًا	_	?	?	?	?	?	?	26	víří	_	29	porträtieren	_	34	portray	_	_	_	28	se	_	34	dépeignent	_	37	fotografie	_	31	tonen	_	32	cor	_
+28	w	?	?	?	?	?	?	?	?	?	?	?	?	33	im	_	33	they	_	_	_	?	?	?	38	dans	_	47	in	_	35	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?
+29	całym	24	يدور	_	?	?	?	?	?	?	27	zemí	_	?	?	?	36	community	_	_	_	29	desplaza	_	36	communauté	_	40	colori,	_	33	gemeenschap,	_	36	comunidade	_
+30	kraju,	25	حول	_	?	?	?	?	?	?	29	divokou	_	34	Land	_	37	swirling	_	_	_	29	desplaza	_	37	tourbillonnant	_	42	ritraggono	_	34	wervelend	_	36	comunidade	_
+31	nieustannie	26	البلاد،	_	?	?	?	?	?	?	30	živostí	_	34	Land	_	38	across	_	_	_	32	país,	_	40	pays,	_	44	comunità	_	37	land,	_	38	percorre	_
+32	aktywną	27	حيٌ	_	?	?	?	?	?	?	30	živostí	_	36	heftig	_	40	country,	_	_	_	32	país,	_	41	férocement	_	44	comunità	_	38	heftig	_	38	percorre	_
+33	i	?	?	?	?	?	?	?	?	?	?	?	?	38	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	43	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	31	el	_	43	et	Conjunction.EXPANSION	41	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	40	en	Conjunction.EXPANSION	?	?	?
+34	kreatywnie	28	بشدة	_	?	?	?	?	?	?	32	tvořivou	_	37	lebendig	_	42	alive	_	_	_	34	viva	_	42	vivante	_	48	tutto	_	39	levend	_	41	país,	_
+35	wolną,	30	بإبداع،	_	?	?	?	?	?	?	33	volností,	_	39	schöpferisch	_	44	creatively	_	_	_	34	viva	_	42	vivante	_	49	il	_	41	creatief	_	43	viva	_
+36	obserwującą	30	بإبداع،	_	?	?	?	?	?	?	34	střetávajíce	_	40	frei.	_	45	free,	_	_	_	36	creativamente	_	46	créativité	_	50	paese,	_	42	vrij.	_	45	criativamente	_
+37	oblicza	30	بإبداع،	_	?	?	?	?	?	?	34	střetávajíce	_	42	sehen	_	46	seeing	_	_	_	37	libre,	_	47	sauvage,	_	52	viva	_	43	Ze	_	45	criativamente	_
+38	Ameryki,	32	جوانب	_	?	?	?	?	?	?	36	s	_	42	sehen	_	47	sides	_	_	_	37	libre,	_	48	observant	_	54	creativamente	_	45	kanten	_	46	livre,	_
+39	jakich	34	أمريكا	_	?	?	?	?	?	?	37	kouty	_	43	das	_	49	America	_	_	_	39	vistas	_	50	facettes	_	55	libera,	_	45	kanten	_	48	lados	_
+40	nikt	34	أمريكا	_	?	?	?	?	?	?	38	Ameriky,	_	44	Amerika,	_	49	America	_	_	_	39	vistas	_	50	facettes	_	55	libera,	_	47	Amerika	_	48	lados	_
+41	inny	34	أمريكا	_	?	?	?	?	?	?	38	Ameriky,	_	46	sonst	Condition.CONTIGENCY	52	one	_	_	_	41	EE.UU.	_	52	l'Amérique	_	57	scopre	_	47	Amerika	_	50	América	_
+42	nie	37	أحد	_	?	?	?	?	?	?	40	nikdo	_	47	niemand	_	51	no	_	_	_	42	que	_	31	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	60	che	_	51	te	_	51	que	_
+43	ma	36	يحظ	_	?	?	?	?	?	?	39	jež	_	49	sehen	_	50	that	_	_	_	44	no	_	54	est	_	61	nessun	_	48	die	_	52	mais	Conjunction.EXPANSION|EXPANSION
+44	okazji	37	أحد	_	?	?	?	?	?	?	41	jiný	_	49	sehen	_	54	gets	_	_	_	43	otros	_	55	seule	_	61	nessun	_	52	zien	_	53	ninguém	_
+45	zobaczyć.	38	برؤيتها.	_	?	?	?	?	?	?	43	neuzří.	_	50	bekommt.	_	54	gets	_	_	_	45	ven.	_	57	connaître.	_	63	conosce.	_	53	krijgt.	_	55	ver.	_
+
+# sent_id = 138304
+# text:  Podobnie jak ich przodkowie, współcześni wędrowcy podążają stalowymi i asfaltowymi ścieżkami Stanów Zjednoczonych.
+# trans: Tal como os seus antecessores, os nómadas de hoje viajam pelas estradas de aço e asfalto dos Estados Unidos.
+# forward_log_prob: -56.43788644411774
+# backward_log_prob: -41.572029056011935
+1	Podobnie	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	3	jejich	_	2	ihre	_	1	Like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	2	antes,	_	1	Comme	COMPARISON|specification.Restatement.EXPANSION	1	Come	EXPANSION|Synchronous.TEMPORAL	1	Zoals	COMPARISON|Instantiation.EXPANSION	1	Tal	COMPARISON
+2	jak	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	1	Tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Wie	COMPARISON|Synchronous.TEMPORAL	3	predecessors,	_	_	_	1	Como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	2	leurs	_	3	loro	_	3	voorgangers,	_	2	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+3	ich	2	كان	_	1	?	_	1	?	_	3	jejich	_	3	Vorgänger	_	3	predecessors,	_	_	_	2	antes,	_	3	prédécesseurs,	_	4	antenati,	_	4	bereizen	_	3	os	_
+4	przodkowie,	4	مشرديّ	_	1	?	_	1	?	_	4	předci,	_	4	bereisen	_	5	nomads	_	_	_	6	la	_	4	les	_	5	i	_	6	hedendaagse	_	5	antecessores,	_
+5	współcześni	5	اليوم	_	1	?	_	1	?	_	5	dnešní	_	6	heutigen	_	6	travel	_	_	_	7	actualidad	_	5	nomades	_	6	nomadi	_	7	nomaden	_	7	nómadas	_
+6	wędrowcy	6	يرتحلون	_	1	?	_	1	?	_	6	kočovníci	_	7	Nomaden	_	6	travel	_	_	_	9	dentro	_	6	d'aujourd'hui	_	8	oggi	_	7	nomaden	_	9	hoje	_
+7	podążają	6	يرتحلون	_	1	?	_	1	?	_	7	cestují	_	9	Hauptverkehrsadern	_	8	steel	_	_	_	9	dentro	_	8	les	_	9	percorrono	_	9	slagaders	_	10	viajam	_
+8	stalowymi	8	الشرايين	_	1	?	_	1	?	_	9	ocelových	_	9	Hauptverkehrsadern	_	10	asphalt	_	_	_	11	las	_	9	artères	_	11	arterie	_	11	staal	_	11	pelas	_
+9	i	?	?	?	1	?	_	1	?	_	10	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	10	der	_	9	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	de	_	11	et	Conjunction.EXPANSION	12	di	_	10	van	_	13	de	_
+10	asfaltowymi	9	الحديدية	_	1	?	_	1	?	_	11	asfaltových	_	12	Staaten	_	11	arteries	_	_	_	14	acero	_	10	d'asphalte	_	13	acciaio	_	13	asfalt	_	14	aço	_
+11	ścieżkami	10	والأسفلتية	_	1	?	_	1	?	_	12	tepnách	_	13	aus	_	11	arteries	_	_	_	16	asfalto	_	12	d'acier	_	15	asfalto	_	13	asfalt	_	16	asfalto	_
+12	Stanów	11	للولايات	_	1	?	_	1	?	_	12	tepnách	_	14	Stahl	_	11	arteries	_	_	_	16	asfalto	_	12	d'acier	_	15	asfalto	_	13	asfalt	_	16	asfalto	_
+13	Zjednoczonych.	12	المتحدة.	_	1	?	_	1	?	_	13	Spojených	_	16	Asphalt.	_	14	United	_	_	_	19	Unidos.	_	13	des	_	17	Stati	_	15	de	_	18	Estados	_
+
+# sent_id = 138305
+# text:  W dzień zeskakują z pociągów towarowych, wystawiają uniesione kciuki i przemierzają autostrady z kim bądź, od kierowców ciężarówek do matek z dziećmi.
+# trans: De dia, saltam para comboios de mercadorias, levantam os polegares e andam pelos caminhos com qualquer um, desde camionistas a mães de futebol.
+# forward_log_prob: -73.93258180689563
+# backward_log_prob: -75.71111953868692
+1	W	1	في	_	1	?	_	1	?	_	1	Ve	_	?	?	?	1	By	_	_	_	1	De	_	3	ils	_	1	Di	_	?	?	?	1	De	_
+2	dzień	2	النهار،	_	1	?	_	1	?	_	2	dne	_	1	Am	_	2	day,	_	_	_	2	día,	_	2	jour,	_	2	giorno	_	1	Overdag	_	2	dia,	_
+3	zeskakują	3	يقفزون	_	1	?	_	1	?	_	3	skáčou	_	3	springen	_	3	they	_	_	_	3	saltan	_	4	sautent	_	3	saltano	_	2	hoppen	_	3	saltam	_
+4	z	?	?	?	1	?	_	1	?	_	4	na	_	4	sie	_	?	?	?	?	?	?	?	?	5	dans	_	?	?	?	3	ze	_	6	de	_
+5	pociągów	5	القطارات،	_	1	?	_	1	?	_	3	skáčou	_	6	Güterzüge	_	4	hop	_	_	_	4	vagones	_	7	wagons	_	5	treni	_	2	hoppen	_	5	comboios	_
+6	towarowych,	5	القطارات،	_	1	?	_	1	?	_	7	vystrkují	_	7	oder	disjunctive.Alternative.EXPANSION	6	trains,	_	_	_	4	vagones	_	7	wagons	_	?	?	?	5	goederentreinen,	_	8	levantam	_
+7	wystawiają	6	يؤشرون	_	1	?	_	1	?	_	6	vlaky,	_	8	strecken	_	7	stick	_	_	_	6	tren,	_	9	fret,	_	8	con	_	5	goederentreinen,	_	7	mercadorias,	_
+8	uniesione	7	بإبهامهم،	_	1	?	_	1	?	_	7	vystrkují	_	10	Daumen	_	7	stick	_	_	_	7	sacan	_	10	font	_	9	i	_	7	rijden	_	8	levantam	_
+9	kciuki	8	ويركبون	_	1	?	_	1	?	_	8	palce,	_	11	raus,	_	9	their	_	_	_	7	sacan	_	12	stop,	_	10	loro	_	7	rijden	_	9	os	_
+10	i	?	?	?	1	?	_	1	?	_	9	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	12	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	y	_	13	et	Conjunction.EXPANSION	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	en	Conjunction.EXPANSION	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	przemierzają	9	الطرقات	_	1	?	_	1	?	_	10	jedou	_	13	fahren	_	10	thumbs,	_	_	_	9	pulgar,	_	14	parcourent	_	12	alzati	_	7	rijden	_	12	andam	_
+12	autostrady	10	السريعة	_	1	?	_	1	?	_	10	jedou	_	13	fahren	_	12	ride	_	_	_	11	viajan	_	16	autoroutes	_	14	lungo	_	9	iedereen	_	12	andam	_
+13	z	11	مع	_	1	?	_	1	?	_	11	po	_	14	auf	_	13	the	_	_	_	12	con	_	17	avec	_	17	con	_	8	met	_	15	com	_
+14	kim	10	السريعة	_	1	?	_	1	?	_	12	dálnici	_	16	Autobahn	_	14	highways	_	_	_	12	con	_	18	n'importe	_	16	autostrade	_	10	over	_	14	caminhos	_
+15	bądź,	13	كان	_	1	?	_	1	?	_	14	kýmkoli	_	16	Autobahn	_	14	highways	_	_	_	13	cualquiera,	_	21	chauffeurs	_	16	autostrade	_	10	over	_	14	caminhos	_
+16	od	12	أي	_	1	?	_	1	?	_	15	od	_	20	egal	_	16	anyone	_	_	_	14	desde	CONTIGENCY|Cause.CONTIGENCY|TEMPORAL	21	chauffeurs	_	20	da	_	12	snelwegen,	_	18	desde	_
+17	kierowców	15	قائدي	_	1	?	_	1	?	_	16	náklaďáků	_	19	mit,	_	16	anyone	_	_	_	15	camioneros	_	22	poids	_	19	capita,	_	12	snelwegen,	_	17	um,	_
+18	ciężarówek	16	الشاحانات	_	1	?	_	1	?	_	16	náklaďáků	_	21	ob	_	18	truckers	_	_	_	16	hasta	TEMPORAL	23	lourds	_	21	camionisti	_	13	met	_	19	camionistas	_
+19	do	17	إلى	_	1	?	_	1	?	_	17	po	_	23	oder	disjunctive.Alternative.EXPANSION	19	to	_	_	_	16	hasta	TEMPORAL	25	mamans	_	21	camionisti	_	14	truckers	_	?	?	?
+20	matek	18	أمهات	_	1	?	_	1	?	_	18	maminky	_	23	oder	disjunctive.Alternative.EXPANSION	20	soccer	_	_	_	17	madres	_	26	courant	_	22	a	_	14	truckers	_	21	mães	_
+21	z	14	من	_	1	?	_	1	?	_	19	s	_	?	?	?	?	?	?	?	?	18	de	_	?	?	?	22	a	_	13	met	_	20	a	_
+22	dziećmi.	19	الضواحي.	_	1	?	_	1	?	_	20	dětmi.	_	26	Mütter.	_	21	moms.	_	_	_	19	familia.	_	28	activités	_	25	famiglia.	_	16	voetbalmoeder.	_	23	futebol.	_
+
+# sent_id = 138306
+# text:  W nocy śpią pod rozgwieżdżonym niebem, wtuleni w stada psów, z kotami i udomowionymi szczurami pomiędzy swoimi ciałami.
+# trans: À noite, eles dormem sob as estrelas, amontoados com as suas matilhas de cães, gatos e ratos de companhia entre os seus corpos.
+# forward_log_prob: -76.05128916242832
+# backward_log_prob: -57.77694455738744
+1	W	1	في	_	1	?	_	1	?	_	1	Po	_	3	sie	_	1	By	_	_	_	1	De	_	1	De	_	1	Di	_	?	?	?	1	À	_
+2	nocy	2	الليل،	_	1	?	_	1	?	_	2	nocích	_	1	Nachts	_	2	night,	_	_	_	2	noche,	_	2	nuit,	_	2	notte,	_	1	's	_	2	noite,	_
+3	śpią	2	الليل،	_	1	?	_	1	?	_	3	dřímají	_	1	Nachts	_	2	night,	_	_	_	3	duermen	_	4	dorment	_	3	dormono	_	2	Nachts	_	4	dormem	_
+4	pod	4	تحت	_	1	?	_	1	?	_	4	pod	_	2	schlafen	_	5	beneath	_	_	_	5	bajo	_	4	dorment	_	4	sotto	_	5	onder	_	5	sob	_
+5	rozgwieżdżonym	3	ينامون	_	1	?	_	1	?	_	5	širákem,	_	5	den	_	5	beneath	_	_	_	4	juntos	_	7	belle	_	6	stelle,	_	4	ze	_	6	as	_
+6	niebem,	5	النجوم،	_	1	?	_	1	?	_	6	schouleni	_	6	Sternen,	_	7	stars,	_	_	_	6	las	_	7	belle	_	6	stelle,	_	7	sterren,	_	8	amontoados	_
+7	wtuleni	5	النجوم،	_	1	?	_	1	?	_	6	schouleni	_	7	gekauert	_	8	huddled	_	_	_	7	estrellas,	_	8	étoile,	_	7	stretti	_	7	sterren,	_	8	amontoados	_
+8	w	7	مع	_	1	?	_	1	?	_	7	se	_	9	ihr	_	11	their	_	_	_	8	con	_	6	la	_	9	di	_	?	?	?	?	?	?
+9	stada	7	مع	_	1	?	_	1	?	_	8	svojí	_	9	ihr	_	10	with	_	_	_	7	estrellas,	_	9	lovés	_	?	?	?	8	opeengehoopt	_	11	suas	_
+10	psów,	8	بعضهم	_	1	?	_	1	?	_	9	smečkou	_	10	Rudel	_	12	packs	_	_	_	9	sus	_	11	eux,	_	10	loro	_	8	opeengehoopt	_	12	matilhas	_
+11	z	7	مع	_	1	?	_	1	?	_	?	?	?	11	aus	_	13	of	_	_	_	8	con	_	12	avec	_	?	?	?	?	?	?	13	de	_
+12	kotami	9	ويحشدون	_	1	?	_	1	?	_	11	koček	_	12	Hunden,	_	14	dogs,	_	_	_	12	perros,	_	13	leur	_	12	ai	_	10	hun	_	15	gatos	_
+13	i	?	?	?	1	?	_	1	?	_	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	14	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	16	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	y	_	15	de	_	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	14	en	Conjunction.EXPANSION	16	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+14	udomowionymi	11	قططهم،	_	1	?	_	1	?	_	13	chovných	_	13	Katzen	_	17	pet	_	_	_	13	gatos,	_	16	chiens,	_	13	loro	_	12	honden,	_	17	ratos	_
+15	szczurami	12	وفئرانهم	_	1	?	_	1	?	_	14	krys	_	15	Haustierratten	_	18	rats	_	_	_	15	ratas	_	17	chats	_	15	gatti	_	13	katten	_	19	companhia	_
+16	pomiędzy	13	بين	_	1	?	_	1	?	_	15	u	_	16	zwischen	_	19	between	TEMPORAL	_	_	16	entre	TEMPORAL	17	chats	_	15	gatti	_	15	tamme	_	20	entre	_
+17	swoimi	14	أجسادهم.	_	1	?	_	1	?	_	16	svého	_	17	ihren	_	20	their	_	_	_	17	sí.	_	19	rats	_	17	topi	_	15	tamme	_	22	seus	_
+18	ciałami.	14	أجسادهم.	_	1	?	_	1	?	_	17	těla.	_	18	Körpern.	_	21	bodies.	_	_	_	17	sí.	_	20	domestiques.	_	18	addomesticati.	_	16	ratten.	_	23	corpos.	_
+
+# sent_id = 138307
+# text:  Dla niektórych życie koczownika to wybór, odrzucenie materializmu, tradycyjnej pracy i akademickich dyplomów w zamian za odrobinę przygody.
+# trans: Alguns viajantes metem-se à estrada por opção, renunciam ao materialismo, aos empregos tradicionais e aos graus universitários, em troca de um vislumbre de aventura.
+# forward_log_prob: -81.22727143456764
+# backward_log_prob: -61.78241183239886
+1	Dla	2	المسافرين	_	1	?	_	1	?	_	1	Někteří	_	1	Manche	_	1	Some	_	_	_	1	Algunos	_	3	choisissent	_	?	?	?	1	Sommige	_	1	Alguns	_
+2	niektórych	1	بعض	_	1	?	_	1	?	_	1	Někteří	_	2	Reisende	_	1	Some	_	_	_	2	eligen	_	3	choisissent	_	4	sulla	_	1	Sommige	_	3	metem-se	_
+3	życie	3	يختارون	_	1	?	_	1	?	_	3	se	_	4	sich	_	5	the	_	_	_	2	eligen	_	4	la	_	5	strada	_	7	op	_	4	à	_
+4	koczownika	3	يختارون	_	1	?	_	1	?	_	4	uchylují	_	3	haben	_	8	choice,	_	_	_	3	viajar	_	3	choisissent	_	6	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	eigen	_	7	opção,	_
+5	to	5	بمحض	_	1	?	_	1	?	_	6	ulici	_	5	dieses	_	2	travelers	_	_	_	5	renuncian	_	2	voyageurs	_	2	viaggiatori	_	2	reizigers	_	2	viajantes	_
+6	wybór,	5	بمحض	_	1	?	_	1	?	_	8	vlastního	_	7	ausgesucht,	_	8	choice,	_	_	_	5	renuncian	_	10	renoncent	_	8	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	9	zeggen	_	7	opção,	_
+7	odrzucenie	6	إرادتهم،	_	1	?	_	1	?	_	8	vlastního	_	8	verzichten	_	9	renouncing	_	_	_	7	materialismo,	_	10	renoncent	_	9	rinunciare	_	9	zeggen	_	9	ao	Synchronous.TEMPORAL|TEMPORAL
+8	materializmu,	7	نابذين	_	1	?	_	1	?	_	9	rozhodnutí,	_	10	Materielles,	_	10	materialism,	_	_	_	7	materialismo,	_	9	Ils	_	11	materialismo,	_	10	vaarwel	_	10	materialismo,	_
+9	tradycyjnej	7	نابذين	_	1	?	_	1	?	_	10	zříkávají	_	11	herkömmliche	_	10	materialism,	_	_	_	9	empleo,	_	10	renoncent	_	11	materialismo,	_	11	tegen	_	12	empregos	_
+10	pracy	9	المادية،	_	1	?	_	1	?	_	11	se	_	12	Arbeit	_	14	university	_	_	_	6	al	_	14	travail	_	10	al	_	12	materialisme,	_	13	tradicionais	_
+11	i	?	?	?	1	?	_	1	?	_	?	?	?	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	y	_	?	?	?	15	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	15	en	Conjunction.EXPANSION	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	akademickich	10	والوظائف	_	1	?	_	1	?	_	13	tradičních	_	14	Uni-Abschlüsse	_	15	degrees	_	_	_	12	educación	_	15	conventionnel,	_	16	alle	_	14	banen	_	15	aos	_
+13	dyplomów	12	والدرجات	_	1	?	_	1	?	_	16	vysokoškolského	_	15	im	_	15	degrees	_	_	_	12	educación	_	15	conventionnel,	_	18	universitarie	_	16	universiteitsdiploma's,	_	17	universitários,	_
+14	w	?	?	?	1	?	_	1	?	_	?	?	?	15	im	_	16	in	_	_	_	14	un	_	16	aux	_	19	in	_	17	in	_	20	de	_
+15	zamian	13	الجامعية	_	1	?	_	1	?	_	17	titulu	_	17	gegen	_	?	?	?	?	?	15	poco	_	17	diplômes	_	20	cambio	_	18	ruil	_	19	troca	_
+16	za	15	بريق	_	1	?	_	1	?	_	19	za	_	19	Hauch	_	18	for	_	_	reason.Cause.CONTIGENCY	15	poco	_	18	universitaires	_	23	pizzico	_	19	voor	succession.Asynchronous.TEMPORAL	22	vislumbre	_
+17	odrobinę	15	بريق	_	1	?	_	1	?	_	20	záblesk	_	19	Hauch	_	20	glimmer	_	_	_	17	aventura.	_	20	choisissent	_	23	pizzico	_	21	glimp	_	22	vislumbre	_
+18	przygody.	16	المغامرة.	_	1	?	_	1	?	_	20	záblesk	_	19	Hauch	_	22	adventure.	_	_	_	17	aventura.	_	21	l'aventure.	_	25	avventura.	_	23	avontuur.	_	24	aventura.	_
+
+# sent_id = 138308
+# text:  Inni pochodzą z nizin społecznych i nigdy nie dostali szansy na wyrwanie się stamtąd. Sieroty i nastolatki uciekające przed prześladowaniem i bezlitosnym otoczeniem.
+# trans: Outros vêm da parte inferior da sociedade, nunca tiveram uma oportunidade de ascender: rejeitados de adoções, adolescentes fugitivos a escapar de abusos e de casas implacáveis​​.
+# forward_log_prob: -84.36407756641671
+# backward_log_prob: -76.09968097868266
+1	Inni	1	آخرون	_	1	?	_	1	?	_	1	Jiní	_	1	Andere	_	1	Others	_	_	_	1	Otros	_	1	D'autres	_	1	Altri	_	1	Anderen	_	1	Outros	_
+2	pochodzą	2	قدموا	_	1	?	_	1	?	_	2	pocházejí	_	2	kommen	_	2	come	_	_	_	2	proceden	_	2	proviennent	_	2	vengono	_	2	komen	_	2	vêm	_
+3	z	3	من	_	1	?	_	1	?	_	3	z	_	4	der	_	3	from	_	_	_	5	de	_	3	des	_	?	?	?	3	uit	_	4	parte	_
+4	nizin	4	أسفل	_	1	?	_	1	?	_	4	podbřišku	_	5	Schattenseite	_	5	underbelly	_	_	_	4	margen	_	4	bas-fonds	_	5	più	_	5	onderkant	_	5	inferior	_
+5	społecznych	5	المجتمع،	_	1	?	_	1	?	_	5	společnosti,	_	5	Schattenseite	_	5	underbelly	_	_	_	4	margen	_	4	bas-fonds	_	6	vulnerabili	_	5	onderkant	_	5	inferior	_
+6	i	?	?	?	1	?	_	1	?	_	?	?	?	8	sie	_	6	of	_	_	_	6	la	_	?	?	?	9	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	van	_	?	?	?
+7	nigdy	7	يعطوا	_	1	?	_	1	?	_	7	žádnou	_	9	bekamen	_	7	society,	_	_	_	8	sin	_	8	privés	_	10	non	_	8	samenleving,	_	8	nunca	_
+8	nie	9	فرصة	_	1	?	_	1	?	_	9	šanci	_	10	sie	_	7	society,	_	_	_	7	sociedad,	_	7	société,	_	8	società,	_	8	samenleving,	_	7	sociedade,	_
+9	dostali	9	فرصة	_	1	?	_	1	?	_	8	průvodní	_	11	nie,	_	9	given	_	_	_	9	oportunidades	_	10	l'opportunité	_	12	mai	_	11	nooit	_	10	uma	_
+10	szansy	10	للصعود	_	1	?	_	1	?	_	10	k	_	13	Chance	_	9	given	_	_	_	10	para	CONTIGENCY|Cause.CONTIGENCY	12	gravir	_	14	l'opportunità	_	13	kans	_	11	oportunidade	_
+11	na	14	من	_	1	?	_	1	?	_	18	na	_	12	die	_	12	to	_	_	_	10	para	CONTIGENCY|Cause.CONTIGENCY	13	les	_	17	la	_	15	om	PragmaticCause.CONTIGENCY	?	?	?
+12	wyrwanie	12	أعلى:	_	1	?	_	1	?	_	12	nahoru:	_	15	sozialen	_	13	mobilize	_	_	_	12	desertores	_	14	échelons,	_	16	migliorare	_	14	gehad	_	13	ascender:	_
+13	się	?	?	?	1	?	_	1	?	_	14	z	_	22	auf	_	?	?	?	?	?	14	la	_	16	de	_	17	la	_	17	te	_	19	a	_
+14	stamtąd.	15	الحضانات،	_	1	?	_	1	?	_	15	pěstounské	_	17	Ausbrecher	_	14	upwards:	_	_	_	15	adopción,	_	17	familles	_	19	situazione:	_	18	klimmen.	_	16	adoções,	_
+15	Sieroty	15	الحضانات،	_	1	?	_	1	?	_	16	péče,	_	19	Pflegefamilien,	_	16	care	_	_	_	16	adolescentes	_	18	d'accueil,	_	21	scappa	_	19	Weggelopen	_	17	adolescentes	_
+16	i	14	من	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	19	des	_	?	?	?	?	?	?	?	?	?
+17	nastolatki	17	هاربين	_	1	?	_	1	?	_	17	mladiství	_	21	Ausreißer	_	17	dropouts,	_	_	_	18	huyen	_	20	adolescents	_	23	famiglie	_	23	pleegzorg	_	20	escapar	_
+18	uciekające	19	إيذاء	_	1	?	_	1	?	_	17	mladiství	_	21	Ausreißer	_	19	runaways	_	_	_	18	huyen	_	21	s'étant	_	25	adolescenti	_	23	pleegzorg	_	20	escapar	_
+19	przed	19	إيذاء	_	1	?	_	1	?	_	20	z	_	24	Flucht	_	20	escaping	_	_	_	20	abuso	_	22	échappés	_	27	sfuggono	_	25	ontsnapten	_	22	abusos	_
+20	prześladowaniem	20	المنازل	_	1	?	_	1	?	_	21	týrajících	_	25	vor	_	21	abuse	_	_	_	20	abuso	_	24	familles	_	27	sfuggono	_	26	aan	_	22	abusos	_
+21	i	?	?	?	1	?	_	1	?	_	22	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	27	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	22	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	21	y	_	26	et	Conjunction.EXPANSION	31	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	23	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+22	bezlitosnym	22	لا	Contrast.COMPARISON	1	?	_	1	?	_	23	nemilosrdných	_	28	unversöhnlichen	_	23	unforgiving	_	_	_	23	hogares	_	25	abusives	_	30	violenti	_	29	onverzoenlijke	_	25	casas	_
+23	otoczeniem.	23	ترحم.	_	1	?	_	1	?	_	24	domovů.	_	29	Elternhäusern.	_	24	homes.	_	_	_	24	crueles.	_	27	hostiles.	_	32	spietati.	_	30	gezinnen.	_	26	implacáveis​​.	_
+
+# sent_id = 138309
+# text:  Tam, gdzie inni widzą historie o ubóstwie i porażce ekonomicznej, podróżnicy widzą swoją własną egzystencję przez pryzmat wyzwolenia i wolności.
+# trans: Onde outros veem histórias de privação e fracasso económico, os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade.
+# forward_log_prob: -74.06967465622465
+# backward_log_prob: -67.81992950573725
+1	Tam,	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	Kde	_	1	Was	_	4	stories	_	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	1	Là	_	1	Dove	_	1	Waar	_	1	Onde	_
+2	gdzie	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	2	ostatní	_	1	Was	_	3	see	_	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	3	certains	_	2	alcuni	_	3	verhalen	_	3	veem	_
+3	inni	2	يراهم	_	1	?	_	1	?	_	3	vidí	_	2	andere	_	2	others	_	_	_	2	otros	_	4	verront	_	4	storie	_	2	anderen	_	2	outros	_
+4	widzą	3	البعض	_	1	?	_	1	?	_	4	příběhy	_	4	Geschichten	_	4	stories	_	_	_	4	historias	_	6	histoires	_	4	storie	_	5	ontbering	_	4	histórias	_
+5	historie	4	قصصا	_	1	?	_	1	?	_	4	příběhy	_	4	Geschichten	_	6	privation	_	_	_	6	carencia	_	6	histoires	_	6	privazioni	_	5	ontbering	_	6	privação	_
+6	o	4	قصصا	_	1	?	_	1	?	_	12	vlastní	_	3	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	?	?	6	carencia	_	8	privation	_	6	privazioni	_	7	economische	_	10	os	_
+7	ubóstwie	5	للحرمان	_	1	?	_	1	?	_	7	ekonomického	_	6	Entbehrung	_	8	economic	_	_	_	8	fracaso	_	10	d'échec	_	9	rovina	_	7	economische	_	8	fracasso	_
+8	i	?	?	?	1	?	_	1	?	_	6	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	7	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	y	_	9	et	Conjunction.EXPANSION	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	6	en	Conjunction.EXPANSION	7	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+9	porażce	6	والفشل	_	1	?	_	1	?	_	8	selhání,	_	9	Versagen	_	9	failure,	_	_	_	9	económico,	_	11	financier,	_	10	economica,	_	9	zien,	_	?	?	?
+10	ekonomicznej,	7	الاقتصادي،	_	1	?	_	1	?	_	9	vidí	_	10	ansehen,	_	9	failure,	_	_	_	11	perciben	_	14	voient	_	13	vedono	_	10	zien	_	12	visualizam	_
+11	podróżnicy	8	يرى	_	1	?	_	1	?	_	10	cestovatelé	_	11	betrachten	_	10	travelers	_	_	_	11	perciben	_	13	voyageurs	_	12	viaggiatori	_	11	reizigers	_	11	viajantes	_
+12	widzą	8	يرى	_	1	?	_	1	?	_	11	svoji	_	11	betrachten	_	11	view	_	_	_	11	perciben	_	15	leur	_	13	vedono	_	12	hun	_	14	sua	_
+13	swoją	9	الرحّالة	_	1	?	_	1	?	_	11	svoji	_	13	Reisenden	_	14	existence	_	_	_	16	prisma	_	16	existence	_	16	esistenza	_	14	bestaan	_	15	própria	_
+14	własną	10	وجودهم	_	1	?	_	1	?	_	11	svoji	_	13	Reisenden	_	15	through	_	_	_	15	el	_	19	le	_	16	esistenza	_	14	bestaan	_	15	própria	_
+15	egzystencję	10	وجودهم	_	1	?	_	1	?	_	15	hranol	_	15	das	_	17	prism	_	_	_	16	prisma	_	20	prisme	_	18	la	_	17	bril	_	17	através	_
+16	przez	12	منظور	_	1	?	_	1	?	_	14	skrz	_	16	Prisma	_	17	prism	_	_	_	16	prisma	_	22	la	_	19	lente	_	17	bril	_	18	da	_
+17	pryzmat	12	منظور	_	1	?	_	1	?	_	15	hranol	_	16	Prisma	_	17	prism	_	_	_	16	prisma	_	23	délivrance	_	19	lente	_	17	bril	_	19	perspetiva	_
+18	wyzwolenia	13	العتق	_	1	?	_	1	?	_	16	osvobození	_	18	Befreiung	_	18	of	_	_	_	19	liberación	_	23	délivrance	_	20	della	_	19	bevrijding	_	21	libertação	_
+19	i	11	من	_	1	?	_	1	?	_	17	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	19	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	18	la	_	24	et	Conjunction.EXPANSION	22	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	18	van	_	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+20	wolności.	14	والحرية.	_	1	?	_	1	?	_	18	svobody.	_	20	Freiheit.	_	21	freedom.	_	_	_	22	libertad.	_	26	la	_	23	della	_	21	vrijheid.	_	23	liberdade.	_
+
+# sent_id = 138310
+# text:  Oni wybierają życie bez nadmiaru, odrzucają zwyczaje rozrzutnego, konsumpcyjnego społeczeństwa, nie dają się zniewolić mrzonce tradycyjnego amerykańskiego snu.
+# trans: Preferem viver fora do excesso do que veem como uma sociedade de consumo e de desperdício, do que aprisionados numa possibilidade irrealista no sonho americano tradicional.
+# forward_log_prob: -84.84045199762357
+# backward_log_prob: -67.49122797738441
+1	Oni	5	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	Raději	_	1	Lieber	_	2	rather	_	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	1	Preferirían	_	2	préfèrent	_	1	Preferiscono	_	3	liever	_	1	Preferem	_
+2	wybierają	4	فائض	_	1	?	_	1	?	_	2	by	_	2	zehren	_	1	They'd	_	_	_	1	Preferirían	_	5	dehors	_	5	fuori	_	1	Ze	_	1	Preferem	_
+3	życie	5	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	2	by	_	15	sich	_	5	of	_	_	_	2	vivir	_	5	dehors	_	12	una	_	?	?	?	4	do	_
+4	bez	4	فائض	_	1	?	_	1	?	_	5	přebytku	_	5	Überfluss	_	7	excess	_	_	_	4	los	_	7	l'excès	_	6	degli	_	6	excessen	_	5	excesso	_
+5	nadmiaru,	4	فائض	_	1	?	_	1	?	_	6	toho,	_	5	Überfluss	_	7	excess	_	_	_	5	excesos	_	9	ce	_	9	quella	_	6	excessen	_	5	excesso	_
+6	odrzucają	8	مجتمع	_	1	?	_	1	?	_	7	co	_	8	aus	_	9	what	_	_	_	5	excesos	_	11	perçoivent	_	11	considerano	_	8	wat	_	5	excesso	_
+7	zwyczaje	9	استهلاكي	_	1	?	_	1	?	_	7	co	_	10	Sicht	_	9	what	_	_	_	9	consumidora	_	11	perçoivent	_	11	considerano	_	9	zij	_	13	consumo	_
+8	rozrzutnego,	10	مسرف	_	1	?	_	1	?	_	10	marnotratnou	_	11	--	_	14	wasteful	_	_	_	8	sociedad	_	14	société	_	14	consumista	_	11	verspillende	_	13	consumo	_
+9	konsumpcyjnego	10	مسرف	_	1	?	_	1	?	_	11	konzumní	_	12	verschwenderischen	_	14	wasteful	_	_	_	9	consumidora	_	16	consommation	_	15	votata	_	12	consumptiemaatschappij	_	13	consumo	_
+10	społeczeństwa,	14	استعباد	_	1	?	_	1	?	_	12	společnost	_	13	Konsumgesellschaft,	_	15	consumer	_	_	_	11	consideran	_	19	gâchis,	_	17	spreco	_	13	noemen,	_	13	consumo	_
+11	nie	12	العيش	_	1	?	_	1	?	_	9	jako	Conjunction.EXPANSION	17	einer	_	16	society	_	_	_	10	que	_	4	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	13	società	_	15	te	_	18	que	_
+12	dają	16	أجل	_	1	?	_	1	?	_	13	než	Asynchronous.TEMPORAL|Exception.EXPANSION	16	mit	_	18	slave	_	_	_	12	derrochadora	_	20	que	_	20	spezzarsi	_	16	zwoegen	_	16	desperdício,	_
+13	się	17	فرصة	_	1	?	_	1	?	_	14	se	_	15	sich	_	?	?	?	?	?	13	que	_	21	de	_	21	la	_	20	kans	_	18	que	_
+14	zniewolić	17	فرصة	_	1	?	_	1	?	_	16	kvůli	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	19	Chance	_	21	an	_	_	_	14	esclavizarse	_	24	esclaves	_	23	con	_	19	onrealistische	_	19	aprisionados	_
+15	mrzonce	19	واقعية	_	1	?	_	1	?	_	17	nerealistické	_	21	den	_	23	chance	_	_	_	14	esclavizarse	_	26	l'espoir	_	25	obiettivo	_	19	onrealistische	_	22	irrealista	_
+16	tradycyjnego	19	واقعية	_	1	?	_	1	?	_	19	tradičního	_	22	herkömmlichen	_	24	at	_	_	_	19	improbable.	_	27	irréel	_	27	vivere	_	19	onrealistische	_	22	irrealista	_
+17	amerykańskiego	21	الحلم	_	1	?	_	1	?	_	20	amerického	_	24	Dream"	_	27	American	_	_	_	17	sueño	_	30	le	_	28	il	_	24	Amerikaanse	_	24	sonho	_
+18	snu.	22	الأمريكي	_	1	?	_	1	?	_	21	snu.	_	25	abzurackern.	_	27	American	_	_	_	18	estadounidense	_	32	américain.	_	31	americano.	_	24	Amerikaanse	_	25	americano	_
+
+# sent_id = 138311
+# text:  Wykorzystują fakt, że w Stanach Zjednoczonych 40% żywności kończy na śmietniku, przeszukując kontenery i śmietniki w poszukiwaniu dobrych jeszcze produktów,
+# trans: Eles aproveitam-se do facto de, nos Estados Unidos, cerca de 40% de todos os alimentos acabarem no lixo, para procurar produtos perfeitamente bons em lixeiras e caixotes do lixo.
+# forward_log_prob: -100.7684841258582
+# backward_log_prob: -69.63360183797583
+1	Wykorzystują	1	لقد	_	1	?	?	1	?	?	1	Využívají	_	2	nutzen	_	2	take	_	_	_	1	Se	_	1	Ils	_	1	Sfruttano	_	1	Ze	_	1	Eles	_
+2	fakt,	2	استغلوا	_	1	?	?	1	?	?	2	faktu,	_	2	nutzen	_	3	advantage	_	_	_	2	aprovechan	_	2	profitent	_	3	fatto	_	2	doen	_	2	aproveitam-se	_
+3	że	4	أنه	_	1	?	?	1	?	?	3	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	7	that	_	_	_	4	que	_	?	?	?	4	che	_	7	dat	_	4	facto	_
+4	w	5	في	_	1	?	?	1	?	?	4	ve	_	7	in	_	8	in	_	_	_	3	de	_	6	aux	_	?	?	?	8	in	_	5	de,	_
+5	Stanach	3	حقيقة	_	1	?	?	1	?	?	6	státech	_	8	den	_	10	United	_	_	_	?	?	?	5	que,	_	7	Uniti	_	10	Verenigde	_	7	Estados	_
+6	Zjednoczonych	7	المتحدة	_	1	?	?	1	?	?	5	Spojených	_	9	USA	_	10	United	_	_	_	6	Estados	_	7	États-Unis,	_	6	Stati	_	9	de	_	8	Unidos,	_
+7	40%	8	حوالي	_	1	?	?	1	?	?	7	až	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Exception.EXPANSION|Synchronous.TEMPORAL	10	bis	precedence.Asynchronous.TEMPORAL	12	up	_	_	_	9	40	_	6	aux	_	8	fino	_	13	veertig	_	9	cerca	_
+8	żywności	9	40	_	1	?	?	1	?	?	10	veškerého	_	12	40	_	14	40	_	_	_	13	alimentos	_	9	40%	_	12	cento	_	12	tot	_	11	40%	_
+9	kończy	10	%	_	1	?	?	1	?	?	10	veškerého	_	13	%	_	15	percent	_	_	_	13	alimentos	_	12	nourriture	_	12	cento	_	13	veertig	_	13	todos	_
+10	na	11	من	_	1	?	?	1	?	?	11	jídla	_	16	im	_	13	to	_	_	_	16	la	_	13	est	_	13	del	_	18	in	_	19	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+11	śmietniku,	13	يذهب	_	1	?	?	1	?	?	14	smetí	_	15	Lebensmittel	_	18	food	_	_	_	17	basura	_	14	jetée.	_	16	nella	_	16	alle	_	15	alimentos	_
+12	przeszukując	14	للنفايات	_	1	?	?	1	?	?	14	smetí	_	17	Abfall	_	19	ends	_	_	_	19	encuentran	_	15	Ils	_	17	spazzatura	_	17	voedsel	_	16	acabarem	_
+13	kontenery	15	بالبحث	_	1	?	?	1	?	?	14	smetí	_	18	landen,	_	23	garbage	_	_	_	20	productos	_	16	récupèrent	_	19	rovistano	_	20	vuilbak	_	20	procurar	_
+14	i	?	?	?	1	?	?	1	?	?	23	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	27	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	32	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	18	y	_	18	des	_	18	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	24	en	Conjunction.EXPANSION	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+15	śmietniki	17	المنتجات	_	1	?	?	1	?	?	17	hledají	_	22	nach	_	25	scavenging	_	_	_	23	buena	_	19	produits	_	23	cestini	_	23	afvalcontainers	_	21	produtos	_
+16	w	20	في	_	1	?	?	1	?	?	13	ve	_	21	sie	_	24	by	_	_	_	?	?	?	22	dans	_	25	in	_	22	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?
+17	poszukiwaniu	19	كليًا	_	1	?	?	1	?	?	20	produkty	_	24	Nahrungsmitteln	_	28	good	_	_	_	25	en	_	21	comestibles	_	26	cerca	_	25	vuilnisbakken	_	24	em	_
+18	dobrych	21	الحاويات	_	1	?	?	1	?	?	22	kontejnerech	_	26	Containern	_	31	dumpsters	_	_	_	26	basureros	_	24	poubelles	_	26	cerca	_	27	doorzoeken	_	25	lixeiras	_
+19	jeszcze	22	وعلب	_	1	?	?	1	?	?	22	kontejnerech	_	28	Abfalleimern	_	31	dumpsters	_	_	_	28	botes	_	24	poubelles	_	28	alimenti	_	29	perfecte	_	27	caixotes	_
+20	produktów,	23	القمامة.	_	1	?	?	1	?	?	24	popelnicích.	_	29	suchen.	_	31	dumpsters	_	_	_	30	basura.	_	26	déchetteries.	_	30	commestibili.	_	29	perfecte	_	29	lixo.	_
+
+# sent_id = 138312
+# text:  Poświęcają komfort materialny, zyskując przestrzeń i czas na odkrywanie swojego kreatywnego wnętrza, na marzenie, czytanie, pisanie, tworzenie muzyki i malowanie.
+# trans: Sacrificam o conforto material em troca do espaço e do tempo para explorar um interior criativo, para sonhar, para ler, para trabalhar em música, arte e escrita.
+# forward_log_prob: -87.46678727016737
+# backward_log_prob: -68.69128886029485
+1	Poświęcają	1	لقد	_	1	?	?	1	?	?	1	Obětují	_	2	opfern	_	1	They	_	_	_	1	Sacrifican	_	1	Ils	_	1	Sacrificano	_	1	Ze	_	1	Sacrificam	_
+2	komfort	2	ضحوا	_	1	?	?	1	?	?	2	hmotné	_	3	materiellen	_	3	material	_	_	_	3	comodidad	_	2	sacrifient	_	2	beni	_	3	materieel	_	3	conforto	_
+3	materialny,	2	ضحوا	_	1	?	?	1	?	?	3	pohodlí	_	4	Komfort	_	4	comforts	_	_	_	4	material	_	4	confort	_	3	materiali	_	4	comfort	_	4	material	_
+4	zyskując	3	بالراحة	_	1	?	?	1	?	?	3	pohodlí	_	6	Austausch	_	4	comforts	_	_	_	4	material	_	5	matériel	_	3	materiali	_	4	comfort	_	4	material	_
+5	przestrzeń	4	المادية	_	1	?	?	1	?	?	5	za	_	7	gegen	_	9	space	_	_	_	6	el	_	7	profit	_	6	del	_	10	tijd	_	7	do	_
+6	i	?	?	?	1	?	?	1	?	?	7	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	10	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	8	y	_	10	et	Conjunction.EXPANSION	8	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+7	czas	5	مقابل	_	1	?	?	1	?	?	8	čas	_	12	Zeit,	_	9	space	_	_	_	7	tiempo	_	9	l'espace	_	9	dello	_	12	ruimte	_	8	espaço	_
+8	na	6	المساحة	_	1	?	?	1	?	?	9	k	_	11	die	_	11	the	_	_	_	11	para	CONTIGENCY|Cause.CONTIGENCY	11	du	_	13	la	_	6	in	_	14	um	_
+9	odkrywanie	7	والزمن	_	1	?	?	1	?	?	9	k	_	13	ihr	_	12	time	_	_	_	10	espacio	_	12	temps	_	11	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	15	creatief	_	11	tempo	_
+10	swojego	8	لاكتشاف	_	1	?	?	1	?	?	10	prozkoumávání	_	15	Inneres	_	14	explore	_	_	_	12	explorar	_	13	pour	specification.Restatement.EXPANSION	12	esplorare	_	16	innerlijk	_	13	explorar	_
+11	kreatywnego	9	الإبداع	_	1	?	?	1	?	?	12	tvořivého	_	17	entdecken,	_	16	creative	_	_	_	13	el	_	14	explorer	_	14	loro	_	17	te	_	15	interior	_
+12	wnętrza,	10	الداخلي،	_	1	?	?	1	?	?	13	nitra,	_	18	um	_	17	interior,	_	_	_	14	interior	_	16	créativité	_	16	creativa,	_	18	verkennen,	_	16	criativo,	_
+13	na	10	الداخلي،	_	1	?	?	1	?	?	17	na	_	21	zu	_	18	to	_	_	_	16	para	CONTIGENCY|Cause.CONTIGENCY	16	créativité	_	17	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	20	te	_	18	sonhar,	_
+14	marzenie,	11	للحلم،	_	1	?	?	1	?	?	14	snít,	_	22	lesen,	_	19	dream,	_	_	_	17	soñar,	_	18	pour	specification.Restatement.EXPANSION	18	sognare,	_	21	dromen,	_	18	sonhar,	_
+15	czytanie,	12	للقراءة،	_	1	?	?	1	?	?	15	číst,	_	23	Musik	_	21	read,	_	_	_	18	leer,	_	20	lire,	_	19	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	24	zich	_	20	ler,	_
+16	pisanie,	13	لتأليف	_	1	?	?	1	?	?	18	muzice,	_	25	machen,	_	21	read,	_	_	_	20	crear	_	21	travailler	_	20	leggere,	_	24	zich	_	20	ler,	_
+17	tworzenie	14	الموسيقى،	_	1	?	?	1	?	?	18	muzice,	_	26	Kunst	_	24	on	_	_	_	20	crear	_	23	musique,	_	22	fare	_	27	leven	_	23	em	_
+18	muzyki	14	الموسيقى،	_	1	?	?	1	?	?	19	umění	_	28	erschaffen	_	25	music,	_	_	_	22	arte	_	24	leur	_	23	musica,	_	29	muziek,	_	24	música,	_
+19	i	?	?	?	1	?	?	1	?	?	20	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	29	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	27	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	y	_	?	?	?	25	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	31	en	Conjunction.EXPANSION	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+20	malowanie.	16	وللكتابة.	_	1	?	?	1	?	?	21	psaní.	_	30	zu	_	28	writing.	_	_	_	24	literatura.	_	26	ou	COMPARISON	26	scrittura.	_	32	schrijven.	_	27	escrita.	_
+
+# sent_id = 138313
+# text:  Jednak wiele aspektów takiego życia jest dalekich od ideału.
+# trans: Mas existem muitos aspetos desta vida que estão longe de ser idílicos.
+# forward_log_prob: -35.697543331986765
+# backward_log_prob: -26.472165629173556
+1	Jednak	2	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	V	_	2	es	_	2	there	_	_	_	1	Pero	precedence.Asynchronous.TEMPORAL	2	il	_	1	Ci	_	3	aspecten	_	2	existem	_
+2	wiele	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	3	životě	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	estilo	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	2	sono	_	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+3	aspektów	3	جوانب	_	1	?	?	1	?	?	3	životě	_	5	Aspekte	_	3	are	_	_	_	3	estilo	_	6	nombreux	_	4	aspetti	_	3	aspecten	_	3	muitos	_
+4	takiego	4	آخرى	_	1	?	?	1	?	?	7	věcí,	_	7	dieser	_	5	aspects	_	_	_	5	vida	_	7	aspects	_	6	questa	_	3	aspecten	_	5	desta	_
+5	życia	6	الحياة	_	1	?	?	1	?	?	7	věcí,	_	9	zu	_	8	life	_	_	_	4	de	_	8	de	_	5	di	_	5	dit	_	6	vida	_
+6	jest	7	بعيدة	_	1	?	?	1	?	?	8	které	_	8	Art	_	9	that	_	_	_	8	es	_	11	qui	_	9	che	_	7	zijn	_	7	que	_
+7	dalekich	7	بعيدة	_	1	?	?	1	?	?	10	daleko	_	12	alles	_	10	are	_	_	_	7	siempre	_	10	vie	_	10	non	_	8	verre	_	8	estão	_
+8	od	10	المثالية.	_	1	?	?	1	?	?	11	od	_	14	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	11	far	TEMPORAL	_	_	10	de	_	14	loin	_	11	sono	_	8	verre	_	10	de	_
+9	ideału.	9	عن	_	1	?	?	1	?	?	12	idylických.	_	15	idyllisch	_	12	from	_	_	_	11	rosa.	_	15	d'être	_	14	idilliaci.	_	10	idyllisch.	_	11	ser	_
+
+# sent_id = 138314
+# text:  Wyruszając w podróż, nie pozbywamy się wewnętrznych demonów.
+# trans: Ninguém perde os seus demónios interiores ao meter-se à estrada.
+# forward_log_prob: -31.118340271244797
+# backward_log_prob: -22.867417639080195
+1	Wyruszając	1	لا	Contrast.COMPARISON	1	?	?	1	?	?	1	Nikdo	_	1	Niemand	_	1	No	_	_	_	1	Nadie	_	1	Personne	_	1	Nessuno	_	1	Niemand	_	1	Ninguém	_
+2	w	2	أحد	_	1	?	?	1	?	?	2	se	_	3	seine	_	4	their	_	_	_	3	sus	_	2	ne	_	3	a	_	3	zijn	_	4	seus	_
+3	podróż,	3	يفقد	_	1	?	?	1	?	?	3	životem	_	4	inneren	_	3	loses	_	_	_	4	demonios	_	3	perd	_	4	liberarsi	_	4	innerlijke	_	3	os	_
+4	nie	4	شياطينه	_	1	?	?	1	?	?	6	nezbaví	_	3	seine	_	?	?	?	?	?	4	demonios	_	7	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	6	propri	_	5	demonen	_	5	demónios	_
+5	pozbywamy	5	الداخلية	_	1	?	?	1	?	?	5	ulici	_	6	indem	EXPANSION	6	demons	_	_	_	4	demonios	_	6	intérieurs	_	7	demoni	_	6	kwijt	_	6	interiores	_
+6	się	6	بالعيش	_	1	?	?	1	?	?	6	nezbaví	_	8	auf	_	8	taking	_	_	_	6	la	_	8	prenant	_	8	semplicemente	_	8	op	_	8	meter-se	_
+7	wewnętrznych	6	بالعيش	_	1	?	?	1	?	?	7	svých	_	10	Straße	_	8	taking	_	_	_	7	vida	_	8	prenant	_	9	vivendo	_	9	pad	_	8	meter-se	_
+8	demonów.	6	بالعيش	_	1	?	?	1	?	?	9	démonů.	_	11	lebt.	_	8	taking	_	_	_	9	vagabundo.	_	8	prenant	_	9	vivendo	_	11	gaan.	_	8	meter-se	_
+
+# sent_id = 138315
+# text:  Uzależnienie jest prawdziwe, przestępczość jest prawdziwa, jazda pociągiem towarowym może skońćzyć się ranami i śmiercią. Każdy, kto mieszkał na ulicy, może wskazać niewyczerpaną listę przepisów delegalizujących życie bezdomnych.
+# trans: O vício é real, os elementos são reais, os comboios de mercadorias mutilam e matam. Qualquer um que tenha vivido nas ruas pode confirmar a lista exaustiva de leis que criminalizam a existência dos sem-abrigo.
+# forward_log_prob: -126.51767695912639
+# backward_log_prob: -105.84463699019403
+1	Uzależnienie	1	الإدمان	_	1	?	?	1	?	?	1	Závislost	_	1	Drogensucht	_	1	Addiction	_	_	_	1	La	_	1	L'addiction	_	2	dipendenza	_	1	Verslaving	_	2	vício	_
+2	jest	2	حقيقي،	_	1	?	?	1	?	?	2	je	_	3	extremes	_	2	is	_	_	_	3	es	_	2	est	_	1	La	_	2	is	_	1	O	_
+3	prawdziwe,	2	حقيقي،	_	1	?	?	1	?	?	3	skutečná,	_	3	extremes	_	3	real,	_	_	_	4	real,	_	3	réelle,	_	3	esiste,	_	3	echt,	_	4	real,	_
+4	przestępczość	3	والمخدرات	_	1	?	?	1	?	?	4	živly	_	5	gehören	_	5	elements	_	_	_	4	real,	_	5	éléments	_	4	così	result.Cause.CONTIGENCY	5	elementen	_	4	real,	_
+5	jest	4	حقيقية،	_	1	?	?	1	?	?	5	jsou	_	5	gehören	_	?	?	?	?	?	5	la	_	6	sont	_	6	il	_	6	zijn	_	3	é	_
+6	prawdziwa,	5	تشويه	_	1	?	?	1	?	?	6	skutečné,	_	5	gehören	_	6	are	_	_	_	6	naturaleza	_	7	réels,	_	7	brutto	_	7	echt,	_	7	são	_
+7	jazda	5	تشويه	_	1	?	?	1	?	?	6	skutečné,	_	8	Güterzüge	_	7	real,	_	_	_	8	real,	_	8	les	_	7	brutto	_	7	echt,	_	8	reais,	_
+8	pociągiem	6	قاطرات	_	1	?	?	1	?	?	8	vlaky	_	9	verstümmeln	_	9	trains	_	_	_	8	real,	_	9	trains	_	7	brutto	_	8	goederentreinen	_	8	reais,	_
+9	towarowym	7	الشحن	_	1	?	?	1	?	?	9	mrzačí	_	10	oder	disjunctive.Alternative.EXPANSION	10	maim	_	_	_	10	trenes	_	11	fret	_	11	merci	_	9	verminken	_	12	mercadorias	_
+10	może	9	أي	_	1	?	?	1	?	?	13	kdokoli,	_	11	töten,	_	14	anyone	_	_	_	?	?	?	12	mutilent	_	12	feriscono	_	11	doden	_	13	mutilam	_
+11	skońćzyć	8	والقتل،	_	1	?	?	1	?	?	11	zabíjejí,	_	13	wer	_	12	kill,	_	_	_	11	mutilan	_	12	mutilent	_	12	feriscono	_	11	doden	_	13	mutilam	_
+12	się	?	?	?	1	?	?	1	?	?	?	?	?	14	auf	_	15	who	_	_	_	?	?	?	10	de	_	?	?	?	15	op	_	?	?	?
+13	ranami	10	أحد	_	1	?	?	1	?	?	11	zabíjejí,	_	13	wer	_	?	?	?	?	?	13	matan,	_	16	quiconque	_	16	chiunque	_	11	doden	_	16	Qualquer	_
+14	i	?	?	?	1	?	?	1	?	?	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	12	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	15	et	Conjunction.EXPANSION	15	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	?	?	?
+15	śmiercią.	11	عاش	_	1	?	?	1	?	?	15	žil	_	17	gelebt	_	20	streets	_	_	_	18	hay	_	16	quiconque	_	17	abbia	_	16	straat	_	19	tenha	_
+16	Każdy,	13	الشوارع	_	1	?	?	1	?	?	15	žil	_	16	Straße	_	21	can	_	_	_	16	las	_	21	rue	_	17	abbia	_	17	heeft	_	18	que	_
+17	kto	13	الشوارع	_	1	?	?	1	?	?	14	kdo	_	19	kann	_	18	on	_	_	_	15	en	_	21	rue	_	21	può	_	19	weet	_	17	um	_
+18	mieszkał	14	يستطيع	_	1	?	?	1	?	?	18	může	_	21	Zeugnis	_	20	streets	_	_	_	19	testigos	_	21	rue	_	21	può	_	?	?	?	22	ruas	_
+19	na	12	في	_	1	?	?	1	?	?	16	na	_	?	?	?	23	to	_	_	_	21	la	_	24	de	_	23	la	_	?	?	?	?	?	?
+20	ulicy,	15	إثبات	_	1	?	?	1	?	?	19	dosvědčit	_	?	?	?	22	attest	_	_	_	22	larga	_	23	témoigner	_	24	lista	_	?	?	?	24	confirmar	_
+21	może	16	قائمة	_	1	?	?	1	?	?	23	zákonů,	_	20	ein	_	21	can	_	_	_	25	leyes	_	29	lois	_	27	leggi	_	25	wetten,	_	25	a	_
+22	wskazać	17	القوانين	_	1	?	?	1	?	?	21	vyčerpávajícího	_	24	Unmenge	_	25	exhaustive	_	_	_	23	lista	_	26	liste	_	25	infinita	_	22	uitputtende	_	27	exaustiva	_
+23	niewyczerpaną	18	المفصلة	_	1	?	?	1	?	?	22	množství	_	26	Gesetzen	_	26	list	_	_	_	23	lista	_	27	exhaustive	_	29	condannano	_	23	lijst	_	27	exaustiva	_
+24	listę	18	المفصلة	_	1	?	?	1	?	?	22	množství	_	27	ablegen,	_	26	list	_	_	_	27	criminaliza	_	27	exhaustive	_	29	condannano	_	23	lijst	_	31	criminalizam	_
+25	przepisów	20	تجرّم	_	1	?	?	1	?	?	24	které	_	28	wodurch	EXPANSION|result.Cause.CONTIGENCY	30	criminalize	_	_	_	27	criminaliza	_	31	criminalisent	_	29	condannano	_	26	die	_	31	criminalizam	_
+26	delegalizujących	20	تجرّم	_	1	?	?	1	?	?	25	bezdomovní	_	30	Obdachlose	_	30	criminalize	_	_	_	27	criminaliza	_	31	criminalisent	_	29	condannano	_	27	het	_	31	criminalizam	_
+27	życie	21	وجود	_	1	?	?	1	?	?	17	ulici	_	29	sich	_	28	laws	_	_	_	28	la	_	25	la	_	30	la	_	?	?	?	30	que	_
+28	bezdomnych.	22	المشردين.	_	1	?	?	1	?	?	?	?	?	22	von	_	17	lived	_	_	_	30	nómada.	_	18	vécu	_	?	?	?	18	geleefd,	_	20	vivido	_
+
+# sent_id = 138316
+# text:  Kto z was zdaje sobie sprawę, że w wielu amerykańskich miastach nielegalne jest: siedzenie na krawężniku, okrywanie się kocem, spanie we własnym samochodzie, zaoferowanie jedzenia nieznajomemu?
+# trans: Quem aqui sabe que, em muitas cidades dos Estados Unidos, é agora ilegal sentar-se no passeio, embrulhar-se num cobertor, dormir no seu próprio carro, oferecer comida a um estranho?
+# forward_log_prob: -107.915187106004
+# backward_log_prob: -95.21498776486618
+1	Kto	2	منكم	_	1	?	?	1	?	?	1	Kdo	_	1	Wussten	_	1	Who	_	_	_	1	¿Sabían	_	1	Qui,	_	?	?	?	1	Weet	_	8	dos	_
+2	z	1	من	_	1	?	?	1	?	?	?	?	?	2	Sie,	_	?	?	?	?	?	?	?	?	?	?	?	3	di	_	?	?	?	?	?	?
+3	was	3	يعلم	_	1	?	?	1	?	?	3	ví,	_	1	Wussten	_	2	here	_	precedence.Asynchronous.TEMPORAL	_	3	en	_	2	ici,	_	2	tra	_	2	je	_	2	aqui	_
+4	zdaje	6	عدة	_	1	?	?	1	?	?	2	zde	_	4	es	_	3	knows	_	_	_	4	muchas	_	3	sait	_	1	Chi	_	5	in	_	1	Quem	_
+5	sobie	7	مدن	_	1	?	?	1	?	?	6	mnoha	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	7	cities	_	_	_	5	ciudades	_	8	villes	_	5	sa	_	13	dag	_	4	que,	_
+6	sprawę,	7	مدن	_	1	?	?	1	?	?	6	mnoha	_	7	Städten	_	7	cities	_	_	_	5	ciudades	_	8	villes	_	8	molte	_	10	VS	_	6	muitas	_
+7	że	4	أنه	_	1	?	?	1	?	?	4	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	in	_	4	that	_	_	_	8	Unidos	_	4	que	_	11	Stati	_	3	dat	_	5	em	_
+8	w	5	في	_	1	?	?	1	?	?	?	?	?	19	in	_	?	?	?	?	?	?	?	?	?	?	?	7	in	_	?	?	?	?	?	?
+9	wielu	12	الآن	_	1	?	?	1	?	?	11	dnes	_	11	illegal	_	?	?	?	?	?	10	ilegal	_	9	à	specification.Restatement.EXPANSION	?	?	?	22	je	_	20	dormir	_
+10	amerykańskich	14	قانوني	_	1	?	?	1	?	?	11	dnes	_	10	nun	_	14	now	_	Synchronous.TEMPORAL	_	11	sentarse	_	15	désormais	_	12	Uniti	_	14	illegaal	_	12	agora	Conjunction.EXPANSION|EXPANSION
+11	miastach	14	قانوني	_	1	?	?	1	?	?	11	dnes	_	14	dem	_	17	sit	_	_	_	11	sentarse	_	16	illégal	_	13	è	_	19	stoep	_	12	agora	Conjunction.EXPANSION|EXPANSION
+12	nielegalne	16	تجلس	_	1	?	?	1	?	?	12	nelegální	_	15	Bordstein	_	17	sit	_	_	_	14	acera,	_	18	s'asseoir	_	14	diventato	_	19	stoep	_	13	ilegal	_
+13	jest:	11	أصبح	_	1	?	?	1	?	?	10	je	_	?	?	?	13	is	_	_	_	9	es	_	14	est	_	13	è	_	15	is	_	11	é	_
+14	siedzenie	18	قارعة	_	1	?	?	1	?	?	15	chodníku,	_	17	sitzen,	_	20	sidewalk,	_	_	_	15	taparse	_	21	trottoir,	_	16	sedersi	_	21	zitten,	_	15	no	_
+15	na	17	على	_	1	?	?	1	?	?	14	na	_	16	zu	_	18	on	_	_	_	17	una	_	?	?	?	17	sul	_	20	te	_	?	?	?
+16	krawężniku,	20	أن	_	1	?	?	1	?	?	16	zabalit	_	21	Decke	_	22	wrap	_	_	_	18	cobija,	_	23	s'entourer	_	18	marciapiede,	_	25	deken	_	17	embrulhar-se	_
+17	okrywanie	22	نفسك	_	1	?	?	1	?	?	18	do	_	21	Decke	_	26	blanket,	_	_	_	18	cobija,	_	25	couverture,	_	19	avvolgersi	_	27	hullen,	_	19	cobertor,	_
+18	się	26	في	_	1	?	?	1	?	?	17	se	_	13	auf	_	25	a	_	_	_	20	en	_	26	de	_	21	una	_	26	te	_	21	no	_
+19	kocem,	24	أن	_	1	?	?	1	?	?	20	spát	_	23	wickeln,	_	26	blanket,	_	_	_	19	dormir	_	29	votre	_	22	coperta,	_	28	in	_	21	no	_
+20	spanie	27	سيارتك	_	1	?	?	1	?	?	20	spát	_	25	eigenen	_	30	your	_	_	_	22	coche,	_	30	propre	_	23	dormire	_	31	auto	_	22	seu	_
+21	we	27	سيارتك	_	1	?	?	1	?	?	21	ve	_	20	eine	_	29	in	_	_	_	21	el	_	32	d'offrir	_	26	macchina,	_	35	aan	_	24	carro,	_
+22	własnym	28	الخاصة،	_	1	?	?	1	?	?	23	autě,	_	26	Auto	_	31	own	_	_	_	24	ofrecerle	_	32	d'offrir	_	26	macchina,	_	33	slapen,	_	25	oferecer	_
+23	samochodzie,	30	أن	_	1	?	?	1	?	?	24	nebo	Alternative.EXPANSION|Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	28	übernachten,	_	34	offer	_	_	_	24	ofrecerle	_	32	d'offrir	_	27	offrire	_	37	onbekende	_	25	oferecer	_
+24	zaoferowanie	31	تقدم	_	1	?	?	1	?	?	25	nabídnout	_	30	Fremden	_	34	offer	_	_	_	24	ofrecerle	_	38	étranger	_	29	a	_	37	onbekende	_	25	oferecer	_
+25	jedzenia	33	لشخص	_	1	?	?	1	?	?	26	cizinci	_	30	Fremden	_	36	to	_	_	_	28	extraño?	_	38	étranger	_	30	uno	_	37	onbekende	_	29	estranho?	_
+26	nieznajomemu?	34	غريب؟	_	1	?	?	1	?	?	27	jídlo?	_	32	anzubieten?	_	38	stranger?	_	_	_	28	extraño?	_	38	étranger	_	31	sconosciuto?	_	40	bieden?	_	29	estranho?	_
+
+# sent_id = 138317
+# text:  Poznałam te przepisy, gdyż widziałam, jak moi koledzy i inni podróżnicy byli wtrącani do więzienia albo dostawali mandaty za popełnienie tych tak zwanych przestępstw.
+# trans: Eu conheço estas leis, porque observei como amigos e outros viajantes foram levados para a prisão ou receberam citações por praticarem estes alegados crimes.
+# forward_log_prob: -83.67571804568276
+# backward_log_prob: -85.37967742452088
+1	Poznałam	1	أنا	_	1	?	?	1	?	?	1	Vím	_	1	Ich	_	1	I	_	_	_	1	Conozco	_	1	Je	_	1	Conosco	_	1	Ik	_	1	Eu	_
+2	te	2	أعلم	_	1	?	?	1	?	?	3	těchto	_	3	diese	_	4	these	_	_	_	2	estas	_	3	ces	_	2	queste	_	8	zag	_	3	estas	_
+3	przepisy,	2	أعلم	_	1	?	?	1	?	?	3	těchto	_	2	kenne	_	3	about	_	_	_	3	leyes	_	4	lois	_	1	Conosco	_	8	zag	_	2	conheço	_
+4	gdyż	3	عن	_	1	?	?	1	?	?	4	zákonech,	_	4	Gesetze,	_	4	these	_	_	_	4	porque	CONTIGENCY|Cause.CONTIGENCY	5	parce	specification.Restatement.EXPANSION	4	perché	reason.Cause.CONTIGENCY	8	zag	_	2	conheço	_
+5	widziałam,	4	تلك	_	1	?	?	1	?	?	5	protože	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	weil	reason.Cause.CONTIGENCY	5	laws	_	_	_	5	he	_	5	parce	specification.Restatement.EXPANSION	6	visto	_	8	zag	_	5	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+6	jak	4	تلك	_	1	?	?	1	?	?	8	jak	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION	8	wie	COMPARISON|Synchronous.TEMPORAL	9	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	7	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	6	que	_	5	ho	_	8	zag	_	7	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+7	moi	5	القوانين	_	1	?	?	1	?	?	7	viděla,	_	7	sah,	_	7	I've	_	_	_	6	visto	_	8	vu	_	6	visto	_	7	ik	_	6	observei	_
+8	koledzy	7	رأيت	_	1	?	?	1	?	?	9	mí	_	9	Freunde	_	8	watched	_	_	_	8	multan	_	10	amis	_	8	amici	_	9	al	Concession.COMPARISON	8	amigos	_
+9	i	?	?	?	1	?	?	1	?	?	11	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	y	_	11	et	Conjunction.EXPANSION	9	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	12	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+10	inni	8	أصدقاء	_	1	?	?	1	?	?	13	cestovatelé	_	11	andere	_	13	travelers	_	_	_	16	otros	_	12	d'autres	_	10	altri	_	?	?	?	10	outros	_
+11	podróżnicy	9	ورحّالة	_	1	?	?	1	?	?	13	cestovatelé	_	13	ins	_	13	travelers	_	_	_	10	encarcelan	_	13	voyageurs	_	11	viaggiatori	_	14	reizigers	_	10	outros	_
+12	byli	10	آخرين	_	1	?	?	1	?	?	12	další	_	12	Herumreisende	_	14	were	_	_	_	10	encarcelan	_	14	qui	_	13	venivano	_	11	vrienden	_	12	foram	_
+13	wtrącani	11	سحبوا	_	1	?	?	1	?	?	14	byli	_	14	Gefängnis	_	14	were	_	_	_	12	mis	_	15	étaient	_	13	venivano	_	15	werden	_	13	levados	_
+14	do	12	إلى	_	1	?	?	1	?	?	?	?	?	16	oder	disjunctive.Alternative.EXPANSION	12	other	_	_	_	13	amigos	_	17	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	?	?	?	13	andere	_	15	a	_
+15	więzienia	13	السجن	_	1	?	?	1	?	?	16	do	_	15	geschleppt	_	16	off	_	_	_	13	amigos	_	18	prison	_	16	prigione	_	16	afgevoerd	_	16	prisão	_
+16	albo	13	السجن	_	1	?	?	1	?	?	17	vazby	_	17	vorgeladen	_	18	jail	_	_	_	13	amigos	_	18	prison	_	16	prigione	_	16	afgevoerd	_	16	prisão	_
+17	dostawali	14	أو	disjunctive.Alternative.EXPANSION	1	?	?	1	?	?	19	dostali	_	17	vorgeladen	_	18	jail	_	_	_	13	amigos	_	20	recevaient	_	17	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	19	gevangenis,	_	17	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+18	mandaty	15	تلقوا	_	1	?	?	1	?	?	19	dostali	_	19	weil	reason.Cause.CONTIGENCY	19	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	19	cometer	_	22	convocations	_	18	denunciati	_	19	gevangenis,	_	18	receberam	_
+19	za	16	دعوات	_	1	?	?	1	?	?	18	či	Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	19	weil	reason.Cause.CONTIGENCY	22	for	_	_	reason.Cause.CONTIGENCY	18	por	CONTIGENCY|Cause.CONTIGENCY	22	convocations	_	18	denunciati	_	23	voor	succession.Asynchronous.TEMPORAL	20	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+20	popełnienie	17	بارتكاب	_	1	?	?	1	?	?	22	spáchání	_	21	diese	_	21	citations	_	_	_	19	cometer	_	24	avoir	_	20	aver	_	21	dagvaardingen	_	21	praticarem	_
+21	tych	17	بارتكاب	_	1	?	?	1	?	?	23	těchto	_	20	sie	_	23	committing	_	_	_	19	cometer	_	23	pour	specification.Restatement.EXPANSION	21	commesso	_	20	of	disjunctive.Alternative.EXPANSION	21	praticarem	_
+22	tak	18	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	24	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	"Verbrechen"	_	23	committing	_	_	_	17	viajeros	_	25	commis	_	22	questi	_	25	zogenaamde	_	22	estes	_
+23	zwanych	19	سمّي	_	1	?	?	1	?	?	25	říkajíc	_	24	begangen	_	24	these	_	_	_	20	estos	_	26	ces	_	23	cosiddetti	_	24	deze	_	23	alegados	_
+24	przestępstw.	20	بجرائم.	_	1	?	?	1	?	?	26	zločinů.	_	25	hatten.	_	26	crimes.	_	_	_	22	crímenes.	_	28	crimes.	_	24	crimini.	_	26	misdaden.	_	24	crimes.	_
+
+# sent_id = 138318
+# text:  Wielu z was może się zastanawiać, dlaczego ktokolwiek wybrałby życie pod kontrolą dyskryminującego prawa, zjadając resztki ze śmieci, śpiąc pod mostem, i od czasu do czasu wykonując prace sezonowe.
+# trans: Muitos de vocês podem estar a perguntar-se porque alguém escolheria uma vida como esta, sob o domínio de leis discriminatórias, a comer de caixotes do lixo, a dormir debaixo de pontes, a aceitar empregos sazonais aqui e ali.
+# forward_log_prob: -136.99032975453295
+# backward_log_prob: -114.06601175683802
+1	Wielu	1	أغلبكم	_	1	?	?	1	?	?	?	?	?	1	Vielleicht	_	1	Many	_	_	_	3	Uds.	_	1	Beaucoup	_	3	voi	_	?	?	?	3	vocês	_
+2	z	?	?	?	1	?	?	1	?	?	?	?	?	3	Sie	_	2	of	_	_	_	2	de	_	?	?	?	2	di	_	?	?	?	2	de	_
+3	was	3	يتسائل	_	1	?	?	1	?	?	?	?	?	4	sich,	_	1	Many	_	_	_	3	Uds.	_	4	pourront	_	3	voi	_	4	je	_	?	?	?
+4	może	5	أي	_	1	?	?	1	?	?	11	kdokoli	_	7	ein	_	8	anyone	_	_	_	4	se	_	5	se	_	11	vita	_	?	?	?	6	a	_
+5	się	7	قد	_	1	?	?	1	?	?	2	z	_	4	sich,	_	?	?	?	?	?	?	?	?	5	se	_	7	mai	_	?	?	?	6	a	_
+6	zastanawiać,	6	شخص	_	1	?	?	1	?	?	3	vás	_	5	wieso	_	3	you	_	_	_	5	preguntan	_	6	demander	_	4	si	_	5	af,	_	4	podem	_
+7	dlaczego	6	شخص	_	1	?	?	1	?	?	8	proč	_	6	jemand	_	7	why	_	_	_	7	qué	_	9	choisirait	_	9	sceglierebbe	_	7	iemand	_	9	alguém	_
+8	ktokolwiek	8	يختار	_	1	?	?	1	?	?	8	proč	_	6	jemand	_	10	choose	_	_	_	8	alguien	_	9	choisirait	_	9	sceglierebbe	_	7	iemand	_	10	escolheria	_
+9	wybrałby	8	يختار	_	1	?	?	1	?	?	10	si	_	9	wie	COMPARISON|Synchronous.TEMPORAL	10	choose	_	_	_	9	querría	_	11	vie	_	12	simile,	_	9	leven	_	10	escolheria	_
+10	życie	?	?	?	1	?	?	1	?	?	9	by	_	8	Leben	_	16	the	_	_	_	10	vivir	_	11	vie	_	10	una	_	8	zo'n	_	11	uma	_
+11	pod	12	تحت	_	1	?	?	1	?	?	16	pod	_	12	unter	_	15	under	_	_	_	?	?	?	13	ceci,	_	14	alcuna	_	?	?	?	15	sob	_
+12	kontrolą	11	بالبقاء	_	1	?	?	1	?	?	13	vybrat	_	11	wählt,	_	13	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	11	así,	_	14	une	_	15	difesa	_	12	onderdrukt	_	14	esta,	_
+13	dyskryminującego	13	ضغط	_	1	?	?	1	?	?	15	život,	_	14	Fuchtel	_	15	under	_	_	_	12	oprimidos	_	16	sous	_	16	dalle	_	12	onderdrukt	_	17	domínio	_
+14	prawa,	14	قوانين	_	1	?	?	1	?	?	17	palcem	_	14	Fuchtel	_	17	thumb	_	_	_	14	leyes	_	18	joug	_	18	discriminatorie,	_	14	discriminerende	_	17	domínio	_
+15	zjadając	14	قوانين	_	1	?	?	1	?	?	18	diskriminujících	_	15	diskriminierender	_	19	discriminatory	_	_	_	15	discriminatorias,	_	18	joug	_	19	fatta	_	15	wetten,	_	20	discriminatórias,	_
+16	resztki	15	التمييز،	_	1	?	?	1	?	?	18	diskriminujících	_	15	diskriminierender	_	19	discriminatory	_	_	_	15	discriminatorias,	_	20	lois	_	21	pasti	_	16	etend	_	20	discriminatórias,	_
+17	ze	16	الأكل	_	1	?	?	1	?	?	20	stravování	_	18	Mülltonnen	_	20	laws,	_	_	_	16	comiendo	_	21	discriminatoires,	_	22	racimolati	_	16	etend	_	22	comer	_
+18	śmieci,	16	الأكل	_	1	?	?	1	?	?	22	přímo	_	18	Mülltonnen	_	21	eating	_	_	_	16	comiendo	_	23	manger	_	22	racimolati	_	19	vuilnisbak,	_	22	comer	_
+19	śpiąc	18	علب	_	1	?	?	1	?	?	22	přímo	_	18	Mülltonnen	_	21	eating	_	_	_	19	basura,	_	25	déchets,	_	25	immondizie,	_	19	vuilnisbak,	_	22	comer	_
+20	pod	21	تحت	_	1	?	?	1	?	?	26	pod	_	17	aus	_	26	sleeping	_	_	_	21	bajo	_	25	déchets,	_	28	sotto	_	21	onder	_	?	?	?
+21	mostem,	20	النوم	_	1	?	?	1	?	?	24	popelnic,	_	20	essen,	_	25	cans,	_	_	_	20	durmiendo	_	27	dormir	_	26	notti	_	20	slapend	_	28	dormir	_
+22	i	?	?	?	1	?	?	1	?	?	28	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	26	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	34	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	y	_	?	?	?	36	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	25	en	Conjunction.EXPANSION	?	?	?
+23	od	22	الجسور،	_	1	?	?	1	?	?	1	Mnoho	_	19	zu	_	35	there.	_	_	_	22	puentes,	_	29	les	_	33	da	Contrast.COMPARISON	23	brug,	_	32	a	_
+24	czasu	23	الحصول	_	1	?	?	1	?	?	29	braní	_	25	hier	_	28	bridges,	_	_	_	24	trabajando	_	30	ponts,	_	29	un	_	24	hier	_	31	pontes,	_
+25	do	25	أعمال	_	1	?	?	1	?	?	33	či	Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	?	?	?	?	?	?	?	?	24	trabajando	_	31	faire	_	32	stagionali	_	24	hier	_	33	aceitar	_
+26	czasu	25	أعمال	_	1	?	?	1	?	?	30	sezonních	_	27	da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	31	seasonal	_	_	_	26	vez	_	33	boulots	_	32	stagionali	_	26	daar	reason.Cause.CONTIGENCY	34	empregos	_
+27	wykonując	26	موسمية	_	1	?	?	1	?	?	32	tam	_	27	da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	31	seasonal	_	_	_	26	vez	_	34	saisonniers	_	32	stagionali	_	26	daar	reason.Cause.CONTIGENCY	35	sazonais	_
+28	prace	27	هنا	_	1	?	?	1	?	?	32	tam	_	28	Saisonjobs	_	31	seasonal	_	_	_	27	en	_	34	saisonniers	_	37	dall'altra.	_	28	seizoenswerk	_	38	ali.	_
+29	sezonowe.	28	وهناك.	_	1	?	?	1	?	?	34	onde.	_	29	anzunehmen.	_	31	seasonal	_	_	_	28	cuando.	_	34	saisonniers	_	37	dall'altra.	_	29	verrichtend.	_	38	ali.	_
+
+# sent_id = 138319
+# text:  Odpowiedź na to pytanie jest tak różna, jak różni są ludzie wybierający koczownicze życie, ale często odpowiadają oni jednym słowem: wolność.
+# trans: A resposta a esta pergunta é tão variada como as pessoas que se fazem à estrada, mas os viajantes costumam responder com uma única palavra: liberdade.
+# forward_log_prob: -91.70720542650837
+# backward_log_prob: -78.817134330325
+1	Odpowiedź	1	والجواب	_	1	?	?	1	?	?	1	Odpověď	_	1	Darauf	precedence.Asynchronous.TEMPORAL	2	answer	_	_	_	2	respuesta	_	2	réponse	_	1	Le	_	2	antwoord	_	2	resposta	_
+2	na	2	على	_	1	?	?	1	?	?	2	na	_	?	?	?	1	The	_	_	_	1	La	_	4	de	_	4	a	_	3	op	_	1	A	_
+3	to	3	سؤال	_	1	?	?	1	?	?	3	takovou	_	11	Leben	_	5	a	_	_	_	2	respuesta	_	1	La	_	3	possibili	_	2	antwoord	_	5	pergunta	_
+4	pytanie	3	سؤال	_	1	?	?	1	?	?	4	otázku	_	5	viele	_	4	such	_	_	_	4	tan	_	5	telles	_	5	questa	_	4	zo'n	_	4	esta	_
+5	jest	4	كهذا	_	1	?	?	1	?	?	5	je	_	3	es	_	7	is	_	_	_	3	es	_	7	est	_	5	questa	_	6	is	_	6	é	_
+6	tak	5	متنوع	_	1	?	?	1	?	?	8	jak	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION	4	so	_	8	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	6	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	10	que	_	8	tanto	_	7	zo	Instantiation.EXPANSION	7	tão	_
+7	różna,	6	بتنوع	_	1	?	?	1	?	?	7	rozmanitá,	_	6	Antworten	_	9	varied	_	_	_	?	?	?	8	aussi	COMPARISON|result.Cause.CONTIGENCY	9	diverse	_	8	divers,	_	8	variada	_
+8	jak	6	بتنوع	_	1	?	?	1	?	?	6	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	wie	COMPARISON|Synchronous.TEMPORAL	10	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	10	que	_	11	le	_	7	zo	Instantiation.EXPANSION	9	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+9	różni	7	الأشخاص	_	1	?	?	1	?	?	9	jen	Alternative.EXPANSION|Conjunction.EXPANSION|Exception.EXPANSION	8	Menschen,	_	9	varied	_	_	_	8	misma	_	14	gens	_	10	quanto	_	8	divers,	_	13	se	CONTIGENCY|Condition.CONTIGENCY
+10	są	9	الطرقات،	_	1	?	?	1	?	?	10	jsou	_	13	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	9	varied	_	_	_	9	comunidad	_	11	le	_	?	?	?	12	die	_	13	se	CONTIGENCY|Condition.CONTIGENCY
+11	ludzie	9	الطرقات،	_	1	?	?	1	?	?	11	lidi	_	12	führen,	_	9	varied	_	_	_	8	misma	_	16	prennent	_	14	scelgono	_	11	mensen	_	14	fazem	_
+12	wybierający	9	الطرقات،	_	1	?	?	1	?	?	12	žijící	_	12	führen,	_	?	?	?	?	?	8	misma	_	16	prennent	_	14	scelgono	_	?	?	?	14	fazem	_
+13	koczownicze	11	الرحّالة	_	1	?	?	1	?	?	12	žijící	_	12	führen,	_	17	road,	_	_	_	13	ellos	_	16	prennent	_	?	?	?	14	pad	_	14	fazem	_
+14	życie,	13	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	14	ulici,	_	10	dieses	_	16	the	_	_	_	7	la	_	17	la	_	15	la	_	13	op	_	15	à	_
+15	ale	12	غالبًا	_	1	?	?	1	?	?	15	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	13	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	18	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	pero	precedence.Asynchronous.TEMPORAL	27	mot	_	17	ma	Concession.COMPARISON|Contrast.COMPARISON	16	maar	_	17	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+16	często	12	غالبًا	_	1	?	?	1	?	?	16	cestovatelé	_	14	Herumreisende	_	19	travelers	_	_	_	14	siempre	_	22	répondent	_	18	spesso	_	17	reizigers	_	20	costumam	_
+17	odpowiadają	14	يجيبون	_	1	?	?	1	?	?	17	často	_	16	oft	_	21	respond	_	_	_	15	responden	_	23	souvent	_	21	rispondono	_	19	meestal	_	21	responder	_
+18	oni	13	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	18	odpovídají	_	17	mit	_	21	respond	_	_	_	17	una	_	26	seul	_	21	rispondono	_	19	meestal	_	21	responder	_
+19	jednym	15	بكلمة	_	1	?	?	1	?	?	19	jediným	_	16	oft	_	24	single	_	_	_	18	sola	_	26	seul	_	24	sola	_	21	één	_	24	única	_
+20	słowem:	16	واحدة:	_	1	?	?	1	?	?	20	slovem:	_	16	oft	_	24	single	_	_	_	19	palabra:	_	26	seul	_	24	sola	_	21	één	_	24	única	_
+21	wolność.	17	الحرية.	_	1	?	?	1	?	?	21	svoboda.	_	20	Freiheit.	_	24	single	_	_	_	19	palabra:	_	26	seul	_	24	sola	_	21	één	_	24	única	_
+
+# sent_id = 138320
+# text:  Dopóki nie żyjemy w społeczeństwie, w którym każdy człowiek ma zapewnioną godną pracę, może pracować, aby dobrze żyć, a nie tylko pracować, aby przetrwać, zawsze znajdzie się odsetek tych, dla których wędrówka jest formą ucieczki, wyzwolenia i oczywiście sprzeciwu.
+# trans: Até vivermos numa sociedade em que a cada ser humano seja assegurada a dignidade no seu trabalho, para que possa trabalhar para viver bem, — não apenas trabalhar para sobreviver — haverá sempre quem procure a estrada aberta como meio de fuga, de libertação e, é claro, de rebelião.
+# forward_log_prob: -187.22853083243476
+# backward_log_prob: -155.21072352836984
+1	Dopóki	2	حين	_	1	?	?	1	?	?	1	Něž	_	1	Bis	precedence.Asynchronous.TEMPORAL	1	Until	TEMPORAL	_	Condition.CONTIGENCY|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	menos	_	1	Jusqu'à	result.Cause.CONTIGENCY	1	Finché	_	1	Tot	_	1	Até	_
+2	nie	1	إلى	_	1	?	?	1	?	?	5	společnosti,	_	4	einer	_	6	society	_	_	_	6	sociedad	_	7	société	_	6	società	_	?	?	?	4	sociedade	_
+3	żyjemy	3	أن	_	1	?	?	1	?	?	3	žít	_	2	wir	_	3	live	_	_	_	?	?	?	3	qu'on	_	3	vivremo	_	?	?	?	3	numa	_
+4	w	5	في	_	1	?	?	1	?	?	4	ve	_	3	in	_	4	in	_	_	_	?	?	?	5	dans	_	4	in	_	3	in	_	?	?	?
+5	społeczeństwie,	4	نعيش	_	1	?	?	1	?	?	6	kde	_	7	wo	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	7	where	TEMPORAL	_	_	?	?	?	8	où	_	?	?	?	5	samenleving	_	?	?	?
+6	w	5	في	_	1	?	?	1	?	?	12	ve	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	7	in	_	?	?	?	?	?	?
+7	którym	7	يكون	_	1	?	?	1	?	?	8	každému	_	8	jedem	_	9	human	_	_	_	8	asegure	_	9	chaque	_	9	ad	_	7	waarin	_	8	cada	_
+8	każdy	9	إنسان	_	1	?	?	1	?	?	7	je	_	11	Würde	_	10	is	_	_	_	8	asegure	_	11	humain	_	10	ogni	_	9	mens	_	7	a	_
+9	człowiek	9	إنسان	_	1	?	?	1	?	?	10	zaručena	_	12	bei	_	11	assured	_	_	_	8	asegure	_	13	assuré	_	11	essere	_	10	zeker	_	11	seja	_
+10	ma	11	ضمن	_	1	?	?	1	?	?	11	důstojnost	_	10	seine	_	13	in	_	_	_	7	se	_	15	sa	_	14	garantita	_	10	zeker	_	12	assegurada	_
+11	zapewnioną	11	ضمن	_	1	?	?	1	?	?	13	své	_	15	garantiert	_	14	their	_	_	_	11	cada	_	16	dignité	_	14	garantita	_	13	waardigheid	_	14	dignidade	_
+12	godną	12	الكرامة	_	1	?	?	1	?	?	14	námaze	_	15	garantiert	_	15	labor	_	_	_	13	pueda	_	17	grâce	_	16	dignità	_	13	waardigheid	_	14	dignidade	_
+13	pracę,	14	عمله	_	1	?	?	1	?	?	14	námaze	_	17	sodass	PragmaticCause.CONTIGENCY|result.Cause.CONTIGENCY	15	labor	_	_	_	14	tener	_	19	son	_	17	nel	_	13	waardigheid	_	14	dignidade	_
+14	może	10	قد	_	1	?	?	1	?	?	16	aby	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	17	sodass	PragmaticCause.CONTIGENCY|result.Cause.CONTIGENCY	19	can	_	_	_	?	?	?	19	son	_	15	la	_	15	zijn	_	13	a	_
+15	pracować,	15	بحيث	Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	1	?	?	1	?	?	17	mohl	_	19	arbeiten,	_	23	well,	_	_	_	16	trabajo	_	22	façon	_	20	affinché	PragmaticCause.CONTIGENCY	18	kan	_	20	possa	_
+16	aby	16	يعملون	_	1	?	?	1	?	?	18	pracovat	_	20	um	_	22	live	_	_	_	17	digno	_	22	façon	_	21	possa	_	18	kan	_	20	possa	_
+17	dobrze	17	لأجل	PragmaticCause.CONTIGENCY	1	?	?	1	?	?	19	pro	_	21	gut	_	23	well,	_	_	_	17	digno	_	24	travailler	_	22	lavorare	_	19	werken	_	21	trabalhar	_
+18	żyć,	19	الكريم،	_	1	?	?	1	?	?	20	dobré	_	21	gut	_	24	not	EXPANSION	_	_	19	poder	_	27	correctement,	_	25	bene,	_	19	werken	_	24	bem,	_
+19	a	19	الكريم،	_	1	?	?	1	?	?	20	dobré	_	14	Arbeit	_	26	work	_	_	_	?	?	?	20	travail	_	19	lavoro	_	16	werk,	_	17	trabalho,	_
+20	nie	18	العيش	_	1	?	?	1	?	?	21	žití	_	?	?	?	33	an	_	_	_	?	?	?	37	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	24	vivere	_	22	te	_	19	que	_
+21	tylko	20	وليس	Contrast.COMPARISON	1	?	?	1	?	?	23	ne	Alternative.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|opposition.Contrast.COMPARISON	26	nur	Contrast.COMPARISON	28	survive,	_	_	_	21	bien,	_	29	non	_	26	non	_	24	niet	_	25	—	_
+22	pracować,	22	للبقاء	_	1	?	?	1	?	?	25	pracoval	_	29	überleben,	_	30	will	_	_	_	23	solo	_	31	uniquement	_	28	lavorare	_	24	niet	_	27	apenas	_
+23	aby	24	قيد	_	1	?	?	1	?	?	26	pro	_	29	überleben,	_	30	will	_	_	_	24	sobrevivir,	_	34	survivre,	_	30	sopravvivere,	_	25	slechts	_	30	sobreviver	_
+24	przetrwać,	25	الحياة،	_	1	?	?	1	?	?	27	přežití,	_	30	wird	_	32	be	_	_	_	25	siempre	_	34	survivre,	_	31	ci	_	25	slechts	_	30	sobreviver	_
+25	zawsze	26	فسيبقى	_	1	?	?	1	?	?	29	tu	_	32	immer	_	34	element	_	_	_	26	existirán	_	36	y	_	32	sarà	_	28	overleven,	_	31	—	_
+26	znajdzie	26	فسيبقى	_	1	?	?	1	?	?	29	tu	_	33	auch	Conjunction.EXPANSION	36	those	_	_	_	27	aquellos	_	38	aura	_	32	sarà	_	29	zullen	_	32	haverá	_
+27	się	23	على	_	1	?	?	1	?	?	?	?	?	?	?	?	37	who	_	_	_	28	que	_	47	de	_	?	?	?	27	te	_	36	a	_
+28	odsetek	28	دائمًا	_	1	?	?	1	?	?	31	vždy	_	35	geben,	_	38	seek	_	_	_	29	verán	_	41	prendront	_	39	ricorrerà	_	30	er	_	34	quem	_
+29	tych,	33	عن	_	1	?	?	1	?	?	28	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	38	"offene	_	40	open	_	_	_	29	verán	_	33	pour	specification.Restatement.EXPANSION	39	ricorrerà	_	41	of	disjunctive.Alternative.EXPANSION	35	procure	_
+30	dla	31	الذين	specification.Restatement.EXPANSION	1	?	?	1	?	?	38	jako	Conjunction.EXPANSION	38	"offene	_	41	road	_	_	_	33	un	_	42	la	_	34	una	_	36	pad	_	37	estrada	_
+31	których	32	يبحثون	_	1	?	?	1	?	?	36	otevřenou	_	39	Straße"	_	41	road	_	_	_	34	medio	_	46	moyen	_	41	strada	_	31	altijd	_	?	?	?
+32	wędrówka	31	الذين	specification.Restatement.EXPANSION	1	?	?	1	?	?	34	jež	_	40	aufsuchen:	_	44	means	_	_	_	?	?	?	44	comme	COMPARISON|specification.Restatement.EXPANSION	40	alla	_	?	?	?	40	meio	_
+33	jest	?	?	?	1	?	?	1	?	?	38	jako	Conjunction.EXPANSION	31	es	_	?	?	?	?	?	?	?	?	45	un	_	38	che	_	34	die	_	46	é	_
+34	formą	34	الطرق	_	1	?	?	1	?	?	39	možnost	_	43	zur	_	46	escape,	_	_	_	36	escape,	_	50	se	_	45	fuga,	_	37	willen	_	42	fuga,	_
+35	ucieczki,	36	كوسيلة	_	1	?	?	1	?	?	39	možnost	_	45	zur	_	46	escape,	_	_	_	36	escape,	_	51	libérer	_	45	fuga,	_	39	uitweg,	_	42	fuga,	_
+36	wyzwolenia	37	للهرب	_	1	?	?	1	?	?	41	osvobození	_	46	Befreiung	_	48	liberation	_	_	_	38	liberación	_	54	sûr	_	47	liberazione	_	40	bevrijding,	_	44	libertação	_
+37	i	?	?	?	1	?	?	1	?	?	42	a,	_	47	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	49	and,	_	_	_	39	y	_	52	et	Conjunction.EXPANSION	48	e,	_	?	?	?	45	e,	_
+38	oczywiście	38	للعتق،	_	1	?	?	1	?	?	43	samozřejmě,	_	48	selbstverständlich	_	51	course,	_	_	_	41	rebelión.	_	56	se	_	49	ovviamente,	_	42	natuurlijk,	_	47	claro,	_
+39	sprzeciwu.	40	للتمرد.	_	1	?	?	1	?	?	44	rebelie.	_	50	Rebellion.	_	53	rebellion.	_	_	_	41	rebelión.	_	57	rebeller.	_	51	ribellione.	_	43	rebellie.	_	49	rebelião.	_
+
+# sent_id = 138321
+# text:  Dziękuję.
+# trans: Obrigado.
+# forward_log_prob: -1.0845914446826626
+# backward_log_prob: -1.0845914446826626
+1	Dziękuję.	1	شكرًا	_	1	?	?	1	?	?	1	Děkuji.	_	1	Vielen	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dank	_	1	Obrigado.	_
+
+# sent_id = 138322
+# text:  (Brawa)
+# trans: (Aplausos)
+# forward_log_prob: -0.3914442641661956
+# backward_log_prob: -0.3914442641661956
+1	(Brawa)	1	(تصفيق)	_	1	?	?	1	?	?	1	(Potlesk)	_	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
+

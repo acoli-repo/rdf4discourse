@@ -1,0 +1,747 @@
+# sent_id = 131877
+# text:  Nasci e fui criado na Serra Leoa, um pequeno e lindo país da África Ocidental, um país rico, tanto em recursos físicos quanto em criatividade.
+# trans: Nasci e fui criado na Serra Leoa, um pequeno e lindo país da África Ocidental, um país rico, tanto em recursos físicos quanto em criatividade.
+# forward_log_prob: -79.38546483197277
+# backward_log_prob: -79.45909927602315
+1	Nasci	1	ولدت	_	1	?	_	1	?	_	1	Narodil	_	2	bin	_	2	was	_	_	_	1	Nací	_	1	Je	_	1	Sono	_	2	ben	_	1	Nasci	_
+2	e	3	في	_	1	?	_	1	?	_	3	se	_	?	?	?	4	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	y	_	4	et	Conjunction.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	4	en	Conjunction.EXPANSION	2	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+3	fui	2	ونشأت	_	1	?	_	1	?	_	?	?	?	?	?	?	3	born	_	_	_	3	crecí	_	3	né	_	2	nato	_	3	geboren	_	3	fui	_
+4	criado	2	ونشأت	_	1	?	_	1	?	_	5	vyrostl	_	6	geboren	_	5	raised	_	_	_	3	crecí	_	5	j'ai	_	4	cresciuto	_	5	getogen	_	4	criado	_
+5	na	4	سيراليون	_	1	?	_	1	?	_	7	Sierra	_	3	in	_	7	Sierra	_	_	_	4	en	_	8	Sierra	_	5	in	_	7	Sierra	_	5	na	_
+6	Serra	4	سيراليون	_	1	?	_	1	?	_	7	Sierra	_	5	Leone	_	6	in	_	_	_	6	Leona,	_	8	Sierra	_	6	Sierra	_	6	in	_	6	Serra	_
+7	Leoa,	4	سيراليون	_	1	?	_	1	?	_	6	v	_	5	Leone	_	8	Leone,	_	_	_	6	Leona,	_	8	Sierra	_	7	Leone,	_	7	Sierra	_	7	Leoa,	_
+8	um	6	صغيرة	_	1	?	_	1	?	_	6	v	_	9	einem	_	9	a	_	_	_	7	un	_	10	un	_	8	un	_	9	een	_	8	um	_
+9	pequeno	5	دولة	_	1	?	_	1	?	_	9	nádherné	_	8	aufgewachsen,	_	10	small	_	_	_	9	pequeño	_	11	petit	_	9	piccolo	_	10	klein	_	9	pequeno	_
+10	e	?	?	?	1	?	_	1	?	_	?	?	?	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	y	_	13	et	Conjunction.EXPANSION	?	?	?	11	en	Conjunction.EXPANSION	10	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	lindo	8	جدًا	_	1	?	_	1	?	_	10	malé	_	12	sehr	_	12	very	_	_	_	11	muy	_	14	très	_	10	Stato	_	12	heel	_	11	lindo	_
+12	país	10	غرب	_	1	?	_	1	?	_	11	zemi	_	14	Land	_	14	country	_	_	_	8	país	_	16	pays	_	12	nell'Africa	_	12	heel	_	12	país	_
+13	da	9	في	_	1	?	_	1	?	_	12	v	_	13	schönen	_	13	beautiful	_	_	_	?	?	?	15	beau	_	12	nell'Africa	_	14	land	_	13	da	_
+14	África	11	أفريقيا	_	1	?	_	1	?	_	13	západní	_	16	Westafrika,	_	16	West	_	_	_	14	África	_	18	l'Afrique	_	13	occidentale,	_	14	land	_	14	África	_
+15	Ocidental,	11	أفريقيا	_	1	?	_	1	?	_	14	Africe,	_	16	Westafrika,	_	16	West	_	_	_	15	occidental.	_	18	l'Afrique	_	14	uno	_	16	West-Afrika.	_	15	Ocidental,	_
+16	um	12	،	_	1	?	_	1	?	_	18	na	_	?	?	?	18	a	_	_	_	16	Un	_	19	de	_	14	uno	_	17	Een	_	16	um	_
+17	país	13	بلد	_	1	?	_	1	?	_	16	zemi	_	18	Land	_	19	country	_	_	_	17	país	_	22	pays	_	16	ricco	_	18	land	_	17	país	_
+18	rico,	14	تزخر	_	1	?	_	1	?	_	17	bohaté	_	19	reich	_	20	rich	_	_	_	18	rico	_	23	riche	_	16	ricco	_	18	land	_	18	rico,	_
+19	tanto	14	تزخر	_	1	?	_	1	?	_	17	bohaté	_	20	sowohl	_	21	both	_	_	_	19	tanto	_	23	riche	_	19	risorse	_	20	rijk	_	19	tanto	_
+20	em	15	بالموارد	_	1	?	_	1	?	_	19	přírodní	_	22	Bodenschätzen	_	22	in	_	_	_	20	en	_	24	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	21	sia	_	19	dat	_	20	em	_
+21	recursos	16	المادية	_	1	?	_	1	?	_	19	přírodní	_	22	Bodenschätzen	_	23	physical	_	_	_	21	recursos	_	25	ressources	_	20	fisiche	_	22	aan	_	21	recursos	_
+22	físicos	17	والمواهب	_	1	?	_	1	?	_	20	zdroje	_	24	auch	Conjunction.EXPANSION	24	resources	_	_	_	21	recursos	_	26	naturelles	_	20	fisiche	_	23	grondstoffen	_	22	físicos	_
+23	quanto	17	والمواهب	_	1	?	_	1	?	_	22	tvůrčí	_	23	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	24	resources	_	_	_	23	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	29	talents	_	18	di	_	23	grondstoffen	_	23	quanto	_
+24	em	18	الإبداعية	_	1	?	_	1	?	_	22	tvůrčí	_	26	kreativen	_	?	?	?	?	?	24	en	_	28	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	?	?	?	25	creatief	_	24	em	_
+25	criatividade.	18	الإبداعية	_	1	?	_	1	?	_	23	lidi.	_	27	Talenten.	_	26	creative	_	_	_	26	creativo.	_	30	créatifs.	_	23	talento	_	26	talent.	_	25	criatividade.	_
+
+# sent_id = 131878
+# text:  No entanto, a Serra Leoa é tristemente conhecida por 10 anos de guerra na década de 90 em que foram queimadas aldeias inteiras.
+# trans: No entanto, a Serra Leoa é tristemente conhecida por 10 anos de guerra na década de 90 em que foram queimadas aldeias inteiras.
+# forward_log_prob: -72.88944660304307
+# backward_log_prob: -72.9412301491519
+1	No	1	ومع	equivalence.Restatement.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	?	_	1	Přesto	Concession.COMPARISON|Contrast.COMPARISON|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Allerdings	Concession.COMPARISON|Contrast.COMPARISON	1	However,	_	_	_	1	Sin	_	?	?	?	2	il	_	1	Maar	_	1	No	_
+2	entanto,	2	ذلك،	_	1	?	_	1	?	_	1	Přesto	Concession.COMPARISON|Contrast.COMPARISON|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Allerdings	Concession.COMPARISON|Contrast.COMPARISON	1	However,	_	_	_	2	embargo,	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	2	entanto,	_
+3	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	4	is	_	_	_	?	?	?	2	la	_	?	?	?	?	?	?	3	a	_
+4	Serra	3	فقد	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	3	Sierra	_	3	Sierra	_	2	Sierra	_	_	_	3	Sierra	_	3	Sierra	_	3	Sierra	_	2	Sierra	_	4	Serra	_
+5	Leoa	4	ساءت	_	1	?	_	1	?	_	4	Leone	_	4	Leone	_	3	Leone	_	_	_	4	Leona	_	4	Leone	_	4	Leone	_	3	Leone	_	5	Leoa	_
+6	é	5	سمعتها	_	1	?	_	1	?	_	2	je	_	2	ist	_	4	is	_	_	_	5	es	_	5	est	_	5	è	_	4	is	_	6	é	_
+7	tristemente	4	ساءت	_	1	?	_	1	?	_	5	nechvalně	_	5	berüchtigt	_	5	infamous	_	_	_	6	tristemente	_	6	tristement	_	6	tristemente	_	5	ook	Conjunction.EXPANSION	7	tristemente	_
+8	conhecida	7	المتمردين	_	1	?	_	1	?	_	8	deset	_	5	berüchtigt	_	?	?	?	?	?	11	insurgente	_	9	10	_	7	conosciuto	_	6	berucht	_	8	conhecida	_
+9	por	7	المتمردين	_	1	?	_	1	?	_	7	pro	_	6	für	PragmaticCause.CONTIGENCY	6	for	_	_	reason.Cause.CONTIGENCY	11	insurgente	_	8	pour	specification.Restatement.EXPANSION	8	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	berucht	_	9	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+10	10	8	التي	specification.Restatement.EXPANSION	1	?	_	1	?	_	9	let	_	8	jahrzehntelangen	_	8	decade-long	_	_	_	11	insurgente	_	9	10	_	9	l'insurrezione	_	9	tienjarige	_	10	10	_
+11	anos	9	استمرت	_	1	?	_	1	?	_	9	let	_	11	den	_	7	a	_	_	_	14	años,	_	10	ans	_	11	anni	_	8	een	_	11	anos	_
+12	de	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	7	om	PragmaticCause.CONTIGENCY	12	de	_
+13	guerra	11	كامل	_	1	?	_	1	?	_	12	válku	_	14	dem	_	10	war	_	_	_	10	guerra	_	12	guerre	_	?	?	?	10	rebellenoorlog	_	13	guerra	_
+14	na	12	في	_	1	?	_	1	?	_	13	v	_	14	dem	_	11	in	_	_	_	18	en	_	12	guerre	_	?	?	?	11	in	_	14	na	_
+15	década	11	كامل	_	1	?	_	1	?	_	14	90.	_	12	90ern,	_	13	'90s	_	_	_	17	90,	_	14	dans	_	12	'90	_	13	jaren	_	15	década	_
+16	de	?	?	?	1	?	_	1	?	_	16	během	_	?	?	?	?	?	?	?	?	19	la	_	19	des	_	?	?	?	?	?	?	16	de	_
+17	90	15	تم	_	1	?	_	1	?	_	15	letech,	_	?	?	?	14	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	17	1990	_	15	interi	_	14	negentig	_	17	90	_
+18	em	14	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	?	?	?	13	in	_	?	?	?	?	?	18	en	_	?	?	?	14	cui	_	?	?	?	18	em	_
+19	que	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	12	the	_	_	_	20	que	_	?	?	?	13	in	_	?	?	?	19	que	_
+20	foram	16	حرق	_	1	?	_	1	?	_	17	níž	_	15	ganze	_	16	villages	_	_	_	21	poblados	_	20	villages	_	17	sono	_	16	complete	_	20	foram	_
+21	queimadas	17	قرى	_	1	?	_	1	?	_	19	vypáleny	_	16	Dörfer	_	17	were	_	_	_	24	reducidos	_	21	entiers	_	19	rasi	_	17	dorpen	_	21	queimadas	_
+22	aldeias	18	بأكملها	_	1	?	_	1	?	_	20	celé	_	17	niedergebrannt	_	18	burnt	_	_	_	24	reducidos	_	23	été	_	20	al	_	18	zijn	_	22	aldeias	_
+23	inteiras.	18	بأكملها	_	1	?	_	1	?	_	21	vesnice.	_	17	niedergebrannt	_	19	down.	_	_	_	26	cenizas.	_	24	incendiés.	_	21	suolo.	_	19	afgebrand.	_	23	inteiras.	_
+
+# sent_id = 131879
+# text:  Cerca de 8 000 homens, mulheres e crianças ficaram sem braços e pernas nesse período.
+# trans: Cerca de 8 000 homens, mulheres e crianças ficaram sem braços e pernas nesse período.
+# forward_log_prob: -41.534803176827694
+# backward_log_prob: -41.53660712466818
+1	Cerca	?	?	?	1	?	_	1	?	_	2	se,	_	?	?	?	?	?	?	?	?	2	este	_	1	Environ	_	1	Circa	_	?	?	?	1	Cerca	_
+2	de	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	1	En	_	?	?	?	1	Circa	_	?	?	?	2	de	_
+3	8	1	وحوالي	_	1	?	_	1	?	_	3	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Schätzungsweise	_	1	An	_	_	_	3	período,	_	2	8000	_	2	8000	_	1	Ongeveer	_	3	8	_
+4	000	3	رجل	_	1	?	_	1	?	_	5	000	_	4	Männern,	_	4	men,	_	_	_	5	calcula	_	4	femmes,	_	3	uomini,	_	3	mannen,	_	4	000	_
+5	homens,	4	وامرأة	_	1	?	_	1	?	_	6	mužů,	_	5	Frauen	_	5	women	_	_	_	5	calcula	_	4	femmes,	_	4	donne	_	4	vrouwen	_	5	homens,	_
+6	mulheres	5	وطفل	_	1	?	_	1	?	_	7	žen	_	7	Kindern	_	5	women	_	_	_	7	8000	_	7	ont	_	6	bambini	_	4	vrouwen	_	6	mulheres	_
+7	e	5	وطفل	_	1	?	_	1	?	_	8	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	6	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	6	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	y	_	5	et	Conjunction.EXPANSION	5	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	5	en	Conjunction.EXPANSION	7	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+8	crianças	6	تم	_	1	?	_	1	?	_	9	dětí	_	7	Kindern	_	8	had	_	_	_	9	mujeres	_	8	eu	_	6	bambini	_	7	raakten	_	8	crianças	_
+9	ficaram	7	بتر	_	1	?	_	1	?	_	10	přišlo	_	7	Kindern	_	10	arms	_	_	_	11	niños	_	10	bras	_	8	subito	_	7	raakten	_	9	ficaram	_
+10	sem	8	أذرعتهم	_	1	?	_	1	?	_	11	během	_	10	dieser	_	10	arms	_	_	_	11	niños	_	10	bras	_	9	amputazioni	_	9	ledematen	_	10	sem	Conjunction.EXPANSION|EXPANSION
+11	braços	9	وأرجلهم	_	1	?	_	1	?	_	12	tohoto	_	11	Zeit	_	12	legs	_	_	_	11	niños	_	12	leurs	_	9	amputazioni	_	10	kwijt	_	11	braços	_
+12	e	9	وأرجلهم	_	1	?	_	1	?	_	?	?	?	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	de	_	11	et	Conjunction.EXPANSION	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	12	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+13	pernas	9	وأرجلهم	_	1	?	_	1	?	_	14	o	_	12	Arme	_	14	during	TEMPORAL	_	_	15	sus	_	14	amputés	_	11	braccia	_	?	?	?	13	pernas	_
+14	nesse	11	ذلك	_	1	?	_	1	?	_	15	ruce	_	14	Beine	_	14	during	TEMPORAL	_	_	16	brazos	_	16	cette	_	11	braccia	_	13	oorlog.	_	14	nesse	_
+15	período.	12	الوقت.	_	1	?	_	1	?	_	15	ruce	_	14	Beine	_	16	time.	_	_	_	16	brazos	_	15	à	specification.Restatement.EXPANSION	10	a	_	11	in	_	15	período.	_
+
+# sent_id = 131880
+# text:  Quando eu e a minha família fugimos de um desses ataques, tinha eu cerca de 12 anos, , decidi que faria tudo o que pudesse para assegurar que os meus filhos não passassem pelo mesmo tipo de experiência que tivemos.
+# trans: Quando eu e a minha família fugimos de um desses ataques, tinha eu cerca de 12 anos, , decidi que faria tudo o que pudesse para assegurar que os meus filhos não passassem pelo mesmo tipo de experiência que tivemos.
+# forward_log_prob: -140.31666288197354
+# backward_log_prob: -140.3576036364321
+1	Quando	2	هربت	_	1	?	_	1	?	_	1	Když	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	?	?	?	5	I	_	_	_	?	?	?	3	ma	_	2	cercavo	_	4	ik	_	1	Quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
+2	eu	?	?	?	1	?	_	1	?	_	1	Když	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	4	ich	_	5	I	_	_	_	?	?	?	3	ma	_	?	?	?	4	ik	_	2	eu	_
+3	e	?	?	?	1	?	_	1	?	_	4	se	_	3	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	4	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	5	et	Conjunction.EXPANSION	3	di	_	3	en	Conjunction.EXPANSION	3	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+4	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	8	la	_	7	de	_	4	a	_
+5	minha	4	عائلتي	_	1	?	_	1	?	_	5	svou	_	1	Meine	_	2	my	_	_	_	3	con	_	27	mon	_	9	mia	_	1	Mijn	_	5	minha	_
+6	família	6	أجل	_	1	?	_	1	?	_	6	rodinou	_	2	Familie	_	3	family	_	_	_	1	Mientras	TEMPORAL	6	moi	_	6	salvo	_	2	familie	_	6	família	_
+7	fugimos	6	أجل	_	1	?	_	1	?	_	6	rodinou	_	6	uns	_	8	safety	_	_	_	5	familia	_	7	avons	_	6	salvo	_	6	op	_	7	fugimos	_
+8	de	5	من	_	1	?	_	1	?	_	8	jednoho	_	?	?	?	7	for	_	_	reason.Cause.CONTIGENCY	?	?	?	?	?	?	?	?	?	?	?	?	8	de	_
+9	um	?	?	?	1	?	_	1	?	_	9	z	_	8	einem	_	11	was	_	_	_	6	de	_	10	de	_	16	uno	_	10	een	_	9	um	_
+10	desses	9	احد	_	1	?	_	1	?	_	10	útoků	_	9	dieser	_	1	As	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	9	esos	_	1	Alors	Contrast.COMPARISON|specification.Restatement.EXPANSION	1	Mentre	Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL	15	was.	_	10	desses	_
+11	ataques,	10	تلك	_	1	?	_	1	?	_	11	prchal	_	10	Angriffe	_	13	12	_	_	_	9	esos	_	11	ces	_	10	famiglia	_	11	aanval	_	11	ataques,	_
+12	tinha	11	الهجمات	_	1	?	_	1	?	_	13	bezpečí,	_	12	Sicherheit,	_	13	12	_	_	_	9	esos	_	12	attaques	_	10	famiglia	_	11	aanval	_	12	tinha	_
+13	eu	11	الهجمات	_	1	?	_	1	?	_	20	jsem	_	14	ich	_	10	I	_	_	_	10	ataques,	_	21	je	_	11	all'età	_	12	toen	precedence.Asynchronous.TEMPORAL	13	eu	_
+14	cerca	15	حوالي	_	1	?	_	1	?	_	7	během	_	7	vor	_	12	about	_	_	_	7	uno	_	18	environ	_	13	12	_	12	toen	precedence.Asynchronous.TEMPORAL	14	cerca	_
+15	de	?	?	?	1	?	_	1	?	_	?	?	?	13	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	16	of	_	_	_	?	?	?	13	pour	specification.Restatement.EXPANSION	12	di	_	?	?	?	15	de	_
+16	12	14	عمري	_	1	?	_	1	?	_	15	mi	_	15	12	_	?	?	?	?	?	13	12	_	15	sécurité	_	13	12	_	14	twaalf	_	16	12	_
+17	anos,	15	حوالي	_	1	?	_	1	?	_	18	let,	_	23	vor,	_	9	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	12	los	_	20	ans.	_	14	anni	_	?	?	?	17	anos,	_
+18	,	16	12	_	1	?	_	1	?	_	19	rozhodl	_	19	Moment	_	18	attacks,	_	_	_	13	12	_	19	12	_	18	quegli	_	17	heb	_	18	,	_
+19	decidi	17	عامًا	_	1	?	_	1	?	_	19	rozhodl	_	19	Moment	_	20	resolved	_	_	_	15	decidí	_	19	12	_	18	quegli	_	17	heb	_	19	decidi	_
+20	que	18	،	_	1	?	_	1	?	_	22	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	17	In	_	21	that	_	_	_	?	?	?	?	?	?	17	di	_	?	?	?	20	que	_
+21	faria	19	عزمت	_	1	?	_	1	?	_	23	udělám	_	?	?	?	24	do	_	_	_	16	hacer	_	22	m'étais	_	18	quegli	_	18	mezelf	_	21	faria	_
+22	tudo	19	عزمت	_	1	?	_	1	?	_	23	udělám	_	22	mir	_	24	do	_	_	_	17	todo	_	23	résolu	_	19	attacchi,	_	19	toen	precedence.Asynchronous.TEMPORAL	22	tudo	_
+23	o	24	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	12	do	_	?	?	?	23	would	_	_	_	?	?	?	?	?	?	?	?	?	21	dat	_	23	o	_
+24	que	21	أن	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	21	che	_	21	dat	_	24	que	_
+25	pudesse	22	أفعل	_	1	?	_	1	?	_	25	co	_	24	alles	_	27	could	_	_	_	19	posible	_	25	faire	_	22	avrei	_	?	?	?	25	pudesse	_
+26	para	20	على	_	1	?	_	1	?	_	30	abych	_	27	um	_	28	to	_	_	_	20	para	CONTIGENCY|Cause.CONTIGENCY	29	pour	specification.Restatement.EXPANSION	26	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	26	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+27	assegurar	?	?	?	1	?	_	1	?	_	28	mých	_	26	tun,	_	29	ensure	_	_	_	22	mis	_	28	possible	_	23	fatto	_	23	er	_	27	assegurar	_
+28	que	25	في	_	1	?	_	1	?	_	32	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	29	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	30	that	_	_	_	21	que	_	31	que	_	28	che	_	?	?	?	28	que	_
+29	os	26	مقدرتي	_	1	?	_	1	?	_	30	abych	_	27	um	_	17	those	_	_	_	20	para	CONTIGENCY|Cause.CONTIGENCY	29	pour	specification.Restatement.EXPANSION	29	i	_	28	om	PragmaticCause.CONTIGENCY	29	os	_
+30	meus	27	لضمان	_	1	?	_	1	?	_	31	zajistil,	_	30	meine	_	31	my	_	_	_	23	hijos	_	30	m'assurer	_	27	evitare	_	26	zou	_	30	meus	_
+31	filhos	27	لضمان	_	1	?	_	1	?	_	31	zajistil,	_	31	eigenen	_	32	own	_	_	_	25	tuvieran	_	32	mes	_	27	evitare	_	27	doen	_	31	filhos	_
+32	não	28	أن	_	1	?	_	1	?	_	32	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	33	nicht	_	34	would	_	_	_	24	no	_	36	pas	_	?	?	?	32	dit	_	32	não	_
+33	passassem	29	أطفالي	_	1	?	_	1	?	_	33	moje	_	32	Kinder	_	36	go	_	_	_	25	tuvieran	_	33	propres	_	30	miei	_	29	mijn	_	33	passassem	_
+34	pelo	31	يمروا	_	1	?	_	1	?	_	35	nezažijí	_	34	dasselbe	_	36	go	_	_	_	27	pasar	_	35	n'aient	_	30	miei	_	30	eigen	_	34	pelo	_
+35	mesmo	32	بالتجارب	_	1	?	_	1	?	_	36	stejné	_	35	erleben	_	37	through	_	_	_	27	pasar	_	35	n'aient	_	31	figli	_	30	eigen	_	35	mesmo	_
+36	tipo	32	بالتجارب	_	1	?	_	1	?	_	37	hrůzy,	_	36	müssen,	_	37	through	_	_	_	27	pasar	_	?	?	?	32	affrontassero	_	31	kinderen	_	36	tipo	_
+37	de	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	28	por	CONTIGENCY|Cause.CONTIGENCY	?	?	?	?	?	?	34	te	_	37	de	_
+38	experiência	35	مررنا	_	1	?	_	1	?	_	38	jaké	_	39	erlebt	_	39	same	_	_	_	29	situaciones	_	38	revivre	_	33	quella	_	33	lot	_	38	experiência	_
+39	que	34	التي	specification.Restatement.EXPANSION	1	?	_	1	?	_	?	?	?	38	wir	_	41	we	_	_	_	26	que	_	39	les	_	?	?	?	?	?	?	39	que	_
+40	tivemos.	36	بها.	_	1	?	_	1	?	_	40	zažil	_	40	haben.	_	40	experiences	_	_	_	31	esa.	_	40	mêmes	_	35	esperienza.	_	35	besparen.	_	40	tivemos.	_
+
+# sent_id = 131881
+# text:  Na verdade, eles fariam parte de uma Serra Leoa em que a guerra e as amputações deixariam de ser uma estratégia para tomar o poder.
+# trans: Na verdade, eles fariam parte de uma Serra Leoa em que a guerra e as amputações deixariam de ser uma estratégia para tomar o poder.
+# forward_log_prob: -78.3635221746415
+# backward_log_prob: -78.41594077032231
+1	Na	1	بل	Contrast.COMPARISON	1	?	_	1	?	_	1	To	Condition.CONTIGENCY|PragmaticCondition.CONTIGENCY	?	?	?	3	in	_	_	_	3	en	_	?	?	?	?	?	?	?	?	?	1	Na	_
+2	verdade,	2	سيصبحون	_	1	?	_	1	?	_	2	by	_	1	Vielmehr	Alternative.EXPANSION|Conjunction.EXPANSION	1	They	_	_	_	1	Ciertamente,	_	1	Ils	_	1	Così	result.Cause.CONTIGENCY	1	Ze	_	2	verdade,	_
+3	eles	2	سيصبحون	_	1	?	_	1	?	_	3	ostatně	Conjunction.EXPANSION|specification.Restatement.EXPANSION	1	Vielmehr	Alternative.EXPANSION|Conjunction.EXPANSION	4	fact,	_	_	_	2	crecerían	_	2	allaient	_	3	avrebbero	_	2	zouden	_	3	eles	_
+4	fariam	2	سيصبحون	_	1	?	_	1	?	_	4	mohli	_	1	Vielmehr	Alternative.EXPANSION|Conjunction.EXPANSION	4	fact,	_	_	_	2	crecerían	_	5	d'une	_	3	avrebbero	_	4	uitmaken	_	4	fariam	_
+5	parte	5	الواقع	_	1	?	_	1	?	_	4	mohli	_	4	Teil	_	6	part	_	_	_	2	crecerían	_	4	partie	_	5	parte	_	3	deel	_	5	parte	_
+6	de	3	،	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	6	di	_	6	een	_	6	de	_
+7	uma	?	?	?	1	?	_	1	?	_	13	s	_	5	von	_	7	of	_	_	_	4	una	_	?	?	?	5	parte	_	5	van	_	7	uma	_
+8	Serra	9	سيراليون	_	1	?	_	1	?	_	8	Sierra	_	7	Sierra	_	9	Sierra	_	_	_	5	Sierra	_	6	Sierra	_	8	Sierra	_	7	Sierra	_	8	Serra	_
+9	Leoa	9	سيراليون	_	1	?	_	1	?	_	9	Leone,	_	8	Leone	_	9	Sierra	_	_	_	6	Leona	_	7	Leone	_	8	Sierra	_	8	Leone	_	9	Leoa	_
+10	em	9	سيراليون	_	1	?	_	1	?	_	9	Leone,	_	8	Leone	_	9	Sierra	_	_	_	6	Leona	_	7	Leone	_	9	Leone	_	8	Leone	_	10	em	_
+11	que	8	من	_	1	?	_	1	?	_	?	?	?	10	in	_	?	?	?	?	?	9	que	_	?	?	?	10	in	_	?	?	?	11	que	_
+12	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	10	la	_	9	la	_	?	?	?	?	?	?	12	a	_
+13	guerra	10	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	?	?	?	11	dem	_	12	war	_	_	_	11	guerra	_	10	guerre	_	11	cui	_	12	amputaties	_	13	guerra	_
+14	e	6	،	_	1	?	_	1	?	_	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	11	et	Conjunction.EXPANSION	13	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+15	as	12	تكون	_	1	?	_	1	?	_	13	s	_	12	Krieg	_	12	war	_	_	_	13	las	_	12	les	_	12	guerra	_	15	gebruikt	_	15	as	_
+16	amputações	13	الحرب	_	1	?	_	1	?	_	14	ní	_	12	Krieg	_	11	where	TEMPORAL	_	_	14	amputaciones	_	13	amputations	_	14	amputazione	_	14	langer	_	16	amputações	_
+17	deixariam	14	وبتر	_	1	?	_	1	?	_	18	nepatří	_	14	Amputationen	_	14	amputation	_	_	_	15	ya	_	15	seraient	_	16	sarebbero	_	14	langer	_	17	deixariam	_
+18	de	?	?	?	1	?	_	1	?	_	?	?	?	16	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	18	a	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	18	de	_
+19	ser	15	الأطراف	_	1	?	_	1	?	_	10	protože	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	nicht	_	15	were	_	_	_	17	eran	_	14	ne	_	18	state	_	15	gebruikt	_	19	ser	_
+20	uma	16	استراتيجية	_	1	?	_	1	?	_	22	jak	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION	17	Strategie	_	17	longer	_	_	_	16	no	_	17	une	_	19	una	_	16	zouden	_	20	uma	_
+21	estratégia	17	للإستيلاء	_	1	?	_	1	?	_	20	tamní	_	18	zur	_	19	strategy	_	_	_	17	eran	_	18	stratégie	_	20	strategia	_	16	zouden	_	21	estratégia	_
+22	para	18	على	_	1	?	_	1	?	_	25	k	_	20	genutzt	_	20	for	_	_	reason.Cause.CONTIGENCY	20	para	CONTIGENCY|Cause.CONTIGENCY	19	pour	specification.Restatement.EXPANSION	21	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	18	om	PragmaticCause.CONTIGENCY	22	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+23	tomar	19	السلطة	_	1	?	_	1	?	_	24	dostat	_	19	Machtgewinnung	_	21	gaining	_	_	_	21	obtener	_	20	gagner	_	22	guadagnare	_	19	macht	_	23	tomar	_
+24	o	19	السلطة	_	1	?	_	1	?	_	?	?	?	?	?	?	16	no	_	_	_	?	?	?	21	le	_	15	non	_	13	niet	_	24	o	_
+25	poder.	19	السلطة	_	1	?	_	1	?	_	26	moci.	_	21	werden.	_	22	power.	_	_	_	22	poder.	_	22	pouvoir.	_	23	potere.	_	21	verkrijgen.	_	25	poder.	_
+
+# sent_id = 131882
+# text:  Enquanto eu via pessoas que conhecia, pessoas queridas, a recuperar dessa devastação, uma coisa que me incomodava profundamente era que muitos desses amputados do país não usavam as suas próteses.
+# trans: Enquanto eu via pessoas que conhecia, pessoas queridas, a recuperar dessa devastação, uma coisa que me incomodava profundamente era que muitos desses amputados do país não usavam as suas próteses.
+# forward_log_prob: -102.23756219259674
+# backward_log_prob: -102.35659525174331
+1	Enquanto	1	أثناء	_	1	?	_	1	?	_	3	pozoroval	_	2	beobachtete	_	1	As	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	2	ver	_	4	voyais	_	2	guardavo	_	2	zag	_	1	Enquanto	COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL
+2	eu	2	متابعتي	_	1	?	_	1	?	_	1	Když	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	1	Ich	_	2	I	_	_	_	1	Al	_	3	je	_	1	Mentre	Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL	1	Ik	_	2	eu	_
+3	via	3	لأناس	_	1	?	_	1	?	_	3	pozoroval	_	3	Menschen,	_	3	watched	_	_	_	2	ver	_	4	voyais	_	4	persone	_	2	zag	_	3	via	_
+4	pessoas	4	أعرفهم	_	1	?	_	1	?	_	4	své	_	3	Menschen,	_	?	?	?	?	?	3	a	_	4	voyais	_	3	le	_	4	mensen	_	4	pessoas	_
+5	que	5	،	_	1	?	_	1	?	_	?	?	?	9	sie	_	?	?	?	?	?	6	que	_	5	les	_	5	che	_	5	van	_	5	que	_
+6	conhecia,	6	وأحبهم	_	1	?	_	1	?	_	6	své	_	6	kannte,	_	5	who	_	_	_	7	conocía,	_	6	gens	_	6	conoscevo,	_	6	wie	_	6	conhecia,	_
+7	pessoas	8	يستعيدون	_	1	?	_	1	?	_	7	milované,	_	7	liebte,	_	11	from	_	_	_	7	conocía,	_	9	connaissais	_	8	amavo,	_	5	van	_	7	pessoas	_
+8	queridas,	9	عافيتهم	_	1	?	_	1	?	_	7	milované,	_	7	liebte,	_	8	loved	_	_	_	8	gente	_	9	connaissais	_	9	riprendersi	_	8	hield,	_	8	queridas,	_
+9	a	10	من	_	1	?	_	1	?	_	?	?	?	4	die	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	9	a	_
+10	recuperar	11	هذا	_	1	?	_	1	?	_	10	zotavují	_	13	Verwüstung	_	10	recover	_	_	_	10	recuperarse	_	12	j'aimais	_	12	tale	_	9	herstelden	_	10	recuperar	_
+11	dessa	12	الدمار	_	1	?	_	1	?	_	11	ze	_	12	dieser	_	12	this	_	result.Cause.CONTIGENCY	_	12	esta	_	13	se	_	12	tale	_	9	herstelden	_	11	dessa	_
+12	devastação,	12	الدمار	_	1	?	_	1	?	_	12	škod,	_	13	Verwüstung	_	13	devastation,	_	_	_	13	devastación,	_	14	rétablir	_	13	devastazione,	_	12	verwoesting.	_	12	devastação,	_
+13	uma	15	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	8	jak	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION	11	von	_	15	thing	_	_	_	14	algo	_	18	une	_	11	una	_	13	Wat	_	13	uma	_
+14	coisa	15	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	15	věcí,	_	15	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	15	thing	_	_	_	14	algo	_	16	cette	_	14	ciò	_	12	verwoesting.	_	14	coisa	_
+15	que	13	،	_	1	?	_	1	?	_	14	z	_	?	?	?	16	that	_	_	_	15	que	_	20	qui	_	15	che	_	?	?	?	15	que	_
+16	me	17	واحد	_	1	?	_	1	?	_	16	která	_	17	Sache	_	17	deeply	_	_	_	17	preocupaba	_	19	chose	_	17	turbò	_	14	me	_	16	me	_
+17	incomodava	18	أحزنني	_	1	?	_	1	?	_	18	hluboce	_	18	quälte	_	18	troubled	_	_	_	18	profundamente	_	19	chose	_	18	profondamente	_	15	echt	_	17	incomodava	_
+18	profundamente	19	بعمق	_	1	?	_	1	?	_	19	rmoutila,	_	20	zutiefst,	_	18	troubled	_	_	_	18	profundamente	_	22	beaucoup	_	19	fu	_	16	zorgen	_	18	profundamente	_
+19	era	20	وهو	specification.Restatement.EXPANSION	1	?	_	1	?	_	20	byl	_	20	zutiefst,	_	20	was	_	_	_	19	era	_	24	était	_	?	?	?	17	baarde	_	19	era	_
+20	que	21	أن	_	1	?	_	1	?	_	22	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	21	that	_	_	_	20	que	_	25	que	_	21	che	_	19	dat	_	20	que	_
+21	muitos	22	أغلب	_	1	?	_	1	?	_	21	fakt,	_	22	zwar,	_	22	many	_	_	_	21	muchos	_	23	troublé	_	22	molti	_	20	zoveel	_	21	muitos	_
+22	desses	23	مبتوري	_	1	?	_	1	?	_	22	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	28	diesem	_	25	amputees	_	_	_	23	los	_	21	m'a	_	23	tra	_	18	was	_	22	desses	_
+23	amputados	26	الدولة	_	1	?	_	1	?	_	24	tamních	_	26	Amputierten	_	25	amputees	_	_	_	24	amputados	_	26	beaucoup	_	25	mutilati	_	21	geamputeerden	_	23	amputados	_
+24	do	26	الدولة	_	1	?	_	1	?	_	31	končetiny.	_	25	der	_	24	the	_	_	_	25	del	_	26	beaucoup	_	26	del	_	22	geen	_	24	do	_
+25	país	26	الدولة	_	1	?	_	1	?	_	?	?	?	29	Land	_	28	country	_	_	_	26	país	_	31	pays	_	27	Paese	_	22	geen	_	25	país	_
+26	não	?	?	?	1	?	_	1	?	_	?	?	?	30	nicht	_	30	not	_	_	_	27	no	_	30	le	_	28	non	_	23	gebruik	_	26	não	_
+27	usavam	27	لم	_	1	?	_	1	?	_	27	amputacemi	_	?	?	?	?	?	?	?	?	28	iban	_	32	n'utilisaient	_	29	volevano	_	24	maakten	_	27	usavam	_
+28	as	30	أطرافهم	_	1	?	_	1	?	_	26	s	_	31	ihre	_	33	prostheses.	_	_	_	29	a	_	35	prothèses.	_	32	protesi.	_	27	protheses.	_	28	as	_
+29	suas	31	الأصطناعية	_	1	?	_	1	?	_	29	užívat	_	31	ihre	_	32	their	_	_	_	30	usar	_	34	leurs	_	30	usare	_	26	hun	_	29	suas	_
+30	próteses.	24	الأطراف	_	1	?	_	1	?	_	?	?	?	32	Prothesen	_	33	prostheses.	_	_	_	32	prótesis.	_	35	prothèses.	_	32	protesi.	_	27	protheses.	_	30	próteses.	_
+
+# sent_id = 131883
+# text:  A razão, como vim a saber mais tarde, era que o encaixe das próteses era doloroso por não ser um encaixe perfeito.
+# trans: A razão, como vim a saber mais tarde, era que o encaixe das próteses era doloroso por não ser um encaixe perfeito.
+# forward_log_prob: -66.61507975778501
+# backward_log_prob: -66.61431761729355
+1	A	2	،	_	1	?	_	1	?	_	?	?	?	1	Der	_	1	The	_	_	_	1	El	_	?	?	?	?	?	?	3	de	_	1	A	_
+2	razão,	1	والسبب	_	1	?	_	1	?	_	3	zjistil,	_	2	Grund,	_	2	reason,	_	_	_	2	motivo,	_	1	J'allais	_	2	motivo,	_	2	ontdekte	_	2	razão,	_
+3	como	3	الذي	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	Jak	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION	3	wie	COMPARISON|Synchronous.TEMPORAL	3	I	_	_	_	4	me	_	2	découvrir	_	1	Il	_	1	Ik	_	3	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+4	vim	4	حاولت	_	1	?	_	1	?	_	3	zjistil,	_	2	Grund,	_	5	come	_	_	_	3	luego	_	5	raison	_	4	seppi	_	2	ontdekte	_	4	vim	_
+5	a	5	أن	_	1	?	_	1	?	_	?	?	?	3	wie	COMPARISON|Synchronous.TEMPORAL	6	to	_	_	_	?	?	?	4	la	_	?	?	?	3	de	_	5	a	_
+6	saber	6	أجده	_	1	?	_	1	?	_	4	důvod	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	später	precedence.Asynchronous.TEMPORAL	5	come	_	_	_	5	daría	_	5	raison	_	4	seppi	_	4	reden	_	6	saber	_
+7	mais	6	أجده	_	1	?	_	1	?	_	6	ten,	_	5	später	precedence.Asynchronous.TEMPORAL	7	find	_	_	_	5	daría	_	5	raison	_	6	era	_	4	reden	_	7	mais	Conjunction.EXPANSION|EXPANSION
+8	tarde,	6	أجده	_	1	?	_	1	?	_	6	ten,	_	6	herausfand,	_	7	find	_	_	_	6	cuenta,	_	7	était	_	6	era	_	5	hiervoor:	_	8	tarde,	_
+9	era	5	أن	_	1	?	_	1	?	_	5	byl	_	7	waren	_	9	was	_	_	_	7	era	_	7	était	_	8	le	_	5	hiervoor:	_	9	era	_
+10	que	8	أن	_	1	?	_	1	?	_	7	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	Prothesenschäfte,	_	10	that	_	_	_	8	que	_	8	que	_	7	che	_	6	de	_	10	que	_
+11	o	7	كان	_	1	?	_	1	?	_	7	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	11	their	_	_	_	?	?	?	9	l'emboîture	_	?	?	?	?	?	?	11	o	_
+12	encaixe	12	كانت	_	1	?	_	1	?	_	10	pouzdrech	_	8	die	_	12	prosthetic	_	_	_	12	producían	_	9	l'emboîture	_	?	?	?	6	de	_	12	encaixe	_
+13	das	12	كانت	_	1	?	_	1	?	_	10	pouzdrech	_	10	die	_	11	their	_	_	_	13	dolor	_	11	leurs	_	11	provocavano	_	?	?	?	13	das	_
+14	próteses	10	الأطراف	_	1	?	_	1	?	_	10	pouzdrech	_	?	?	?	13	sockets	_	_	_	10	encajes	_	12	prothèses	_	10	protesiche	_	7	prothesekokers	_	14	próteses	_
+15	era	13	تؤلم	_	1	?	_	1	?	_	12	způsobovaly	_	12	verursachten,	_	15	painful	_	_	_	12	producían	_	13	était	_	12	dolore	_	10	omdat	reason.Cause.CONTIGENCY	15	era	_
+16	doloroso	14	لأنها	_	1	?	_	1	?	_	12	způsobovaly	_	11	Schmerzen	_	15	painful	_	_	_	12	producían	_	14	douloureuse	_	12	dolore	_	8	waren	_	16	doloroso	_
+17	por	14	لأنها	_	1	?	_	1	?	_	13	nohám	_	13	weil	reason.Cause.CONTIGENCY	16	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	13	dolor	_	15	car	specification.Restatement.EXPANSION	13	poiché	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	10	omdat	reason.Cause.CONTIGENCY	17	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+18	não	15	لا	Contrast.COMPARISON	1	?	_	1	?	_	?	?	?	15	nicht	_	19	not	_	_	_	15	no	_	19	pas	_	14	non	_	12	niet	_	18	não	_
+19	ser	16	تناسب	_	1	?	_	1	?	_	15	protože	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	sie	_	17	they	_	_	_	14	porque	CONTIGENCY|Cause.CONTIGENCY	17	ne	_	?	?	?	11	ze	_	19	ser	_
+20	um	19	.	_	1	?	_	1	?	_	16	vůbec	_	16	gut	_	?	?	?	?	?	13	dolor	_	18	s'adaptait	_	?	?	?	13	goed	_	20	um	_
+21	encaixe	18	المبتورة	_	1	?	_	1	?	_	16	vůbec	_	16	gut	_	20	fit	_	_	_	16	calzaban	_	20	bien.	_	15	si	_	13	goed	_	21	encaixe	_
+22	perfeito.	17	الأطرافهم	_	1	?	_	1	?	_	17	neseděly.	_	17	passten.	_	21	well.	_	_	_	17	bien.	_	20	bien.	_	16	adattavano	_	14	pasten.	_	22	perfeito.	_
+
+# sent_id = 131884
+# text:  O encaixe de uma prótese é a parte em que o amputado insere o coto do membro, e que liga com a articulação prostética.
+# trans: O encaixe de uma prótese é a parte em que o amputado insere o coto do membro, e que liga com a articulação prostética.
+# forward_log_prob: -71.02448978226157
+# backward_log_prob: -71.06808153471587
+1	O	5	ذلك	_	1	?	_	1	?	_	3	část	_	?	?	?	?	?	?	?	?	1	El	_	1	L'emboîture	_	1	L'invasatura	_	2	prothesekoker	_	1	O	_
+2	encaixe	1	محجر	_	1	?	_	1	?	_	?	?	?	1	Der	_	1	The	_	_	_	2	encaje	_	1	L'emboîture	_	2	protesica	_	1	De	_	2	encaixe	_
+3	de	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	4	la	_	?	?	?	3	de	_
+4	uma	3	الاصطناعي	_	1	?	_	1	?	_	9	končetiny	_	5	Teil,	_	?	?	?	?	?	5	la	_	7	partie	_	5	parte	_	6	van	_	4	uma	_
+5	prótese	3	الاصطناعي	_	1	?	_	1	?	_	1	Pouzdro	_	2	Prothesenschaft	_	4	is	_	_	_	3	ortopédico	_	6	la	_	2	protesica	_	3	is	_	5	prótese	_
+6	é	2	الطرف	_	1	?	_	1	?	_	2	je	_	3	ist	_	4	is	_	_	_	4	es	_	5	est	_	3	è	_	4	het	_	6	é	_
+7	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	5	the	_	_	_	5	la	_	?	?	?	8	la	_	7	de	_	7	a	_
+8	parte	8	يضع	_	1	?	_	1	?	_	7	člověk	_	5	Teil,	_	6	part	_	_	_	6	parte	_	7	partie	_	5	parte	_	5	deel	_	8	parte	_
+9	em	8	يضع	_	1	?	_	1	?	_	?	?	?	6	in	_	7	in	_	_	_	6	parte	_	7	partie	_	6	in	_	9	dat	_	9	em	_
+10	que	13	من	_	1	?	_	1	?	_	6	které	_	6	in	_	9	the	_	_	_	12	que	_	8	dans	_	?	?	?	9	dat	_	10	que	_
+11	o	9	فيه	_	1	?	_	1	?	_	5	do	_	8	der	_	11	inserts	_	_	_	8	el	_	11	personne	_	9	persona	_	8	prothese	_	11	o	_
+12	amputado	10	الشخص	_	1	?	_	1	?	_	8	bez	_	8	der	_	10	amputee	_	_	_	9	amputado	_	12	amputée	_	10	mutilata	_	11	vastgemaakt	_	12	amputado	_
+13	insere	12	تبقى	_	1	?	_	1	?	_	10	vloží	_	7	welchen	_	11	inserts	_	_	_	10	introduce	_	11	personne	_	9	persona	_	10	wordt	_	13	insere	_
+14	o	11	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	10	vloží	_	11	Stumpf	_	12	their	_	_	_	13	quedó	_	14	son	_	12	l'arto	_	?	?	?	14	o	_
+15	coto	14	طرفه	_	1	?	_	1	?	_	11	pahýl	_	12	steckt,	_	13	residual	_	_	_	13	quedó	_	14	son	_	12	l'arto	_	14	stomp,	_	15	coto	_
+16	do	15	المبتور	_	1	?	_	1	?	_	12	nohy.	_	13	der	_	16	which	_	_	_	?	?	?	19	relie	_	13	residuo,	_	13	de	_	16	do	_
+17	membro,	15	المبتور	_	1	?	_	1	?	_	13	Pod	_	12	steckt,	_	14	limb,	_	_	_	15	su	_	19	relie	_	13	residuo,	_	?	?	?	17	membro,	_
+18	e	17	،	_	1	?	_	1	?	_	12	nohy.	_	?	?	?	15	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	de	_	16	et	Conjunction.EXPANSION	14	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	15	en	Conjunction.EXPANSION	18	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+19	que	17	،	_	1	?	_	1	?	_	15	je	_	15	der	_	?	?	?	?	?	?	?	?	17	qui	_	15	che	_	16	dat	_	19	que	_
+20	liga	18	والذي	specification.Restatement.EXPANSION	1	?	_	1	?	_	14	ním	_	16	eigentlichen	_	17	connects	_	_	_	16	miembro	_	21	la	_	16	si	_	17	deze	_	20	liga	_
+21	com	19	يربطه	_	1	?	_	1	?	_	14	ním	_	16	eigentlichen	_	16	which	_	_	_	17	uniéndolo	_	?	?	?	17	collega	_	?	?	?	21	com	_
+22	a	22	.	_	1	?	_	1	?	_	15	je	_	19	ist.	_	18	to	_	_	_	?	?	?	23	de	_	?	?	?	20	de	_	22	a	_
+23	articulação	20	بالكاحل	_	1	?	_	1	?	_	16	připojen	_	18	verbunden	_	17	connects	_	_	_	18	al	_	22	prothèse	_	18	alla	_	19	met	_	23	articulação	_
+24	prostética.	20	بالكاحل	_	1	?	_	1	?	_	16	připojen	_	18	verbunden	_	17	connects	_	_	_	19	tobillo	_	22	prothèse	_	18	alla	_	19	met	_	24	prostética.	_
+
+# sent_id = 131885
+# text:  Mesmo no mundo desenvolvido, demora um período de três semanas a anos até um paciente ter um encaixe confortável, se é que chega a ter.
+# trans: Mesmo no mundo desenvolvido, demora um período de três semanas a anos até um paciente ter um encaixe confortável, se é que chega a ter.
+# forward_log_prob: -77.67455148342303
+# backward_log_prob: -77.67201603525106
+1	Mesmo	1	حتى	_	1	?	_	1	?	_	3	rozvinutém	_	1	Selbst	_	1	Even	_	_	_	1	Incluso	_	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	?	?	?	1	Zelfs	_	1	Mesmo	_
+2	no	2	في	_	1	?	_	1	?	_	3	rozvinutém	_	2	in	_	2	in	_	_	_	2	en	_	2	dans	_	3	Paesi	_	1	Zelfs	_	2	no	_
+3	mundo	1	حتى	_	1	?	_	1	?	_	3	rozvinutém	_	1	Selbst	_	4	developed	_	_	_	1	Incluso	_	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	1	Anche	Concession.COMPARISON|Conjunction.EXPANSION	1	Zelfs	_	3	mundo	_
+4	desenvolvido,	4	العالم	_	1	?	_	1	?	_	3	rozvinutém	_	4	Industrieländern	_	4	developed	_	_	_	4	países	_	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	3	Paesi	_	4	ontwikkelde	_	4	desenvolvido,	_
+5	demora	5	المتقدم	_	1	?	_	1	?	_	4	světě	_	4	Industrieländern	_	5	world,	_	_	_	5	desarrollados,	_	5	développés,	_	4	sviluppati,	_	4	ontwikkelde	_	5	demora	_
+6	um	6	،	_	1	?	_	1	?	_	5	trvá	_	6	es	_	8	a	_	_	_	7	un	_	4	pays	_	5	ci	_	5	landen	_	6	um	_
+7	período	7	يستغرق	_	1	?	_	1	?	_	6	mnohdy	_	7	drei	_	7	takes	_	_	_	?	?	?	7	prend	_	6	vogliono	_	6	duurt	_	7	período	_
+8	de	9	من	_	1	?	_	1	?	_	?	?	?	?	?	?	10	of	_	_	_	?	?	?	?	?	?	?	?	?	7	het	_	8	de	_
+9	três	8	الأمر	_	1	?	_	1	?	_	7	tři	_	8	Wochen	_	9	period	_	_	_	9	le	_	9	3	_	7	spesso	_	6	duurt	_	9	três	_
+10	semanas	10	3	_	1	?	_	1	?	_	8	týdny	_	9	bis	precedence.Asynchronous.TEMPORAL	11	three	_	_	_	10	lleva	_	10	semaines	_	8	dalle	_	8	drie	_	10	semanas	_
+11	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	13	to	_	_	_	?	?	?	?	?	?	?	?	?	3	de	_	11	a	_
+12	anos	12	إلى	_	1	?	_	1	?	_	10	občas	_	12	Jahren,	_	15	years	_	_	_	16	años	_	?	?	?	13	anni	_	12	jaren	_	12	anos	_
+13	até	13	عدة	_	1	?	_	1	?	_	10	občas	_	11	zu	_	12	weeks	_	_	_	13	semanas	_	13	années	_	10	settimane	_	10	tot	_	13	até	_
+14	um	15	ليحصل	_	1	?	_	1	?	_	?	?	?	12	Jahren,	_	15	years	_	_	_	?	?	?	16	patient	_	15	un	_	11	vaak	_	14	um	_
+15	paciente	16	المريض	_	1	?	_	1	?	_	12	roky,	_	13	bis	precedence.Asynchronous.TEMPORAL	?	?	?	?	?	15	varios	_	14	pour	specification.Restatement.EXPANSION	16	paziente	_	11	vaak	_	15	paciente	_
+16	ter	15	ليحصل	_	1	?	_	1	?	_	13	než	Asynchronous.TEMPORAL|Exception.EXPANSION	13	bis	precedence.Asynchronous.TEMPORAL	?	?	?	?	?	17	conseguir	_	15	qu'un	_	14	affinché	PragmaticCause.CONTIGENCY	12	jaren	_	16	ter	_
+17	um	20	،	_	1	?	_	1	?	_	?	?	?	15	ein	_	17	a	_	_	_	18	un	_	16	patient	_	15	un	_	14	een	_	17	um	_
+18	encaixe	19	مريح	_	1	?	_	1	?	_	?	?	?	?	?	?	19	to	_	_	_	19	encaje	_	?	?	?	16	paziente	_	15	prothesekoker	_	18	encaixe	_
+19	confortável,	?	?	?	1	?	_	1	?	_	15	pacienti	_	16	Patient	_	18	patient	_	_	_	20	cómodo	_	17	obtienne	_	17	ottenga	_	16	-	_	19	confortável,	_
+20	se	21	اذا	Condition.CONTIGENCY	1	?	_	1	?	_	20	pokud	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION|PragmaticCondition.CONTIGENCY	21	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	24	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	20	cómodo	_	19	emboîture	_	20	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	16	-	_	20	se	CONTIGENCY|Condition.CONTIGENCY
+21	é	?	?	?	1	?	_	1	?	_	20	pokud	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION|PragmaticCondition.CONTIGENCY	18	den	_	21	a	_	_	_	19	encaje	_	?	?	?	18	un'invasatura	_	?	?	?	21	é	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+22	que	22	لم	_	1	?	_	1	?	_	18	protéz	_	18	den	_	?	?	?	?	?	22	a	_	?	?	?	?	?	?	?	?	?	22	que	_
+23	chega	23	يكن	_	1	?	_	1	?	_	19	zvyknou,	_	19	Schaft	_	22	comfortable	_	_	_	26	consigue	_	21	s'il	_	19	confortevole,	_	17	misschien	_	23	chega	_
+24	a	26	.	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	25	lo	_	24	une.	_	?	?	?	19	goed	_	24	a	_
+25	ter.	25	الأبد	_	1	?	_	1	?	_	21	vůbec.	_	22	überhaupt.	_	25	ever.	_	_	_	27	nunca.	_	23	obtient	_	21	possibile.	_	20	past.	_	25	ter.	_
+
+# sent_id = 131886
+# text:  Os protésicos ainda usam processos convencionais, como a criação de moldes e gesso, para confecionar encaixes de próteses de um único material.
+# trans: Os protésicos ainda usam processos convencionais, como a criação de moldes e gesso, para confecionar encaixes de próteses de um único material.
+# forward_log_prob: -67.37945825286435
+# backward_log_prob: -67.3738107203412
+1	Os	1	أخصائيي	_	1	?	_	1	?	_	1	Protetikové	_	1	Prothesenbauer	_	1	Prosthetists	_	_	_	?	?	?	1	Les	_	1	I	_	1	Prothesemakers	_	1	Os	_
+2	protésicos	1	أخصائيي	_	1	?	_	1	?	_	1	Protetikové	_	1	Prothesenbauer	_	1	Prosthetists	_	_	_	2	técnicos	_	2	prothésistes	_	2	protesisti	_	1	Prothesemakers	_	2	protésicos	_
+3	ainda	1	أخصائيي	_	1	?	_	1	?	_	2	nadále	_	4	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	técnicos	_	4	encore	Exception.EXPANSION	4	ancora	_	1	Prothesemakers	_	3	ainda	Conjunction.EXPANSION|EXPANSION
+4	usam	4	مازالوا	_	1	?	_	1	?	_	2	nadále	_	2	benutzen	_	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	4	usan	_	3	utilisent	_	3	usano	_	4	technieken	_	4	usam	_
+5	processos	4	مازالوا	_	1	?	_	1	?	_	3	používají	_	3	immer	_	5	processes	_	_	_	5	procesos	_	5	des	_	5	metodi	_	4	technieken	_	5	processos	_
+6	convencionais,	2	الأطراف	_	1	?	_	1	?	_	4	běžné	_	3	immer	_	4	conventional	_	_	_	6	convencionales	_	7	traditionnels	_	6	convenzionali	_	3	conventionele	_	6	convencionais,	_
+7	como	?	?	?	1	?	_	1	?	_	5	metody	_	4	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	?	?	?	?	?	3	ortopédicos	_	?	?	?	7	come	EXPANSION|Synchronous.TEMPORAL	?	?	?	7	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+8	a	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	8	la	_	?	?	?	8	a	_
+9	criação	6	عمليات	_	1	?	_	1	?	_	5	metody	_	?	?	?	?	?	?	?	?	8	el	_	10	moulage	_	9	formatura	_	?	?	?	9	criação	_
+10	de	?	?	?	1	?	_	1	?	_	6	jako	Conjunction.EXPANSION	?	?	?	?	?	?	?	?	10	por	CONTIGENCY|Cause.CONTIGENCY	9	le	_	8	la	_	?	?	?	10	de	_
+11	moldes	7	تقليدية	_	1	?	_	1	?	_	7	odlévání	_	5	konventionelle	_	6	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	9	moldeo	_	8	comme	COMPARISON|specification.Restatement.EXPANSION	9	formatura	_	6	vormen	_	11	moldes	_
+12	e	?	?	?	1	?	_	1	?	_	8	k	_	9	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	11	et	Conjunction.EXPANSION	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	7	en	Conjunction.EXPANSION	12	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+13	gesso,	10	والصب	_	1	?	_	1	?	_	7	odlévání	_	8	Pressen	_	9	casting	_	_	_	14	fundición	_	13	coulage	_	9	formatura	_	8	gieten	_	13	gesso,	_
+14	para	12	محجر	_	1	?	_	1	?	_	8	k	_	11	um	_	10	to	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	14	pour	specification.Restatement.EXPANSION	13	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	9	om	PragmaticCause.CONTIGENCY	14	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+15	confecionar	11	لصناعة	_	1	?	_	1	?	_	7	odlévání	_	10	Gießen,	_	9	casting	_	_	_	14	fundición	_	13	coulage	_	12	colata	_	8	gieten	_	15	confecionar	_
+16	encaixes	11	لصناعة	_	1	?	_	1	?	_	10	pouzder	_	10	Gießen,	_	14	sockets.	_	_	_	17	encajes	_	16	des	_	15	invasature	_	10	prothesekokers	_	16	encaixes	_
+17	de	14	من	_	1	?	_	1	?	_	11	z	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	11	te	_	17	de	_
+18	próteses	15	مادة	_	1	?	_	1	?	_	11	z	_	?	?	?	?	?	?	?	?	18	ortopédicos	_	?	?	?	16	protesiche	_	10	prothesekokers	_	18	próteses	_
+19	de	14	من	_	1	?	_	1	?	_	11	z	_	?	?	?	?	?	?	?	?	19	de	_	?	?	?	?	?	?	11	te	_	19	de	_
+20	um	17	.	_	1	?	_	1	?	_	12	jednoho	_	11	um	_	?	?	?	?	?	20	un	_	20	d'un	_	14	creare	_	12	maken	_	20	um	_
+21	único	16	واحدة	_	1	?	_	1	?	_	12	jednoho	_	12	Unibody-Prothesenschäfte	_	12	single-material	_	_	_	21	solo	_	19	faites	_	17	monomateriali.	_	14	één	_	21	único	_
+22	material.	16	واحدة	_	1	?	_	1	?	_	13	materiálu.	_	12	Unibody-Prothesenschäfte	_	12	single-material	_	_	_	22	material.	_	22	matériau.	_	17	monomateriali.	_	15	materiaal.	_	22	material.	_
+
+# sent_id = 131887
+# text:  Esses encaixes provocam uma quantidade intolerável de pressão nos membros dos pacientes, deixando-os com escaras e feridas.
+# trans: Esses encaixes provocam uma quantidade intolerável de pressão nos membros dos pacientes, deixando-os com escaras e feridas.
+# forward_log_prob: -51.05357625415514
+# backward_log_prob: -51.04399871575684
+1	Esses	1	ومثل	_	1	?	_	1	?	_	1	Taková	_	1	Solche	_	1	Such	_	_	_	1	Muchas	_	2	telles	_	1	Tali	_	1	Zulke	_	1	Esses	_
+2	encaixes	2	هذه	_	1	?	_	1	?	_	2	pouzdra	_	2	Schäfte	_	2	sockets	_	_	_	4	encajes	_	3	emboîtures	_	2	invasature	_	2	kokers	_	2	encaixes	_
+3	provocam	3	المحاجر	_	1	?	_	1	?	_	3	často	_	3	üben	_	3	often	_	Contrast.COMPARISON	_	3	estos	_	4	entraînent	_	3	esercitano	_	3	geven	_	3	provocam	_
+4	uma	6	لا	Contrast.COMPARISON	1	?	_	1	?	_	?	?	?	6	Druck	_	7	of	_	_	_	?	?	?	6	une	_	5	una	_	11	van	_	4	uma	_
+5	quantidade	5	كمية	_	1	?	_	1	?	_	4	vytváří	_	5	unerträglichen	_	5	intolerable	_	_	_	5	generan	_	5	souvent	_	7	insopportabile	_	6	veel	_	5	quantidade	_
+6	intolerável	7	تحتمل	_	1	?	_	1	?	_	5	nesnesitelný	_	5	unerträglichen	_	6	amounts	_	_	_	6	niveles	_	8	intolérable	_	7	insopportabile	_	6	veel	_	6	intolerável	_
+7	de	8	من	_	1	?	_	1	?	_	7	na	_	?	?	?	?	?	?	?	?	7	de	_	10	le	_	?	?	?	?	?	?	7	de	_
+8	pressão	9	الضغط	_	1	?	_	1	?	_	10	což	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	6	Druck	_	8	pressure	_	_	_	8	presión	_	7	pression	_	6	pressione	_	13	patiënt,	_	8	pressão	_
+9	nos	?	?	?	1	?	_	1	?	_	10	což	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	9	Glieder	_	11	limbs	_	_	_	9	insoportables	_	8	intolérable	_	9	arti	_	?	?	?	9	nos	_
+10	membros	?	?	?	1	?	_	1	?	_	8	končetiny	_	9	Glieder	_	11	limbs	_	_	_	11	los	_	11	moignon	_	9	arti	_	15	zorgt	_	10	membros	_
+11	dos	14	مخلفةً	_	1	?	_	1	?	_	9	pacientů,	_	7	auf	_	12	of	_	_	_	12	miembros	_	15	laissant	_	12	provocando	_	15	zorgt	_	12	pacientes,	_
+12	pacientes,	14	مخلفةً	_	1	?	_	1	?	_	9	pacientů,	_	7	auf	_	15	leaving	_	_	_	12	miembros	_	15	laissant	_	12	provocando	_	15	zorgt	_	11	dos	_
+13	deixando-os	14	مخلفةً	_	1	?	_	1	?	_	11	jim	_	14	verursachen	_	16	them	_	_	_	14	paciente,	_	14	leur	_	13	lesioni	_	14	wat	_	13	deixando-os	_
+14	com	14	مخلفةً	_	1	?	_	1	?	_	12	způsobuje	_	12	aus	_	18	pressure	_	_	_	15	provocándoles	_	?	?	?	15	pressione	_	12	de	_	14	com	_
+15	escaras	15	تقرحات	_	1	?	_	1	?	_	13	otlaky	_	15	Druckwunden	_	19	sores	_	_	_	16	úlceras	_	17	escarres	_	15	pressione	_	17	drukplekken	_	15	escaras	_
+16	e	13	،	_	1	?	_	1	?	_	14	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	16	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	17	y	_	18	et	Conjunction.EXPANSION	16	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	16	voor	succession.Asynchronous.TEMPORAL	16	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+17	feridas.	?	?	?	1	?	_	1	?	_	15	puchýře.	_	17	Blasen.	_	21	blisters.	_	_	_	18	ampollas.	_	20	ampoules.	_	17	vesciche	_	19	blaren.	_	17	feridas.	_
+
+# sent_id = 131888
+# text:  Não importa a alta qualidade de uma prótese.
+# trans: Não importa a alta qualidade de uma prótese.
+# forward_log_prob: -16.800876388531634
+# backward_log_prob: -16.81238732886873
+1	Não	1	لا	Contrast.COMPARISON	1	?	_	1	?	_	2	nezáleží	_	1	Ganz	_	3	not	_	_	_	1	No	_	1	Peu	Conjunction.EXPANSION	2	non	_	1	Het	_	1	Não	_
+2	importa	2	يهم	_	1	?	_	1	?	_	2	nezáleží	_	2	gleich,	_	1	It	_	_	_	2	importa	_	2	importe	_	3	è	_	2	maakt	_	2	importa	_
+3	a	?	?	?	1	?	_	1	?	_	3	na	_	3	wie	COMPARISON|Synchronous.TEMPORAL	3	not	_	_	_	3	lo	_	3	la	_	?	?	?	4	niet	_	3	a	_
+4	alta	3	مدى	_	1	?	_	1	?	_	4	tom,	_	3	wie	COMPARISON|Synchronous.TEMPORAL	4	matter	_	_	_	4	buena	_	4	puissance	_	5	quanto	_	5	uit	_	4	alta	_
+5	qualidade	4	قوة	_	1	?	_	1	?	_	6	dobrý	_	4	leistungsfähig	_	6	powerful	_	_	_	4	buena	_	4	puissance	_	7	forte	_	7	sterk	_	5	qualidade	_
+6	de	7	.	_	1	?	_	1	?	_	?	?	?	?	?	?	8	prosthetic	_	_	_	5	que	_	5	de	_	8	la	_	?	?	?	6	de	_
+7	uma	6	الاصطناعي	_	1	?	_	1	?	_	8	kloub	_	5	die	_	9	ankle	_	_	_	7	la	_	7	cheville	_	10	caviglia	_	10	enkel	_	7	uma	_
+8	prótese.	6	الاصطناعي	_	1	?	_	1	?	_	7	je	_	7	ist,	_	9	ankle	_	_	_	6	sea	_	7	cheville	_	11	protesica.	_	9	prothetische	_	8	prótese.	_
+
+# sent_id = 131889
+# text:  Se o encaixe da nossa prótese for desconfortável, não usaremos a perna, e isso é inaceitável nos nossos tempos.
+# trans: Se o encaixe da nossa prótese for desconfortável, não usaremos a perna, e isso é inaceitável nos nossos tempos.
+# forward_log_prob: -57.42955139843137
+# backward_log_prob: -57.42937043681562
+1	Se	1	اذا	Condition.CONTIGENCY	1	?	_	1	?	_	1	Pokud	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Conjunction.EXPANSION|PragmaticCondition.CONTIGENCY	1	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	1	Se	CONTIGENCY|Condition.CONTIGENCY
+2	o	2	كان	_	1	?	_	1	?	_	3	pouzdro	_	2	der	_	3	prosthetic	_	_	_	2	el	_	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	2	l'invasatura	_	?	?	?	2	o	_
+3	encaixe	2	كان	_	1	?	_	1	?	_	3	pouzdro	_	3	Prothesenschaft	_	4	socket	_	_	_	3	encaje	_	3	emboîture	_	3	protesica	_	?	?	?	3	encaixe	_
+4	da	4	غير	_	1	?	_	1	?	_	4	nepohodlné,	_	4	unbequem	_	6	uncomfortable,	_	_	_	5	es	_	4	est	_	4	provoca	_	?	?	?	4	da	_
+5	nossa	3	محجره	_	1	?	_	1	?	_	4	nepohodlné,	_	4	unbequem	_	6	uncomfortable,	_	_	_	6	incómodo,	_	5	inconfortable,	_	5	fastidio,	_	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	5	nossa	_
+6	prótese	7	فلن	_	1	?	_	1	?	_	2	je	_	3	Prothesenschaft	_	5	is	_	_	_	4	ortopédico	_	2	votre	_	?	?	?	5	is,	_	6	prótese	_
+7	for	7	فلن	_	1	?	_	1	?	_	5	nedokážete	_	4	unbequem	_	7	you	_	_	_	?	?	?	6	vous	_	7	userete	_	7	gebruik	_	7	for	_
+8	desconfortável,	8	تستخدم	_	1	?	_	1	?	_	6	protézu	_	4	unbequem	_	8	will	_	_	_	8	se	_	7	n'utiliserez	_	7	userete	_	8	je	_	8	desconfortável,	_
+9	não	?	?	?	1	?	_	1	?	_	7	naplno	_	10	nicht	_	9	not	_	_	_	7	no	_	8	pas	_	6	non	_	11	niet,	_	9	não	_
+10	usaremos	?	?	?	1	?	_	1	?	_	8	využít,	_	9	Prothese	_	10	use	_	_	_	9	usará	_	9	votre	_	9	vostra	_	9	je	_	10	usaremos	_
+11	a	?	?	?	1	?	_	1	?	_	?	?	?	8	die	_	?	?	?	?	?	10	la	_	?	?	?	8	la	_	?	?	?	11	a	_
+12	perna,	11	وذلك	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY|TEMPORAL|result.Cause.CONTIGENCY	1	?	_	1	?	_	9	což	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	11	nutzen,	_	12	leg,	_	_	_	11	pierna	_	10	jambe,	_	10	gamba,	_	?	?	?	12	perna,	_
+13	e	10	،	_	1	?	_	1	?	_	10	je	_	12	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	11	et	Conjunction.EXPANSION	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	12	en	Conjunction.EXPANSION	13	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+14	isso	14	غير	_	1	?	_	1	?	_	11	v	_	13	das	_	19	in	_	_	_	13	eso	_	?	?	?	12	questo	_	13	dat	_	14	isso	_
+15	é	15	مقبول	_	1	?	_	1	?	_	10	je	_	14	ist	_	15	is	_	_	_	14	es	_	15	à	specification.Restatement.EXPANSION	13	è	_	14	is	_	15	é	_
+16	inaceitável	15	مقبول	_	1	?	_	1	?	_	14	jednoduše	_	13	das	_	17	simply	_	_	_	15	sencillamente	_	13	simplement	_	14	davvero	_	15	onaanvaardbaar	_	16	inaceitável	_
+17	nos	17	عصرنا	_	1	?	_	1	?	_	12	naší	_	15	heutzutage	_	21	age.	_	_	_	17	en	_	16	notre	_	16	al	_	17	deze	_	17	nos	_
+18	nossos	?	?	?	1	?	_	1	?	_	14	jednoduše	_	16	einfach	_	16	just	_	_	_	16	inadmisible	_	12	c'est	_	15	inaccettabile	_	?	?	?	18	nossos	_
+19	tempos.	18	هذا	_	1	?	_	1	?	_	15	nepřijatelné.	_	17	inakzeptabel.	_	?	?	?	?	?	16	inadmisible	_	?	?	?	15	inaccettabile	_	?	?	?	19	tempos.	_
+
+# sent_id = 131890
+# text:  Um dia, quando conheci o Professor Hugh Herr, há cerca de dois anos e meio, ele perguntou-me se eu sabia como resolver esse problema. Eu disse: "Não, ainda não, "mas gostaria muito de descobrir."
+# trans: Um dia, quando conheci o Professor Hugh Herr, há cerca de dois anos e meio, ele perguntou-me se eu sabia como resolver esse problema. Eu disse: "Não, ainda não, "mas gostaria muito de descobrir."
+# forward_log_prob: -119.71575193488903
+# backward_log_prob: -119.7398519884194
+1	Um	1	في	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	2	un	_	1	Un	_	?	?	?	2	ik	_	1	Um	_
+2	dia,	2	اليوم	_	1	?	?	1	?	?	4	dne	_	1	Damals,	_	3	day,	_	_	_	1	Entonces	TEMPORAL	2	jour,	_	2	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	professor	_	2	dia,	_
+3	quando	4	ألتقيت	_	1	?	?	1	?	?	1	Když	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	2	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	4	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	3	día,	_	4	rencontré	_	3	incontrai	_	1	Toen	precedence.Asynchronous.TEMPORAL	3	quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
+4	conheci	4	ألتقيت	_	1	?	?	1	?	?	4	dne	_	4	Professor	_	6	met	_	_	_	4	cuando	TEMPORAL	4	rencontré	_	3	incontrai	_	3	professor	_	4	conheci	_
+5	o	3	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	?	?	?	3	ich	_	5	I	_	_	_	6	al	_	5	le	_	?	?	?	2	ik	_	5	o	_
+6	Professor	6	البروفيسور	_	1	?	?	1	?	?	6	asi	_	5	Hugh	_	7	professor	_	_	_	5	conocí	_	6	professeur	_	5	professor	_	5	Herr	_	6	Professor	_
+7	Hugh	8	هير	_	1	?	?	1	?	?	7	dvěma	_	6	Herr	_	8	Hugh	_	_	_	7	profesor	_	8	Herr,	_	6	Hugh	_	7	zo'n	_	7	Hugh	_
+8	Herr,	9	قبل	TEMPORAL	1	?	?	1	?	?	9	půl	_	8	zweieinhalb	_	9	Herr	_	_	_	7	profesor	_	9	il	_	7	Herr	_	8	tweeënhalf	_	8	Herr,	_
+9	há	9	قبل	TEMPORAL	1	?	?	1	?	?	10	lety	_	9	Jahren	_	10	about	_	_	_	10	hace	_	11	a	_	8	circa	_	9	jaar	_	9	há	_
+10	cerca	10	حوالي	_	1	?	?	1	?	?	10	lety	_	7	vor	_	10	about	_	_	_	10	hace	_	11	a	_	8	circa	_	9	jaar	_	10	cerca	_
+11	de	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	11	de	_
+12	dois	14	سألني	_	1	?	?	1	?	?	11	potkal	_	12	er	_	14	half	_	_	_	12	dos	_	12	deux	_	12	mezzo	_	11	vroeg	_	12	dois	_
+13	anos	?	?	?	1	?	?	1	?	?	10	lety	_	?	?	?	13	a	_	_	_	13	años	_	13	ans	_	10	anni	_	10	geleden,	_	13	anos	_
+14	e	13	،	_	1	?	?	1	?	?	16	se	_	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	14	y	_	14	et	Conjunction.EXPANSION	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+15	meio,	16	ماكنت	_	1	?	?	1	?	?	14	Herra,	_	14	fragte,	_	18	he	_	_	_	15	medio,	_	17	il	_	13	fa,	_	13	me	_	15	meio,	_
+16	ele	17	قد	_	1	?	?	1	?	?	15	ptal	_	14	fragte,	_	19	asked	_	_	_	15	medio,	_	19	demandé	_	16	chiese	_	16	oplossing	_	16	ele	_
+17	perguntou-me	18	وجدت	_	1	?	?	1	?	?	17	mě,	_	17	eine	_	19	asked	_	_	_	15	medio,	_	19	demandé	_	16	chiese	_	16	oplossing	_	17	perguntou-me	_
+18	se	15	اذا	Condition.CONTIGENCY	1	?	?	1	?	?	19	nevím,	_	18	Lösung	_	21	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	18	si	TEMPORAL	20	si	Concession.COMPARISON|Condition.CONTIGENCY	17	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	16	oplossing	_	18	se	CONTIGENCY|Condition.CONTIGENCY
+19	eu	21	المشكلة	_	1	?	?	1	?	?	?	?	?	16	ich	_	22	I	_	_	_	16	me	_	21	je	_	15	mi	_	18	dit	_	19	eu	_
+20	sabia	21	المشكلة	_	1	?	?	1	?	?	22	problém	_	20	dieses	_	23	knew	_	_	_	17	preguntó	_	22	savais	_	18	sapessi	_	19	probleem.	_	20	sabia	_
+21	como	23	فقلت	_	1	?	?	1	?	?	22	problém	_	?	?	?	25	to	_	_	_	16	me	_	?	?	?	19	come	EXPANSION|Synchronous.TEMPORAL	19	probleem.	_	21	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+22	resolver	23	فقلت	_	1	?	?	1	?	?	23	vyřešit.	_	22	hätte,	_	26	solve	_	_	_	20	cómo	_	25	problème,	_	20	risolvere	_	19	probleem.	_	22	resolver	_
+23	esse	23	فقلت	_	1	?	?	1	?	?	24	odpověděl	_	23	sagte	_	28	problem,	_	_	_	21	resolver	_	27	lui	_	20	risolvere	_	23	weet	_	23	esse	_
+24	problema.	28	ليس	_	1	?	?	1	?	?	24	odpověděl	_	25	"Nein,	_	28	problem,	_	_	_	21	resolver	_	28	ai	_	22	problema,	_	23	weet	_	24	problema.	_
+25	Eu	27	،	_	1	?	?	1	?	?	25	jsem:	_	24	ich:	_	29	I	_	_	_	23	problema.	_	26	je	_	?	?	?	22	"Ik	_	25	Eu	_
+26	disse:	28	ليس	_	1	?	?	1	?	?	21	tento	_	30	würde	_	30	said,	_	_	_	23	problema.	_	29	dit	_	?	?	?	21	zei:	_	26	disse:	_
+27	"Não,	26	لا	Contrast.COMPARISON	1	?	?	1	?	?	29	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	27	nicht,	_	32	not	_	_	_	27	no,	_	33	pas	_	26	non	_	26	niet,	_	27	"Não,	_
+28	ainda	?	?	?	1	?	?	1	?	?	28	ne,	_	26	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	33	yet,	_	_	_	26	"Todavía	_	34	encore,	_	27	ancora,	_	25	nog	_	28	ainda	Conjunction.EXPANSION|EXPANSION
+29	não,	?	?	?	1	?	?	1	?	?	29	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	27	nicht,	_	32	not	_	_	_	27	no,	_	33	pas	_	26	non	_	26	niet,	_	29	não,	_
+30	"mas	35	ذلك	_	1	?	?	1	?	?	29	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	19	für	PragmaticCause.CONTIGENCY	34	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	28	pero	precedence.Asynchronous.TEMPORAL	32	Non,	_	21	questo	_	29	wil	_	30	"mas	_
+31	gostaria	31	لكن	Concession.COMPARISON	1	?	?	1	?	?	30	ohromně	_	32	liebend	_	37	love	_	_	_	28	pero	precedence.Asynchronous.TEMPORAL	36	j'adorerais	_	28	ma	Concession.COMPARISON|Contrast.COMPARISON	29	wil	_	31	gostaria	_
+32	muito	34	محاولة	_	1	?	?	1	?	?	32	bych	_	32	liebend	_	39	figure	_	_	_	30	encantaría	_	37	trouver	_	29	vorrei	_	31	graag	_	32	muito	_
+33	de	36	.	_	1	?	?	1	?	?	33	na	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	30	het	_	33	de	_
+34	descobrir."	?	?	?	1	?	?	1	?	?	32	bych	_	33	gerne	_	40	it	_	_	_	31	descubrirlo".	_	38	un	_	30	riuscirci	_	31	graag	_	34	descobrir."	_
+
+# sent_id = 131891
+# text:  Então, para a minha tese de doutoramento no Media Lab da MIT, desenvolvi encaixes de próteses por medida, de forma rápida e barata, que são mais confortáveis que as próteses convencionais.
+# trans: Então, para a minha tese de doutoramento no Media Lab da MIT, desenvolvi encaixes de próteses por medida, de forma rápida e barata, que são mais confortáveis que as próteses convencionais.
+# forward_log_prob: -102.24450955987143
+# backward_log_prob: -102.2291682643432
+1	Então,	1	وعندما	Condition.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	?	1	?	?	?	?	?	1	Also	result.Cause.CONTIGENCY	?	?	?	?	?	1	Entonces,	_	1	»	_	?	?	?	1	Dus	result.Cause.CONTIGENCY	1	Então,	_
+2	para	?	?	?	1	?	?	1	?	?	1	A	Cause.CONTIGENCY|Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|specification.Restatement.EXPANSION	4	für	PragmaticCause.CONTIGENCY	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	para	CONTIGENCY|Cause.CONTIGENCY	3	pour	specification.Restatement.EXPANSION	3	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	2	voor	succession.Asynchronous.TEMPORAL	2	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+3	a	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	3	a	_
+4	minha	3	أحضر	_	1	?	?	1	?	?	5	rámci	_	5	meine	_	4	my	_	_	_	3	mi	_	4	mon	_	5	mio	_	3	mijn	_	4	minha	_
+5	tese	4	الدكتوراه	_	1	?	?	1	?	?	5	rámci	_	?	?	?	5	Ph.D.	_	_	_	4	doctorado	_	5	doctorat	_	6	dottorato	_	4	promoveren	_	5	tese	_
+6	de	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	6	de	_
+7	doutoramento	6	مختبر	_	1	?	?	1	?	?	6	svého	_	6	Doktorarbeit	_	5	Ph.D.	_	_	_	?	?	?	7	MIT	_	6	dottorato	_	5	aan	_	7	doutoramento	_
+8	no	5	في	_	1	?	?	1	?	?	13	pouzdra	_	7	am	_	6	at	_	_	_	7	Media	_	8	Media	_	4	il	_	6	het	_	8	no	_
+9	Media	?	?	?	1	?	?	1	?	?	12	typ	_	7	am	_	6	at	_	_	_	7	Media	_	8	Media	_	9	Media	_	8	Media	_	9	Media	_
+10	Lab	7	MIT	_	1	?	?	1	?	?	12	typ	_	7	am	_	9	Media	_	_	_	8	Lab	_	9	Lab,	_	9	Media	_	8	Media	_	10	Lab	_
+11	da	8	،	_	1	?	?	1	?	?	12	typ	_	7	am	_	9	Media	_	_	_	8	Lab	_	9	Lab,	_	?	?	?	8	Media	_	11	da	_
+12	MIT,	?	?	?	1	?	?	1	?	?	12	typ	_	9	Media	_	10	Lab,	_	_	_	8	Lab	_	9	Lab,	_	10	Lab,	_	9	Lab	_	12	MIT,	_
+13	desenvolvi	9	صممت	_	1	?	?	1	?	?	10	navrhl	_	8	MIT	_	12	designed	_	_	_	9	del	_	10	j'ai	_	11	ho	_	10	ontwierp	_	13	desenvolvi	_
+14	encaixes	?	?	?	1	?	?	1	?	?	13	pouzdra	_	?	?	?	15	sockets	_	_	_	12	encajes	_	12	des	_	13	invasature	_	?	?	?	14	encaixes	_
+15	de	10	محجر	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	15	de	_
+16	próteses	?	?	?	1	?	?	1	?	?	15	protézy,	_	12	Prothesenschäfte	_	?	?	?	?	?	13	ortopédicos	_	15	prothèses	_	14	protesiche	_	11	ik	_	16	próteses	_
+17	por	11	اصطناعي	_	1	?	?	1	?	?	14	pro	_	12	Prothesenschäfte	_	13	custom	_	_	_	15	medida,	_	?	?	?	?	?	?	?	?	?	17	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+18	medida,	12	معدَّل	_	1	?	?	1	?	?	16	jež	_	13	entworfen,	_	13	custom	_	_	_	15	medida,	_	16	personnalisables	_	15	personalizzate	_	12	maatwerk	_	18	medida,	_
+19	de	?	?	?	1	?	?	1	?	?	?	?	?	20	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	19	de	_
+20	forma	14	وبثمن	_	1	?	?	1	?	?	18	vyrobit	_	14	schnell	_	16	quickly	_	_	_	16	rápidos	_	20	bas	_	?	?	?	14	snel	_	20	forma	_
+21	rápida	15	رخيص	_	1	?	?	1	?	?	19	rychle	_	?	?	?	?	?	?	?	?	18	económicos,	_	20	bas	_	18	veloce	_	?	?	?	21	rápida	_
+22	e	?	?	?	1	?	?	1	?	?	20	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	15	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	17	y	_	18	et	Conjunction.EXPANSION	?	?	?	15	en	Conjunction.EXPANSION	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+23	barata,	16	وأكثر	_	1	?	?	1	?	?	21	levně	_	16	günstig,	_	18	cheaply	_	_	_	20	son	_	21	coût	_	20	economico	_	16	goedkoop,	_	23	barata,	_
+24	que	18	من	_	1	?	?	1	?	?	23	je	_	?	?	?	19	that	_	_	_	19	que	_	22	qui	_	21	che	_	17	die	_	24	que	_
+25	são	17	راحة	_	1	?	?	1	?	?	24	mnohem	_	18	mehr	_	20	are	_	_	_	21	más	_	21	coût	_	22	risultano	_	18	comfortabeler	_	25	são	_
+26	mais	17	راحة	_	1	?	?	1	?	?	24	mnohem	_	19	Tragekomfort	_	21	more	_	_	_	22	cómodos	_	21	coût	_	22	risultano	_	18	comfortabeler	_	26	mais	Conjunction.EXPANSION|EXPANSION
+27	confortáveis	?	?	?	1	?	?	1	?	?	24	mnohem	_	19	Tragekomfort	_	22	comfortable	_	_	_	22	cómodos	_	25	confortables	_	24	comode	_	19	zijn	_	27	confortáveis	_
+28	que	18	من	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	23	que	_	26	que	_	25	di	_	22	protheses.	_	28	que	_
+29	as	19	الأطراف	_	1	?	?	1	?	?	?	?	?	?	?	?	25	prostheses.	_	_	_	24	las	_	27	les	_	?	?	?	22	protheses.	_	29	as	_
+30	próteses	20	الاصطناعية	_	1	?	?	1	?	?	27	běžné	_	22	Prothesen.	_	25	prostheses.	_	_	_	25	prótesis	_	28	prothèses	_	27	convenzionali.	_	22	protheses.	_	30	próteses	_
+31	convencionais.	21	التقليدية	_	1	?	?	1	?	?	27	běžné	_	21	herkömmliche	_	24	conventional	_	_	_	26	convencionales.	_	29	traditionnelles.	_	27	convenzionali.	_	21	conventionele	_	31	convencionais.	_
+
+# sent_id = 131892
+# text:  Usei imagens de ressonância magnética para captar a real anatomia do paciente, depois usei modelagem por elementos finitos para prever melhor as tensões e os esforços internos sobre as forças normais, para depois criar um encaixe de prótese para fabrico.
+# trans: Usei imagens de ressonância magnética para captar a real anatomia do paciente, depois usei modelagem por elementos finitos para prever melhor as tensões e os esforços internos sobre as forças normais, para depois criar um encaixe de prótese para fabrico.
+# forward_log_prob: -140.67142144548552
+# backward_log_prob: -140.66003204722776
+1	Usei	1	استخدمت	_	1	?	?	1	?	?	1	Použil	_	1	Mittels	_	?	?	?	?	?	1	Hice	_	1	J'ai	_	1	Ho	_	2	gebruikte	_	1	Usei	_
+2	imagens	1	استخدمت	_	1	?	?	1	?	?	1	Použil	_	2	Magnetresonanztomografie	_	2	used	_	_	_	2	resonancias	_	2	utilisé	_	2	usato	_	2	gebruikte	_	2	imagens	_
+3	de	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	3	de	_
+4	ressonância	3	رنين	_	1	?	?	1	?	?	3	magnetickou	_	3	(MRT)	_	3	magnetic	_	_	_	3	magnéticas	_	4	par	_	4	risonanza	_	3	MRI-scans	_	4	ressonância	_
+5	magnética	4	مغناطيسي	_	1	?	?	1	?	?	4	rezonanci,	_	4	erfasste	_	5	imaging	_	_	_	5	conocer	_	5	résonance	_	5	magnetica	_	?	?	?	5	magnética	_
+6	para	4	مغناطيسي	_	1	?	?	1	?	?	5	abych	_	6	die	_	6	to	_	_	_	4	para	CONTIGENCY|Cause.CONTIGENCY	7	pour	specification.Restatement.EXPANSION	6	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	4	om	PragmaticCause.CONTIGENCY	6	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+7	captar	5	لألتقط	_	1	?	?	1	?	?	6	zmapoval	_	7	genaue	_	7	capture	_	_	_	5	conocer	_	8	prendre	_	7	registrare	_	6	daadwerkelijke	_	7	captar	_
+8	a	?	?	?	1	?	?	1	?	?	?	?	?	6	die	_	?	?	?	?	?	6	la	_	9	la	_	8	la	_	5	de	_	8	a	_
+9	real	7	الحقيقي	_	1	?	?	1	?	?	7	přesný	_	7	genaue	_	9	actual	_	_	_	8	real	_	10	forme	_	9	forma	_	8	vormen	_	9	real	_
+10	anatomia	7	الحقيقي	_	1	?	?	1	?	?	8	tvar	_	10	Anatomie	_	14	anatomy,	_	_	_	7	anatomía	_	13	l'anatomie	_	12	del	_	9	te	_	10	anatomia	_
+11	do	8	لأطراف	_	1	?	?	1	?	?	10	nohy.	_	9	der	_	12	the	_	_	_	9	del	_	13	l'anatomie	_	12	del	_	?	?	?	11	do	_
+12	paciente,	9	المريض	_	1	?	?	1	?	?	9	pacientovy	_	10	Anatomie	_	14	anatomy,	_	_	_	10	paciente,	_	15	patient,	_	13	paziente,	_	22	druk	_	12	paciente,	_
+13	depois	11	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	9	pacientovy	_	?	?	?	13	patient's	_	_	_	11	luego	_	16	puis	precedence.Asynchronous.TEMPORAL	11	dell'anatomia	_	12	daarna	precedence.Asynchronous.TEMPORAL	13	depois	Asynchronous.TEMPORAL|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL
+14	usei	11	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	11	Metodou	_	13	benutzte	_	15	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	12	modelé	_	16	puis	precedence.Asynchronous.TEMPORAL	16	usato	_	13	eindige	_	14	usei	_
+15	modelagem	11	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	12	konečných	_	13	benutzte	_	15	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	12	modelé	_	16	puis	precedence.Asynchronous.TEMPORAL	15	ho	_	14	elementen-modellering	_	15	modelagem	_
+16	por	12	استخدمت	_	1	?	?	1	?	?	12	konečných	_	13	benutzte	_	15	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	11	luego	_	17	la	_	14	poi	precedence.Asynchronous.TEMPORAL	16	beter	_	16	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+17	elementos	13	عناصر	_	1	?	?	1	?	?	13	prvků	_	13	benutzte	_	17	finite	_	_	_	16	predecir	_	18	modélisation	_	16	usato	_	16	beter	_	17	elementos	_
+18	finitos	13	عناصر	_	1	?	?	1	?	?	13	prvků	_	15	Berechnungstechnologie	_	18	element	_	_	_	16	predecir	_	20	éléments	_	18	modello	_	18	voorspellen	_	18	finitos	_
+19	para	14	قولبة	_	1	?	?	1	?	?	?	?	?	17	um	_	20	to	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	22	pour	specification.Restatement.EXPANSION	22	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	17	te	_	19	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+20	prever	15	محدودة	_	1	?	?	1	?	?	15	vytvořil	_	16	FEM,	_	19	modeling	_	_	_	18	exactitud	_	21	finis	_	19	ad	_	18	voorspellen	_	20	prever	_
+21	melhor	16	لتنبؤ	_	1	?	?	1	?	?	16	model,	_	16	FEM,	_	21	better	_	_	_	18	exactitud	_	23	mieux	equivalence.Restatement.EXPANSION	20	elementi	_	?	?	?	21	melhor	_
+22	as	17	أفضل	_	1	?	?	1	?	?	?	?	?	18	besser	_	21	better	_	_	_	19	las	_	25	les	_	?	?	?	?	?	?	22	as	_
+23	tensões	17	أفضل	_	1	?	?	1	?	?	18	lépe	_	18	besser	_	22	predict	_	_	_	20	presiones	_	24	prévoir	_	23	prevedere	_	21	interne	_	23	tensões	_
+24	e	10	،	_	1	?	?	1	?	?	21	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	27	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	26	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	21	y	_	27	et	Conjunction.EXPANSION	26	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	23	en	Conjunction.EXPANSION	24	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+25	os	19	الداخلي	_	1	?	?	1	?	?	17	abych	_	17	um	_	?	?	?	?	?	17	con	_	25	les	_	?	?	?	?	?	?	25	os	_
+26	esforços	19	الداخلي	_	1	?	?	1	?	?	19	odhadl	_	20	welche	_	24	internal	_	_	_	22	cargas	_	28	déformations	_	24	meglio	_	24	belasting	_	26	esforços	_
+27	internos	20	والجهد	_	1	?	?	1	?	?	20	namáhání	_	22	Belastungen	_	27	strains	_	_	_	?	?	?	29	internes	_	27	tensioni	_	26	uiten	_	27	internos	_
+28	sobre	20	والجهد	_	1	?	?	1	?	?	?	?	?	22	Belastungen	_	28	on	_	_	_	14	piezas	_	29	internes	_	27	tensioni	_	27	bij	_	28	sobre	_
+29	as	?	?	?	1	?	?	1	?	?	26	lze	_	23	bei	_	27	strains	_	_	_	24	las	_	?	?	?	28	interne	_	28	normale	_	29	as	_
+30	forças	22	القوى	_	1	?	?	1	?	?	23	běžných	_	24	normaler	_	30	normal	_	_	_	25	fuerzas	_	32	efforts	_	29	sulle	_	28	normale	_	30	forças	_
+31	normais,	23	العادية	_	1	?	?	1	?	?	24	sil,	_	25	Nutzung	_	30	normal	_	_	_	26	normales,	_	33	normaux,	_	30	forze	_	29	krachten,	_	31	normais,	_
+32	para	21	على	_	1	?	?	1	?	?	?	?	?	?	?	?	34	create	_	_	_	?	?	?	?	?	?	34	creare	_	30	om	PragmaticCause.CONTIGENCY	32	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+33	depois	25	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	25	Pak	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|PragmaticCondition.CONTIGENCY|specification.Restatement.EXPANSION	26	entstehen,	_	33	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	29	creé	_	35	j'ai	_	33	infine	_	29	krachten,	_	33	depois	Asynchronous.TEMPORAL|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL
+34	criar	25	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	27	vytvořit	_	28	lies	_	34	create	_	_	_	?	?	?	38	une	_	?	?	?	?	?	?	34	criar	_
+35	um	24	،	_	1	?	?	1	?	?	?	?	?	?	?	?	35	a	_	_	_	30	un	_	38	une	_	?	?	?	32	een	_	35	um	_
+36	encaixe	27	محجر	_	1	?	?	1	?	?	?	?	?	?	?	?	37	socket	_	_	_	31	encaje	_	39	emboîture	_	35	un'invasatura	_	33	prothesekoker	_	36	encaixe	_
+37	de	30	.	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	35	te	_	37	de	_
+38	prótese	29	للتصنيع	_	1	?	?	1	?	?	28	pouzdro	_	31	Prothesenschaft	_	36	prosthetic	_	_	_	32	ortopédico	_	40	prête	_	36	protesica	_	?	?	?	38	prótese	_
+39	para	28	اصطناعي	_	1	?	?	1	?	?	30	k	_	32	herstellen.	_	38	for	_	_	reason.Cause.CONTIGENCY	33	para	CONTIGENCY|Cause.CONTIGENCY	42	être	_	37	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	36	maken	_	39	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+40	fabrico.	29	للتصنيع	_	1	?	?	1	?	?	29	určené	_	32	herstellen.	_	39	manufacture.	_	_	_	35	fabricación.	_	43	manufacturée.	_	39	fabbricazione.	_	38	productie.	_	40	fabrico.	_
+
+# sent_id = 131893
+# text:  Usamos uma impressora 3D para criar um encaixe feito de vários materiais que alivia a pressão onde é necessário, de acordo com a anatomia do paciente.
+# trans: Usamos uma impressora 3D para criar um encaixe feito de vários materiais que alivia a pressão onde é necessário, de acordo com a anatomia do paciente.
+# forward_log_prob: -83.11174730545692
+# backward_log_prob: -83.11183859251771
+1	Usamos	1	استخدمنا	_	1	?	?	1	?	?	1	Používáme	_	1	Wir	_	1	We	_	_	_	1	Usamos	_	4	imprimante	_	1	Usiamo	_	1	We	_	1	Usamos	_
+2	uma	2	طابعات	_	1	?	?	1	?	?	1	Používáme	_	6	aus	_	?	?	?	?	?	2	una	_	3	une	_	2	una	_	?	?	?	2	uma	_
+3	impressora	2	طابعات	_	1	?	?	1	?	?	2	3D	_	2	benutzen	_	4	3D	_	_	_	3	impresora	_	2	utilisons	_	3	stampante	_	4	3D-printer	_	3	impressora	_
+4	3D	3	ثلاثية	_	1	?	?	1	?	?	3	tiskárnu	_	3	3D-Drucker,	_	4	3D	_	_	_	4	3D	_	4	imprimante	_	3	stampante	_	4	3D-printer	_	4	3D	_
+5	para	7	اصطناعي	_	1	?	?	1	?	?	5	vytváření	_	4	um	_	6	to	_	_	_	5	para	CONTIGENCY|Cause.CONTIGENCY	6	pour	specification.Restatement.EXPANSION	5	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	om	PragmaticCause.CONTIGENCY	5	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+6	criar	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	5	printer	_	_	_	6	fabricar	_	5	3D	_	4	3D	_	?	?	?	6	criar	_
+7	um	6	محجر	_	1	?	?	1	?	?	?	?	?	11	den	_	8	a	_	_	_	7	un	_	8	une	_	?	?	?	3	een	_	7	um	_
+8	encaixe	6	محجر	_	1	?	?	1	?	?	?	?	?	?	?	?	10	prosthetic	_	_	_	8	encaje	_	9	emboîture	_	8	protesica	_	?	?	?	8	encaixe	_
+9	feito	8	متعدد	_	1	?	?	1	?	?	6	pouzder	_	7	mehreren	_	9	multi-material	_	_	_	?	?	?	10	faite	_	6	creare	_	6	prothesekokers	_	9	feito	_
+10	de	?	?	?	1	?	?	1	?	?	7	z	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	7	te	_	10	de	_
+11	vários	9	المواد	_	1	?	?	1	?	?	8	více	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|opposition.Contrast.COMPARISON	9	herzustellen,	_	9	multi-material	_	_	_	?	?	?	10	faite	_	9	multimateriale	_	10	meerdere	_	11	vários	_
+12	materiais	10	يخفف	_	1	?	?	1	?	?	8	více	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|opposition.Contrast.COMPARISON	?	?	?	9	multi-material	_	_	_	11	varios	_	10	faite	_	9	multimateriale	_	10	meerdere	_	12	materiais	_
+13	que	12	على	_	1	?	?	1	?	?	7	z	_	?	?	?	?	?	?	?	?	13	que	_	14	qui	_	10	che	_	9	van	_	13	que	_
+14	alivia	13	بعض	_	1	?	?	1	?	?	9	materiálů,	_	13	dort	_	12	which	_	_	_	14	alivia	_	12	plusieurs	_	9	multimateriale	_	11	materialen,	_	14	alivia	_
+15	a	?	?	?	1	?	?	1	?	?	?	?	?	10	die	_	?	?	?	?	?	15	la	_	16	la	_	12	la	_	13	de	_	15	a	_
+16	pressão	11	الضغط	_	1	?	?	1	?	?	10	což	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	12	Druck	_	14	pressure	_	_	_	16	presión	_	17	pression	_	13	pressione,	_	14	druk	_	16	pressão	_
+17	onde	14	المناطق	_	1	?	?	1	?	?	11	přispívá	_	14	verringern,	_	13	relieves	_	_	_	?	?	?	15	atténue	_	11	riduce	_	15	verlichten	_	17	onde	_
+18	é	?	?	?	1	?	?	1	?	?	10	což	Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	16	es	_	?	?	?	?	?	?	?	?	14	qui	_	?	?	?	12	die	_	18	é	_
+19	necessário,	16	الحاجة	_	1	?	?	1	?	?	12	ke	_	15	wo	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	16	needed	_	_	_	17	donde	TEMPORAL	15	atténue	_	?	?	?	15	verlichten	_	19	necessário,	_
+20	de	17	على	_	1	?	?	1	?	?	15	na	_	?	?	?	20	of	_	_	_	18	la	_	?	?	?	?	?	?	?	?	?	20	de	_
+21	acordo	18	حسب	_	1	?	?	1	?	?	14	tlaku	_	21	nötig	_	?	?	?	?	?	22	así	_	18	lorsque	Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	14	ove	_	16	waar	_	21	acordo	_
+22	com	20	أطراف	_	1	?	?	1	?	?	14	tlaku	_	?	?	?	18	the	_	_	_	?	?	?	17	pression	_	13	pressione,	_	20	patiënt.	_	22	com	_
+23	a	?	?	?	1	?	?	1	?	?	?	?	?	17	die	_	?	?	?	?	?	23	lo	_	?	?	?	?	?	?	19	de	_	23	a	_
+24	anatomia	?	?	?	1	?	?	1	?	?	?	?	?	18	Anatomie	_	19	anatomy	_	_	_	19	anatomía	_	20	sur	_	17	del	_	18	bij	_	24	anatomia	_
+25	do	?	?	?	1	?	?	1	?	?	?	?	?	19	des	_	21	the	_	_	_	20	del	_	21	l'anatomie	_	17	del	_	19	de	_	25	do	_
+26	paciente.	?	?	?	1	?	?	1	?	?	?	?	?	19	des	_	22	patient.	_	_	_	21	paciente	_	23	patient.	_	18	paziente.	_	18	bij	_	26	paciente.	_
+
+# sent_id = 131894
+# text:  Resumindo, estamos a usar dados para fazer novos encaixes, rapidamente e com baixo custo.
+# trans: Resumindo, estamos a usar dados para fazer novos encaixes, rapidamente e com baixo custo.
+# forward_log_prob: -39.77894586996508
+# backward_log_prob: -39.77404380646645
+1	Resumindo,	1	باختصار	_	1	?	?	1	?	?	1	Získáváme	_	1	Kurz	_	1	In	_	_	_	1	Resumiendo,	_	1	En	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	1	In	_	1	Kortom,	_	1	Resumindo,	_
+2	estamos	1	باختصار	_	1	?	?	1	?	?	2	data,	_	1	Kurz	_	2	short,	_	_	_	1	Resumiendo,	_	2	résumé,	_	2	breve,	_	1	Kortom,	_	2	estamos	_
+3	a	2	،	_	1	?	?	1	?	?	?	?	?	4	benutzen	_	3	we're	_	_	_	?	?	?	?	?	?	?	?	?	3	gebruiken	_	3	a	_
+4	usar	3	استخدمنا	_	1	?	?	1	?	?	4	využíváme	_	3	wir	_	3	we're	_	_	_	3	información	_	6	données	_	4	usando	_	3	gebruiken	_	4	usar	_
+5	dados	4	بيانات	_	1	?	?	1	?	?	4	využíváme	_	4	benutzen	_	4	using	_	_	_	3	información	_	6	données	_	5	dati	_	4	data	_	5	dados	_
+6	para	5	لصنع	_	1	?	?	1	?	?	5	k	_	6	um	_	6	to	_	_	_	4	para	CONTIGENCY|Cause.CONTIGENCY	7	pour	specification.Restatement.EXPANSION	6	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	om	PragmaticCause.CONTIGENCY	6	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+7	fazer	4	بيانات	_	1	?	?	1	?	?	7	nových	_	7	neuartige	_	7	make	_	_	_	7	novedosos	_	6	données	_	7	costruire	_	4	data	_	7	fazer	_
+8	novos	6	محاجر	_	1	?	?	1	?	?	9	při	_	7	neuartige	_	7	make	_	_	_	7	novedosos	_	10	nouvelles	_	8	nuove	_	9	nieuwe	_	8	novos	_
+9	encaixes,	7	جديدة	_	1	?	?	1	?	?	10	zachování	_	8	Schäfte	_	9	sockets	_	_	_	6	encajes	_	11	emboîtures	_	9	invasature	_	8	goedkoop	_	9	encaixes,	_
+10	rapidamente	7	جديدة	_	1	?	?	1	?	?	11	rychlosti	_	7	neuartige	_	8	novel	_	_	_	9	un	_	10	nouvelles	_	8	nuove	_	9	nieuwe	_	10	rapidamente	_
+11	e	?	?	?	1	?	?	1	?	?	?	?	?	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	13	et	Conjunction.EXPANSION	11	modo	_	7	en	Conjunction.EXPANSION	11	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	com	9	وبسرعة	_	1	?	?	1	?	?	12	výroby	_	?	?	?	?	?	?	?	?	11	rápido	_	14	bon	_	?	?	?	11	te	_	12	com	_
+13	baixo	9	وبسرعة	_	1	?	?	1	?	?	13	i	Cause.CONTIGENCY|Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	11	günstig	_	10	quickly	_	_	_	11	rápido	_	14	bon	_	12	veloce	_	10	prothesekokers	_	13	baixo	_
+14	custo.	9	وبسرعة	_	1	?	?	1	?	?	15	ceny.	_	11	günstig	_	12	cheaply.	_	_	_	13	económico.	_	15	marché.	_	14	economico.	_	12	maken.	_	14	custo.	_
+
+# sent_id = 131895
+# text:  Num ensaio recente, que acabamos de concluir no Media Lab da MIT, um dos nossos pacientes, um veterano de guerra americano, que foi amputado há cerca de 20 anos e já usou dezenas de próteses, disse que um dos nossos encaixes impressos, "é tão macio quanto andar sobre almofadas, "e é super sexy."
+# trans: Num ensaio recente, que acabamos de concluir no Media Lab da MIT, um dos nossos pacientes, um veterano de guerra americano, que foi amputado há cerca de 20 anos e já usou dezenas de próteses, disse que um dos nossos encaixes impressos, "é tão macio quanto andar sobre almofadas, "e é super sexy."
+# forward_log_prob: -199.91630796414682
+# backward_log_prob: -199.92493593477414
+1	Num	2	تجربة	_	1	?	?	1	?	?	1	Právě	_	3	Versuch,	_	3	recent	_	_	_	2	unas	_	1	Lors	_	1	Recentemente	_	3	recent	_	1	Num	_
+2	ensaio	2	تجربة	_	?	?	?	?	?	?	2	jsme	_	3	Versuch,	_	3	recent	_	_	_	2	unas	_	2	d'un	_	2	abbiamo	_	3	recent	_	2	ensaio	_
+3	recente,	3	حديثة	_	?	?	?	?	?	?	2	jsme	_	3	Versuch,	_	3	recent	_	_	_	3	pruebas	_	3	essai	_	3	testato	_	3	recent	_	3	recente,	_
+4	que	5	في	_	?	?	?	?	?	?	3	v	_	1	In	_	5	we	_	_	_	4	que	_	5	à	specification.Restatement.EXPANSION	4	il	_	?	?	?	4	que	_
+5	acabamos	4	غطينا	_	?	?	?	?	?	?	5	laboratoři	_	?	?	?	4	trial	_	_	_	5	acabamos	_	4	récent	_	5	prodotto	_	4	onderzoek	_	5	acabamos	_
+6	de	?	?	?	?	?	?	?	?	?	11	jednoho	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	6	de	_
+7	concluir	6	مختبرنا	_	?	?	?	?	?	?	6	vyrobili	_	7	kurzem	_	7	wrapped	_	_	_	7	terminar	_	7	terminé	_	5	prodotto	_	4	onderzoek	_	7	concluir	_
+8	no	5	في	_	?	?	?	?	?	?	8	typ	_	4	den	_	9	at	_	_	_	10	Media	_	8	au	_	6	al	_	5	in	_	8	no	_
+9	Media	8	حالة	_	?	?	?	?	?	?	8	typ	_	8	am	_	9	at	_	_	_	10	Media	_	9	Media	_	7	Media	_	8	Lab,	_	9	Media	_
+10	Lab	9	أحد	_	?	?	?	?	?	?	8	typ	_	9	Media	_	9	at	_	_	_	10	Media	_	10	Lab,	_	8	Lab	_	8	Lab,	_	10	Lab	_
+11	da	?	?	?	?	?	?	?	?	?	8	typ	_	10	Lab	_	?	?	?	?	?	9	el	_	10	Lab,	_	?	?	?	8	Lab,	_	11	da	_
+12	MIT,	12	جندي	_	?	?	?	?	?	?	8	typ	_	10	Lab	_	11	Media	_	_	_	11	Lab,	_	10	Lab,	_	?	?	?	8	Lab,	_	12	MIT,	_
+13	um	11	،	_	?	?	?	?	?	?	12	z	_	2	einem	_	2	a	_	_	_	?	?	?	15	un	_	14	un	_	10	een	_	13	um	_
+14	dos	12	جندي	_	?	?	?	?	?	?	13	našich	_	13	einer	_	14	of	_	_	_	14	nuestros	_	14	patients,	_	12	nostri	_	12	onze	_	16	pacientes,	_
+15	nossos	13	أمريكي	_	?	?	?	?	?	?	13	našich	_	?	?	?	6	just	_	_	_	14	nuestros	_	16	vétéran	_	15	veterano	_	13	patiënten,	_	15	nossos	_
+16	pacientes,	14	مبتور	_	?	?	?	?	?	?	14	pacientů.	_	15	Patienten,	_	14	of	_	_	_	15	pacientes,	_	?	?	?	15	veterano	_	13	patiënten,	_	14	dos	_
+17	um	?	?	?	?	?	?	?	?	?	?	?	?	16	ein	_	17	a	_	_	_	16	un	_	?	?	?	14	un	_	14	een	_	17	um	_
+18	veterano	14	مبتور	_	?	?	?	?	?	?	16	americký	_	17	US-Veteran,	_	16	patients,	_	_	_	17	veterano	_	18	l'armée	_	15	veterano	_	15	veteraan,	_	18	veterano	_
+19	de	16	من	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+20	guerra	18	20	_	?	?	?	?	?	?	29	už	_	19	seit	succession.Asynchronous.TEMPORAL	25	for	_	_	reason.Cause.CONTIGENCY	19	guerra	_	22	amputé	_	19	mutilato	_	17	twintig	_	20	guerra	_
+21	americano,	19	سنة	_	?	?	?	?	?	?	20	o	_	19	seit	succession.Asynchronous.TEMPORAL	21	has	_	_	_	21	EE.UU.	_	22	amputé	_	19	mutilato	_	17	twintig	_	21	americano,	_
+22	que	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	20	who	_	_	_	28	que	_	20	qui	_	17	che	_	?	?	?	22	que	_
+23	foi	20	وقد	_	?	?	?	?	?	?	21	nohu	_	21	20	_	22	been	_	_	_	21	EE.UU.	_	24	20	_	22	20	_	21	been	_	23	foi	_
+24	amputado	15	الطرف	_	?	?	?	?	?	?	23	20	_	18	der	_	24	amputee	_	_	_	22	amputado	_	24	20	_	22	20	_	21	been	_	24	amputado	_
+25	há	?	?	?	?	?	?	?	?	?	22	před	_	22	Jahren	_	13	one	_	_	_	23	hace	_	28	a	_	21	circa	_	18	jaar	_	25	há	_
+26	cerca	17	حوالي	_	?	?	?	?	?	?	24	lety.	_	23	amputiert	_	26	about	_	_	_	32	piernas,	_	28	a	_	21	circa	_	19	geleden	_	26	cerca	_
+27	de	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+28	20	26	قال	specification.Restatement.EXPANSION	?	?	?	?	?	?	25	Za	_	26	schon	_	27	20	_	_	_	26	20	_	29	porté	_	25	ha	_	24	al	Concession.COMPARISON	28	20	_
+29	anos	?	?	?	?	?	?	?	?	?	24	lety.	_	?	?	?	28	years	_	_	_	27	años,	_	25	ans	_	23	anni	_	?	?	?	29	anos	_
+30	e	25	،	_	?	?	?	?	?	?	?	?	?	25	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	29	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	26	et	Conjunction.EXPANSION	31	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	23	en	Conjunction.EXPANSION	30	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+31	já	27	عن	_	?	?	?	?	?	?	30	tucty	_	29	getragen	_	30	worn	_	_	_	29	probó	_	31	douzaines	_	30	artificiali,	_	27	heeft	_	31	já	COMPARISON|Contrast.COMPARISON
+32	usou	28	أحد	_	?	?	?	?	?	?	30	tucty	_	30	hat,	_	31	dozens	_	_	_	30	miles	_	?	?	?	30	artificiali,	_	28	gehad,	_	32	usou	_
+33	dezenas	29	أطرافنا	_	?	?	?	?	?	?	30	tucty	_	31	Folgendes	_	31	dozens	_	_	_	33	dijo	_	37	l'une	_	32	lui	_	29	over	_	33	dezenas	_
+34	de	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+35	próteses,	30	الاصطناعية	_	?	?	?	?	?	?	?	?	?	35	Prothesen	_	?	?	?	?	?	?	?	?	33	prothèses,	_	44	come	EXPANSION|Synchronous.TEMPORAL	26	protheses	_	35	próteses,	_
+36	disse	31	المطبوعة	_	?	?	?	?	?	?	42	to	Condition.CONTIGENCY|PragmaticCondition.CONTIGENCY	42	würde	_	34	said	_	_	_	?	?	?	34	a	_	41	così	result.Cause.CONTIGENCY	33	"Het	_	36	disse	_
+37	que	32	،	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	35	di	_	?	?	?	37	que	_
+38	um	32	،	_	?	?	?	?	?	?	31	protéz,	_	?	?	?	?	?	?	?	?	?	?	?	38	de	_	?	?	?	?	?	?	38	um	_
+39	dos	35	طرية	_	?	?	?	?	?	?	35	vytisknutém	_	44	auf	_	37	of	_	_	_	37	nuestras	_	41	imprimées	_	36	una	_	?	?	?	39	dos	_
+40	nossos	?	?	?	?	?	?	?	?	?	38	„Je	_	37	"Sie	_	38	our	_	_	_	40	"Es	_	44	C'est	_	?	?	?	37	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	40	nossos	_
+41	encaixes	?	?	?	?	?	?	?	?	?	39	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	36	gesagt:	_	?	?	?	?	?	39	impresas:	_	51	des	_	48	ed	_	36	zacht	_	41	encaixes	_
+42	impressos,	37	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	?	?	?	?	?	?	40	měkké,	_	39	so	_	40	parts,	_	_	_	39	impresas:	_	40	pièces	_	37	delle	_	36	zacht	_	42	impressos,	_
+43	"é	38	لو	Condition.CONTIGENCY	?	?	?	?	?	?	41	je	_	38	ist	_	?	?	?	?	?	40	"Es	_	?	?	?	40	"È	_	34	is	_	43	"é	_
+44	tão	39	أنني	_	?	?	?	?	?	?	40	měkké,	_	40	weich,	_	43	soft,	_	_	_	42	blanda,	_	46	doux,	_	42	morbida,	_	38	lopen	_	44	tão	_
+45	macio	40	أمشي	_	?	?	?	?	?	?	44	chodit	_	43	man	_	43	soft,	_	_	_	42	blanda,	_	48	comme	COMPARISON|specification.Restatement.EXPANSION	42	morbida,	_	39	over	_	45	macio	_
+46	quanto	40	أمشي	_	?	?	?	?	?	?	44	chodit	_	43	man	_	46	walking	_	_	_	41	muy	_	49	marcher	_	45	camminare	_	39	over	_	46	quanto	_
+47	andar	42	وسادة	_	?	?	?	?	?	?	44	chodit	_	43	man	_	46	walking	_	_	_	45	caminar	_	49	marcher	_	45	camminare	_	41	kussen,	_	47	andar	_
+48	sobre	42	وسادة	_	?	?	?	?	?	?	45	po	_	45	Kissen	_	47	on	_	_	_	38	piezas	_	50	sur	_	46	su	_	35	zo	Instantiation.EXPANSION	48	sobre	_
+49	almofadas,	44	وأيضاً	_	?	?	?	?	?	?	46	polštářích,	_	45	Kissen	_	48	pillows,	_	_	_	47	almohadas	_	52	coussins,	_	47	cuscini,	_	42	én	_	49	almofadas,	_
+50	"e	43	،	_	?	?	?	?	?	?	?	?	?	47	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	49	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	48	y	_	53	et	Conjunction.EXPANSION	?	?	?	?	?	?	50	"e	_
+51	é	45	جذابة	_	?	?	?	?	?	?	47	je	_	?	?	?	?	?	?	?	?	49	es	_	54	c'est	_	49	è	_	43	het	_	51	é	_
+52	super	46	للغاية	_	?	?	?	?	?	?	48	to	Condition.CONTIGENCY|PragmaticCondition.CONTIGENCY	48	verdammt	_	50	it's	_	_	_	50	terriblemente	_	55	sacrément	_	50	dannatamente	_	45	verdraaid	_	52	super	_
+53	sexy."	46	للغاية	_	?	?	?	?	?	?	50	sexy."	_	49	sexy."	_	52	sexy."	_	_	_	51	sexy".	_	56	sexy.	_	51	sexy."	_	46	sexy".	_	53	sexy."	_
+
+# sent_id = 131896
+# text:  (Risos) A deficiência física nos dias de hoje não deveria impedir as pessoas de terem vidas satisfatórias.
+# trans: (Risos) A deficiência física nos dias de hoje não deveria impedir as pessoas de terem vidas satisfatórias.
+# forward_log_prob: -50.00062202667109
+# backward_log_prob: -49.99899247095073
+1	(Risos)	2	ضحك	_	1	?	?	1	?	?	1	(Smích)	_	1	(Lachen)	_	1	(Laughter)	_	_	_	1	(Risas)	_	1	»	_	1	(Risate)	_	1	(Gelach)	_	1	(Risos)	_
+2	A	3	)	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	2	La	_	?	?	?	2	La	_	?	?	?	2	A	_
+3	deficiência	4	الإعاقة	_	1	?	?	1	?	?	2	Postižení	_	?	?	?	2	Disability	_	_	_	3	discapacidad	_	4	handicap,	_	3	disabilità	_	2	Invaliditeit	_	3	deficiência	_
+4	física	4	الإعاقة	_	1	?	?	1	?	?	2	Postižení	_	3	sollten	_	2	Disability	_	_	_	3	discapacidad	_	4	handicap,	_	3	disabilità	_	2	Invaliditeit	_	4	física	_
+5	nos	6	عصرنا	_	1	?	?	1	?	?	5	naší	_	2	Heutzutage	_	4	our	_	_	_	4	en	_	3	Le	_	4	al	_	4	in	_	5	nos	_
+6	dias	7	يفترض	_	1	?	?	1	?	?	7	nemělo	_	5	niemanden	_	6	should	_	_	_	3	discapacidad	_	8	ne	_	?	?	?	7	niemand	_	6	dias	_
+7	de	5	في	_	1	?	?	1	?	?	?	?	?	6	mehr	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	7	de	_
+8	hoje	8	أن	_	1	?	?	1	?	?	?	?	?	6	mehr	_	6	should	_	_	_	8	debería	_	9	devrait	_	8	dovrebbe	_	7	niemand	_	8	hoje	_
+9	não	9	لا	Contrast.COMPARISON	1	?	?	1	?	?	?	?	?	7	daran	_	7	not	_	_	_	7	no	_	10	pas	_	7	non	_	6	tijd	_	9	não	_
+10	deveria	10	تمنع	_	1	?	?	1	?	?	8	nikomu	_	8	hindern,	_	8	prevent	_	_	_	9	impedirle	_	12	quiconque	_	9	impedire	_	8	mogen	_	10	deveria	_
+11	impedir	11	أحداً	_	1	?	?	1	?	?	8	nikomu	_	8	hindern,	_	8	prevent	_	_	_	9	impedirle	_	14	vivre	_	10	a	_	9	beletten	_	11	impedir	_
+12	as	?	?	?	1	?	?	1	?	?	10	aby	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	?	?	?	10	from	_	_	_	10	a	_	14	vivre	_	10	a	_	9	beletten	_	12	as	_
+13	pessoas	?	?	?	1	?	?	1	?	?	9	bránit,	_	?	?	?	10	from	_	_	_	10	a	_	16	vie	_	13	vivere	_	11	zinvol	_	13	pessoas	_
+14	de	12	من	_	1	?	?	1	?	?	?	?	?	12	zu	_	?	?	?	?	?	13	una	_	?	?	?	12	di	_	10	een	_	14	de	_
+15	terem	14	يعيش	_	1	?	?	1	?	?	11	prožil	_	10	sinnsvolles	_	11	living	_	_	_	12	vivir	_	18	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	13	vivere	_	11	zinvol	_	15	terem	_
+16	vidas	17	معنى	_	1	?	?	1	?	?	12	smysluplný	_	12	zu	_	12	meaningful	_	_	_	14	vida	_	19	vaille	_	15	vita	_	14	leiden.	_	16	vidas	_
+17	satisfatórias.	17	معنى	_	1	?	?	1	?	?	13	život.	_	13	führen.	_	13	lives.	_	_	_	15	plena.	_	19	vaille	_	16	piena.	_	14	leiden.	_	17	satisfatórias.	_
+
+# sent_id = 131897
+# text:  A minha esperança e desejo é que as ferramentas e os processos que desenvolvemos no nosso grupo de pesquisa possam ser usadas para criar próteses altamente funcionais para aqueles que precisam.
+# trans: A minha esperança e desejo é que as ferramentas e os processos que desenvolvemos no nosso grupo de pesquisa possam ser usadas para criar próteses altamente funcionais para aqueles que precisam.
+# forward_log_prob: -103.260805216712
+# backward_log_prob: -103.24546176981681
+1	A	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	La	_	5	de	_	1	A	_
+2	minha	1	أملي	_	1	?	?	1	?	?	1	Mou	_	1	Meine	_	1	My	_	_	_	1	Mi	_	1	Mon	_	2	mia	_	1	Mijn	_	2	minha	_
+3	esperança	2	ورغبتي	_	1	?	?	1	?	?	2	nadějí	_	2	Hoffnung	_	2	hope	_	_	_	2	deseo	_	2	espoir	_	3	speranza	_	2	hoop	_	3	esperança	_
+4	e	?	?	?	1	?	?	1	?	?	3	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	3	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	y	_	3	et	Conjunction.EXPANSION	4	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	4	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+5	desejo	4	الأدوات	_	1	?	?	1	?	?	4	touhou	_	4	mein	_	4	desire	_	_	_	6	herramientas	_	5	désir	_	7	desiderio	_	?	?	?	5	desejo	_
+6	é	?	?	?	1	?	?	1	?	?	5	je,	_	6	ist	_	5	is	_	_	_	3	es	_	?	?	?	8	è	_	3	is	_	6	é	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+7	que	3	أن	_	1	?	?	1	?	?	5	je,	_	8	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	that	_	_	_	4	que	_	7	que	_	9	che	_	4	dat	_	7	que	_
+8	as	5	والعمليات	_	1	?	?	1	?	?	6	aby	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	9	die	_	6	that	_	_	_	5	las	_	8	les	_	6	mio	_	9	die	_	8	as	_
+9	ferramentas	7	طورناها	_	1	?	?	1	?	?	7	nástroje	_	10	Werkzeuge	_	8	tools	_	_	_	6	herramientas	_	9	outils	_	10	gli	_	6	gereedschappen	_	9	ferramentas	_
+10	e	?	?	?	1	?	?	1	?	?	8	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	9	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	y	_	10	et	Conjunction.EXPANSION	12	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	7	en	Conjunction.EXPANSION	10	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+11	os	6	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	9	procesy,	_	?	?	?	10	processes	_	_	_	9	procesos	_	11	les	_	13	i	_	8	processen	_	11	os	_
+12	processos	9	مجموعة	_	1	?	?	1	?	?	9	procesy,	_	?	?	?	10	processes	_	_	_	8	los	_	12	procédés	_	14	metodi	_	?	?	?	12	processos	_
+13	que	8	في	_	1	?	?	1	?	?	10	které	_	14	wir	_	11	we	_	_	_	10	que	_	14	dans	_	15	che	_	?	?	?	13	que	_
+14	desenvolvemos	9	مجموعة	_	1	?	?	1	?	?	11	vyvíjíme	_	12	Prozesse,	_	12	develop	_	_	_	11	desarrollamos	_	13	développés	_	16	sviluppiamo	_	10	we	_	14	desenvolvemos	_
+15	no	8	في	_	1	?	?	1	?	?	11	vyvíjíme	_	16	unserer	_	14	our	_	_	_	14	grupo	_	14	dans	_	16	sviluppiamo	_	12	in	_	15	no	_
+16	nosso	11	يستفاد	_	1	?	?	1	?	?	11	vyvíjíme	_	17	Forschungsgruppe	_	15	research	_	_	_	14	grupo	_	18	recherche	_	17	nel	_	13	onze	_	16	nosso	_
+17	grupo	12	منها	_	1	?	?	1	?	?	13	naší	_	16	unserer	_	16	group	_	_	_	16	investigación	_	19	puissent	_	18	gruppo	_	14	groep	_	17	grupo	_
+18	de	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	19	di	_	?	?	?	18	de	_
+19	pesquisa	14	توفير	_	1	?	?	1	?	?	14	výzkumné	_	18	entwickeln,	_	17	can	_	_	_	17	puedan	_	21	utilisés	_	20	ricerca	_	?	?	?	19	pesquisa	_
+20	possam	14	توفير	_	1	?	?	1	?	?	15	skupině,	_	18	entwickeln,	_	17	can	_	_	_	18	usarse	_	21	utilisés	_	22	essere	_	?	?	?	20	possam	_
+21	ser	14	توفير	_	1	?	?	1	?	?	16	přinesly	_	19	genutzt	_	18	be	_	_	_	18	usarse	_	32	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	23	usati	_	15	gebruikt	_	21	ser	_
+22	usadas	16	اصطناعية	_	1	?	?	1	?	?	16	přinesly	_	21	können,	_	21	bring	_	_	_	20	brindar	_	25	disposition	_	25	fornire	_	18	eersteklas	_	22	usadas	_
+23	para	16	اصطناعية	_	1	?	?	1	?	?	?	?	?	22	um	_	20	to	_	_	_	19	para	CONTIGENCY|Cause.CONTIGENCY	22	pour	specification.Restatement.EXPANSION	24	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	17	voor	succession.Asynchronous.TEMPORAL	23	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+24	criar	15	أطراف	_	1	?	?	1	?	?	18	funkční	_	27	die,	_	19	used	_	_	_	22	con	_	20	être	_	27	altamente	_	?	?	?	24	criar	_
+25	próteses	18	لأولائك	_	1	?	?	1	?	?	19	protézy	_	24	Prothesen	_	24	prostheses	_	_	_	21	prótesis	_	26	des	_	26	protesi	_	19	protheses	_	25	próteses	_
+26	altamente	18	لأولائك	_	1	?	?	1	?	?	18	funkční	_	23	hochfunktionale	_	23	functional	_	_	_	23	excelente	_	28	fonctionnelles	_	27	altamente	_	21	diegenen	_	26	altamente	_
+27	funcionais	19	الذين	specification.Restatement.EXPANSION	1	?	?	1	?	?	20	každému,	_	23	hochfunktionale	_	23	functional	_	_	_	24	funcionalidad	_	28	fonctionnelles	_	28	funzionali	_	21	diegenen	_	27	funcionais	_
+28	para	20	يحتاجون	_	1	?	?	1	?	?	21	kdo	_	25	herzustellen,	_	25	to	_	_	_	27	las	_	30	ceux	_	30	coloro	_	20	voor	succession.Asynchronous.TEMPORAL	28	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+29	aqueles	21	إليها	_	1	?	?	1	?	?	21	kdo	_	30	brauchen.	_	27	who	_	_	_	26	quienes	_	?	?	?	32	ne	_	24	nodig	_	29	aqueles	_
+30	que	21	إليها	_	1	?	?	1	?	?	22	je	_	29	sie	_	27	who	_	_	_	25	a	_	31	qui	_	31	che	_	?	?	?	30	que	_
+31	precisam.	21	إليها	_	1	?	?	1	?	?	23	potřebuje.	_	30	brauchen.	_	28	need	_	_	_	28	necesiten.	_	33	ont	_	33	hanno	_	25	hebben.	_	31	precisam.	_
+
+# sent_id = 131898
+# text:  Para mim, um lugar para começar a curar as almas das pessoas afetadas por guerras e doenças é através da criação de dispositivos confortáveis e acessíveis para os seus corpos.
+# trans: Para mim, um lugar para começar a curar as almas das pessoas afetadas por guerras e doenças é através da criação de dispositivos confortáveis e acessíveis para os seus corpos.
+# forward_log_prob: -100.67369612968122
+# backward_log_prob: -100.66541284319177
+1	Para	1	بالنسبة	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	Způsob,	_	?	?	?	1	For	_	_	reason.Cause.CONTIGENCY	1	Para	CONTIGENCY|Cause.CONTIGENCY	1	Pour	specification.Restatement.EXPANSION	?	?	?	1	Voor	succession.Asynchronous.TEMPORAL	1	Para	CONTIGENCY|PragmaticCause.CONTIGENCY
+2	mim,	1	بالنسبة	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	Způsob,	_	1	Für	PragmaticCause.CONTIGENCY	2	me,	_	_	_	2	mí,	_	2	moi,	_	1	Secondo	_	2	mij	_	2	mim,	_
+3	um	2	لي	_	1	?	?	1	?	?	2	kterým	_	5	ein	_	3	a	_	_	_	3	un	_	5	de	_	3	un	_	4	het	_	3	um	_
+4	lugar	2	لي	_	1	?	?	1	?	?	3	chci	_	6	Anfang,	_	4	place	_	_	_	4	modo	_	4	façon	_	4	modo	_	3	begint	_	4	lugar	_
+5	para	3	نقطة	_	1	?	?	1	?	?	?	?	?	7	um	_	5	to	_	_	_	?	?	?	?	?	?	5	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	5	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+6	começar	4	البدء	_	1	?	?	1	?	?	4	začít	_	6	Anfang,	_	6	begin	_	_	_	6	empezar	_	6	commencer	_	6	cominciare	_	5	helen	_	6	começar	_
+7	a	?	?	?	1	?	?	1	?	?	?	?	?	8	die	_	?	?	?	?	?	?	?	?	3	la	_	?	?	?	7	de	_	7	a	_
+8	curar	5	بعلاج	_	1	?	?	1	?	?	5	léčit	_	9	Seelen	_	7	healing	_	_	_	8	aliviar	_	8	guérir	_	8	guarire	_	8	ziel	_	8	curar	_
+9	as	5	بعلاج	_	1	?	?	1	?	?	8	kdo	_	8	die	_	8	the	_	_	_	7	a	_	9	les	_	7	a	_	?	?	?	9	as	_
+10	almas	6	أرواح	_	1	?	?	1	?	?	7	těch,	_	10	derer	_	9	souls	_	_	_	?	?	?	10	âmes	_	10	anime	_	?	?	?	10	almas	_
+11	das	7	أولائك	_	1	?	?	1	?	?	7	těch,	_	10	derer	_	9	souls	_	_	_	9	el	_	10	âmes	_	9	le	_	?	?	?	11	das	_
+12	pessoas	7	أولائك	_	1	?	?	1	?	?	9	jsou	_	11	zu	_	?	?	?	?	?	12	todos	_	13	qui	_	9	le	_	9	van	_	12	pessoas	_
+13	afetadas	8	المصابين	_	1	?	?	1	?	?	9	jsou	_	12	heilen,	_	11	those	_	_	_	13	aquellos	_	14	sont	_	12	coloro	_	12	getroffen	_	13	afetadas	_
+14	por	8	المصابين	_	1	?	?	1	?	?	10	postiženi	_	?	?	?	14	war	_	_	_	?	?	?	16	par	_	14	sono	_	13	zijn	_	14	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+15	guerras	9	بالحرب	_	1	?	?	1	?	?	11	válkou	_	14	vom	_	13	by	_	_	_	15	sufrieron	_	15	touchés	_	15	colpiti	_	14	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	15	guerras	_
+16	e	?	?	?	1	?	?	1	?	?	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	16	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	15	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	18	y	_	19	et	Conjunction.EXPANSION	18	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	16	en	Conjunction.EXPANSION	16	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+17	doenças	10	والمرض	_	1	?	?	1	?	?	11	válkou	_	17	Krankheiten	_	14	war	_	_	_	17	guerra	_	21	maladie	_	17	guerra	_	15	oorlog	_	17	doenças	_
+18	é	11	هي	_	1	?	?	1	?	?	14	vytváření	_	20	ist	_	17	is	_	_	_	21	es	_	22	est	_	20	è	_	18	bij	_	18	é	_
+19	através	11	هي	_	1	?	?	1	?	?	13	nemocí,	_	19	sind,	_	16	disease	_	_	_	20	enfermedad	_	21	maladie	_	19	malattie	_	17	ziekte,	_	19	através	_
+20	da	12	بإنتاج	_	1	?	?	1	?	?	13	nemocí,	_	20	ist	_	?	?	?	?	?	21	es	_	22	est	_	?	?	?	?	?	?	20	da	_
+21	criação	13	واجهات	_	1	?	?	1	?	?	15	pohodlných	_	19	sind,	_	?	?	?	?	?	22	crear	_	24	créer	_	21	creare	_	20	maken	_	21	criação	_
+22	de	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	25	des	_	?	?	?	?	?	?	22	de	_
+23	dispositivos	14	مريحة	_	1	?	?	1	?	?	17	dostupných	_	22	mich	_	19	creating	_	_	_	23	superficies	_	26	interfaces	_	22	interfacce	_	22	comfortabele	_	23	dispositivos	_
+24	confortáveis	14	مريحة	_	1	?	?	1	?	?	17	dostupných	_	21	für	PragmaticCause.CONTIGENCY	20	comfortable	_	_	_	25	contacto	_	27	confortables	_	23	comode	_	22	comfortabele	_	24	confortáveis	_
+25	e	?	?	?	1	?	?	1	?	?	16	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	24	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	21	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	27	y	_	28	et	Conjunction.EXPANSION	24	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	23	en	Conjunction.EXPANSION	25	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+26	acessíveis	15	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	18	rozhraní	_	26	Schnittstellen	_	22	affordable	_	_	_	26	cómodas	_	30	prix	_	26	buon	_	24	betaalbare	_	26	acessíveis	_
+27	para	16	بأسعار	_	1	?	?	1	?	?	19	k	_	30	herzustellen.	_	24	for	_	_	reason.Cause.CONTIGENCY	29	para	CONTIGENCY|Cause.CONTIGENCY	32	pour	specification.Restatement.EXPANSION	28	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	26	voor	succession.Asynchronous.TEMPORAL	27	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+28	os	17	معقولة	_	1	?	?	1	?	?	19	k	_	30	herzustellen.	_	?	?	?	?	?	29	para	CONTIGENCY|Cause.CONTIGENCY	32	pour	specification.Restatement.EXPANSION	29	i	_	26	voor	succession.Asynchronous.TEMPORAL	28	os	_
+29	seus	17	معقولة	_	1	?	?	1	?	?	20	jejich	_	28	ihre	_	25	their	_	_	_	30	sus	_	33	leurs	_	30	loro	_	27	hun	_	29	seus	_
+30	corpos.	18	لأجسادهم	_	1	?	?	1	?	?	21	tělům.	_	29	Körper	_	26	bodies.	_	_	_	31	cuerpos.	_	34	corps.	_	31	corpi.	_	28	lichaam.	_	30	corpos.	_
+
+# sent_id = 131899
+# text:  Seja na Serra Leoa ou em Boston, espero que isso não só restaure mas que também transforme o seu senso de potencial humano.
+# trans: Seja na Serra Leoa ou em Boston, espero que isso não só restaure mas que também transforme o seu senso de potencial humano.
+# forward_log_prob: -72.54419649060145
+# backward_log_prob: -72.60754328709892
+1	Seja	1	سواء	disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	Ať	Concession.COMPARISON|Condition.CONTIGENCY	1	Ob	_	1	Whether	_	_	_	1	Sea	_	1	Que	_	2	sia	_	1	Of	disjunctive.Alternative.EXPANSION	1	Seja	_
+2	na	1	سواء	disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	1	?	?	1	?	?	2	už	_	2	in	_	4	Sierra	_	_	_	2	en	_	5	Sierra	_	4	Sierra	_	4	Sierra	_	2	na	_
+3	Serra	1	سواء	disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	1	?	?	1	?	?	?	?	?	3	Sierra	_	3	in	_	_	_	4	Leona	_	5	Sierra	_	3	in	_	3	in	_	3	Serra	_
+4	Leoa	4	في	_	1	?	?	1	?	?	?	?	?	4	Leone	_	4	Sierra	_	_	_	4	Leona	_	5	Sierra	_	4	Sierra	_	5	Leone	_	4	Leoa	_
+5	ou	5	سراليون	_	1	?	?	1	?	?	4	bude	_	5	oder	disjunctive.Alternative.EXPANSION	6	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	5	o	_	?	?	?	6	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	7	of	disjunctive.Alternative.EXPANSION	5	ou	EXPANSION|disjunctive.Alternative.EXPANSION
+6	em	7	في	_	1	?	?	1	?	?	7	v	_	4	Leone	_	5	Leone	_	_	_	4	Leona	_	6	Leone	_	5	Leone	_	6	is	_	6	em	_
+7	Boston,	8	بوسطون	_	1	?	?	1	?	?	?	?	?	7	Boston,	_	6	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	8	Espero	_	7	ou	COMPARISON	6	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	7	of	disjunctive.Alternative.EXPANSION	7	Boston,	_
+8	espero	8	بوسطون	_	1	?	?	1	?	?	10	nebo	Alternative.EXPANSION|Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	7	Boston,	_	8	Boston,	_	_	_	10	esto	_	7	ou	COMPARISON	8	Boston,	_	9	Boston,	_	8	espero	_
+9	que	7	في	_	1	?	?	1	?	?	?	?	?	10	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	10	hope	_	_	_	9	que	_	8	à	specification.Restatement.EXPANSION	10	che	_	12	dat	_	9	que	_
+10	isso	10	آمل	_	1	?	?	1	?	?	?	?	?	9	hoffe,	_	?	?	?	?	?	?	?	?	10	j'espère	_	11	questo	_	12	dat	_	10	isso	_
+11	não	11	أن	_	1	?	?	1	?	?	14	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	8	ich	_	12	not	EXPANSION	_	_	11	no	_	?	?	?	12	non	_	13	dit,	_	11	não	_
+12	só	13	يكون	_	1	?	?	1	?	?	12	Bostonu,	_	11	dies	_	13	only	_	result.Cause.CONTIGENCY	_	12	solo	_	12	cela	_	13	solo	Concession.COMPARISON	14	behalve	Exception.EXPANSION	12	só	_
+13	restaure	13	يكون	_	1	?	?	1	?	?	13	doufám,	_	11	dies	_	13	only	_	result.Cause.CONTIGENCY	_	16	potencial	_	14	seulement	_	13	solo	Concession.COMPARISON	14	behalve	Exception.EXPANSION	13	restaure	_
+14	mas	14	ذلك	_	1	?	?	1	?	?	15	to	Condition.CONTIGENCY|PragmaticCondition.CONTIGENCY	16	für	PragmaticCause.CONTIGENCY	15	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	potencial	_	13	non	_	13	solo	Concession.COMPARISON	13	dit,	_	14	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
+15	que	?	?	?	1	?	?	1	?	?	14	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	?	?	?	?	?	19	que	_	?	?	?	?	?	?	12	dat	_	15	que	_
+16	também	15	مجرد	_	1	?	?	1	?	?	16	nejen	Conjunction.EXPANSION	14	ihren	_	16	indeed	_	COMPARISON|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	COMPARISON|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	18	sino	_	15	restaure	_	14	risani	_	19	transformatie	_	16	também	Conjunction.EXPANSION|EXPANSION
+17	transforme	17	ولكن	Concession.COMPARISON	1	?	?	1	?	?	17	napraví,	_	15	Sinn	_	16	indeed	_	COMPARISON|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	COMPARISON|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	20	realmente	_	17	aussi	COMPARISON|result.Cause.CONTIGENCY	16	trasformi	_	19	transformatie	_	17	transforme	_
+18	o	?	?	?	1	?	?	1	?	?	18	ale	Conjunction.EXPANSION|Contrast.COMPARISON|opposition.Contrast.COMPARISON	?	?	?	18	their	_	_	_	15	el	_	?	?	?	?	?	?	23	ze	_	18	o	_
+19	seu	18	تحوّل	_	1	?	?	1	?	?	19	i	Cause.CONTIGENCY|Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	17	menschliches	_	19	sense	_	_	_	23	percepción	_	18	transforme	_	18	loro	_	22	wat	_	19	seu	_
+20	senso	20	لشعورهم	_	1	?	?	1	?	?	20	přetvoří	_	18	Können	_	19	sense	_	_	_	23	percepción	_	20	sens	_	19	senso	_	23	ze	_	20	senso	_
+21	de	23	.	_	1	?	?	1	?	?	?	?	?	?	?	?	20	of	_	_	_	26	de	_	?	?	?	20	di	_	24	voor	succession.Asynchronous.TEMPORAL	21	de	_
+22	potencial	22	البشرية	_	1	?	?	1	?	?	22	chápání	_	20	sondern	Alternative.EXPANSION|Conjunction.EXPANSION	21	human	_	_	_	25	tienen	_	22	potentiel	_	21	potenziale	_	25	mogelijk	_	22	potencial	_
+23	humano.	22	البشرية	_	1	?	?	1	?	?	24	potenciálu.	_	21	verändert.	_	22	potential.	_	_	_	27	él.	_	23	humain.	_	22	umano.	_	26	houden.	_	23	humano.	_
+
+# sent_id = 131900
+# text:  Muito obrigado.
+# trans: Muito obrigado.
+# forward_log_prob: -2.649130477191732
+# backward_log_prob: -2.6495776984905577
+1	Muito	2	جزيلاً	_	1	?	?	1	?	?	1	Děkuji	_	1	Vielen	_	1	Thank	_	_	_	1	Muchas	_	1	Merci	_	1	Grazie	_	1	Dank	_	1	Muito	_
+2	obrigado.	1	شكراً	_	1	?	?	1	?	?	2	mnohokrát.	_	2	Dank.	_	3	very	_	_	_	2	gracias.	_	1	Merci	_	2	mille.	_	3	wel.	_	2	obrigado.	_
+
+# sent_id = 131901
+# text:  (Aplausos)
+# trans: (Aplausos)
+# forward_log_prob: -0.3914442641661956
+# backward_log_prob: -0.3914442641661956
+1	(Aplausos)	?	?	?	1	?	?	1	?	?	1	(Potlesk)	_	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
+
