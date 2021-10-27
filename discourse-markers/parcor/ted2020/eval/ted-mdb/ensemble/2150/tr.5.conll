@@ -1,8 +1,8 @@
 # sent_id = 155857
 # text:  Şehirlerin haritalarını oluşturmayı düşündüğümüzde yollar, sokaklar, caddeler, binalar ve şehirlerin oluşumuna yol açan yerleşim hikayeleri aklımıza gelir. Ya da bir kentsel tasarımcının cesur vizyonunu düşünebilirsiniz. Ancak, şehirlerin haritalarını oluşturmayı düşünmenin ve yapmanın başka yolları da var.
 # trans: Quando pensamos em mapas de cidades, pensamos habitualmente em estradas e ruas e edifícios e a narrativa explicativa que levou à sua criação, ou podemos pensar na visão ousada de um paisagista urbano, mas há outras formas de pensar em mapas de cidades e na forma como devem ser feitos.
-# forward_log_prob: -184.59869079830787
-# backward_log_prob: -145.1616301325551
+# forward_log_prob: -184.6058995903914
+# backward_log_prob: -145.1603592993612
 1	Şehirlerin	Şehirlerin	_	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	Quan	TEMPORAL	1	?	_	5	Kartierung	_	1	When	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	1	Cuando	TEMPORAL	1	Quand	Asynchronous.TEMPORAL|Condition.CONTIGENCY|specification.Restatement.EXPANSION	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	Bij	_	1	Quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
 2	haritalarını	haritalarını	_	2	نفكر	_	1	?	_	2	pensem	_	1	?	_	5	Kartierung	_	1	When	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	2	pensamos	_	3	parle	_	3	alla	_	3	in	_	2	pensamos	_
 3	oluşturmayı	oluşturmayı	_	4	رسم	_	1	?	_	4	crear	_	1	?	_	5	Kartierung	_	4	about	_	_	_	4	mapear	_	5	cartographies	_	4	mappatura	_	4	kaart	_	4	mapas	_
@@ -43,8 +43,8 @@
 # sent_id = 155858
 # text:  Bugün size yeni bir tür harita
 # trans: Hoje quero mostrar-vos um novo tipo de mapa.
-# forward_log_prob: -22.323025134337893
-# backward_log_prob: -14.686917033190053
+# forward_log_prob: -22.131351934328272
+# backward_log_prob: -14.6830635726133
 1	Bugün	Bugün	_	2	هذا	_	1	?	_	1	Avui,	_	1	?	_	1	Heute	_	1	Today,	_	_	_	1	Hoy	_	1	Aujourd'hui,	_	1	Oggi	_	1	Vandaag	_	1	Hoje	_
 2	size	size	_	3	اليوم،	_	1	?	_	3	ensenyar-vos	_	1	?	_	2	möchte	_	3	want	_	_	_	3	mostrarles	_	3	veux	_	3	mostrarvi	_	1	Vandaag	_	3	mostrar-vos	_
 3	yeni	yeni	_	4	أريد	_	1	?	_	3	ensenyar-vos	_	1	?	_	6	neue	_	6	you	_	_	_	5	nuevo	_	4	vous	_	4	un	_	5	nieuw	_	5	novo	_
@@ -55,8 +55,8 @@
 # sent_id = 155859
 # text:  göstermek istiyorum. Bu bir coğrafi harita değil.
 # trans: Isto não é um mapa geográfico.
-# forward_log_prob: -15.584220736134275
-# backward_log_prob: -19.43111408020466
+# forward_log_prob: -15.543592604681272
+# backward_log_prob: -19.430190824781413
 1	göstermek	göstermek	_	?	?	?	1	?	_	1	Aquet	_	1	?	_	1	Es	_	1	This	_	result.Cause.CONTIGENCY	_	1	No	_	1	Ce	_	1	Questa	_	1	Het	_	1	Isto	_
 2	istiyorum.	istiyorum.	_	1	هذه	_	1	?	_	1	Aquet	_	1	?	_	2	ist	_	2	is	_	_	_	1	No	_	2	n'est	_	2	non	_	2	is	_	2	não	_
 3	Bu	Bu	_	?	?	?	1	?	_	2	no	_	1	?	_	2	ist	_	?	?	?	?	?	2	es	_	4	une	_	1	Questa	_	2	is	_	3	é	_
@@ -68,9 +68,9 @@
 # sent_id = 155860
 # text:  Bu benim memleketim Maryland, Baltimore’daki insanlar arasındaki ilişkilere dair bir harita. Burada gördüğünüz her bir nokta bir kişiyi temsil etmekte, Her bir çizgi ise bu insanlar arasındaki ilişkiyi göstermekte, her bir renk ağ içindeki topluluğu temsil etmektedir.
 # trans: Isto é um mapa das relações entre as pessoas na minha cidade de Baltimore, Maryland. Como veem aqui, cada ponto representa uma pessoa, cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro da rede.
-# forward_log_prob: -146.77797350273576
-# backward_log_prob: -134.46959793358113
-1	Bu	Bu	_	?	?	?	1	?	_	?	?	?	1	?	_	2	ist	_	?	?	?	?	?	1	Es	_	1	mais	Contrast.COMPARISON|Exception.EXPANSION	2	una	_	?	?	?	2	é	_
+# forward_log_prob: -146.6883099221288
+# backward_log_prob: -134.45796785748087
+1	Bu	Bu	_	?	?	?	1	?	_	?	?	?	1	?	_	2	ist	_	?	?	?	?	?	?	?	?	1	mais	Contrast.COMPARISON|Exception.EXPANSION	2	una	_	?	?	?	2	é	_
 2	benim	benim	_	1	هذه	_	1	?	_	8	les	_	1	?	_	3	eine	_	1	This	_	result.Cause.CONTIGENCY	_	10	mi	_	4	des	_	2	una	_	1	Deze	_	5	das	_
 3	memleketim	memleketim	_	2	خريطة	_	1	?	_	1	Aquet	_	1	?	_	?	?	?	?	?	?	?	?	7	entre	TEMPORAL	3	carte	_	6	tra	_	5	relatie	_	1	Isto	EXPANSION|specification.Restatement.EXPANSION
 4	Maryland,	Maryland,	_	4	بين	_	1	?	_	?	?	?	1	?	_	?	?	?	?	?	?	?	?	7	entre	TEMPORAL	5	liens	_	6	tra	_	5	relatie	_	?	?	?
@@ -93,7 +93,7 @@
 21	Her	Her	_	?	?	?	1	?	_	27	una	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	20	représente	_	20	ogni	_	?	?	?	22	uma	_
 22	bir	bir	_	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	27	a	_	_	_	?	?	?	21	une	_	?	?	?	?	?	?	?	?	?
 23	çizgi	çizgi	_	20	شخصاً	_	1	?	_	28	persona,	_	1	?	_	22	darstellt,	_	28	person,	_	_	_	28	línea	_	22	personne,	_	21	linea	_	24	elke	_	24	cada	_
-24	ise	ise	Comparison.Contrast|Expansion.Level-of-detail.Arg2-as-detail	15	هو	specification.Restatement.EXPANSION	1	?	_	29	cada	_	1	?	_	24	Linie	_	29	each	_	_	_	29	representa	_	24	ligne	_	35	della	_	25	lijn	_	26	representa	_
+24	ise	ise	Comparison.Contrast|Expansion.Level-of-detail.Arg2-as-detail	15	هو	specification.Restatement.EXPANSION	1	?	_	29	cada	_	1	?	_	24	Linie	_	29	each	_	_	_	29	representa	_	24	ligne	_	24	relazione	_	25	lijn	_	26	representa	_
 25	bu	bu	_	?	?	?	1	?	_	37	i	_	1	?	_	30	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	37	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	35	y	_	?	?	?	23	una	_	32	en	Conjunction.EXPANSION	?	?	?
 26	insanlar	insanlar	_	24	علاقة	_	1	?	_	?	?	?	1	?	_	25	eine	_	35	those	_	_	_	33	estas	_	27	entre	_	16	punto	_	29	tussen	_	30	essas	_
 27	arasındaki	arasındaki	_	27	الأشخاص	_	1	?	_	33	relació	_	1	?	_	25	eine	_	35	those	_	_	_	33	estas	_	27	entre	_	26	le	_	29	tussen	_	30	essas	_
@@ -111,8 +111,8 @@
 # sent_id = 155861
 # text:  Ben buradaki yeşil renkli, sağ aşağıda anti-sosyallerin yer aldığı alandayım. TEDx de sağdan aşağıda yer almakta. (Gülüşmeler) Ağın diğer tarafında başlıca Afro-Amerikalılar ve Latin toplumu yer almakta ve bunlar anti-sosyallerden kısmen daha farklı şeylerle ilgilenirler. Bir fikir vermek için ağın yeşil renkli alanını, burada ikamet edenlerimiz için Küçüktimore olarak adlandırabiliriz. Çünkü, adeta çok küçük bir kasabada yaşıyormuşuz gibi gözüküyor.
 # trans: Eu estou aqui do lado verde, no extremo direito, onde estão os "geeks", (Risos) O TEDx também está em baixo, no extremo direito. (Risos) Na extremidade oposta da rede, há principalmente afro-americanos e latinos que se preocupam com coisas um pouco diferentes do que os "geeks". Para que percebam melhor, chamamos Smalltimore à parte verde da rede, aos que ali moram, porque parece que vivemos numa cidade muito pequena.
-# forward_log_prob: -286.96996322195645
-# backward_log_prob: -257.75619414887785
+# forward_log_prob: -286.9834901653149
+# backward_log_prob: -257.75283451302147
 1	Ben	Ben	_	1	الآن،	_	1	?	_	1	Jo	_	1	?	_	2	bin	_	1	Now,	_	_	_	1	Ahora	_	1	Je	_	1	Io	_	1	Ik	_	1	Eu	_
 2	buradaki	buradaki	_	2	أنا	_	?	?	?	2	estic	_	?	?	?	2	bin	_	2	I'm	_	_	_	2	me	_	2	suis	_	2	sono	_	2	hoor	_	2	estou	_
 3	yeşil	yeşil	_	5	الجانب	_	?	?	?	2	estic	_	?	?	?	2	bin	_	6	green	_	_	_	3	encuentro	_	2	suis	_	4	nel	_	3	bij	_	2	estou	_
@@ -130,7 +130,7 @@
 15	yer	yer	_	18	الأسفل	_	?	?	?	?	?	?	?	?	?	18	TEDx	_	24	far	_	_	_	20	encuentra	_	19	côté-là.	_	19	TEDx	_	16	bijhoort!	_	?	?	?
 16	almakta.	almakta.	_	20	أقصى	_	?	?	?	24	(Rialles)	_	?	?	?	18	TEDx	_	24	far	_	_	_	20	encuentra	_	19	côté-là.	_	19	TEDx	_	17	(Gelach)	_	?	?	?
 17	(Gülüşmeler)	(Gülüşmeler)	_	21	اليمين.	_	?	?	?	24	(Rialles)	_	?	?	?	21	weit	_	26	(Laughter)	_	_	_	20	encuentra	_	19	côté-là.	_	19	TEDx	_	17	(Gelach)	_	22	extremo	_
-18	Ağın	Ağın	_	28	الشبكة،	_	?	?	?	30	xarxa	_	?	?	?	28	des	_	34	network,	_	_	_	32	red,	_	21	A	_	29	rete	_	24	netwerk	_	28	da	_
+18	Ağın	Ağın	_	28	الشبكة،	_	?	?	?	30	xarxa	_	?	?	?	28	des	_	34	network,	_	_	_	32	red,	_	21	A	_	29	rete	_	22	van	_	28	da	_
 19	diğer	diğer	_	26	الآخر	_	?	?	?	18	també	EXPANSION	?	?	?	27	Seite	_	30	other	_	_	_	23	la	_	21	A	_	28	della	_	20	andere	_	26	extremidade	_
 20	tarafında	tarafında	_	26	الآخر	_	?	?	?	26	l’altre	_	?	?	?	24	Auf	_	43	folks	_	_	_	28	otro	_	25	a	_	30	si	_	20	andere	_	25	Na	_
 21	başlıca	başlıca	_	25	الجانب	_	?	?	?	?	?	?	?	?	?	23	(Lachen)	_	31	side	_	_	_	26	Ahora,	_	?	?	?	25	(Risate)	_	?	?	?	23	direito.	_
@@ -141,11 +141,11 @@
 26	yer	yer	_	33	رؤية	_	?	?	?	35	afroamericans	_	?	?	?	33	Afroamerikaner	_	39	primarily	_	_	_	35	haber	_	28	Afro-Américains	_	32	soprattutto	_	27	Afrikaans-Amerikaanse	_	31	principalmente	_
 27	almakta	almakta	_	33	رؤية	_	?	?	?	35	afroamericans	_	?	?	?	33	Afroamerikaner	_	40	African-American	_	_	_	36	principalmente	_	31	Latinos,	_	32	soprattutto	_	29	Latino	_	32	afro-americanos	_
 28	ve	ve	Expansion.Conjunction	32	إلى	_	?	?	?	36	i	_	?	?	?	34	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	41	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	39	y	_	29	et	Conjunction.EXPANSION	34	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	33	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
-29	bunlar	bunlar	_	29	تميل	_	?	?	?	50	geeks.	_	?	?	?	45	Geeks.	_	54	geeks	_	_	_	33	tiende	_	39	<i>geeks</i>,	_	43	rispetto	_	39	nerds.	_	27	oposta	_
+29	bunlar	bunlar	_	29	تميل	_	?	?	?	50	geeks.	_	?	?	?	45	Geeks.	_	54	geeks	_	_	_	33	tiende	_	22	l'opposé,	_	43	rispetto	_	39	nerds.	_	27	oposta	_
 30	anti-sosyallerden	anti-sosyallerden	_	36	الأمريكيين	_	?	?	?	39	solen	_	?	?	?	35	Latinos,	_	46	really	_	result.Cause.CONTIGENCY	_	40	latina	_	?	?	?	35	Ispanici,	_	33	bezighouden	_	34	latinos	_
 31	kısmen	kısmen	_	38	واللاتينيين	_	?	?	?	41	preocupats	_	?	?	?	35	Latinos,	_	49	somewhat	_	_	_	40	latina	_	?	?	?	38	sostanzialmente	_	33	bezighouden	_	37	preocupam	_
 32	daha	daha	_	39	القلقين	_	?	?	?	41	preocupats	_	?	?	?	38	ganz	_	49	somewhat	_	_	_	42	están	_	36	choses	_	39	interessati	_	33	bezighouden	_	37	preocupam	_
-33	farklı	farklı	_	30	بشكل	_	?	?	?	42	per	CONTIGENCY|Cause.CONTIGENCY	?	?	?	?	?	?	50	different	_	_	_	27	al	_	34	à	specification.Restatement.EXPANSION	40	a	_	22	van	_	40	um	_
+33	farklı	farklı	_	30	بشكل	_	?	?	?	42	per	CONTIGENCY|Cause.CONTIGENCY	?	?	?	?	?	?	50	different	_	_	_	27	al	_	34	à	specification.Restatement.EXPANSION	40	a	_	?	?	?	40	um	_
 34	şeylerle	şeylerle	_	41	بشان	_	?	?	?	41	preocupats	_	?	?	?	40	Dinge	_	49	somewhat	_	_	_	44	preocupados	_	?	?	?	42	diverse	_	36	zaken	_	39	coisas	_
 35	ilgilenirler.	ilgilenirler.	_	41	بشان	_	?	?	?	?	?	?	?	?	?	41	besorgt	_	49	somewhat	_	_	_	44	preocupados	_	?	?	?	42	diverse	_	36	zaken	_	42	diferentes	_
 36	Bir	Bir	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
@@ -176,8 +176,8 @@
 # sent_id = 155862
 # text:  Tekrar tekrar aynı insanları görürüz. Fakat bu, şehri enine boyuna tüm derinliğine keşfetmemizden kaynaklanıyor.
 # trans: Estamos sempre a encontrar as mesmas pessoas, mas isso acontece porque não exploramos toda a profundidade e amplitude da cidade.
-# forward_log_prob: -65.92275678471773
-# backward_log_prob: -48.917171858980794
+# forward_log_prob: -65.92259682580112
+# backward_log_prob: -48.917781563075216
 1	Tekrar	Tekrar	_	1	نرى	_	1	?	_	1	Sempre	_	1	?	_	1	Wir	_	1	We	_	_	_	1	Vemos	_	1	On	_	1	Vediamo	_	1	We	_	1	Estamos	_
 2	tekrar	tekrar	_	1	نرى	_	1	?	_	2	veiem	_	1	?	_	2	sehen	_	4	same	_	_	_	3	la	_	3	toujours	_	2	sempre	_	4	dezelfde	_	2	sempre	_
 3	aynı	aynı	_	2	نفس	_	1	?	_	4	la	_	1	?	_	4	wieder	_	3	the	_	_	_	4	misma	_	2	voit	_	4	solite	_	6	keer	_	4	encontrar	_
@@ -196,8 +196,8 @@
 # sent_id = 155863
 # text:  Ağın diğer ucunda Hip-hop müzik gibi şeylerden hoşlanan topluluğu görebilirsiniz. hatta onlar DC/Maryland/Virgina bölgesinde, doğru tanımıyla Baltimore şehrinin üst tarafında yaşamakla özdeşleşirler.
 # trans: Na outra extremidade da rede, temos pessoas que se interessam por música "hip-hop" e até se identificam dizendo que vivem na área DC/Maryland/Virginia, em vez de dizerem na cidade de Baltimore, a designação apropriada.
-# forward_log_prob: -121.07400255440945
-# backward_log_prob: -88.4713974101978
+# forward_log_prob: -121.0756607556072
+# backward_log_prob: -88.46108902597331
 1	Ağın	Ağın	_	4	من	_	1	?	_	6	xarxa	_	1	?	_	5	des	_	1	On	_	_	_	7	red,	_	4	du	_	4	rete	_	2	de	_	4	da	_
 2	diğer	diğer	_	3	الآخر	_	1	?	_	5	la	_	1	?	_	1	Auf	_	3	other	_	_	_	6	la	_	1	A	_	3	della	_	3	andere	_	2	outra	_
 3	ucunda	ucunda	_	2	الطرف	_	1	?	_	3	costat	_	1	?	_	2	der	_	4	end	_	_	_	2	el	_	5	réseau,	_	?	?	?	4	kant	_	1	Na	_
@@ -224,8 +224,8 @@
 # sent_id = 155864
 # text:  Fakat ortada iki toplumu birleştiren bir şey görürsünüz bu spordur.
 # trans: Mas, no meio, vemos que há uma coisa que liga as duas comunidades. É o desporto.
-# forward_log_prob: -52.1907491866138
-# backward_log_prob: -33.831152654381924
+# forward_log_prob: -52.194227126501644
+# backward_log_prob: -33.83462385868865
 1	Fakat	Fakat	Comparison.Contrast	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	2	der	_	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	3	midden	_	1	Mas,	_
 2	ortada	ortada	_	2	ترى	_	1	?	_	2	al	_	1	?	_	1	In	_	4	middle,	_	_	_	3	el	_	2	au	_	3	mezzo	_	3	midden	_	3	meio,	_
 3	iki	iki	_	4	الوسط	_	1	?	_	5	veu	_	1	?	_	5	Sie	_	4	middle,	_	_	_	13	dos	_	3	milieu,	_	4	vedremo	_	2	het	_	3	meio,	_
@@ -240,8 +240,8 @@
 # sent_id = 155865
 # text:  Baltimore Orioles ve Baltimore Ravens futbol takımları ve Olimpiyat sporcusu Micheal Plehps var.
 # trans: Temos os Baltimore Orioles, a equipa de futebol Baltimore Ravens, Michael Phelps, o atleta olímpico,
-# forward_log_prob: -44.54803172261332
-# backward_log_prob: -39.418838907053626
+# forward_log_prob: -44.54356420836938
+# backward_log_prob: -39.41687018504605
 1	Baltimore	Baltimore	_	3	بالتيمور	_	1	?	_	?	?	?	1	?	_	?	?	?	2	have	_	_	_	3	Baltimore	_	4	<i>Orioles</i>,	_	2	i	_	?	?	?	1	Temos	_
 2	Orioles	Orioles	_	1	لدينا	_	1	?	_	1	Tenim	_	1	?	_	2	haben	_	1	We	_	_	_	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	1	We	_	2	os	_
 3	ve	ve	_	3	بالتيمور	_	1	?	_	2	als	_	1	?	_	3	die	_	3	the	_	_	_	5	en	_	3	les	_	2	i	_	3	de	_	3	Baltimore	_
@@ -259,23 +259,23 @@
 # sent_id = 155866
 # text:  Belki duymuşsunuzdur, Under Armour bir Baltimore firmasıdır. Spor camiası ağın her iki ucunu birleştiren tek köprü işlevi görmektedir.
 # trans: a Under Armour, devem conhecer, uma empresa de Baltimore. O desporto atua como a única ponte entre estas duas pontas da rede.
-# forward_log_prob: -74.31070386414038
-# backward_log_prob: -63.428087920453756
+# forward_log_prob: -74.30856681459842
+# backward_log_prob: -63.42434416018872
 1	Belki	Belki	_	3	ربما	specification.Restatement.EXPANSION	1	?	_	1	Under	_	1	?	_	8	vielleicht	_	2	Armour,	_	_	_	1	Under	_	6	peut-être,	_	3	ne	_	3	misschien	_	1	a	_
 2	duymuşsunuzdur,	duymuşsunuzdur,	_	1	أندر	_	1	?	_	2	Armour,	_	1	?	_	3	Firma	_	1	Under	_	_	_	2	Armour,	_	1	<i>Under	_	1	Under	_	1	Under	_	2	Under	_
 3	Under	Under	_	4	سمعتم	_	1	?	_	4	conèixer-la,	_	1	?	_	3	Firma	_	2	Armour,	_	_	_	5	conozcan,	_	4	vous	_	4	avrete	_	4	ken	_	3	Armour,	_
 4	Armour	Armour	_	4	سمعتم	_	1	?	_	7	empresa	_	1	?	_	5	Armour,	_	2	Armour,	_	_	_	5	conozcan,	_	5	connaissez	_	4	avrete	_	4	ken	_	5	conhecer,	_
-5	bir	bir	_	?	?	?	1	?	_	6	una	_	1	?	_	?	?	?	9	a	_	_	_	6	es	_	8	une	_	7	è	_	?	?	?	6	uma	_
+5	bir	bir	_	?	?	?	1	?	_	6	una	_	1	?	_	?	?	?	7	of,	_	_	_	6	es	_	8	une	_	7	è	_	?	?	?	6	uma	_
 6	Baltimore	Baltimore	_	?	?	?	1	?	_	9	Baltimore.	_	1	?	_	2	Baltimore	_	10	Baltimore	_	_	_	10	Baltimore,	_	11	Cette	_	10	Baltimora.	_	10	Baltimore.	_	9	Baltimore.	_
 7	firmasıdır.	firmasıdır.	_	6	شركة	_	1	?	_	11	aquesta	_	1	?	_	9	kennen.	_	11	company,	_	_	_	8	empresa	_	9	entreprise	_	8	un'azienda	_	8	ook	Conjunction.EXPANSION	7	empresa	_
 8	Spor	Spor	_	10	الرياضات	_	1	?	_	15	actua	_	1	?	_	9	kennen.	_	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	?	?	?	9	di	_	12	sportgemeenschap	_	10	O	_
 9	camiası	camiası	_	9	ومجتمع	_	1	?	_	15	actua	_	1	?	_	11	Sportverbundenheit	_	14	community	_	_	_	12	esta	_	12	réunion	_	11	Quella	_	12	sportgemeenschap	_	12	atua	_
 10	ağın	ağın	_	8	بالتيمور،	_	1	?	_	25	xarxa.	_	1	?	_	13	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	19	the	_	_	_	16	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	14	du	_	?	?	?	?	?	?	12	atua	_
-11	her	her	_	8	بالتيمور،	_	1	?	_	19	entre	TEMPORAL	1	?	_	16	zwischen	_	?	?	?	?	?	19	entre	TEMPORAL	20	entre	_	?	?	?	18	tussen	_	13	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+11	her	her	_	8	بالتيمور،	_	1	?	_	19	entre	TEMPORAL	1	?	_	16	zwischen	_	22	between	TEMPORAL	_	_	19	entre	TEMPORAL	20	entre	_	?	?	?	18	tussen	_	13	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 12	iki	iki	_	?	?	?	1	?	_	14	esports	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	15	sport	_	12	comunità	_	17	brug	_	?	?	?
 13	ucunu	ucunu	_	12	يتصرفون	_	1	?	_	17	l’únic	_	1	?	_	14	einzige	_	20	only	_	result.Cause.CONTIGENCY	_	17	un	_	16	est	_	15	agisce	_	16	enige	_	15	única	_
 14	birleştiren	birleştiren	_	16	هذين	_	1	?	_	21	dues	_	1	?	_	18	beiden	_	24	two	_	_	_	21	dos	_	21	ces	_	21	due	_	20	twee	_	19	duas	_
-15	tek	tek	_	17	الطرفين	_	1	?	_	20	aquestes	_	1	?	_	17	den	_	22	between	TEMPORAL	_	_	20	los	_	?	?	?	19	fra	_	20	twee	_	18	estas	_
+15	tek	tek	_	17	الطرفين	_	1	?	_	20	aquestes	_	1	?	_	17	den	_	23	these	_	_	_	20	los	_	?	?	?	19	fra	_	20	twee	_	18	estas	_
 16	köprü	köprü	_	17	الطرفين	_	1	?	_	22	puntes	_	1	?	_	19	Enden	_	25	ends	_	_	_	22	extremos	_	23	extrémités	_	22	estremità	_	21	kanten	_	20	pontas	_
 17	işlevi	işlevi	_	17	الطرفين	_	1	?	_	22	puntes	_	1	?	_	19	Enden	_	25	ends	_	_	_	22	extremos	_	23	extrémités	_	22	estremità	_	21	kanten	_	20	pontas	_
 18	görmektedir.	görmektedir.	_	17	الطرفين	_	1	?	_	22	puntes	_	1	?	_	19	Enden	_	25	ends	_	_	_	22	extremos	_	23	extrémités	_	22	estremità	_	21	kanten	_	20	pontas	_
@@ -283,8 +283,8 @@
 # sent_id = 155867
 # text:  Şimdi de San Francisco’ya bir göz atalım.
 # trans: Olhemos para São Francisco.
-# forward_log_prob: -12.85610226432274
-# backward_log_prob: -23.327506851711387
+# forward_log_prob: -12.856122614665399
+# backward_log_prob: -23.32639459443341
 1	Şimdi	Şimdi	_	1	دعونا	_	1	?	_	2	mirem	_	1	?	_	1	Schauen	_	1	Let's	_	_	_	?	?	?	?	?	?	?	?	?	1	Laten	_	?	?	?
 2	de	de	_	2	نلقي	_	1	?	_	2	mirem	_	1	?	_	1	Schauen	_	2	take	_	_	_	?	?	?	?	?	?	3	a	_	1	Laten	_	?	?	?
 3	San	San	_	5	سان	_	1	?	_	3	San	_	1	?	_	4	San	_	3	a	_	_	_	3	San	_	3	San	_	4	San	_	3	San	_	3	São	_
@@ -296,8 +296,8 @@
 # sent_id = 155868
 # text:  San Francisco’da biraz farklı olan bazı şeyleri görürsünüz.
 # trans: Vemos uma coisa um pouco diferente a acontecer em São Francisco.
-# forward_log_prob: -36.213511665269465
-# backward_log_prob: -29.90825718233001
+# forward_log_prob: -36.212063681573966
+# backward_log_prob: -29.904443063191298
 1	San	San	_	?	?	?	1	?	_	2	veure	_	1	?	_	1	Sie	_	2	see	_	_	_	2	San	_	9	San	_	2	San	_	2	San	_	?	?	?
 2	Francisco’da	Francisco’da	_	4	يحدث	_	1	?	_	2	veure	_	1	?	_	1	Sie	_	1	You	_	_	_	1	En	_	6	se	_	1	A	_	1	In	_	1	Vemos	_
 3	biraz	biraz	_	1	ترون	_	1	?	_	1	podem	_	1	?	_	2	sehen,	_	4	a	_	_	_	4	sucede	_	1	Quelque	_	4	succede	_	4	zie	_	4	um	_
@@ -310,9 +310,9 @@
 # sent_id = 155869
 # text:  Bir tarafta, medya, politika ve haber lobisine sahipsiniz ki bunlar Baltimore ve diğer şehirlerde olma eğilimindedir bir tarafta da çok baskın bir grup olan ve ağın üst yarsını oluşturan anti-sosyallar ve teknoloji meraklılarına da sahipsiniz aynı zamanda. Hatta çok farklı ve belirgin olan ve tweeter çalışanı olarak tanımlayabileceğimiz bir grup var anti-sosyalların yanında, bilgisayar oyuncuları ile Anti-sosyallar arasında Hip-hop spektrumun öbür ucunda.
 # trans: Por um lado, temos os "media", a política e a imprensa, grupo que também existe em Baltimore e noutras cidades, mas também temos este grupo predominante de "geeks" e técnicos que parece ocuparem a metade superior da rede. Há mesmo um grupo tão distinto e nítido que podemos identificá-lo como empregados do Twitter, ao pé dos "geeks", entre os jogadores e os "geeks", na extremidade oposta do espetro do "hip-hop".
-# forward_log_prob: -283.77539005478627
-# backward_log_prob: -257.00722238812267
-1	Bir	Bir	Comparison.Contrast	?	?	?	1	?	_	2	una	_	1	?	_	2	der	_	?	?	?	?	?	?	?	?	5	une	_	?	?	?	?	?	?	2	um	_
+# forward_log_prob: -283.78280588848
+# backward_log_prob: -256.99826354919975
+1	Bir	Bir	Comparison.Contrast	?	?	?	1	?	_	2	una	_	1	?	_	2	der	_	?	?	?	?	?	?	?	?	5	une	_	2	un	_	?	?	?	2	um	_
 2	tarafta,	tarafta,	Comparison.Contrast	2	ناحية،	_	?	?	?	3	banda,	_	?	?	?	?	?	?	3	one	_	_	_	?	?	?	1	D'un	_	7	media	_	3	ene	_	?	?	?
 3	medya,	medya,	Comparison.Contrast	2	ناحية،	_	?	?	?	3	banda,	_	?	?	?	3	einen	_	4	hand,	_	_	_	?	?	?	7	média	_	7	media	_	3	ene	_	?	?	?
 4	politika	politika	Comparison.Contrast	4	الإعلام	_	?	?	?	6	dels	_	?	?	?	?	?	?	4	hand,	_	_	_	?	?	?	7	média	_	7	media	_	3	ene	_	?	?	?
@@ -378,8 +378,8 @@
 # sent_id = 155870
 # text:  Ancak, görüleceği gibi San Francisco’dan kulağımıza gelen ve insanların seçkinleştirme ve yeni teknoloji firmalarının şehre getirdiği yeni zenginlik ve yeni yerleşimlerden kaynaklanan gerginlik bir gerçek olup esasında bu durumun burada dökümante edildiğini görebilirsiniz.
 # trans: (Risos) Mas podemos ver que são reais as tensões de que ouvimos falar em São Francisco em termos de pessoas preocupadas com a elitização e com todas as empresas tecnológicas que estão a trazer nova riqueza e nova população à cidade. Podemos ver isso aqui documentado.
-# forward_log_prob: -169.56725843159853
-# backward_log_prob: -129.00694329072988
+# forward_log_prob: -169.5781838961572
+# backward_log_prob: -129.00573452776757
 1	Ancak,	Ancak,	Comparison.Concession.Arg2-as-denier	1	إذن	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	1	Sie	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	_	1	Vous	_	7	cui	_	5	dat	_	2	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	görüleceği	görüleceği	_	2	فبإمكانكم	_	1	?	_	2	també	EXPANSION	1	?	_	2	sehen	_	3	can	_	_	_	2	pueden	_	2	voyez	_	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	Dus	result.Cause.CONTIGENCY	1	(Risos)	_
 3	gibi	gibi	_	4	تروا،	_	1	?	_	4	pot	_	1	?	_	14	sich	_	5	though,	_	_	_	10	se	_	4	que	_	?	?	?	?	?	?	1	(Risos)	_
@@ -392,7 +392,7 @@
 10	seçkinleştirme	seçkinleştirme	_	12	عنها	_	1	?	_	15	quant	_	1	?	_	12	vernehmen,	_	17	terms	_	_	_	12	producido	_	10	entendu	_	15	questioni	_	14	wat	_	12	ouvimos	_
 11	ve	ve	_	?	?	?	1	?	_	16	a	_	1	?	_	15	die	_	16	in	_	_	_	13	en	_	?	?	?	19	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	19	en	Conjunction.EXPANSION	14	em	_
 12	yeni	yeni	_	?	?	?	1	?	_	15	quant	_	1	?	_	17	um	_	?	?	?	?	?	12	producido	_	14	habitants	_	8	abbiamo	_	?	?	?	18	termos	_
-13	teknoloji	teknoloji	_	17	ناحية	_	1	?	_	21	preocupada	_	1	?	_	18	Gentrifizierung	_	?	?	?	?	?	18	preocupada	_	13	les	_	16	relative	_	18	gentrificatie,	_	?	?	?
+13	teknoloji	teknoloji	_	17	ناحية	_	1	?	_	19	que	_	1	?	_	18	Gentrifizierung	_	?	?	?	?	?	18	preocupada	_	13	les	_	16	relative	_	18	gentrificatie,	_	?	?	?
 14	firmalarının	firmalarının	_	17	ناحية	_	1	?	_	20	està	_	1	?	_	18	Gentrifizierung	_	20	being	_	_	_	18	preocupada	_	14	habitants	_	18	gentrificazione	_	21	invloed	_	21	preocupadas	_
 15	şehre	şehre	_	19	الأشخاص	_	1	?	_	21	preocupada	_	1	?	_	18	Gentrifizierung	_	22	about	_	_	_	18	preocupada	_	17	l'embourgeoisement	_	18	gentrificazione	_	21	invloed	_	21	preocupadas	_
 16	getirdiği	getirdiği	_	20	قلقين	_	1	?	_	24	gentrificació	_	1	?	_	19	sorgen,	_	23	gentrification	_	_	_	18	preocupada	_	17	l'embourgeoisement	_	22	le	_	21	invloed	_	21	preocupadas	_
@@ -417,8 +417,8 @@
 # sent_id = 155871
 # text:  LGBT toplumunun anti-sosyal topluluk ile çok da iyi iyi geçinmediğini görebilirsiniz. Keza, sanat topluluğu, müzik topluluğu ile de.
 # trans: Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade "geek", com a comunidade das artes, com a comunidade da música.
-# forward_log_prob: -81.25462609083863
-# backward_log_prob: -63.21404668582164
+# forward_log_prob: -81.25487396161799
+# backward_log_prob: -63.23040270506002
 1	LGBT	LGBT	_	3	تشاهدوا	_	1	?	_	1	Es	_	1	?	_	4	LGBT-Community,	_	5	LGBT	_	_	_	6	comunidad	_	6	LGBT	_	4	comunità	_	5	LHBT-gemeenschap	_	4	comunidade	_
 2	toplumunun	toplumunun	_	3	تشاهدوا	_	1	?	_	2	pot	_	1	?	_	4	LGBT-Community,	_	5	LGBT	_	_	_	6	comunidad	_	6	LGBT	_	4	comunità	_	5	LHBT-gemeenschap	_	4	comunidade	_
 3	anti-sosyal	anti-sosyal	_	3	تشاهدوا	_	1	?	_	6	comunitat	_	1	?	_	2	sehen	_	5	LGBT	_	_	_	6	comunidad	_	6	LGBT	_	4	comunità	_	5	LHBT-gemeenschap	_	5	LGTB	_
@@ -441,8 +441,8 @@
 # sent_id = 155872
 # text:  Bu da bu tür şeylere sebebiyet veriyor.
 # trans: Isso leva a coisas deste género.
-# forward_log_prob: -16.48744683062536
-# backward_log_prob: -15.833969952602342
+# forward_log_prob: -16.48776195293755
+# backward_log_prob: -15.837237664244256
 1	Bu	Bu	_	3	ذلك	_	1	?	_	1	I	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Ça	_	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	hetgeen	_	1	Isso	_
 2	da	da	_	2	فإن	_	1	?	_	3	porta	_	1	?	_	2	dies	_	?	?	?	?	?	2	eso	_	3	à	specification.Restatement.EXPANSION	2	questo	_	1	hetgeen	_	2	leva	_
 3	bu	bu	_	3	ذلك	_	1	?	_	2	això	_	1	?	_	3	führt	_	?	?	?	?	?	3	conduce	_	2	mène	_	3	porta	_	2	leidt	_	1	Isso	_
@@ -454,8 +454,8 @@
 # sent_id = 155873
 # text:  (“Twitter Dışarı”) Birkaç hafta önce biri bana bu fotoğrafı gönderdi. Fotoğraf San Francisco’da neler olduğunu gösteriyor Bunu böyle bir haritaya bakarak anlamaya çalışacağınızı düşünüyorum.
 # trans: [Abaixo o Twitter] Enviaram-me esta foto há umas semanas. Mostra o que se passa no terreno, em São Francisco. Acho que podemos tentar perceber isso, olhando para um mapa como este.
-# forward_log_prob: -111.31843050386394
-# backward_log_prob: -99.25001389968448
+# forward_log_prob: -111.32047661636469
+# backward_log_prob: -99.2464214913895
 1	(“Twitter	(“Twitter	_	1	["قم	_	1	?	_	1	[“Esborreu	_	1	?	_	1	["Twitter	_	1	["Evict	_	_	_	1	[desahucia	_	1	[Virez	_	1	["Sfrattiamo	_	1	"verjaag	_	1	[Abaixo	_
 2	Dışarı”)	Dışarı”)	_	3	تويتر"]	_	1	?	_	2	Twitter”]	_	1	?	_	2	raus"]	_	3	Somebody	_	_	_	2	Twitter]	_	1	[Virez	_	4	ricevuto	_	2	Twitter".	_	3	Twitter]	_
 3	Birkaç	Birkaç	_	5	لي	_	1	?	_	8	unes	_	1	?	_	6	ich	_	5	me	_	_	_	5	esta	_	4	m'a	_	3	Ho	_	3	Ik	_	8	umas	_
@@ -484,8 +484,8 @@
 # sent_id = 155874
 # text:  Rio de Janerio’ya bir göz atalım.
 # trans: Vejamos o Rio de Janeiro.
-# forward_log_prob: -13.824089454411418
-# backward_log_prob: -15.770635938378936
+# forward_log_prob: -13.822732213037117
+# backward_log_prob: -15.762684305063527
 1	Rio	Rio	_	?	?	?	1	?	_	1	Donem	_	1	?	_	3	Rio	_	?	?	?	?	?	1	Veamos	_	3	Rio	_	4	Rio	_	?	?	?	1	Vejamos	_
 2	de	de	_	1	دعونا	_	1	?	_	2	un	_	1	?	_	2	wir	_	3	a	_	_	_	1	Veamos	_	2	maintenant	Exception.EXPANSION	3	a	_	1	Laten	_	1	Vejamos	_
 3	Janerio’ya	Janerio’ya	_	3	نظرة	_	1	?	_	1	Donem	_	1	?	_	1	Betrachten	_	1	Let's	_	_	_	1	Veamos	_	1	Observons	_	1	Diamo	_	3	Rio	_	1	Vejamos	_
@@ -496,8 +496,8 @@
 # sent_id = 155875
 # text:  Son birkaç haftayı Rio hakkında bilgi toplamakla geçirdim Bu şehir hakkında benim dikkatimi çeken noktalardan gerçekten her şeyin bir tür karışım olması.
 # trans: Passei umas semanas a reunir dados sobre o Rio. Uma das coisas que ressaltou nesta cidade é que está tudo muito misturado.
-# forward_log_prob: -74.47432462020407
-# backward_log_prob: -81.5900597696542
+# forward_log_prob: -74.47528244709406
+# backward_log_prob: -81.55981311998019
 1	Son	Son	_	5	وأنا	_	1	?	_	?	?	?	1	?	_	2	sammelte	_	1	I	_	_	_	?	?	?	1	J'ai	_	2	trascorso	_	2	afgelopen	_	1	Passei	_
 2	birkaç	birkaç	_	2	الأسابيع	_	1	?	_	3	unes	_	1	?	_	1	Ich	_	5	few	_	_	_	3	unas	_	5	semaines	_	1	Ho	_	2	afgelopen	_	2	umas	_
 3	haftayı	haftayı	_	1	أمضيت	_	1	?	_	1	He	_	1	?	_	2	sammelte	_	4	last	_	_	_	1	He	_	4	dernières	_	4	ultime	_	3	paar	_	1	Passei	_
@@ -516,7 +516,7 @@
 16	gerçekten	gerçekten	_	21	فيها	_	1	?	_	15	destaca	_	1	?	_	12	mir	_	24	is	_	_	_	14	destacables	_	21	est	_	11	cosa	_	16	dingen	_	15	nesta	_
 17	her	her	_	21	فيها	_	1	?	_	?	?	?	1	?	_	12	mir	_	26	everything's	_	_	_	?	?	?	?	?	?	21	tutto	_	18	deze	_	15	nesta	_
 18	şeyin	şeyin	_	20	شيء	_	1	?	_	19	es	_	1	?	_	16	auf:	_	26	everything's	_	_	_	22	todo	_	18	c'est	_	21	tutto	_	22	alles	_	19	está	_
-19	bir	bir	_	22	في	_	1	?	_	?	?	?	1	?	_	18	ist	_	29	of	_	_	_	21	que	_	?	?	?	?	?	?	?	?	?	?	?	?
+19	bir	bir	_	22	في	_	1	?	_	20	que	_	1	?	_	18	ist	_	29	of	_	_	_	21	que	_	?	?	?	?	?	?	?	?	?	?	?	?
 20	tür	tür	_	25	نوعاً	_	1	?	_	13	coses	_	1	?	_	21	gemischt.	_	28	kind	_	_	_	13	cosas	_	23	mélangé.	_	20	come	EXPANSION|Synchronous.TEMPORAL	22	alles	_	12	coisas	_
 21	karışım	karışım	_	24	مختلط	_	1	?	_	23	mesclat	_	1	?	_	19	wirklich	_	30	mixed	_	_	_	23	parece	_	23	mélangé.	_	22	sia	_	23	erg	_	20	tudo	_
 22	olması.	olması.	_	24	مختلط	_	1	?	_	25	manera.	_	1	?	_	21	gemischt.	_	30	mixed	_	_	_	25	mezclado.	_	23	mélangé.	_	24	mescolato.	_	24	gemengd	_	22	misturado.	_
@@ -524,8 +524,8 @@
 # sent_id = 155876
 # text:  Rio, Baltimore ve San Francisco’nun tersine tam bir heterojen şehir.
 # trans: É uma cidade muito heterogénea, muito diferente de Baltimore ou São Francisco.
-# forward_log_prob: -39.085073120000935
-# backward_log_prob: -33.81568443505881
+# forward_log_prob: -39.08332608086531
+# backward_log_prob: -33.716683821622276
 1	Rio,	Rio,	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	3	ciutat	_	1	?	_	2	ist	_	2	a	_	_	_	1	Es	_	3	est	_	1	È	_	?	?	?	1	É	_
 2	Baltimore	Baltimore	_	2	مدينة	_	1	?	_	8	Baltimore	_	1	?	_	9	Baltimore	_	10	Baltimore	_	_	_	10	Baltimore	_	1	Cette	_	?	?	?	1	Het	_	9	Baltimore	_
 3	ve	ve	_	?	?	?	1	?	_	2	una	_	1	?	_	1	Es	_	6	in	_	_	_	?	?	?	2	ville	_	3	città	_	3	een	_	3	cidade	_
@@ -540,8 +540,8 @@
 # sent_id = 155877
 # text:  Hala hükümetle, gazetelerle, politkayla, köşe yazarlarıyla ilintili bir grup insan var.
 # trans: Têm na mesma o grupo de pessoas envolvidas no governo, na imprensa, os políticos, os colunistas.
-# forward_log_prob: -49.4382141187231
-# backward_log_prob: -36.933144961789154
+# forward_log_prob: -49.439007377126174
+# backward_log_prob: -36.933292014199814
 1	Hala	Hala	_	1	لا	Contrast.COMPARISON	1	?	_	1	Així	_	1	?	_	1	Es	_	1	You	_	_	_	1	Sigue	_	1	Vous	_	1	Abbiamo	_	3	nog	_	1	Têm	_
 2	hükümetle,	hükümetle,	_	3	بإمكانك	_	1	?	_	3	tot	_	1	?	_	2	gibt	_	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	habiendo	_	3	toujours	_	2	ancora	_	3	nog	_	3	mesma	_
 3	gazetelerle,	gazetelerle,	_	3	بإمكانك	_	1	?	_	4	està	_	1	?	_	4	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	3	el	_	3	toujours	_	4	che	_	4	steeds	_	3	mesma	_
@@ -557,8 +557,8 @@
 # sent_id = 155878
 # text:  TEDx Rio, sağ aşağıda, blogcuların ve yazarların tam yanındadır.
 # trans: TEDxRio está em baixo à direita, ao pé dos bloguistas e escritores.
-# forward_log_prob: -36.583048493214456
-# backward_log_prob: -26.704999516575647
+# forward_log_prob: -36.58844537533439
+# backward_log_prob: -26.711815179766955
 1	TEDx	TEDx	_	1	يوجد	_	1	?	_	1	TEDxRio	_	1	?	_	1	TEDxRio	_	1	TEDxRio	_	_	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_
 2	Rio,	Rio,	_	2	TEDxRio	_	1	?	_	1	TEDxRio	_	1	?	_	2	is	_	1	TEDxRio	_	_	_	1	TEDxRio	_	2	est	_	1	TEDxRio	_	2	bevindt	_	1	TEDxRio	_
 3	sağ	sağ	_	4	أسفل	_	1	?	_	3	baix	_	1	?	_	3	unten	_	3	down	_	_	_	3	abajo,	_	3	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	3	in	_	3	zich	_	3	em	_
@@ -572,8 +572,8 @@
 # sent_id = 155879
 # text:  Fakat, değişik müzik tarzlarıyla ilgilenen büyük miktarda insan çeşitliliğine de sahipsiniz ayrıca.
 # trans: E também temos esta grande diversidade de pessoas interessadas em diferentes tipos de música.
-# forward_log_prob: -42.73619247804591
-# backward_log_prob: -45.330431953398545
+# forward_log_prob: -42.73744467879481
+# backward_log_prob: -45.33246333270509
 1	Fakat,	Fakat,	Comparison.Concession	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	3	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	?	?	?
 2	değişik	değişik	_	2	أيضاً	_	1	?	_	2	també	EXPANSION	1	?	_	2	gibt	_	2	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	también	EXPANSION	6	incroyable	_	2	poi	precedence.Asynchronous.TEMPORAL	4	ook	Conjunction.EXPANSION	2	também	Conjunction.EXPANSION|EXPANSION
 3	müzik	müzik	_	3	تجد	_	1	?	_	3	hi	_	1	?	_	?	?	?	3	you	_	_	_	2	hay	_	6	incroyable	_	2	poi	precedence.Asynchronous.TEMPORAL	5	een	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -590,8 +590,8 @@
 # sent_id = 155880
 # text:  Justin Bieber hayranları bile burada gösterilmektedir.
 # trans: Até há fãs de Justin Bieber aqui representados.
-# forward_log_prob: -20.24946631272293
-# backward_log_prob: -15.920120162512335
+# forward_log_prob: -20.250047770123764
+# backward_log_prob: -15.920151826054957
 1	Justin	Justin	_	1	حتى	_	1	?	_	1	Es	_	1	?	_	1	Sogar	_	1	Even	_	_	_	1	Hasta	TEMPORAL	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	1	Ci	_	1	Zelfs	_	1	Até	_
 2	Bieber	Bieber	_	3	معجبي	_	1	?	_	2	mostren	_	1	?	_	2	Justin	_	2	Justin	_	_	_	3	fans	_	3	fans	_	3	rappresentati	_	2	Justin	_	3	fãs	_
 3	hayranları	hayranları	_	4	جستن	_	1	?	_	4	els	_	1	?	_	2	Justin	_	3	Bieber	_	_	_	3	fans	_	5	Justin	_	5	i	_	3	Bieber-fans	_	3	fãs	_
@@ -602,8 +602,8 @@
 # sent_id = 155881
 # text:  Diğer müzik grupları, country şarkıcıları, dini müzik, funk, rap ve stand up komedi, Uyuşturucu ve espirileri içeren tüm bir bölge bile var.
 # trans: Outras boy bands, cantores "country", música "gospel, "funk" e "rap" e artistas de comédia "stand-up". Há mesmo toda uma secção em torno de drogas e anedotas.
-# forward_log_prob: -89.98733955421498
-# backward_log_prob: -74.9010571354677
+# forward_log_prob: -89.99651368317555
+# backward_log_prob: -74.90157519492428
 1	Diğer	Diğer	_	1	وهناك	_	1	?	?	?	?	?	1	?	?	1	Andere	_	1	Other	_	_	_	?	?	?	1	D'autres	_	?	?	?	1	Andere	_	?	?	?
 2	müzik	müzik	_	2	فرق	_	1	?	?	?	?	?	1	?	?	2	Boy-Groups,	_	?	?	?	?	?	?	?	?	3	bands</i>,	_	?	?	?	2	boybands,	_	?	?	?
 3	grupları,	grupları,	_	1	وهناك	_	1	?	?	1	Altres	_	1	?	?	1	Andere	_	2	boy	_	_	_	1	Otras	_	2	<i>boys	_	1	Boy	_	3	countryzangers,	_	1	Outras	_
@@ -630,8 +630,8 @@
 # sent_id = 155882
 # text:  Güzel, değil mi?
 # trans: Não é fixe?
-# forward_log_prob: -4.973493144225214
-# backward_log_prob: -8.036868149194438
+# forward_log_prob: -4.973416380514852
+# backward_log_prob: -8.036952419977117
 1	Güzel,	Güzel,	_	1	كم	_	1	?	?	1	Què	_	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿No	_	1	N'est-ce	_	1	Non	_	1	Hoe	_	1	Não	_
 2	değil	değil	_	2	هذا	_	1	?	?	2	us	_	1	?	?	2	cool	_	2	cool	_	_	_	1	¿No	_	2	pas	_	1	Non	_	2	stoer	_	1	Não	_
 3	mi?	mi?	_	3	رائع!	_	1	?	?	3	pareix?	_	1	?	?	4	das	_	2	cool	_	_	_	3	genial?	_	3	super	_	3	fantastico?	_	2	stoer	_	3	fixe?	_
@@ -639,8 +639,8 @@
 # sent_id = 155883
 # text:  Devam edersek, Flamengo futbol takımı da burada temsil edilmektedir.
 # trans: A equipa de futebol Flamengo também está representada aqui.
-# forward_log_prob: -25.300014207783555
-# backward_log_prob: -26.14935395401222
+# forward_log_prob: -25.3006684800294
+# backward_log_prob: -26.148256258474937
 1	Devam	Devam	Expansion.Conjunction	1	ومن	Asynchronous.TEMPORAL	1	?	?	1	I	_	1	?	?	1	Auch	Conjunction.EXPANSION	4	Flamengo	_	_	_	2	Flamengo	_	2	club	_	1	Rappresentata	_	1	Daarnaast	Conjunction.EXPANSION	1	A	_
 2	edersek,	edersek,	Expansion.Conjunction	2	ثم	Asynchronous.TEMPORAL	1	?	?	2	l’equip	_	1	?	?	3	Fußballmannschaft	_	4	Flamengo	_	_	_	1	El	_	2	club	_	2	qui	_	1	Daarnaast	Conjunction.EXPANSION	2	equipa	_
 3	Flamengo	Flamengo	_	5	فلامينغو	_	1	?	?	2	l’equip	_	1	?	?	3	Fußballmannschaft	_	4	Flamengo	_	_	_	2	Flamengo	_	2	club	_	3	c'è	_	1	Daarnaast	Conjunction.EXPANSION	5	Flamengo	_
@@ -654,8 +654,8 @@
 # sent_id = 155884
 # text:  Böylece, spor, müzik, sivil, sanat ve müziğin aynı dağılımına sahipsiniz Ancak o çok farklı bir şekilde temsil temsil edilmektedir. Sanırım bu, çok kültürlülüğü ve müzikal farklılığıyla Rio’yu anlama tarzımıza uygun düşer.
 # trans: Temos assim o mesmo tipo de difusão no desporto, na sociedade civil, na arte e na música, mas está representada de modo muito diferente. Penso que isso deve corresponder à nossa ideia de que o Rio é uma cidade muito multicultural, musicalmente diversificada.
-# forward_log_prob: -165.25823092460354
-# backward_log_prob: -124.79372277529828
+# forward_log_prob: -165.26244497459572
+# backward_log_prob: -124.81642092407951
 1	Böylece,	Böylece,	Contingency.Cause+Belief.Result+Belief (Arg1-gives-evidence)	1	إذن	_	1	?	?	?	?	?	1	?	?	4	Bandbreite	_	8	spread	_	_	_	1	Así	CONTIGENCY|Cause.CONTIGENCY	3	donc	result.Cause.CONTIGENCY	?	?	?	4	vergelijkbare	_	2	assim	CONTIGENCY|Cause.CONTIGENCY|result.Cause.CONTIGENCY
 2	spor,	spor,	_	?	?	?	1	?	?	?	?	?	1	?	?	1	Sie	_	7	of	_	_	_	3	tienes	_	4	le	_	5	di	_	4	vergelijkbare	_	3	o	_
 3	müzik,	müzik,	_	?	?	?	1	?	?	1	Hi	_	1	?	?	2	haben	_	17	music,	_	_	_	14	música	_	5	même	Conjunction.EXPANSION|Exception.EXPANSION	13	musica,	_	3	een	_	4	mesmo	_
@@ -691,8 +691,8 @@
 # sent_id = 155885
 # text:  İşte bütün verilere sahibiz.
 # trans: Temos pois todos estes dados.
-# forward_log_prob: -11.099348598191884
-# backward_log_prob: -10.064058350034092
+# forward_log_prob: -11.099311366629221
+# backward_log_prob: -10.064093882856545
 1	İşte	İşte	_	1	إذن	_	1	?	?	1	Així	CONTIGENCY|Cause.CONTIGENCY	1	?	?	1	Wir	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	1	Nu	_	1	Temos	_
 2	bütün	bütün	_	2	لدينا	_	1	?	?	1	Així	CONTIGENCY|Cause.CONTIGENCY	1	?	?	2	haben	_	3	have	_	_	_	2	pues	_	3	donc	result.Cause.CONTIGENCY	2	tutti	_	3	we	_	2	pois	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	verilere	verilere	_	3	كل	_	1	?	?	4	aquestes	_	1	?	?	3	all	_	4	all	_	_	_	4	estos	_	4	toutes	_	3	questi	_	4	al	Concession.COMPARISON	4	estes	_
@@ -701,11 +701,11 @@
 # sent_id = 155886
 # text:  Şehirler hakkında inanılmaz zenginlikte bilgiye sahibiz şimdi. Belki de şimdiye kadar sahip olduklarımızdan en zengini.
 # trans: É um conjunto de dados muito rico que temos agora sobre as cidades, talvez mais ricos do que todos os que já tivemos até agora.
-# forward_log_prob: -84.04616539749289
-# backward_log_prob: -59.16389019540083
+# forward_log_prob: -84.04666646895268
+# backward_log_prob: -59.166067004239636
 1	Şehirler	Şehirler	_	2	مجموعة	_	1	?	?	1	És	_	1	?	?	1	ein	_	8	that	_	_	_	2	un	_	1	un	_	3	quantità	_	1	een	_	1	É	_
 2	hakkında	hakkında	_	3	غنية	_	1	?	?	5	dades	_	1	?	?	?	?	?	6	of	_	_	_	?	?	?	4	données	_	2	una	_	2	enorm	_	5	dados	_
-3	inanılmaz	inanılmaz	_	4	بشكل	_	1	?	?	6	increïble	_	1	?	?	2	unglaublich	_	2	an	_	_	_	3	conjunto	_	5	incroyablement	_	3	quantità	_	3	rijke	_	7	rico	_
+3	inanılmaz	inanılmaz	_	4	بشكل	_	1	?	?	6	increïble	_	1	?	?	2	unglaublich	_	1	It's	_	_	_	3	conjunto	_	5	incroyablement	_	3	quantità	_	3	rijke	_	7	rico	_
 4	zenginlikte	zenginlikte	_	6	بالبيانات	_	1	?	?	6	increïble	_	1	?	?	4	Bestand	_	5	set	_	_	_	6	increíblemente	_	5	incroyablement	_	4	notevole	_	3	rijke	_	7	rico	_
 5	bilgiye	bilgiye	_	8	نملكها	_	1	?	?	6	increïble	_	1	?	?	4	Bestand	_	5	set	_	_	_	6	increíblemente	_	6	riche	_	7	sulle	_	4	dataset	_	7	rico	_
 6	sahibiz	sahibiz	_	8	نملكها	_	1	?	?	8	que	_	1	?	?	6	Daten	_	12	cities	_	_	_	5	datos	_	9	villes,	_	6	dati	_	6	informatie	_	9	temos	_
@@ -722,8 +722,8 @@
 # sent_id = 155887
 # text:  Peki bununla ne yapabiliriz?
 # trans: O que é que podemos fazer com isto?
-# forward_log_prob: -17.998656879406877
-# backward_log_prob: -15.93656236017243
+# forward_log_prob: -17.998454441032862
+# backward_log_prob: -15.936378497838472
 1	Peki	Peki	Expansion.Level-of-detail.Arg2-as-detail	1	إذن	_	1	?	?	1	Què	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	¿qué	_	2	pouvons-nous	_	1	Cosa	_	2	wat	_	1	O	_
 2	bununla	bununla	_	3	الذي	specification.Restatement.EXPANSION	1	?	?	2	podem	_	1	?	?	2	können	_	3	can	_	_	_	1	Así	_	1	Que	_	3	fare	_	1	maar	_	4	que	_
 3	ne	ne	Expansion.Level-of-detail.Arg2-as-detail|Hypophora	4	نستطيع	_	1	?	?	2	podem	_	1	?	?	4	damit	PragmaticCause.CONTIGENCY|result.Cause.CONTIGENCY	5	do	_	_	_	5	hacer	_	4	faire	_	4	con	_	5	er	_	6	fazer	_
@@ -732,8 +732,8 @@
 # sent_id = 155888
 # text:  Sanırım anlamaya çalışacağımız ilk şey ayrımcılığın sosyal bir yapı olduğudur.
 # trans: Penso que a primeira coisa que podemos tentar compreender é que a segregação é uma construção social.
-# forward_log_prob: -48.73137355053804
-# backward_log_prob: -33.73832428681067
+# forward_log_prob: -48.730952519536785
+# backward_log_prob: -33.73995078789444
 1	Sanırım	Sanırım	_	2	أعتقد	_	1	?	?	1	Crec	_	1	?	?	1	Ich	_	2	I	_	_	_	1	Pienso	_	3	je	_	2	credo	_	1	Ik	_	1	Penso	_
 2	anlamaya	anlamaya	_	3	أن	_	1	?	?	3	el	_	1	?	?	4	Erstes	_	10	try	_	_	_	3	lo	_	4	pense	_	4	la	_	2	denk	_	7	podemos	_
 3	çalışacağımız	çalışacağımız	_	4	أول	_	1	?	?	4	primer	_	1	?	?	3	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	5	first	_	Contrast.COMPARISON	_	4	primero	_	6	la	_	5	prima	succession.Asynchronous.TEMPORAL	5	eerste	_	4	primeira	_
@@ -741,17 +741,17 @@
 5	şey	şey	_	7	أن	_	1	?	?	6	intentar	_	1	?	?	5	sollten	_	6	thing	_	_	_	5	es	_	8	chose	_	7	che	_	7	we	_	5	coisa	_
 6	ayrımcılığın	ayrımcılığın	_	9	فعله	_	1	?	?	10	segregació	_	1	?	?	12	Trennung	_	15	segregation	_	_	_	9	segregación	_	10	comprendre	_	13	segregazione	_	8	ermee	_	9	compreender	_
 7	sosyal	sosyal	_	11	فهم	_	1	?	?	10	segregació	_	1	?	?	11	diese	_	15	segregation	_	_	_	9	segregación	_	12	que	_	12	la	_	13	segregatie	_	12	a	_
-8	bir	bir	_	12	أن	_	1	?	?	12	una	_	1	?	?	10	Ist	_	17	a	_	_	_	10	es	_	16	une	_	14	è	_	14	een	_	15	uma	_
+8	bir	bir	_	12	أن	_	1	?	?	11	és	_	1	?	?	10	Ist	_	17	a	_	_	_	10	es	_	16	une	_	14	è	_	14	een	_	15	uma	_
 9	yapı	yapı	_	15	بناء	_	1	?	?	13	construcció	_	1	?	?	14	soziales	_	18	social	_	_	_	12	construcción	_	17	construction	_	16	costruzione	_	15	sociale	_	14	é	_
 10	olduğudur.	olduğudur.	_	14	هو	specification.Restatement.EXPANSION	1	?	?	14	social.	_	1	?	?	13	ein	_	19	construct.	_	_	_	13	social	_	18	sociale.	_	17	sociale.	_	16	constructie	_	17	social.	_
 
 # sent_id = 155889
 # text:  Bu bizim yapmayı veya yapmamayı tercih ettiğimiz bir şeydir. Ve eğer düşünürseniz, bizim bu verilerle yapmayı düşündüğümüz şey, şehrin üzerine uzay teleskopu tutmak ve adeta büyük bir lisenin kafeteryası gibiymiş bakmak, herkesin bir oturma şemasına kendisini nasıl yerleştirdiğini görmektir.
 # trans: É uma coisa que escolhemos fazer, e podíamos escolher não a fazer. Se pensarmos bem nisso, o que estamos a fazer com estes dados é apontar um telescópio para uma cidade e olhar para ela como uma gigantesca cantina escolar, ver como toda a gente se instala numa planta de lugares.
-# forward_log_prob: -191.5289927888584
-# backward_log_prob: -160.24054135543736
-1	Bu	Bu	_	2	شيء	_	1	?	?	1	És	_	1	?	?	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	y	_	1	Nous	_	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	1	É	_
-2	bizim	bizim	_	1	إنه	_	1	?	?	5	triem	_	1	?	?	6	wählen,	_	5	choose	_	_	_	4	elegimos	_	2	choisissons	_	4	scegliamo	_	4	keuze,	_	5	escolhemos	_
+# forward_log_prob: -191.52782457249552
+# backward_log_prob: -160.22544596314773
+1	Bu	Bu	_	2	شيء	_	1	?	?	4	que	_	1	?	?	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	y	_	1	Nous	_	7	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	1	É	_
+2	bizim	bizim	_	1	إنه	_	1	?	?	3	cosa	_	1	?	?	6	wählen,	_	5	choose	_	_	_	4	elegimos	_	2	choisissons	_	4	scegliamo	_	4	keuze,	_	5	escolhemos	_
 3	yapmayı	yapmayı	_	3	نختارُ	_	1	?	?	5	triem	_	1	?	?	6	wählen,	_	5	choose	_	_	_	4	elegimos	_	4	l'avoir,	_	4	scegliamo	_	4	keuze,	_	5	escolhemos	_
 4	veya	veya	Expansion.Disjunction	5	وبإمكاننا	_	1	?	?	5	triem	_	1	?	?	6	wählen,	_	5	choose	_	_	_	4	elegimos	_	4	l'avoir,	_	4	scegliamo	_	4	keuze,	_	5	escolhemos	_
 5	yapmamayı	yapmamayı	_	5	وبإمكاننا	_	1	?	?	7	volem	_	1	?	?	6	wählen,	_	10	could	_	_	_	4	elegimos	_	6	pourrions	_	10	scegliere	_	7	zouden	_	6	fazer,	_
@@ -768,12 +768,12 @@
 16	yapmayı	yapmayı	_	19	نفعله	_	1	?	?	21	fem	_	1	?	?	16	darüber	_	26	doing	_	_	_	19	dirigir	_	19	pointons	_	?	?	?	20	over	_	21	fazer	_
 17	düşündüğümüz	düşündüğümüz	_	20	بهذه	_	1	?	?	21	fem	_	1	?	?	16	darüber	_	26	doing	_	_	_	19	dirigir	_	19	pointons	_	26	po'	_	21	nadenkt,	_	21	fazer	_
 18	şey,	şey,	_	22	هو	specification.Restatement.EXPANSION	1	?	?	19	el	_	1	?	?	?	?	?	30	is	_	_	_	18	es	_	16	ces	_	24	è	_	26	is	_	3	coisa	_
-19	şehrin	şehrin	_	23	توجيهُ	_	1	?	?	26	apuntar	_	1	?	?	24	Blick	_	29	data	_	_	_	21	telescopio,	_	21	télescope	_	28	puntare	_	25	doen,	_	24	dados	_
+19	şehrin	şehrin	_	23	توجيهُ	_	1	?	?	24	dades	_	1	?	?	24	Blick	_	29	data	_	_	_	21	telescopio,	_	21	télescope	_	28	puntare	_	25	doen,	_	24	dados	_
 20	üzerine	üzerine	_	24	مقرابٍ	_	1	?	?	26	apuntar	_	1	?	?	24	Blick	_	31	aiming	_	_	_	21	telescopio,	_	21	télescope	_	30	telescopio	_	25	doen,	_	26	apontar	_
 21	uzay	uzay	_	25	فضائي	_	1	?	?	28	telescopi	_	1	?	?	23	einen	_	31	aiming	_	_	_	21	telescopio,	_	21	télescope	_	30	telescopio	_	28	telescoop	_	28	telescópio	_
 22	teleskopu	teleskopu	_	26	نحو	_	1	?	?	28	telescopi	_	1	?	?	24	Blick	_	33	space	_	_	_	27	fuera	_	26	l'observons	_	35	guardarla	_	28	telescoop	_	28	telescópio	_
 23	tutmak	tutmak	_	27	المدينة	_	1	?	?	31	ciutat	_	1	?	?	25	darauf	precedence.Asynchronous.TEMPORAL	34	telescope	_	_	_	27	fuera	_	26	l'observons	_	35	guardarla	_	28	telescoop	_	28	telescópio	_
-24	ve	ve	Expansion.Conjunction	?	?	?	1	?	?	32	i	_	1	?	?	26	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	38	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	y	_	25	et	Conjunction.EXPANSION	33	città	_	33	en	Conjunction.EXPANSION	32	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+24	ve	ve	Expansion.Conjunction	?	?	?	1	?	?	32	i	_	1	?	?	26	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	38	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	y	_	25	et	Conjunction.EXPANSION	34	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	33	en	Conjunction.EXPANSION	32	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 25	adeta	adeta	_	?	?	?	1	?	?	33	mirar-la	_	1	?	?	29	Stadt	_	41	it	_	_	_	26	si	TEMPORAL	24	ville	_	36	come	EXPANSION|Synchronous.TEMPORAL	37	alsof	COMPARISON	31	cidade	_
 26	büyük	büyük	_	?	?	?	1	?	?	30	una	_	1	?	?	10	auch	Conjunction.EXPANSION	28	this	_	result.Cause.CONTIGENCY	_	40	en	_	29	c'était	_	38	fosse	_	34	er	_	?	?	?
 27	bir	bir	_	?	?	?	1	?	?	?	?	?	1	?	?	?	?	?	?	?	?	?	?	32	una	_	30	une	_	42	un	_	?	?	?	37	uma	_
@@ -793,8 +793,8 @@
 # sent_id = 155890
 # text:  Belki de zaman oturma şemasını biraz sallamaya gelmiştir.
 # trans: Talvez seja altura de baralhar um pouco a planta de lugares.
-# forward_log_prob: -30.127378951957745
-# backward_log_prob: -25.747209071820308
+# forward_log_prob: -30.128138674657702
+# backward_log_prob: -25.747767217485507
 1	Belki	Belki	_	2	ربما	specification.Restatement.EXPANSION	1	?	?	1	Potser	_	1	?	?	1	Vielleicht	_	2	maybe	_	result.Cause.CONTIGENCY	_	3	sea	_	2	est	_	2	forse	_	1	Misschien	_	1	Talvez	_
 2	de	de	_	5	الوقت	_	1	?	?	1	Potser	_	1	?	?	5	an	_	1	Well	_	Conjunction.EXPANSION	_	2	que	_	3	peut-être	_	2	forse	_	4	tijd	_	1	Talvez	_
 3	zaman	zaman	_	5	الوقت	_	1	?	?	3	hora	_	1	?	?	2	ist	_	4	time	_	_	_	1	Puede	_	4	temps	_	1	Beh	_	4	tijd	_	2	seja	_
@@ -807,13 +807,13 @@
 # sent_id = 155891
 # text:  Farkına varmaya başladığımız diğer bir şey ise ırkın gerçekten farklıklar için zayıf bir etken olduğudur.
 # trans: A outra coisa que começamos a perceber é que as etnias são de facto uma fraca prova para a diversidade.
-# forward_log_prob: -62.12524325817178
-# backward_log_prob: -54.05202327605009
+# forward_log_prob: -62.1215142876209
+# backward_log_prob: -54.05198088307715
 1	Farkına	Farkına	_	1	الشيء	_	1	?	?	1	També	EXPANSION	1	?	?	1	Uns	_	3	thing	_	_	_	1	La	_	1	Nous	_	1	L'altra	_	1	Verder	Conjunction.EXPANSION	5	começamos	_
 2	varmaya	varmaya	_	1	الشيء	_	1	?	?	2	comencem	_	1	?	?	2	wird	_	3	thing	_	_	_	2	otra	_	2	commençons	_	1	L'altra	_	2	beginnen	_	5	começamos	_
 3	başladığımız	başladığımız	_	3	الذي	specification.Restatement.EXPANSION	1	?	?	4	adonar-nos	_	1	?	?	2	wird	_	3	thing	_	_	_	3	cosa	_	3	également	COMPARISON	4	iniziamo	_	2	beginnen	_	5	começamos	_
 4	diğer	diğer	Expansion.Conjunction	2	الآخر	_	1	?	?	3	a	_	1	?	?	3	auch	Conjunction.EXPANSION	1	The	_	_	_	6	a	_	5	réaliser	_	4	iniziamo	_	2	beginnen	_	4	que	_
-5	bir	bir	Expansion.Conjunction	?	?	?	1	?	?	5	de	_	1	?	?	?	?	?	7	to	_	_	_	?	?	?	4	à	specification.Restatement.EXPANSION	5	a	_	?	?	?	6	a	_
+5	bir	bir	Expansion.Conjunction	?	?	?	1	?	?	5	de	_	1	?	?	?	?	?	7	to	_	_	_	?	?	?	4	à	specification.Restatement.EXPANSION	?	?	?	?	?	?	6	a	_
 6	şey	şey	Expansion.Conjunction	6	هو	specification.Restatement.EXPANSION	1	?	?	6	que	_	1	?	?	?	?	?	10	that	_	_	_	8	es	_	6	que	_	7	è	_	6	dat	_	3	coisa	_
 7	ise	ise	Expansion.Conjunction	6	هو	specification.Restatement.EXPANSION	1	?	?	8	raça	_	1	?	?	5	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	8	realize	_	_	_	7	comprender	_	11	un	_	10	razza	_	8	een	_	10	as	_
 8	ırkın	ırkın	_	5	ندركه	_	1	?	?	8	raça	_	1	?	?	6	Rasse	_	8	realize	_	_	_	7	comprender	_	8	race	_	10	razza	_	7	ras	_	11	etnias	_
@@ -828,8 +828,8 @@
 # sent_id = 155892
 # text:  Farklı ırklardan insanların tüm harita üzerinde temsil edilmesini sağladık burada. Sadece ırka bakmak farklılıkları geliştirmemize gerçekte bir katkı sağlamaz.
 # trans: Temos pessoas representadas de todos os tipos diferentes de etnias por todo o mapa — olhar apenas para a etnia não contribui muito para o desenvolvimento da diversidade.
-# forward_log_prob: -100.70139124934643
-# backward_log_prob: -77.02360234520499
+# forward_log_prob: -100.60208972914924
+# backward_log_prob: -77.02689048264857
 1	Farklı	Farklı	_	2	أشخاص	_	1	?	?	1	Hi	_	1	?	?	3	Verteter	_	7	different	_	_	_	4	de	_	3	sont	_	8	di	_	?	?	?	3	representadas	_
 2	ırklardan	ırklardan	_	1	لدينا	_	1	?	?	5	tot	_	1	?	?	2	haben	_	2	got	_	_	_	1	Tenemos	_	2	gens	_	1	Su	_	?	?	?	3	representadas	_
 3	insanların	insanların	_	4	جميع	_	1	?	?	5	tot	_	1	?	?	4	aus	_	1	We've	_	_	_	5	todo	_	1	Les	_	9	tutte	_	3	hier	_	2	pessoas	_
@@ -853,8 +853,8 @@
 # sent_id = 155893
 # text:  Eğer, farklılıkları bazı zor problemlerimizi çözmek için bir yöntem olarak kullanmayı deniyorsak farklıklara yeni bir tarzda bakmaya başlamamız gerekiyor.
 # trans: Se tentarmos usar a diversidade como forma de resolver alguns dos problemas mais difíceis, precisamos de começar a pensar sobre a diversidade de forma diferente.
-# forward_log_prob: -82.14281113653472
-# backward_log_prob: -68.90453904100919
+# forward_log_prob: -82.12218641419365
+# backward_log_prob: -68.89247736797611
 1	Eğer,	Eğer,	_	1	لذا	result.Cause.CONTIGENCY	1	?	?	1	Si	TEMPORAL	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	si	TEMPORAL	2	si	Concession.COMPARISON|Condition.CONTIGENCY	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	farklılıkları	farklılıkları	_	2	إن	_	1	?	?	4	la	_	1	?	?	7	nutzen,	_	7	diversity	_	_	_	?	?	?	6	la	_	5	la	_	3	diversiteit	_	5	diversidade	_
 3	bazı	bazı	_	3	كنا	_	1	?	?	?	?	?	1	?	?	7	nutzen,	_	5	to	_	_	_	4	estamos	_	4	voulons	_	4	usare	_	5	gebruiken	_	3	usar	_
@@ -878,8 +878,8 @@
 # sent_id = 155894
 # text:  Son olarak şehirlerimizi yeni bir şekilde şekillendirmeye başlayacak icatları yaratacak kabiliyete sahibiz ve inanıyorum ki eğer biz bu kabiliyete sahipsek bunu yapmak için bazı sorumlulukları üstlenebiliriz.
 # trans: E, por fim, temos a possibilidade de criar intervenções para começar a reformular as nossas cidades de modo novo. Creio que, se temos essa capacidade, até podemos ter alguma responsabilidade em fazê-lo.
-# forward_log_prob: -118.08468921099858
-# backward_log_prob: -100.05901020927031
+# forward_log_prob: -118.07380426945423
+# backward_log_prob: -100.04633213976726
 1	Son	Son	Expansion.Conjunction	14	وأنا	_	1	?	?	?	?	?	1	?	?	12	in	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Enfin,	_	2	agire	_	1	Tenslotte	precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY	?	?	?
 2	olarak	olarak	Expansion.Conjunction	7	للبدء	_	1	?	?	?	?	?	1	?	?	3	wir	_	7	to	_	_	_	4	la	_	2	nous	_	3	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	om	PragmaticCause.CONTIGENCY	11	começar	_
 3	şehirlerimizi	şehirlerimizi	_	1	وفي	TEMPORAL	1	?	?	1	Finalment,	_	1	?	?	5	Fähigkeit,	_	6	ability	_	_	_	2	finalmente,	_	3	avons	_	1	Possiamo	_	5	mogelijkheid	_	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
@@ -910,8 +910,8 @@
 # sent_id = 155895
 # text:  Peki, şehir nedir?
 # trans: Então, o que é uma cidade?
-# forward_log_prob: -14.090735109374565
-# backward_log_prob: -11.8453162781837
+# forward_log_prob: -14.090412789944715
+# backward_log_prob: -11.841340840881081
 1	Peki,	Peki,	_	1	إذن	_	1	?	?	1	Què	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	¿Qué	_	1	Qu'est-ce	_	1	Cos'è	_	1	Dus,	_	1	Então,	_
 2	şehir	şehir	_	3	هي	_	1	?	?	2	és	_	1	?	?	2	ist	_	3	is	_	_	_	2	es	_	2	qu'une	_	1	Cos'è	_	3	is	_	4	é	_
 3	nedir?	nedir?	Hypophora	4	المدينة؟	_	1	?	?	1	Què	_	1	?	?	3	also	result.Cause.CONTIGENCY	5	city?	_	_	_	1	¿Qué	_	1	Qu'est-ce	_	1	Cos'è	_	4	nou	_	6	cidade?	_
@@ -919,8 +919,8 @@
 # sent_id = 155896
 # text:  Sanırım, bazıları coğrafı bölge ya da sokak ve bina topluluğu diyebilir. Fakat inanıyorum ki bir şehir orada yaşayan insanlar arasındaki ilişkiler bütünüdür. İnanıyorum ki bu ilişkileri gerçekçi bir şekilde belgelemeye başlayabilirsek sahip olmayı isteyeceğimiz tarzda şehirler yaratmayı deneyebiliriz.
 # trans: Acho que alguns dirão que é uma área geográfica ou um conjunto de ruas e edifícios, mas penso que uma cidade é a soma das relações das pessoas que lá vivem. Acho que, se começarmos a documentar essas relações de forma real talvez tenhamos uma hipótese para criar o tipo de cidades que gostaríamos de ter,
-# forward_log_prob: -211.79777818626454
-# backward_log_prob: -163.81556595687542
+# forward_log_prob: -211.79875497104337
+# backward_log_prob: -163.74655001040833
 1	Sanırım,	Sanırım,	_	1	أعتقد	_	1	?	?	3	que	_	1	?	?	2	könnte	_	1	I	_	_	_	1	Algunos	_	1	Je	_	4	che	_	4	dat	_	2	que	_
 2	bazıları	bazıları	_	3	البعض	_	1	?	?	1	Alguns	_	1	?	?	1	Jemand	_	3	some	_	_	_	2	pueden	_	4	certains	_	1	Qualcuno	_	1	Sommigen	_	1	Acho	_
 3	coğrafı	coğrafı	_	3	البعض	_	1	?	?	6	àrea	_	1	?	?	3	sagen,	_	5	say	_	_	_	3	decir	_	4	certains	_	3	dire	_	3	zeggen	_	4	dirão	_
@@ -935,7 +935,7 @@
 12	Fakat	Fakat	Comparison.Contrast	21	الأشخاص	_	1	?	?	15	però	precedence.Asynchronous.TEMPORAL	1	?	?	15	aber,	_	19	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	pero	precedence.Asynchronous.TEMPORAL	7	c'est	_	13	ed	_	16	maar	_	17	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 13	inanıyorum	inanıyorum	_	26	أننا	_	1	?	?	17	crec	_	1	?	?	14	glaube	_	21	believe	_	_	_	17	creo	_	19	je	_	?	?	?	?	?	?	?	?	?
 14	ki	ki	_	22	الذين	specification.Restatement.EXPANSION	1	?	?	17	crec	_	1	?	?	14	glaube	_	21	believe	_	_	_	17	creo	_	19	je	_	?	?	?	30	die	_	?	?	?
-15	bir	bir	_	?	?	?	1	?	?	9	un	_	1	?	?	?	?	?	28	of	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+15	bir	bir	_	?	?	?	1	?	?	9	un	_	1	?	?	?	?	?	28	of	_	_	_	?	?	?	12	un	_	?	?	?	?	?	?	?	?	?
 16	şehir	şehir	_	17	المدينة	_	1	?	?	47	ciutat	_	1	?	?	16	eine	_	24	city	_	_	_	19	una	_	21	qu'une	_	19	una	_	21	stad	_	20	uma	_
 17	orada	orada	_	19	مجموع	_	1	?	?	21	suma	_	1	?	?	20	Summe	_	35	live	_	_	_	23	suma	_	25	somme	_	23	somma	_	25	relaties	_	24	soma	_
 18	yaşayan	yaşayan	_	23	يعيشون	_	1	?	?	21	suma	_	1	?	?	20	Summe	_	35	live	_	_	_	31	vive	_	27	relations	_	29	ci	_	25	relaties	_	24	soma	_
@@ -949,7 +949,7 @@
 26	ilişkileri	ilişkileri	_	31	توثيق	_	1	?	?	34	comencem	_	1	?	?	36	dokumentieren,	_	46	document	_	_	_	40	documentar	_	40	représentons	_	38	documentare	_	42	échte	_	37	documentar	_
 27	gerçekçi	gerçekçi	_	35	حقيقية،	_	1	?	?	36	documentar	_	1	?	?	36	dokumentieren,	_	51	real	_	_	_	40	documentar	_	40	représentons	_	39	quelle	_	42	échte	_	42	real	_
 28	bir	bir	_	?	?	?	1	?	?	?	?	?	1	?	?	?	?	?	50	a	_	_	_	48	una	_	?	?	?	42	un	_	?	?	?	45	uma	_
-29	şekilde	şekilde	_	25	وأعتقد	_	1	?	?	31	crec	_	1	?	?	35	zu	_	52	way	_	_	_	45	modo	_	34	Je	_	?	?	?	51	hebben	_	47	para	CONTIGENCY|PragmaticCause.CONTIGENCY
+29	şekilde	şekilde	_	25	وأعتقد	_	1	?	?	31	crec	_	1	?	?	35	zu	_	38	I	_	_	_	45	modo	_	34	Je	_	?	?	?	51	hebben	_	47	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 30	belgelemeye	belgelemeye	_	37	لربما	_	1	?	?	41	l’oportunitat	_	1	?	?	40	echte	_	53	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	46	real,	_	42	relations	_	46	sarà	_	49	ware	_	44	tenhamos	_
 31	başlayabilirsek	başlayabilirsek	Contingency.Condition.Arg2 as condition	39	الفرصة	_	1	?	?	41	l’oportunitat	_	1	?	?	40	echte	_	58	real	_	_	_	46	real,	_	45	aurons	_	46	sarà	_	50	kans	_	46	hipótese	_
 32	sahip	sahip	_	?	?	?	1	?	?	39	potser	_	1	?	?	43	Städte	_	54	maybe	_	result.Cause.CONTIGENCY	_	47	tenemos	_	46	peut-être	_	45	forse	_	47	misschien	_	43	talvez	_

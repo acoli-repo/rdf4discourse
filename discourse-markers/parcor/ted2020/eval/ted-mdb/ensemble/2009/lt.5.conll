@@ -1,8 +1,8 @@
 # sent_id = 138295
 # text:  Kai buvau maža, vis įsivaizduodavau, kad vieną dieną pabėgsiu.
 # trans: Em pequena, sempre imaginei que um dia fugiria.
-# forward_log_prob: -20.66585569811837
-# backward_log_prob: -25.58165904454135
+# forward_log_prob: -20.633116654307607
+# backward_log_prob: -25.562914628297683
 1	Kai	Kai	Temporal.Synchronous	3	طفلة،	_	1	?	_	1	?	_	3	jsem	_	5	ich	_	2	a	_	_	_	1	De	_	2	j'avais	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	kind	_	1	Em	_
 2	buvau	buvau	_	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	2	kleines	_	3	little	_	_	_	3	siempre	_	1	Petite,	_	2	ero	_	3	verbeeldde	_	2	pequena,	_
 3	maža,	maža,	_	3	طفلة،	_	1	?	_	1	?	_	3	jsem	_	1	Als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	5	I	_	_	_	2	niña,	_	3	toujours	_	4	immaginavo	_	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	2	pequena,	_
@@ -16,8 +16,8 @@
 # sent_id = 138296
 # text:  Nuo tada, kai suėjo šešeri, visuomet turėjau pasiruošusi kuprinę su drabužiais ir paslėpusi konservų skardinių giliai spintoje.
 # trans: A partir dos meus 6 anos, passei a guardar uma mala com roupas e latas de comida escondidas na parte de trás de um roupeiro.
-# forward_log_prob: -82.75179758234421
-# backward_log_prob: -61.07027654434041
+# forward_log_prob: -82.75703963259002
+# backward_log_prob: -61.069396499818964
 1	Nuo	Nuo	_	1	من	_	1	?	_	1	?	_	1	Od	_	2	dem	_	1	From	_	_	_	3	de	_	3	de	_	3	avevo	_	1	Vanaf	succession.Asynchronous.TEMPORAL	1	A	_
 2	tada,	tada,	_	2	عمر	_	1	?	_	1	?	_	2	svých	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	1	A	_	1	Dès	_	1	Da	succession.Asynchronous.TEMPORAL	2	mijn	_	2	partir	_
 3	kai	kai	Temporal.Asynchronous.Succession	3	السادسة،	_	1	?	_	1	?	_	5	jsem	_	6	ich	_	7	I	_	_	_	6	años,	_	6	j'avais	_	5	anni	_	5	ik	_	6	anos,	_
@@ -39,8 +39,8 @@
 # sent_id = 138297
 # text:  Nenustygau vietoje, bijojau, kad tapsiu rutinos ir nuobodulio grobiu.
 # trans: Sentia uma profunda inquietação, um medo primordial de que seria vítima de uma vida de rotina e aborrecimento.
-# forward_log_prob: -54.60641318411361
-# backward_log_prob: -28.650270416185435
+# forward_log_prob: -54.54473158285977
+# backward_log_prob: -28.648601109150242
 1	Nenustygau	Nenustygau	_	1	كان	_	1	?	_	1	?	_	1	Byl	_	2	mir	_	1	There	_	_	_	1	Sentía	_	1	J'avais	_	1	C'era	_	1	Ik	_	1	Sentia	_
 2	vietoje,	vietoje,	_	3	شعور	_	1	?	_	1	?	_	3	mě	_	3	war	_	4	deep	_	_	_	3	inquietud,	_	3	profonde	_	4	irrequietezza	_	3	rusteloos,	_	4	inquietação,	_
 3	bijojau,	bijojau,	_	5	عميق	_	1	?	_	1	?	_	5	neklid,	_	5	tiefe	_	7	me,	_	_	_	5	temor	_	4	angoisse,	_	7	me,	_	6	instinctieve	_	6	medo	_
@@ -54,8 +54,8 @@
 # sent_id = 138298
 # text:  Todėl daugumoje mano vaikystės prisiminimų įvairūs užsisvajojimai, kuriuose aš kertu sienas, ieškau uogų, sutinku visokiausius keistuolius - nesuvaržytus, gyvenančius kelyje.
 # trans: Por isso, muitas das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras, a recolher bagas e a conhecer todo o tipo de pessoas estranhas, com vidas fora do convencional, pela estrada fora.
-# forward_log_prob: -138.846943978337
-# backward_log_prob: -79.90125976828989
+# forward_log_prob: -138.85341878819892
+# backward_log_prob: -79.9008568652089
 1	Todėl	Todėl	Contingency.Cause.Reason	2	ذكرياتي	_	1	?	_	1	?	_	4	mých	_	3	frühkindlichen	_	6	early	_	_	_	2	eso,	_	6	souvenirs	_	1	Quindi,	_	4	vroege	_	2	isso,	_
 2	daugumoje	daugumoje	_	2	ذكرياتي	_	1	?	_	1	?	_	4	mých	_	3	frühkindlichen	_	6	early	_	_	_	2	eso,	_	6	souvenirs	_	3	dei	_	4	vroege	_	5	minhas	_
 3	mano	mano	_	1	أغلب	_	1	?	_	1	?	_	3	mnoho	_	1	Viele	_	5	my	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	5	mes	_	2	molti	_	1	Veel	_	3	muitas	_
@@ -80,8 +80,8 @@
 # sent_id = 138299
 # text:  Metai bėgo, tačiau dauguma nuotykių, apie kuriuos svajojau būdama maža - keliauti ir kloti savo kelią tarp kitų pasaulių, ne tik mano vienos - tapo realybe, kai tapau dokumentikos fotografe.
 # trans: Os anos passaram, mas muitas das aventuras que fantasiava em criança, a viajar e a tecer o meu caminho entre mundos para além do meu próprio, tornaram-se realidade através do meu trabalho como fotógrafa documental.
-# forward_log_prob: -130.61037534551062
-# backward_log_prob: -116.80469010671122
+# forward_log_prob: -130.50387485282485
+# backward_log_prob: -116.80012942464626
 1	Metai	Metai	_	1	مرت	_	1	?	_	1	?	_	1	Léta	_	2	Jahre	_	1	Years	_	_	_	1	Años	_	2	années	_	2	passati	_	1	Jaren	_	3	passaram,	_
 2	bėgo,	bėgo,	_	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	2	Jahre	_	2	have	_	_	_	2	después,	_	2	années	_	2	passati	_	2	gingen	_	2	anos	_
 3	tačiau	tačiau	Temporal.Asynchronous.Precedence	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	3	sind	_	3	passed,	_	_	_	5	sobre	_	1	Les	_	1	Sono	_	4	maar	_	3	passaram,	_
@@ -116,8 +116,8 @@
 # sent_id = 138300
 # text:  Bet joks kitas potyris nebuvo toks artimas mano vaikystės svajonėms, kaip kad gyvenimas kartu su keliautojais sutiktais JAV ir jų kasdienybės fotografavimas.
 # trans: Mas nenhuma outra experiência senti como tão fiel aos meus sonhos de infância, do que viver entre companheiros errantes pelos Estados Unidos e documentar as suas vidas.
-# forward_log_prob: -96.46564367413305
-# backward_log_prob: -78.1772100783042
+# forward_log_prob: -96.37534213680068
+# backward_log_prob: -78.17036507360399
 1	Bet	Bet	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	Ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Ninguna	_	1	Cependant,	_	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	5	zo	Instantiation.EXPANSION	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	joks	joks	_	2	ولا	_	1	?	_	1	?	_	2	žádná	_	2	keine	_	3	other	_	_	_	2	otra	_	2	aucune	_	2	nessuna	_	1	Geen	_	2	nenhuma	_
 3	kitas	kitas	_	3	تجربة	_	1	?	_	1	?	_	2	žádná	_	4	Erfahrung	_	2	no	_	_	_	3	experiencia	_	8	à	specification.Restatement.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	3	ervaring	_	4	experiência	_
@@ -144,8 +144,8 @@
 # sent_id = 138301
 # text:  Tai klajokliška svajonė, kitokia amerikietiška svajonė, kurią pasirenka jauni benamiai, keliautojai, tranzuotojai, bastūnai ir valkatos.
 # trans: Este é o sonho nómada, um tipo diferente de sonho americano vivido por jovens trabalhadores migratórios, viajantes, pedintes de boleia, vadios e vagabundos.
-# forward_log_prob: -74.547300752595
-# backward_log_prob: -49.28846319565314
+# forward_log_prob: -74.55213502141358
+# backward_log_prob: -49.284639246811786
 1	Tai	Tai	_	1	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	Tohle	_	4	Traum	_	4	nomadic	_	_	_	4	sueño	_	1	C'est	_	1	Questo	_	4	nomadische	_	1	Este	_
 2	klajokliška	klajokliška	_	2	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	2	je	_	4	Traum	_	4	nomadic	_	_	_	4	sueño	_	3	rêve	_	3	il	_	4	nomadische	_	3	o	_
 3	svajonė,	svajonė,	_	3	الحلم	_	1	?	_	1	?	_	3	nomádský	_	4	Traum	_	4	nomadic	_	_	_	4	sueño	_	4	nomade,	_	5	nomade,	_	4	nomadische	_	4	sonho	_
@@ -165,8 +165,8 @@
 # sent_id = 138302
 # text:  Dauguma galvojame, kad bastūnas - praeities sutvėrimas.
 # trans: Na maioria das nossas mentes, o vagabundo é uma criatura do passado.
-# forward_log_prob: -38.03242011266942
-# backward_log_prob: -20.91513860473479
+# forward_log_prob: -38.03272607351996
+# backward_log_prob: -20.913815361864195
 1	Dauguma	Dauguma	_	2	أغلب	_	1	?	_	1	?	_	2	si	_	3	meisten	_	2	most	_	_	_	1	En	_	3	plupart	_	1	La	_	1	Voor	succession.Asynchronous.TEMPORAL	3	das	_
 2	galvojame,	galvojame,	_	3	عقولونا،	_	1	?	_	1	?	_	1	Většinou	_	2	den	_	2	most	_	_	_	3	mentes,	_	3	plupart	_	3	parte	_	3	meesten	_	1	Na	_
 3	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	3	عقولونا،	_	1	?	_	1	?	_	5	jako	Conjunction.EXPANSION	1	In	_	1	In	_	_	_	4	el	_	1	Dans	_	4	di	_	5	een	_	5	mentes,	_
@@ -178,8 +178,8 @@
 # sent_id = 138303
 # text:  Žodis "klajoklis" vaizduotėje nupiešia seną juodai baltą vaizdą, kuriame pajuodęs nuo anglies, nugairintu veidu vyriškis, tabaluojantis kojomis sėdėdamas vagone, tačiau šios nuotraukos spalvotos, jos parodo per visą šalį klajojančią bendruomenę - be galo gyvybingą ir kūrybiškai laisvą, matančią tas Amerikos dalis, kurių niekas kitas nemato.
 # trans: A palavra "vagabundo" evoca uma velha imagem a preto e branco, de um homem velho coberto com carvão, pernas para fora de uma carruagem de mercadorias. Mas estas fotos são a cor e retratam uma comunidade que percorre todo o país, ferozmente viva e criativamente livre, observando lados da América que mais ninguém consegue ver.
-# forward_log_prob: -213.52503371291084
-# backward_log_prob: -195.00420330766232
+# forward_log_prob: -213.34498606303654
+# backward_log_prob: -194.99873158318343
 1	Žodis	Žodis	_	1	كلمة	_	1	?	_	1	?	_	1	Slovo	equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	Das	_	3	"hobo"	_	_	_	1	Nos	_	1	le	_	1	La	_	1	Het	_	4	evoca	_
 2	"klajoklis"	"klajoklis"	_	2	"متشرد"	_	?	?	?	?	?	?	2	"vandrák"	_	2	Wort	_	2	word	_	_	_	2	hace	_	2	mot	_	3	"barbone"	_	2	woord	_	2	palavra	_
 3	vaizduotėje	vaizduotėje	_	3	تستحضر	_	?	?	?	?	?	?	3	vyčaruje	_	3	"Landstreicher"	_	4	conjures	_	_	_	3	pensar	_	3	«	_	4	richiama	_	4	roept	_	4	evoca	_
@@ -229,8 +229,8 @@
 # sent_id = 138304
 # text:  Kaip ir jų pirmtakai, dabartiniai klajokliai keliauja geležinėmis ir betoninėmis JAV arterijomis.
 # trans: Tal como os seus antecessores, os nómadas de hoje viajam pelas estradas de aço e asfalto dos Estados Unidos.
-# forward_log_prob: -58.737055924250946
-# backward_log_prob: -35.03364456884734
+# forward_log_prob: -58.73715713172925
+# backward_log_prob: -35.03247998762228
 1	Kaip	Kaip	Expansion.Manner.Arg2-as-manner	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	1	Tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Wie	COMPARISON|Synchronous.TEMPORAL	?	?	?	?	?	1	Como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	Comme	COMPARISON|specification.Restatement.EXPANSION	1	Come	EXPANSION|Synchronous.TEMPORAL	?	?	?	2	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 2	ir	ir	_	2	كان	_	1	?	_	1	?	_	?	?	?	5	die	_	?	?	?	?	?	5	de	_	4	les	_	2	i	_	5	de	_	3	os	_
 3	jų	jų	_	3	أسلافهم،	_	1	?	_	1	?	_	4	předci,	_	5	die	_	4	today's	_	_	_	7	actualidad	_	3	prédécesseurs,	_	3	loro	_	5	de	_	5	antecessores,	_
@@ -247,8 +247,8 @@
 # sent_id = 138305
 # text:  Dienomis jie įšoka į krovininius traukinius, pakelia nykštį ir važiuoja su tuo, kas pasitaiko - nuo sunkvežimių vairuotojų iki paprastų moteriškių.
 # trans: De dia, saltam para comboios de mercadorias, levantam os polegares e andam pelos caminhos com qualquer um, desde camionistas a mães de futebol.
-# forward_log_prob: -76.18175105243786
-# backward_log_prob: -75.7052135937394
+# forward_log_prob: -76.18727043108466
+# backward_log_prob: -75.41731177605756
 1	Dienomis	Dienomis	_	2	النهار،	_	1	?	_	1	?	_	2	dne	_	1	Am	_	1	By	_	_	_	?	?	?	2	jour,	_	2	giorno	_	1	Overdag	_	2	dia,	_
 2	jie	jie	_	1	في	_	1	?	_	1	?	_	1	Ve	_	4	sie	_	3	they	_	_	_	1	De	_	1	De	_	3	saltano	_	3	ze	_	4	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 3	įšoka	įšoka	_	3	يقفزون	_	1	?	_	1	?	_	3	skáčou	_	3	springen	_	4	hop	_	_	_	2	día,	_	4	sautent	_	4	sui	_	2	hoppen	_	3	saltam	_
@@ -274,8 +274,8 @@
 # sent_id = 138306
 # text:  Naktimis miega po žvaigždėmis, susispaudę su savo šunimis, katėmis, naminėmis žiurkėmis.
 # trans: À noite, eles dormem sob as estrelas, amontoados com as suas matilhas de cães, gatos e ratos de companhia entre os seus corpos.
-# forward_log_prob: -78.69788729639
-# backward_log_prob: -39.348250953983275
+# forward_log_prob: -78.70587232402032
+# backward_log_prob: -39.34754241549173
 1	Naktimis	Naktimis	_	2	الليل،	_	1	?	_	1	?	_	1	Po	_	1	Nachts	_	1	By	_	_	_	2	noche,	_	2	nuit,	_	2	notte,	_	1	's	_	1	À	_
 2	miega	miega	_	3	ينامون	_	1	?	_	1	?	_	3	dřímají	_	1	Nachts	_	3	they	_	_	_	3	duermen	_	3	ils	_	3	dormono	_	2	Nachts	_	4	dormem	_
 3	po	po	_	4	تحت	_	1	?	_	1	?	_	4	pod	_	2	schlafen	_	5	beneath	_	_	_	5	bajo	_	4	dorment	_	4	sotto	_	5	onder	_	5	sob	_
@@ -291,8 +291,8 @@
 # sent_id = 138307
 # text:  Kai kurie keliautojai pasirenka kelią tarsi boikotuodami materializmą, tradicinius darbus, universitetinį išsilavinimą tam, kad gautų nuotykių gūsį.
 # trans: Alguns viajantes metem-se à estrada por opção, renunciam ao materialismo, aos empregos tradicionais e aos graus universitários, em troca de um vislumbre de aventura.
-# forward_log_prob: -80.46074989862791
-# backward_log_prob: -57.51394318107939
+# forward_log_prob: -80.46799961387359
+# backward_log_prob: -57.51521260560381
 1	Kai	Kai	_	1	بعض	_	1	?	_	1	?	_	?	?	?	1	Manche	_	1	Some	_	_	_	?	?	?	?	?	?	?	?	?	1	Sommige	_	1	Alguns	_
 2	kurie	kurie	_	?	?	?	1	?	_	1	?	_	?	?	?	4	sich	_	4	to	_	_	_	2	eligen	_	?	?	?	4	sulla	_	1	Sommige	_	3	metem-se	_
 3	keliautojai	keliautojai	_	?	?	?	1	?	_	1	?	_	2	cestovatelé	_	5	dieses	_	2	travelers	_	_	_	?	?	?	2	voyageurs	_	2	viaggiatori	_	2	reizigers	_	2	viajantes	_
@@ -314,8 +314,8 @@
 # sent_id = 138308
 # text:  Kiti ateina iš žemesniojo visuomenės sluoksnio, niekada nė neturėję šanso pakilti aukščiau: globos namų atstumtieji, paaugliai, bėgantys nuo prievartos ir neatleidžiančių namų.
 # trans: Outros vêm da parte inferior da sociedade, nunca tiveram uma oportunidade de ascender: rejeitados de adoções, adolescentes fugitivos a escapar de abusos e de casas implacáveis​​.
-# forward_log_prob: -81.39215118994262
-# backward_log_prob: -76.67126226410048
+# forward_log_prob: -81.39968887718734
+# backward_log_prob: -76.66771450712972
 1	Kiti	Kiti	_	1	آخرون	_	1	?	_	1	?	_	1	Jiní	_	1	Andere	_	1	Others	_	_	_	1	Otros	_	1	D'autres	_	1	Altri	_	1	Anderen	_	1	Outros	_
 2	ateina	ateina	_	2	قدموا	_	1	?	_	1	?	_	2	pocházejí	_	2	kommen	_	2	come	_	_	_	2	proceden	_	2	proviennent	_	2	vengono	_	2	komen	_	2	vêm	_
 3	iš	iš	_	3	من	_	1	?	_	1	?	_	3	z	_	4	der	_	2	come	_	_	_	3	del	_	4	bas-fonds	_	?	?	?	3	uit	_	5	inferior	_
@@ -342,8 +342,8 @@
 # sent_id = 138309
 # text:  Ten, kur kiti mato nepritekliaus ir ekonominių nesėkmių istorijas, patys keliauninkai mato savo egzistenciją pro išsilaisvinimo ir laisvės prizmę.
 # trans: Onde outros veem histórias de privação e fracasso económico, os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade.
-# forward_log_prob: -74.742188808313
-# backward_log_prob: -63.76212082791799
+# forward_log_prob: -74.74489782270342
+# backward_log_prob: -63.75393684440761
 1	Ten,	Ten,	_	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	2	ostatní	_	1	Was	_	1	Where	TEMPORAL	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	1	Là	_	1	Dove	_	1	Waar	_	1	Onde	_
 2	kur	kur	_	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	Kde	_	1	Was	_	1	Where	TEMPORAL	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	2	où	_	2	alcuni	_	1	Waar	_	1	Onde	_
 3	kiti	kiti	_	2	يراهم	_	1	?	_	1	?	_	2	ostatní	_	2	andere	_	2	others	_	_	_	2	otros	_	4	verront	_	4	storie	_	2	anderen	_	2	outros	_
@@ -367,8 +367,8 @@
 # sent_id = 138310
 # text:  Jie verčiau gyvens ne pertekime, kurį jie mato kaip viską švaistančią vartotojišką visuomenę, ir nevergaus nerealistiškai tradicinei amerikietiškai svajonei.
 # trans: Preferem viver fora do excesso do que veem como uma sociedade de consumo e de desperdício, do que aprisionados numa possibilidade irrealista no sonho americano tradicional.
-# forward_log_prob: -85.52627145551561
-# backward_log_prob: -68.58915697067935
+# forward_log_prob: -85.43113025564391
+# backward_log_prob: -68.4802712210544
 1	Jie	Jie	_	2	العيش	_	1	?	_	1	?	_	1	Raději	_	3	sie	_	?	?	?	?	?	2	vivir	_	1	Ils	_	2	vivere	_	1	Ze	_	4	do	_
 2	verčiau	verčiau	_	1	يفضلون	_	1	?	_	1	?	_	2	by	_	1	Lieber	_	1	They'd	_	_	_	1	Preferirían	_	2	préfèrent	_	1	Preferiscono	_	3	liever	_	1	Preferem	_
 3	gyvens	gyvens	_	4	فائض	_	1	?	_	1	?	_	3	žili	_	4	vom	_	2	rather	_	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	1	Preferirían	_	5	dehors	_	5	fuori	_	4	buiten	Conjunction.EXPANSION	5	excesso	_
@@ -381,7 +381,7 @@
 10	viską	viską	_	10	مسرف	_	1	?	_	1	?	_	10	marnotratnou	_	11	--	_	14	wasteful	_	_	_	9	consumidora	_	16	consommation	_	14	consumista	_	12	consumptiemaatschappij	_	13	consumo	_
 11	švaistančią	švaistančią	_	14	استعباد	_	1	?	_	1	?	_	12	společnost	_	13	Konsumgesellschaft,	_	15	consumer	_	_	_	11	consideran	_	19	gâchis,	_	18	piuttosto	Alternative.EXPANSION	13	noemen,	_	16	desperdício,	_
 12	vartotojišką	vartotojišką	_	14	استعباد	_	1	?	_	1	?	_	12	společnost	_	16	mit	_	17	than	_	_	_	12	derrochadora	_	19	gâchis,	_	20	spezzarsi	_	16	zwoegen	_	16	desperdício,	_
-13	visuomenę,	visuomenę,	_	16	أجل	_	1	?	_	1	?	_	15	zotročit	_	17	einer	_	19	away	_	_	_	13	que	_	22	se	_	22	schiena	_	16	zwoegen	_	18	que	_
+13	visuomenę,	visuomenę,	_	16	أجل	_	1	?	_	1	?	_	14	se	_	17	einer	_	19	away	_	_	_	13	que	_	22	se	_	22	schiena	_	16	zwoegen	_	18	que	_
 14	ir	ir	Expansion.Conjunction	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	17	et	Conjunction.EXPANSION	21	la	_	?	?	?	?	?	?
 15	nevergaus	nevergaus	_	17	فرصة	_	1	?	_	1	?	_	16	kvůli	Cause.CONTIGENCY|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	19	Chance	_	21	an	_	_	_	15	por	CONTIGENCY|Cause.CONTIGENCY	26	l'espoir	_	24	l'irrealizzabile	_	19	onrealistische	_	20	numa	_
 16	nerealistiškai	nerealistiškai	_	19	واقعية	_	1	?	_	1	?	_	17	nerealistické	_	22	herkömmlichen	_	23	chance	_	_	_	16	un	_	27	irréel	_	25	obiettivo	_	19	onrealistische	_	22	irrealista	_
@@ -392,12 +392,12 @@
 # sent_id = 138311
 # text:  Jie pasinaudoja faktu, kad JAV iki 40 proc. maisto atsiduria konteineriuose ir rausiasi juose ieškodami puikios kokybės produkcijos.
 # trans: Eles aproveitam-se do facto de, nos Estados Unidos, cerca de 40% de todos os alimentos acabarem no lixo, para procurar produtos perfeitamente bons em lixeiras e caixotes do lixo.
-# forward_log_prob: -99.66552404297889
-# backward_log_prob: -63.48725328457038
-1	Jie	Jie	_	4	أنه	_	1	?	?	1	?	?	?	?	?	1	Sie	_	1	They	_	_	_	4	que	_	1	Ils	_	2	il	_	1	Ze	_	3	do	_
-2	pasinaudoja	pasinaudoja	_	1	لقد	_	1	?	?	1	?	?	1	Využívají	_	2	nutzen	_	2	take	_	_	_	1	Se	_	2	profitent	_	1	Sfruttano	_	2	doen	_	1	Eles	_
+# forward_log_prob: -99.66948135747408
+# backward_log_prob: -63.33405405453607
+1	Jie	Jie	_	1	لقد	_	1	?	?	1	?	?	?	?	?	1	Sie	_	1	They	_	_	_	3	de	_	1	Ils	_	2	il	_	1	Ze	_	3	do	_
+2	pasinaudoja	pasinaudoja	_	2	استغلوا	_	1	?	?	1	?	?	1	Využívají	_	2	nutzen	_	2	take	_	_	_	1	Se	_	2	profitent	_	1	Sfruttano	_	2	doen	_	1	Eles	_
 3	faktu,	faktu,	_	2	استغلوا	_	1	?	?	1	?	?	2	faktu,	_	4	Tatsache	_	6	fact	_	_	_	2	aprovechan	_	4	fait	_	5	negli	_	5	voordeel	_	4	facto	_
-4	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	6	الولايات	_	1	?	?	1	?	?	3	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	in	_	7	that	_	_	_	8	el	_	11	la	_	4	che	_	7	dat	_	?	?	?
+4	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	5	في	_	1	?	?	1	?	?	3	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	in	_	7	that	_	_	_	8	el	_	11	la	_	4	che	_	7	dat	_	?	?	?
 5	JAV	JAV	_	7	المتحدة	_	1	?	?	1	?	?	5	Spojených	_	9	USA	_	9	the	_	_	_	6	Estados	_	5	que,	_	6	Stati	_	9	de	_	7	Estados	_
 6	iki	iki	_	8	حوالي	_	1	?	?	1	?	?	8	40	_	8	den	_	14	40	_	_	_	10	%	_	6	aux	_	10	40	_	12	tot	_	9	cerca	_
 7	40	40	_	9	40	_	1	?	?	1	?	?	7	až	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Exception.EXPANSION|Synchronous.TEMPORAL	12	40	_	14	40	_	_	_	13	alimentos	_	8	jusqu'à	result.Cause.CONTIGENCY	12	cento	_	13	veertig	_	11	40%	_
@@ -416,8 +416,8 @@
 # sent_id = 138312
 # text:  Jie paaukoja meterialinį komfortą tam, kad gautų erdvės ir laiko tyrinėti savo kūrybines erdves, svajoti, skaityti, rašyti, dirbti su menu ir muzika.
 # trans: Sacrificam o conforto material em troca do espaço e do tempo para explorar um interior criativo, para sonhar, para ler, para trabalhar em música, arte e escrita.
-# forward_log_prob: -90.02787727923928
-# backward_log_prob: -75.52827206980989
+# forward_log_prob: -90.02422297142117
+# backward_log_prob: -75.51305336656301
 1	Jie	Jie	_	1	لقد	_	1	?	?	1	?	?	1	Obětují	_	1	Sie	_	1	They	_	_	_	1	Sacrifican	_	1	Ils	_	?	?	?	1	Ze	_	7	do	_
 2	paaukoja	paaukoja	_	1	لقد	_	1	?	?	1	?	?	2	hmotné	_	2	opfern	_	2	sacrifice	_	_	_	3	comodidad	_	2	sacrifient	_	1	Sacrificano	_	2	geven	_	1	Sacrificam	_
 3	meterialinį	meterialinį	_	2	ضحوا	_	1	?	?	1	?	?	3	pohodlí	_	4	Komfort	_	4	comforts	_	_	_	3	comodidad	_	4	confort	_	3	materiali	_	4	comfort	_	4	material	_
@@ -444,8 +444,8 @@
 # sent_id = 138313
 # text:  Bet šis gyvenimo būdas turi daug aspektų, kurie yra toli nuo idilės.
 # trans: Mas existem muitos aspetos desta vida que estão longe de ser idílicos.
-# forward_log_prob: -33.81138536497677
-# backward_log_prob: -35.848430358340806
+# forward_log_prob: -33.77317652418965
+# backward_log_prob: -35.84727368871626
 1	Bet	Bet	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	5	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	2	sono	_	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	šis	šis	_	2	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	V	_	2	es	_	2	there	_	_	_	2	este	_	2	il	_	1	Ci	_	2	veel	_	2	existem	_
 3	gyvenimo	gyvenimo	_	4	آخرى	_	1	?	?	1	?	?	3	životě	_	4	viele	_	3	are	_	_	_	3	estilo	_	4	a	_	3	molti	_	3	aspecten	_	2	existem	_
@@ -462,8 +462,8 @@
 # sent_id = 138314
 # text:  Niekas neatsikrato savo ydų tiesiog išeidami į kelią.
 # trans: Ninguém perde os seus demónios interiores ao meter-se à estrada.
-# forward_log_prob: -26.92956510217945
-# backward_log_prob: -19.99184449765422
+# forward_log_prob: -26.92951806398747
+# backward_log_prob: -19.991342301536125
 1	Niekas	Niekas	_	2	أحد	_	1	?	?	1	?	?	1	Nikdo	_	1	Niemand	_	1	No	_	_	_	1	Nadie	_	1	Personne	_	1	Nessuno	_	1	Niemand	_	1	Ninguém	_
 2	neatsikrato	neatsikrato	_	1	لا	Contrast.COMPARISON	1	?	?	1	?	?	3	životem	_	2	verliert	_	3	loses	_	_	_	2	pierde	_	2	ne	_	2	riesce	_	2	raakt	_	2	perde	_
 3	savo	savo	_	3	يفقد	_	1	?	?	1	?	?	2	se	_	4	inneren	_	4	their	_	_	_	3	sus	_	4	ses	_	4	liberarsi	_	4	innerlijke	_	3	os	_
@@ -476,8 +476,8 @@
 # sent_id = 138315
 # text:  Priklausomybės tikros, stichijos tikros, suluošinimas ir žudynės krovininiuose traukiniuose - visi, kurie gyveno gatvėse, gali paliudyti apie išsamius įstatymų sąrašus, kurie benamių egzistavimą paverčia nusikaltimu.
 # trans: O vício é real, os elementos são reais, os comboios de mercadorias mutilam e matam. Qualquer um que tenha vivido nas ruas pode confirmar a lista exaustiva de leis que criminalizam a existência dos sem-abrigo.
-# forward_log_prob: -126.6138192767103
-# backward_log_prob: -95.00511738301343
+# forward_log_prob: -126.50565135826282
+# backward_log_prob: -94.99984768533089
 1	Priklausomybės	Priklausomybės	_	1	الإدمان	_	1	?	?	1	?	?	1	Závislost	_	1	Drogensucht	_	1	Addiction	_	_	_	1	La	_	1	L'addiction	_	1	La	_	1	Verslaving	_	2	vício	_
 2	tikros,	tikros,	_	2	حقيقي،	_	1	?	?	1	?	?	3	skutečná,	_	3	extremes	_	2	is	_	_	_	2	adicción	_	2	est	_	3	esiste,	_	2	is	_	2	vício	_
 3	stichijos	stichijos	_	3	والمخدرات	_	1	?	?	1	?	?	3	skutečná,	_	3	extremes	_	3	real,	_	_	_	3	es	_	3	réelle,	_	4	così	result.Cause.CONTIGENCY	3	echt,	_	4	real,	_
@@ -507,8 +507,8 @@
 # sent_id = 138316
 # text:  Kiek iš jūsų žino, kad daugelyje JAV miestų dabar yra uždrausta sėdėti ant šaligatvio, susisukti į pledą, miegoti savo mašinoje, pasiūlyti maisto nepažįstamajam?
 # trans: Quem aqui sabe que, em muitas cidades dos Estados Unidos, é agora ilegal sentar-se no passeio, embrulhar-se num cobertor, dormir no seu próprio carro, oferecer comida a um estranho?
-# forward_log_prob: -106.38055103507928
-# backward_log_prob: -83.34485219081937
+# forward_log_prob: -106.2764341665069
+# backward_log_prob: -83.3452043352092
 1	Kiek	Kiek	Hypophora	2	منكم	_	1	?	?	1	?	?	1	Kdo	_	1	Wussten	_	1	Who	_	_	_	1	¿Sabían	_	3	sait	_	5	sa	_	1	Weet	_	1	Quem	_
 2	iš	iš	_	3	يعلم	_	1	?	?	1	?	?	2	zde	_	2	Sie,	_	2	here	_	precedence.Asynchronous.TEMPORAL	_	3	en	_	2	ici,	_	4	voi	_	2	je	_	2	aqui	_
 3	jūsų	jūsų	_	3	يعلم	_	1	?	?	1	?	?	3	ví,	_	7	Städten	_	2	here	_	precedence.Asynchronous.TEMPORAL	_	3	en	_	2	ici,	_	4	voi	_	2	je	_	2	aqui	_
@@ -536,8 +536,8 @@
 # sent_id = 138317
 # text:  Aš žinau apie šiuos įstatymus, nes mačiau, kaip draugai ir kiti keliautojai sėdo už grotų arba gavo įspėjimus, nes įvykdė šiuos "nusikaltimus".
 # trans: Eu conheço estas leis, porque observei como amigos e outros viajantes foram levados para a prisão ou receberam citações por praticarem estes alegados crimes.
-# forward_log_prob: -83.017071104431
-# backward_log_prob: -74.04109062333809
+# forward_log_prob: -83.01614566269791
+# backward_log_prob: -74.03841942268886
 1	Aš	Aš	_	1	أنا	_	1	?	?	1	?	?	1	Vím	_	1	Ich	_	1	I	_	_	_	1	Conozco	_	1	Je	_	7	miei	_	1	Ik	_	1	Eu	_
 2	žinau	žinau	_	2	أعلم	_	1	?	?	1	?	?	1	Vím	_	2	kenne	_	2	know	_	_	_	1	Conozco	_	2	connais	_	1	Conosco	_	?	?	?	2	conheço	_
 3	apie	apie	_	5	القوانين	_	1	?	?	1	?	?	2	o	_	1	Ich	_	3	about	_	_	_	3	leyes	_	3	ces	_	3	leggi	_	2	weet	_	4	leis,	_
@@ -564,8 +564,8 @@
 # sent_id = 138318
 # text:  Daugelis iš jūsų turbūt svarsto, kodėl kas nors apskritai rinktųsi tokį gyvenimą - tarp daugybės diskriminuojančių įstatymų, valgant maistą iš šiukšliadėžių, miegant po tiltais, dirbant sezoninius darbus šen bei ten.
 # trans: Muitos de vocês podem estar a perguntar-se porque alguém escolheria uma vida como esta, sob o domínio de leis discriminatórias, a comer de caixotes do lixo, a dormir debaixo de pontes, a aceitar empregos sazonais aqui e ali.
-# forward_log_prob: -135.0613907921714
-# backward_log_prob: -122.04719408818089
+# forward_log_prob: -135.07135508871912
+# backward_log_prob: -122.0451866514013
 1	Daugelis	Daugelis	_	1	أغلبكم	_	1	?	?	1	?	?	1	Mnoho	_	1	Vielleicht	_	?	?	?	?	?	3	Uds.	_	1	Beaucoup	_	4	si	_	1	Misschien	_	3	vocês	_
 2	iš	iš	_	1	أغلبكم	_	1	?	?	1	?	?	2	z	_	3	Sie	_	1	Many	_	_	_	3	Uds.	_	2	d'entre	_	3	voi	_	4	je	_	3	vocês	_
 3	jūsų	jūsų	_	3	يتسائل	_	1	?	?	1	?	?	3	vás	_	4	sich,	_	1	Many	_	_	_	3	Uds.	_	4	pourront	_	3	voi	_	4	je	_	4	podem	_
@@ -600,8 +600,8 @@
 # sent_id = 138319
 # text:  Atsakymas į šį klausimą gali skirtis, kaip skiriasi ir žmonės sutinkami kelyje, bet keliautojai dažnai atsako vienu žodžiu: laisvė.
 # trans: A resposta a esta pergunta é tão variada como as pessoas que se fazem à estrada, mas os viajantes costumam responder com uma única palavra: liberdade.
-# forward_log_prob: -91.66713936000667
-# backward_log_prob: -68.71396125829473
+# forward_log_prob: -91.58791306005871
+# backward_log_prob: -68.71621409826247
 1	Atsakymas	Atsakymas	_	1	والجواب	_	1	?	?	1	?	?	1	Odpověď	_	1	Darauf	precedence.Asynchronous.TEMPORAL	2	answer	_	_	_	2	respuesta	_	2	réponse	_	1	Le	_	2	antwoord	_	2	resposta	_
 2	į	į	_	2	على	_	1	?	?	1	?	?	2	na	_	3	es	_	3	to	_	_	_	1	La	_	1	La	_	4	a	_	3	op	_	1	A	_
 3	šį	šį	_	3	سؤال	_	1	?	?	1	?	?	3	takovou	_	?	?	?	4	such	_	_	_	4	tan	_	5	telles	_	3	possibili	_	4	zo'n	_	4	esta	_
@@ -625,8 +625,8 @@
 # sent_id = 138320
 # text:  Kol negyvename visuomenėje, kurioje kiekvienam žmogui yra užtikrintas orumas dirbant, kad jie galėtų dirbti ir gyventi, o ne tik dirbti ir išgyventi, tol atsiras tokių, kurie į kelią žiūrės kaip į pabėgimą, išsilaisvinimą ir, be abejo, maištą.
 # trans: Até vivermos numa sociedade em que a cada ser humano seja assegurada a dignidade no seu trabalho, para que possa trabalhar para viver bem, — não apenas trabalhar para sobreviver — haverá sempre quem procure a estrada aberta como meio de fuga, de libertação e, é claro, de rebelião.
-# forward_log_prob: -187.297703003511
-# backward_log_prob: -143.28296563564396
+# forward_log_prob: -187.1508913745113
+# backward_log_prob: -143.25787417339183
 1	Kol	Kol	Contingency.Condition.Arg1-as-cond	1	إلى	_	1	?	?	1	?	?	1	Něž	_	1	Bis	precedence.Asynchronous.TEMPORAL	1	Until	TEMPORAL	_	Condition.CONTIGENCY|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	menos	_	1	Jusqu'à	result.Cause.CONTIGENCY	1	Finché	_	1	Tot	_	1	Até	_
 2	negyvename	negyvename	Contingency.Condition.Arg1-as-cond	2	حين	_	1	?	?	1	?	?	2	budeme	_	2	wir	_	2	we	_	_	_	2	menos	_	3	qu'on	_	3	vivremo	_	2	we	_	2	vivermos	_
 3	visuomenėje,	visuomenėje,	Contingency.Condition.Arg1-as-cond	4	نعيش	_	1	?	?	1	?	?	3	žít	_	2	wir	_	2	we	_	_	_	2	menos	_	4	vive	_	3	vivremo	_	2	we	_	2	vivermos	_

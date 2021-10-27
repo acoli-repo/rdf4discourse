@@ -2,9 +2,9 @@
 # text:  В детстве я часто представляла, что однажды сбегу далеко-далеко.
 # trans: Em pequena, sempre imaginei que um dia fugiria.
 # forward_log_prob: -22.40510397505734
-# backward_log_prob: -25.850297156965645
-1	В	В	_	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	5	ich	_	2	a	_	_	_	1	De	_	1	Petite,	_	?	?	?	?	?	?	1	Em	_
-2	детстве	детстве	_	2	كنت	_	1	?	_	1	?	_	2	malá	_	1	Als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	little	_	_	_	2	niña,	_	1	Petite,	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	kind	_	2	pequena,	_
+# backward_log_prob: -25.849168656712706
+1	В	В	_	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	5	ich	_	2	a	_	_	_	1	De	_	1	Petite,	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	1	Em	_
+2	детстве	детстве	_	2	كنت	_	1	?	_	1	?	_	2	malá	_	1	Als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	little	_	_	_	2	niña,	_	1	Petite,	_	2	ero	_	2	kind	_	2	pequena,	_
 3	я	я	_	3	طفلة،	_	1	?	_	1	?	_	3	jsem	_	5	ich	_	5	I	_	_	_	2	niña,	_	2	j'avais	_	4	immaginavo	_	4	ik	_	2	pequena,	_
 4	часто	часто	_	4	تخيلت	_	1	?	_	1	?	_	6	představovala,	_	4	stellte	_	7	imagined	_	_	_	3	siempre	_	4	imaginé	_	3	piccola,	_	5	me	_	4	imaginei	_
 5	представляла,	,	_	4	تخيلت	_	1	?	_	1	?	_	4	si	_	7	vor,	_	6	always	_	_	_	4	imaginé	_	4	imaginé	_	3	piccola,	_	5	me	_	4	imaginei	_
@@ -16,8 +16,8 @@
 # sent_id = 138296
 # text:  С шести лет я прятала сумку с вещами и банками с едой глубоко в чулане. _
 # trans: A partir dos meus 6 anos, passei a guardar uma mala com roupas e latas de comida escondidas na parte de trás de um roupeiro.
-# forward_log_prob: -82.70253147332171
-# backward_log_prob: -51.23615878744925
+# forward_log_prob: -82.70759318581568
+# backward_log_prob: -51.235805709427
 1	С	С	_	2	عمر	_	1	?	_	1	?	_	1	Od	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	1	A	_	1	Dès	_	1	Da	succession.Asynchronous.TEMPORAL	1	Vanaf	succession.Asynchronous.TEMPORAL	2	partir	_
 2	шести	шести	_	2	عمر	_	1	?	_	1	?	_	2	svých	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	2	partir	_	2	l'âge	_	2	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	mijn	_	2	partir	_
 3	лет	лет	_	3	السادسة،	_	1	?	_	1	?	_	3	šesti	_	3	sechsten	_	5	six	_	_	_	4	los	_	4	six	_	4	sei	_	3	zesde	_	4	meus	_
@@ -38,8 +38,8 @@
 # sent_id = 138297
 # text:  Глубоко во мне сидело беспокойство, животный страх, что я паду жертвой рутинной и скучной жизни. _
 # trans: Sentia uma profunda inquietação, um medo primordial de que seria vítima de uma vida de rotina e aborrecimento.
-# forward_log_prob: -52.19412617394514
-# backward_log_prob: -52.282180016716325
+# forward_log_prob: -52.1951900975088
+# backward_log_prob: -52.279010188050215
 1	Глубоко	Глубоко	_	2	هنالك	_	1	?	_	1	?	_	1	Byl	_	1	In	_	2	was	_	_	_	1	Sentía	_	1	J'avais	_	2	una	_	1	Ik	_	2	uma	_
 2	во	во	_	1	كان	_	1	?	_	1	?	_	1	Byl	_	2	mir	_	1	There	_	_	_	1	Sentía	_	2	cette	_	1	C'era	_	2	was	_	1	Sentia	_
 3	мне	мне	_	3	شعور	_	1	?	_	1	?	_	3	mě	_	3	war	_	4	deep	_	_	_	3	inquietud,	_	3	profonde	_	4	irrequietezza	_	3	rusteloos,	_	3	profunda	_
@@ -60,8 +60,8 @@
 # sent_id = 138298
 # text:  Потому многие из моих воспоминаний включают замысловатые мечтания о том, как я пересекаю границы, ем ягоды, в качестве пищи, и встречаю всех этих странных людей, ведущих нетрадиционный образ жизни в дороге. _
 # trans: Por isso, muitas das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras, a recolher bagas e a conhecer todo o tipo de pessoas estranhas, com vidas fora do convencional, pela estrada fora.
-# forward_log_prob: -138.59035281149974
-# backward_log_prob: -121.05003682671587
+# forward_log_prob: -138.59040059864913
+# backward_log_prob: -121.03318928786693
 1	Потому	Потому	Contingency.Cause.Result	2	ذكرياتي	_	1	?	_	1	?	_	4	mých	_	3	frühkindlichen	_	2	so,	_	_	_	5	mis	_	?	?	?	4	miei	_	?	?	?	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	многие	многие	_	1	أغلب	_	1	?	_	1	?	_	3	mnoho	_	1	Viele	_	3	many	_	_	_	3	muchos	_	1	Une	_	2	molti	_	1	Veel	_	3	muitas	_
 3	из	из	_	1	أغلب	_	1	?	_	1	?	_	3	mnoho	_	?	?	?	3	many	_	_	_	3	muchos	_	7	est	_	2	molti	_	7	uit	_	4	das	_
@@ -77,9 +77,9 @@
 13	пересекаю	пересекаю	_	10	الحدود،	_	1	?	_	1	?	_	11	bych	_	11	Grenzen	_	13	would	_	_	_	12	cruzar	_	15	traversais	_	12	aperti	_	12	grenzen	_	15	onde	_
 14	границы,	,	_	11	متناسيةً	_	1	?	_	1	?	_	12	přecházela	_	11	Grenzen	_	14	walk	_	_	_	12	cruzar	_	17	frontières,	_	15	attraversavo	_	13	overstak,	_	16	passaria	_
 15	ем	ем	_	11	متناسيةً	_	1	?	_	1	?	_	13	hranice,	_	12	überschritt,	_	14	walk	_	_	_	12	cruzar	_	18	récoltais	_	15	attraversavo	_	13	overstak,	_	17	fronteiras,	_
-16	ягоды,	,	_	12	الحواجز،	_	1	?	_	1	?	_	14	pídila	_	13	Beeren	_	16	borders,	_	_	_	12	cruzar	_	18	récoltais	_	15	attraversavo	_	15	bessen	_	19	recolher	_
+16	ягоды,	,	_	12	الحواجز،	_	1	?	_	1	?	_	14	pídila	_	13	Beeren	_	16	borders,	_	_	_	12	cruzar	_	20	baies	_	15	attraversavo	_	15	bessen	_	19	recolher	_
 17	в	в	_	16	من	_	1	?	_	1	?	_	15	se	_	8	in	_	15	across	_	_	_	?	?	?	23	je	_	13	in	_	?	?	?	18	a	_
-18	качестве	качестве	_	13	أقابل	_	1	?	_	1	?	_	17	potravě,	_	14	sammelte	_	?	?	?	?	?	14	buscar	_	20	baies	_	17	mi	_	16	zocht	_	20	bagas	_
+18	качестве	качестве	_	13	أقابل	_	1	?	_	1	?	_	17	potravě,	_	14	sammelte	_	?	?	?	?	?	14	buscar	_	?	?	?	17	mi	_	16	zocht	_	20	bagas	_
 19	пищи,	,	_	14	أناس	_	1	?	_	1	?	_	17	potravě,	_	16	allerlei	_	19	berries,	_	_	_	15	bayas,	_	22	où	_	18	cibavo	_	18	allerlei	_	23	conhecer	_
 20	и	и	Expansion.Conjunction	?	?	?	1	?	_	1	?	_	18	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	15	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	y	_	21	et	Conjunction.EXPANSION	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	en	Conjunction.EXPANSION	21	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 21	встречаю	встречаю	_	?	?	?	1	?	_	1	?	_	19	potkávala	_	17	seltsame	_	21	meet	_	_	_	17	conocer	_	24	rencontrais	_	20	bacche,	_	19	vreemde	_	24	todo	_
@@ -98,8 +98,8 @@
 # sent_id = 138299
 # text:  Прошли годы, и многие приключения, о которых я фантазировала ребёнком — путешествия и прокладывание пути сквозь миры, отличающиеся от моего — стали реальными, благодаря моей работе фотографа-документалиста.
 # trans: Os anos passaram, mas muitas das aventuras que fantasiava em criança, a viajar e a tecer o meu caminho entre mundos para além do meu próprio, tornaram-se realidade através do meu trabalho como fotógrafa documental.
-# forward_log_prob: -129.08721535876603
-# backward_log_prob: -102.89414958164524
+# forward_log_prob: -129.0913038635233
+# backward_log_prob: -102.83646806773046
 1	Прошли	Прошли	Temporal.Asynchronous.Precedence	1	مرت	_	1	?	_	1	?	_	1	Léta	_	2	Jahre	_	1	Years	_	_	_	1	Años	_	2	années	_	1	Sono	_	1	Jaren	_	3	passaram,	_
 2	годы,	,	_	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	2	Jahre	_	3	passed,	_	_	_	2	después,	_	3	ont	_	2	passati	_	2	gingen	_	2	anos	_
 3	и	и	Expansion.Conjunction	3	لكن	Concession.COMPARISON	1	?	_	1	?	_	?	?	?	1	Die	_	?	?	?	?	?	3	las	_	1	Les	_	?	?	?	6	van	_	1	Os	_
@@ -120,7 +120,7 @@
 18	отличающиеся	отличающиеся	_	16	عالمي	_	1	?	_	1	?	_	22	jinými	_	23	Welten,	_	24	than	_	_	_	19	mío,	_	23	mien	_	22	quello	_	19	werelden	_	23	além	_
 19	от	от	_	17	الخاص،	_	1	?	_	1	?	_	28	se	_	25	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	27	—	_	_	_	18	al	_	25	sont	_	26	sono	_	22	mijne	_	25	meu	_
 20	моего	моего	_	18	أصبحت	_	1	?	_	1	?	_	25	můj	_	24	anders	_	27	—	_	_	_	20	se	_	24	--	_	25	vivevo,	_	22	mijne	_	25	meu	_
-21	—	—	_	?	?	?	1	?	_	1	?	_	24	je	_	26	der	_	35	a	_	_	_	?	?	?	22	le	_	21	da	_	18	andere	_	?	?	?
+21	—	—	_	?	?	?	1	?	_	1	?	_	24	je	_	26	der	_	35	a	_	_	_	?	?	?	22	le	_	21	da	_	21	de	_	?	?	?
 22	стали	стали	_	19	واقعا	_	1	?	_	1	?	_	29	staly	_	31	meine	_	29	become	_	_	_	22	realidad	_	27	réalité	_	28	realtà	_	24	werden	_	28	realidade	_
 23	реальными,	,	_	21	خلال	_	1	?	_	1	?	_	30	skutečností	_	31	meine	_	30	realities	_	_	_	22	realidad	_	27	réalité	_	30	al	_	26	mijn	_	30	do	_
 24	благодаря	благодаря	_	21	خلال	_	1	?	_	1	?	_	32	moji	_	31	meine	_	30	realities	_	_	_	27	fotografía	_	33	photographe	_	31	mio	_	27	werk	_	31	meu	_
@@ -131,8 +131,8 @@
 # sent_id = 138300
 # text:  Но ничто не чувствовалось столь близким к моим детским мечтам, как документировать жизни и жить среди странников по Соединённым Штатам. _
 # trans: Mas nenhuma outra experiência senti como tão fiel aos meus sonhos de infância, do que viver entre companheiros errantes pelos Estados Unidos e documentar as suas vidas.
-# forward_log_prob: -97.96951997573184
-# backward_log_prob: -76.87930196997942
+# forward_log_prob: -97.97546178229095
+# backward_log_prob: -76.88413455697818
 1	Но	Но	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	Ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Ninguna	_	1	Cependant,	_	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Geen	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	ничто	ничто	_	2	ولا	_	1	?	_	1	?	_	2	žádná	_	2	keine	_	3	other	_	_	_	2	otra	_	2	aucune	_	2	nessuna	_	2	andere	_	3	outra	_
 3	не	не	_	3	تجربة	_	1	?	_	1	?	_	?	?	?	4	Erfahrung	_	2	no	_	_	_	3	experiencia	_	4	n'a	_	5	è	_	3	ervaring	_	4	experiência	_
@@ -150,16 +150,16 @@
 15	жить	жить	_	12	العيش	_	1	?	_	1	?	_	11	jako	Conjunction.EXPANSION	19	Leben	_	17	documenting	_	_	_	14	documentar	_	24	pour	specification.Restatement.EXPANSION	20	girovaghi	_	17	te	_	16	viver	_
 16	среди	среди	_	13	وتوثيق	_	1	?	_	1	?	_	15	životů	_	18	ihr	_	19	lives	_	_	_	14	documentar	_	20	au	_	22	ho	_	18	documenteren	_	19	errantes	_
 17	странников	странников	_	15	زملاء	_	1	?	_	1	?	_	17	poutníky	_	20	überall	_	21	fellow	_	_	_	14	documentar	_	?	?	?	23	documentato	_	20	mededolenden	_	?	?	?
-18	по	по	_	19	المتحدة.	_	1	?	_	1	?	_	18	po	_	20	überall	_	24	the	_	_	_	15	las	_	22	des	_	24	le	_	19	van	_	21	Estados	_
+18	по	по	_	19	المتحدة.	_	1	?	_	1	?	_	18	po	_	20	überall	_	?	?	?	?	?	15	las	_	22	des	_	24	le	_	19	van	_	21	Estados	_
 19	Соединённым	Соединённым	_	17	عبر	_	1	?	_	1	?	_	19	celých	_	25	dokumentieren.	_	23	across	_	_	_	19	estadounidenses.	_	26	faire	_	26	vite	_	20	mededolenden	_	24	documentar	_
 20	Штатам.	?	?	18	الولايات	_	1	?	_	1	?	_	19	celých	_	25	dokumentieren.	_	25	United	_	_	_	18	vagabundos	_	26	faire	_	28	gli	_	20	mededolenden	_	24	documentar	_
-татам	_	?	?	?	?	?	1	?	_	1	?	_	?	?	?	24	zu	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+татам	_	?	?	?	?	?	1	?	_	1	?	_	?	?	?	24	zu	_	24	the	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 
 # sent_id = 138301
 # text:  Это «бродячая мечта» — разновидность американской мечты, — которой жили хобо, путешественники, автостопщики, бродяги и бездомные. _
 # trans: Este é o sonho nómada, um tipo diferente de sonho americano vivido por jovens trabalhadores migratórios, viajantes, pedintes de boleia, vadios e vagabundos.
-# forward_log_prob: -75.88718675716123
-# backward_log_prob: -55.49040117229125
+# forward_log_prob: -75.88436600076854
+# backward_log_prob: -55.487584042478005
 1	Это	Это	_	1	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	Tohle	_	4	Traum	_	4	nomadic	_	_	_	1	Este	_	1	C'est	_	1	Questo	_	4	nomadische	_	1	Este	_
 2	«бродячая	«	_	2	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	3	nomádský	_	4	Traum	_	4	nomadic	_	_	_	2	es	_	1	C'est	_	1	Questo	_	4	nomadische	_	1	Este	_
 3	мечта»	бродячая	_	2	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	3	nomádský	_	4	Traum	_	4	nomadic	_	_	_	3	el	_	3	rêve	_	5	nomade,	_	4	nomadische	_	5	nómada,	_
@@ -182,7 +182,7 @@
 # text:  В уме многих из нас бродяга — существо из прошлого. _
 # trans: Na maioria das nossas mentes, o vagabundo é uma criatura do passado.
 # forward_log_prob: -37.228892321419025
-# backward_log_prob: -31.081596950315298
+# backward_log_prob: -31.07815450887054
 1	В	В	_	1	في	_	1	?	_	1	?	_	2	si	_	1	In	_	1	In	_	_	_	1	En	_	1	Dans	_	?	?	?	2	de	_	1	Na	_
 2	уме	уме	_	3	عقولونا،	_	1	?	_	1	?	_	1	Většinou	_	2	den	_	2	most	_	_	_	2	nuestras	_	3	plupart	_	1	La	_	1	Voor	succession.Asynchronous.TEMPORAL	2	maioria	_
 3	многих	многих	_	2	أغلب	_	1	?	_	1	?	_	2	si	_	3	meisten	_	4	our	_	_	_	3	mentes,	_	3	plupart	_	5	noi	_	3	meesten	_	3	das	_
@@ -198,8 +198,8 @@
 # sent_id = 138303
 # text:  Слово «хобо» вызывает в воображении старое чёрно-белое изображение повидавшего виды старика, всего в саже, ноги свешаны из вагона. Но вот эти фото в цвете, и они рисуют портрет общества, клубящегося по всей стране, яростно живого и творчески свободного, видевшего стороны Америки, не изведанные другими. _
 # trans: A palavra "vagabundo" evoca uma velha imagem a preto e branco, de um homem velho coberto com carvão, pernas para fora de uma carruagem de mercadorias. Mas estas fotos são a cor e retratam uma comunidade que percorre todo o país, ferozmente viva e criativamente livre, observando lados da América que mais ninguém consegue ver.
-# forward_log_prob: -215.73447779036906
-# backward_log_prob: -186.06919826725766
+# forward_log_prob: -215.73036217581682
+# backward_log_prob: -186.0653698472515
 1	Слово	Слово	_	1	كلمة	_	1	?	_	1	?	_	1	Slovo	equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	Das	_	3	"hobo"	_	_	_	1	Nos	_	1	le	_	2	parola	_	1	Het	_	4	evoca	_
 2	«хобо»	«	_	2	"متشرد"	_	?	?	?	?	?	?	2	"vandrák"	_	2	Wort	_	2	word	_	_	_	2	hace	_	2	mot	_	3	"barbone"	_	2	woord	_	2	palavra	_
 3	вызывает	вызывает	_	3	تستحضر	_	?	?	?	?	?	?	3	vyčaruje	_	3	"Landstreicher"	_	4	conjures	_	_	_	3	pensar	_	3	«	_	4	richiama	_	4	roept	_	4	evoca	_
@@ -249,8 +249,8 @@
 # sent_id = 138304
 # text:  Как и их предшественники, современные бродяги странствуют по металлическим и асфальтированным артериям Соединённых Штатов. _
 # trans: Tal como os seus antecessores, os nómadas de hoje viajam pelas estradas de aço e asfalto dos Estados Unidos.
-# forward_log_prob: -59.58985091054503
-# backward_log_prob: -46.56873308746631
+# forward_log_prob: -59.632576570538106
+# backward_log_prob: -46.56600502509296
 1	Как	Как	_	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	1	Tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	Like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	1	Como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	2	i	_	1	Zoals	COMPARISON|Instantiation.EXPANSION	2	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 2	и	и	_	2	كان	_	1	?	_	1	?	_	1	Tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	die	_	2	their	_	_	_	3	los	_	4	les	_	2	i	_	2	hun	_	3	os	_
 3	их	их	_	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	2	jako	Conjunction.EXPANSION	2	ihre	_	1	Like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	2	antes,	_	1	Comme	COMPARISON|specification.Restatement.EXPANSION	1	Come	EXPANSION|Synchronous.TEMPORAL	1	Zoals	COMPARISON|Instantiation.EXPANSION	3	os	_
@@ -270,8 +270,8 @@
 # sent_id = 138305
 # text:  Днём они запрыгивают в грузовые поезда, голосуют на дороге и едут с любым: от дальнобойщиков до мамаш за рулём. _
 # trans: De dia, saltam para comboios de mercadorias, levantam os polegares e andam pelos caminhos com qualquer um, desde camionistas a mães de futebol.
-# forward_log_prob: -77.14605077142923
-# backward_log_prob: -68.98118761272437
+# forward_log_prob: -77.14744994960974
+# backward_log_prob: -68.996704447631
 1	Днём	Днём	_	2	النهار،	_	1	?	_	1	?	_	2	dne	_	1	Am	_	1	By	_	_	_	?	?	?	2	jour,	_	2	giorno	_	1	Overdag	_	2	dia,	_
 2	они	они	_	1	في	_	1	?	_	1	?	_	1	Ve	_	4	sie	_	3	they	_	_	_	?	?	?	3	ils	_	?	?	?	3	ze	_	4	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 3	запрыгивают	запрыгивают	_	3	يقفزون	_	1	?	_	1	?	_	3	skáčou	_	3	springen	_	4	hop	_	_	_	2	día,	_	4	sautent	_	3	saltano	_	2	hoppen	_	3	saltam	_
@@ -296,8 +296,8 @@
 # sent_id = 138306
 # text:  Ночью — спят под звёздами в обнимку со стайкой собак, кошек и шмыгающими то там, то тут крысами. _
 # trans: À noite, eles dormem sob as estrelas, amontoados com as suas matilhas de cães, gatos e ratos de companhia entre os seus corpos.
-# forward_log_prob: -79.71951689124197
-# backward_log_prob: -62.750476976059396
+# forward_log_prob: -79.72104139993783
+# backward_log_prob: -62.748361296121814
 1	Ночью	Ночью	_	2	الليل،	_	1	?	_	1	?	_	1	Po	_	1	Nachts	_	1	By	_	_	_	2	noche,	_	2	nuit,	_	2	notte,	_	1	's	_	1	À	_
 2	—	—	_	2	الليل،	_	1	?	_	1	?	_	2	nocích	_	1	Nachts	_	2	night,	_	_	_	2	noche,	_	1	De	_	2	notte,	_	2	Nachts	_	2	noite,	_
 3	спят	спят	_	2	الليل،	_	1	?	_	1	?	_	3	dřímají	_	1	Nachts	_	2	night,	_	_	_	3	duermen	_	3	ils	_	3	dormono	_	2	Nachts	_	3	eles	_
@@ -309,7 +309,7 @@
 9	стайкой	стайкой	_	6	يجتمعون	_	1	?	_	1	?	_	8	svojí	_	8	an	_	9	together	_	Contrast.COMPARISON	_	7	estrellas,	_	9	lovés	_	7	stretti	_	7	sterren,	_	10	as	_
 10	собак,	,	_	7	مع	_	1	?	_	1	?	_	9	smečkou	_	9	ihr	_	11	their	_	_	_	9	sus	_	10	entre	_	7	stretti	_	8	opeengehoopt	_	12	matilhas	_
 11	кошек	кошек	_	8	بعضهم	_	1	?	_	1	?	_	10	psů,	_	10	Rudel	_	12	packs	_	_	_	10	manadas	_	11	eux,	_	7	stretti	_	8	opeengehoopt	_	14	cães,	_
-12	и	и	_	?	?	?	1	?	_	1	?	_	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	14	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	of	_	_	_	14	y	_	?	?	?	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	hun	_	16	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+12	и	и	_	?	?	?	1	?	_	1	?	_	12	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	14	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	13	of	_	_	_	11	de	_	?	?	?	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	hun	_	16	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 13	шмыгающими	шмыгающими	_	9	ويحشدون	_	1	?	_	1	?	_	11	koček	_	12	Hunden,	_	14	dogs,	_	_	_	12	perros,	_	14	troupeaux	_	12	ai	_	11	roedel	_	15	gatos	_
 14	то	то	_	10	كلابهم،	_	1	?	_	1	?	_	13	chovných	_	13	Katzen	_	15	cats	_	_	_	13	gatos,	_	14	troupeaux	_	14	cani,	_	12	honden,	_	17	ratos	_
 15	там,	,	_	11	قططهم،	_	1	?	_	1	?	_	13	chovných	_	?	?	?	17	pet	_	_	_	13	gatos,	_	13	leur	_	14	cani,	_	10	hun	_	21	os	_
@@ -321,8 +321,8 @@
 # sent_id = 138307
 # text:  Некоторые путешественники выбирают дорогу сами, отказываясь от материализма, традиционной работы и университетского образования взамен на проблеск приключений. _
 # trans: Alguns viajantes metem-se à estrada por opção, renunciam ao materialismo, aos empregos tradicionais e aos graus universitários, em troca de um vislumbre de aventura.
-# forward_log_prob: -79.27898410045005
-# backward_log_prob: -60.0967653131163
+# forward_log_prob: -79.28296636156345
+# backward_log_prob: -60.10374676821646
 1	Некоторые	Некоторые	_	1	بعض	_	1	?	_	1	?	_	1	Někteří	_	1	Manche	_	1	Some	_	_	_	1	Algunos	_	1	Certains	_	1	Alcuni	_	1	Sommige	_	1	Alguns	_
 2	путешественники	путешественники	_	2	المسافرين	_	1	?	_	1	?	_	2	cestovatelé	_	6	Leben	_	2	travelers	_	_	_	2	eligen	_	2	voyageurs	_	2	viaggiatori	_	2	reizigers	_	2	viajantes	_
 3	выбирают	выбирают	_	3	يختارون	_	1	?	_	1	?	_	3	se	_	3	haben	_	3	take	_	_	_	2	eligen	_	3	choisissent	_	4	sulla	_	3	gaan	_	3	metem-se	_
@@ -345,8 +345,8 @@
 # sent_id = 138308
 # text:  Другие — выходцы со дна общества без шанса выбиться в люди: детдомовцы, сбежавшие из неблагоприятных семей и от плохого обращения подростки. _
 # trans: Outros vêm da parte inferior da sociedade, nunca tiveram uma oportunidade de ascender: rejeitados de adoções, adolescentes fugitivos a escapar de abusos e de casas implacáveis​​.
-# forward_log_prob: -85.22946934291139
-# backward_log_prob: -75.44663624849187
+# forward_log_prob: -85.2317399959178
+# backward_log_prob: -75.43410655696813
 1	Другие	Другие	_	?	?	?	1	?	_	1	?	_	?	?	?	1	Andere	_	1	Others	_	_	_	1	Otros	_	3	des	_	7	della	_	1	Anderen	_	1	Outros	_
 2	—	—	_	3	من	_	1	?	_	1	?	_	3	z	_	3	von	_	2	come	_	_	_	3	del	_	2	proviennent	_	3	dagli	_	2	komen	_	2	vêm	_
 3	выходцы	выходцы	_	1	آخرون	_	1	?	_	1	?	_	1	Jiní	_	5	Schattenseite	_	2	come	_	_	_	2	proceden	_	4	bas-fonds	_	1	Altri	_	5	onderkant	_	2	vêm	_
@@ -373,8 +373,8 @@
 # sent_id = 138309
 # text:  Там, где другие видят истории нужды и экономической неудачи, путешественники смотрят на своё существование сквозь призму освобождения и независимости. _
 # trans: Onde outros veem histórias de privação e fracasso económico, os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade.
-# forward_log_prob: -77.14921222541729
-# backward_log_prob: -66.92399532882835
+# forward_log_prob: -77.14033323136056
+# backward_log_prob: -66.9208880208746
 1	Там,	,	_	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	2	ostatní	_	?	?	?	?	?	?	?	?	1	Aunque	precedence.Asynchronous.TEMPORAL	1	Là	_	?	?	?	?	?	?	?	?	?
 2	где	где	Comparison.Contrast	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	Kde	_	3	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	Where	TEMPORAL	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	2	où	_	3	vedono	_	3	verhalen	_	?	?	?
 3	другие	другие	_	2	يراهم	_	1	?	_	1	?	_	2	ostatní	_	2	andere	_	2	others	_	_	_	2	otros	_	5	des	_	4	storie	_	2	anderen	_	2	outros	_
@@ -399,8 +399,8 @@
 # sent_id = 138310
 # text:  Они предпочтут жить на излишках того, что считают расточительным потребительским обществом, чем поработиться нереалистичному шансу традиционной американской мечты. _
 # trans: Preferem viver fora do excesso do que veem como uma sociedade de consumo e de desperdício, do que aprisionados numa possibilidade irrealista no sonho americano tradicional.
-# forward_log_prob: -86.39390126518266
-# backward_log_prob: -69.61325895343226
+# forward_log_prob: -86.39305771156074
+# backward_log_prob: -69.59742119412422
 1	Они	Они	_	?	?	?	1	?	_	1	?	_	1	Raději	_	3	sie	_	10	they	_	_	_	1	Preferirían	_	1	Ils	_	3	al	_	1	Ze	_	4	do	_
 2	предпочтут	предпочтут	_	1	يفضلون	_	1	?	_	1	?	_	2	by	_	1	Lieber	_	1	They'd	_	_	_	1	Preferirían	_	2	préfèrent	_	1	Preferiscono	_	3	liever	_	1	Preferem	_
 3	жить	жить	_	2	العيش	_	1	?	_	1	?	_	3	žili	_	6	einer	_	3	live	_	_	_	2	vivir	_	4	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	2	vivere	_	2	leven	_	2	viver	_
@@ -424,8 +424,8 @@
 # sent_id = 138311
 # text:  Они пользуются тем, что в США до 40% еды выбрасывается, питаясь вполне нормальной пищей из мусорных контейнеров и баков. _
 # trans: Eles aproveitam-se do facto de, nos Estados Unidos, cerca de 40% de todos os alimentos acabarem no lixo, para procurar produtos perfeitamente bons em lixeiras e caixotes do lixo.
-# forward_log_prob: -102.29669264702582
-# backward_log_prob: -69.73718652625908
+# forward_log_prob: -102.28880737476038
+# backward_log_prob: -69.73133661200168
 1	Они	Они	_	1	لقد	_	1	?	?	1	?	?	1	Využívají	_	1	Sie	_	1	They	_	_	_	2	aprovechan	_	1	Ils	_	2	il	_	1	Ze	_	3	do	_
 2	пользуются	пользуются	_	2	استغلوا	_	1	?	?	1	?	?	2	faktu,	_	2	nutzen	_	2	take	_	_	_	1	Se	_	2	profitent	_	1	Sfruttano	_	2	doen	_	1	Eles	_
 3	тем,	,	_	2	استغلوا	_	1	?	?	1	?	?	2	faktu,	_	4	Tatsache	_	6	fact	_	_	_	2	aprovechan	_	4	fait	_	5	negli	_	4	hun	_	4	facto	_
@@ -436,7 +436,7 @@
 8	40%	40	_	9	40	_	1	?	?	1	?	?	7	až	Asynchronous.TEMPORAL|Condition.CONTIGENCY|Exception.EXPANSION|Synchronous.TEMPORAL	12	40	_	14	40	_	_	_	13	alimentos	_	8	jusqu'à	result.Cause.CONTIGENCY	9	al	_	10	Verenigde	_	11	40%	_
 9	еды	еды	_	10	%	_	1	?	?	1	?	?	10	veškerého	_	13	%	_	15	percent	_	_	_	13	alimentos	_	14	jetée.	_	12	cento	_	13	veertig	_	13	todos	_
 10	выбрасывается,	,	_	12	الطعام	_	1	?	?	1	?	?	12	skončí	_	15	Lebensmittel	_	15	percent	_	_	_	14	termina	_	14	jetée.	_	15	finisce	_	14	procent	_	15	alimentos	_
-11	питаясь	питаясь	_	13	يذهب	_	1	?	?	1	?	?	15	tím,	_	15	Lebensmittel	_	20	up	_	_	_	16	la	_	14	jetée.	_	17	spazzatura	_	17	voedsel	_	18	lixo,	_
+11	питаясь	питаясь	_	13	يذهب	_	1	?	?	1	?	?	15	tím,	_	15	Lebensmittel	_	20	up	_	_	_	17	basura	_	14	jetée.	_	17	spazzatura	_	17	voedsel	_	18	lixo,	_
 12	вполне	вполне	_	14	للنفايات	_	1	?	?	1	?	?	14	smetí	_	17	Abfall	_	19	ends	_	_	_	19	encuentran	_	15	Ils	_	17	spazzatura	_	17	voedsel	_	16	acabarem	_
 13	нормальной	нормальной	_	15	بالبحث	_	1	?	?	1	?	?	14	smetí	_	18	landen,	_	23	garbage	_	_	_	20	productos	_	16	récupèrent	_	19	rovistano	_	20	vuilbak	_	19	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 14	пищей	пищей	_	16	عن	_	1	?	?	1	?	?	17	hledají	_	20	dem	_	23	garbage	_	_	_	21	agrícolas	_	19	produits	_	21	cassonetti	_	21	belandt,	_	20	procurar	_
@@ -450,8 +450,8 @@
 # sent_id = 138312
 # text:  Они жертвуют материальным комфортом взамен на время и пространство для исследований творческой сущности, для мечтаний, чтения, сочинения музыки, занятий искусством и писательством. _
 # trans: Sacrificam o conforto material em troca do espaço e do tempo para explorar um interior criativo, para sonhar, para ler, para trabalhar em música, arte e escrita.
-# forward_log_prob: -87.26967101353455
-# backward_log_prob: -78.62126169908305
+# forward_log_prob: -87.25578640701478
+# backward_log_prob: -78.62524412228687
 1	Они	Они	_	1	لقد	_	1	?	?	1	?	?	1	Obětují	_	1	Sie	_	1	They	_	_	_	?	?	?	1	Ils	_	1	Sacrificano	_	1	Ze	_	7	do	_
 2	жертвуют	жертвуют	_	1	لقد	_	1	?	?	1	?	?	2	hmotné	_	2	opfern	_	2	sacrifice	_	_	_	3	comodidad	_	2	sacrifient	_	2	beni	_	2	geven	_	1	Sacrificam	_
 3	материальным	материальным	_	2	ضحوا	_	1	?	?	1	?	?	3	pohodlí	_	4	Komfort	_	4	comforts	_	_	_	3	comodidad	_	3	leur	_	3	materiali	_	4	comfort	_	4	material	_
@@ -479,8 +479,8 @@
 # sent_id = 138313
 # text:  Однако множество аспектов такой жизни далеки от идиллических. _
 # trans: Mas existem muitos aspetos desta vida que estão longe de ser idílicos.
-# forward_log_prob: -34.54273137202995
-# backward_log_prob: -25.507571041609392
+# forward_log_prob: -34.5449020592546
+# backward_log_prob: -25.513552553164253
 1	Однако	Однако	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	2	takovém	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	2	sono	_	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	множество	множество	_	2	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	V	_	5	Aspekte	_	2	there	_	_	_	2	este	_	2	il	_	1	Ci	_	2	veel	_	2	existem	_
 3	аспектов	аспектов	_	3	جوانب	_	1	?	?	1	?	?	3	životě	_	5	Aspekte	_	4	many	_	_	_	3	estilo	_	6	nombreux	_	4	aspetti	_	3	aspecten	_	4	aspetos	_
@@ -495,7 +495,7 @@
 # text:  Никто не освобождается от внутренних демонов, просто выбрав жизнь в дороге. _
 # trans: Ninguém perde os seus demónios interiores ao meter-se à estrada.
 # forward_log_prob: -31.55001885366663
-# backward_log_prob: -33.857201522269605
+# backward_log_prob: -33.952010734360954
 1	Никто	Никто	_	1	لا	Contrast.COMPARISON	1	?	?	1	?	?	1	Nikdo	_	1	Niemand	_	1	No	_	_	_	1	Nadie	_	1	Personne	_	1	Nessuno	_	1	Niemand	_	1	Ninguém	_
 2	не	не	_	2	أحد	_	1	?	?	1	?	?	1	Nikdo	_	3	seine	_	1	No	_	_	_	1	Nadie	_	2	ne	_	2	riesce	_	1	Niemand	_	1	Ninguém	_
 3	освобождается	освобождается	_	2	أحد	_	1	?	?	1	?	?	3	životem	_	2	verliert	_	2	one	_	_	_	2	pierde	_	2	ne	_	2	riesce	_	2	raakt	_	2	perde	_
@@ -512,8 +512,8 @@
 # sent_id = 138315
 # text:  Зависимость реальна, стихии реальны, грузовые поезда калечат и убивают, и любой, кто жил на улице, может быть осуждён по исчерпывающему списку законов, вплоть до уголовной ответственности за бездомное существование. _
 # trans: O vício é real, os elementos são reais, os comboios de mercadorias mutilam e matam. Qualquer um que tenha vivido nas ruas pode confirmar a lista exaustiva de leis que criminalizam a existência dos sem-abrigo.
-# forward_log_prob: -126.1233275610621
-# backward_log_prob: -114.08597841040002
+# forward_log_prob: -126.12538136610084
+# backward_log_prob: -114.08283845763015
 1	Зависимость	Зависимость	_	1	الإدمان	_	1	?	?	1	?	?	1	Závislost	_	1	Drogensucht	_	1	Addiction	_	_	_	1	La	_	1	L'addiction	_	1	La	_	1	Verslaving	_	1	O	_
 2	реальна,	,	_	1	الإدمان	_	1	?	?	1	?	?	1	Závislost	_	3	extremes	_	2	is	_	_	_	2	adicción	_	2	est	_	2	dipendenza	_	1	Verslaving	_	2	vício	_
 3	стихии	стихии	_	2	حقيقي،	_	1	?	?	1	?	?	3	skutečná,	_	3	extremes	_	3	real,	_	_	_	2	adicción	_	3	réelle,	_	3	esiste,	_	3	echt,	_	4	real,	_
@@ -525,7 +525,7 @@
 9	убивают,	,	_	6	قاطرات	_	1	?	?	1	?	?	9	mrzačí	_	9	verstümmeln	_	10	maim	_	_	_	10	trenes	_	9	trains	_	12	feriscono	_	9	verminken	_	8	reais,	_
 10	и	и	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	10	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	12	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	y	_	13	et	Conjunction.EXPANSION	13	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 11	любой,	,	_	8	والقتل،	_	1	?	?	1	?	?	9	mrzačí	_	11	töten,	_	12	kill,	_	_	_	11	mutilan	_	12	mutilent	_	12	feriscono	_	11	doden	_	13	mutilam	_
-12	кто	кто	_	8	والقتل،	_	1	?	?	1	?	?	14	kdo	_	13	wer	_	15	who	_	_	_	13	matan,	_	14	tuent,	_	14	uccidono,	_	19	weet	_	15	matam.	_
+12	кто	кто	_	8	والقتل،	_	1	?	?	1	?	?	14	kdo	_	13	wer	_	15	who	_	_	_	13	matan,	_	14	tuent,	_	14	uccidono,	_	19	weet	_	13	mutilam	_
 13	жил	жил	_	10	أحد	_	1	?	?	1	?	?	11	zabíjejí,	_	13	wer	_	?	?	?	?	?	13	matan,	_	14	tuent,	_	14	uccidono,	_	?	?	?	15	matam.	_
 14	на	на	_	?	?	?	1	?	?	1	?	?	14	kdo	_	14	auf	_	18	on	_	_	_	?	?	?	20	la	_	23	la	_	15	op	_	17	um	_
 15	улице,	,	_	11	عاش	_	1	?	?	1	?	?	15	žil	_	16	Straße	_	16	has	_	_	_	?	?	?	16	quiconque	_	16	chiunque	_	14	die	_	19	tenha	_
@@ -548,8 +548,8 @@
 # sent_id = 138316
 # text:  Кто из присутствующих в курсе, что в большинстве городов США теперь незаконно сидеть на тротуаре, укутываться в одеяло, спать в собственной машине, предлагать еду незнакомцу? _
 # trans: Quem aqui sabe que, em muitas cidades dos Estados Unidos, é agora ilegal sentar-se no passeio, embrulhar-se num cobertor, dormir no seu próprio carro, oferecer comida a um estranho?
-# forward_log_prob: -107.91256003841386
-# backward_log_prob: -89.76194728528279
+# forward_log_prob: -107.91335370927393
+# backward_log_prob: -89.77599356259412
 1	Кто	Кто	Hypophora	2	منكم	_	1	?	?	1	?	?	1	Kdo	_	?	?	?	1	Who	_	_	_	9	es	_	1	Qui,	_	5	sa	_	1	Weet	_	8	dos	_
 2	из	из	_	1	من	_	1	?	?	1	?	?	?	?	?	5	in	_	2	here	_	precedence.Asynchronous.TEMPORAL	_	3	en	_	2	ici,	_	4	voi	_	4	het	_	2	aqui	_
 3	присутствующих	присутствующих	_	3	يعلم	_	1	?	?	1	?	?	2	zde	_	1	Wussten	_	3	knows	_	_	_	4	muchas	_	3	sait	_	5	sa	_	6	veel	_	1	Quem	_
@@ -575,13 +575,13 @@
 23	предлагать	предлагать	_	30	أن	_	1	?	?	1	?	?	24	nebo	Alternative.EXPANSION|Conjunction.EXPANSION|disjunctive.Alternative.EXPANSION	28	übernachten,	_	34	offer	_	_	_	24	ofrecerle	_	32	d'offrir	_	27	offrire	_	35	aan	_	25	oferecer	_
 24	еду	еду	_	31	تقدم	_	1	?	?	1	?	?	25	nabídnout	_	29	einem	_	34	offer	_	_	_	24	ofrecerle	_	36	à	specification.Restatement.EXPANSION	30	uno	_	37	onbekende	_	25	oferecer	_
 25	незнакомцу?	?	?	33	لشخص	_	1	?	?	1	?	?	26	cizinci	_	30	Fremden	_	38	stranger?	_	_	_	28	extraño?	_	37	un	_	30	uno	_	37	onbekende	_	29	estranho?	_
-езнакомцу	_	?	?	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+езнакомцу	_	?	?	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	36	to	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 
 # sent_id = 138317
 # text:  Я знаю об этих законах, потому что видела, как друзей и других путешественников тащили в тюрьму и вызывали в суд за совершение этих, так называемых преступлений. _
 # trans: Eu conheço estas leis, porque observei como amigos e outros viajantes foram levados para a prisão ou receberam citações por praticarem estes alegados crimes.
-# forward_log_prob: -86.7839826126279
-# backward_log_prob: -94.20933746669068
+# forward_log_prob: -86.80451165282871
+# backward_log_prob: -94.21289990188933
 1	Я	Я	_	1	أنا	_	1	?	?	1	?	?	6	jsem	_	1	Ich	_	1	I	_	_	_	1	Conozco	_	1	Je	_	1	Conosco	_	1	Ik	_	1	Eu	_
 2	знаю	знаю	_	1	أنا	_	1	?	?	1	?	?	1	Vím	_	2	kenne	_	2	know	_	_	_	1	Conozco	_	2	connais	_	1	Conosco	_	2	weet	_	2	conheço	_
 3	об	об	_	2	أعلم	_	1	?	?	1	?	?	3	těchto	_	2	kenne	_	2	know	_	_	_	1	Conozco	_	2	connais	_	1	Conosco	_	8	zag	_	2	conheço	_
@@ -613,8 +613,8 @@
 # sent_id = 138318
 # text:  Многие из вас могут удивиться, зачем кому-то выбирать такую жизнь: под каблуком дискриминационных законов, питаясь из мусорки, засыпая под мостом, берясь за временную работу то там, то тут? _
 # trans: Muitos de vocês podem estar a perguntar-se porque alguém escolheria uma vida como esta, sob o domínio de leis discriminatórias, a comer de caixotes do lixo, a dormir debaixo de pontes, a aceitar empregos sazonais aqui e ali.
-# forward_log_prob: -136.63364711621279
-# backward_log_prob: -114.3335386363877
+# forward_log_prob: -136.62811427493406
+# backward_log_prob: -114.33395620978044
 1	Многие	Многие	_	1	أغلبكم	_	1	?	?	1	?	?	1	Mnoho	_	?	?	?	1	Many	_	_	_	1	Muchos	_	10	une	_	1	Molti	_	?	?	?	6	a	_
 2	из	из	_	1	أغلبكم	_	1	?	?	1	?	?	2	z	_	3	Sie	_	1	Many	_	_	_	1	Muchos	_	?	?	?	3	voi	_	?	?	?	11	uma	_
 3	вас	вас	_	2	قد	_	1	?	?	1	?	?	3	vás	_	1	Vielleicht	_	3	you	_	_	_	3	Uds.	_	1	Beaucoup	_	4	si	_	1	Misschien	_	3	vocês	_
@@ -623,7 +623,7 @@
 6	зачем	зачем	Contingency.Cause.Reason|Hypophora	6	شخص	_	1	?	?	1	?	?	8	proč	_	6	jemand	_	7	why	_	_	_	5	preguntan	_	8	quelqu'un	_	8	qualcuno	_	6	waarom	result.Cause.CONTIGENCY	7	perguntar-se	_
 7	кому-то	кому-то	_	6	شخص	_	1	?	?	1	?	?	8	proč	_	6	jemand	_	7	why	_	_	_	7	qué	_	9	choisirait	_	9	sceglierebbe	_	7	iemand	_	9	alguém	_
 8	выбирать	выбирать	_	8	يختار	_	1	?	?	1	?	?	8	proč	_	6	jemand	_	10	choose	_	_	_	8	alguien	_	9	choisirait	_	9	sceglierebbe	_	7	iemand	_	10	escolheria	_
-9	такую	такую	_	8	يختار	_	1	?	?	1	?	?	12	chtěl	_	11	wählt,	_	10	choose	_	_	_	9	querría	_	11	vie	_	12	simile,	_	9	leven	_	10	escolheria	_
+9	такую	такую	_	8	يختار	_	1	?	?	1	?	?	12	chtěl	_	11	wählt,	_	10	choose	_	_	_	9	querría	_	11	vie	_	12	simile,	_	7	iemand	_	10	escolheria	_
 10	жизнь:	:	_	10	كهذه،	_	1	?	?	1	?	?	12	chtěl	_	8	Leben	_	10	choose	_	_	_	9	querría	_	13	ceci,	_	12	simile,	_	8	zo'n	_	13	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 11	под	под	_	12	تحت	_	1	?	?	1	?	?	16	pod	_	12	unter	_	15	under	_	_	_	11	así,	_	13	ceci,	_	14	alcuna	_	11	kiezen,	_	15	sob	_
 12	каблуком	каблуком	_	11	بالبقاء	_	1	?	?	1	?	?	13	vybrat	_	11	wählt,	_	13	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	12	oprimidos	_	15	vie	_	15	difesa	_	12	onderdrukt	_	17	domínio	_
@@ -648,8 +648,8 @@
 # sent_id = 138319
 # text:  Ответ на этот вопрос настолько же разнообразен, как и выбравшие жизнь в дороге люди. Однако, часто путешественники отвечают одним словом: свобода. _
 # trans: A resposta a esta pergunta é tão variada como as pessoas que se fazem à estrada, mas os viajantes costumam responder com uma única palavra: liberdade.
-# forward_log_prob: -93.94504463818416
-# backward_log_prob: -79.00460564149668
+# forward_log_prob: -93.96690777024938
+# backward_log_prob: -79.0063819554532
 1	Ответ	Ответ	Contingency.Cause.Reason	1	والجواب	_	1	?	?	1	?	?	1	Odpověď	_	1	Darauf	precedence.Asynchronous.TEMPORAL	2	answer	_	_	_	2	respuesta	_	2	réponse	_	1	Le	_	1	Het	_	2	resposta	_
 2	на	на	Contingency.Cause.Reason	2	على	_	1	?	?	1	?	?	2	na	_	3	es	_	1	The	_	_	_	1	La	_	1	La	_	2	risposte	_	3	op	_	1	A	_
 3	этот	этот	Contingency.Cause.Reason	3	سؤال	_	1	?	?	1	?	?	3	takovou	_	2	gibt	_	4	such	_	_	_	2	respuesta	_	3	à	specification.Restatement.EXPANSION	3	possibili	_	2	antwoord	_	4	esta	_
@@ -659,11 +659,11 @@
 7	разнообразен,	,	Contingency.Cause.Reason	5	متنوع	_	1	?	?	1	?	?	7	rozmanitá,	_	6	Antworten	_	9	varied	_	_	_	5	diversa	_	9	variée	_	8	tanto	_	7	zo	Instantiation.EXPANSION	8	variada	_
 8	как	как	Contingency.Cause.Reason	6	بتنوع	_	1	?	?	1	?	?	6	tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	wie	COMPARISON|Synchronous.TEMPORAL	8	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	6	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	10	que	_	11	le	_	7	zo	Instantiation.EXPANSION	9	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 9	и	и	Contingency.Cause.Reason	?	?	?	1	?	?	1	?	?	?	?	?	9	die	_	11	the	_	_	_	7	la	_	13	les	_	?	?	?	10	de	_	9	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
-10	выбравшие	выбравшие	Contingency.Cause.Reason	7	الأشخاص	_	1	?	?	1	?	?	9	jen	Alternative.EXPANSION|Conjunction.EXPANSION|Exception.EXPANSION	8	Menschen,	_	12	people	_	_	_	8	misma	_	16	prennent	_	14	scelgono	_	?	?	?	13	se	CONTIGENCY|Condition.CONTIGENCY
+10	выбравшие	выбравшие	Contingency.Cause.Reason	7	الأشخاص	_	1	?	?	1	?	?	9	jen	Alternative.EXPANSION|Conjunction.EXPANSION|Exception.EXPANSION	12	führen,	_	12	people	_	_	_	8	misma	_	16	prennent	_	14	scelgono	_	?	?	?	13	se	CONTIGENCY|Condition.CONTIGENCY
 11	жизнь	жизнь	Contingency.Cause.Reason	8	على	_	1	?	?	1	?	?	14	ulici,	_	10	dieses	_	?	?	?	?	?	7	la	_	11	le	_	14	scelgono	_	14	pad	_	15	à	_
 12	в	в	Contingency.Cause.Reason	8	على	_	1	?	?	1	?	?	13	na	_	?	?	?	15	to	_	_	_	16	con	_	15	qui	_	13	che	_	13	op	_	?	?	?
 13	дороге	дороге	Contingency.Cause.Reason	8	على	_	1	?	?	1	?	?	13	na	_	17	mit	_	17	road,	_	_	_	16	con	_	18	route,	_	16	strada,	_	13	op	_	16	estrada,	_
-14	люди.	.	Contingency.Cause.Reason	?	?	?	1	?	?	1	?	?	12	žijící	_	?	?	?	?	?	?	?	?	?	?	?	17	la	_	15	la	_	11	mensen	_	?	?	?
+14	люди.	.	Contingency.Cause.Reason	?	?	?	1	?	?	1	?	?	12	žijící	_	8	Menschen,	_	?	?	?	?	?	?	?	?	17	la	_	15	la	_	11	mensen	_	?	?	?
 15	Однако,	,	Contingency.Cause.Reason	10	لكن	Concession.COMPARISON	1	?	?	1	?	?	15	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	13	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	18	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	12	pero	precedence.Asynchronous.TEMPORAL	19	mais	Contrast.COMPARISON|Exception.EXPANSION	7	sono	_	16	maar	_	17	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 16	часто	часто	Contingency.Cause.Reason	13	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	17	často	_	?	?	?	20	often	_	Contrast.COMPARISON	_	14	siempre	_	22	répondent	_	?	?	?	18	antwoorden	_	20	costumam	_
 17	путешественники	путешественники	Contingency.Cause.Reason	11	الرحّالة	_	1	?	?	1	?	?	16	cestovatelé	_	11	Leben	_	19	travelers	_	_	_	13	ellos	_	21	voyageurs	_	20	viaggiatori	_	17	reizigers	_	19	viajantes	_
@@ -671,13 +671,13 @@
 19	одним	одним	Contingency.Cause.Reason	15	بكلمة	_	1	?	?	1	?	?	18	odpovídají	_	16	oft	_	21	respond	_	_	_	17	una	_	26	seul	_	21	rispondono	_	19	meestal	_	21	responder	_
 20	словом:	:	_	15	بكلمة	_	1	?	?	1	?	?	19	jediným	_	16	oft	_	24	single	_	_	_	18	sola	_	26	seul	_	24	sola	_	21	één	_	24	única	_
 21	свобода.	?	?	16	واحدة:	_	1	?	?	1	?	?	20	slovem:	_	19	Wort:	_	24	single	_	_	_	19	palabra:	_	26	seul	_	24	sola	_	21	één	_	24	única	_
-вобода	_	?	?	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+вобода	_	?	?	?	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	23	una	_	?	?	?	?	?	?
 
 # sent_id = 138320
 # text:  Пока мы не будем жить в обществе, где человек подтверждает своё достоинство трудом, то есть работает, чтобы жить лучше, а не просто работает, чтобы выжить, всегда будет подобного рода люди, жаждущих открытых дорог для побега, освобождения и, конечно, бунта. _
 # trans: Até vivermos numa sociedade em que a cada ser humano seja assegurada a dignidade no seu trabalho, para que possa trabalhar para viver bem, — não apenas trabalhar para sobreviver — haverá sempre quem procure a estrada aberta como meio de fuga, de libertação e, é claro, de rebelião.
-# forward_log_prob: -185.94604090951682
-# backward_log_prob: -160.9704186509074
+# forward_log_prob: -185.98733162661014
+# backward_log_prob: -160.97376171577935
 1	Пока	Пока	Contingency.Condition.Arg2-as-cond|Temporal.Asynchronous.Precedence	1	إلى	_	1	?	?	1	?	?	1	Něž	_	1	Bis	precedence.Asynchronous.TEMPORAL	1	Until	TEMPORAL	_	Condition.CONTIGENCY|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	2	menos	_	3	qu'on	_	1	Finché	_	1	Tot	_	1	Até	_
 2	мы	мы	_	2	حين	_	1	?	?	1	?	?	2	budeme	_	2	wir	_	2	we	_	_	_	2	menos	_	3	qu'on	_	2	non	_	2	we	_	2	vivermos	_
 3	не	не	_	2	حين	_	1	?	?	1	?	?	3	žít	_	10	seine	_	2	we	_	_	_	7	se	_	4	vive	_	13	è	_	?	?	?	2	vivermos	_
@@ -723,7 +723,7 @@
 # text:  Спасибо. _
 # trans: Obrigado.
 # forward_log_prob: -3.542469818713167
-# backward_log_prob: -3.2047861118490264
+# backward_log_prob: -3.2053654366539894
 1	Спасибо.	?	?	1	شكرًا	_	1	?	?	1	?	?	1	Děkuji.	_	1	Vielen	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dank	_	1	Obrigado.	_
 унта	_	?	?	2	لكم.	_	1	?	?	1	?	?	1	Děkuji.	_	2	Dank.	_	2	you.	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	3	wel.	_	1	Obrigado.	_
 

@@ -1,8 +1,8 @@
 # sent_id = 132690
 # text:  Visatoje knibždėte knibžda planetos.
 # trans: O universo está repleto de planetas.
-# forward_log_prob: -12.984023521941296
-# backward_log_prob: -10.315275201051572
+# forward_log_prob: -12.984379505738966
+# backward_log_prob: -10.315400272981197
 1	Visatoje	﻿Visatoje	_	1	الكون	_	1	?	_	1	?	_	1	?	_	1	Im	_	1	The	_	_	_	1	El	_	1	L'univers	_	1	L'universo	_	1	Het	_	1	O	_
 2	knibždėte	knibždėte	_	2	يزخر	_	1	?	_	1	?	_	1	?	_	3	wimmelt	_	3	is	_	_	_	3	está	_	2	grouille	_	2	è	_	3	krioelt	_	3	está	_
 3	knibžda	knibžda	_	2	يزخر	_	1	?	_	1	?	_	1	?	_	3	wimmelt	_	4	teeming	_	_	_	4	lleno	_	2	grouille	_	3	pieno	_	3	krioelt	_	4	repleto	_
@@ -11,8 +11,8 @@
 # sent_id = 132691
 # text:  Norėčiau, kad kitą dešimtmetį sukurtume tokį teleskopą visatai stebėti, kuris leistų parsisiųsti į Žemę vaizdų ir suprasti, ar žvaigždėje yra gyvybės.
 # trans: Gostaria que, na próxima década, construíssemos um telescópio espacial que conseguisse a imagem de uma Terra na órbita de outra estrela e descobrisse se pode ter vida.
-# forward_log_prob: -89.74888816863869
-# backward_log_prob: -81.71571678573022
+# forward_log_prob: -89.83602318698826
+# backward_log_prob: -81.68865760029526
 1	Norėčiau,	Norėčiau,	_	1	أريد،	_	1	?	_	1	?	_	1	?	_	2	will,	_	7	decade,	_	_	_	3	nosotros,	_	2	veux	_	1	Vorrei	_	?	?	?	1	Gostaria	_
 2	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	_	1	?	_	1	?	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	8	to	_	_	_	2	que	_	3	que,	_	2	che	_	3	dat	_	2	que,	_
 3	kitą	kitą	_	4	القادم	_	1	?	_	1	?	_	1	?	_	2	will,	_	7	decade,	_	_	_	3	nosotros,	_	?	?	?	7	costruissimo	_	7	volgende	_	6	construíssemos	_
@@ -26,7 +26,7 @@
 11	leistų	leistų	_	11	تصوير	_	1	?	_	1	?	_	1	?	_	15	einer	_	15	able	_	_	_	14	captar	_	17	images	_	14	mostrare	_	18	Aarde	_	11	conseguisse	_
 12	parsisiųsti	parsisiųsti	_	11	تصوير	_	1	?	_	1	?	_	1	?	_	17	im	_	19	Earth	_	_	_	14	captar	_	17	images	_	14	mostrare	_	21	buurt	_	11	conseguisse	_
 13	į	į	_	13	شمسي	_	1	?	_	1	?	_	1	?	_	20	anderen	_	21	another	_	_	_	15	la	_	24	étoile	_	19	un'altra	_	?	?	?	18	órbita	_
-14	Žemę	Žemę	_	14	شبيه	_	1	?	_	1	?	_	1	?	_	19	eines	_	20	about	_	_	_	22	otra	_	18	d'une	_	16	Terra	_	22	van	_	20	outra	_
+14	Žemę	Žemę	_	14	شبيه	_	1	?	_	1	?	_	1	?	_	19	eines	_	20	about	_	_	_	22	otra	_	18	d'une	_	16	Terra	_	22	van	_	16	Terra	_
 15	vaizdų	vaizdų	_	16	ويستنتج	_	1	?	_	1	?	_	1	?	_	22	erfassen	_	24	figure	_	_	_	25	averiguar	_	23	autre	_	22	scoprire	_	27	erachter	_	23	descobrisse	_
 16	ir	ir	_	?	?	?	1	?	_	1	?	_	1	?	_	23	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	23	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	24	y	_	25	et	Conjunction.EXPANSION	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	26	en	Conjunction.EXPANSION	22	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 17	suprasti,	suprasti,	_	17	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	24	herausfinden	_	24	figure	_	_	_	25	averiguar	_	26	comprendre	_	22	scoprire	_	28	komen	_	23	descobrisse	_
@@ -38,8 +38,8 @@
 # sent_id = 132692
 # text:  NASA Reaktyvinio judėjimo laboratorija Prinstone ir aš bendradarbiaujame kurdami technologiją, kuri būtent tai ir sugebės atlikti artimiausiais metais.
 # trans: Eu e os meus colegas no Laboratório de Propulsão a Jacto da NASA, em Princeton, estamos a trabalhar na tecnologia que fará isso mesmo nos próximos anos.
-# forward_log_prob: -98.07317856694225
-# backward_log_prob: -68.3370282835898
+# forward_log_prob: -98.0738951821248
+# backward_log_prob: -68.34861670694413
 1	NASA	NASA	_	1	أنا	_	1	?	_	1	?	_	1	?	_	4	NASA	_	5	NASA	_	_	_	12	NASA	_	3	du	_	11	della	_	5	NASA	_	13	NASA,	_
 2	Reaktyvinio	Reaktyvinio	_	2	وزملائي	_	1	?	_	1	?	_	1	?	_	1	Meine	_	5	NASA	_	_	_	5	Laboratorio	_	1	Mes	_	1	Io	_	5	NASA	_	1	Eu	_
 3	judėjimo	judėjimo	_	4	مختبر	_	1	?	_	1	?	_	1	?	_	4	NASA	_	5	NASA	_	_	_	5	Laboratorio	_	4	Jet	_	1	Io	_	5	NASA	_	7	Laboratório	_
@@ -52,8 +52,8 @@
 10	technologiją,	technologiją,	_	10	برينستون	_	1	?	_	1	?	_	1	?	_	15	Technologie,	_	16	technology	_	_	_	21	tecnología	_	17	technologie	_	13	a	_	9	in	_	6	no	_
 11	kuri	kuri	_	13	تكنولوجيا	_	1	?	_	1	?	_	1	?	_	12	arbeiten	_	14	working	_	_	_	19	en	_	18	qui	_	20	che	_	13	werken	_	18	trabalhar	_
 12	būtent	būtent	_	12	على	_	1	?	_	1	?	_	1	?	_	12	arbeiten	_	14	working	_	_	_	?	?	?	19	sera	_	21	sarà	_	13	werken	_	18	trabalhar	_
-13	tai	tai	_	17	ذلك	_	1	?	_	1	?	_	1	?	_	?	?	?	24	that	_	_	_	26	eso	_	?	?	?	27	questo	_	18	dat	_	?	?	?
-14	ir	ir	_	18	في	_	1	?	_	1	?	_	1	?	_	22	in	_	21	to	_	_	_	22	que	_	21	de	_	?	?	?	20	de	_	21	que	_
+13	tai	tai	_	17	ذلك	_	1	?	_	1	?	_	1	?	_	?	?	?	24	that	_	_	_	26	eso	_	?	?	?	27	questo	_	18	dat	_	21	que	_
+14	ir	ir	_	18	في	_	1	?	_	1	?	_	1	?	_	22	in	_	21	to	_	_	_	22	que	_	21	de	_	?	?	?	20	de	_	?	?	?
 15	sugebės	sugebės	_	16	فعل	_	1	?	_	1	?	_	1	?	_	18	einigen	_	20	able	_	_	_	23	podrá	_	19	sera	_	21	sarà	_	21	komende	_	22	fará	_
 16	atlikti	atlikti	_	19	السنوات	_	1	?	_	1	?	_	1	?	_	?	?	?	22	do	_	_	_	24	hacer	_	23	dans	_	?	?	?	19	in	_	20	tecnologia	_
 17	artimiausiais	artimiausiais	_	19	السنوات	_	1	?	_	1	?	_	1	?	_	24	Lage	_	27	coming	_	_	_	28	los	_	25	années	_	29	prossimi	_	23	kan	_	25	nos	_
@@ -62,8 +62,8 @@
 # sent_id = 132693
 # text:  Šiandien astronomai mano, kad galaktikoje kiekviena žvaigždė turi savo planetą, ir jie spėja, kad penktadalis žvaigždžių turi planetą kaip Žemė, kurioje galbūt yra gyvybės, nors tokių dar nesugebėjome pamatyti.
 # trans: Os astrónomos acreditam que cada estrela da galáxia tem um planeta, e especulam que até um quinto deles tem um planeta do tipo da Terra que poderá ter vida, mas ainda não vimos nenhum deles.
-# forward_log_prob: -126.57613324243574
-# backward_log_prob: -112.29890781719831
+# forward_log_prob: -126.64920219520481
+# backward_log_prob: -112.16461505217342
 1	Šiandien	Šiandien	_	1	علماء	_	1	?	_	1	?	_	1	?	_	3	heute,	_	7	in	_	_	_	2	astrónomos	_	2	astronomes	_	1	Oggi	_	1	Astronomen	_	2	astrónomos	_
 2	astronomai	astronomai	_	2	الفلك	_	1	?	_	1	?	_	1	?	_	1	Astronomen	_	3	believe	_	_	_	1	Los	_	3	pensent	_	2	gli	_	2	geloven	_	1	Os	_
 3	mano,	mano,	_	4	يعتقدون	_	1	?	_	1	?	_	1	?	_	3	heute,	_	3	believe	_	_	_	5	todas	_	4	désormais	_	1	Oggi	_	2	geloven	_	3	acreditam	_
@@ -97,8 +97,8 @@
 # sent_id = 132694
 # text:  Esame aptikę jas tik netiesiogiai.
 # trans: Apenas os detectámos indirectamente.
-# forward_log_prob: -9.61069812067042
-# backward_log_prob: -11.774166642900976
+# forward_log_prob: -9.610705153057921
+# backward_log_prob: -11.774206381254796
 1	Esame	Esame	_	1	نحن	_	1	?	_	1	?	_	1	?	_	?	?	?	2	only	_	result.Cause.CONTIGENCY	_	1	Solo	_	1	Nous	_	1	Li	_	1	We	_	1	Apenas	_
 2	aptikę	aptikę	_	2	فقط	_	1	?	_	1	?	_	1	?	_	?	?	?	1	We've	_	_	_	1	Solo	_	2	les	_	1	Li	_	2	hebben	_	1	Apenas	_
 3	jas	jas	_	4	بطريقة	_	1	?	_	1	?	_	1	?	_	?	?	?	3	detected	_	_	_	3	hemos	_	4	seulement	_	3	individuati	_	4	alleen	Exception.EXPANSION	3	detectámos	_
@@ -108,8 +108,8 @@
 # sent_id = 132695
 # text:  Štai garsioji NASA blyškiojo mėlynojo taško nuotrauka.
 # trans: Esta é a famosa imagem da NASA do ponto azul pálido.
-# forward_log_prob: -32.43681039363123
-# backward_log_prob: -25.887493882259964
+# forward_log_prob: -32.43607759621555
+# backward_log_prob: -25.881346859209803
 1	Štai	Štai	_	3	النقطة	_	1	?	_	1	?	_	1	?	_	1	Dies	_	6	of	_	_	_	2	es	_	?	?	?	2	è	_	?	?	?	2	é	_
 2	garsioji	garsioji	_	1	هذه	_	1	?	_	1	?	_	1	?	_	2	ist	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esta	_	1	Voici	_	1	Questa	_	1	Dit	_	4	famosa	_
 3	NASA	NASA	_	2	صورة	_	1	?	_	1	?	_	1	?	_	4	berühmte	_	4	famous	_	_	_	7	la	_	3	célèbre	_	6	della	_	4	beroemde	_	3	a	_
@@ -121,8 +121,8 @@
 # sent_id = 132696
 # text:  Ją padarė erdvėlaivis „Voyager“ 1990 m., apsuktas Saulės sistemos pakraštyje, kad padarytų Žemės nuotrauką iš šešių milijardų kilometrų nuotolio.
 # trans: Foi tirada pela nave Voyager em 1990, quando a fizeram rodar ao sair do sistema solar para tirar uma foto da Terra à distância de seis mil milhões de quilómetros.
-# forward_log_prob: -108.3016863915376
-# backward_log_prob: -71.99479724103412
+# forward_log_prob: -108.33228490341108
+# backward_log_prob: -71.99570033170623
 1	Ją	Ją	_	1	أُلتقطت	_	1	?	_	1	?	_	1	?	_	3	es	_	1	It	_	_	_	2	tomada	_	?	?	?	3	scattata	_	1	Het	_	2	tirada	_
 2	padarė	padarė	_	2	بواسطة	_	1	?	_	1	?	_	1	?	_	4	1990	_	2	was	_	_	_	2	tomada	_	7	sonde	_	3	scattata	_	2	is	_	3	pela	_
 3	erdvėlaivis	erdvėlaivis	_	4	الصناعي	_	1	?	_	1	?	_	1	?	_	4	1990	_	6	Voyager	_	_	_	5	sonda	_	7	sonde	_	5	veicolo	_	5	gemaakt	_	4	nave	_
@@ -146,8 +146,8 @@
 # sent_id = 132697
 # text:  Aš noriu padaryti tokią kitos į Žemę panašios planetos ir kitos žvaigždės nuotrauką.
 # trans: Gostaria de ter uma de um planeta do tipo da Terra na órbita de outra estrela.
-# forward_log_prob: -51.20434056431851
-# backward_log_prob: -47.728382175390514
+# forward_log_prob: -51.200537474900926
+# backward_log_prob: -47.7315384550348
 1	Aš	Aš	_	1	أريد	_	1	?	_	1	?	_	1	?	_	5	ich	_	1	I	_	_	_	2	tomar	_	1	Je	_	1	Vorrei	_	1	Ik	_	1	Gostaria	_
 2	noriu	noriu	_	1	أريد	_	1	?	_	1	?	_	1	?	_	4	möchte	_	2	want	_	_	_	1	Quiero	_	2	veux	_	2	fotografare	_	2	wil	_	2	de	_
 3	padaryti	padaryti	_	1	أريد	_	1	?	_	1	?	_	1	?	_	2	ein	_	3	to	_	_	_	1	Quiero	_	3	faire	_	2	fotografare	_	2	wil	_	5	de	_
@@ -165,8 +165,8 @@
 # sent_id = 132698
 # text:  Kodėl dar to nepadarėme? Kodėl tai sudėtinga?
 # trans: Porque ainda não o conseguimos? Porque é tão difícil?
-# forward_log_prob: -22.64942558057271
-# backward_log_prob: -19.62089393663338
+# forward_log_prob: -22.6510047739228
+# backward_log_prob: -19.628792722450278
 1	Kodėl	Kodėl	_	1	لماذا	reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	1	Warum	result.Cause.CONTIGENCY	1	Why	_	_	_	1	¿Por	_	1	Pourquoi	_	1	Perché	reason.Cause.CONTIGENCY	1	Waarom	result.Cause.CONTIGENCY	1	Porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	dar	dar	_	2	لم	_	1	?	_	1	?	_	1	?	_	5	noch	Conjunction.EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	2	haven't	_	_	_	2	qué	_	2	n'avons-nous	_	4	ancora	_	1	Waarom	result.Cause.CONTIGENCY	2	ainda	Conjunction.EXPANSION|EXPANSION
 3	to	to	_	3	نفعل	_	1	?	_	1	?	_	1	?	_	3	es	_	3	we	_	_	_	4	lo	_	3	pas	_	3	l'abbiamo	_	4	dat	_	3	não	_
@@ -178,8 +178,8 @@
 # sent_id = 132699
 # text:  Kad suprastume, įsivaizduokime „Hubble“ teleskopą apsuktą ir perkeltą į Marso orbitą.
 # trans: Bem, imaginemos que pegamos no Telescópio Espacial Hubble e o rodamos e o deslocamos para a órbita de Marte.
-# forward_log_prob: -59.1517257611715
-# backward_log_prob: -38.39423846365939
+# forward_log_prob: -59.14854533354531
+# backward_log_prob: -38.38980290804505
 1	Kad	Kad	Contingency.Purpose.Arg2-as-goal	1	حسنًا	_	1	?	_	1	?	_	1	?	_	2	Sie	_	2	to	_	_	_	2	para	CONTIGENCY|Cause.CONTIGENCY	2	que	_	2	di	_	1	Stel	_	3	que	_
 2	suprastume,	suprastume,	_	2	لنرى،	_	1	?	_	1	?	_	1	?	_	1	Stellen	_	1	Well	_	Conjunction.EXPANSION	_	1	Bueno	_	1	Imaginions	_	1	Immaginiamo	_	1	Stel	_	1	Bem,	_
 3	įsivaizduokime	įsivaizduokime	_	4	أننا	_	1	?	_	1	?	_	1	?	_	6	nähmen	_	5	imagine	_	_	_	6	imaginar	_	4	prenions	_	1	Immaginiamo	_	1	Stel	_	4	pegamos	_
@@ -188,15 +188,15 @@
 6	apsuktą	apsuktą	_	?	?	?	1	?	_	1	?	_	1	?	_	10	drehten	_	14	turn	_	_	_	13	lo	_	10	que	_	9	girarlo	_	9	omdraaien	_	10	o	_
 7	ir	ir	_	?	?	?	1	?	_	1	?	_	1	?	_	13	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	17	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	15	y	_	14	et	Conjunction.EXPANSION	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	10	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 8	perkeltą	perkeltą	_	9	وجعلناه	_	1	?	_	1	?	_	1	?	_	14	setzten	_	19	move	_	_	_	16	lo	_	15	le	_	11	di	_	11	verplaatsen	_	13	o	_
-9	į	į	_	11	ويتحرك	_	1	?	_	1	?	_	1	?	_	16	in	_	18	we	_	_	_	18	hacia	TEMPORAL	17	le	_	15	di	_	13	de	_	13	o	_
+9	į	į	_	11	ويتحرك	_	1	?	_	1	?	_	1	?	_	16	in	_	18	we	_	_	_	18	hacia	TEMPORAL	17	le	_	15	di	_	12	naar	_	13	o	_
 10	Marso	Marso	_	13	مدار	_	1	?	_	1	?	_	1	?	_	21	Mars.	_	21	out	_	_	_	22	órbita	_	20	l'orbite	_	13	fuori	_	15	van	_	17	órbita	_
 11	orbitą.	orbitą.	_	?	?	?	1	?	_	1	?	_	1	?	_	19	um	_	26	Mars.	_	_	_	?	?	?	?	?	?	12	portarlo	_	14	baan	_	?	?	?
 
 # sent_id = 132700
 # text:  Pamatysime štai ką: šiek tiek išplaukusį Žemės vaizdą, nes esame gan mažas teleskopas iškeltas prie Marso orbitos.
 # trans: Veríamos algo assim, Uma imagem algo difusa da Terra, porque é um telescópio um pouco pequeno na órbita de Marte.
-# forward_log_prob: -65.60068713610245
-# backward_log_prob: -62.90196308296141
+# forward_log_prob: -65.60064183159814
+# backward_log_prob: -62.90331909236441
 1	Pamatysime	Pamatysime	_	1	سنرى	_	1	?	_	1	?	_	1	?	_	1	Wir	_	2	see	_	_	_	1	Veremos	_	2	obtiendrait	_	1	Vedremmo	_	1	Dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	1	Veríamos	_
 2	štai	štai	_	1	سنرى	_	1	?	_	1	?	_	1	?	_	?	?	?	10	of	_	_	_	?	?	?	1	On	_	?	?	?	?	?	?	?	?	?
 3	ką:	ką:	_	3	مثل	_	1	?	_	1	?	_	1	?	_	3	vermutlich	_	8	blurry	_	_	_	6	levemente	_	2	obtiendrait	_	3	di	_	5	wat	_	8	da	_
@@ -218,20 +218,20 @@
 # sent_id = 132701
 # text:  Dabar nutolkime dar dešimt kartų tiek.
 # trans: Afastemo-nos dez vezes mais.
-# forward_log_prob: -9.922629357419092
-# backward_log_prob: -15.052077135319184
+# forward_log_prob: -9.922577958416678
+# backward_log_prob: -14.994329460200456
 1	Dabar	Dabar	Temporal.Asynchronous.Precedence	1	والآن	_	1	?	_	1	?	_	1	?	_	1	Nun	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	1	Maintenant	Exception.EXPANSION	1	Adesso	_	1	Nu	_	1	Afastemo-nos	_
 2	nutolkime	nutolkime	_	2	دعونا	_	1	?	_	1	?	_	1	?	_	2	gehen	_	2	let's	_	_	_	2	vamos	_	2	éloignons-nous	_	2	spostiamoci	_	2	gaan	_	1	Afastemo-nos	_
 3	dar	dar	_	3	نبتعد	_	1	?	_	1	?	_	1	?	_	2	gehen	_	4	ten	_	_	_	5	diez	_	3	dix	_	3	dieci	_	3	we	_	2	dez	_
 4	dešimt	dešimt	_	4	عشر	_	1	?	_	1	?	_	1	?	_	3	wir	_	4	ten	_	_	_	5	diez	_	3	dix	_	3	dieci	_	4	tien	_	3	vezes	_
 5	kartų	kartų	_	5	مرات	_	1	?	_	1	?	_	1	?	_	4	auf	_	5	times	_	_	_	6	veces	_	4	fois	_	4	volte	_	5	keer	_	3	vezes	_
-6	tiek.	tiek.	_	6	أكثر	_	1	?	_	1	?	_	1	?	_	7	Distanz.	_	?	?	?	?	?	4	ir	_	5	plus.	_	?	?	?	7	weg.	_	4	mais.	_
+6	tiek.	tiek.	_	6	أكثر	_	1	?	_	1	?	_	1	?	_	7	Distanz.	_	7	away.	_	_	_	4	ir	_	5	plus.	_	?	?	?	7	weg.	_	4	mais.	_
 
 # sent_id = 132702
 # text:  Štai esame prie Urano orbitos.
 # trans: Aqui estamos na órbita de Urano.
-# forward_log_prob: -15.32259063356404
-# backward_log_prob: -14.326600502415467
+# forward_log_prob: -15.322449948708964
+# backward_log_prob: -14.326993198226972
 1	Štai	Štai	_	2	هنا	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	are	_	_	_	4	la	_	3	sur	_	1	Eccoci	_	2	zitten	_	?	?	?
 2	esame	esame	_	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	1	Aquí	_	1	Nous	_	2	nell'orbita	_	1	Hier	_	1	Aqui	_
 3	prie	prie	_	2	هنا	_	1	?	_	1	?	_	1	?	_	2	sind	_	4	at	_	_	_	2	estamos	_	2	sommes	_	2	nell'orbita	_	5	de	_	2	estamos	_
@@ -241,8 +241,8 @@
 # sent_id = 132703
 # text:  Vaizdas mažesnis, ne toks detalus, ne toks raiškus.
 # trans: Ficou mais pequena, com menos detalhe, menor resolução.
-# forward_log_prob: -24.86255025355919
-# backward_log_prob: -20.833662863047895
+# forward_log_prob: -24.862606270363198
+# backward_log_prob: -20.83343749140905
 1	Vaizdas	Vaizdas	_	1	أصبحت	_	1	?	_	1	?	_	1	?	_	?	?	?	1	It's	_	_	_	3	vuelto	_	10	résolution.	_	?	?	?	3	kleiner	_	1	Ficou	_
 2	mažesnis,	mažesnis,	_	2	الصورة	_	1	?	_	1	?	_	1	?	_	2	Bild	_	2	gotten	_	_	_	1	Se	_	1	C'est	_	5	meno	_	3	kleiner	_	1	Ficou	_
 3	ne	ne	_	3	أصغر،	_	1	?	_	1	?	_	1	?	_	1	Das	_	3	smaller,	_	_	_	3	vuelto	_	5	moins	_	5	meno	_	2	is	_	1	Ficou	_
@@ -255,10 +255,10 @@
 # sent_id = 132704
 # text:  Vis dar matyti mažytis mėnulis, bet vėl nutolkime dar dešimt kartų.
 # trans: Ainda podemos ver a pequena Lua, mas afastemo-nos de novo dez vezes mais,
-# forward_log_prob: -33.12050477897779
-# backward_log_prob: -31.91671559534385
+# forward_log_prob: -33.11985096095473
+# backward_log_prob: -31.890699233458967
 1	Vis	Vis	_	1	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Man	_	2	can	_	_	_	1	Todavía	_	2	pouvons	_	1	Possiamo	_	4	steeds	_	1	Ainda	Conjunction.EXPANSION|EXPANSION
-2	dar	dar	_	3	بإمكاننا	_	1	?	_	1	?	_	1	?	_	?	?	?	3	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	1	Todavía	_	3	toujours	_	2	ancora	_	3	nog	_	?	?	?
+2	dar	dar	_	3	بإمكاننا	_	1	?	_	1	?	_	1	?	_	6	noch.	_	3	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	1	Todavía	_	3	toujours	_	2	ancora	_	3	nog	_	?	?	?
 3	matyti	matyti	_	3	بإمكاننا	_	1	?	_	1	?	_	1	?	_	3	den	_	3	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	3	ver	_	3	toujours	_	3	vedere	_	1	We	_	3	ver	_
 4	mažytis	mažytis	_	6	الصغير،	_	1	?	_	1	?	_	1	?	_	4	kleinen	_	3	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	5	pequeña	_	3	toujours	_	4	in	_	4	steeds	_	5	pequena	_
 5	mėnulis,	mėnulis,	_	5	القمر	_	1	?	_	1	?	_	1	?	_	5	Mond	_	5	the	_	_	_	6	luna,	_	5	la	_	6	la	_	7	maan.	_	6	Lua,	_
@@ -272,8 +272,8 @@
 # sent_id = 132705
 # text:  Atsidūrėme Saulės sistemos paribyje, prie Kuiperio juostos.
 # trans: Estamos no limiar do sistema solar, na Cintura de Kuiper.
-# forward_log_prob: -27.363760927340426
-# backward_log_prob: -21.442630536100342
+# forward_log_prob: -27.36335839678725
+# backward_log_prob: -21.443023100210517
 1	Atsidūrėme	Atsidūrėme	_	1	نحن	_	1	?	_	1	?	_	1	?	_	1	Hier	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	1	Aquí	_	1	Nous	_	1	Qui	_	1	staan	_	1	Estamos	_
 2	Saulės	Saulės	_	5	النظام	_	1	?	_	1	?	_	1	?	_	7	Sonnensystems,	_	9	solar	_	_	_	8	solar,	_	7	système	_	7	solare,	_	2	we	_	6	solar,	_
 3	sistemos	sistemos	_	5	النظام	_	1	?	_	1	?	_	1	?	_	7	Sonnensystems,	_	5	the	_	_	_	6	del	_	6	du	_	6	sistema	_	4	de	_	4	do	_
@@ -285,8 +285,8 @@
 # sent_id = 132706
 # text:  Dabar vaizdas visai neraiškus.
 # trans: Agora não tem qualquer resolução.
-# forward_log_prob: -12.77734107583499
-# backward_log_prob: -10.208712664487678
+# forward_log_prob: -12.777265684613676
+# backward_log_prob: -10.207368064743534
 1	Dabar	Dabar	Temporal.Synchronous	3	الدقة	_	1	?	_	1	?	_	1	?	_	3	gar	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	1	Maintenant	Exception.EXPANSION	1	Ora	_	2	en	Conjunction.EXPANSION	1	Agora	Conjunction.EXPANSION|EXPANSION
 2	vaizdas	vaizdas	_	1	الآن	_	1	?	_	1	?	_	1	?	_	1	Es	_	2	it's	_	_	_	5	resolución.	_	3	résolution	_	5	risoluzione.	_	1	Maan	_	5	resolução.	_
 3	visai	visai	_	4	معدومة	_	1	?	_	1	?	_	1	?	_	4	keine	_	3	not	_	_	_	2	no	_	4	est	_	2	non	_	5	niet	_	2	não	_
@@ -295,8 +295,8 @@
 # sent_id = 132707
 # text:  Štai tas blyškusis mėlynasis Karlo Sagano taškas.
 # trans: É o ponto azul pálido, de Carl Sagan.
-# forward_log_prob: -20.64558309328509
-# backward_log_prob: -19.475315071606897
+# forward_log_prob: -20.644959767033512
+# backward_log_prob: -19.4741626222509
 1	Štai	Štai	_	3	النقطة	_	1	?	_	1	?	_	1	?	_	2	Erde	_	3	pale	_	_	_	3	punto	_	2	le	_	3	pallido	_	1	Het	_	1	É	_
 2	tas	tas	_	2	تلك	_	1	?	_	1	?	_	1	?	_	3	ist	_	1	It's	_	_	_	1	Es	_	3	point	_	1	È	_	2	bleekblauwe	_	2	o	_
 3	blyškusis	blyškusis	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	2	Erde	_	3	pale	_	_	_	3	punto	_	3	point	_	3	pallido	_	2	bleekblauwe	_	4	azul	_
@@ -308,8 +308,8 @@
 # sent_id = 132708
 # text:  Bet nutolkime dar dešimt kartų toliau.
 # trans: Mas afastemo-nos de novo mais dez vezes.
-# forward_log_prob: -16.097615759414328
-# backward_log_prob: -14.340079631096762
+# forward_log_prob: -16.097440964502763
+# backward_log_prob: -14.3677033631407
 1	Bet	Bet	Expansion.Conjunction	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	2	entfernen	_	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	nutolkime	nutolkime	_	2	أيضًا	_	1	?	_	1	?	_	1	?	_	1	Wir	_	2	let's	_	_	_	2	vamos	_	2	éloignons-nous	_	2	spostiamoci	_	2	laten	_	2	afastemo-nos	_
 3	dar	dar	_	4	آخرى	_	1	?	_	1	?	_	1	?	_	4	wieder	_	5	again	_	Conjunction.EXPANSION	_	7	diez	_	3	encore	Exception.EXPANSION	4	nuovo	_	4	nog	_	4	novo	_
@@ -320,8 +320,8 @@
 # sent_id = 132709
 # text:  Dabar esame prie Oorto Debesies, už Saulės sistemos ribų, ir dabar matome, kaip saulė atsiduria vaizdo lauke, ten, kur yra planeta.
 # trans: Aqui estamos na Nuvem de Oort, fora do sistema solar, aqui começamos a ver o Sol a mover-se para o campo de visão e a sobrepor-se ao planeta.
-# forward_log_prob: -92.60840355592096
-# backward_log_prob: -77.61012062366729
+# forward_log_prob: -92.61001939709772
+# backward_log_prob: -77.59187258088015
 1	Dabar	Dabar	Temporal.Synchronous	?	?	?	1	?	_	1	?	_	1	?	_	1	Nun	_	?	?	?	?	?	3	fuera	_	?	?	?	?	?	?	2	zijn	_	?	?	?
 2	esame	esame	_	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	1	Here	_	precedence.Asynchronous.TEMPORAL	_	2	estamos	_	1	Nous	_	2	siamo	_	1	Hier	_	1	Aqui	_
 3	prie	prie	_	2	هنا	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	are	_	_	_	1	Aquí	_	2	sommes	_	1	Qui	_	1	Hier	_	2	estamos	_
@@ -347,8 +347,8 @@
 # sent_id = 132710
 # text:  Dar kartą dešimt kartų toliau.
 # trans: Mais uma vez, dez vezes mais distantes.
-# forward_log_prob: -16.58827137236155
-# backward_log_prob: -11.537934680486003
+# forward_log_prob: -16.588244226952387
+# backward_log_prob: -11.510658152996967
 1	Dar	Dar	_	1	مرة	_	1	?	_	1	?	_	1	?	_	2	wieder	_	1	One	_	_	_	4	diez	_	2	fois	_	1	Ancora	_	1	Nog	_	1	Mais	Conjunction.EXPANSION|EXPANSION
 2	kartą	kartą	_	2	أخرى،	_	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	2	more	_	_	_	1	Una	_	1	Une	_	2	una	_	2	eens	_	2	uma	_
 3	dešimt	dešimt	_	3	وعشر	_	1	?	_	1	?	_	1	?	_	3	10-mal	_	4	ten	_	_	_	4	diez	_	4	plus,	_	4	dieci	_	3	tien	_	4	dez	_
@@ -358,8 +358,8 @@
 # sent_id = 132711
 # text:  Dabar esame prie Alfa Kentauro, mūsų artimiausios kaimynės ir planetos jau nebėra.
 # trans: Agora estamos na Alfa Centauri, a nossa estrela vizinha mais próxima, e o planeta desapareceu.
-# forward_log_prob: -49.28917738773497
-# backward_log_prob: -39.15726372370392
+# forward_log_prob: -49.28822343790456
+# backward_log_prob: -39.15469463701728
 1	Dabar	Dabar	Temporal.Synchronous	1	نحن	_	1	?	_	1	?	_	1	?	_	1	Nun	_	1	Now	_	Synchronous.TEMPORAL	_	1	Ahora	_	2	sommes	_	1	Ora	_	1	zijn	_	1	Agora	Conjunction.EXPANSION|EXPANSION
 2	esame	esame	_	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	2	we're	_	_	_	2	estamos	_	1	Nous	_	2	siamo	_	2	we	_	2	estamos	_
 3	prie	prie	_	1	نحن	_	1	?	_	1	?	_	1	?	_	2	sind	_	3	at	_	_	_	2	estamos	_	2	sommes	_	2	siamo	_	3	bij	_	2	estamos	_
@@ -376,8 +376,8 @@
 # sent_id = 132712
 # text:  Tematome tik šviečiantį žvaigždės vaizdą, kuris dešimt milijardų kartų ryškesnis už planetą, kuri turėtų būti raudoname apskritime.
 # trans: Tudo o que vemos é a imagem de grandes feixes da estrela que é dez mil milhões de vezes mais brilhante do que o planeta, que deveria estar naquele pequeno círculo vermelho.
-# forward_log_prob: -110.1725560274579
-# backward_log_prob: -67.63697901656946
+# forward_log_prob: -110.18431892406448
+# backward_log_prob: -67.64970512899916
 1	Tematome	Tematome	_	?	?	?	1	?	_	1	?	_	1	?	_	2	was	_	7	beaming	_	_	_	3	que	_	?	?	?	3	che	_	2	zien	_	?	?	?
 2	tik	tik	_	1	كل	_	1	?	_	1	?	_	1	?	_	1	Alles,	_	7	beaming	_	_	_	1	Todo	_	1	Nous	_	1	Tutto	_	1	We	_	1	Tudo	_
 3	šviečiantį	šviečiantį	_	4	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	7	große	_	6	big	_	_	_	2	lo	_	2	voyons	_	10	immagine	_	4	nog	_	4	vemos	_
@@ -399,8 +399,8 @@
 # sent_id = 132713
 # text:  Tai ir norime pamatyti. Todėl tai ir sunku.
 # trans: É o que queremos ver. É por isso que é difícil.
-# forward_log_prob: -26.99402296249287
-# backward_log_prob: -20.65623478891142
+# forward_log_prob: -27.005479471267726
+# backward_log_prob: -20.67193089842231
 1	Tai	Tai	_	1	ذلك	_	1	?	_	1	?	_	1	?	_	1	Das	_	1	That's	_	_	_	1	Eso	_	1	C'est	_	1	Questo	_	1	Dat	_	1	É	_
 2	ir	ir	_	2	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	wir	_	3	we	_	_	_	3	lo	_	4	nous	_	4	che	_	3	we	_	3	que	_
 3	norime	norime	_	3	نود	_	1	?	_	1	?	_	1	?	_	2	wollen	_	2	what	_	_	_	5	queremos	_	5	voulons	_	3	quello	_	2	willen	_	4	queremos	_
@@ -413,8 +413,8 @@
 # sent_id = 132714
 # text:  Nuo žvaigždės sklindanti šviesa lūžta.
 # trans: A luz da estrela sofre difracção.
-# forward_log_prob: -15.894901336485244
-# backward_log_prob: -15.998494722631342
+# forward_log_prob: -15.894304216202432
+# backward_log_prob: -15.999347667738308
 1	Nuo	Nuo	_	1	شعاع	_	1	?	_	1	?	_	1	?	_	3	vom	_	3	from	_	_	_	6	se	_	3	provenant	_	5	viene	_	3	van	_	5	sofre	_
 2	žvaigždės	žvaigždės	_	2	نور	_	1	?	_	1	?	_	1	?	_	8	Inneren	_	5	star	_	_	_	3	de	_	3	provenant	_	4	stella	_	5	ster	_	3	da	_
 3	sklindanti	sklindanti	_	1	شعاع	_	1	?	_	1	?	_	1	?	_	4	Stern	_	4	the	_	_	_	4	la	_	3	provenant	_	3	della	_	6	ondergaat	_	5	sofre	_
@@ -424,24 +424,24 @@
 # sent_id = 132715
 # text:  Ji išsisklaido teleskope sukurdama tą ryškų vaizdą, kuris užlieja planetą.
 # trans: Dispersa-se dentro do telescópio, criando esta imagem muito brilhante que ofusca o planeta.
-# forward_log_prob: -37.809929715573254
-# backward_log_prob: -32.07257778665691
+# forward_log_prob: -37.84216854038735
+# backward_log_prob: -32.08176350809491
 1	Ji	Ji	_	2	ينتشر	_	1	?	_	1	?	_	1	?	_	1	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	It's	_	_	_	2	dispersión	_	3	diffractée	_	2	dispersa	_	1	Het	_	1	Dispersa-se	_
 2	išsisklaido	išsisklaido	_	1	إنه	_	1	?	_	1	?	_	1	?	_	2	erzeugt	_	3	inside	_	_	_	1	Su	_	1	Elle	_	1	Viene	_	3	verstrooid	_	2	dentro	_
 3	teleskope	teleskope	_	4	التيليسكوب،	_	1	?	_	1	?	_	1	?	_	4	sehr	_	4	the	_	_	_	5	telescopio,	_	4	dans	_	5	telescopio,	_	3	verstrooid	_	4	telescópio,	_
 4	sukurdama	sukurdama	_	5	مولدًا	_	1	?	_	1	?	_	1	?	_	5	helle	_	6	creating	_	_	_	6	crea	_	7	créant	_	6	creando	_	7	vandaar	result.Cause.CONTIGENCY	5	criando	_
 5	tą	tą	_	9	والتي	Conjunction.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	5	helle	_	6	creating	_	_	_	11	que	_	9	image	_	7	quell'immagine	_	7	vandaar	result.Cause.CONTIGENCY	6	esta	_
 6	ryškų	ryškų	_	7	الصورة	_	1	?	_	1	?	_	1	?	_	5	helle	_	9	bright	_	_	_	9	muy	_	8	cette	_	7	quell'immagine	_	9	lichtsterk	_	8	muito	_
-7	vaizdą,	vaizdą,	_	8	المشعة	_	1	?	_	1	?	_	1	?	_	6	Bild,	_	10	image	_	_	_	8	imagen	_	11	brillante	_	9	luminosa	_	10	beeld	_	7	imagem	_
+7	vaizdą,	vaizdą,	_	6	تلك	_	1	?	_	1	?	_	1	?	_	6	Bild,	_	10	image	_	_	_	8	imagen	_	11	brillante	_	9	luminosa	_	10	beeld	_	7	imagem	_
 8	kuris	kuris	_	10	تحجب	_	1	?	_	1	?	_	1	?	_	6	Bild,	_	10	image	_	_	_	10	brillante	_	12	qui	_	9	luminosa	_	9	lichtsterk	_	9	brilhante	_
 9	užlieja	užlieja	_	10	تحجب	_	1	?	_	1	?	_	1	?	_	10	verblassen	_	12	washes	_	_	_	12	hace	_	13	cache	_	11	slava	_	14	overspoelt.	_	11	ofusca	_
-10	planetą.	planetą.	_	12	الكوكب.	_	1	?	_	1	?	_	1	?	_	9	Planeten	_	15	planet.	_	_	_	15	planeta.	_	14	la	_	13	pianeta.	_	13	planeet	_	13	planeta.	_
+10	planetą.	planetą.	_	12	الكوكب.	_	1	?	_	1	?	_	1	?	_	9	Planeten	_	15	planet.	_	_	_	15	planeta.	_	14	la	_	13	pianeta.	_	13	planeet	_	12	o	_
 
 # sent_id = 132716
 # text:  Kad pamatytume tą planetą, turime kažką padaryti su ta šviesa.
 # trans: Para vermos o planeta, temos que fazer algo em relação a toda esta luz.
-# forward_log_prob: -41.66777809151574
-# backward_log_prob: -32.11014262487316
+# forward_log_prob: -41.678815210069295
+# backward_log_prob: -32.03439848013995
 1	Kad	Kad	Contingency.Purpose.Arg2-as-goal	1	ولكي	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	1	Um	_	2	to	_	_	_	3	para	CONTIGENCY|Cause.CONTIGENCY	1	Donc,	_	1	Per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	Om	PragmaticCause.CONTIGENCY	1	Para	CONTIGENCY|PragmaticCause.CONTIGENCY
 2	pamatytume	pamatytume	_	1	ولكي	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	4	sichtbar	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	CONTIGENCY|Cause.CONTIGENCY	1	Donc,	_	1	Per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	Om	PragmaticCause.CONTIGENCY	2	vermos	_
 3	tą	tą	_	3	الكوكب،	_	1	?	_	1	?	_	1	?	_	2	den	_	4	the	_	_	_	2	que	_	4	la	_	3	il	_	2	de	_	3	o	_
@@ -456,8 +456,8 @@
 # sent_id = 132717
 # text:  Ją reikia pašalinti.
 # trans: Temos que nos livrar dela.
-# forward_log_prob: -13.42546723823989
-# backward_log_prob: -8.296033371479359
+# forward_log_prob: -13.425339309403268
+# backward_log_prob: -8.29731389240134
 1	Ją	Ją	_	1	يجب	_	1	?	_	1	?	_	1	?	_	1	Wir	_	1	We	_	_	_	2	que	_	1	Nous	_	1	Dobbiamo	_	2	moeten	_	4	livrar	_
 2	reikia	reikia	_	2	أن	_	1	?	_	1	?	_	1	?	_	3	es	_	2	have	_	_	_	1	Tenemos	_	3	débarrasser.	_	2	liberarcene.	_	1	Dat	_	1	Temos	_
 3	pašalinti.	pašalinti.	_	4	منه.	_	1	?	_	1	?	_	1	?	_	4	loswerden.	_	5	rid	_	_	_	4	de	_	2	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	1	Dobbiamo	_	4	kwijt.	_	5	dela.	_
@@ -465,8 +465,8 @@
 # sent_id = 132718
 # text:  Kai kurie mano kolegos dirba būtent ties tokiomis technologijomis, bet šiandien noriu papasakoti apie tą, kuri, mano galva, šauniausia ir labiausiai pajėgi padaryti norimą nuotrauką per artimiausią dešimtmetį.
 # trans: Tenho vários colegas a trabalhar em tecnologias fantásticas para fazer isso, mas hoje quero falar-vos de uma que penso ser a mais fixe, e provavelmente a que tem mais hipóteses de nos conseguir uma Terra na próxima década.
-# forward_log_prob: -137.67421313570003
-# backward_log_prob: -116.1169223513742
+# forward_log_prob: -137.59806903333654
+# backward_log_prob: -116.0923873746043
 1	Kai	Kai	_	1	لدي	_	1	?	_	1	?	_	1	?	_	1	Viele	_	4	lot	_	_	_	1	Tengo	_	1	Beaucoup	_	1	Ho	_	2	heb	_	1	Tenho	_
 2	kurie	kurie	_	2	الكثير	_	1	?	_	1	?	_	1	?	_	2	meiner	_	19	tell	_	_	_	6	que	_	1	Beaucoup	_	2	molti	_	2	heb	_	2	vários	_
 3	mano	mano	_	2	الكثير	_	1	?	_	1	?	_	1	?	_	3	Kollegen	_	6	colleagues	_	_	_	5	colegas	_	4	collègues	_	3	colleghi	_	1	Ik	_	3	colegas	_
@@ -499,8 +499,8 @@
 # sent_id = 132719
 # text:  Pirmasis tai pasiūlė Lyman Spitzer, kosminio teleskopo tėvas, 1962 m. Jį įkvėpė vienas užtemimas.
 # trans: Foi inicialmente sugerida por Lyman Spitzer, o pai do telescópio espacial, em 1962, que se inspirou num eclipse,
-# forward_log_prob: -58.25064644165546
-# backward_log_prob: -49.46491297092142
+# forward_log_prob: -58.251997951744826
+# backward_log_prob: -49.46596151577951
 1	Pirmasis	Pirmasis	_	1	من	_	1	?	_	1	?	_	1	?	_	1	Vorgestellt	_	3	first	_	Contrast.COMPARISON	_	1	Fue	_	1	Lyman	_	2	stata	_	2	idee	_	1	Foi	_
 2	tai	tai	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	3	por	CONTIGENCY|Cause.CONTIGENCY	3	le	_	1	È	_	1	Het	_	4	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	pasiūlė	pasiūlė	_	3	هذه	_	1	?	_	1	?	_	1	?	_	4	Idee	_	4	suggested	_	_	_	4	primera	_	4	père	_	4	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	Lyman	_	3	sugerida	_
@@ -519,8 +519,8 @@
 # sent_id = 132720
 # text:  Esate tai matę. Kalbu apie saulės užtemimą.
 # trans: Já todos viram isto. É um eclipse solar.
-# forward_log_prob: -21.903882846431102
-# backward_log_prob: -21.48418071102282
+# forward_log_prob: -21.90405218596783
+# backward_log_prob: -21.4829943234365
 1	Esate	Esate	_	1	كلكم	_	1	?	_	1	?	_	1	?	_	1	Sie	_	1	You've	_	_	_	1	Todos	_	1	Voici	_	1	L'avrete	_	1	Jullie	_	1	Já	COMPARISON|Contrast.COMPARISON
 2	tai	tai	_	1	كلكم	_	1	?	_	1	?	_	1	?	_	3	das	_	?	?	?	?	?	6	es	_	3	éclipse	_	5	è	_	1	Jullie	_	5	É	_
 3	matę.	matę.	_	2	قد	_	1	?	_	1	?	_	1	?	_	2	kennen	_	3	seen	_	_	_	3	visto	_	3	éclipse	_	3	tutti.	_	3	allemaal	_	3	viram	_
@@ -532,8 +532,8 @@
 # sent_id = 132721
 # text:  Mėnulis atsiduria priešais saulę.
 # trans: A Lua colocou-se à frente do Sol.
-# forward_log_prob: -16.329599715317116
-# backward_log_prob: -9.703578750530548
+# forward_log_prob: -16.329174756574176
+# backward_log_prob: -9.703774320672434
 1	Mėnulis	Mėnulis	_	1	القمر	_	1	?	_	1	?	_	1	?	_	1	Der	_	1	The	_	_	_	1	La	_	1	La	_	1	La	_	1	De	_	1	A	_
 2	atsiduria	atsiduria	_	2	يتحرك	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	has	_	_	_	3	se	_	3	se	_	3	si	_	3	komt	_	3	colocou-se	_
 3	priešais	priešais	_	3	أمام	_	1	?	_	1	?	_	1	?	_	5	vor	_	5	in	_	_	_	6	delante	_	5	devant	_	6	davanti	_	5	voor	succession.Asynchronous.TEMPORAL	4	à	_
@@ -542,8 +542,8 @@
 # sent_id = 132722
 # text:  Jis uždengia didžiąją dalį šviesos ir mes tematome blyškų vainiką aplink.
 # trans: Bloqueou a maior parte da sua luz por isso podemos ver a coroa ténue à sua volta.
-# forward_log_prob: -53.60136516942923
-# backward_log_prob: -37.68174101158207
+# forward_log_prob: -53.599468867807786
+# backward_log_prob: -37.68583530404026
 1	Jis	Jis	_	1	فيحجب	_	1	?	_	1	?	_	1	?	_	1	Er	_	1	It	_	_	_	?	?	?	1	Elle	_	9	possiamo	_	1	Ze	_	?	?	?
 2	uždengia	uždengia	_	1	فيحجب	_	1	?	_	1	?	_	1	?	_	2	deckt	_	2	blocks	_	_	_	1	Bloquea	_	2	occulte	_	2	la	_	2	blokkeert	_	1	Bloqueou	_
 3	didžiąją	didžiąją	_	2	أغلب	_	1	?	_	1	?	_	1	?	_	3	den	_	3	out	_	_	_	2	la	_	3	presque	_	1	bloccando	_	2	blokkeert	_	3	maior	_
@@ -559,8 +559,8 @@
 # sent_id = 132723
 # text:  Būtų tas pats, jei aš nykščiu uždengčiau tą lempos šviesą, kuri sklinda man į akis. Matau jus galinėje eilėje.
 # trans: Seria o mesmo se erguesse o meu polegar e bloqueasse o ponto luminoso à frente dos meus olhos, poderia vê-los na última fila.
-# forward_log_prob: -77.73157043809188
-# backward_log_prob: -71.13680527771803
+# forward_log_prob: -77.82487274584122
+# backward_log_prob: -71.1287252165288
 1	Būtų	Būtų	_	1	سيحدث	_	1	?	_	1	?	_	1	?	_	1	Es	_	1	It	_	_	_	1	Sería	_	1	Il	_	4	sollevo	_	3	mijn	_	1	Seria	_
 2	tas	tas	_	1	سيحدث	_	1	?	_	1	?	_	1	?	_	2	ist	_	?	?	?	?	?	3	mismo	_	2	se	_	4	sollevo	_	3	mijn	_	2	o	_
 3	pats,	pats,	_	2	نفس	_	1	?	_	1	?	_	1	?	_	3	wie	COMPARISON|Synchronous.TEMPORAL	5	same	_	_	_	6	pongo	_	3	passerait	_	3	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	mijn	_	3	mesmo	_
@@ -584,8 +584,8 @@
 # sent_id = 132724
 # text:  Kas čia vyksta?
 # trans: Bem, o que está a acontecer?
-# forward_log_prob: -13.933513881005261
-# backward_log_prob: -10.420798539594665
+# forward_log_prob: -13.933874234999813
+# backward_log_prob: -10.42095335063743
 1	Kas	Kas	Hypophora	1	حسنًا،	_	1	?	_	1	?	_	1	?	_	1	Also,	_	1	Well,	_	_	_	1	Bueno,	_	1	Eh	_	1	Cosa	_	1	Hoe	_	1	Bem,	_
 2	čia	čia	_	2	مالذي	_	1	?	_	1	?	_	1	?	_	2	was	_	2	what's	_	_	_	2	¿qué	_	3	que	_	2	sta	_	2	komt	_	3	que	_
 3	vyksta?	vyksta?	_	4	هنا؟	_	1	?	_	1	?	_	1	?	_	3	passiert	_	4	on?	_	_	_	4	pasando?	_	5	passe-t-il	_	3	succedendo?	_	2	komt	_	5	a	_
@@ -593,8 +593,8 @@
 # sent_id = 132725
 # text:  Mėnulis meta šešėlį ant Žemės.
 # trans: Bem, a Lua projecta uma sombra na Terra.
-# forward_log_prob: -19.278931990218926
-# backward_log_prob: -15.215949554417307
+# forward_log_prob: -19.278622298389994
+# backward_log_prob: -15.210900002572272
 1	Mėnulis	Mėnulis	_	2	القمر	_	1	?	_	1	?	_	1	?	_	2	der	_	2	the	_	_	_	2	la	_	3	la	_	1	La	_	2	de	_	2	a	_
 2	meta	meta	_	1	حسنا،	_	1	?	_	1	?	_	1	?	_	1	Nun,	_	1	Well	_	Conjunction.EXPANSION	_	1	Pues	_	1	Eh	_	3	proietta	_	1	Nou,	_	1	Bem,	_
 3	šešėlį	šešėlį	_	4	ظلًا	_	1	?	_	1	?	_	1	?	_	6	Schatten	_	6	a	_	_	_	6	una	_	6	une	_	4	un'ombra	_	5	een	_	5	uma	_
@@ -604,15 +604,15 @@
 # sent_id = 132726
 # text:  Pastatome teleskopą ar kamerą tame šešėlyje ir atsisukame į saulę. Didžioji dalis šviesos pašalinta ir mes matome blyškią, trapią struktūrą vainike.
 # trans: Colocamos um telescópio ou uma câmara nessa sombra, e olhamos para o Sol, e a maior parte da luz foi removida e podemos ver essa ténue e fina estrutura na coroa.
-# forward_log_prob: -109.67156200784733
-# backward_log_prob: -83.05693284336212
+# forward_log_prob: -109.66984515056896
+# backward_log_prob: -83.04564043104834
 1	Pastatome	Pastatome	_	1	فلو	_	1	?	_	1	?	_	1	?	_	2	platzieren	_	1	We	_	_	_	1	Ponemos	_	3	placé	_	1	Mettiamo	_	2	zetten	_	7	nessa	_
 2	teleskopą	teleskopą	_	3	تيليسكوبا	_	1	?	_	1	?	_	1	?	_	1	Wir	_	4	telescope	_	_	_	2	un	_	4	un	_	2	un	_	1	We	_	2	um	_
 3	ar	ar	_	3	تيليسكوبا	_	1	?	_	1	?	_	1	?	_	7	Kamera	_	7	camera	_	_	_	6	cámara	_	3	placé	_	6	macchina	_	5	of	disjunctive.Alternative.EXPANSION	6	câmara	_
 4	kamerą	kamerą	_	4	أو	disjunctive.Alternative.EXPANSION	1	?	_	1	?	_	1	?	_	7	Kamera	_	7	camera	_	_	_	6	cámara	_	2	avons	_	4	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	4	telescoop	_	6	câmara	_
 5	tame	tame	_	8	الظل،	_	1	?	_	1	?	_	1	?	_	7	Kamera	_	7	camera	_	_	_	6	cámara	_	8	appareil	_	7	fotografica	_	7	camera	_	6	câmara	_
 6	šešėlyje	šešėlyje	_	9	ونظرنا	_	1	?	_	1	?	_	1	?	_	9	diesen	_	7	camera	_	_	_	9	sombra,	_	8	appareil	_	9	quell'ombra,	_	7	camera	_	10	olhamos	_
-7	ir	ir	_	13	أن	_	1	?	_	1	?	_	1	?	_	?	?	?	11	we	_	_	_	?	?	?	13	nous	_	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+7	ir	ir	_	13	أن	_	1	?	_	1	?	_	1	?	_	?	?	?	11	we	_	_	_	7	en	_	13	nous	_	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 8	atsisukame	atsisukame	_	12	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	11	blicken	_	12	look	_	_	_	14	mayor	_	14	regardons	_	11	guardiamo	_	12	kijken	_	10	olhamos	_
 9	į	į	_	10	إلى	_	1	?	_	1	?	_	1	?	_	17	Großteil	_	11	we	_	_	_	13	la	_	15	le	_	13	il	_	11	en	Conjunction.EXPANSION	12	o	_
 10	saulę.	saulę.	_	11	الشمس	_	1	?	_	1	?	_	1	?	_	14	die	_	16	sun,	_	_	_	12	Sol,	_	16	soleil,	_	14	sole,	_	15	zon.	_	13	Sol,	_
@@ -631,8 +631,8 @@
 # sent_id = 132727
 # text:  Spitzer siūlė tą patį padaryti erdvėje.
 # trans: A sugestão de Spitzer foi que o fizéssemos no espaço.
-# forward_log_prob: -28.37426900531729
-# backward_log_prob: -20.791783077308573
+# forward_log_prob: -28.326648688145188
+# backward_log_prob: -20.782686837810928
 1	Spitzer	Spitzer	_	2	شاشة	_	1	?	_	1	?	_	1	?	_	1	Spitzer	_	1	Spitzer's	_	_	_	1	La	_	1	Spitzer	_	4	Spitzer	_	1	Spitzer	_	1	A	_
 2	siūlė	siūlė	_	1	نبني	_	1	?	_	1	?	_	1	?	_	2	schlug	_	2	suggestion	_	_	_	2	sugerencia	_	2	a	_	2	suggerimento	_	2	stelde	_	2	sugestão	_
 3	tą	tą	_	3	عملاقة،	_	1	?	_	1	?	_	1	?	_	2	schlug	_	5	do	_	_	_	6	que	_	5	faire	_	1	Il	_	2	stelde	_	2	sugestão	_
@@ -643,8 +643,8 @@
 # sent_id = 132728
 # text:  Pastatome didelę uždangą, nuskraidiname ją į kosmosą, paliekame ją priešais žvaidgždę, užblokuojame didžiąją dalį šviesos, į sukurtą šešėlį nuskraidiname kosminį teleskopą, ir štai – galime matyti planetas.
 # trans: Construíamos uma tela grande, colocávamo-la no espaço, em frente a uma estrela, bloqueávamos a maior parte da luz, colocávamos um telescópio espacial nessa sombra criada, e zás, conseguíamos ver os planetas.
-# forward_log_prob: -111.06596928651582
-# backward_log_prob: -103.38648633159193
+# forward_log_prob: -111.06161922453576
+# backward_log_prob: -103.3674929835182
 1	Pastatome	Pastatome	_	1	ونجعلها	_	1	?	_	1	?	_	1	?	_	10	platzieren	_	1	We	_	_	_	10	ponemos	_	?	?	?	10	mettiamo	_	?	?	?	1	Construíamos	_
 2	didelę	didelę	_	1	ونجعلها	_	1	?	_	1	?	_	1	?	_	?	?	?	4	big	_	_	_	1	Construimos	_	2	construisons	_	1	Costruiamo	_	4	groot	_	1	Construíamos	_
 3	uždangą,	uždangą,	_	4	النجم.	_	1	?	_	1	?	_	1	?	_	3	eine	_	3	a	_	_	_	2	una	_	3	un	_	2	un	_	3	een	_	2	uma	_
@@ -667,7 +667,7 @@
 20	kosminį	kosminį	_	16	ياللروعة،	_	1	?	_	1	?	_	1	?	_	26	erzeugten	_	32	in	_	_	_	?	?	?	28	ainsi	result.Cause.CONTIGENCY	24	nell'ombra	_	?	?	?	23	nessa	_
 21	teleskopą,	teleskopą,	_	?	?	?	1	?	_	1	?	_	1	?	_	22	Weltraumteleskop	_	30	space	_	_	_	24	un	_	23	un	_	22	telescopio	_	30	ruimtetelescoop	_	21	telescópio	_
 22	ir	ir	Contingency.Cause.Result	20	ذلك	_	1	?	_	1	?	_	1	?	_	28	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	37	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	33	y	_	30	et	Conjunction.EXPANSION	27	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	34	en	Conjunction.EXPANSION	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
-23	štai	štai	Contingency.Cause.Result	?	?	?	1	?	_	1	?	_	1	?	_	32	sehen	_	24	of	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+23	štai	štai	Contingency.Cause.Result	?	?	?	1	?	_	1	?	_	1	?	_	32	sehen	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 24	–	–	_	21	تقريبًا	_	1	?	_	1	?	_	1	?	_	29	"Zack!"	_	36	created,	_	_	_	34	listo,	_	29	créée,	_	31	vediamo	_	35	hopla,	_	27	zás,	_
 25	galime	galime	_	21	تقريبًا	_	1	?	_	1	?	_	1	?	_	30	--	_	36	created,	_	_	_	35	conseguimos	_	29	créée,	_	31	vediamo	_	35	hopla,	_	28	conseguíamos	_
 26	matyti	matyti	_	21	تقريبًا	_	1	?	_	1	?	_	1	?	_	24	den	_	39	we	_	_	_	36	ver	_	32	nous	_	31	vediamo	_	37	zien	_	29	ver	_
@@ -676,8 +676,8 @@
 # sent_id = 132729
 # text:  Taip viskas atrodytų.
 # trans: Seria algo parecido com isto.
-# forward_log_prob: -13.048883128109098
-# backward_log_prob: -11.144848995978556
+# forward_log_prob: -13.049055058428914
+# backward_log_prob: -11.145067601142037
 1	Taip	Taip	_	1	تلك	_	1	?	_	1	?	_	1	?	_	1	Aussehen	_	1	Well	_	Conjunction.EXPANSION	_	1	Bueno,	_	1	Eh	_	1	Ecco,	_	1	Zo	Instantiation.EXPANSION	1	Seria	_
 2	viskas	viskas	_	3	الشاشة	_	1	?	_	1	?	_	1	?	_	2	würde	_	4	look	_	_	_	2	sería	_	4	aurait	_	4	qualcosa	_	4	er	_	3	parecido	_
 3	atrodytų.	atrodytų.	_	4	العملاقة،	_	1	?	_	1	?	_	1	?	_	4	ungefähr	_	4	look	_	_	_	2	sería	_	4	aurait	_	6	simile	_	5	ongeveer	_	3	parecido	_
@@ -685,8 +685,8 @@
 # sent_id = 132730
 # text:  Didysis ekranas yra, o planetų ne, nes, pasirodo, ne viskas gerai veikia, nes šviesos bangos užlinksta aplink ekraną lygiai taip kaip ir teleskope.
 # trans: Aqui está a tela grande, e não há planetas, porque, infelizmente, não funciona lá muito bem por causa das ondas luminosas e as ondas sofrem difracção à volta dessa tela tal como no telescópio.
-# forward_log_prob: -128.56920527969072
-# backward_log_prob: -88.91045468876115
+# forward_log_prob: -128.5750626477798
+# backward_log_prob: -88.8908556992025
 1	Didysis	Didysis	_	4	أية	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Habría	_	1	Voilà	_	5	schermo,	_	5	scherm,	_	4	tela	_
 2	ekranas	ekranas	_	4	أية	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	4	big	_	_	_	1	Habría	_	2	l'écran	_	4	grande	_	4	grote	_	4	tela	_
 3	yra,	yra,	_	3	نرى	_	1	?	_	1	?	_	1	?	_	9	gibt	_	3	that	_	_	_	7	planeta,	_	?	?	?	2	c'è	_	3	dat	_	2	está	_
@@ -714,8 +714,8 @@
 # sent_id = 132731
 # text:  Tarytum vandens tėkmė aplink akmenį upelyje, o visa ta šviesa išdarko šešėlį.
 # trans: É como a água que contorna uma pedra numa corrente, e toda essa luz destrói a sombra.
-# forward_log_prob: -51.39960692665344
-# backward_log_prob: -40.224252054733306
+# forward_log_prob: -51.39577711984606
+# backward_log_prob: -40.22048308286856
 1	Tarytum	Tarytum	Comparison.Similarity	1	وكل	_	1	?	_	1	?	_	1	?	_	3	wie	COMPARISON|Synchronous.TEMPORAL	1	It's	_	_	_	1	Es	_	2	comme	COMPARISON|specification.Restatement.EXPANSION	1	È	_	1	Net	_	6	contorna	_
 2	vandens	vandens	_	1	وكل	_	1	?	_	1	?	_	1	?	_	1	Es	_	3	water	_	_	_	4	agua	_	1	C'est	_	3	l'acqua	_	3	water	_	4	água	_
 3	tėkmė	tėkmė	_	1	وكل	_	1	?	_	1	?	_	1	?	_	6	einen	_	4	bending	_	_	_	5	flexionándose	_	4	contournant	_	3	l'acqua	_	4	in	_	6	contorna	_
@@ -732,8 +732,8 @@
 # sent_id = 132732
 # text:  Šešėlis didžiulis. Ir planetų mes nematome.
 # trans: É uma sombra terrível. E não conseguimos ver planetas.
-# forward_log_prob: -24.832455505178956
-# backward_log_prob: -20.497901353626453
+# forward_log_prob: -24.830386431530954
+# backward_log_prob: -20.491495897393893
 1	Šešėlis	Šešėlis	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	È	_	1	Het	_	1	É	_
 2	didžiulis.	didžiulis.	_	2	ظل	_	1	?	?	1	?	?	1	?	?	3	ein	_	3	terrible	_	_	_	3	sombra	_	4	mauvaise	_	3	terribile.	_	3	geen	_	3	sombra	_
 3	Ir	Ir	Expansion.Conjunction	2	ظل	_	1	?	?	1	?	?	1	?	?	6	Wir	_	5	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	Y	_	6	Nous	_	4	Così	result.Cause.CONTIGENCY	6	We	_	5	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -744,8 +744,8 @@
 # sent_id = 132733
 # text:  Bet Spitzer juk žinojo atsakymą.
 # trans: Mas Spitzer sabia a solução.
-# forward_log_prob: -9.28483631131157
-# backward_log_prob: -9.989635853267723
+# forward_log_prob: -9.284734761069497
+# backward_log_prob: -9.98815114320044
 1	Bet	Bet	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	1	?	?	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Tuttavia	Concession.COMPARISON	2	kende	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	Spitzer	Spitzer	_	2	سبيتزر	_	1	?	?	1	?	?	1	?	?	2	Spitzer	_	2	Spitzer	_	_	_	2	Spitzer	_	2	Spitzer	_	2	Spitzer	_	1	Spitzer	_	2	Spitzer	_
 3	juk	juk	_	2	سبيتزر	_	1	?	?	1	?	?	1	?	?	3	kannte	_	3	actually	precedence.Asynchronous.TEMPORAL	result.Cause.CONTIGENCY	_	3	realmente	_	3	avait	_	3	conosceva	_	2	kende	_	3	sabia	_
@@ -755,8 +755,8 @@
 # sent_id = 132734
 # text:  Jei galėtume prislopinti, sušvelninti kraštus, galėtume valdyti difrakciją, vadinasi, ir matyti planetą. Per pastaruosius dešimt metų pavyko rasti optimalų sprendimą.
 # trans: Se conseguirmos suavizar as arestas de modo a controlar a difracção, então poderemos ver um planeta, e nos últimos 10 anos conseguimos soluções ideais para o conseguir.
-# forward_log_prob: -94.05372963804244
-# backward_log_prob: -76.39600985323419
+# forward_log_prob: -94.06083242707376
+# backward_log_prob: -76.41364510535338
 1	Jei	Jei	Contingency.Condition.Arg2-as-cond	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	6	randen	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	galėtume	galėtume	_	3	تعديل	_	1	?	?	1	?	?	1	?	?	5	aufbrechen,	_	4	feather	_	_	_	3	incisiones	_	3	pouvions	_	3	frastagliare	_	1	Door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	suavizar	_
 3	prislopinti,	prislopinti,	_	4	وتنعيم	_	1	?	?	1	?	?	1	?	?	5	aufbrechen,	_	6	edges,	_	_	_	5	las	_	4	adoucir	_	5	margini,	_	4	verzachten	_	3	suavizar	_
@@ -781,8 +781,8 @@
 # sent_id = 132735
 # text:  Jis maždaug toks.
 # trans: É algo parecido com isto.
-# forward_log_prob: -13.35794802003863
-# backward_log_prob: -8.579562813863834
+# forward_log_prob: -13.358058229257502
+# backward_log_prob: -8.578082311535162
 1	Jis	Jis	_	1	سيبدو	_	1	?	?	1	?	?	1	?	?	1	Eine	_	1	It	_	_	_	1	Parece	_	1	Ça	_	1	Assomiglia	_	1	Het	_	1	É	_
 2	maždaug	maždaug	_	2	شيئًا	_	1	?	?	1	?	?	1	?	?	3	sieht	_	2	looks	_	_	_	1	Parece	_	2	ressemble	_	1	Assomiglia	_	3	er	_	2	algo	_
 3	toks.	toks.	_	3	كهذا.	_	1	?	?	1	?	?	1	?	?	6	aus:	_	2	looks	_	_	_	3	así.	_	7	ça.	_	6	tipo.	_	5	beetje	_	4	com	_
@@ -790,8 +790,8 @@
 # sent_id = 132736
 # text:  Jį vadiname gėlės žiedlapių šydu.
 # trans: Chamamos-lhe a nossa sombra estelar em pétalas de flor
-# forward_log_prob: -24.721414525984628
-# backward_log_prob: -18.156569851404686
+# forward_log_prob: -24.720910989664638
+# backward_log_prob: -18.156466257289814
 1	Jį	Jį	_	1	وقد	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	3	le	_	1	Nous	_	2	battezzato	_	1	We	_	1	Chamamos-lhe	_
 2	vadiname	vadiname	_	2	أسميناه	_	1	?	?	1	?	?	1	?	?	2	nennen	_	2	call	_	_	_	1	A	_	2	l'appelons	_	1	L'abbiamo	_	2	noemen	_	1	Chamamos-lhe	_
 3	gėlės	gėlės	_	4	الوردة	_	1	?	?	1	?	?	1	?	?	4	blütenförmige	_	4	our	_	_	_	4	llamamos	_	6	forme	_	5	fiore	_	2	noemen	_	5	estelar	_
@@ -801,19 +801,19 @@
 # sent_id = 132737
 # text:  Jei sukursime tinkamos formos žiedlapius, jei galėsime valdyti šešėlį, galėsime valdyti difrakciją ir išgauti puikų šešėlį.
 # trans: Se fizermos as arestas da forma correcta, se controlarmos a sua forma, podemos controlar a difracção, e conseguimos uma grande sombra.
-# forward_log_prob: -65.71713333166414
-# backward_log_prob: -52.458609229484104
+# forward_log_prob: -65.71465066096812
+# backward_log_prob: -52.444745670106016
 1	Jei	Jei	Contingency.Condition.Arg2-as-cond	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	sukursime	sukursime	_	3	جعل	_	1	?	?	1	?	?	1	?	?	9	hinbekommen,	_	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	8	precies	_	2	fizermos	_
-3	tinkamos	tinkamos	_	4	حواف	_	1	?	?	1	?	?	1	?	?	9	hinbekommen,	_	3	make	_	_	_	2	hacemos	_	3	construisons	_	2	creiamo	_	9	goed	_	2	fizermos	_
-4	formos	formos	_	4	حواف	_	1	?	?	1	?	?	1	?	?	9	hinbekommen,	_	?	?	?	?	?	6	los	_	6	bord	_	5	bordi	_	9	goed	_	5	da	_
+3	tinkamos	tinkamos	_	4	حواف	_	1	?	?	1	?	?	1	?	?	4	Kanten	_	3	make	_	_	_	2	hacemos	_	3	construisons	_	2	creiamo	_	9	goed	_	2	fizermos	_
+4	formos	formos	_	4	حواف	_	1	?	?	1	?	?	1	?	?	6	Blütenblätter	_	?	?	?	?	?	6	los	_	6	bord	_	5	bordi	_	9	goed	_	5	da	_
 5	žiedlapius,	žiedlapius,	_	7	مناسبة	_	1	?	?	1	?	?	1	?	?	8	richtig	_	7	those	_	_	_	7	pétalos	_	6	bord	_	5	bordi	_	9	goed	_	7	correcta,	_
 6	jei	jei	Contingency.Condition.Arg2-as-cond	9	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	?	?	?	11	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	si	TEMPORAL	9	si	Concession.COMPARISON|Condition.CONTIGENCY	9	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	11	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	8	se	CONTIGENCY|Condition.CONTIGENCY
 7	galėsime	galėsime	_	10	تحكمنا	_	1	?	?	1	?	?	1	?	?	10	regulieren	_	9	exactly	_	_	_	8	exactamente	_	11	contrôlons	_	10	controlliamo	_	10	maken,	_	9	controlarmos	_
-8	valdyti	valdyti	_	13	سنستطيع	_	1	?	?	1	?	?	1	?	?	7	genau	_	12	we	_	_	_	?	?	?	7	des	_	11	la	_	12	we	_	?	?	?
+8	valdyti	valdyti	_	13	سنستطيع	_	1	?	?	1	?	?	1	?	?	12	ihre	_	12	we	_	_	_	?	?	?	7	des	_	11	la	_	12	we	_	?	?	?
 9	šešėlį,	šešėlį,	_	8	تمامًا،	_	1	?	?	1	?	?	1	?	?	14	so,	_	15	shape,	_	_	_	13	forma,	_	?	?	?	13	forma,	_	?	?	?	12	forma,	_
-10	galėsime	galėsime	_	14	التحكم	_	1	?	?	1	?	?	1	?	?	13	Form	_	14	their	_	_	_	13	forma,	_	13	forme,	_	13	forma,	_	14	vorm	_	12	forma,	_
-11	valdyti	valdyti	_	16	حيود	_	1	?	?	1	?	?	1	?	?	16	wir	_	16	we	_	_	_	15	controlar	_	14	nous	_	15	controllare	_	15	controleren,	_	14	controlar	_
+10	galėsime	galėsime	_	14	التحكم	_	1	?	?	1	?	?	1	?	?	15	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	14	their	_	_	_	13	forma,	_	13	forme,	_	13	forma,	_	14	vorm	_	12	forma,	_
+11	valdyti	valdyti	_	16	حيود	_	1	?	?	1	?	?	1	?	?	17	die	_	16	we	_	_	_	15	controlar	_	14	nous	_	15	controllare	_	15	controleren,	_	14	controlar	_
 12	difrakciją	difrakciją	_	16	حيود	_	1	?	?	1	?	?	1	?	?	19	reduzieren.	_	19	diffraction,	_	_	_	17	difracción,	_	18	diffraction,	_	17	diffrazione,	_	18	diffractie	_	14	controlar	_
 13	ir	ir	_	?	?	?	1	?	?	1	?	?	1	?	?	21	ist	_	20	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	18	y	_	19	et	Conjunction.EXPANSION	18	così	result.Cause.CONTIGENCY	20	en	Conjunction.EXPANSION	17	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 14	išgauti	išgauti	_	18	وسيصبح	_	1	?	?	1	?	?	1	?	?	20	Nun	_	21	now	_	Synchronous.TEMPORAL	_	19	ahora	_	20	maintenant	Exception.EXPANSION	20	avere	_	19	controleren,	_	20	grande	_
@@ -823,8 +823,8 @@
 # sent_id = 132738
 # text:  Jis dešimt milijardų kartų blankesnis nei anksčiau. Ir matome, kaip šviečia planetos.
 # trans: É cerca de 10 mil milhões de vezes mais ténue do que era, e conseguimos ver os planetas a aparecer.
-# forward_log_prob: -64.65491576142027
-# backward_log_prob: -41.845069312224915
+# forward_log_prob: -64.65982321966646
+# backward_log_prob: -41.83954681944508
 1	Jis	Jis	_	1	أعتم	_	1	?	?	1	?	?	1	?	?	1	Er	_	8	it	_	_	_	1	Cerca	_	1	environ	_	8	tenue	_	1	die	_	1	É	_
 2	dešimt	dešimt	_	5	مرة	_	1	?	?	1	?	?	1	?	?	4	10-Mrd.-mal	_	3	10	_	_	_	3	10	_	?	?	?	3	dieci	_	2	10	_	3	de	_
 3	milijardų	milijardų	_	4	ملايير	_	1	?	?	1	?	?	1	?	?	4	10-Mrd.-mal	_	4	billion	_	_	_	4	mil	_	3	milliards	_	4	miliardi	_	3	miljard	_	5	mil	_
@@ -833,7 +833,7 @@
 6	nei	nei	_	7	السابق،	_	1	?	?	1	?	?	1	?	?	7	zuvor,	_	10	before,	_	_	_	11	antes,	_	8	qu'avant,	_	10	prima,	_	7	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	10	ténue	_
 7	anksčiau.	anksčiau.	_	7	السابق،	_	1	?	?	1	?	?	1	?	?	7	zuvor,	_	10	before,	_	_	_	11	antes,	_	8	qu'avant,	_	10	prima,	_	8	eerst.	_	11	do	_
 8	Ir	Ir	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	1	?	?	8	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	10	que	_	9	et	Conjunction.EXPANSION	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	we	_	12	que	_
-9	matome,	matome,	_	12	تظهر	_	1	?	?	1	?	?	1	?	?	10	erkennen	_	17	beam	_	_	_	13	podemos	_	12	voir	_	13	vedere	_	10	kunnen	_	13	era,	_
+9	matome,	matome,	_	12	تظهر	_	1	?	?	1	?	?	1	?	?	10	erkennen	_	17	beam	_	_	_	13	podemos	_	12	voir	_	13	vedere	_	14	duidelijk	_	13	era,	_
 10	kaip	kaip	_	12	تظهر	_	1	?	?	1	?	?	1	?	?	11	die	_	17	beam	_	_	_	15	el	_	13	les	_	14	i	_	14	duidelijk	_	19	a	_
 11	šviečia	šviečia	_	10	رؤية	_	1	?	?	1	?	?	1	?	?	12	angestrahlten	_	17	beam	_	_	_	16	grupo	_	15	rayonner	_	16	risplendere	_	14	duidelijk	_	20	aparecer.	_
 12	planetos.	planetos.	_	11	الكواكب	_	1	?	?	1	?	?	1	?	?	13	Planeten	_	16	planets	_	_	_	17	de	_	14	planètes	_	15	pianeti	_	13	planeten	_	17	os	_
@@ -841,8 +841,8 @@
 # sent_id = 132739
 # text:  Na, jis turi būti didesnis už nykštį.
 # trans: Tem que ser, claro, maior do que o meu polegar.
-# forward_log_prob: -27.923795862242088
-# backward_log_prob: -22.70864493784889
+# forward_log_prob: -27.923833231751406
+# backward_log_prob: -22.707624723930063
 1	Na,	Na,	_	1	وذلك	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY|TEMPORAL|result.Cause.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Sie	_	3	course,	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	1	Bien	_	1	Ovviamente	_	2	moet	_	3	ser,	_
 2	jis	jis	_	2	بالطبع،	_	1	?	?	1	?	?	1	?	?	2	muss	_	1	That,	_	_	_	3	tiene	_	3	il	_	2	questo	_	1	Het	_	3	ser,	_
 3	turi	turi	_	3	يجب	_	1	?	?	1	?	?	1	?	?	2	muss	_	4	has	_	_	_	3	tiene	_	4	faut	_	3	deve	_	2	moet	_	1	Tem	_
@@ -854,8 +854,8 @@
 # sent_id = 132740
 # text:  Šydas maždaug pusės futbolo lauko dydžio. Ir jis turi nuskristi 50 000 kilometrų tolyn nuo teleskopo, jis turi atsidurti tikslioje vietoje ir tada pamatysime tas planetas.
 # trans: Esta sombra estelar tem cerca de metade do tamanho de um campo de futebol e tem que se distanciar 50 000 quilómetros do telescópio que tem que ser mantido na sua sombra, e então poderemos ver os planetas.
-# forward_log_prob: -135.16849367192063
-# backward_log_prob: -104.66891961118921
+# forward_log_prob: -135.16824557957244
+# backward_log_prob: -104.66454964260474
 1	Šydas	Šydas	_	6	مساحة	_	1	?	?	1	?	?	1	?	?	1	Starshade	_	?	?	?	?	?	?	?	?	8	d'un	_	1	"L'ombreggia	_	?	?	?	?	?	?
 2	maždaug	maždaug	_	6	مساحة	_	1	?	?	1	?	?	1	?	?	4	so	_	1	That	_	_	_	2	sombrilla	_	9	demi-terrain	_	3	ha	_	7	voetbalveld	_	4	tem	_
 3	pusės	pusės	_	6	مساحة	_	1	?	?	1	?	?	1	?	?	3	halb	_	10	football	_	_	_	1	Esta	_	9	demi-terrain	_	6	dimensione	_	7	voetbalveld	_	1	Esta	_
@@ -886,8 +886,8 @@
 # sent_id = 132741
 # text:  Tai atrodo sunkiai įveikiama, bet puikūs inžinieriai, mano kolegos laboratorijoje, sukūrė nuostabų planą, kaip tai padaryti. Jis maždaug toks.
 # trans: Isto parece formidável, mas engenheiros brilhantes, colegas meus no LPJ, conseguiram um "design" fabuloso para o conseguir e é parecido com isto.
-# forward_log_prob: -73.08313033335608
-# backward_log_prob: -63.00597019481383
+# forward_log_prob: -73.08607364960804
+# backward_log_prob: -63.002522007160884
 1	Tai	Tai	_	2	ذلك	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	1	Suena	_	1	Ça	_	1	Questo	_	1	Dit	_	1	Isto	_
 2	atrodo	atrodo	_	1	يبدو	_	1	?	?	1	?	?	1	?	?	2	klingt	_	2	sounds	_	_	_	2	formidable,	_	2	a	_	2	sembra	_	2	klinkt	_	2	parece	_
 3	sunkiai	sunkiai	_	3	صعبًا	_	1	?	?	1	?	?	1	?	?	3	schwierig,	_	5	brilliant	_	_	_	4	brillantes	_	4	formidable,	_	5	geniali	_	3	formidabel,	_	3	formidável,	_
@@ -911,8 +911,8 @@
 # sent_id = 132742
 # text:  Pradžioje šydas apvyniojamas apie ašį.
 # trans: De início está enrolado num eixo.
-# forward_log_prob: -15.277491644468958
-# backward_log_prob: -13.074889310384078
+# forward_log_prob: -15.277383941419984
+# backward_log_prob: -13.074961516507328
 1	Pradžioje	Pradžioje	_	1	في	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	It	_	_	_	1	Comienza	_	1	Il	_	1	Parte	_	1	Het	_	1	De	_
 2	šydas	šydas	_	2	البداية	_	1	?	?	1	?	?	1	?	?	1	Sie	_	2	starts	_	_	_	2	envuelto	_	2	commence	_	2	impacchettata	_	2	begint	_	2	início	_
 3	apvyniojamas	apvyniojamas	_	3	سيكون	_	1	?	?	1	?	?	1	?	?	3	anfangs	_	3	wrapped	_	_	_	2	envuelto	_	3	enroulé	_	2	impacchettata	_	3	rond	_	3	está	_
@@ -922,8 +922,8 @@
 # sent_id = 132743
 # text:  Jis atsiskiria nuo teleskopo.
 # trans: Separa-se do telescópio.
-# forward_log_prob: -6.72939608846139
-# backward_log_prob: -8.989235796568241
+# forward_log_prob: -6.729423963493426
+# backward_log_prob: -8.989240003303452
 1	Jis	Jis	_	2	ينفصل	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	It	_	_	_	2	separa	_	1	Il	_	1	Si	_	1	Het	_	1	Separa-se	_
 2	atsiskiria	atsiskiria	_	1	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	2	trennt	_	2	separates	_	_	_	1	Se	_	2	se	_	2	separa	_	2	scheidt	_	1	Separa-se	_
 3	nuo	nuo	_	3	عن	_	1	?	?	1	?	?	1	?	?	4	vom	_	3	from	_	_	_	3	del	_	3	détache	_	3	dal	_	3	van	_	2	do	_
@@ -932,8 +932,8 @@
 # sent_id = 132744
 # text:  Žiedlapiai skleidžiasi, atsiveria, teleskopas apsisuka.
 # trans: As pétalas desdobram-se, abrem-se, o telescópio vira-se.
-# forward_log_prob: -16.484690475803603
-# backward_log_prob: -13.123583328993089
+# forward_log_prob: -16.485344098785372
+# backward_log_prob: -13.123845433385311
 1	Žiedlapiai	Žiedlapiai	_	2	البتلات	_	1	?	?	1	?	?	1	?	?	1	Die	_	2	petals	_	_	_	2	pétalos	_	1	Les	_	1	I	_	3	ontrollen	_	1	As	_
 2	skleidžiasi,	skleidžiasi,	_	3	وتتفتح،	_	1	?	?	1	?	?	1	?	?	3	entfalten	_	3	unfurl,	_	_	_	1	Los	_	3	se	_	3	si	_	4	zich,	_	3	desdobram-se,	_
 3	atsiveria,	atsiveria,	_	4	بعدها	_	1	?	?	1	?	?	1	?	?	5	--	_	4	they	_	_	_	3	se	_	2	pétale	_	5	si	_	5	gaan	_	4	abrem-se,	_
@@ -943,8 +943,8 @@
 # sent_id = 132745
 # text:  Tada šydas atsiskiria ir skrenda 50 000 kilometrų tolyn nuo teleskopo.
 # trans: Então ele vira-se e afasta-se 50 000 quilómetros do telescópio.
-# forward_log_prob: -27.812021671869584
-# backward_log_prob: -29.71778803474811
+# forward_log_prob: -27.810992010845165
+# backward_log_prob: -29.710022853927466
 1	Tada	Tada	Temporal.Asynchronous.Precedence	2	سترونها	_	1	?	?	1	?	?	1	?	?	2	sehen,	_	1	Then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Entonces	TEMPORAL	1	Puis	precedence.Asynchronous.TEMPORAL	4	capovolgersi	_	4	omkeren	_	1	Então	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	šydas	šydas	_	2	سترونها	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	Then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Entonces	TEMPORAL	1	Puis	precedence.Asynchronous.TEMPORAL	4	capovolgersi	_	4	omkeren	_	2	ele	_
 3	atsiskiria	atsiskiria	_	1	ثم	Asynchronous.TEMPORAL	1	?	?	1	?	?	1	?	?	5	wendet	_	4	it	_	_	_	4	gira	_	6	se	_	4	capovolgersi	_	3	het	_	2	ele	_
@@ -960,15 +960,15 @@
 # sent_id = 132746
 # text:  Jis atsidurs priešais žvaigždę, štai taip, ir sukurs puikų šešėlį.
 # trans: Coloca-se à frente da estrela deste modo, criando uma sombra maravilhosa.
-# forward_log_prob: -34.16543974517053
-# backward_log_prob: -29.60618795683275
+# forward_log_prob: -34.1651094286767
+# backward_log_prob: -29.60596807615469
 1	Jis	Jis	_	1	سوف	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	It's	_	_	_	3	de	_	1	Il	_	1	Si	_	1	Het	_	2	à	_
 2	atsidurs	atsidurs	_	1	سوف	_	1	?	?	1	?	?	1	?	?	2	wird	_	2	going	_	_	_	1	Pasará	_	2	va	_	2	posiziona	_	2	plaatst	_	1	Coloca-se	_
 3	priešais	priešais	_	3	أمام	_	1	?	?	1	?	?	1	?	?	3	sich	_	5	in	_	_	_	2	delante	_	3	se	_	3	davanti	_	4	voor	succession.Asynchronous.TEMPORAL	3	frente	_
 4	žvaigždę,	žvaigždę,	_	4	النجم	_	1	?	?	1	?	?	1	?	?	5	den	_	9	star	_	_	_	1	Pasará	_	4	placer	_	2	posiziona	_	5	een	_	5	estrela	_
 5	štai	štai	_	5	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	6	Stern	_	7	of	_	_	_	4	la	_	?	?	?	4	alla	_	?	?	?	4	da	_
 6	taip,	taip,	_	6	ترون	_	1	?	?	1	?	?	1	?	?	10	so,	_	11	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	?	?	?	7	comme	COMPARISON|specification.Restatement.EXPANSION	8	questo	_	8	zorgt	_	?	?	?
-7	ir	ir	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	1	?	?	8	und,	_	?	?	?	?	?	7	y	_	?	?	?	?	?	?	7	en	Conjunction.EXPANSION	?	?	?
+7	ir	ir	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	1	?	?	8	und,	_	12	that,	_	_	_	7	y	_	?	?	?	?	?	?	7	en	Conjunction.EXPANSION	?	?	?
 8	sukurs	sukurs	_	8	مولدةً	_	1	?	?	1	?	?	1	?	?	9	einfach	_	13	creates	_	_	_	8	crea	_	10	créant	_	9	modo,	_	9	voor	succession.Asynchronous.TEMPORAL	11	maravilhosa.	_
 9	puikų	puikų	_	7	تمامًا،	_	1	?	?	1	?	?	1	?	?	11	einen	_	14	a	_	_	_	9	una	_	9	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	9	modo,	_	10	een	_	11	maravilhosa.	_
 10	šešėlį.	šešėlį.	_	9	ظل	_	1	?	?	1	?	?	1	?	?	13	Schatten	_	16	shadow.	_	_	_	11	sombra.	_	11	une	_	?	?	?	12	schaduw.	_	9	uma	_
@@ -976,8 +976,8 @@
 # sent_id = 132747
 # text:  Valio, aplink jį orbitoje planetos.
 # trans: Zás, vemos os planetas a orbitar à sua volta.
-# forward_log_prob: -26.959036256466042
-# backward_log_prob: -17.684157232194185
+# forward_log_prob: -26.958688490063313
+# backward_log_prob: -17.684334649369298
 1	Valio,	Valio,	Contingency.Cause.Result	1	يا	_	1	?	?	1	?	?	1	?	?	3	kriegen	_	1	Boom,	_	_	_	1	Listo,	_	1	Boum,	_	1	Boom,	_	1	Ziezo,	_	1	Zás,	_
 2	aplink	aplink	_	3	التقطنا	_	1	?	?	1	?	?	1	?	?	3	kriegen	_	5	orbiting	_	_	_	6	alrededor	_	1	Boum,	_	6	le	_	1	Ziezo,	_	5	a	_
 3	jį	jį	_	3	التقطنا	_	1	?	?	1	?	?	1	?	?	2	wir	_	5	orbiting	_	_	_	5	orbitando	_	8	tout	_	5	che	_	7	eromheen.	_	6	orbitar	_
@@ -988,15 +988,15 @@
 # text:  (Plojimai.) Ačiū.
 # trans: (Aplausos) Obrigado.
 # forward_log_prob: -1.800955234718944
-# backward_log_prob: -1.801076274771989
+# backward_log_prob: -1.801076398412152
 1	(Plojimai.)	(Plojimai.)	_	1	(تصفيق)	_	1	?	?	1	?	?	1	?	?	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
 2	Ačiū.	Ačiū.	_	2	شكرًا	_	1	?	?	1	?	?	1	?	?	2	Vielen	_	2	Thank	_	_	_	2	Gracias.	_	2	Merci.	_	2	Grazie.	_	2	Dank	_	2	Obrigado.	_
 
 # sent_id = 132749
 # text:  Tai ne mokslinė fantastika.
 # trans: Não é ficção científica.
-# forward_log_prob: -8.908298239297258
-# backward_log_prob: -8.313524101121015
+# forward_log_prob: -8.908658383217997
+# backward_log_prob: -8.313722540110419
 1	Tai	Tai	_	1	ذلك	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	That's	_	_	_	1	Esto	_	2	n'est	_	2	è	_	1	Dat	_	2	é	_
 2	ne	ne	_	2	ليس	_	1	?	?	1	?	?	1	?	?	2	ist	_	2	not	_	_	_	2	no	_	3	pas	_	1	Non	_	2	is	_	1	Não	_
 3	mokslinė	mokslinė	_	3	بخيال	_	1	?	?	1	?	?	1	?	?	3	kein	_	3	science	_	_	_	4	ciencia	_	1	Ce	_	2	è	_	3	geen	_	3	ficção	_
@@ -1005,8 +1005,8 @@
 # sent_id = 132750
 # text:  Šioje srityje dirbame jau penkerius šešerius metus.
 # trans: Estamos a trabalhar nisto há cinco ou seis anos.
-# forward_log_prob: -23.599313246376333
-# backward_log_prob: -21.381006726775677
+# forward_log_prob: -23.59887763222804
+# backward_log_prob: -21.381880041990318
 1	Šioje	Šioje	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We've	_	_	_	1	Hemos	_	1	Nous	_	1	Stiamo	_	1	We	_	4	nisto	_
 2	srityje	srityje	_	2	نعمل	_	1	?	?	1	?	?	1	?	?	2	arbeiten	_	2	been	_	_	_	2	estado	_	2	travaillons	_	3	a	_	3	hier	_	3	trabalhar	_
 3	dirbame	dirbame	_	4	ذلك	_	1	?	?	1	?	?	1	?	?	3	seit	succession.Asynchronous.TEMPORAL	5	this	_	result.Cause.CONTIGENCY	_	5	esto	_	4	ce	_	4	questo	_	4	al	Concession.COMPARISON	4	nisto	_
@@ -1018,12 +1018,12 @@
 # sent_id = 132751
 # text:  Pernai vasarą atlikome puikų bandymą Kaliformijoje, Nortrop Gramane.
 # trans: No último Verão, fizemos um teste mesmo fixe na Califórnia, na Northrop Grumman.
-# forward_log_prob: -38.607018751551884
-# backward_log_prob: -25.94096681170161
+# forward_log_prob: -38.60690812523311
+# backward_log_prob: -25.941434601969554
 1	Pernai	Pernai	_	1	في	_	1	?	?	1	?	?	1	?	?	1	Letzten	_	1	Last	_	_	_	1	El	_	1	L'été	_	1	L'estate	_	1	Afgelopen	_	1	No	_
 2	vasarą	vasarą	_	2	الصيف	_	1	?	?	1	?	?	1	?	?	2	Sommer	_	4	did	_	_	_	3	pasado,	_	1	L'été	_	2	scorsa	_	2	zomer	_	3	Verão,	_
 3	atlikome	atlikome	_	4	أجرينا	_	1	?	?	1	?	?	1	?	?	3	haben	_	3	we	_	_	_	6	prueba	_	4	avons	_	3	abbiamo	_	3	deden	_	5	um	_
-4	puikų	puikų	_	7	في	_	1	?	?	1	?	?	1	?	?	5	einen	_	7	cool	_	_	_	5	una	_	3	nous	_	7	fantastico	_	4	we	_	4	fizemos	_
+4	puikų	puikų	_	7	في	_	1	?	?	1	?	?	1	?	?	4	wir	_	7	cool	_	_	_	5	una	_	3	nous	_	7	fantastico	_	4	we	_	4	fizemos	_
 5	bandymą	bandymą	_	8	شركة	_	1	?	?	1	?	?	1	?	?	7	Test	_	8	test	_	_	_	6	prueba	_	7	test	_	6	test	_	8	test	_	6	teste	_
 6	Kaliformijoje,	Kaliformijoje,	_	9	نورثروب	_	1	?	?	1	?	?	1	?	?	8	durchgeführt,	_	9	out	_	_	_	7	muy	_	11	Californie	_	9	California	_	7	coole	_	7	mesmo	_
 7	Nortrop	Nortrop	_	10	غرومان	_	1	?	?	1	?	?	1	?	?	11	bei	_	12	at	_	_	_	11	en	_	12	à	specification.Restatement.EXPANSION	11	la	_	11	bij	_	11	na	_
@@ -1032,8 +1032,8 @@
 # sent_id = 132752
 # text:  Štai tie keturi žiedlapiai.
 # trans: São quatro pétalas.
-# forward_log_prob: -5.943629089765636
-# backward_log_prob: -7.311881123092776
+# forward_log_prob: -5.943679260924462
+# backward_log_prob: -7.3118769320547266
 1	Štai	Štai	_	1	تلك	_	1	?	?	1	?	?	1	?	?	2	sind	_	3	are	_	_	_	1	Estos	_	2	on	_	1	Questi	_	2	zijn	_	1	São	_
 2	tie	tie	_	2	أربع	_	1	?	?	1	?	?	1	?	?	1	Dies	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	son	_	1	Ici	_	2	sono	_	1	Dat	_	1	São	_
 3	keturi	keturi	_	3	بتلات.	_	1	?	?	1	?	?	1	?	?	3	vier	_	4	four	_	_	_	3	4	_	5	quatre	_	3	quattro	_	3	vier	_	2	quatro	_
@@ -1042,8 +1042,8 @@
 # sent_id = 132753
 # text:  Tai šydo poskalė.
 # trans: É uma sombra estelar em escala reduzida.
-# forward_log_prob: -19.20931691480962
-# backward_log_prob: -8.470268856043454
+# forward_log_prob: -19.209775144743062
+# backward_log_prob: -8.470691053103298
 1	Tai	Tai	_	1	حاجبات	_	1	?	?	1	?	?	1	?	?	?	?	?	1	This	_	result.Cause.CONTIGENCY	_	2	es	_	1	C'est	_	1	Questo	_	1	Dit	_	1	É	_
 2	šydo	šydo	_	2	شمس	_	1	?	?	1	?	?	1	?	?	?	?	?	2	is	_	_	_	1	Esta	_	2	un	_	3	un	_	4	verkleind	_	2	uma	_
 3	poskalė.	poskalė.	_	3	صغيرة.	_	1	?	?	1	?	?	1	?	?	?	?	?	5	star	_	_	_	6	a	_	5	petite	_	7	dell'ombreggia	_	8	sterschaduw.	_	7	reduzida.	_
@@ -1051,8 +1051,8 @@
 # sent_id = 132754
 # text:  Ji veik perpus mažesnė už ką tik matytą.
 # trans: Tem cerca de metade do tamanho da que viram antes.
-# forward_log_prob: -28.294034462617454
-# backward_log_prob: -27.558941182666324
+# forward_log_prob: -28.29362749609546
+# backward_log_prob: -27.557830183764217
 1	Ji	Ji	_	1	نصف	_	1	?	?	1	?	?	1	?	?	2	ist	_	1	It's	_	_	_	1	Es	_	2	la	_	1	È	_	1	Het	_	2	cerca	_
 2	veik	veik	_	1	نصف	_	1	?	?	1	?	?	1	?	?	1	Sie	_	2	about	_	_	_	2	aproximadamente	_	1	environ	_	3	all'incirca	_	2	is	_	1	Tem	_
 3	perpus	perpus	_	2	حجم	_	1	?	?	1	?	?	1	?	?	3	ca.	_	5	size	_	_	_	4	mitad	_	3	moitié	_	4	la	_	4	half	_	4	metade	_
@@ -1065,8 +1065,8 @@
 # sent_id = 132755
 # text:  Pamatysite, kaip skleidžiasi žiedlapiai.
 # trans: Podem ver as pétalas a desdobrar.
-# forward_log_prob: -16.304864267991356
-# backward_log_prob: -12.169285307150641
+# forward_log_prob: -16.30510594437929
+# backward_log_prob: -12.169199660874927
 1	Pamatysite,	Pamatysite,	_	1	تشاهدون	_	1	?	?	1	?	?	1	?	?	1	Hier	_	1	You'll	_	_	_	1	Verán	_	1	Vous	_	1	Adesso	_	1	De	_	1	Podem	_
 2	kaip	kaip	Expansion.Level-of-detail.Arg2-as-detail	2	الآن	_	1	?	?	1	?	?	1	?	?	2	entfalten	_	1	You'll	_	_	_	4	desplegarse.	_	3	les	_	3	i	_	2	blaadjes	_	1	Podem	_
 3	skleidžiasi	skleidžiasi	_	4	وهي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	3	sich	_	5	unfurl.	_	_	_	2	los	_	5	se	_	5	che	_	3	ontrollen	_	4	pétalas	_
@@ -1075,14 +1075,14 @@
 # sent_id = 132756
 # text:  Tuos keturis žiedlapius sukūrė keturi studentai atlikę pas mus vasaros praktiką.
 # trans: Essas quatro pétalas foram construídas por quatro estudantes universitários num curso de verão no LPJ.
-# forward_log_prob: -45.47285465611168
-# backward_log_prob: -35.948081988118055
+# forward_log_prob: -45.472463665060786
+# backward_log_prob: -35.94804889811988
 1	Tuos	Tuos	_	2	الأربع	_	1	?	?	1	?	?	1	?	?	1	Vier	_	2	four	_	_	_	1	Esos	_	1	Ces	_	5	stati	_	1	Ze	_	1	Essas	_
 2	keturis	keturis	_	2	الأربع	_	1	?	?	1	?	?	1	?	?	2	Studenten	_	2	four	_	_	_	4	fueron	_	2	quatre	_	5	stati	_	2	werden	_	4	foram	_
 3	žiedlapius	žiedlapius	_	4	صممها	_	1	?	?	1	?	?	1	?	?	2	Studenten	_	1	Those	_	_	_	3	pétalos	_	3	pétales	_	5	stati	_	3	gebouwd	_	4	foram	_
 4	sukūrė	sukūrė	_	4	صممها	_	1	?	?	1	?	?	1	?	?	3	haben	_	?	?	?	?	?	?	?	?	4	ont	_	6	realizzati	_	3	gebouwd	_	5	construídas	_
 5	keturi	keturi	_	3	بتلات	_	1	?	?	1	?	?	1	?	?	5	vier	_	7	four	_	_	_	7	4	_	8	quatre	_	8	quattro	_	5	vier	_	7	quatro	_
-6	studentai	studentai	_	5	أربعة	_	1	?	?	1	?	?	1	?	?	4	diese	_	6	by	_	_	_	8	estudiantes	_	5	été	_	9	studenti	_	4	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+6	studentai	studentai	_	5	أربعة	_	1	?	?	1	?	?	1	?	?	4	diese	_	6	by	_	_	_	8	estudiantes	_	5	été	_	9	studenti	_	6	studenten	_	6	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 7	atlikę	atlikę	_	8	تدريبهم	_	1	?	?	1	?	?	1	?	?	8	Sommerpraktikum	_	8	undergraduates	_	_	_	11	su	_	9	étudiants	_	12	facevano	_	7	tijdens	Synchronous.TEMPORAL	9	universitários	_
 8	pas	pas	_	9	الصيفي	_	1	?	?	1	?	?	1	?	?	8	Sommerpraktikum	_	10	a	_	_	_	12	pasantía	_	9	étudiants	_	14	stage	_	7	tijdens	Synchronous.TEMPORAL	11	curso	_
 9	mus	mus	_	9	الصيفي	_	1	?	?	1	?	?	1	?	?	8	Sommerpraktikum	_	11	summer	_	_	_	12	pasantía	_	11	stage	_	15	estivo	_	9	zomerstage	_	11	curso	_
@@ -1092,8 +1092,8 @@
 # sent_id = 132757
 # text:  Štai kaip jie skleidžiasi.
 # trans: Agora podem vê-la a desenrolar.
-# forward_log_prob: -15.020866987191267
-# backward_log_prob: -10.213306082477487
+# forward_log_prob: -15.020716574389088
+# backward_log_prob: -10.212115752161063
 1	Štai	Štai	Temporal.Asynchronous.Precedence	1	تشاهدونها	_	1	?	?	1	?	?	1	?	?	1	Sie	_	2	you're	_	_	_	2	la	_	3	le	_	2	lo	_	2	zie	_	3	vê-la	_
 2	kaip	kaip	_	2	الآن	_	1	?	?	1	?	?	1	?	?	3	wie	COMPARISON|Synchronous.TEMPORAL	2	you're	_	_	_	3	están	_	2	vous	_	1	Adesso	_	1	Nu	_	2	podem	_
 3	jie	jie	_	4	تنتشر.	_	1	?	?	1	?	?	1	?	?	4	sie	_	1	Now	_	Synchronous.TEMPORAL	_	3	están	_	1	Maintenant	Exception.EXPANSION	3	vedete	_	3	je	_	1	Agora	Conjunction.EXPANSION|EXPANSION
@@ -1102,8 +1102,8 @@
 # sent_id = 132758
 # text:  Žiedlapiai turi suktis ir laiku sustoti.
 # trans: As petalas têm que se colocar em posição.
-# forward_log_prob: -22.050046782752574
-# backward_log_prob: -16.300490908374265
+# forward_log_prob: -22.052257781106064
+# backward_log_prob: -16.31341162762124
 1	Žiedlapiai	Žiedlapiai	_	5	البتلات	_	1	?	?	1	?	?	1	?	?	1	Die	_	2	petals	_	_	_	2	pétalos	_	2	pétales	_	1	I	_	2	blaadjes	_	1	As	_
 2	turi	turi	_	1	يجب	_	1	?	?	1	?	?	1	?	?	2	Blätter	_	1	Those	_	_	_	3	tienen	_	1	Ces	_	3	devono	_	1	Die	_	3	têm	_
 3	suktis	suktis	_	3	تتناوب	_	1	?	?	1	?	?	1	?	?	3	müssen	_	1	Those	_	_	_	5	girar	_	3	doivent	_	3	devono	_	3	moeten	_	2	petalas	_
@@ -1114,8 +1114,8 @@
 # sent_id = 132759
 # text:  Jų pagrindas turi kaskart sustoti ten pat milimetro dešimtosios tikslumu.
 # trans: A base dessas pétalas tem que se colocar sempre na mesma posição com a precisão de um décimo de milímetro.
-# forward_log_prob: -63.75656868956739
-# backward_log_prob: -37.96617328377487
+# forward_log_prob: -63.75043952240686
+# backward_log_prob: -37.96742042309849
 1	Jų	Jų	_	1	قاعدة	_	1	?	?	1	?	?	1	?	?	2	Gerüst	_	2	base	_	_	_	2	base	_	2	base	_	2	base	_	2	basis	_	2	base	_
 2	pagrindas	pagrindas	_	1	قاعدة	_	1	?	?	1	?	?	1	?	?	2	Gerüst	_	2	base	_	_	_	2	base	_	2	base	_	2	base	_	2	basis	_	3	dessas	_
 3	turi	turi	_	2	تلك	_	1	?	?	1	?	?	1	?	?	5	muss	_	6	has	_	_	_	6	tiene	_	4	ces	_	1	La	_	6	moet	_	5	tem	_
@@ -1130,8 +1130,8 @@
 # sent_id = 132760
 # text:  Šį bandymą atlikome 16 kartų ir 16 kartų jis stojo į reikiamas vietas reikiamu tikslumu.
 # trans: Efectuámos este teste 16 vezes, e das 16 vezes voltou à posição exacta com a precisão de um décimo de milímetro.
-# forward_log_prob: -68.23007147374334
-# backward_log_prob: -48.30088408087376
+# forward_log_prob: -68.2265435840574
+# backward_log_prob: -48.31901770735054
 1	Šį	Šį	_	2	هذا	_	1	?	?	1	?	?	1	?	?	3	den	_	2	ran	_	_	_	1	Corrimos	_	?	?	?	2	ripetuto	_	3	deze	_	1	Efectuámos	_
 2	bandymą	bandymą	_	1	أجرينا	_	1	?	?	1	?	?	1	?	?	2	haben	_	1	We	_	_	_	3	prueba	_	1	Nous	_	1	Abbiamo	_	1	We	_	3	teste	_
 3	atlikome	atlikome	_	1	أجرينا	_	1	?	?	1	?	?	1	?	?	4	Test	_	4	test	_	_	_	3	prueba	_	5	test	_	4	test	_	4	test	_	3	teste	_
@@ -1151,8 +1151,8 @@
 # sent_id = 132761
 # text:  Tai reikia atlikti labai tiksliai, bet jei mums pavyks, jei technologiją sukursime, jei nugabensime ją į kosmosą, pamatysite kažką tokio.
 # trans: Isto tem que ser feito com grande precisão, mas se o conseguirmos, se conseguirmos construir esta tecnologia, se a colocarmos no espaço, poderão ver algo assim.
-# forward_log_prob: -89.93418975639702
-# backward_log_prob: -72.43773140832326
+# forward_log_prob: -89.93525968918848
+# backward_log_prob: -72.4337501412301
 1	Tai	Tai	_	3	تكون	_	1	?	?	1	?	?	1	?	?	?	?	?	1	This	_	result.Cause.CONTIGENCY	_	1	Esto	_	?	?	?	?	?	?	1	Dit	_	1	Isto	_
 2	reikia	reikia	_	1	يجب	_	1	?	?	1	?	?	1	?	?	9	es	_	3	to	_	_	_	3	que	_	5	précis,	_	1	Tutto	_	?	?	?	5	feito	_
 3	atlikti	atlikti	_	5	العملية	_	1	?	?	1	?	?	1	?	?	?	?	?	4	be	_	_	_	?	?	?	5	précis,	_	?	?	?	?	?	?	5	feito	_
@@ -1177,8 +1177,8 @@
 # sent_id = 132762
 # text:  Tai mūsų artimiausios kaimynės nuotrauka atlikta „Hubble“ teleskopu.
 # trans: Isto é uma imagem de uma das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble.
-# forward_log_prob: -57.92254513940492
-# backward_log_prob: -29.56228734529598
+# forward_log_prob: -57.925624126042905
+# backward_log_prob: -29.56848819670711
 1	Tai	Tai	_	4	من	_	1	?	?	1	?	?	1	?	?	1	Dies	_	1	That's	_	_	_	2	es	_	1	C'est	_	1	È	_	1	Dat	_	1	Isto	EXPANSION|specification.Restatement.EXPANSION
 2	mūsų	mūsų	_	1	تلك	_	1	?	?	1	?	?	1	?	?	2	ist	_	6	our	_	_	_	3	una	_	2	une	_	2	l'immagine	_	3	een	_	3	uma	_
 3	artimiausios	artimiausios	_	4	من	_	1	?	?	1	?	?	1	?	?	6	unserer	_	5	one	_	_	_	4	imagen	_	4	d'une	_	4	una	_	4	foto	_	7	das	_
@@ -1191,8 +1191,8 @@
 # sent_id = 132763
 # text:  Jei mums pavyktų nugabenti panašų teleskopą, tik šiek tiek didesnį, jį palikti reikiamoje vietoje ir priešais įrengti uždangą, galėtumė pamatyti kažką tokio: saulės sistemos šeimos nuotrauka, bet ji ne mūsų.
 # trans: Se usarmos um telescópio semelhante, ligeiramente maior, se o colocarmos no espaço, se pusermos uma antepara à sua frente, o que poderemos ver é algo como isto — isto é um retrato de família do nosso sistema solar — mas não o nosso.
-# forward_log_prob: -160.9792935381654
-# backward_log_prob: -126.95933735064479
+# forward_log_prob: -160.98582713619393
+# backward_log_prob: -126.973811101919
 1	Jei	Jei	Contingency.Condition.Arg2-as-cond	1	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	mums	mums	_	2	استطعنا	_	1	?	?	1	?	?	1	?	?	7	etwas	_	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	podemos	_	3	pouvons	_	2	potessimo	_	6	maar	_	10	colocarmos	_
 3	pavyktų	pavyktų	_	4	نأخذ	_	1	?	?	1	?	?	1	?	?	4	ähnliches	_	6	similar	_	_	_	3	tomar	_	4	prendre	_	3	prendere	_	4	soortgelijke	_	5	semelhante,	_
@@ -1227,8 +1227,8 @@
 # sent_id = 132764
 # text:  Mes tikimės, kad tai bus kažkieno kito saulės sistema matoma per uždangą, pro štai tokį šydą.
 # trans: Esperamos que seja outro sistema solar visto através de uma antepara, através de uma sombra estelar como esta.
-# forward_log_prob: -56.04980017624813
-# backward_log_prob: -57.293088098018686
+# forward_log_prob: -56.04864827223774
+# backward_log_prob: -57.28469230969684
 1	Mes	Mes	_	1	نتمنى	_	1	?	?	1	?	?	1	?	?	3	unseres;	_	2	hoping	_	_	_	3	va	_	?	?	?	1	Speriamo	_	1	We	_	1	Esperamos	_
 2	tikimės,	tikimės,	_	1	نتمنى	_	1	?	?	1	?	?	1	?	?	1	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	We're	_	_	_	1	Esperamos	_	5	quelqu'un	_	1	Speriamo	_	2	hopen	_	1	Esperamos	_
 3	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	4	المجموعة	_	1	?	?	1	?	?	1	?	?	3	unseres;	_	4	be	_	_	_	2	que	_	4	de	_	4	il	_	3	dat	_	2	que	_
@@ -1249,8 +1249,8 @@
 # sent_id = 132765
 # text:  Matote Jupiterį, Saturną, Uraną, Neptūną, o štai ten centre šviesos ruožo pakraštyje yra tas blyškusis mėlynasis taškas.
 # trans: Podemos ver Júpiter, podemos ver Saturno, Urano, Neptuno, e mesmo no centro, próximo da luz residual está o ponto azul pálido.
-# forward_log_prob: -68.38997218624692
-# backward_log_prob: -59.393252576064114
+# forward_log_prob: -68.39930780217648
+# backward_log_prob: -59.37537567222433
 1	Matote	Matote	_	1	تستطيعون	_	1	?	?	1	?	?	1	?	?	3	Jupiter,	_	1	You	_	_	_	1	Pueden	_	1	On	_	1	Potete	_	1	Je	_	1	Podemos	_
 2	Jupiterį,	Jupiterį,	_	2	مشاهدة	_	1	?	?	1	?	?	1	?	?	3	Jupiter,	_	3	see	_	_	_	3	a	_	3	voir	_	3	Giove,	_	2	ziet	_	2	ver	_
 3	Saturną,	Saturną,	_	3	المشتري،	_	1	?	?	1	?	?	1	?	?	4	Saturn,	_	4	Jupiter,	_	_	_	4	Júpiter,	_	4	Jupiter,	_	4	potete	_	4	Saturnus,	_	3	Júpiter,	_
@@ -1272,8 +1272,8 @@
 # sent_id = 132766
 # text:  Žemė. Norime pamatyti, ar ten yra vandens, deguonies, ozono, pamatyti dalykus, kurie parodytų, ar ten yra gyvybės.
 # trans: É a Terra. Queremos ver isso, ver se tem água, oxigénio, ozono, as coisas que nos poderão dizer se poderá ter vida.
-# forward_log_prob: -69.694632215501
-# backward_log_prob: -57.9499880287714
+# forward_log_prob: -69.68585870534777
+# backward_log_prob: -57.94078388931477
 1	Žemė.	Žemė.	_	3	نريد	_	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	2	verla,	_	2	Terre.	_	?	?	?	1	Dat	_	3	Terra.	_
 2	Norime	Norime	_	3	نريد	_	1	?	?	1	?	?	1	?	?	6	wollen	_	2	want	_	_	_	1	Queremos	_	3	C'est	_	1	Vogliamo	_	2	willen	_	4	Queremos	_
 3	pamatyti,	pamatyti,	_	2	الأرض.	_	1	?	?	1	?	?	1	?	?	6	wollen	_	1	We	_	_	_	1	Queremos	_	5	que	_	3	quello,	_	2	willen	_	4	Queremos	_
@@ -1295,8 +1295,8 @@
 # sent_id = 132767
 # text:  Mano galva, tai šauniausias mokslas.
 # trans: Penso que esta é a ciência mais fixe possível.
-# forward_log_prob: -25.152353978786962
-# backward_log_prob: -15.173701592616457
+# forward_log_prob: -25.15139621320793
+# backward_log_prob: -15.171343406706054
 1	Mano	Mano	_	1	أعتقد	_	1	?	?	1	?	?	1	?	?	1	Für	PragmaticCause.CONTIGENCY	1	I	_	_	_	1	Creo	_	1	Je	_	3	che	_	1	Ik	_	1	Penso	_
 2	galva,	galva,	_	1	أعتقد	_	1	?	?	1	?	?	1	?	?	1	Für	PragmaticCause.CONTIGENCY	2	think	_	_	_	1	Creo	_	5	la	_	1	Io	_	2	vind	_	3	esta	_
 3	tai	tai	_	4	هو	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	3	ist	_	3	this	_	result.Cause.CONTIGENCY	_	4	es	_	4	c'est	_	4	questa	_	3	dit	_	4	é	_
@@ -1306,8 +1306,8 @@
 # sent_id = 132768
 # text:  Todėl ir aš į tai įsitraukiau. Nes tikiu, kad tai pakeis pasaulį.
 # trans: É por isso que me dediquei a isto, porque penso que vai mudar o mundo.
-# forward_log_prob: -46.70202305891508
-# backward_log_prob: -36.92851429733574
+# forward_log_prob: -46.70390482353168
+# backward_log_prob: -36.93602238328798
 1	Todėl	Todėl	Contingency.Cause.Result	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Darum	result.Cause.CONTIGENCY	1	That's	CONTIGENCY|Cause.CONTIGENCY	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	1	C'est	result.Cause.CONTIGENCY	1	È	_	1	Daarom	reason.Cause.CONTIGENCY	1	É	_
 2	ir	ir	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	1	?	?	4	in	_	?	?	?	?	?	2	eso	_	?	?	?	?	?	?	?	?	?	3	isso	_
 3	aš	aš	_	?	?	?	1	?	?	1	?	?	1	?	?	3	ich	_	3	I	_	_	_	5	a	_	3	je	_	2	il	_	3	ik	_	?	?	?
@@ -1324,8 +1324,8 @@
 # sent_id = 132769
 # text:  Viskas pasikeis vos tik mes tai pamatysime.
 # trans: Irá mudar tudo quando surgir.
-# forward_log_prob: -15.465387250070778
-# backward_log_prob: -17.077579634873352
+# forward_log_prob: -15.465479891345883
+# backward_log_prob: -17.077251354063396
 1	Viskas	Viskas	_	?	?	?	1	?	?	1	?	?	1	?	?	5	wird	_	1	That	_	_	_	?	?	?	?	?	?	1	Cambierà	_	4	alles	_	1	Irá	_
 2	pasikeis	pasikeis	_	2	سيغير	_	1	?	?	1	?	?	1	?	?	5	wird	_	2	will	_	_	_	2	a	_	2	va	_	1	Cambierà	_	3	gaat	_	1	Irá	_
 3	vos	vos	Temporal.Asynchronous.Precedence	1	ذلك	_	1	?	?	1	?	?	1	?	?	5	wird	_	3	change	_	_	_	1	Va	_	1	Tout	_	1	Cambierà	_	1	Dat	_	1	Irá	_
@@ -1338,13 +1338,13 @@
 # text:  Ačiū.
 # trans: Obrigado.
 # forward_log_prob: -1.1210256451699738
-# backward_log_prob: -1.1210861651965056
+# backward_log_prob: -1.1210862270165871
 1	Ačiū.	Ačiū.	_	1	شكرًا	_	1	?	?	1	?	?	1	?	?	1	Vielen	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dank	_	1	Obrigado.	_
 
 # sent_id = 132771
 # text:  (Plojimai.)
 # trans: (Aplausos)
 # forward_log_prob: -1.1210256451699738
-# backward_log_prob: -1.1210861651965056
+# backward_log_prob: -1.1210862270165871
 1	(Plojimai.)	?	?	1	(تصفيق)	_	1	?	?	1	?	?	1	?	?	1	(Applaus)	_	1	(Applause)	_	_	_	1	(Aplausos)	_	1	(Applaudissements)	_	1	(Applausi)	_	1	(Applaus)	_	1	(Aplausos)	_
 

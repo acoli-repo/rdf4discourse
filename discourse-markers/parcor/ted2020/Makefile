@@ -216,7 +216,11 @@ eval/ted-mdb/data: data eval/ted-mdb
 	done;\
 	)
 
-eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
+eval/ted-mdb/mapping.sed: eval/ted-mdb/mapping.tsv
+	#cat eval/ted-mdb/mapping.tsv | perl -pe 's/([^\t\n]+)\t([^\t\n]+)/s\/$1\/($$1=>$$2)\//g;' > eval/ted-mdb/mapping.sed	# DEBUG
+	cat eval/ted-mdb/mapping.tsv | perl -pe 's/([^\t\n]+)\t([^\t\n]+)/s\/$$1\/$$2\//g;' > eval/ted-mdb/mapping.sed
+
+eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers eval/ted-mdb/mapping.sed
 		tlangs="en ru tr lt pl de pt";\
 		slangs="en de ar bn ca cs es fr it nl pt"; \
 		langs=`echo $$tlangs $$slangs | sed s/'\s'/'\n'/g | sort -u`; \
@@ -327,7 +331,8 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 						cat $$doc/$$lang.$$gaz.conll; \
 						echo ;\
 					fi;\
-				done > $$tgt; # $$doc \
+				done | \
+				sed -f eval/ted-mdb/mapping.sed > $$tgt; # $$doc \
 			fi; \
 	done;							# $$gaz \
 	done;								# $$lang \

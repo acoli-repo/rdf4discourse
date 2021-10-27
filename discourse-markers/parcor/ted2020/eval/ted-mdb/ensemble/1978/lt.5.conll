@@ -1,8 +1,8 @@
 # sent_id = 132930
 # text:  Man pasisekė, kad mano pirmasis darbas parengti Modernaus meno muziejuje tapytojos Elizabeth Murray darbų retrospektyvą.
 # trans: Senti-me muito feliz porque o meu primeiro trabalho foi trabalhar no Museu de Arte Moderna numa retrospetiva da pintora Elizabeth Murray.
-# forward_log_prob: -73.08199193187652
-# backward_log_prob: -53.16689562112904
+# forward_log_prob: -73.07965564210305
+# backward_log_prob: -53.17237939831647
 1	Man	Man	_	1	أشعر	_	1	?	_	1	?	_	1	?	_	2	sehe	_	1	I	_	_	_	1	Me	_	2	eu	_	1	Mi	_	1	?	_	1	Senti-me	_
 2	pasisekė,	pasisekė,	_	2	بأنني	_	1	?	_	1	?	_	1	?	_	2	sehe	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	muy	_	1	J'ai	_	2	sento	_	1	?	_	2	muito	_
 3	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	6	أن	_	1	?	_	1	?	_	1	?	_	7	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	that	_	_	_	5	de	_	6	que	_	4	che	_	1	?	_	4	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
@@ -22,8 +22,8 @@
 # sent_id = 132931
 # text:  Iš jos išmokau labai daug.
 # trans: Aprendi muito com ela.
-# forward_log_prob: -10.913144188982468
-# backward_log_prob: -14.88528673260696
+# forward_log_prob: -10.913071814512326
+# backward_log_prob: -14.885983073780706
 1	Iš	Iš	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	2	lernte	_	2	learned	_	_	_	1	Aprendí	_	1	J'ai	_	2	imparato	_	1	?	_	?	?	?
 2	jos	jos	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Aprendí	_	1	J'ai	_	2	imparato	_	1	?	_	3	com	_
 3	išmokau	išmokau	_	2	الكثير	_	1	?	_	1	?	_	1	?	_	3	so	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	mucho	_	2	tant	_	1	Ho	_	1	?	_	1	Aprendi	_
@@ -33,8 +33,8 @@
 # sent_id = 132932
 # text:  Kai kuratorius Robert Storr atrinko visus paveikslus iš jos viso gyvenimo darbų rinkinio, mane patraukė jos paveikslai tapyti aštuntajame dešimtmetyje.
 # trans: Depois de o curador Robert Storr ter escolhido todos os quadros entre o conjunto de obras da vida dela, eu adorava olhar para as pinturas dos anos 70.
-# forward_log_prob: -101.30906942930179
-# backward_log_prob: -80.08363398395781
+# forward_log_prob: -101.30654161873426
+# backward_log_prob: -80.08337199248072
 1	Kai	Kai	Temporal.Asynchronous.Succession	3	أن	_	1	?	_	1	?	_	1	?	_	?	?	?	1	After	TEMPORAL	_	Concession.COMPARISON|succession.Asynchronous.TEMPORAL	2	de	_	2	que	_	3	il	_	1	?	_	2	de	_
 2	kuratorius	kuratorius	_	2	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	3	Kurator	_	3	curator	_	_	_	5	curador	_	4	conservateur	_	4	curatore	_	1	?	_	1	Depois	Asynchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
 3	Robert	Robert	_	4	قام	_	1	?	_	1	?	_	1	?	_	3	Kurator	_	4	Robert	_	_	_	5	curador	_	4	conservateur	_	4	curatore	_	1	?	_	4	curador	_
@@ -46,7 +46,7 @@
 9	jos	jos	_	12	التي	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	10	ihrem	_	11	her	_	_	_	?	?	?	12	choisies	_	12	suo	_	1	?	_	15	de	_
 10	viso	viso	_	10	كل	_	1	?	_	1	?	_	1	?	_	11	lebenslangen	_	12	lifetime	_	_	_	13	realizó	_	13	parmi	_	10	quadri	_	1	?	_	14	conjunto	_
 11	gyvenimo	gyvenimo	_	13	قدمتها	_	1	?	_	1	?	_	1	?	_	13	ausgewählt	_	12	lifetime	_	_	_	11	pinturas	_	16	vie	_	9	i	_	1	?	_	14	conjunto	_
-12	darbų	darbų	_	13	قدمتها	_	1	?	_	1	?	_	1	?	_	14	hatte,	_	12	lifetime	_	_	_	11	pinturas	_	18	de	_	12	suo	_	1	?	_	17	da	_
+12	darbų	darbų	_	13	قدمتها	_	1	?	_	1	?	_	1	?	_	14	hatte,	_	12	lifetime	_	_	_	11	pinturas	_	18	de	_	?	?	?	1	?	_	17	da	_
 13	rinkinio,	rinkinio,	_	14	طيلة	_	1	?	_	1	?	_	1	?	_	15	betrachtete	_	15	work,	_	_	_	15	toda	_	17	entière	_	14	compendio	_	1	?	_	?	?	?
 14	mane	mane	_	15	حياتها،	_	1	?	_	1	?	_	1	?	_	20	Gemälde	_	21	paintings	_	_	_	18	me	_	17	entière	_	17	amavo	_	1	?	_	23	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 15	patraukė	patraukė	_	16	أحببت	_	1	?	_	1	?	_	1	?	_	17	liebend	_	17	loved	_	_	_	19	encantaba	_	19	travail,	_	17	amavo	_	1	?	_	20	eu	_
@@ -59,8 +59,8 @@
 # sent_id = 132933
 # text:  Tuo periodu atsirado kai kurie motyvai ir elementai, kurie vėliau vėl pasikartos jos gyvenime.
 # trans: Havia alguns motivos e elementos que viriam a aparecer posteriormente na sua vida.
-# forward_log_prob: -40.01239866968515
-# backward_log_prob: -43.189431886170524
+# forward_log_prob: -40.013487327532125
+# backward_log_prob: -43.19809478725943
 1	Tuo	Tuo	_	2	هنالك	_	1	?	_	1	?	_	1	?	_	2	gab	_	4	motifs	_	_	_	2	algunos	_	4	des	_	1	C'erano	_	1	?	_	1	Havia	_
 2	periodu	periodu	_	1	كانت	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	There	_	_	_	1	Había	_	1	Il	_	2	dei	_	1	?	_	1	Havia	_
 3	atsirado	atsirado	_	3	بعض	_	1	?	_	1	?	_	1	?	_	2	gab	_	3	some	_	_	_	3	motivos	_	5	motifs	_	3	motivi	_	1	?	_	3	motivos	_
@@ -79,8 +79,8 @@
 # sent_id = 132934
 # text:  Pamenu, kai jos klausiau, ką ji mano apie tuos ankstyvuosius darbus.
 # trans: Lembro-me de lhe ter perguntado o que ela pensava dessas primeiras obras.
-# forward_log_prob: -37.96750751435835
-# backward_log_prob: -33.345761288481555
+# forward_log_prob: -37.959573523936314
+# backward_log_prob: -33.34525285720788
 1	Pamenu,	Pamenu,	_	1	أذكر	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	2	acuerdo	_	3	souviens	_	1	Ricordo	_	1	?	_	1	Lembro-me	_
 2	kai	kai	Expansion.Level-of-detail.Arg2-as-detail	1	أذكر	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	2	acuerdo	_	1	Je	_	2	di	_	1	?	_	2	de	_
 3	jos	jos	_	2	أنني	_	1	?	_	1	?	_	1	?	_	6	sie	_	4	her	_	_	_	1	Me	_	4	lui	_	6	ne	_	1	?	_	?	?	?
@@ -96,8 +96,8 @@
 # sent_id = 132935
 # text:  Nežinant, kad tai jos darbai to niekaip neatspėtum.
 # trans: Se não soubéssemos que eram dela, talvez não adivinhássemos.
-# forward_log_prob: -25.59538980649981
-# backward_log_prob: -22.607817007645632
+# forward_log_prob: -25.59478587248421
+# backward_log_prob: -22.60639463888377
 1	Nežinant,	Nežinant,	_	1	إذا	_	1	?	_	1	?	_	1	?	_	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	2	لم	_	1	?	_	1	?	_	1	?	_	5	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	4	know	_	_	_	4	que	_	5	pas	_	4	che	_	1	?	_	2	não	_
 3	tai	tai	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	6	were	_	_	_	3	supieran	_	?	?	?	5	erano	_	1	?	_	3	soubéssemos	_
@@ -110,8 +110,8 @@
 # sent_id = 132936
 # text:  Ji sakė, kad nemažai darbų ne visai sutapo su jos pačios vizija, kokius juos norėjo matyti.
 # trans: Ela disse-me que algumas delas não correspondiam à sua marca, às suas expectativas.
-# forward_log_prob: -42.31112710206569
-# backward_log_prob: -52.17173587950345
+# forward_log_prob: -42.31101348760793
+# backward_log_prob: -52.17632442264404
 1	Ji	Ji	_	1	أخبرتني	_	1	?	_	1	?	_	1	?	_	1	Sie	_	1	She	_	_	_	8	marca	_	1	Elle	_	1	Lei	_	1	?	_	1	Ela	_
 2	sakė,	sakė,	_	1	أخبرتني	_	1	?	_	1	?	_	1	?	_	2	sagte	_	2	told	_	_	_	1	Me	_	3	dit	_	5	alcuni	_	1	?	_	2	disse-me	_
 3	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	2	أن	_	1	?	_	1	?	_	1	?	_	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	4	that	_	_	_	3	que	_	4	que	_	4	che	_	1	?	_	3	que	_
@@ -132,8 +132,8 @@
 # sent_id = 132937
 # text:  Vienas iš tų darbų netgi taip prieštaravo jos supratimui, kad ji nutrenkė jį į studijos šiulkšliadėžę. O jos kaimynė jį ištraukė, nes laikė jį vertingu.
 # trans: Na verdade, uma das obras de tal modo não correspondia à sua marca, que ela tinha-a posto no lixo no seu estúdio, e a vizinha tinha-a levado, porque reconhecera o seu valor.
-# forward_log_prob: -117.1600259889387
-# backward_log_prob: -93.18322278789033
+# forward_log_prob: -117.1574272873279
+# backward_log_prob: -93.18758310119412
 1	Vienas	Vienas	_	4	الأعمال،	_	1	?	_	1	?	_	1	?	_	5	faktisch	_	1	One	_	_	_	6	hecho,	_	1	Un	_	1	Uno	_	1	?	_	2	verdade,	_
 2	iš	iš	_	4	الأعمال،	_	1	?	_	1	?	_	1	?	_	6	so	_	3	the	_	_	_	5	de	_	2	de	_	6	tanto	_	1	?	_	4	das	_
 3	tų	tų	_	3	هذه	_	1	?	_	1	?	_	1	?	_	4	traf	_	4	works,	_	_	_	4	obras,	_	3	ces	_	3	lavori,	_	1	?	_	4	das	_
@@ -163,8 +163,8 @@
 # sent_id = 132938
 # text:  Tą akimirką mano požiūris į sėkmę ir kūrybiškumą pasikeitė.
 # trans: Nesse momento, o meu conceito de êxito e de criatividade alteraram-se.
-# forward_log_prob: -29.835528630994865
-# backward_log_prob: -27.515788028857788
+# forward_log_prob: -29.832692953022402
+# backward_log_prob: -27.525924049781086
 1	Tą	Tą	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	1	In	_	1	In	_	_	_	1	En	_	1	A	_	5	mia	_	1	?	_	1	Nesse	_
 2	akimirką	akimirką	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	2	diesem	_	2	that	_	_	_	3	momento,	_	3	moment-là,	_	5	mia	_	1	?	_	1	Nesse	_
 3	mano	mano	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	4	änderte	_	4	my	_	_	_	4	mi	_	4	ma	_	5	mia	_	1	?	_	3	o	_
@@ -178,8 +178,8 @@
 # sent_id = 132939
 # text:  Suvokiau, kad sėkmė tėra momentinė, o tai, ką mes visuomet šloviname, yra kūrybiškumas ir meistriškumas.
 # trans: Percebi que o êxito é um momento, mas o que estamos sempre a festejar é a criatividade e a mestria.
-# forward_log_prob: -56.65659971633472
-# backward_log_prob: -50.96518918061401
+# forward_log_prob: -56.65831663805299
+# backward_log_prob: -50.981179679444324
 1	Suvokiau,	Suvokiau,	_	1	أدركت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	J'ai	_	1	Realizzai	_	1	?	_	1	Percebi	_
 2	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	_	1	?	_	1	?	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	4	que	_	3	que	_	2	che	_	1	?	_	2	que	_
 3	sėkmė	sėkmė	_	6	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	4	Erfolg	_	4	success	_	_	_	5	el	_	4	le	_	3	il	_	1	?	_	4	êxito	_
@@ -199,8 +199,8 @@
 # sent_id = 132940
 # text:  Bet štai koks klausimas: kaip mes sugebame sėkmę paversti meistriškumu?
 # trans: Mas o problema é este: O que é que nos leva a transformar o êxito em mestria?
-# forward_log_prob: -47.26248420705021
-# backward_log_prob: -40.69920090797552
+# forward_log_prob: -47.2634644211664
+# backward_log_prob: -40.69715508463516
 1	Bet	Bet	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero,	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	štai	štai	_	2	إليكم	_	1	?	_	1	?	_	1	?	_	2	hier	_	2	this	_	result.Cause.CONTIGENCY	_	3	quid	_	2	voici	_	2	questo	_	1	?	_	2	o	_
 3	koks	koks	_	2	إليكم	_	1	?	_	1	?	_	1	?	_	5	Frage:	_	5	thing:	_	_	_	3	quid	_	4	question	_	5	punto:	_	1	?	_	5	este:	_
@@ -215,8 +215,8 @@
 # sent_id = 132941
 # text:  Šito aš savęs ilgai klausiau.
 # trans: Há muito que faço a mim mesma esta pergunta.
-# forward_log_prob: -24.797349155365858
-# backward_log_prob: -16.634805625416583
+# forward_log_prob: -24.797727062465498
+# backward_log_prob: -16.634839478906223
 1	Šito	Šito	_	1	هذا	_	1	?	_	1	?	_	1	?	_	1	Mit	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esto	_	1	C'est	_	1	Questa	_	1	?	_	1	Há	_
 2	aš	aš	_	3	سألته	_	1	?	_	1	?	_	1	?	_	4	habe	_	3	a	_	_	_	4	que	_	2	une	_	2	è	_	1	?	_	3	que	_
 3	savęs	savęs	_	4	لنفسي	_	1	?	_	1	?	_	1	?	_	4	habe	_	5	I've	_	_	_	5	me	_	6	me	_	4	domanda	_	1	?	_	4	faço	_
@@ -226,8 +226,8 @@
 # sent_id = 132942
 # text:  Manau, jis pasireiškia tada, kai pradedame branginti beveik pasiektos pergalės dovaną.
 # trans: Acho que ela chega quando começamos a dar valor ao dom de uma quase vitória.
-# forward_log_prob: -44.890808332766866
-# backward_log_prob: -38.2628506099552
+# forward_log_prob: -44.88995717515353
+# backward_log_prob: -38.262635401023516
 1	Manau,	Manau,	_	1	أعتقد	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Creo	_	1	Je	_	1	Credo	_	1	?	_	1	Acho	_
 2	jis	jis	_	2	أنه	_	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	2	que	_	2	crois	_	2	che	_	1	?	_	2	que	_
 3	pasireiškia	pasireiškia	_	3	يظهر	_	1	?	_	1	?	_	1	?	_	4	entsteht,	_	2	think	_	_	_	3	llega	_	4	ça	_	3	succeda	_	1	?	_	3	ela	_
@@ -243,8 +243,8 @@
 # sent_id = 132943
 # text:  Ėmiau tai suprasti, kai nuvykau vieną šaltą gegužės dieną stebėti vieno universiteto lankininkių rinktinės. Visai atsitiktinai tai buvo merginų komanda. Renginys vyko šiaurinėje Manhatano dalyje, Kolumbijos universiteto Beikerio atletikos komplekse.
 # trans: Comecei a perceber isso quando, num frio dia de Maio fui ver uma equipa de arqueiras universitárias, só mulheres, por coincidência, no extremo norte de Manhattan no Complexo Atlético Baker, na Colúmbia.
-# forward_log_prob: -115.08359248209712
-# backward_log_prob: -118.8932944770573
+# forward_log_prob: -115.08178518244596
+# backward_log_prob: -118.89889847550715
 1	Ėmiau	Ėmiau	_	1	بدأت	_	1	?	_	1	?	_	1	?	_	2	begann	_	2	started	_	_	_	1	Empecé	_	1	J'ai	_	1	Ho	_	1	?	_	1	Comecei	_
 2	tai	tai	_	6	في	_	1	?	_	1	?	_	1	?	_	3	es	_	3	to	_	_	_	?	?	?	4	le	_	3	a	_	1	?	_	2	a	_
 3	suprasti,	suprasti,	_	3	هذا	_	1	?	_	1	?	_	1	?	_	2	begann	_	2	started	_	_	_	3	entender	_	?	?	?	4	capirlo	_	1	?	_	3	perceber	_
@@ -279,8 +279,8 @@
 # sent_id = 132944
 # text:  Norėjau savo akimis pamatyti, kas yra lankininko paradoksas. Tai mintis, kad norėdamas išties pataikyti į savo taikinį, turi taikytis trupučiuką ne visai tiesiai.
 # trans: Eu queria ver aquilo a que se chama o paradoxo do arqueiro, a ideia de que, para acertar em cheio no alvo, é preciso visar um pouco ao lado.
-# forward_log_prob: -104.1437537862753
-# backward_log_prob: -89.44277599554192
+# forward_log_prob: -104.14317949940994
+# backward_log_prob: -89.44268785772296
 1	Norėjau	Norėjau	_	1	أردت	_	1	?	_	1	?	_	1	?	_	2	wollte	_	2	wanted	_	_	_	1	Quería	_	2	voulais	_	1	Volevo	_	1	?	_	2	queria	_
 2	savo	savo	_	3	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	2	voulais	_	1	Volevo	_	1	?	_	2	queria	_
 3	akimis	akimis	_	2	رؤية	_	1	?	_	1	?	_	1	?	_	3	sehen,	_	?	?	?	?	?	5	se	_	2	voulais	_	2	vedere	_	1	?	_	?	?	?
@@ -308,8 +308,8 @@
 # sent_id = 132945
 # text:  Stovėjau ten ir žiūrėjau, kaip treneris vežė tas merginas pilkame furgone, o jos, nors ir entuziastingai džiūgavo, palengva kaupėsi.
 # trans: Fiquei a observar enquanto o treinador conduzia aquelas mulheres numa carrinha cinzenta e elas sairam com aquele ar de concentração descontraída.
-# forward_log_prob: -70.69279674511363
-# backward_log_prob: -64.28787029573418
+# forward_log_prob: -70.69000781268842
+# backward_log_prob: -64.29190851551989
 1	Stovėjau	Stovėjau	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	2	stood	_	_	_	?	?	?	1	Je	_	1	Ero	_	1	?	_	1	Fiquei	_
 2	ten	ten	_	3	شاهدت	_	1	?	_	1	?	_	1	?	_	5	schaute	_	1	I	_	_	_	1	Fui	_	3	restée	_	1	Ero	_	1	?	_	3	observar	_
 3	ir	ir	_	2	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	y	_	?	?	?	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	?	?	?
@@ -333,8 +333,8 @@
 # sent_id = 132946
 # text:  Viena jų dešinėje rankoje laikė nuvalgytą ledų kaušelį, o kairėje – strėles su geltonomis plunksnomis.
 # trans: Uma delas tinha na mão um cone de gelado meio comido e na mão esquerda flechas com penas amarelas.
-# forward_log_prob: -61.263934592573975
-# backward_log_prob: -53.275044167109016
+# forward_log_prob: -61.26273149775862
+# backward_log_prob: -53.27559375630881
 1	Viena	Viena	_	1	إحداهن	_	1	?	_	1	?	_	1	?	_	1	Eine	_	1	One	_	_	_	4	helado	_	1	L'une	_	1	Una	_	1	?	_	1	Uma	_
 2	jų	jų	_	2	أمسكت	_	1	?	_	1	?	_	1	?	_	4	halb	_	?	?	?	?	?	3	un	_	2	tenait	_	2	aveva	_	1	?	_	3	tinha	_
 3	dešinėje	dešinėje	_	1	إحداهن	_	1	?	_	1	?	_	1	?	_	4	halb	_	4	half-eaten	_	_	_	2	llevaba	_	5	main	_	3	un	_	1	?	_	2	delas	_
@@ -354,8 +354,8 @@
 # sent_id = 132947
 # text:  Pravažiuodamos pro mane jos nusišypsojo, bet ir įdėmiai nužiūrėjo važiuodamos link pievos. Jos kalbėjosi ne šiaip žodžiais, bet skaičiais, laipsniais, ir, man regis, pozicijomis, kurias užims, taikydamos į taikinius.
 # trans: Passaram por mim e sorriram, mas mediram-me de alto a baixo enquanto se encaminhavam para o campo, e falavam umas com as outras, não com palavras, mas, segundo me pareceu, com números, graus, posições para o modo como podiam planear atingir o alvo.
-# forward_log_prob: -165.9535955425869
-# backward_log_prob: -115.977121239214
+# forward_log_prob: -165.95827145072153
+# backward_log_prob: -115.97902077750112
 1	Pravažiuodamos	Pravažiuodamos	_	2	قد	_	1	?	_	1	?	_	1	?	_	3	gingen	_	2	they	_	_	_	2	pasaban	_	1	Elles	_	4	passarono	_	1	?	_	1	Passaram	_
 2	pro	pro	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	gingen	_	3	passed	_	_	_	2	pasaban	_	3	passées	_	4	passarono	_	1	?	_	1	Passaram	_
 3	mane	mane	_	?	?	?	1	?	_	1	?	_	1	?	_	3	gingen	_	4	me	_	_	_	1	Todas	_	5	moi	_	3	mi	_	1	?	_	22	as	_
@@ -368,7 +368,7 @@
 10	važiuodamos	važiuodamos	_	14	شأني	_	1	?	_	1	?	_	1	?	_	15	Rasen	_	14	made	_	_	_	11	camino	_	15	se	_	13	andavano	_	1	?	_	14	encaminhavam	_
 11	link	link	_	15	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	?	_	14	zum	_	14	made	_	_	_	12	al	_	16	dirigeaient	_	16	campo,	_	1	?	_	17	campo,	_
 12	pievos.	pievos.	_	16	سرن	_	1	?	_	1	?	_	1	?	_	15	Rasen	_	19	turf,	_	_	_	13	campo	_	19	gazon,	_	16	campo,	_	1	?	_	17	campo,	_
-13	Jos	Jos	_	19	إلى	_	1	?	_	1	?	_	1	?	_	13	sie	_	?	?	?	?	?	10	su	_	21	qu'elles	_	?	?	?	1	?	_	21	com	_
+13	Jos	Jos	_	19	إلى	_	1	?	_	1	?	_	1	?	_	13	sie	_	?	?	?	?	?	10	su	_	21	qu'elles	_	15	il	_	1	?	_	21	com	_
 14	kalbėjosi	kalbėjosi	_	18	وصلن	_	1	?	_	1	?	_	1	?	_	18	redeten	_	21	spoke	_	_	_	15	hablaban	_	23	parlaient	_	18	comunicavano	_	1	?	_	20	umas	_
 15	ne	ne	_	19	إلى	_	1	?	_	1	?	_	1	?	_	20	nicht	_	22	to	_	_	_	18	no	_	22	se	_	21	non	_	1	?	_	24	não	_
 16	šiaip	šiaip	_	22	تكلمن	_	1	?	_	1	?	_	1	?	_	21	durch	reason.Cause.CONTIGENCY	21	spoke	_	_	_	21	sino	_	23	parlaient	_	?	?	?	1	?	_	?	?	?
@@ -377,7 +377,7 @@
 19	skaičiais,	skaičiais,	_	24	بعضهن	_	1	?	_	1	?	_	1	?	_	22	Worte,	_	26	with	_	_	_	23	números,	_	28	mots	_	23	parole	_	1	?	_	25	com	_
 20	laipsniais,	laipsniais,	_	29	بأرقام	_	1	?	_	1	?	_	1	?	_	26	Gradangaben,	_	29	with	_	_	_	22	con	_	32	nombres,	_	28	gradi	_	1	?	_	30	pareceu,	_
 21	ir,	ir,	_	30	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	37	les	_	?	?	?	1	?	_	?	?	?
-22	man	man	_	31	درجات،	_	1	?	_	1	?	_	1	?	_	28	ich	_	?	?	?	?	?	?	?	?	?	?	?	29	mi	_	1	?	_	29	me	_
+22	man	man	_	31	درجات،	_	1	?	_	1	?	_	1	?	_	31	für	PragmaticCause.CONTIGENCY	?	?	?	?	?	?	?	?	?	?	?	29	mi	_	1	?	_	29	me	_
 23	regis,	regis,	_	31	درجات،	_	1	?	_	1	?	_	1	?	_	29	dachte,	_	33	thought,	_	_	_	24	ángulos,	_	34	degrés,	_	30	sembrò	_	1	?	_	32	números,	_
 24	pozicijomis,	pozicijomis,	_	33	اعتقدت،	_	1	?	_	1	?	_	1	?	_	30	Positionen	_	34	positions	_	_	_	26	posiciones	_	36	disais-je,	_	33	schemi	_	1	?	_	34	posições	_
 25	kurias	kurias	_	35	مراكز	_	1	?	_	1	?	_	1	?	_	33	Möglichkeit,	_	34	positions	_	_	_	29	planeaban	_	38	positions	_	35	pianificare	_	1	?	_	40	planear	_
@@ -389,8 +389,8 @@
 # sent_id = 132948
 # text:  Stovėjau už vienos lankininkės, kai jos treneris atsistojo tarp mūsų, kad, spėju, įvertintų, kuriai gali prireikti pagalbos, ir žiūrėjau į ją, bet nesupratau, kaip įmanoma bent vienai jų pataikyti į dešimtuką taikinyje.
 # trans: Fiquei por detrás duma arqueira, enquanto o treinador, entre nós duas, avaliava talvez quem podia precisar de apoio, e observei-a e não via como seria possível que, nem que fosse só uma, conseguisse acertar no décimo anel.
-# forward_log_prob: -142.73477415760524
-# backward_log_prob: -123.33316832186777
+# forward_log_prob: -142.7379495886544
+# backward_log_prob: -123.35007394641259
 1	Stovėjau	Stovėjau	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	2	stand	_	2	stood	_	_	_	?	?	?	1	Je	_	1	Ero	_	1	?	_	1	Fiquei	_
 2	už	už	_	2	وراء	_	1	?	_	1	?	_	1	?	_	3	hinter	_	3	behind	_	_	_	2	puse	_	4	derrière	_	2	dietro	_	1	?	_	3	detrás	_
 3	vienos	vienos	_	3	إحدي	_	1	?	_	1	?	_	1	?	_	3	hinter	_	3	behind	_	_	_	3	detrás	_	4	derrière	_	5	arciera	_	1	?	_	3	detrás	_
@@ -427,8 +427,8 @@
 # sent_id = 132949
 # text:  Šaudant iš standartinio 70 metrų nuotolio dešimtukas atrodo kaip degtuko galvutė ištiesta per rankos ilgį.
 # trans: O décimo anel, à distância de 70 metros, parece tão pequeno como a cabeça de um fósforo na ponta da mão esticada.
-# forward_log_prob: -73.24326007346801
-# backward_log_prob: -58.214263519635736
+# forward_log_prob: -73.2422984036915
+# backward_log_prob: -58.212901682602926
 1	Šaudant	?	?	1	لوحة	_	1	?	_	1	?	_	1	?	_	5	70-Meter-Standard-Distanz	_	6	standard	_	_	_	2	círculo	_	2	cible	_	2	cerchio	_	1	?	_	5	distância	_
 2	iš	iš	_	3	من	_	1	?	_	1	?	_	1	?	_	4	der	_	4	from	_	_	_	3	de	_	1	La	_	1	Il	_	1	?	_	6	de	_
 3	standartinio	standartinio	_	4	مسافة	_	1	?	_	1	?	_	1	?	_	3	aus	_	3	ring	_	_	_	4	10	_	5	distance	_	4	dieci,	_	1	?	_	3	anel,	_
@@ -448,8 +448,8 @@
 # sent_id = 132950
 # text:  Ir taikytis reikia atlaikant beveik 23 kg svorį atitinkančią tempimo jėgą kaskart paleidžiant strėlę.
 # trans: Ainda por cima a segurar num peso de 23 kg em cada arremesso.
-# forward_log_prob: -39.56364072376767
-# backward_log_prob: -46.33006660971986
+# forward_log_prob: -39.562718114187625
+# backward_log_prob: -46.32440688887066
 1	Ir	Ir	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	taikytis	taikytis	_	4	بيما	_	1	?	_	1	?	_	1	?	_	2	das	_	?	?	?	?	?	4	se	_	2	cela	_	4	reggendo	_	1	?	_	3	cima	_
 3	reikia	reikia	_	4	بيما	_	1	?	_	1	?	_	1	?	_	3	bei	_	2	this	_	result.Cause.CONTIGENCY	_	?	?	?	5	tenant	_	4	reggendo	_	1	?	_	3	cima	_
@@ -468,8 +468,8 @@
 # sent_id = 132951
 # text:  Pamenu, pirmą kartą ji pataikė į septynis, tada devynis, tada dukart į dešimt, o po to kita strėlė prašovė net pro taikinį.
 # trans: Recordo que ela primeiro acertou no sétimo, depois no nono, depois duas vezes no décimo, e depois a flecha seguinte nem sequer acertou no alvo.
-# forward_log_prob: -79.82122690586704
-# backward_log_prob: -77.99221106337224
+# forward_log_prob: -79.82185809874476
+# backward_log_prob: -77.9924832822921
 1	Pamenu,	Pamenu,	_	2	بالبداية	_	1	?	_	1	?	_	1	?	_	3	erst	_	7	remember,	_	_	_	1	Recuerdo	_	8	me	_	1	Ricordo	_	1	?	_	1	Recordo	_
 2	pirmą	pirmą	_	1	هي	_	1	?	_	1	?	_	1	?	_	2	traf	_	2	first	_	Contrast.COMPARISON	_	3	primero	_	3	d'abord	_	3	lei	_	1	?	_	1	Recordo	_
 3	kartą	kartą	_	3	أصابت	_	1	?	_	1	?	_	1	?	_	3	erst	_	6	I	_	_	_	3	primero	_	2	a	_	?	?	?	1	?	_	5	acertou	_
@@ -496,8 +496,8 @@
 # sent_id = 132952
 # text:  Pastebėjau, kad ji užsidegė ryžtu, šovė dar kartą ir dar kartą.
 # trans: E vi que isso deu-lhe mais persistência, e continuou, continuou, sem parar.
-# forward_log_prob: -33.13040755567654
-# backward_log_prob: -31.121478558694093
+# forward_log_prob: -33.13053200547948
+# backward_log_prob: -31.13425049540497
 1	Pastebėjau,	Pastebėjau,	_	1	لاحظت	_	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	2	أن	_	1	?	_	1	?	_	1	?	_	2	das	_	4	that	_	_	_	3	que	_	4	que	_	3	che	_	1	?	_	3	que	_
 3	ji	ji	_	3	ذلك	_	1	?	_	1	?	_	1	?	_	3	verlieh	_	6	her	_	_	_	5	le	_	6	lui	_	2	notai	_	1	?	_	5	deu-lhe	_
@@ -513,18 +513,18 @@
 # sent_id = 132953
 # text:  Ir šitaip tris valandas.
 # trans: Aquilo continuou durante três horas.
-# forward_log_prob: -12.211216034519865
-# backward_log_prob: -9.643469715287699
+# forward_log_prob: -12.211198761219663
+# backward_log_prob: -9.63883348607444
 1	Ir	Ir	Expansion.Conjunction	2	هذا	_	1	?	_	1	?	_	1	?	_	?	?	?	4	this	_	result.Cause.CONTIGENCY	_	1	durante	TEMPORAL	2	a	_	1	Andò	_	1	?	_	1	Aquilo	_
 2	šitaip	šitaip	_	1	استمر	_	1	?	_	1	?	_	1	?	_	1	Das	_	1	For	_	_	reason.Cause.CONTIGENCY	1	durante	TEMPORAL	3	continué	_	1	Andò	_	1	?	_	2	continuou	_
-3	tris	tris	_	4	لثلاث	_	1	?	_	1	?	_	1	?	_	4	Stunden	_	2	three	_	_	_	2	tres	_	5	trois	_	3	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	_	4	três	_
+3	tris	tris	_	4	لثلاث	_	1	?	_	1	?	_	1	?	_	5	lang	_	2	three	_	_	_	2	tres	_	5	trois	_	3	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	_	4	três	_
 4	valandas.	valandas.	_	5	ساعات.	_	1	?	_	1	?	_	1	?	_	5	lang	_	3	hours	_	_	_	3	horas.	_	6	heures.	_	5	ore.	_	1	?	_	5	horas.	_
 
 # sent_id = 132954
 # text:  Treniruotei baigiantis viena iš lankininkių buvo tokia išsekusi, kad ji tysojo ant žemės, išmetusi rankas ir kojas į šalis, ir žvelgė į dangų bandydama įžiūrėti tai, ką T. S. Elliot pavadintų nejudančiu besisukančio pasaulio tašku.
 # trans: No fim do treino, uma das arqueiras estava tão exausta que se deitou no chão sem se poder mexer, a olhar para o céu, tentando encontrar o que T. S. Elliot podia ter chamado aquele "ponto imóvel no mundo em rotação".
-# forward_log_prob: -156.03329212633574
-# backward_log_prob: -139.41527858170156
+# forward_log_prob: -156.0359124927436
+# backward_log_prob: -139.41236571913026
 1	Treniruotei	Treniruotei	_	3	نهاية	_	1	?	_	1	?	_	1	?	_	8	Schützinnen	_	6	practice,	_	_	_	5	práctica,	_	5	l'entraînement,	_	1	Alla	precedence.Asynchronous.TEMPORAL	1	?	_	4	treino,	_
 2	baigiantis	baigiantis	_	5	إحدى	_	1	?	_	1	?	_	1	?	_	4	Übung	_	?	?	?	?	?	?	?	?	?	?	?	3	dell'allentamento,	_	1	?	_	?	?	?
 3	viena	viena	_	5	إحدى	_	1	?	_	1	?	_	1	?	_	6	eine	_	7	one	_	_	_	6	una	_	6	une	_	3	dell'allentamento,	_	1	?	_	5	uma	_
@@ -550,7 +550,7 @@
 23	dangų	dangų	_	25	تجد	_	1	?	_	1	?	_	1	?	_	27	blickend.	_	29	sky,	_	_	_	28	cielo	_	29	essayant	_	24	cercando	_	1	?	_	26	encontrar	_
 24	bandydama	bandydama	_	25	تجد	_	1	?	_	1	?	_	1	?	_	28	Vielleicht	_	30	trying	_	_	_	31	encontrar	_	31	trouver	_	26	trovare	_	1	?	_	29	T.	_
 25	įžiūrėti	įžiūrėti	_	25	تجد	_	1	?	_	1	?	_	1	?	_	29	suchte	_	30	trying	_	_	_	31	encontrar	_	31	trouver	_	26	trovare	_	1	?	_	29	T.	_
-26	tai,	tai,	_	26	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	31	was	_	31	to	_	_	_	32	lo	_	32	ce	_	?	?	?	1	?	_	?	?	?
+26	tai,	tai,	_	26	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	31	was	_	31	to	_	_	_	32	lo	_	30	de	_	?	?	?	1	?	_	?	?	?
 27	ką	ką	_	30	عليه	_	1	?	_	1	?	_	1	?	_	31	was	_	33	what	_	_	_	22	estrellas	_	32	ce	_	?	?	?	1	?	_	33	ter	_
 28	T.	T.	_	31	تي	_	1	?	_	1	?	_	1	?	_	32	T.	_	34	T.S.	_	_	_	34	T.	_	35	Elliot	_	29	T.S.	_	1	?	_	32	podia	_
 29	S.	S.	_	32	إس	_	1	?	_	1	?	_	1	?	_	34	Eliot	_	36	might	_	_	_	36	Elliot	_	37	appeler	_	31	chiamerebbe	_	1	?	_	34	chamado	_
@@ -564,8 +564,8 @@
 # sent_id = 132955
 # text:  Tai taip reta Amerikos kultūroje, jau taip retai tai darome dėl pašaukimo, nepabandome pasižiūrėti, ką reiškia užsispyrimas, kai reikia tokio didelio tikslumo, ką reiškia ieškoti tokios tavo kūno laikysenos ištisas tris valandas, kad pataikytum į taikinį, siekdama tobulybės ten, kur daug neapibrėžtumo.
 # trans: É tão raro na cultura americana, já há tão pouca vocação em qualquer coisa, olhar para o que é a perseverança com este nível de exactidão, o que significa manter a postura do nosso corpo durante três horas, para atingir um alvo, procurando uma qualquer excelência na obscuridade.
-# forward_log_prob: -186.51281279993646
-# backward_log_prob: -177.2650140327399
+# forward_log_prob: -186.51401802097504
+# backward_log_prob: -177.2758710206979
 1	Tai	Tai	_	4	في	_	1	?	_	1	?	_	1	?	_	6	es	_	?	?	?	?	?	5	en	_	?	?	?	1	È	_	1	?	_	1	É	_
 2	taip	taip	_	?	?	?	1	?	_	1	?	_	1	?	_	2	der	_	1	It's	_	_	_	2	tan	_	?	?	?	?	?	?	1	?	_	3	raro	_
 3	reta	reta	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	amerikanischen	_	5	American	_	_	_	2	tan	_	8	américaine,	_	6	americana,	_	1	?	_	2	tão	_
@@ -582,7 +582,7 @@
 14	pasižiūrėti,	pasižiūrėti,	_	?	?	?	1	?	_	1	?	_	1	?	_	18	--	_	19	doggedness	_	_	_	14	para	CONTIGENCY|Cause.CONTIGENCY	19	vocation,	_	13	professionalità,	_	1	?	_	?	?	?
 15	ką	ką	Expansion.Level-of-detail.Arg2-as-detail	15	شيء،	_	1	?	_	1	?	_	1	?	_	19	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	18	what	_	_	_	13	ya	_	22	ce	_	15	cosa	_	1	?	_	16	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 16	reiškia	reiškia	_	?	?	?	1	?	_	1	?	_	1	?	_	18	--	_	?	?	?	?	?	15	perseverar	_	?	?	?	?	?	?	1	?	_	21	perseverança	_
-17	užsispyrimas,	užsispyrimas,	_	20	يبدو	_	1	?	_	1	?	_	1	?	_	18	--	_	19	doggedness	_	_	_	16	con	_	21	regarder	_	21	livello	_	1	?	_	21	perseverança	_
+17	užsispyrimas,	užsispyrimas,	_	20	يبدو	_	1	?	_	1	?	_	1	?	_	18	--	_	19	doggedness	_	_	_	15	perseverar	_	21	regarder	_	21	livello	_	1	?	_	21	perseverança	_
 18	kai	kai	Temporal.Synchronous	25	من	_	1	?	_	1	?	_	1	?	_	?	?	?	17	at	_	_	_	19	de	_	?	?	?	22	di	_	1	?	_	25	de	_
 19	reikia	reikia	_	22	الإصرار	_	1	?	_	1	?	_	1	?	_	26	Grad	_	23	this	_	result.Cause.CONTIGENCY	_	20	exactitud,	_	25	l'obstination	_	21	livello	_	1	?	_	12	em	_
 20	tokio	tokio	_	22	الإصرار	_	1	?	_	1	?	_	1	?	_	25	diesem	_	24	level	_	_	_	20	exactitud,	_	24	quoi	_	21	livello	_	1	?	_	23	este	_
@@ -612,8 +612,8 @@
 # sent_id = 132956
 # text:  Bet likau ten, nes suvokiau, kad stebiu kai ką kas retai pastebima: skirtumą tarp sėkmės ir meistriškumo.
 # trans: Mas eu fiquei ali porque percebi que estava a assistir a uma coisa rara de observar, essa diferença entre êxito e mestria.
-# forward_log_prob: -72.37837737218719
-# backward_log_prob: -57.93391007862634
+# forward_log_prob: -72.37773842727559
+# backward_log_prob: -57.95668505382027
 1	Bet	Bet	Comparison.Concession.Arg2-as-denier	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	likau	likau	_	2	لكني	_	1	?	_	1	?	_	1	?	_	3	blieb,	_	2	I	_	_	_	2	me	_	?	?	?	2	rimasi	_	1	?	_	2	eu	_
 3	ten,	ten,	_	3	بقيت	_	1	?	_	1	?	_	1	?	_	3	blieb,	_	3	stayed	_	_	_	3	quedé	_	3	suis	_	6	ero	_	1	?	_	3	fiquei	_
@@ -635,8 +635,8 @@
 # sent_id = 132957
 # text:  Sėkmė yra pataikyti į dešimtuką taikinyje, o meistriškumas yra žinojimas, kad sėkmė nieko nereiškia,
 # trans: O êxito é acertar naquele décimo anel, mas a mestria é saber que isso não significa nada se não se conseguir voltar a fazê-lo vezes sem conta.
-# forward_log_prob: -95.27873122884839
-# backward_log_prob: -49.72638688014359
+# forward_log_prob: -95.27856025041778
+# backward_log_prob: -49.72786791788254
 1	Sėkmė	Sėkmė	_	1	إذن	_	1	?	_	1	?	_	1	?	_	1	Erfolg	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	El	_	1	Le	_	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	?	_	2	êxito	_
 2	yra	yra	_	3	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	also,	_	3	is	_	_	_	3	es	_	3	c'est	_	4	è	_	1	?	_	3	é	_
 3	pataikyti	pataikyti	_	5	لوحة	_	1	?	_	1	?	_	1	?	_	10	treffen,	_	6	ten	_	_	_	4	acertar	_	6	cercle	_	5	colpire	_	1	?	_	4	acertar	_
@@ -655,8 +655,8 @@
 # sent_id = 132958
 # text:  jeigu ji nepasikartoja vėl ir vėl.
 # trans: Mas mestria não é a mesma coisa que excelência.
-# forward_log_prob: -26.436466323064934
-# backward_log_prob: -21.613660394851838
+# forward_log_prob: -26.43729892724963
+# backward_log_prob: -21.614402193035396
 1	jeigu	jeigu	Contingency.Negative-condition.Arg2-as-negcond	5	بالضبط	_	1	?	_	1	?	_	1	?	_	3	allerdings	Concession.COMPARISON|Contrast.COMPARISON	2	is	_	_	_	1	La	_	4	cependant	Exception.EXPANSION	3	comunque,	_	1	?	_	6	mesma	_
 2	ji	ji	_	5	بالضبط	_	1	?	_	1	?	_	1	?	_	3	allerdings	Concession.COMPARISON|Contrast.COMPARISON	4	just	_	_	_	3	no	_	4	cependant	Exception.EXPANSION	3	comunque,	_	1	?	_	6	mesma	_
 3	nepasikartoja	nepasikartoja	_	2	التفوق	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	6	same	_	_	_	2	maestría	_	2	maîtrise	_	2	maestria,	_	1	?	_	6	mesma	_
@@ -667,8 +667,8 @@
 # sent_id = 132959
 # text:  Mesitriškumas ne tas pats kas sėkmė, kurią aš apibrėžiu kaip įvykį, momentą laike, etiketę, kurią tau prisega pasaulis.
 # trans: Não é a mesma coisa que êxito, que eu considero como um incidente, um dado momento no tempo. e um rótulo que o mundo nos atribui.
-# forward_log_prob: -85.27145480623105
-# backward_log_prob: -70.29779400954995
+# forward_log_prob: -85.27425941615954
+# backward_log_prob: -70.27641407981272
 1	Mesitriškumas	vėl.Mesitriškumas	_	1	إنه	_	1	?	_	1	?	_	1	?	_	5	gleiche	_	4	same	_	_	_	?	?	?	1	Ce	_	?	?	?	1	?	_	?	?	?
 2	ne	ne	_	2	ليس	_	1	?	_	1	?	_	1	?	_	3	nicht	_	2	not	_	_	_	1	No	_	3	pas	_	1	Non	_	1	?	_	1	Não	_
 3	tas	tas	_	3	مطابقاً	_	1	?	_	1	?	_	1	?	_	6	wie	COMPARISON|Synchronous.TEMPORAL	5	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	4	mismo	_	?	?	?	3	come	EXPANSION|Synchronous.TEMPORAL	1	?	_	10	considero	_
@@ -691,8 +691,8 @@
 # sent_id = 132960
 # text:  Meistriškumas nėra tikslo užsibrėžimas, meistriškumas yra nuolatinis siekis.
 # trans: A mestria não é o empenhamento numa meta mas uma busca permanente.
-# forward_log_prob: -34.88350918067346
-# backward_log_prob: -26.42854950888835
+# forward_log_prob: -34.884062216089774
+# backward_log_prob: -26.4282523545468
 1	Meistriškumas	Meistriškumas	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	1	A	_
 2	nėra	nėra	_	3	ليس	_	1	?	_	1	?	_	1	?	_	2	ist	_	4	a	_	_	_	3	no	_	4	pas	_	3	non	_	1	?	_	3	não	_
 3	tikslo	tikslo	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	4	die	_	5	commitment	_	_	_	5	lograr	_	3	n'est	_	6	devozione	_	1	?	_	6	empenhamento	_
@@ -705,8 +705,8 @@
 # sent_id = 132961
 # text:  O jis įgyvendinamas, jo esmė išryškėja, ėmus vertinti beveik pasiektą pergalę.
 # trans: O que nos leva a fazer isso, o que nos leva a avançar cada vez mais é valorizar a quase vitória.
-# forward_log_prob: -62.09158021454245
-# backward_log_prob: -43.3295236727416
+# forward_log_prob: -62.09302098544746
+# backward_log_prob: -43.32535693227733
 1	O	O	Expansion.Level-of-detail.Arg2-as-detail	2	يدفعنا	_	1	?	_	1	?	_	1	?	_	4	bringt,	_	?	?	?	?	?	1	Lo	_	4	amène	_	6	farlo,	_	1	?	_	1	O	_
 2	jis	jis	_	1	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	bringt,	_	4	to	_	_	_	2	que	_	5	à	specification.Restatement.EXPANSION	2	che	_	1	?	_	2	que	_
 3	įgyvendinamas,	įgyvendinamas,	_	2	يدفعنا	_	1	?	_	1	?	_	1	?	_	1	Was	_	1	What	_	_	_	3	nos	_	1	Ce	_	1	Ciò	_	1	?	_	3	nos	_
@@ -722,8 +722,8 @@
 # sent_id = 132962
 # text:  Kiek daug kartų mes pavadiname ką nors klasika, netgi šedevru, tuo metu, kai kūrėjas darbą laiko beviltiškai neišbaigtu, kupinu bėdų ir trūkumų, kitaip tariant, dar nepasiekta pergale?
 # trans: Quantas vezes classificamos uma coisa como um clássico, uma obra-prima até, enquanto o seu criador a considera irremediavelmente incompleta, cheia de dificuldades e de falhas, por outras palavras, uma quase vitória?
-# forward_log_prob: -110.16290346860696
-# backward_log_prob: -109.46056981861445
+# forward_log_prob: -110.16081657965043
+# backward_log_prob: -109.46475732423163
 1	Kiek	Kiek	_	1	كم	_	1	?	_	1	?	_	1	?	_	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	3	no	_	1	Combien	_	1	Quante	_	1	?	_	?	?	?
 2	daug	daug	_	3	رمزنا	_	1	?	_	1	?	_	1	?	_	2	oft	_	3	times	_	_	_	2	veces	_	4	avons-nous	_	2	volte	_	1	?	_	3	classificamos	_
 3	kartų	kartų	_	2	مرة	_	1	?	_	1	?	_	1	?	_	2	oft	_	3	times	_	_	_	4	catalogamos	_	3	fois	_	1	Quante	_	1	?	_	1	Quantas	_
@@ -755,8 +755,8 @@
 # sent_id = 132963
 # text:  Mane nustebino E. Murray prisipažinimas apie tai, ką ji mano apie savo ankstyvuosius darbus.
 # trans: Elizabeth Murray surpreendeu-me com o seu reconhecimento sobre as suas primeiras pinturas.
-# forward_log_prob: -39.788025082636615
-# backward_log_prob: -43.501641243418035
+# forward_log_prob: -39.78017033781414
+# backward_log_prob: -43.503058245631095
 1	Mane	Mane	_	1	فاجأتني	_	1	?	_	1	?	_	1	?	_	4	mich	_	3	surprised	_	_	_	3	me	_	1	Elizabeth	_	3	mi	_	1	?	_	3	surpreendeu-me	_
 2	nustebino	nustebino	_	1	فاجأتني	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	surprised	_	_	_	?	?	?	1	Elizabeth	_	?	?	?	1	?	_	3	surpreendeu-me	_
 3	E.	E.	_	1	فاجأتني	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	surprised	_	_	_	?	?	?	3	m'a	_	?	?	?	1	?	_	3	surpreendeu-me	_
@@ -775,8 +775,8 @@
 # sent_id = 132964
 # text:  Tapytojas Paul Cézanne taip dažnai laikė savo darbus neišbaigtais, kad jis tikslingai atidėdavo juos šalin ketindamas grįžti prie jų vėliau, bet gyvenimo pabaigoje atsitiko taip, kad jis pasirašė tik ant 10 procentų savo darbų.
 # trans: O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar nelas outra vez mas, no fim da sua vida, o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas.
-# forward_log_prob: -189.752947130839
-# backward_log_prob: -139.9916005230136
+# forward_log_prob: -189.7497264104547
+# backward_log_prob: -140.00203289225186
 1	Tapytojas	Tapytojas	_	1	غالباً	_	1	?	_	1	?	_	1	?	_	2	Maler	_	1	Painter	_	_	_	1	Paul	_	3	Paul	_	3	Paul	_	1	?	_	2	pintor	_
 2	Paul	Paul	_	3	اعتقد	_	1	?	_	1	?	_	1	?	_	2	Maler	_	3	Cézanne	_	_	_	2	Cézanne	_	2	peintre	_	2	pittore	_	1	?	_	3	Paul	_
 3	Cézanne	Cézanne	_	3	اعتقد	_	1	?	_	1	?	_	1	?	_	4	Cézanne	_	5	often	_	Contrast.COMPARISON	_	3	generalmente	_	4	Cézanne	_	4	Cézanne	_	1	?	_	4	Cézanne	_
@@ -809,14 +809,14 @@
 30	ant	ant	_	33	على	_	1	?	_	1	?	_	1	?	_	36	zur	_	41	signed	_	_	_	?	?	?	37	est	_	33	il	_	1	?	_	46	das	_
 31	10	10	_	35	نسبته	_	1	?	_	1	?	_	1	?	_	36	zur	_	40	only	_	result.Cause.CONTIGENCY	_	33	10%	_	42	10%	_	41	dieci	_	1	?	_	42	assinado	_
 32	procentų	procentų	_	36	10%	_	1	?	_	1	?	_	1	?	_	39	seiner	_	43	percent	_	_	_	33	10%	_	42	10%	_	42	percento	_	1	?	_	45	cento	_
-33	savo	savo	_	39	لوحاته.	_	1	?	_	1	?	_	1	?	_	39	seiner	_	43	percent	_	_	_	35	sus	_	44	ses	_	44	suoi	_	1	?	_	47	suas	_
-34	darbų.	darbų.	_	?	?	?	1	?	_	1	?	_	1	?	_	32	hatte	_	46	paintings.	_	_	_	34	de	_	43	de	_	45	dipinti.	_	1	?	_	?	?	?
+33	savo	savo	_	39	لوحاته.	_	1	?	_	1	?	_	1	?	_	39	seiner	_	43	percent	_	_	_	35	sus	_	43	de	_	44	suoi	_	1	?	_	47	suas	_
+34	darbų.	darbų.	_	?	?	?	1	?	_	1	?	_	1	?	_	32	hatte	_	46	paintings.	_	_	_	34	de	_	45	peintures.	_	45	dipinti.	_	1	?	_	?	?	?
 
 # sent_id = 132965
 # text:  Jo mėgstamiausias romanas buvo O. Balzako „Nežinomas šedevras“, nes jis manė, kad romano protagonistas yra tarsi jis pats.
 # trans: O seu romance preferido era "A Obra-Prima Desconhecida" de Honoré de Balzac, e achava que o protagonista era o próprio pintor.
-# forward_log_prob: -67.34547388168957
-# backward_log_prob: -61.6781480942701
+# forward_log_prob: -67.34552157035083
+# backward_log_prob: -61.68221683103583
 1	Jo	Jo	_	3	المفضلة	_	1	?	_	1	?	_	1	?	_	1	Sein	_	1	His	_	_	_	1	Su	_	?	?	?	1	Il	_	1	?	_	1	O	_
 2	mėgstamiausias	mėgstamiausias	_	2	روايته	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	2	favorite	_	_	_	2	novela	_	1	Son	_	2	suo	_	1	?	_	2	seu	_
 3	romanas	romanas	_	2	روايته	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	3	novel	_	_	_	2	novela	_	3	préféré	_	3	romanzo	_	1	?	_	3	romance	_
@@ -839,8 +839,8 @@
 # sent_id = 132966
 # text:  F. Kafka neišbaigtais laikė tuo darbus, kuriuos kiti tiesiog garbindavo. Jo nuomonė buvo tokia tvirta, kad jis norėjo, jog visi dienoraščiai, rankraščiai ir eskizai jam mirus būtų sudeginti.
 # trans: Franz Kafka considerava incompleto o que outros consideravam obras dignas de elogio, de tal modo que queria que todos os seus diários, manuscritos, cartas e até mesmo rascunhos fossem queimados depois de ele morrer.
-# forward_log_prob: -124.14015520634793
-# backward_log_prob: -111.32085000270418
+# forward_log_prob: -124.14144373218025
+# backward_log_prob: -111.32958032528452
 1	F.	F.	_	2	رأى	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Franz	_	1	Franz	_	_	_	1	Franz	_	1	Frank	_	1	Franz	_	1	?	_	1	Franz	_
 2	Kafka	Kafka	_	2	رأى	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Franz	_	1	Franz	_	_	_	1	Franz	_	1	Frank	_	2	Kafka	_	1	?	_	2	Kafka	_
 3	neišbaigtais	neišbaigtais	_	13	فقط	_	1	?	_	1	?	_	1	?	_	7	seine	_	9	only	_	result.Cause.CONTIGENCY	_	4	incompletitud	_	5	l'imperfection	_	3	vedeva	_	1	?	_	3	considerava	_
@@ -851,8 +851,8 @@
 8	kiti	kiti	_	9	الآخرين	_	1	?	_	1	?	_	1	?	_	9	nur	Contrast.COMPARISON	6	others	_	_	_	8	veían	_	8	autres	_	8	vedevano	_	1	?	_	10	dignas	_
 9	tiesiog	tiesiog	_	11	يجدون	_	1	?	_	1	?	_	1	?	_	10	loben	_	12	praise,	_	_	_	10	dignas	_	12	éloges	_	8	vedevano	_	1	?	_	10	dignas	_
 10	garbindavo.	garbindavo.	_	11	يجدون	_	1	?	_	1	?	_	1	?	_	11	konnten,	_	12	praise,	_	_	_	10	dignas	_	12	éloges	_	12	elogiare,	_	1	?	_	12	elogio,	_
-11	Jo	Jo	_	16	كثيراً	_	1	?	_	1	?	_	1	?	_	?	?	?	11	to	_	_	_	14	que	_	13	à	specification.Restatement.EXPANSION	?	?	?	1	?	_	?	?	?
-12	nuomonė	nuomonė	_	14	كي	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	11	konnten,	_	12	praise,	_	_	_	12	alabanza	_	16	tel	_	14	tal	_	1	?	_	14	tal	_
+11	Jo	Jo	_	16	كثيراً	_	1	?	_	1	?	_	1	?	_	?	?	?	21	his	_	_	_	14	que	_	13	à	specification.Restatement.EXPANSION	?	?	?	1	?	_	?	?	?
+12	nuomonė	nuomonė	_	14	كي	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	11	konnten,	_	13	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	12	alabanza	_	16	tel	_	14	tal	_	1	?	_	14	tal	_
 13	buvo	buvo	_	17	حتى	_	1	?	_	1	?	_	1	?	_	12	so	_	8	find	_	_	_	11	de	_	17	point	_	11	da	_	1	?	_	13	de	_
 14	tokia	tokia	_	17	حتى	_	1	?	_	1	?	_	1	?	_	17	seine	_	20	of	_	_	_	11	de	_	17	point	_	15	punto	_	1	?	_	?	?	?
 15	tvirta,	tvirta,	_	19	أراد	_	1	?	_	1	?	_	1	?	_	16	all	_	15	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	result.Cause.CONTIGENCY	15	quiso	_	21	l'intégralité	_	15	punto	_	1	?	_	17	queria	_
@@ -873,8 +873,8 @@
 # sent_id = 132967
 # text:  Jo draugas atsisakė įvykdyti šį prašymą ir todėl dabar mes turime visus Kafkos darbus. „Amerika“, „Procesas“ ir „Pilis“ yra tokie nebaigti, kad net nutrūksta sakinio vidury.
 # trans: O seu amigo recusou-se a cumprir esse pedido e, por causa disso, temos todas as obras de Kafka que temos hoje: "América", "O Veredito" e "O Castelo", uma obra tão incompleta que até termina a meio duma frase.
-# forward_log_prob: -140.42616389359372
-# backward_log_prob: -101.01272299148097
+# forward_log_prob: -140.42816457110172
+# backward_log_prob: -101.02602074233042
 1	Jo	Jo	_	3	أن	_	1	?	_	1	?	_	1	?	_	1	Sein	_	1	His	_	_	_	2	amigos	_	1	Ses	_	2	suo	_	1	?	_	1	O	_
 2	draugas	draugas	_	1	رفض	_	1	?	_	1	?	_	1	?	_	2	Freund	_	2	friend	_	_	_	2	amigos	_	2	amis	_	1	Un	_	1	?	_	3	amigo	_
 3	atsisakė	atsisakė	_	4	ينفذ	_	1	?	_	1	?	_	1	?	_	3	lehnte	_	5	honor	_	_	_	4	negaron	_	5	d'honorer	_	4	si	_	1	?	_	4	recusou-se	_
@@ -905,8 +905,8 @@
 # sent_id = 132968
 # text:  Kitaip tariant, meistriškumo siekis yra veik nesiliaujantis judėjimas primyn.
 # trans: Por outras palavras, a busca da mestria, é quase de avanço perpétuo.
-# forward_log_prob: -32.468564784611836
-# backward_log_prob: -27.96935577977217
+# forward_log_prob: -32.46744809362572
+# backward_log_prob: -27.970566104222037
 1	Kitaip	Kitaip	_	2	السعي	_	1	?	_	1	?	_	1	?	_	2	Verfolgung	_	6	other	_	_	_	7	otras	_	7	d'autres	_	1	In	_	1	?	_	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	tariant,	tariant,	_	2	السعي	_	1	?	_	1	?	_	1	?	_	5	mit	_	5	in	_	_	_	7	otras	_	3	de	_	2	altre	_	1	?	_	3	palavras,	_
 3	meistriškumo	meistriškumo	_	1	إن	_	1	?	_	1	?	_	1	?	_	4	Meisterschaft,	_	3	of	_	_	_	1	La	_	1	La	_	7	maestria	_	1	?	_	4	a	_
@@ -920,8 +920,8 @@
 # sent_id = 132969
 # text:  „Viešpatie, padaryk taip, kad norėčiau daugiau, nei galiu pasiekti“ – maldavo Mikelandželas. tarsi kreipdamasis į Senojo Testamento Dievą Siksto koplyčioje, o jis pats buvo tarsi tas Adomas, ištiesęs pirštą, ir vos ne palytintis Dievo ranką.
 # trans: "Senhor, concedei-me que eu deseje "mais do que aquilo que consigo realizar", implorava Miguel Ângelo, como se fosse àquele Deus do Antigo Testamento na Capela Sistina, e ele fosse aquele Adão com o dedo esticado e sem conseguir tocar na mão daquele Deus.
-# forward_log_prob: -164.54194488590795
-# backward_log_prob: -141.20433705521265
+# forward_log_prob: -164.5434880416655
+# backward_log_prob: -141.21552439987747
 1	„Viešpatie,	„Viešpatie,	_	1	"إلهي،	_	1	?	_	1	?	_	1	?	_	1	"Gott,	_	1	"Lord,	_	_	_	1	"Señor,	_	2	Dieu,	_	1	"Signore,	_	1	?	_	1	"Senhor,	_
 2	padaryk	padaryk	_	2	أعط	_	1	?	_	1	?	_	1	?	_	2	gib,	_	2	grant	_	_	_	2	concédeme	_	3	accordez-moi	_	1	"Signore,	_	1	?	_	2	concedei-me	_
 3	taip,	taip,	_	3	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	?	?	?	2	grant	_	_	_	3	el	_	19	dans	_	2	fa'	_	1	?	_	?	?	?
@@ -961,8 +961,8 @@
 # sent_id = 132970
 # text:  Meistriškumas glūdi siekime, ne pasiekime.
 # trans: A mestria está em atingir, não em chegar.
-# forward_log_prob: -18.061803945659236
-# backward_log_prob: -14.409076494343886
+# forward_log_prob: -18.061906633904933
+# backward_log_prob: -14.408386639058822
 1	Meistriškumas	Meistriškumas	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	1	A	_
 2	glūdi	glūdi	_	3	يوجد	_	1	?	_	1	?	_	1	?	_	2	ist	_	3	in	_	_	_	4	el	_	3	se	_	3	è	_	1	?	_	3	está	_
 3	siekime,	siekime,	_	4	باللحاق،	_	1	?	_	1	?	_	1	?	_	4	Streben,	_	5	reaching,	_	_	_	5	buscar,	_	7	voyage	_	4	l'avvicinarsi,	_	1	?	_	5	atingir,	_
@@ -972,8 +972,8 @@
 # sent_id = 132971
 # text:  Tai nuolatinis noras užpildyti tarpą tarp to, kur esi, ir to, kur nori būti.
 # trans: Está em querer permanentemente preencher o fosso entre onde estamos e onde queremos estar.
-# forward_log_prob: -42.85655194193496
-# backward_log_prob: -40.960308897639706
+# forward_log_prob: -42.85762491943034
+# backward_log_prob: -40.97133095758773
 1	Tai	Tai	_	1	إنه	_	1	?	_	1	?	_	1	?	_	1	Es	_	1	It's	_	_	_	1	Es	_	4	dans	_	1	È	_	1	?	_	2	em	_
 2	nuolatinis	nuolatinis	_	2	بالطلب	_	1	?	_	1	?	_	1	?	_	2	ist	_	3	constantly	_	_	_	2	la	_	6	désir	_	2	costantemente	_	1	?	_	3	querer	_
 3	noras	noras	_	1	إنه	_	1	?	_	1	?	_	1	?	_	5	Wunsch,	_	4	wanting	_	_	_	6	cerrar	_	5	le	_	3	voler	_	1	?	_	1	Está	_
@@ -992,8 +992,8 @@
 # sent_id = 132972
 # text:  Meistriškumas reiškia aukojimąsi savo amatui, ne karjeros siekimą.
 # trans: A mestria é sacrificarmo-nos pela nossa arte e não pelo amor de traçar a nossa carreira.
-# forward_log_prob: -49.81565600793314
-# backward_log_prob: -27.433817582204526
+# forward_log_prob: -49.81431197830754
+# backward_log_prob: -27.43737206074538
 1	Meistriškumas	Meistriškumas	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	?	1	A	_
 2	reiškia	reiškia	_	5	التضحية	_	1	?	?	1	?	?	1	?	?	4	geht	_	3	about	_	_	_	4	sacrificarse	_	5	sacrifier	_	7	propria	_	1	?	?	3	é	_
 3	aukojimąsi	aukojimąsi	_	4	عن	_	1	?	?	1	?	?	1	?	?	5	darum,	_	6	your	_	_	_	4	sacrificarse	_	3	c'est	_	4	sacrificarsi	_	1	?	?	4	sacrificarmo-nos	_
@@ -1006,8 +1006,8 @@
 # sent_id = 132973
 # text:  Kiek išradėjų ir nežinomų antreprenerių patiria šį reiškinį?
 # trans: Quantos inventores e empresários desconhecidos vivem este fenómeno?
-# forward_log_prob: -21.166494600446967
-# backward_log_prob: -19.164419967930392
+# forward_log_prob: -21.167214601968226
+# backward_log_prob: -19.17950118408444
 1	Kiek	Kiek	_	1	كم	_	1	?	?	1	?	?	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿Cuántos	_	1	Combien	_	1	Quanti	_	1	?	?	1	Quantos	_
 2	išradėjų	išradėjų	_	3	المخترعين	_	1	?	?	1	?	?	1	?	?	2	viele	_	2	many	_	_	_	2	inventores	_	2	d'inventeurs	_	2	inventori	_	1	?	?	2	inventores	_
 3	ir	ir	_	4	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	4	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	y	_	3	et	Conjunction.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	3	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -1020,8 +1020,8 @@
 # sent_id = 132974
 # text:  Jį pastebime netgi nesutramdomo Arkties tyrinėtojo Ben Saunders gyvenime, kuris man sakė, kad jo pergalės nėra šiaip tik nuostabaus pasiekimo rezultatas, bet beveik pasiektų pergalių sekos suteiktas impulsas.
 # trans: Vemos isso até na vida do indomável explorador do Ártico, Ben Saunders, que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha, mas da propulsão duma série de quase vitórias.
-# forward_log_prob: -132.4438819897534
-# backward_log_prob: -113.44413374467145
+# forward_log_prob: -132.4396819021291
+# backward_log_prob: -113.38249804056548
 1	Jį	Jį	_	1	نراها	_	1	?	?	1	?	?	1	?	?	8	unbezwingbaren	_	3	it	_	_	_	?	?	?	?	?	?	?	?	?	1	?	?	?	?	?
 2	pastebime	pastebime	_	1	نراها	_	1	?	?	1	?	?	1	?	?	8	unbezwingbaren	_	8	of	_	_	_	1	Vemos	_	?	?	?	15	i	_	1	?	?	17	os	_
 3	netgi	netgi	_	2	حتى	_	1	?	?	1	?	?	1	?	?	7	des	_	4	even	_	_	_	3	incluso	_	1	Nous	_	1	Lo	_	1	?	?	3	até	_
@@ -1054,8 +1054,8 @@
 # sent_id = 132975
 # text:  Mes atsiskleidžiame, kai laikomės savo potencialo pirmagalyje.
 # trans: Evoluímos quando nos mantemos na nossa vanguarda.
-# forward_log_prob: -19.45569999444384
-# backward_log_prob: -19.68482219426539
+# forward_log_prob: -19.455765286637046
+# backward_log_prob: -19.68982561890143
 1	Mes	Mes	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	?	?	?	1	Nous	_	1	Noi	_	1	?	?	1	Evoluímos	_
 2	atsiskleidžiame,	atsiskleidžiame,	_	2	نزدهر	_	1	?	?	1	?	?	1	?	?	2	haben	_	2	thrive	_	_	_	1	Progresamos	_	2	prospérons	_	2	prosperiamo	_	1	?	?	1	Evoluímos	_
 3	kai	kai	Temporal.Synchronous	2	نزدهر	_	1	?	?	1	?	?	1	?	?	4	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	3	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	2	cuando	TEMPORAL	2	prospérons	_	3	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	2	quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
@@ -1067,8 +1067,8 @@
 # sent_id = 132976
 # text:  Šią išmintį suprato Duke Ellington, kai teigė, kad mėgstamiausia jo repertuaro daina visad buvo ta, kurią buvo tuoj beparašąs, visada ta, kurią dar ketino sukurti.
 # trans: É uma sabedoria que Duke Ellington percebia, quando disse que a canção preferida do seu repertório era sempre a seguinte, sempre aquela que ele ainda ia compor.
-# forward_log_prob: -91.66051703423129
-# backward_log_prob: -92.76254148077815
+# forward_log_prob: -91.66182614527608
+# backward_log_prob: -92.76773270363061
 1	Šią	Šią	_	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Eine	_	3	wisdom	_	_	_	3	sabiduría	_	1	C'est	_	3	verità	_	1	?	?	3	sabedoria	_
 2	išmintį	išmintį	_	2	حكمة	_	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	3	wisdom	_	_	_	2	una	_	2	une	_	3	verità	_	1	?	?	3	sabedoria	_
 3	suprato	suprato	_	3	التقطها	_	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	4	understood	_	_	_	3	sabiduría	_	3	sagesse	_	3	verità	_	1	?	?	3	sabedoria	_
@@ -1098,8 +1098,8 @@
 # sent_id = 132977
 # text:  Tai, kad beveik pasiekta pergalė yra neatsiejama meistriškumo dalis, yra dėl to, kad kuo didesnis mūsų įgudimas, tuo aiškiau mes galime pamatyti, kad nežinome tiek, kiek manėme žinantys.
 # trans: Parte da razão por que a quase vitória está entranhada na mestria é porque, quanto maior for a nossa capacidade, mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber.
-# forward_log_prob: -116.33656918596182
-# backward_log_prob: -102.60587035418213
+# forward_log_prob: -116.33804036096804
+# backward_log_prob: -102.61555989352587
 1	Tai,	Tai,	_	5	في	_	1	?	?	1	?	?	1	?	?	?	?	?	2	of	_	_	_	8	en	_	?	?	?	4	per	result.Cause.CONTIGENCY	1	?	?	?	?	?
 2	kad	kad	_	6	أن	_	1	?	?	1	?	?	1	?	?	1	Dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	5	that	_	_	_	2	de	_	4	pour	specification.Restatement.EXPANSION	4	per	result.Cause.CONTIGENCY	1	?	?	5	que	_
 3	beveik	beveik	_	8	الوشيك	_	1	?	?	1	?	?	1	?	?	2	Beinahe-Erfolg	_	7	near	_	_	_	6	casi	_	7	victoire	_	7	quasi-vittoria	_	1	?	?	7	quase	_
@@ -1132,8 +1132,8 @@
 # sent_id = 132978
 # text:  Tai vadinama Dunning-Kruger efektu.
 # trans: Chama-se o efeito Dunning-Kruger.
-# forward_log_prob: -9.749809769161914
-# backward_log_prob: -8.658473592346752
+# forward_log_prob: -9.749944760569361
+# backward_log_prob: -8.658680599679778
 1	Tai	Tai	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	2	called	_	_	_	2	le	_	1	Cela	_	1	È	_	1	?	?	1	Chama-se	_
 2	vadinama	vadinama	_	2	هذا	_	1	?	?	1	?	?	1	?	?	2	nennt	_	1	It's	_	_	_	1	Se	_	2	s'appelle	_	2	chiamato	_	1	?	?	1	Chama-se	_
 3	Dunning-Kruger	Dunning-Kruger	_	6	دننج	_	1	?	?	1	?	?	1	?	?	4	den	_	4	Dunning–Kruger	_	_	_	5	efecto	_	3	l'effet	_	3	effetto	_	1	?	?	3	efeito	_
@@ -1142,8 +1142,8 @@
 # sent_id = 132979
 # text:  „Paris Review“ tai išgirdo iš James Baldwin, kai jo paklausė: „Ko, jūsų manymu, padaugėja, daugėjant žinioms?“
 # trans: O Paris Review foi buscá-lo a James Baldwin quando lhe perguntaram: "O que é que aumenta com o conhecimento?"
-# forward_log_prob: -57.529166172211575
-# backward_log_prob: -57.60613530870688
+# forward_log_prob: -57.53051145748359
+# backward_log_prob: -57.604814843110795
 1	„Paris	„Paris	_	1	علمت	_	1	?	?	1	?	?	1	?	?	2	Paris	_	2	Paris	_	_	_	1	James	_	1	Paris	_	2	"Paris	_	1	?	?	1	O	_
 2	Review“	Review“	_	2	باريس	_	1	?	?	1	?	?	1	?	?	2	Paris	_	2	Paris	_	_	_	2	Baldwin,	_	2	Review	_	2	"Paris	_	1	?	?	2	Paris	_
 3	tai	tai	_	4	ذلك	_	1	?	?	1	?	?	1	?	?	1	Die	_	5	it	_	_	_	4	le	_	5	de	_	?	?	?	1	?	?	1	O	_
@@ -1164,8 +1164,8 @@
 # sent_id = 132980
 # text:  Jis atsakė: „Sužinai, kiek mažai žinai.“
 # trans: e ele disse: "Aprendemos quão pouco sabemos".
-# forward_log_prob: -18.027886636251914
-# backward_log_prob: -16.67469562221445
+# forward_log_prob: -18.02809735734047
+# backward_log_prob: -16.67382092502004
 1	Jis	Jis	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	er	_	2	he	_	_	_	1	respondió	_	10	à	specification.Restatement.EXPANSION	2	lui	_	1	?	?	2	ele	_
 2	atsakė:	atsakė:	_	2	قال،"أنتم	_	1	?	?	1	?	?	1	?	?	3	antwortete:	_	1	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	"Aprender	_	9	apprenez	_	3	rispose:	_	1	?	?	1	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 3	„Sužinai,	„Sužinai,	_	3	تتعلمون	_	1	?	?	1	?	?	1	?	?	3	antwortete:	_	4	"You	_	_	_	4	sabes	_	7	«	_	4	"Capisci	_	1	?	?	3	disse:	_
@@ -1176,8 +1176,8 @@
 # sent_id = 132981
 # text:  Sėkmė mus motyvuoja, bet beveik pasiekta pergalė skatina mus leistis į nuolatinius ieškojimus.
 # trans: O êxito motiva-nos, mas uma quase vitória pode impelir-nos numa busca incessante.
-# forward_log_prob: -34.66707978385343
-# backward_log_prob: -40.32935544281041
+# forward_log_prob: -34.66725930873072
+# backward_log_prob: -40.330030533890685
 1	Sėkmė	Sėkmė	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Erfolg	_	1	Success	_	_	_	1	El	_	2	Le	_	1	Il	_	1	?	?	1	O	_
 2	mus	mus	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	motiviert	_	2	motivates	_	_	_	4	motiva,	_	1	»	_	4	motiva,	_	1	?	?	3	motiva-nos,	_
 3	motyvuoja,	motyvuoja,	_	3	يحفزنا،	_	1	?	?	1	?	?	1	?	?	2	motiviert	_	2	motivates	_	_	_	3	nos	_	4	nous	_	3	ci	_	1	?	?	3	motiva-nos,	_
@@ -1195,8 +1195,8 @@
 # sent_id = 132982
 # text:  Vieną iš ryškiausių to pavyzdžių pastebime, kai žvelgiame į skirtumą tarp olimpinio sidabro laimėtojų ir bronzos laimėtojų rungtynėms pasibaigus.
 # trans: Um dos exemplos mais vivos disso aparece quando olhamos para a diferença entre os "medalhas de prata" olímpicos e os "medalhas de bronze" depois duma competição.
-# forward_log_prob: -90.52052919865264
-# backward_log_prob: -67.97377272087459
+# forward_log_prob: -90.5177721842479
+# backward_log_prob: -67.98013245846874
 1	Vieną	Vieną	_	1	واحد	_	1	?	?	1	?	?	1	?	?	1	Eines	_	1	One	_	_	_	?	?	?	1	Un	_	?	?	?	1	?	?	1	Um	_
 2	iš	iš	_	2	من	_	1	?	?	1	?	?	1	?	?	2	der	_	3	the	_	_	_	2	de	_	2	des	_	1	Uno	_	1	?	?	2	dos	_
 3	ryškiausių	ryškiausių	_	1	واحد	_	1	?	?	1	?	?	1	?	?	4	Beispiele	_	4	most	_	_	_	1	Uno	_	4	les	_	2	degli	_	1	?	?	3	exemplos	_
@@ -1220,12 +1220,12 @@
 # sent_id = 132983
 # text:  Thomas Gilovich ir jo komanda Kornelio universitete tyrė šį skirtumą ir padarė išvadą, kad nusivylimas, kurį jaučia sidabro laimėtojai, palyginus su bronzos laimėtojais, kurie įprastai laimingesni, nes neliko ketvirti ir visai be medalių, jiems suteikia akstiną susitelkti į tolesnes rungtynes.
 # trans: Thomas Gilovich e a sua equipa da Universidade de Cornell estudaram esta diferença e descobriram que a frustração que os "medalhas de prata" sentem. comparada com a dos "de bronze", que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha, dá aos "medalhas de prata" uma concentração na competição seguinte.
-# forward_log_prob: -234.37289473999957
-# backward_log_prob: -173.9228199501362
+# forward_log_prob: -234.3704148355899
+# backward_log_prob: -173.94448886717333
 1	Thomas	Thomas	_	2	ثوماس	_	1	?	?	1	?	?	1	?	?	1	Thomas	_	1	Thomas	_	_	_	1	Thomas	_	1	Thomas	_	1	Thomas	_	1	?	?	1	Thomas	_
 2	Gilovich	Gilovich	_	2	ثوماس	_	1	?	?	1	?	?	1	?	?	2	Gilovich	_	2	Gilovich	_	_	_	2	Gilovich	_	2	Gilovich	_	2	Gilovich	_	1	?	?	2	Gilovich	_
 3	ir	ir	_	4	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	3	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	y	_	3	et	Conjunction.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	3	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
-4	jo	jo	_	15	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	sein	_	4	his	_	_	_	4	su	_	6	de	_	4	il	_	1	?	?	9	de	_
+4	jo	jo	_	15	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	sein	_	4	his	_	_	_	4	su	_	?	?	?	4	il	_	1	?	?	9	de	_
 5	komanda	komanda	_	7	جامعة	_	1	?	?	1	?	?	1	?	?	7	Cornell	_	7	Cornell	_	_	_	7	Cornell	_	7	Cornell	_	9	ha	_	1	?	?	6	equipa	_
 6	Kornelio	Kornelio	_	7	جامعة	_	1	?	?	1	?	?	1	?	?	6	aus	_	5	team	_	_	_	8	estudiaron	_	9	étudié	_	8	Cornell	_	1	?	?	7	da	_
 7	universitete	universitete	_	8	كورنل	_	1	?	?	1	?	?	1	?	?	8	untersuchten	_	8	studied	_	_	_	12	encontraron	_	9	étudié	_	8	Cornell	_	1	?	?	10	Cornell	_
@@ -1266,8 +1266,8 @@
 # sent_id = 132984
 # text:  Tai matome netgi ir lošimų industrijoje, kuri kažkada pastebėjo šį reiškinį – beveik pasiektą pergalę – ir sugalvojo nutrinamus bilietus, kurių laimėjimo tikimybė buvo didesnė nei vidutinė, šitaip priversdama žmones pirkti daugiau bilietų. Tuos bilietus vadino „peiliu širdžiai“ ir dėl to lošimų industrija buvo apkaltinta piktnaudžiavimu 1970-ųjų Britanijoje.
 # trans: Vemos isso, até na indústria do jogo, que, em tempos, se apercebeu deste fenómeno da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam "heart-stoppers", e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha, nos anos 70.
-# forward_log_prob: -246.30618584218718
-# backward_log_prob: -207.67633714059298
+# forward_log_prob: -246.30357752310974
+# backward_log_prob: -207.68020617119896
 1	Tai	Tai	_	3	ذلك	_	1	?	?	1	?	?	1	?	?	3	es	_	?	?	?	?	?	4	en	_	2	le	_	?	?	?	1	?	?	?	?	?
 2	matome	matome	_	1	إننا	_	?	?	?	?	?	?	?	?	?	2	sehen	_	2	see	_	_	_	1	Vemos	_	1	On	_	2	vediamo	_	?	?	?	1	Vemos	_
 3	netgi	netgi	_	4	حتى	_	?	?	?	?	?	?	?	?	?	1	Wir	_	1	We	_	_	_	3	incluso	_	4	également	COMPARISON	1	Lo	_	?	?	?	3	até	_
@@ -1320,8 +1320,8 @@
 # sent_id = 132985
 # text:  Priežastis, dėl kurios beveik pasiekta pergalė suteikia impulsą, yra ta, kad tai pakeičia mūsų matymo horizontą ir priartina mūsų tikslus prie šiandienos.
 # trans: A razão por que a quase vitória tem propulsão é porque altera a nossa visão da paisagem e coloca as nossas metas, que temos a tendência para pôr à distância, muito mais próximas de onde estamos.
-# forward_log_prob: -134.26150607328015
-# backward_log_prob: -86.33973577416258
+# forward_log_prob: -134.2605920342385
+# backward_log_prob: -86.33753712938
 1	Priežastis,	Priežastis,	_	?	?	?	1	?	?	1	?	?	1	?	?	2	Grund,	_	2	reason	_	_	_	2	razón	_	2	raison	_	2	ragione	_	1	?	?	?	?	?
 2	dėl	dėl	_	3	في	_	1	?	?	1	?	?	1	?	?	1	Der	_	?	?	?	?	?	1	La	_	3	pour	specification.Restatement.EXPANSION	1	La	_	1	?	?	1	A	_
 3	kurios	kurios	_	5	للنجاح	_	1	?	?	1	?	?	1	?	?	7	antreibt,	_	6	has	_	_	_	4	porqué	_	4	laquelle	_	7	dona	_	1	?	?	8	tem	_
@@ -1332,7 +1332,7 @@
 8	impulsą,	impulsą,	_	10	أنه	_	1	?	?	1	?	?	1	?	?	9	darin,	_	12	changes	_	_	_	12	cambia	_	10	propulsion	_	11	cambia	_	1	?	?	12	altera	_
 9	yra	yra	_	9	هو	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	8	liegt	_	9	is	_	_	_	10	es	_	11	est	_	9	è	_	1	?	?	10	é	_
 10	ta,	ta,	_	17	التي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	11	er	_	17	landscape	_	_	_	18	cosas	_	8	a	_	15	del	_	1	?	?	17	paisagem	_
-11	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	?	1	?	?	1	?	?	10	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	?	?	15	de	_	23	que	_	22	che	_	1	?	?	23	que	_
+11	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	4	أن	_	1	?	?	1	?	?	1	?	?	10	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	?	?	?	?	?	15	de	_	23	que	_	22	che	_	1	?	?	23	que	_
 12	tai	tai	_	24	في	_	1	?	?	1	?	?	1	?	?	18	die	_	25	to	_	_	_	17	las	_	?	?	?	?	?	?	1	?	?	27	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 13	pakeičia	pakeičia	_	18	نميل	_	1	?	?	1	?	?	1	?	?	16	unsere	_	19	puts	_	_	_	20	pone	_	20	place	_	18	mette	_	1	?	?	19	coloca	_
 14	mūsų	mūsų	_	20	وضعها	_	1	?	?	1	?	?	1	?	?	16	unsere	_	20	our	_	_	_	22	metas,	_	24	nous	_	23	noi	_	1	?	?	22	metas,	_
@@ -1348,8 +1348,8 @@
 # sent_id = 132986
 # text:  Jeigu paprašyčiau įsivazduoti jūsų puikią dieną ateinančią savaitę, apibūdintumėte ją gan bendrais žodžiais.
 # trans: Se eu vos pedir para imaginarem como será um dia maravilhoso na próxima semana, poderão descrevê-lo em termos muito gerais.
-# forward_log_prob: -67.6769493059731
-# backward_log_prob: -45.0996859589999
+# forward_log_prob: -67.67713443116611
+# backward_log_prob: -45.099606845271595
 1	Jeigu	Jeigu	Contingency.Condition.Arg2-as-cond	1	إن	_	1	?	?	1	?	?	1	?	?	4	bitte,	_	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	les	_	4	demande	_	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	2	eu	_
 2	paprašyčiau	paprašyčiau	_	3	منك	_	1	?	?	1	?	?	1	?	?	3	Sie	_	3	ask	_	_	_	1	Si	TEMPORAL	3	vous	_	2	vi	_	1	?	?	1	Se	CONTIGENCY|Condition.CONTIGENCY
 3	įsivazduoti	įsivazduoti	_	5	تتخيل	_	1	?	?	1	?	?	1	?	?	?	?	?	6	envision	_	_	_	3	pidiera	_	5	d'envisager	_	3	chiedo	_	1	?	?	3	vos	_
@@ -1367,8 +1367,8 @@
 # sent_id = 132987
 # text:  Bet jeigu paprašyčiau apibūdinti, kaip atrodo puiki TED diena rytoj, apibūdintumėte ją detaliai ir praktiškai, aiškiai.
 # trans: Mas se eu pedir que descrevam um dia maravilhoso amanhã no TED, podem descrevê-lo com uma clareza granular, prática.
-# forward_log_prob: -61.29749070738613
-# backward_log_prob: -53.88901161194523
+# forward_log_prob: -61.29822571176054
+# backward_log_prob: -53.88205521489333
 1	Bet	Bet	Comparison.Contrast	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	?	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	jeigu	jeigu	Contingency.Condition.Arg2-as-cond	3	إن	_	1	?	?	1	?	?	1	?	?	5	bitte,	_	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	sería	_	2	si	Concession.COMPARISON|Condition.CONTIGENCY	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	3	eu	_
 3	paprašyčiau	paprašyčiau	_	4	طلبت	_	1	?	?	1	?	?	1	?	?	5	bitte,	_	4	ask	_	_	_	2	si	TEMPORAL	4	vous	_	3	vi	_	1	?	?	2	se	CONTIGENCY|Condition.CONTIGENCY
@@ -1389,8 +1389,8 @@
 # sent_id = 132988
 # text:  Taip ir su beveik pasiekta pergale.
 # trans: E é isso o que uma quase vitória faz.
-# forward_log_prob: -25.27957251867867
-# backward_log_prob: -20.481426806195337
+# forward_log_prob: -25.282005498475968
+# backward_log_prob: -20.485023024675492
 1	Taip	Taip	_	3	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	macht	_	?	?	?	?	?	2	esto	_	?	?	?	1	È	_	1	?	?	2	é	_
 2	ir	ir	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	?	?	?	1	?	?	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 3	su	su	_	2	هذا	_	1	?	?	1	?	?	1	?	?	2	macht	_	4	what	_	_	_	2	esto	_	2	c'est	_	2	questo	_	1	?	?	6	uma	_
@@ -1401,8 +1401,8 @@
 # sent_id = 132989
 # text:  Ji padeda susitelkti, į tai, ką būtent dabar ketiname daryti, kad įveiktume mums prieš akis stūksantį kalną.
 # trans: Leva-nos a concentrar-nos sobre o que, neste preciso momento, pretendemos fazer para abordar aquela montanha à nossa vista.
-# forward_log_prob: -59.70790971895771
-# backward_log_prob: -59.26560785970488
+# forward_log_prob: -59.70824902675404
+# backward_log_prob: -59.2667620274504
 1	Ji	Ji	_	3	نركز	_	1	?	?	1	?	?	1	?	?	2	lässt	_	2	gets	_	_	_	3	concentrarnos,	_	1	Elle	_	5	cosa	_	1	?	?	4	sobre	_
 2	padeda	padeda	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Er	_	1	It	_	_	_	1	Nos	_	2	nous	_	1	Ci	_	1	?	?	3	concentrar-nos	_
 3	susitelkti,	susitelkti,	_	3	نركز	_	1	?	?	1	?	?	1	?	?	4	auf	_	5	focus	_	_	_	3	concentrarnos,	_	4	à	specification.Restatement.EXPANSION	3	focalizzare	_	1	?	?	3	concentrar-nos	_
@@ -1424,8 +1424,8 @@
 # sent_id = 132990
 # text:  1984 m. Jackie Joyner-Kersee nepavyko laimėti septynkovės aukso vos per vieną trečdalį sekundės. Jos vyras nuspėjo, kad tai suteiks jai atkaklumo reikalingo tolesnėse varžybose.
 # trans: É Jackie Joyner-Kersee que, em 1984, não conseguiu o ouro no heptatlo por um terço de segundo, e o marido previu que isso lhe iria dar a tenacidade de que ela precisava na competição seguinte.
-# forward_log_prob: -125.8305729524151
-# backward_log_prob: -99.64788961514809
+# forward_log_prob: -125.82841328453114
+# backward_log_prob: -99.65288231925342
 1	1984	1984	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It's	_	_	_	2	Jackie	_	1	C'est	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	1	É	_
 2	m.	m.	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	5	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	4	nel	_	1	?	?	5	em	_
 3	Jackie	Jackie	_	3	جوينر	_	1	?	?	1	?	?	1	?	?	4	Joyner-Kersee,	_	3	Joyner-Kersee,	_	_	_	3	Joyner-Kersee,	_	4	qui,	_	3	Joyner-Kersee	_	1	?	?	3	Joyner-Kersee	_
@@ -1454,8 +1454,8 @@
 # sent_id = 132991
 # text:  1988 m. ji laimėjo septynkovės auksą ir pasiekė 7 291 taško rekordą. Nuo tada dar nė vienam atletui nepavyko net priartėti prie jo.
 # trans: Em 1988, ganhou o ouro no heptatlo e bateu o recorde com 7 291 pontos, uma pontuação de que, até aí, nenhuma atleta se tinha aproximado.
-# forward_log_prob: -91.66108270126966
-# backward_log_prob: -86.31295684942958
+# forward_log_prob: -91.66081058990565
+# backward_log_prob: -86.31942365090353
 1	1988	1988	_	1	وفي	TEMPORAL	1	?	?	1	?	?	1	?	?	1	1988	_	2	1988,	_	_	_	2	1988	_	2	1988,	_	2	1988	_	1	?	?	2	1988,	_
 2	m.	m.	_	?	?	?	1	?	?	1	?	?	1	?	?	4	Gold	_	1	In	_	_	_	1	En	_	1	En	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	1	Nel	_	1	?	?	1	Em	_
 3	ji	ji	_	?	?	?	1	?	?	1	?	?	1	?	?	3	sie	_	3	she	_	_	_	11	marca	_	3	elle	_	1	Nel	_	1	?	?	6	no	_
@@ -1483,8 +1483,8 @@
 # sent_id = 132992
 # text:  Sužydime ne tada, kai padarome viską, bet kada vis dar turime ką nuveikti.
 # trans: Não florescemos quando acabamos de fazer tudo, mas quando ainda temos mais para fazer.
-# forward_log_prob: -40.9112920354473
-# backward_log_prob: -42.27398841194603
+# forward_log_prob: -40.910187934164945
+# backward_log_prob: -42.27248989921961
 1	Sužydime	Sužydime	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Progresamos	_	1	Nous	_	1	Noi	_	1	?	?	2	florescemos	_
 2	ne	ne	_	3	ليس	_	1	?	?	1	?	?	1	?	?	3	keinen	_	3	not	_	_	_	2	no	_	2	ne	_	3	non	_	1	?	?	1	Não	_
 3	tada,	tada,	_	5	نقوم	_	1	?	?	1	?	?	1	?	?	5	wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	4	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	5	quand	Asynchronous.TEMPORAL|Condition.CONTIGENCY|specification.Restatement.EXPANSION	2	spingiamo	_	1	?	?	4	acabamos	_
@@ -1502,8 +1502,8 @@
 # sent_id = 132993
 # text:  Stoviu čia, galvoju ir stebiuosi visais tais įvairiais būdais, kuriais mes galėtume beveik pasiekti pergalę šioje auditorijoje, kas jūsų gyvenimuose galėtų nutikti, nes intuityviai jaučiu, kad ir jūs tai žinote.
 # trans: Estou aqui à vossa frente, a pensar e a imaginar todos os caminhos diferentes que podíamos trabalhar para uma quase vitória nesta sala, como as nossas vidas podiam acontecer porque penso que, cá dentro, sabemos isso.
-# forward_log_prob: -137.62338751165507
-# backward_log_prob: -119.03106095910958
+# forward_log_prob: -137.62667297250925
+# backward_log_prob: -119.03164613705766
 1	Stoviu	Stoviu	_	1	أقف	_	1	?	?	1	?	?	1	?	?	1	Ich	_	2	stand	_	_	_	1	Pienso	_	1	Je	_	1	Sono	_	1	?	?	1	Estou	_
 2	čia,	čia,	_	2	هنا	_	1	?	?	1	?	?	1	?	?	2	stehe	_	3	here	_	precedence.Asynchronous.TEMPORAL	_	2	e	_	2	me	_	2	qui	_	1	?	?	2	aqui	_
 3	galvoju	galvoju	_	3	أفكر	_	1	?	?	1	?	?	1	?	?	3	hier	_	3	here	_	precedence.Asynchronous.TEMPORAL	_	3	imagino	_	4	ici,	_	4	pensare	_	1	?	?	3	à	_
@@ -1538,8 +1538,8 @@
 # sent_id = 132994
 # text:  Žinome, kad sužydime, kai liekame mūsų potencialo smaigalyje, ir būtent todėl sąmoningai suvokiamas neišbaigtumas yra įskiepytas į sukūrimo mitus.
 # trans: Sabemos que florescemos quando nos situamos na nossa própria vanguarda, e é por isso que o incompleto deliberado está entranhado nos mitos da criação.
-# forward_log_prob: -81.07655826450778
-# backward_log_prob: -68.82493245945219
+# forward_log_prob: -81.07841406392369
+# backward_log_prob: -68.84139837061105
 1	Žinome,	Žinome,	_	2	نعلم	_	1	?	?	1	?	?	1	?	?	2	wissen,	_	2	know	_	_	_	1	Sabemos	_	2	savons	_	1	Sappiamo	_	1	?	?	1	Sabemos	_
 2	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	?	1	?	?	1	?	?	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	2	que	_	3	que	_	2	di	_	1	?	?	2	que	_
 3	sužydime,	sužydime,	_	4	نزدهر	_	1	?	?	1	?	?	1	?	?	4	wir	_	4	we	_	_	_	3	progresamos	_	4	nous	_	3	crescere	_	1	?	?	3	florescemos	_
@@ -1563,8 +1563,8 @@
 # sent_id = 132995
 # text:  Navahų kultūroje amatininkai ir moterys tikslingai palikdavo neišbaigtus tekstilės ir keramikos darbus.
 # trans: Na cultura navajo, alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas.
-# forward_log_prob: -54.33136887535143
-# backward_log_prob: -37.413247875744034
+# forward_log_prob: -54.33080199674782
+# backward_log_prob: -37.42807848796371
 1	Navahų	Navahų	_	2	ثقافة	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	2	Navajo	_	_	_	4	navajo,	_	4	Navajo,	_	3	Navajo,	_	1	?	?	3	navajo,	_
 2	kultūroje	kultūroje	_	1	في	_	1	?	?	1	?	?	1	?	?	1	In	_	1	In	_	_	_	1	En	_	1	Dans	_	1	Nella	_	1	?	?	1	Na	_
 3	amatininkai	amatininkai	_	3	النافاجو،	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	4	some	_	_	_	4	navajo,	_	4	Navajo,	_	3	Navajo,	_	1	?	?	4	alguns	_
@@ -1581,8 +1581,8 @@
 # sent_id = 132996
 # text:  Tai vadinama sielos linija, tikslingai paliktu trūkumu rašte, kad audėjas ar koks kitas amatininkas turėtų ir išeitį, ir priežastį tęsti pradėtą darbą.
 # trans: Chamavam-lhe uma linha de espírito, um defeito deliberado no desenho para dar ao tecelão ou ao artesão uma saída, mas também uma razão para continuar a trabalhar.
-# forward_log_prob: -94.47894670603273
-# backward_log_prob: -80.78621807136179
+# forward_log_prob: -94.47570098906579
+# backward_log_prob: -80.78898559961561
 1	Tai	Tai	_	?	?	?	1	?	?	1	?	?	1	?	?	3	man	_	3	called	_	_	_	2	lo	_	6	un	_	3	la	_	1	?	?	?	?	?
 2	vadinama	vadinama	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	1	It's	_	_	_	4	se	_	2	appelé	_	2	chiamata	_	1	?	?	3	linha	_
 3	sielos	sielos	_	1	إنه	_	1	?	?	1	?	?	1	?	?	4	eine	_	2	what's	_	_	_	7	línea	_	1	C'est	_	1	Viene	_	1	?	?	3	linha	_
@@ -1591,9 +1591,9 @@
 6	paliktu	paliktu	_	5	عليه	_	1	?	?	1	?	?	1	?	?	7	bewusster	_	7	a	_	_	_	7	línea	_	7	défaut	_	8	errore	_	1	?	?	7	defeito	_
 7	trūkumu	trūkumu	_	7	الروح،	_	1	?	?	1	?	?	1	?	?	9	im	_	9	flaw	_	_	_	9	espíritu,	_	7	défaut	_	9	deliberato	_	1	?	?	8	deliberado	_
 8	rašte,	rašte,	_	8	خطأ	_	1	?	?	1	?	?	1	?	?	10	Muster,	_	12	pattern	_	_	_	10	un	_	11	motif	_	11	trama	_	1	?	?	10	desenho	_
-9	kad	kad	Contingency.Cause.Reason	10	في	_	1	?	?	1	?	?	1	?	?	?	?	?	13	to	_	_	_	8	de	_	12	pour	specification.Restatement.EXPANSION	12	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	?	?	?	?
+9	kad	kad	Contingency.Cause.Reason	10	في	_	1	?	?	1	?	?	1	?	?	?	?	?	13	to	_	_	_	?	?	?	12	pour	specification.Restatement.EXPANSION	12	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	?	?	?	?
 10	audėjas	audėjas	_	9	متعمد	_	1	?	?	1	?	?	1	?	?	12	dem	_	12	pattern	_	_	_	12	deliberado	_	13	donner	_	13	dare	_	1	?	?	12	dar	_
-11	ar	ar	_	11	القالب	_	1	?	?	1	?	?	1	?	?	14	oder	disjunctive.Alternative.EXPANSION	16	weaver	_	_	_	15	patrón	_	14	au	_	15	tessitore	_	1	?	?	13	ao	Synchronous.TEMPORAL|TEMPORAL
+11	ar	ar	_	11	القالب	_	1	?	?	1	?	?	1	?	?	13	Weber	_	16	weaver	_	_	_	15	patrón	_	14	au	_	15	tessitore	_	1	?	?	13	ao	Synchronous.TEMPORAL|TEMPORAL
 12	koks	koks	_	11	القالب	_	1	?	?	1	?	?	1	?	?	15	Macher	_	16	weaver	_	_	_	14	el	_	15	tisserand	_	16	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	1	?	?	15	ou	EXPANSION|disjunctive.Alternative.EXPANSION
 13	kitas	kitas	_	12	يعطي	_	1	?	?	1	?	?	1	?	?	15	Macher	_	17	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	16	para	CONTIGENCY|Cause.CONTIGENCY	16	ou	COMPARISON	16	o	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	1	?	?	15	ou	EXPANSION|disjunctive.Alternative.EXPANSION
 14	amatininkas	amatininkas	_	13	الحائك	_	1	?	?	1	?	?	1	?	?	17	Ausweg	_	18	maker	_	_	_	17	mostrar	_	18	fabriquant	_	20	via	_	1	?	?	17	artesão	_
@@ -1609,8 +1609,8 @@
 # sent_id = 132997
 # text:  Meistriškumą žmonės pasiekia ne todėl, kad konceptualiai išbaigia darbą.
 # trans: Os mestres não são especialistas por levar um tema ao seu fim conceptual.
-# forward_log_prob: -41.048959662741765
-# backward_log_prob: -29.481928955336357
+# forward_log_prob: -41.049193691292984
+# backward_log_prob: -29.64334922310892
 1	Meistriškumą	Meistriškumą	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	keine	_	4	experts	_	_	_	5	expertos	_	7	experts	_	5	esperti	_	1	?	?	5	especialistas	_
 2	žmonės	žmonės	_	2	المتفوقين	_	1	?	?	1	?	?	1	?	?	3	keine	_	4	experts	_	_	_	5	expertos	_	3	ne	_	5	esperti	_	1	?	?	5	especialistas	_
 3	pasiekia	pasiekia	_	5	لأنهم	_	1	?	?	1	?	?	1	?	?	1	Meister	_	1	Masters	_	_	_	2	maestros	_	2	maîtres	_	2	maestri	_	1	?	?	2	mestres	_
@@ -1624,10 +1624,10 @@
 # sent_id = 132998
 # text:  Meistriškumo jie pasiekia todėl, kad suvokia, kad pabaigos nėra.
 # trans: São mestres porque percebem que ele não existe.
-# forward_log_prob: -23.157585487873167
-# backward_log_prob: -24.685496710825902
+# forward_log_prob: -23.15731448415555
+# backward_log_prob: -24.75880843642705
 1	Meistriškumo	Meistriškumo	_	1	إنهم	_	1	?	?	1	?	?	1	?	?	2	sind	_	1	They're	_	_	_	?	?	?	1	Ils	_	2	maestri	_	1	?	?	3	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
-2	jie	jie	_	2	متفوقون	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	They're	_	_	_	?	?	?	1	Ils	_	1	Sono	_	1	?	?	2	mestres	_
+2	jie	jie	_	2	متفوقون	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	They're	_	_	_	?	?	?	1	Ils	_	1	Sono	_	1	?	?	3	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	pasiekia	pasiekia	_	3	لأنهم	_	1	?	?	1	?	?	1	?	?	2	sind	_	2	masters	_	_	_	1	Son	_	2	sont	_	2	maestri	_	1	?	?	1	São	_
 4	todėl,	todėl,	Contingency.Cause.Reason	3	لأنهم	_	1	?	?	1	?	?	1	?	?	3	Meister,	_	2	masters	_	_	_	2	maestros	_	3	des	_	2	maestri	_	1	?	?	2	mestres	_
 5	kad	kad	Contingency.Cause.Reason	5	بأنه	_	1	?	?	1	?	?	1	?	?	7	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	6	that	_	_	_	7	que	_	?	?	?	5	che	_	1	?	?	5	que	_
@@ -1639,8 +1639,8 @@
 # sent_id = 132999
 # text:  Štai man dingtelėjo tokia mintis bemąstant apie tai: kodėl lankininkių treneris pasibaigus treniruotei man pasakė, tyliai, kad negirdėtų jo auklėtinės, kad nei jis, nei jo kolegos niekad nemano galį padaryti pakankamai dėl savo komandų, niekad negalvoja, kad yra pakankamai vizualizacijos metodų ir laikysenos pozicijų pratimų galinčių padėti pasiekti joms šias beveik pasiekiamas pergales.
 # trans: Ora bem, quando estava a pensar nisto, recordei o que o treinador das arqueiras me disse no fim daquele treino, sem que as arqueiras ouvissem, que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa, nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias.
-# forward_log_prob: -247.6478732171248
-# backward_log_prob: -226.9691031552356
+# forward_log_prob: -247.6463174003916
+# backward_log_prob: -226.99573236238334
 1	Štai	Štai	_	2	خطر	_	1	?	?	1	?	?	1	?	?	?	?	?	10	this,	_	_	_	3	hablo	_	6	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	5	ci	_	1	?	?	?	?	?
 2	man	man	_	2	خطر	_	?	?	?	?	?	?	?	?	?	6	mir	_	5	me,	_	_	_	3	hablo	_	3	venu	_	?	?	?	?	?	?	?	?	?
 3	dingtelėjo	dingtelėjo	_	1	الآن	_	?	?	?	?	?	?	?	?	?	3	darüber	_	3	occurred	_	_	_	1	Pienso,	_	5	l'esprit,	_	3	capito,	_	?	?	?	1	Ora	Conjunction.EXPANSION|EXPANSION
@@ -1665,7 +1665,7 @@
 22	nei	nei	_	21	الأسهم،	_	?	?	?	?	?	?	?	?	?	1	Als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 23	jis,	jis,	_	22	أنه	_	?	?	?	?	?	?	?	?	?	28	er	_	30	he	_	_	_	29	él	_	?	?	?	22	lui	_	?	?	?	27	ele	_
 24	nei	nei	_	?	?	?	?	?	?	?	?	?	?	?	?	26	Kollegen	_	37	can	_	_	_	?	?	?	?	?	?	30	potere	_	?	?	?	?	?	?
-25	jo	jo	_	?	?	?	?	?	?	?	?	?	?	?	?	25	seine	_	27	his	_	_	_	?	?	?	43	faire	_	?	?	?	?	?	?	30	seus	_
+25	jo	jo	_	?	?	?	?	?	?	?	?	?	?	?	?	25	seine	_	27	his	_	_	_	?	?	?	30	ses	_	?	?	?	?	?	?	30	seus	_
 26	kolegos	kolegos	_	25	زملائه	_	?	?	?	?	?	?	?	?	?	26	Kollegen	_	33	colleagues	_	_	_	32	colegas	_	36	collègues	_	26	colleghi	_	?	?	?	31	colegas	_
 27	niekad	niekad	_	26	لا	Contrast.COMPARISON	?	?	?	?	?	?	?	?	?	29	nie	_	34	never	_	_	_	35	nunca	_	38	jamais	_	27	non	_	?	?	?	32	nunca	_
 28	nemano	nemano	_	29	بأنهم	_	?	?	?	?	?	?	?	?	?	31	Gefühl	_	33	colleagues	_	_	_	33	sienten	_	37	n'avaient	_	28	sentono	_	?	?	?	31	colegas	_
@@ -1698,8 +1698,8 @@
 # sent_id = 133000
 # text:  Ir jis čia visai nesiskundė. Jis tenorėjo, kad suprasčiau, tenorėjo duoti užuominą, man priminti, kad žinojo nuolankiai žengiąs nepasotinamu taku be pabaigos, reikalaujančiu vis daugiau.
 # trans: Não parecia propriamente um lamento, mas apenas uma forma de me transmitir uma espécie de meigo reconhecimento, para me chamar a atenção de que ele sabia que estava empenhado num caminho voraz, inacabado que exigia sempre mais.
-# forward_log_prob: -137.37264529418874
-# backward_log_prob: -94.49201007062767
+# forward_log_prob: -137.36778068418977
+# backward_log_prob: -94.49533690527399
 1	Ir	Ir	Expansion.Conjunction	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	?	?	?	?	?
 2	jis	jis	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	2	n'était	_	?	?	?	1	?	?	?	?	?
 3	čia	čia	_	2	يبدو	_	1	?	?	1	?	?	1	?	?	2	klang	_	5	a	_	_	_	?	?	?	5	une	_	3	una	_	1	?	?	5	lamento,	_
@@ -1708,7 +1708,7 @@
 6	Jis	Jis	_	21	أنه	_	1	?	?	1	?	?	1	?	?	25	er	_	25	he	_	_	_	8	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	8	juste	_	6	solo	Concession.COMPARISON	1	?	?	?	?	?
 7	tenorėjo,	tenorėjo,	_	9	طريقة	_	1	?	?	1	?	?	1	?	?	9	eher	_	11	way	_	_	_	8	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	10	façon	_	10	farmi	_	1	?	?	9	forma	_
 8	kad	kad	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	9	para	CONTIGENCY|Cause.CONTIGENCY	3	pas	_	9	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	?	?	?	?
-9	suprasčiau,	suprasčiau,	_	12	أعلم،	_	1	?	?	1	?	?	1	?	?	12	Weg,	_	13	let	_	_	_	10	dejarme	_	13	laisser	_	13	sorta	_	1	?	?	14	espécie	_
+9	suprasčiau,	suprasčiau,	_	12	أعلم،	_	1	?	?	1	?	?	1	?	?	12	Weg,	_	13	let	_	_	_	10	dejarme	_	13	laisser	_	15	tenera	_	1	?	?	14	espécie	_
 10	tenorėjo	tenorėjo	_	15	الاقرار	_	1	?	?	1	?	?	1	?	?	14	etwas	_	13	let	_	_	_	12	para	CONTIGENCY|Cause.CONTIGENCY	13	laisser	_	15	tenera	_	1	?	?	14	espécie	_
 11	duoti	duoti	_	16	اللطيف،	_	1	?	?	1	?	?	1	?	?	15	mitzuteilen,	_	19	tender	_	_	_	13	admitir	_	16	genre	_	15	tenera	_	1	?	?	16	meigo	_
 12	užuominą,	užuominą,	_	18	يذكرني	_	1	?	?	1	?	?	1	?	?	17	einer	_	19	tender	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	18	tendre	_	18	ricordarmi	_	1	?	?	16	meigo	_
@@ -1729,8 +1729,8 @@
 # sent_id = 133001
 # text:  Mes augame ant neišbaigtų idėjų, net jeigu tokia idėja buvome mes patys.
 # trans: Construímos a partir da ideia inacabada, mesmo que essa ideia seja o nosso antigo Eu.
-# forward_log_prob: -46.35724418275759
-# backward_log_prob: -40.59579396062789
+# forward_log_prob: -46.357941244291766
+# backward_log_prob: -40.59580698952968
 1	Mes	Mes	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	2	construimos	_	1	Nous	_	1	Noi	_	1	?	?	2	a	_
 2	augame	augame	_	2	نبني	_	1	?	?	1	?	?	1	?	?	2	bauen	_	2	build	_	_	_	1	Nos	_	2	construisons	_	2	costruiamo	_	1	?	?	1	Construímos	_
 3	ant	ant	_	3	على	_	1	?	?	1	?	?	1	?	?	3	auf	_	2	build	_	_	_	4	partir	_	3	de	_	3	a	_	1	?	?	3	partir	_
@@ -1747,8 +1747,8 @@
 # sent_id = 133002
 # text:  Tokia yra meistriškumo dinamika.
 # trans: É esta a dinâmica da mestria.
-# forward_log_prob: -16.245992985208908
-# backward_log_prob: -11.323881188643275
+# forward_log_prob: -16.246447965245498
+# backward_log_prob: -11.32317759428225
 1	Tokia	Tokia	_	2	هذا	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esta	_	3	dynamique	_	1	Questa	_	1	?	?	2	esta	_
 2	yra	yra	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	die	_	2	is	_	_	_	2	es	_	2	la	_	2	è	_	1	?	?	1	É	_
 3	meistriškumo	meistriškumo	_	4	ديناميكية	_	1	?	?	1	?	?	1	?	?	4	Dynamik	_	4	dynamic	_	_	_	4	dinámica	_	5	la	_	4	dinamica	_	1	?	?	4	dinâmica	_
@@ -1757,12 +1757,12 @@
 # sent_id = 133003
 # text:  Trokštamo dalyko priartėjimas gali padėit pasiekti daugiau nei kad drįsdavote pasvajoti.
 # trans: Aproximarmo-nos daquilo que pensávamos que queríamos pode ajudar-nos a alcançar mais do que o que jamais sonháramos poder.
-# forward_log_prob: -53.3001454256046
-# backward_log_prob: -36.72172698523433
+# forward_log_prob: -53.30193624048656
+# backward_log_prob: -36.72724107616102
 1	Trokštamo	Trokštamo	_	1	فأن	_	1	?	?	1	?	?	1	?	?	1	Dem	_	1	Coming	_	_	_	1	Acercarse	_	1	S'approcher	_	1	Arrivare	_	1	?	?	1	Aproximarmo-nos	_
 2	dalyko	dalyko	_	3	قريباً	_	1	?	?	1	?	?	1	?	?	3	zu	_	1	Coming	_	_	_	3	lo	_	4	que	_	2	vicini	_	1	?	?	4	pensávamos	_
 3	priartėjimas	priartėjimas	_	5	اعتقدت	_	1	?	?	1	?	?	1	?	?	4	kommen,	_	5	you	_	_	_	5	pensaban	_	6	pensiez	_	9	volere	_	1	?	?	4	pensávamos	_
-4	gali	gali	_	7	تريده	_	1	?	?	1	?	?	1	?	?	7	zu	_	7	you	_	_	_	4	que	_	7	vouloir	_	6	si	_	1	?	?	3	que	_
+4	gali	gali	_	7	تريده	_	1	?	?	1	?	?	1	?	?	7	zu	_	7	you	_	_	_	6	que	_	7	vouloir	_	6	si	_	1	?	?	3	que	_
 5	padėit	padėit	_	8	يمكنه	_	1	?	?	1	?	?	1	?	?	8	wollen	_	8	wanted	_	_	_	8	puede	_	7	vouloir	_	7	credeva	_	1	?	?	7	pode	_
 6	pasiekti	pasiekti	_	9	أن	_	1	?	?	1	?	?	1	?	?	10	kann	_	9	can	_	_	_	9	ayudarlos	_	10	aider	_	10	ci	_	1	?	?	10	alcançar	_
 7	daugiau	daugiau	_	11	في	_	1	?	?	1	?	?	1	?	?	13	mehr	_	13	more	_	_	_	10	a	_	13	plus	_	14	più	_	1	?	?	11	mais	Conjunction.EXPANSION|EXPANSION
@@ -1774,11 +1774,11 @@
 # sent_id = 133004
 # text:  Įsivaizduoju, būtent taip galvojo Elizabeth Murray, kai vieną dieną mačiau ją besišypsančią ir žiūrinčią į tuos ankstyvuosius darbus galerijose.
 # trans: Sou forçada a imaginar que era nisso que Elizabeth Murray estava a pensar quando a vi sorrir um dia diante daquelas primeiras pinturas nas galerias.
-# forward_log_prob: -88.25671719700374
-# backward_log_prob: -71.2036200498011
-1	Įsivaizduoju,	Įsivaizduoju,	_	?	?	?	1	?	?	1	?	?	1	?	?	4	dachte	_	?	?	?	?	?	4	imagino	_	1	C'est	_	4	immagino	_	1	?	?	1	Sou	_
-2	būtent	būtent	_	1	إنه	_	1	?	?	1	?	?	1	?	?	4	dachte	_	1	It's	_	_	_	1	Es	_	3	que	_	4	immagino	_	1	?	?	2	forçada	_
-3	taip	taip	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	dachte	_	2	what	_	_	_	2	lo	_	2	ce	_	3	che	_	1	?	?	2	forçada	_
+# forward_log_prob: -88.25337034524058
+# backward_log_prob: -71.19389363660176
+1	Įsivaizduoju,	Įsivaizduoju,	_	?	?	?	1	?	?	1	?	?	1	?	?	4	dachte	_	?	?	?	?	?	4	imagino	_	4	j'imagine	_	4	immagino	_	1	?	?	1	Sou	_
+2	būtent	būtent	_	1	إنه	_	1	?	?	1	?	?	1	?	?	4	dachte	_	1	It's	_	_	_	1	Es	_	4	j'imagine	_	4	immagino	_	1	?	?	2	forçada	_
+3	taip	taip	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	dachte	_	2	what	_	_	_	2	lo	_	1	C'est	_	3	che	_	1	?	?	2	forçada	_
 4	galvojo	galvojo	_	3	عليَّ	_	1	?	?	1	?	?	1	?	?	4	dachte	_	6	imagine	_	_	_	4	imagino	_	4	j'imagine	_	4	immagino	_	1	?	?	4	imaginar	_
 5	Elizabeth	Elizabeth	_	5	أتخيل	_	1	?	?	1	?	?	1	?	?	3	ich,	_	7	Elizabeth	_	_	_	6	Elizabeth	_	5	qu'Elizabeth	_	5	Elizabeth	_	1	?	?	7	nisso	_
 6	Murray,	Murray,	_	7	إليزابيث	_	1	?	?	1	?	?	1	?	?	6	Murray,	_	8	Murray	_	_	_	6	Elizabeth	_	6	Murray	_	6	Murray	_	1	?	?	9	Elizabeth	_
@@ -1799,8 +1799,8 @@
 # sent_id = 133005
 # text:  Netgi mūsų sukurtos utopijos, manau, lieka neišbaigtos.
 # trans: Mesmo que criássemos utopias, acho que continuaríamos a ter o incompleto.
-# forward_log_prob: -31.424903792168124
-# backward_log_prob: -24.122123521070282
+# forward_log_prob: -31.425953341494623
+# backward_log_prob: -24.122169707938845
 1	Netgi	Netgi	_	4	صنعنا	_	1	?	?	1	?	?	1	?	?	4	Utopien	_	1	Even	_	_	_	3	creamos	_	1	Même	Concession.COMPARISON	1	Anche	Concession.COMPARISON	1	?	?	2	que	_
 2	mūsų	mūsų	_	4	صنعنا	_	1	?	?	1	?	?	1	?	?	3	wir	_	3	we	_	_	_	4	utopías,	_	3	nous	_	3	creassimo	_	1	?	?	3	criássemos	_
 3	sukurtos	sukurtos	_	3	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Selbst	_	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Aún	_	4	créions	_	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	4	utopias,	_
@@ -1812,8 +1812,8 @@
 # sent_id = 133006
 # text:  Užbaigimas yra tikslas, bet, kaip mes tikime, jis niekad nėra pabaiga.
 # trans: A conclusão é uma meta, mas esperamos que nunca seja o fim.
-# forward_log_prob: -35.473112662273124
-# backward_log_prob: -36.78825538330518
+# forward_log_prob: -35.473720020505866
+# backward_log_prob: -36.78736289219494
 1	Užbaigimas	Užbaigimas	_	2	الإكتمال	_	1	?	?	1	?	?	1	?	?	1	Vervollständigung	_	1	Completion	_	_	_	2	completud	_	1	L'achèvement	_	2	completezza	_	1	?	?	2	conclusão	_
 2	yra	yra	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	ist	_	2	is	_	_	_	1	La	_	2	est	_	1	La	_	1	?	?	1	A	_
 3	tikslas,	tikslas,	_	3	هدف،	_	1	?	?	1	?	?	1	?	?	1	Vervollständigung	_	1	Completion	_	_	_	2	completud	_	1	L'achèvement	_	5	obiettivo,	_	1	?	?	2	conclusão	_

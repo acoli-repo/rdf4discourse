@@ -1,8 +1,8 @@
 # sent_id = 155857
 # text:  When we think about mapping cities, we tend to think about roads and streets and buildings, and the settlement narrative that led to their creation, or you might think about the bold vision of an urban designer, but there's other ways to think about mapping cities and how they got to be made.
 # trans: Quando pensamos em mapas de cidades, pensamos habitualmente em estradas e ruas e edifícios e a narrativa explicativa que levou à sua criação, ou podemos pensar na visão ousada de um paisagista urbano, mas há outras formas de pensar em mapas de cidades e na forma como devem ser feitos.
-# forward_log_prob: -191.59928591915994
-# backward_log_prob: -200.54502652202774
+# forward_log_prob: -191.5631349634426
+# backward_log_prob: -200.54544830868173
 1	When	When	Temporal.Synchronous	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	Quan	TEMPORAL	1	?	_	?	?	?	1	When	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	1	Cuando	TEMPORAL	1	Quand	Asynchronous.TEMPORAL|Condition.CONTIGENCY|specification.Restatement.EXPANSION	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	?	?	?	1	Quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
 2	we	we	_	?	?	?	?	?	?	?	?	?	?	?	?	2	wir	_	2	we	_	_	_	?	?	?	2	on	_	?	?	?	?	?	?	?	?	?
 3	think	think	_	?	?	?	?	?	?	?	?	?	?	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	3	think	_	_	_	3	en	_	2	on	_	3	alla	_	?	?	?	2	pensamos	_
@@ -29,7 +29,7 @@
 24	their	their	_	17	أدّت	_	?	?	?	24	seva	_	?	?	?	22	diesem	_	24	their	_	_	_	22	su	_	25	mené	_	25	loro	_	23	ontstaan	_	22	sua	_
 25	creation,	creation,	_	19	بنائها،	_	?	?	?	24	seva	_	?	?	?	23	Ergebnis	_	25	creation,	_	_	_	23	creación,	_	28	création,	_	25	loro	_	23	ontstaan	_	23	criação,	_
 26	or	or	Expansion.Disjunction	20	أو	disjunctive.Alternative.EXPANSION	?	?	?	26	o	_	?	?	?	25	oder	disjunctive.Alternative.EXPANSION	26	or	_	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|disjunctive.Alternative.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	24	o	_	29	ou	COMPARISON	27	Oppure	Condition.CONTIGENCY|disjunctive.Alternative.EXPANSION	26	stad.	_	24	ou	EXPANSION|disjunctive.Alternative.EXPANSION
-27	you	you	_	23	في	_	?	?	?	?	?	?	?	?	?	26	Sie	_	27	you	_	_	_	28	en	_	?	?	?	?	?	?	?	?	?	27	na	_
+27	you	you	_	23	في	_	?	?	?	?	?	?	?	?	?	26	Sie	_	27	you	_	_	_	25	se	_	?	?	?	?	?	?	?	?	?	27	na	_
 28	might	might	_	22	تفكر	_	?	?	?	?	?	?	?	?	?	?	?	?	28	might	_	_	_	?	?	?	?	?	?	29	pensa	_	27	Of	disjunctive.Alternative.EXPANSION	?	?	?
 29	think	think	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	29	think	_	_	_	27	pensar	_	30	bien	_	26	costruzione.	_	31	visie	_	26	pensar	_
 30	about	about	_	?	?	?	?	?	?	29	en	_	?	?	?	27	denken	_	30	about	_	_	_	27	pensar	_	32	parler	_	30	alla	_	31	visie	_	26	pensar	_
@@ -60,8 +60,8 @@
 # sent_id = 155858
 # text:  Today, I want to show you a new kind of map.
 # trans: Hoje quero mostrar-vos um novo tipo de mapa.
-# forward_log_prob: -23.796657455833408
-# backward_log_prob: -30.367902473287234
+# forward_log_prob: -23.783523625150078
+# backward_log_prob: -30.372389362336143
 1	Today,	Today,	_	3	اليوم،	_	1	?	_	1	Avui,	_	1	?	_	1	Heute	_	1	Today,	_	_	_	1	Hoy	_	1	Aujourd'hui,	_	1	Oggi	_	1	Vandaag	_	1	Hoje	_
 2	I	I	_	3	اليوم،	_	1	?	_	1	Avui,	_	1	?	_	3	ich	_	2	I	_	_	_	1	Hoy	_	2	je	_	1	Oggi	_	3	ik	_	1	Hoje	_
 3	want	want	_	2	هذا	_	1	?	_	2	vull	_	1	?	_	2	möchte	_	3	want	_	_	_	2	quiero	_	3	veux	_	2	voglio	_	2	laat	_	2	quero	_
@@ -77,8 +77,8 @@
 # sent_id = 155859
 # text:  This is not a geographic map.
 # trans: Isto não é um mapa geográfico.
-# forward_log_prob: -17.550350374899114
-# backward_log_prob: -15.606422668556682
+# forward_log_prob: -17.547932954570992
+# backward_log_prob: -15.603091328646622
 1	This	This	_	1	هذه	_	1	?	_	1	Aquet	_	1	?	_	1	Es	_	1	This	_	result.Cause.CONTIGENCY	_	?	?	?	1	Ce	_	1	Questa	_	3	geen	_	1	Isto	_
 2	is	is	_	1	هذه	_	1	?	_	3	és	_	1	?	_	2	ist	_	2	is	_	_	_	2	es	_	3	pas	_	3	è	_	1	Het	_	2	não	_
 3	not	not	_	2	ليست	_	1	?	_	2	no	_	1	?	_	3	keine	_	3	not	_	_	_	1	No	_	3	pas	_	2	non	_	3	geen	_	2	não	_
@@ -89,8 +89,8 @@
 # sent_id = 155860
 # text:  This is a map of the relationships between people in my hometown of Baltimore, Maryland, and what you can see here is that each dot represents a person, each line represents a relationship between those people, and each color represents a community within the network.
 # trans: Isto é um mapa das relações entre as pessoas na minha cidade de Baltimore, Maryland. Como veem aqui, cada ponto representa uma pessoa, cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro da rede.
-# forward_log_prob: -148.8464019173864
-# backward_log_prob: -157.50740146812592
+# forward_log_prob: -148.82726699789194
+# backward_log_prob: -157.48785617239042
 1	This	This	_	1	هذه	_	1	?	_	1	Aquet	_	1	?	_	1	es	_	1	This	_	result.Cause.CONTIGENCY	_	?	?	?	3	carte	_	?	?	?	1	Deze	_	1	Isto	EXPANSION|specification.Restatement.EXPANSION
 2	is	is	_	2	خريطة	_	?	?	?	2	és	_	?	?	?	2	ist	_	2	is	_	_	_	1	Es	_	3	carte	_	1	È	_	1	Deze	_	2	é	_
 3	a	a	_	?	?	?	?	?	?	3	un	_	?	?	?	3	eine	_	3	a	_	_	_	?	?	?	2	une	_	2	una	_	?	?	?	3	um	_
@@ -140,8 +140,8 @@
 # sent_id = 155861
 # text:  Now, I'm here on the green side, down on the far right where the geeks are, and TEDx also is down on the far right. (Laughter) Now, on the other side of the network, you tend to have primarily African-American and Latino folks who are really concerned about somewhat different things than the geeks are, but just to give some sense, the green part of the network we call Smalltimore, for those of us that inhabit it, because it seems as though we're living in a very small town.
 # trans: Eu estou aqui do lado verde, no extremo direito, onde estão os "geeks", (Risos) O TEDx também está em baixo, no extremo direito. (Risos) Na extremidade oposta da rede, há principalmente afro-americanos e latinos que se preocupam com coisas um pouco diferentes do que os "geeks". Para que percebam melhor, chamamos Smalltimore à parte verde da rede, aos que ali moram, porque parece que vivemos numa cidade muito pequena.
-# forward_log_prob: -301.98049927064903
-# backward_log_prob: -373.80190467106337
+# forward_log_prob: -301.9920867544653
+# backward_log_prob: -373.7939458963263
 1	Now,	Now,	_	1	الآن،	_	1	?	_	2	estic	_	1	?	_	2	bin	_	1	Now,	_	_	_	1	Ahora	_	2	suis	_	?	?	?	2	hoor	_	1	Eu	_
 2	I'm	I'm	_	2	أنا	_	?	?	?	1	Jo	_	?	?	?	2	bin	_	2	I'm	_	_	_	1	Ahora	_	2	suis	_	1	Io	_	2	hoor	_	2	estou	_
 3	here	here	_	3	هنا	_	?	?	?	?	?	?	?	?	?	3	hier	_	3	here	_	precedence.Asynchronous.TEMPORAL	_	5	el	_	?	?	?	2	sono	_	3	bij	_	3	aqui	_
@@ -207,7 +207,7 @@
 63	green	green	_	52	أعطيكم	_	?	?	?	55	idea	_	?	?	?	51	geben,	_	63	green	_	_	_	?	?	?	47	appelons	_	50	chiamiamo	_	45	groene	_	49	percebam	_
 64	part	part	_	52	أعطيكم	_	?	?	?	55	idea	_	?	?	?	51	geben,	_	64	part	_	_	_	57	sentido,	_	47	appelons	_	50	chiamiamo	_	45	groene	_	50	melhor,	_
 65	of	of	_	?	?	?	?	?	?	60	de	_	?	?	?	?	?	?	65	of	_	_	_	56	de	_	?	?	?	?	?	?	?	?	?	?	?	?
-66	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	66	the	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
+66	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	66	the	_	_	_	58	la	_	?	?	?	?	?	?	?	?	?	?	?	?
 67	network	network	_	60	الشبكة	_	?	?	?	62	xarxa	_	?	?	?	55	des	_	67	network	_	_	_	63	red	_	44	du	_	?	?	?	?	?	?	56	da	_
 68	we	we	_	?	?	?	?	?	?	?	?	?	?	?	?	58	wir	_	68	we	_	_	_	?	?	?	51	nous	_	?	?	?	?	?	?	?	?	?
 69	call	call	_	55	الأمر،	_	?	?	?	59	verda	_	?	?	?	54	Teil	_	69	call	_	_	_	59	parte	_	49	vert	_	54	"Smalltimora"	_	48	Smalltimore	_	54	parte	_
@@ -226,7 +226,7 @@
 82	though	though	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	82	though	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON	66	por	CONTIGENCY|Cause.CONTIGENCY	57	avons	_	66	vivessimo	_	58	men	_	53	à	_
 83	we're	we're	_	?	?	?	?	?	?	73	vivim	_	?	?	?	70	Stadt	_	83	we're	_	_	_	73	si	TEMPORAL	56	nous	_	65	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	66	numa	_
 84	living	living	_	69	نعيش	_	?	?	?	74	en	_	?	?	?	?	?	?	84	living	_	_	_	74	viviéramos	_	?	?	?	66	vivessimo	_	58	men	_	65	vivemos	_
-85	in	in	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	85	in	_	_	_	75	en	_	65	ville.	_	?	?	?	59	in	_	?	?	?
+85	in	in	_	70	في	_	?	?	?	?	?	?	?	?	?	?	?	?	85	in	_	_	_	75	en	_	?	?	?	?	?	?	59	in	_	?	?	?
 86	a	a	_	?	?	?	?	?	?	75	un	_	?	?	?	?	?	?	86	a	_	_	_	76	una	_	65	ville.	_	68	una	_	60	een	_	67	cidade	_
 87	very	very	_	73	جداً.	_	?	?	?	77	molt	_	?	?	?	67	einer	_	87	very	_	_	_	77	pequeña	_	64	petite	_	70	molto	_	62	dorpje	_	68	muito	_
 88	small	small	_	71	بلدة	_	?	?	?	76	poble	_	?	?	?	69	kleinen	_	88	small	_	_	_	77	pequeña	_	63	toute	_	71	piccola.	_	61	klein	_	69	pequena.	_
@@ -235,8 +235,8 @@
 # sent_id = 155862
 # text:  We see the same people over and over again, but that's because we're not really exploring the full depth and breadth of the city.
 # trans: Estamos sempre a encontrar as mesmas pessoas, mas isso acontece porque não exploramos toda a profundidade e amplitude da cidade.
-# forward_log_prob: -70.92874095718676
-# backward_log_prob: -79.38437286174343
+# forward_log_prob: -70.91966633036168
+# backward_log_prob: -79.37568118755672
 1	We	We	_	1	نرى	_	1	?	_	3	a	_	1	?	_	1	Wir	_	1	We	_	_	_	2	a	_	1	On	_	2	sempre	_	1	We	_	1	Estamos	_
 2	see	see	_	1	نرى	_	1	?	_	2	veiem	_	1	?	_	2	sehen	_	2	see	_	_	_	1	Vemos	_	6	personnes,	_	1	Vediamo	_	2	zien	_	5	as	_
 3	the	the	_	2	نفس	_	1	?	_	3	a	_	1	?	_	5	die	_	3	the	_	_	_	3	la	_	?	?	?	1	Vediamo	_	?	?	?	3	a	_
@@ -265,10 +265,10 @@
 # sent_id = 155863
 # text:  On the other end of the network, you have folks who are interested in things like hip-hop music and they even identify with living in the DC/Maryland/Virginia area over, say, the Baltimore city designation proper.
 # trans: Na outra extremidade da rede, temos pessoas que se interessam por música "hip-hop" e até se identificam dizendo que vivem na área DC/Maryland/Virginia, em vez de dizerem na cidade de Baltimore, a designação apropriada.
-# forward_log_prob: -126.99913592328103
-# backward_log_prob: -131.07034830548767
+# forward_log_prob: -127.00612698495503
+# backward_log_prob: -131.0864336394275
 1	On	On	_	?	?	?	1	?	_	3	costat	_	1	?	_	1	Auf	_	1	On	_	_	_	3	otro	_	?	?	?	?	?	?	?	?	?	?	?	?
-2	the	the	_	3	الآخر	_	1	?	_	1	A	_	1	?	_	2	der	_	2	the	_	_	_	2	el	_	8	des	_	?	?	?	2	de	_	?	?	?
+2	the	the	_	3	الآخر	_	1	?	_	1	A	_	1	?	_	2	der	_	2	the	_	_	_	2	el	_	?	?	?	?	?	?	2	de	_	?	?	?
 3	other	other	_	3	الآخر	_	1	?	_	?	?	?	1	?	_	4	Seite	_	3	other	_	_	_	1	En	_	1	A	_	5	si	_	1	Aan	_	2	outra	_
 4	end	end	_	2	الطرف	_	1	?	_	?	?	?	1	?	_	3	anderen	_	4	end	_	_	_	4	extremo	_	2	l'autre	_	1	All'altro	_	4	kant	_	1	Na	_
 5	of	of	_	4	من	_	1	?	_	4	de	_	1	?	_	?	?	?	5	of	_	_	_	5	de	_	4	du	_	4	rete	_	5	van	_	?	?	?
@@ -281,7 +281,7 @@
 12	are	are	_	6	تجد	_	1	?	_	10	interessada	_	1	?	_	16	sind	_	12	are	_	_	_	9	gente	_	10	qui	_	?	?	?	12	die	_	?	?	?
 13	interested	interested	_	6	تجد	_	1	?	_	7	hi	_	1	?	_	15	interessiert	_	13	interested	_	_	_	10	interesada	_	?	?	?	?	?	?	11	mensen	_	7	pessoas	_
 14	in	in	_	?	?	?	1	?	_	13	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	?	_	15	interessiert	_	14	in	_	_	_	11	en	_	?	?	?	9	a	_	12	die	_	?	?	?
-15	things	things	_	?	?	?	1	?	_	12	coses	_	1	?	_	12	Dingen	_	15	things	_	_	_	12	cosas	_	?	?	?	10	cose	_	13	houdt	_	17	identificam	_
+15	things	things	_	?	?	?	1	?	_	12	coses	_	1	?	_	12	Dingen	_	15	things	_	_	_	12	cosas	_	8	des	_	10	cose	_	13	houdt	_	17	identificam	_
 16	like	like	_	?	?	?	1	?	_	12	coses	_	1	?	_	12	Dingen	_	16	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	12	cosas	_	?	?	?	10	cose	_	?	?	?	16	se	CONTIGENCY|Condition.CONTIGENCY
 17	hip-hop	hip-hop	_	12	الهيب	_	1	?	_	16	hip-hop	_	1	?	_	14	Hip-Hop	_	17	hip-hop	_	_	_	16	hip-hop	_	13	hip-hop.	_	14	hip-hop	_	15	hip-hop	_	11	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 18	music	music	_	14	وحتى	_	1	?	_	15	música	_	1	?	_	15	interessiert	_	18	music	_	_	_	15	música	_	?	?	?	13	musica	_	16	muziek	_	12	música	_
@@ -291,7 +291,7 @@
 22	identify	identify	_	?	?	?	1	?	_	?	?	?	1	?	_	?	?	?	22	identify	_	_	_	?	?	?	20	zone	_	?	?	?	?	?	?	?	?	?
 23	with	with	_	?	?	?	1	?	_	20	amb	_	1	?	_	20	mit	_	23	with	_	_	_	21	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	25	que	_	20	il	_	20	met	_	?	?	?
 24	living	living	_	?	?	?	1	?	_	?	?	?	1	?	_	19	eher	_	24	living	_	_	_	22	habitantes	_	24	plutôt	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION	23	vivere	_	27	dan	Condition.CONTIGENCY|precedence.Asynchronous.TEMPORAL	23	DC/Maryland/Virginia,	_
-25	in	in	_	?	?	?	1	?	_	27	més	_	1	?	_	?	?	?	25	in	_	_	_	25	de	_	?	?	?	24	nella	_	?	?	?	24	em	Alternative.EXPANSION|COMPARISON
+25	in	in	_	?	?	?	1	?	_	28	que	_	1	?	_	?	?	?	25	in	_	_	_	25	de	_	?	?	?	24	nella	_	?	?	?	24	em	Alternative.EXPANSION|COMPARISON
 26	the	the	_	?	?	?	1	?	_	21	la	_	1	?	_	?	?	?	26	the	_	_	_	?	?	?	19	la	_	29	la	_	?	?	?	?	?	?
 27	DC/Maryland/Virginia	DC/Maryland/Virginia	_	20	نيويورك/ميريلاند/فيرجينيا	_	1	?	_	22	vida	_	1	?	_	21	dem	_	27	DC/Maryland/Virginia	_	_	_	26	DC/Maryland/Virginia	_	15	leurs	_	25	zona	_	23	DC/	_	27	dizerem	_
 28	area	area	_	19	منطقة	_	1	?	_	26	WashingtonDC/Maryland/Virgina	_	1	?	_	24	identifizieren,	_	28	area	_	_	_	24	área	_	18	habitent	_	26	Washington/Maryland/Virginia,	_	22	gebied	_	22	área	_
@@ -306,8 +306,8 @@
 # sent_id = 155864
 # text:  But in the middle, you see that there's something that connects the two communities together, and that's sports.
 # trans: Mas, no meio, vemos que há uma coisa que liga as duas comunidades. É o desporto.
-# forward_log_prob: -51.714008569198405
-# backward_log_prob: -57.25099373261833
+# forward_log_prob: -51.71094185444578
+# backward_log_prob: -57.25831732983097
 1	But	But	Comparison.Contrast	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	3	Mitte	_	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	?	?	?	1	Mas,	_
 2	in	in	_	1	ولكنك	_	1	?	_	2	al	_	1	?	_	1	In	_	2	in	_	_	_	2	en	_	2	au	_	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	In	_	2	no	_
 3	the	the	_	3	في	_	1	?	_	4	es	_	1	?	_	2	der	_	3	the	_	_	_	3	el	_	2	au	_	2	in	_	2	het	_	2	no	_
@@ -330,8 +330,8 @@
 # sent_id = 155865
 # text:  We have the Baltimore Orioles, the Baltimore Ravens football team, Michael Phelps, the Olympian.
 # trans: Temos os Baltimore Orioles, a equipa de futebol Baltimore Ravens, Michael Phelps, o atleta olímpico,
-# forward_log_prob: -45.86495559753279
-# backward_log_prob: -39.05557729052114
+# forward_log_prob: -45.85805905723191
+# backward_log_prob: -39.054084766414555
 1	We	We	_	1	لدينا	_	1	?	_	1	Tenim	_	1	?	_	1	Wir	_	1	We	_	_	_	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	1	We	_	1	Temos	_
 2	have	have	_	1	لدينا	_	1	?	_	1	Tenim	_	1	?	_	2	haben	_	2	have	_	_	_	1	Tenemos	_	2	avons	_	1	Abbiamo	_	2	hebben	_	1	Temos	_
 3	the	the	_	2	فريق	_	1	?	_	2	als	_	1	?	_	3	die	_	3	the	_	_	_	2	los	_	3	les	_	2	i	_	3	de	_	2	os	_
@@ -350,8 +350,8 @@
 # sent_id = 155866
 # text:  Under Armour, you may have heard of, is a Baltimore company, and that community of sports acts as the only bridge between these two ends of the network.
 # trans: a Under Armour, devem conhecer, uma empresa de Baltimore. O desporto atua como a única ponte entre estas duas pontas da rede.
-# forward_log_prob: -80.01284958953127
-# backward_log_prob: -95.9205269371895
+# forward_log_prob: -80.01452463174022
+# backward_log_prob: -95.92045210143273
 1	Under	Under	_	1	أندر	_	1	?	_	1	Under	_	1	?	_	3	Firma	_	1	Under	_	_	_	1	Under	_	1	<i>Under	_	1	Under	_	1	Under	_	2	Under	_
 2	Armour,	Armour,	_	1	أندر	_	1	?	_	2	Armour,	_	1	?	_	3	Firma	_	2	Armour,	_	_	_	2	Armour,	_	2	Armour</i>,	_	2	Armour,	_	2	Armour,	_	2	Under	_
 3	you	you	_	?	?	?	1	?	_	?	?	?	1	?	_	7	sie	_	3	you	_	_	_	?	?	?	4	vous	_	5	sentito	_	5	je	_	?	?	?
@@ -384,8 +384,8 @@
 # sent_id = 155867
 # text:  Let's take a look at San Francisco.
 # trans: Olhemos para São Francisco.
-# forward_log_prob: -9.504130052686387
-# backward_log_prob: -17.417480476074754
+# forward_log_prob: -9.503918032547402
+# backward_log_prob: -17.418708712151613
 1	Let's	Let's	_	1	دعونا	_	1	?	_	2	mirem	_	1	?	_	1	Schauen	_	1	Let's	_	_	_	1	Miremos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Olhemos	_
 2	take	take	_	2	نلقي	_	1	?	_	1	Si	TEMPORAL	1	?	_	1	Schauen	_	2	take	_	_	_	1	Miremos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Olhemos	_
 3	a	a	_	3	نظرة	_	1	?	_	1	Si	TEMPORAL	1	?	_	3	uns	_	3	a	_	_	_	2	a	_	2	maintenant	Exception.EXPANSION	2	un'occhiata	_	2	we	_	2	para	CONTIGENCY|PragmaticCause.CONTIGENCY
@@ -397,8 +397,8 @@
 # sent_id = 155868
 # text:  You see something a little bit different happening in San Francisco.
 # trans: Vemos uma coisa um pouco diferente a acontecer em São Francisco.
-# forward_log_prob: -30.03595846659797
-# backward_log_prob: -30.47707817862935
+# forward_log_prob: -30.041389913900357
+# backward_log_prob: -30.480097747155497
 1	You	You	_	2	شيئاً	_	1	?	_	2	veure	_	1	?	_	1	Sie	_	1	You	_	_	_	1	En	_	1	Quelque	_	1	A	_	1	In	_	1	Vemos	_
 2	see	see	_	2	شيئاً	_	1	?	_	2	veure	_	1	?	_	2	sehen,	_	2	see	_	_	_	4	sucede	_	1	Quelque	_	4	succede	_	4	zie	_	1	Vemos	_
 3	something	something	_	2	شيئاً	_	1	?	_	1	podem	_	1	?	_	?	?	?	3	something	_	_	_	5	algo	_	2	chose	_	5	qualcosa	_	4	zie	_	2	uma	_
@@ -414,17 +414,17 @@
 # sent_id = 155869
 # text:  On the one hand, you do have the media, politics and news lobe that tends to exist in Baltimore and other cities, but you also have this very predominant group of geeks and techies that are sort of taking over the top half of the network, and there's even a group that's so distinct and clear that we can identify it as Twitter employees, next to the geeks, in between the gamers and the geeks, at the opposite end of the hip-hop spectrum.
 # trans: Por um lado, temos os "media", a política e a imprensa, grupo que também existe em Baltimore e noutras cidades, mas também temos este grupo predominante de "geeks" e técnicos que parece ocuparem a metade superior da rede. Há mesmo um grupo tão distinto e nítido que podemos identificá-lo como empregados do Twitter, ao pé dos "geeks", entre os jogadores e os "geeks", na extremidade oposta do espetro do "hip-hop".
-# forward_log_prob: -293.7301267661711
-# backward_log_prob: -331.3103702110312
+# forward_log_prob: -293.76091519048487
+# backward_log_prob: -331.26275487210904
 1	On	On	Comparison.Contrast	?	?	?	1	?	_	1	Per	CONTIGENCY|Cause.CONTIGENCY	1	?	_	1	Auf	_	1	On	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	10	qui	_	3	lato	_	4	kant	_	3	lado,	_
 2	the	the	Comparison.Contrast	?	?	?	?	?	?	?	?	?	?	?	?	2	der	_	2	the	_	_	_	5	el	_	?	?	?	6	i	_	2	de	_	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
-3	one	one	Comparison.Contrast	2	ناحية،	_	?	?	?	3	banda,	_	?	?	?	14	in	_	3	one	_	_	_	?	?	?	?	?	?	7	media	_	3	ene	_	6	"media",	_
+3	one	one	Comparison.Contrast	2	ناحية،	_	?	?	?	3	banda,	_	?	?	?	14	in	_	3	one	_	_	_	?	?	?	?	?	?	7	media	_	3	ene	_	?	?	?
 4	hand,	hand,	Comparison.Contrast	2	ناحية،	_	?	?	?	3	banda,	_	?	?	?	?	?	?	4	hand,	_	_	_	3	lado,	_	1	D'un	_	7	media	_	3	ene	_	?	?	?
 5	you	you	Comparison.Contrast	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	5	you	_	_	_	?	?	?	3	vous	_	2	un	_	?	?	?	2	um	_
 6	do	do	Comparison.Contrast	?	?	?	?	?	?	7	mitjans	_	?	?	?	3	einen	_	6	do	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 7	have	have	Comparison.Contrast	1	من	_	?	?	?	4	tenim	_	?	?	?	?	?	?	7	have	_	_	_	8	los	_	4	avez	_	6	i	_	?	?	?	4	temos	_
-8	the	the	Comparison.Contrast	?	?	?	?	?	?	?	?	?	?	?	?	7	den	_	8	the	_	_	_	?	?	?	?	?	?	6	i	_	5	de	_	?	?	?
-9	media,	media,	Comparison.Contrast	6	والأقسام	_	?	?	?	9	comunicació,	_	?	?	?	8	Medien-,	_	9	media,	_	_	_	9	medios,	_	7	média	_	7	media	_	6	media,	_	8	política	_
+8	the	the	Comparison.Contrast	?	?	?	?	?	?	?	?	?	?	?	?	7	den	_	8	the	_	_	_	?	?	?	?	?	?	6	i	_	5	de	_	7	a	_
+9	media,	media,	Comparison.Contrast	6	والأقسام	_	?	?	?	9	comunicació,	_	?	?	?	8	Medien-,	_	9	media,	_	_	_	9	medios,	_	7	média	_	7	media	_	6	media,	_	6	"media",	_
 10	politics	politics	Comparison.Contrast	5	والسياسة	_	?	?	?	5	lòbul	_	?	?	?	5	gibt	_	10	politics	_	_	_	9	medios,	_	6	zone	_	6	i	_	7	politiek,	_	5	os	_
 11	and	and	Comparison.Contrast	10	إلى	_	?	?	?	11	i	_	?	?	?	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	13	y	_	8	et	Conjunction.EXPANSION	8	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	8	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 12	news	news	Comparison.Contrast	?	?	?	?	?	?	12	noticies	_	?	?	?	9	Politik-	_	12	news	_	_	_	12	política	_	11	existe	_	?	?	?	10	nieuws.	_	8	política	_
@@ -442,7 +442,7 @@
 24	you	you	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	24	you	_	_	_	?	?	?	20	vous	_	?	?	?	?	?	?	?	?	?
 25	also	also	Expansion.Conjunction	18	أيضاً	_	?	?	?	23	també	EXPANSION	?	?	?	24	auch	Conjunction.EXPANSION	25	also	EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	Conjunction.EXPANSION|Synchronous.TEMPORAL|specification.Restatement.EXPANSION	26	también	EXPANSION	22	aussi	COMPARISON|result.Cause.CONTIGENCY	21	c'è	_	20	ook	Conjunction.EXPANSION	22	também	Conjunction.EXPANSION|EXPANSION
 26	have	have	_	15	من	_	?	?	?	?	?	?	?	?	?	25	diese	_	26	have	_	_	_	25	pero	precedence.Asynchronous.TEMPORAL	21	avez	_	22	anche	Concession.COMPARISON|Conjunction.EXPANSION	20	ook	Conjunction.EXPANSION	23	temos	_
-27	this	this	_	20	هذه	_	?	?	?	26	un	_	?	?	?	21	es	_	27	this	_	result.Cause.CONTIGENCY	_	?	?	?	23	ce	_	23	questo	_	?	?	?	24	este	_
+27	this	this	_	20	هذه	_	?	?	?	?	?	?	?	?	?	21	es	_	27	this	_	result.Cause.CONTIGENCY	_	?	?	?	23	ce	_	23	questo	_	?	?	?	24	este	_
 28	very	very	_	19	تجدون	_	?	?	?	28	molt	_	?	?	?	17	anderen	_	28	very	_	_	_	30	muy	_	25	très	_	?	?	?	?	?	?	?	?	?
 29	predominant	predominant	_	21	المجموعة	_	?	?	?	27	grup	_	?	?	?	19	meist	_	29	predominant	_	_	_	31	predominante	_	24	groupe	_	23	questo	_	22	sterk	_	26	predominante	_
 30	group	group	_	22	ذات	_	?	?	?	29	predominant	_	?	?	?	?	?	?	30	group	_	_	_	31	predominante	_	26	prédominant	_	24	gruppo	_	25	bestaande	_	26	predominante	_
@@ -451,7 +451,7 @@
 33	and	and	_	?	?	?	?	?	?	32	i	_	?	?	?	30	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	33	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	34	y	_	29	et	Conjunction.EXPANSION	28	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	29	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 34	techies	techies	_	24	غير	_	?	?	?	33	techies	_	?	?	?	26	tonangebende	_	34	techies	_	_	_	31	predominante	_	?	?	?	29	smanettoni	_	29	techneuten	_	30	técnicos	_
 35	that	that	_	?	?	?	?	?	?	34	que	_	?	?	?	?	?	?	35	that	_	_	_	?	?	?	?	?	?	30	che	_	?	?	?	?	?	?
-36	are	are	_	?	?	?	?	?	?	36	els	_	?	?	?	22	gibt	_	36	are	_	_	_	?	?	?	32	qui	_	?	?	?	30	die	_	?	?	?
+36	are	are	_	?	?	?	?	?	?	36	els	_	?	?	?	22	gibt	_	36	are	_	_	_	?	?	?	32	qui	_	?	?	?	30	die	_	32	parece	_
 37	sort	sort	_	27	المهووسين	_	?	?	?	35	son	_	?	?	?	?	?	?	37	sort	_	_	_	35	tecnos,	_	31	<i>techies</i>	_	29	smanettoni	_	29	techneuten	_	30	técnicos	_
 38	of	of	_	26	من	_	?	?	?	40	de	_	?	?	?	?	?	?	38	of	_	_	_	?	?	?	?	?	?	?	?	?	34	van	_	?	?	?
 39	taking	taking	_	28	والفنيين	_	?	?	?	38	ocupen	_	?	?	?	31	Technikbegeisterten,	_	39	taking	_	_	_	37	parecen	_	33	dominent	_	31	occupano	_	32	bovenste	_	33	ocuparem	_
@@ -477,7 +477,7 @@
 59	can	can	_	39	أن	_	?	?	?	?	?	?	?	?	?	50	sie	_	59	can	_	_	_	?	?	?	48	qu'on	_	46	possiamo	_	47	kan	_	48	podemos	_
 60	identify	identify	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	60	identify	_	_	_	?	?	?	?	?	?	47	identificare	_	43	groep	_	?	?	?
 61	it	it	_	?	?	?	?	?	?	58	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	?	?	?	61	it	_	_	_	?	?	?	40	y	_	48	come	EXPANSION|Synchronous.TEMPORAL	38	Er	_	?	?	?
-62	as	as	_	45	بإمكاننا	_	?	?	?	58	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	51	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	62	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	56	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	?	?	?	45	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	50	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
+62	as	as	_	45	بإمكاننا	_	?	?	?	58	com	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	51	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	62	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	56	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	?	?	?	48	come	EXPANSION|Synchronous.TEMPORAL	45	als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	50	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 63	Twitter	Twitter	_	46	تعريفها	_	?	?	?	62	Twitter,	_	?	?	?	52	Twitter-Mitarbeiter	_	63	Twitter	_	_	_	59	Twitter,	_	55	Twitter,	_	52	Twitter	_	44	die	_	53	Twitter,	_
 64	employees,	employees,	_	45	بإمكاننا	_	?	?	?	62	Twitter,	_	?	?	?	52	Twitter-Mitarbeiter	_	64	employees,	_	_	_	57	empleados	_	53	salariés	_	50	impiegati	_	50	Daar	reason.Cause.CONTIGENCY	51	empregados	_
 65	next	next	_	49	إلى	_	?	?	?	63	al	_	?	?	?	52	Twitter-Mitarbeiter	_	65	next	_	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	57	côté	_	53	accanto	_	51	naast	Conjunction.EXPANSION	54	ao	Synchronous.TEMPORAL|TEMPORAL
@@ -486,13 +486,13 @@
 68	geeks,	geeks,	_	44	جداً	_	?	?	?	66	geeks,	_	?	?	?	?	?	?	68	geeks,	_	_	_	63	los	_	59	<i>geeks</i>,	_	55	geek,	_	58	nerds	_	57	"geeks",	_
 69	in	in	_	?	?	?	?	?	?	?	?	?	?	?	?	48	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	69	in	_	_	_	65	en	_	?	?	?	?	?	?	59	in,	_	56	dos	_
 70	between	between	_	52	بين	_	?	?	?	69	dels	_	?	?	?	58	zwischen	_	70	between	TEMPORAL	_	_	?	?	?	60	entre	_	56	tra	_	54	tussen	_	58	entre	_
-71	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	56	den	_	71	the	_	_	_	74	el	_	61	les	_	57	i	_	55	de	_	?	?	?
+71	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	56	den	_	71	the	_	_	_	?	?	?	61	les	_	57	i	_	55	de	_	?	?	?
 72	gamers	gamers	_	53	اللاعبين	_	?	?	?	70	gamers	_	?	?	?	59	Gamern	_	72	gamers	_	_	_	69	"gamers"	_	62	joueurs	_	58	giocatori	_	56	gamers	_	60	jogadores	_
 73	and	and	_	?	?	?	?	?	?	71	i	_	?	?	?	60	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	73	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	70	y	_	63	et	Conjunction.EXPANSION	?	?	?	57	en	Conjunction.EXPANSION	61	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 74	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	74	the	_	_	_	?	?	?	64	les	_	60	i	_	?	?	?	?	?	?
 75	geeks,	geeks,	_	?	?	?	?	?	?	73	geeks	_	?	?	?	61	Geeks,	_	75	geeks,	_	_	_	71	los	_	65	<i>geeks</i>,	_	61	geek,	_	60	helemaal	_	62	os	_
 76	at	at	_	33	على	_	?	?	?	?	?	?	?	?	?	?	?	?	76	at	_	_	_	77	al	_	?	?	?	?	?	?	63	tegenovergestelde	_	?	?	?
-77	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	77	the	_	_	_	?	?	?	?	?	?	?	?	?	62	de	_	?	?	?
+77	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	77	the	_	_	_	74	el	_	?	?	?	?	?	?	62	de	_	?	?	?
 78	opposite	opposite	_	57	المقابل	_	?	?	?	76	l’altra	_	?	?	?	63	entgegengesetzten	_	78	opposite	_	_	_	76	opuesto	_	?	?	?	62	proprio	_	63	tegenovergestelde	_	?	?	?
 79	end	end	_	56	الطرف	_	?	?	?	?	?	?	?	?	?	63	entgegengesetzten	_	79	end	_	_	_	?	?	?	?	?	?	63	dalla	_	64	kant	_	64	na	_
 80	of	of	_	?	?	?	?	?	?	78	de	_	?	?	?	?	?	?	80	of	_	_	_	79	de	_	?	?	?	51	di	_	65	van	_	?	?	?
@@ -503,8 +503,8 @@
 # sent_id = 155870
 # text:  So you can see, though, that the tensions that we've heard about in San Francisco in terms of people being concerned about gentrification and all the new tech companies that are bringing new wealth and settlement into the city are real, and you can actually see that documented here.
 # trans: (Risos) Mas podemos ver que são reais as tensões de que ouvimos falar em São Francisco em termos de pessoas preocupadas com a elitização e com todas as empresas tecnológicas que estão a trazer nova riqueza e nova população à cidade. Podemos ver isso aqui documentado.
-# forward_log_prob: -177.70883672751685
-# backward_log_prob: -182.37965290610717
+# forward_log_prob: -177.7863851163923
+# backward_log_prob: -182.40928633470656
 1	So	So	Contingency.Cause+Belief.Result+Belief	1	إذن	_	1	?	_	?	?	?	1	?	_	3	also,	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	_	3	donc	result.Cause.CONTIGENCY	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	Dus	result.Cause.CONTIGENCY	?	?	?
 2	you	you	_	?	?	?	?	?	?	5	veure	_	?	?	?	1	Sie	_	2	you	_	_	_	3	ver,	_	1	Vous	_	6	di	_	2	je	_	?	?	?
 3	can	can	_	3	أن	_	?	?	?	4	pot	_	?	?	?	2	sehen	_	3	can	_	_	_	2	pueden	_	4	que	_	2	vediamo	_	3	kan	_	3	podemos	_
@@ -558,8 +558,8 @@
 # sent_id = 155871
 # text:  You can see the LGBT community is not really getting along with the geek community that well, the arts community, the music community.
 # trans: Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade "geek", com a comunidade das artes, com a comunidade da música.
-# forward_log_prob: -84.89558028002804
-# backward_log_prob: -72.91660242610891
+# forward_log_prob: -84.89937937412188
+# backward_log_prob: -72.893733354121
 1	You	You	_	1	بإمكانكم	_	1	?	_	3	veure	_	1	?	_	1	Sie	_	1	You	_	_	_	1	Se	_	1	Vous	_	?	?	?	1	Je	_	1	Vemos	_
 2	can	can	_	2	أن	_	1	?	_	2	pot	_	1	?	_	2	sehen	_	2	can	_	_	_	2	puede	_	3	que	_	1	Vediamo	_	1	Je	_	2	que	_
 3	see	see	_	3	تشاهدوا	_	1	?	_	1	Es	_	1	?	_	2	sehen	_	3	see	_	_	_	3	ver	_	2	voyez	_	1	Vediamo	_	1	Je	_	1	Vemos	_
@@ -587,8 +587,8 @@
 # sent_id = 155872
 # text:  And so it leads to things like this.
 # trans: Isso leva a coisas deste género.
-# forward_log_prob: -19.82866445593427
-# backward_log_prob: -20.819437435880683
+# forward_log_prob: -19.834209316827838
+# backward_log_prob: -20.809819532622523
 1	And	And	Expansion.Conjunction	2	فإن	_	1	?	_	1	I	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Ça	_	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	hetgeen	_	1	Isso	_
 2	so	so	Contingency.Cause.Result	1	ولذا	result.Cause.CONTIGENCY	1	?	_	2	això	_	1	?	_	2	dies	_	2	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	eso	_	2	mène	_	2	questo	_	1	hetgeen	_	2	leva	_
 3	it	it	_	2	فإن	_	1	?	_	3	porta	_	1	?	_	3	führt	_	3	it	_	_	_	2	eso	_	2	mène	_	3	porta	_	2	leidt	_	2	leva	_
@@ -601,8 +601,8 @@
 # sent_id = 155873
 # text:  ["Evict Twitter"] Somebody sent me this photo a few weeks ago, and it shows what is happening on the ground in San Francisco, and I think you can actually try to understand that through looking at a map like this.
 # trans: [Abaixo o Twitter] Enviaram-me esta foto há umas semanas. Mostra o que se passa no terreno, em São Francisco. Acho que podemos tentar perceber isso, olhando para um mapa como este.
-# forward_log_prob: -119.6913628833829
-# backward_log_prob: -152.2700719704095
+# forward_log_prob: -119.71340774773684
+# backward_log_prob: -152.2814742645943
 1	["Evict	["Evict	_	1	["قم	_	1	?	_	1	[“Esborreu	_	1	?	_	1	["Twitter	_	1	["Evict	_	_	_	1	[desahucia	_	1	[Virez	_	1	["Sfrattiamo	_	1	"verjaag	_	1	[Abaixo	_
 2	Twitter"]	Twitter"]	_	2	بطرد	_	1	?	_	2	Twitter”]	_	1	?	_	2	raus"]	_	2	Twitter"]	_	_	_	2	Twitter]	_	2	Twitter]	_	2	Twitter"]	_	2	Twitter".	_	3	Twitter]	_
 3	Somebody	Somebody	_	3	تويتر"]	_	1	?	_	2	Twitter”]	_	1	?	_	2	raus"]	_	3	Somebody	_	_	_	1	[desahucia	_	1	[Virez	_	1	["Sfrattiamo	_	2	Twitter".	_	?	?	?
@@ -647,8 +647,8 @@
 # sent_id = 155874
 # text:  Let's take a look at Rio de Janeiro.
 # trans: Vejamos o Rio de Janeiro.
-# forward_log_prob: -14.013837002221653
-# backward_log_prob: -24.228321304481238
+# forward_log_prob: -14.011940577597755
+# backward_log_prob: -24.23182552302602
 1	Let's	Let's	_	1	دعونا	_	1	?	_	1	Donem	_	1	?	_	?	?	?	1	Let's	_	_	_	1	Veamos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Vejamos	_
 2	take	take	_	2	نلقي	_	1	?	_	1	Donem	_	1	?	_	1	Betrachten	_	2	take	_	_	_	1	Veamos	_	1	Observons	_	1	Diamo	_	1	Laten	_	1	Vejamos	_
 3	a	a	_	3	نظرة	_	1	?	_	2	un	_	1	?	_	?	?	?	3	a	_	_	_	2	Rio	_	2	maintenant	Exception.EXPANSION	2	un'occhiata	_	2	we	_	2	o	_
@@ -661,8 +661,8 @@
 # sent_id = 155875
 # text:  I spent the last few weeks gathering data about Rio, and one of the things that stood out to me about this city is that everything's really kind of mixed up.
 # trans: Passei umas semanas a reunir dados sobre o Rio. Uma das coisas que ressaltou nesta cidade é que está tudo muito misturado.
-# forward_log_prob: -80.76751504734386
-# backward_log_prob: -113.53001623310388
+# forward_log_prob: -80.75927240381749
+# backward_log_prob: -113.51846451976101
 1	I	I	_	?	?	?	1	?	_	3	unes	_	1	?	_	1	Ich	_	1	I	_	_	_	3	unas	_	?	?	?	1	Ho	_	6	ik	_	2	umas	_
 2	spent	spent	_	1	أمضيت	_	1	?	_	1	He	_	1	?	_	2	sammelte	_	2	spent	_	_	_	1	He	_	1	J'ai	_	2	trascorso	_	2	afgelopen	_	1	Passei	_
 3	the	the	_	?	?	?	1	?	_	?	?	?	1	?	_	3	die	_	3	the	_	_	_	?	?	?	3	les	_	3	le	_	1	De	_	4	a	_
@@ -698,8 +698,8 @@
 # sent_id = 155876
 # text:  It's a very heterogenous city in a way that Baltimore or San Francisco is not.
 # trans: É uma cidade muito heterogénea, muito diferente de Baltimore ou São Francisco.
-# forward_log_prob: -35.81448102779754
-# backward_log_prob: -47.206246030845215
+# forward_log_prob: -35.824396720533244
+# backward_log_prob: -47.20063101645416
 1	It's	It's	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	És	_	1	?	_	1	Es	_	1	It's	_	_	_	?	?	?	?	?	?	1	È	_	1	Het	_	1	É	_
 2	a	a	_	5	بطريقة	_	1	?	_	2	una	_	1	?	_	2	ist	_	2	a	_	_	_	1	Es	_	?	?	?	2	una	_	2	is	_	2	uma	_
 3	very	very	_	2	مدينة	_	1	?	_	4	molt	_	1	?	_	4	sehr	_	3	very	_	_	_	4	muy	_	4	hétérogène,	_	5	eterogenea,	_	7	anders	Condition.CONTIGENCY	4	muito	_
@@ -719,14 +719,14 @@
 # sent_id = 155877
 # text:  You still have the lobe of people involved with government, newspapers, politics, columnists.
 # trans: Têm na mesma o grupo de pessoas envolvidas no governo, na imprensa, os políticos, os colunistas.
-# forward_log_prob: -50.801498920051614
-# backward_log_prob: -42.04027005285061
+# forward_log_prob: -50.80073938763863
+# backward_log_prob: -42.041407256018104
 1	You	You	_	5	تجد	_	1	?	_	2	i	_	1	?	_	1	Es	_	1	You	_	_	_	1	Sigue	_	1	Vous	_	3	quelli	_	1	Er	_	2	na	_
 2	still	still	_	1	لا	Contrast.COMPARISON	1	?	_	1	Així	_	1	?	_	3	immer	_	2	still	_	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	COMPARISON|Concession.COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	habiendo	_	2	avez	_	2	ancora	_	3	nog	_	1	Têm	_
 3	have	have	_	?	?	?	1	?	_	1	Així	_	1	?	_	2	gibt	_	3	have	_	_	_	2	habiendo	_	2	avez	_	1	Abbiamo	_	3	nog	_	3	mesma	_
-4	the	the	_	?	?	?	1	?	_	?	?	?	1	?	_	5	die	_	4	the	_	_	_	3	el	_	6	des	_	6	a	_	5	de	_	4	o	_
+4	the	the	_	4	أن	_	1	?	_	?	?	?	1	?	_	5	die	_	4	the	_	_	_	3	el	_	6	des	_	6	a	_	5	de	_	4	o	_
 5	lobe	lobe	_	6	فريقاً	_	1	?	_	6	lòbul	_	1	?	_	6	Gruppen	_	5	lobe	_	_	_	3	el	_	5	zone	_	5	hanno	_	4	steeds	_	5	grupo	_
-6	of	of	_	7	من	_	1	?	_	7	de	_	1	?	_	7	an	_	6	of	_	_	_	5	de	_	7	gens	_	7	che	_	7	die	_	6	de	_
+6	of	of	_	7	من	_	1	?	_	7	de	_	1	?	_	7	an	_	6	of	_	_	_	5	de	_	7	gens	_	10	il	_	7	die	_	6	de	_
 7	people	people	_	8	الناس	_	1	?	_	8	gent	_	1	?	_	8	Menschen	_	7	people	_	_	_	7	gente	_	7	gens	_	11	governo,	_	9	bezighoudt	_	7	pessoas	_
 8	involved	involved	_	9	يعملون	_	1	?	_	9	interessada	_	1	?	_	7	an	_	8	involved	_	_	_	8	del	_	8	du	_	10	il	_	8	zich	_	8	envolvidas	_
 9	with	with	_	11	الحكومة	_	1	?	_	11	govern,	_	1	?	_	10	Verwaltung,	_	9	with	_	_	_	8	del	_	11	journaux,	_	8	fare	_	9	bezighoudt	_	11	na	_
@@ -738,8 +738,8 @@
 # sent_id = 155878
 # text:  TEDxRio is down in the lower right, right next to bloggers and writers.
 # trans: TEDxRio está em baixo à direita, ao pé dos bloguistas e escritores.
-# forward_log_prob: -37.78794717043096
-# backward_log_prob: -37.084918491032894
+# forward_log_prob: -37.77614771197245
+# backward_log_prob: -37.0901912365483
 1	TEDxRio	TEDxRio	_	1	يوجد	_	1	?	_	1	TEDxRio	_	1	?	_	1	TEDxRio	_	1	TEDxRio	_	_	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_	1	TEDxRio	_
 2	is	is	_	2	TEDxRio	_	1	?	_	2	està	_	1	?	_	1	TEDxRio	_	2	is	_	_	_	2	está	_	2	est	_	2	è	_	2	bevindt	_	2	está	_
 3	down	down	_	2	TEDxRio	_	1	?	_	3	baix	_	1	?	_	3	unten	_	3	down	_	_	_	3	abajo,	_	?	?	?	3	in	_	3	zich	_	4	baixo	_
@@ -757,8 +757,8 @@
 # sent_id = 155879
 # text:  But then you also have this tremendous diversity of people that are interested in different kinds of music.
 # trans: E também temos esta grande diversidade de pessoas interessadas em diferentes tipos de música.
-# forward_log_prob: -44.47759804778897
-# backward_log_prob: -58.18836886051113
+# forward_log_prob: -44.47600803013075
+# backward_log_prob: -58.21109343884501
 1	But	But	Comparison.Concession.Arg2-as-denier	1	ولكنك	_	1	?	_	1	Però	precedence.Asynchronous.TEMPORAL	1	?	_	3	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	Maar	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	then	then	_	2	أيضاً	_	1	?	_	2	també	EXPANSION	1	?	_	4	auch	Conjunction.EXPANSION	2	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	también	EXPANSION	?	?	?	2	poi	precedence.Asynchronous.TEMPORAL	3	is	_	?	?	?
 3	you	you	_	3	تجد	_	1	?	_	3	hi	_	1	?	_	2	gibt	_	3	you	_	_	_	2	hay	_	2	vous	_	2	poi	precedence.Asynchronous.TEMPORAL	2	er	_	?	?	?
@@ -781,12 +781,12 @@
 # sent_id = 155880
 # text:  Even Justin Bieber fans are represented here.
 # trans: Até há fãs de Justin Bieber aqui representados.
-# forward_log_prob: -21.71069870478065
-# backward_log_prob: -18.01662154026842
+# forward_log_prob: -21.709962166032664
+# backward_log_prob: -18.01684136136018
 1	Even	Even	Expansion.Instantiation	1	حتى	_	1	?	_	3	inclús	_	1	?	_	1	Sogar	_	1	Even	_	_	_	1	Hasta	TEMPORAL	1	Même	Conjunction.EXPANSION|Exception.EXPANSION	3	rappresentati	_	1	Zelfs	_	1	Até	_
 2	Justin	Justin	_	2	أن	_	1	?	_	1	Es	_	1	?	_	2	Justin	_	2	Justin	_	_	_	2	los	_	2	les	_	1	Ci	_	2	Justin	_	2	há	_
 3	Bieber	Bieber	_	3	معجبي	_	1	?	_	2	mostren	_	1	?	_	2	Justin	_	3	Bieber	_	_	_	3	fans	_	3	fans	_	3	rappresentati	_	3	Bieber-fans	_	3	fãs	_
-4	fans	fans	_	5	بيبر	_	1	?	_	5	fans	_	1	?	_	3	Bieber-Fans	_	4	fans	_	_	_	5	Justin	_	5	Justin	_	5	i	_	4	zijn	_	5	Justin	_
+4	fans	fans	_	5	بيبر	_	1	?	_	4	els	_	1	?	_	3	Bieber-Fans	_	4	fans	_	_	_	5	Justin	_	5	Justin	_	5	i	_	4	zijn	_	5	Justin	_
 5	are	are	_	5	بيبر	_	1	?	_	5	fans	_	1	?	_	4	sind	_	5	are	_	_	_	6	Bieber	_	7	sont	_	6	fan	_	5	hierop	precedence.Asynchronous.TEMPORAL	6	Bieber	_
 6	represented	represented	_	6	تم	_	1	?	_	6	de	_	1	?	_	5	vertreten.	_	6	represented	_	_	_	6	Bieber	_	8	représentés	_	7	di	_	5	hierop	precedence.Asynchronous.TEMPORAL	6	Bieber	_
 7	here.	here.	_	8	هنا.	_	1	?	_	8	Bieber.	_	1	?	_	5	vertreten.	_	7	here.	_	_	_	7	están	_	9	ici.	_	9	Bieber.	_	7	zien.	_	7	aqui	_
@@ -794,8 +794,8 @@
 # sent_id = 155881
 # text:  Other boy bands, country singers, gospel music, funk and rap and stand-up comedy, and there's even a whole section around drugs and jokes.
 # trans: Outras boy bands, cantores "country", música "gospel, "funk" e "rap" e artistas de comédia "stand-up". Há mesmo toda uma secção em torno de drogas e anedotas.
-# forward_log_prob: -88.32071990134608
-# backward_log_prob: -77.30703564161824
+# forward_log_prob: -88.3261019458092
+# backward_log_prob: -77.29390781419005
 1	Other	Other	_	?	?	?	1	?	?	1	Altres	_	1	?	?	1	Andere	_	1	Other	_	_	_	1	Otras	_	1	D'autres	_	1	Boy	_	1	Andere	_	1	Outras	_
 2	boy	boy	_	1	وهناك	_	1	?	?	2	bandes,	_	1	?	?	1	Andere	_	2	boy	_	_	_	2	bandas,	_	2	<i>boys	_	2	band,	_	2	boybands,	_	2	boy	_
 3	bands,	bands,	_	3	شابة	_	1	?	?	3	cantants	_	1	?	?	2	Boy-Groups,	_	3	bands,	_	_	_	3	cantantes	_	4	chanteurs	_	2	band,	_	2	boybands,	_	3	bands,	_
@@ -823,8 +823,8 @@
 # sent_id = 155882
 # text:  How cool is that?
 # trans: Não é fixe?
-# forward_log_prob: -7.700646877252901
-# backward_log_prob: -10.193113683898366
+# forward_log_prob: -7.701642962639342
+# backward_log_prob: -10.194299197160626
 1	How	How	_	1	كم	_	1	?	?	2	us	_	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿No	_	1	N'est-ce	_	3	fantastico?	_	1	Hoe	_	1	Não	_
 2	cool	cool	_	1	كم	_	1	?	?	1	Què	_	1	?	?	2	cool	_	2	cool	_	_	_	1	¿No	_	1	N'est-ce	_	1	Non	_	2	stoer	_	3	fixe?	_
 3	is	is	_	3	رائع!	_	1	?	?	2	us	_	1	?	?	3	ist	_	3	is	_	_	_	2	es	_	3	super	_	2	è	_	3	is	_	2	é	_
@@ -833,8 +833,8 @@
 # sent_id = 155883
 # text:  And then the Flamengo football team is also represented here.
 # trans: A equipa de futebol Flamengo também está representada aqui.
-# forward_log_prob: -25.80926597132381
-# backward_log_prob: -27.967010872817234
+# forward_log_prob: -25.81111884460317
+# backward_log_prob: -27.95580475857356
 1	And	And	Expansion.Conjunction	?	?	?	1	?	?	1	I	_	1	?	?	1	Auch	Conjunction.EXPANSION	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	El	_	1	Le	_	1	Rappresentata	_	1	Daarnaast	Conjunction.EXPANSION	1	A	_
 2	then	then	_	?	?	?	1	?	?	2	l’equip	_	1	?	?	1	Auch	Conjunction.EXPANSION	2	then	TEMPORAL	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	Flamengo	_	2	club	_	3	c'è	_	2	is	_	2	equipa	_
 3	the	the	_	4	فريق	_	1	?	?	3	de	_	1	?	?	2	die	_	3	the	_	_	_	1	El	_	?	?	?	2	qui	_	3	het	_	1	A	_
@@ -849,12 +849,12 @@
 # sent_id = 155884
 # text:  So you have that same kind of spread of sports and civics and the arts and music, but it's represented in a very different way, and I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city.
 # trans: Temos assim o mesmo tipo de difusão no desporto, na sociedade civil, na arte e na música, mas está representada de modo muito diferente. Penso que isso deve corresponder à nossa ideia de que o Rio é uma cidade muito multicultural, musicalmente diversificada.
-# forward_log_prob: -170.775018482275
-# backward_log_prob: -165.02551600757
+# forward_log_prob: -170.7790485017775
+# backward_log_prob: -165.0128055428152
 1	So	So	Contingency.Cause+Belief.Result+Belief	1	إذن	_	1	?	?	?	?	?	1	?	?	2	haben	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	CONTIGENCY|Cause.CONTIGENCY	3	donc	result.Cause.CONTIGENCY	?	?	?	?	?	?	?	?	?
 2	you	you	_	?	?	?	1	?	?	2	ha	_	1	?	?	1	Sie	_	2	you	_	_	_	4	el	_	1	Vous	_	?	?	?	1	Je	_	?	?	?
 3	have	have	_	?	?	?	1	?	?	1	Hi	_	1	?	?	2	haben	_	3	have	_	_	_	?	?	?	2	avez	_	?	?	?	?	?	?	1	Temos	_
-4	that	that	_	?	?	?	1	?	?	11	les	_	1	?	?	?	?	?	4	that	_	_	_	2	que	_	?	?	?	?	?	?	?	?	?	?	?	?
+4	that	that	_	?	?	?	1	?	?	11	les	_	1	?	?	?	?	?	4	that	_	_	_	2	que	_	?	?	?	?	?	?	3	een	_	?	?	?
 5	same	same	_	3	نفس	_	1	?	?	4	mateixa	_	1	?	?	4	Bandbreite	_	5	same	_	_	_	5	mismo	_	6	type	_	4	diffusione	_	4	vergelijkbare	_	?	?	?
 6	kind	kind	_	4	النوع	_	1	?	?	?	?	?	1	?	?	12	in	_	6	kind	_	_	_	6	tipo	_	6	type	_	4	diffusione	_	5	spreiding	_	5	tipo	_
 7	of	of	_	5	من	_	1	?	?	10	de	_	1	?	?	?	?	?	7	of	_	_	_	6	tipo	_	7	de	_	5	di	_	6	van	_	5	tipo	_
@@ -876,7 +876,7 @@
 23	very	very	_	16	جداً،	_	1	?	?	17	està	_	1	?	?	15	anderen	_	23	very	_	_	_	20	muy	_	22	représentation	_	?	?	?	16	anders	Condition.CONTIGENCY	23	muito	_
 24	different	different	_	15	مختلفة	_	1	?	?	21	diferent	_	1	?	?	14	ganz	_	24	different	_	_	_	21	distinta	_	24	différente.	_	20	diverso,	_	?	?	?	24	diferente.	_
 25	way,	way,	_	14	بطريقة	_	1	?	?	20	forma	_	1	?	?	16	Art	_	25	way,	_	_	_	19	forma	_	36	comme	COMPARISON|specification.Restatement.EXPANSION	19	modo	_	?	?	?	24	diferente.	_
-26	and	and	Expansion.Conjunction	19	ذلك	_	1	?	?	22	i	_	1	?	?	?	?	?	26	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	?	?	?	?	?	?	15	heel	_	27	isso	_
+26	and	and	Expansion.Conjunction	19	ذلك	_	1	?	?	22	i	_	1	?	?	?	?	?	26	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	22	y	_	?	?	?	?	?	?	21	het	_	27	isso	_
 27	I	I	_	17	وأعتقد	_	1	?	?	23	crec	_	1	?	?	18	Ich	_	27	I	_	_	_	23	creo	_	25	Je	_	22	credo	_	18	Ik	_	25	Penso	_
 28	think	think	_	17	وأعتقد	_	1	?	?	23	crec	_	1	?	?	?	?	?	28	think	_	_	_	23	creo	_	26	pense	_	?	?	?	19	denk	_	25	Penso	_
 29	that	that	_	18	أن	_	1	?	?	24	que	_	1	?	?	?	?	?	29	that	_	_	_	24	que	_	27	que	_	21	che	_	20	dat	_	26	que	_
@@ -899,8 +899,8 @@
 # sent_id = 155885
 # text:  So we have all this data.
 # trans: Temos pois todos estes dados.
-# forward_log_prob: -14.120322175034135
-# backward_log_prob: -13.732381785784751
+# forward_log_prob: -14.120701341666358
+# backward_log_prob: -13.732848005271563
 1	So	So	_	1	إذن	_	1	?	?	1	Així	CONTIGENCY|Cause.CONTIGENCY	1	?	?	?	?	?	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	pues	_	3	donc	result.Cause.CONTIGENCY	1	Abbiamo	_	1	Nu	_	2	pois	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	we	we	_	2	لدينا	_	1	?	?	2	que	_	1	?	?	1	Wir	_	2	we	_	_	_	1	Tenemos	_	1	Nous	_	1	Abbiamo	_	2	hebben	_	2	pois	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	have	have	_	2	لدينا	_	1	?	?	3	tenim	_	1	?	?	2	haben	_	3	have	_	_	_	2	pues	_	2	avons	_	2	tutti	_	2	hebben	_	1	Temos	_
@@ -911,8 +911,8 @@
 # sent_id = 155886
 # text:  It's an incredibly rich set of data that we have about cities now, maybe even richer than any data set that we've ever had before.
 # trans: É um conjunto de dados muito rico que temos agora sobre as cidades, talvez mais ricos do que todos os que já tivemos até agora.
-# forward_log_prob: -85.8810686539377
-# backward_log_prob: -93.69210407307192
+# forward_log_prob: -85.83525005387264
+# backward_log_prob: -93.68654166000319
 1	It's	It's	_	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	És	_	1	?	?	2	unglaublich	_	1	It's	_	_	_	3	conjunto	_	1	un	_	2	una	_	1	een	_	6	muito	_
 2	an	an	_	3	غنية	_	1	?	?	3	conjunt	_	1	?	?	2	unglaublich	_	2	an	_	_	_	2	un	_	2	jeu	_	3	quantità	_	2	enorm	_	7	rico	_
 3	incredibly	incredibly	_	2	مجموعة	_	1	?	?	3	conjunt	_	1	?	?	1	ein	_	3	incredibly	_	_	_	3	conjunto	_	2	jeu	_	3	quantità	_	2	enorm	_	7	rico	_
@@ -942,8 +942,8 @@
 # sent_id = 155887
 # text:  So what can we do with it?
 # trans: O que é que podemos fazer com isto?
-# forward_log_prob: -20.992516681697573
-# backward_log_prob: -23.57700973711964
+# forward_log_prob: -20.999672246522728
+# backward_log_prob: -23.557731512279467
 1	So	So	Contingency.Cause+SpeechAct.Result+SpeechAct	1	إذن	_	1	?	?	1	Què	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	_	2	pouvons-nous	_	2	possiamo	_	1	maar	_	1	O	_
 2	what	what	Hypophora	2	ما	specification.Restatement.EXPANSION	1	?	?	1	Què	_	1	?	?	1	Was	_	2	what	_	_	_	3	¿qué	_	2	pouvons-nous	_	1	Cosa	_	2	wat	_	1	O	_
 3	can	can	_	4	نستطيع	_	1	?	?	1	Què	_	1	?	?	2	können	_	3	can	_	_	_	2	que,	_	1	Que	_	2	possiamo	_	2	wat	_	2	que	_
@@ -955,8 +955,8 @@
 # sent_id = 155888
 # text:  Well, I think the first thing that we can try to understand is that segregation is a social construct.
 # trans: Penso que a primeira coisa que podemos tentar compreender é que a segregação é uma construção social.
-# forward_log_prob: -50.076796003747845
-# backward_log_prob: -59.84022033653333
+# forward_log_prob: -50.12711103085379
+# backward_log_prob: -59.83899522683099
 1	Well,	Well,	_	1	حسناً،	_	1	?	?	?	?	?	1	?	?	?	?	?	1	Well,	_	_	_	1	Pienso	_	2	bien,	_	1	Beh,	_	?	?	?	3	a	_
 2	I	I	_	2	أعتقد	_	1	?	?	1	Crec	_	1	?	?	1	Ich	_	2	I	_	_	_	?	?	?	3	je	_	2	credo	_	1	Ik	_	1	Penso	_
 3	think	think	_	2	أعتقد	_	1	?	?	3	el	_	1	?	?	2	denke,	_	3	think	_	_	_	3	lo	_	2	bien,	_	2	credo	_	2	denk	_	1	Penso	_
@@ -980,8 +980,8 @@
 # sent_id = 155889
 # text:  It's something that we choose to do, and we could choose not to do it, and if you kind of think about it, what we're doing with this data is aiming a space telescope at a city and looking at it as if was a giant high school cafeteria, and seeing how everybody arranged themselves in a seating chart.
 # trans: É uma coisa que escolhemos fazer, e podíamos escolher não a fazer. Se pensarmos bem nisso, o que estamos a fazer com estes dados é apontar um telescópio para uma cidade e olhar para ela como uma gigantesca cantina escolar, ver como toda a gente se instala numa planta de lugares.
-# forward_log_prob: -196.40987143781825
-# backward_log_prob: -231.85140163012133
+# forward_log_prob: -196.40665177513054
+# backward_log_prob: -231.84410284792386
 1	It's	It's	_	?	?	?	1	?	?	1	És	_	1	?	?	2	es	_	1	It's	_	_	_	?	?	?	?	?	?	?	?	?	1	Het	_	?	?	?
 2	something	something	_	?	?	?	?	?	?	3	cosa	_	?	?	?	3	etwas,	_	2	something	_	_	_	2	algo	_	?	?	?	2	qualcosa	_	?	?	?	2	uma	_
 3	that	that	_	6	أن	_	?	?	?	4	que	_	?	?	?	4	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	3	que	_	?	?	?	3	che	_	2	is	_	1	É	_
@@ -1045,8 +1045,8 @@
 # sent_id = 155890
 # text:  Well maybe it's time to shake up the seating chart a little bit.
 # trans: Talvez seja altura de baralhar um pouco a planta de lugares.
-# forward_log_prob: -32.94956467211839
-# backward_log_prob: -40.72938705752426
+# forward_log_prob: -32.93677692333542
+# backward_log_prob: -40.72074185575108
 1	Well	Well	_	1	حسناً،	_	1	?	?	?	?	?	1	?	?	?	?	?	1	Well	_	Conjunction.EXPANSION	_	1	Puede	_	2	est	_	1	Beh	_	?	?	?	2	seja	_
 2	maybe	maybe	_	2	ربما	specification.Restatement.EXPANSION	1	?	?	1	Potser	_	1	?	?	1	Vielleicht	_	2	maybe	_	result.Cause.CONTIGENCY	_	2	que	_	3	peut-être	_	2	forse	_	1	Misschien	_	1	Talvez	_
 3	it's	it's	_	3	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	?	1	Potser	_	1	?	?	1	Vielleicht	_	3	it's	_	_	_	3	sea	_	3	peut-être	_	2	forse	_	2	is	_	1	Talvez	_
@@ -1064,8 +1064,8 @@
 # sent_id = 155891
 # text:  The other thing that we start to realize is that race is a really poor proxy for diversity.
 # trans: A outra coisa que começamos a perceber é que as etnias são de facto uma fraca prova para a diversidade.
-# forward_log_prob: -63.21163749439394
-# backward_log_prob: -58.18006917715102
+# forward_log_prob: -63.21141220184712
+# backward_log_prob: -58.18395144451562
 1	The	The	_	2	الآخر	_	1	?	?	3	a	_	1	?	?	3	auch	Conjunction.EXPANSION	1	The	_	_	_	1	La	_	?	?	?	?	?	?	?	?	?	1	A	_
 2	other	other	_	2	الآخر	_	1	?	?	?	?	?	1	?	?	2	wird	_	2	other	_	_	_	3	cosa	_	?	?	?	1	L'altra	_	1	Verder	Conjunction.EXPANSION	2	outra	_
 3	thing	thing	_	1	الشيء	_	1	?	?	1	També	EXPANSION	1	?	?	1	Uns	_	3	thing	_	_	_	2	otra	_	?	?	?	2	cosa	_	2	beginnen	_	3	coisa	_
@@ -1088,8 +1088,8 @@
 # sent_id = 155892
 # text:  We've got people represented from all different types of races across the entire map here -- only looking at race doesn't really contribute to our development of diversity.
 # trans: Temos pessoas representadas de todos os tipos diferentes de etnias por todo o mapa — olhar apenas para a etnia não contribui muito para o desenvolvimento da diversidade.
-# forward_log_prob: -98.3993792948225
-# backward_log_prob: -108.16457409063406
+# forward_log_prob: -98.39687230336864
+# backward_log_prob: -108.15932803405083
 1	We've	We've	_	2	أشخاص	_	1	?	?	?	?	?	1	?	?	4	aus	_	1	We've	_	_	_	2	representadas	_	5	selon	_	9	tutte	_	3	hier	_	6	os	_
 2	got	got	_	2	أشخاص	_	1	?	?	1	Hi	_	1	?	?	6	Arten	_	2	got	_	_	_	2	representadas	_	6	leur	_	4	ci	_	?	?	?	3	representadas	_
 3	people	people	_	2	أشخاص	_	1	?	?	3	gent	_	1	?	?	4	aus	_	3	people	_	_	_	3	personas	_	2	gens	_	7	persone	_	4	mensen	_	2	pessoas	_
@@ -1122,8 +1122,8 @@
 # sent_id = 155893
 # text:  So if we're trying to use diversity as a way to tackle some of our more intractable problems, we need to start to think about diversity in a new way.
 # trans: Se tentarmos usar a diversidade como forma de resolver alguns dos problemas mais difíceis, precisamos de começar a pensar sobre a diversidade de forma diferente.
-# forward_log_prob: -86.3852364640923
-# backward_log_prob: -104.78858752113547
+# forward_log_prob: -86.35579458080261
+# backward_log_prob: -104.80101326025087
 1	So	So	Contingency.Cause.Result	1	لذا	result.Cause.CONTIGENCY	1	?	?	?	?	?	1	?	?	?	?	?	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Así	CONTIGENCY|Cause.CONTIGENCY	1	Donc	result.Cause.CONTIGENCY	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	Als	COMPARISON|Condition.CONTIGENCY|Synchronous.TEMPORAL	2	tentarmos	_
 2	if	if	Contingency.Condition.Arg2-as-cond	2	إن	_	1	?	?	1	Si	TEMPORAL	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	si	TEMPORAL	2	si	Concession.COMPARISON|Condition.CONTIGENCY	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	2	we	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 3	we're	we're	_	3	كنا	_	1	?	?	3	d’usar	_	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	3	we're	_	_	_	3	si	TEMPORAL	3	nous	_	3	vogliamo	_	5	gebruiken	_	3	usar	_
@@ -1158,8 +1158,8 @@
 # sent_id = 155894
 # text:  And lastly, we have the ability to create interventions to start to reshape our cities in a new way, and I believe that if we have that capability, we may even bear some responsibility to do so.
 # trans: E, por fim, temos a possibilidade de criar intervenções para começar a reformular as nossas cidades de modo novo. Creio que, se temos essa capacidade, até podemos ter alguma responsabilidade em fazê-lo.
-# forward_log_prob: -125.44384647507135
-# backward_log_prob: -131.3577411782843
+# forward_log_prob: -125.45594258141323
+# backward_log_prob: -131.35636387902068
 1	And	And	_	8	في	_	1	?	?	4	de	_	1	?	?	?	?	?	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	6	de	_	?	?	?	?	?	?	1	E,	_
 2	lastly,	lastly,	Expansion.Conjunction	1	وفي	TEMPORAL	1	?	?	1	Finalment,	_	1	?	?	1	Schlussendlich	Synchronous.TEMPORAL|precedence.Asynchronous.TEMPORAL	2	lastly,	_	_	_	2	finalmente,	_	1	Enfin,	_	2	agire	_	1	Tenslotte	precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	we	we	_	3	لدينا	_	1	?	?	2	tenim	_	1	?	?	3	wir	_	3	we	_	_	_	3	tenemos	_	2	nous	_	1	Possiamo	_	3	we	_	4	temos	_
@@ -1201,8 +1201,8 @@
 # sent_id = 155895
 # text:  So what is a city?
 # trans: Então, o que é uma cidade?
-# forward_log_prob: -13.483697707505417
-# backward_log_prob: -11.972223426276022
+# forward_log_prob: -13.496053538415035
+# backward_log_prob: -11.967254383148303
 1	So	So	_	1	إذن	_	1	?	?	1	Què	_	1	?	?	1	Was	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	¿Qué	_	1	Qu'est-ce	_	1	Cos'è	_	1	Dus,	_	1	Então,	_
 2	what	what	Hypophora	2	ما	specification.Restatement.EXPANSION	1	?	?	1	Què	_	1	?	?	1	Was	_	2	what	_	_	_	1	¿Qué	_	1	Qu'est-ce	_	1	Cos'è	_	2	wat	_	1	Então,	_
 3	is	is	_	3	هي	_	1	?	?	2	és	_	1	?	?	2	ist	_	3	is	_	_	_	2	es	_	2	qu'une	_	2	una	_	3	is	_	4	é	_
@@ -1212,8 +1212,8 @@
 # sent_id = 155896
 # text:  I think some might say that it is a geographical area or a collection of streets and buildings, but I believe that a city is the sum of the relationships of the people that live there, and I believe that if we can start to document those relationships in a real way then maybe we have a real shot at creating those kinds of cities that we'd like to have.
 # trans: Acho que alguns dirão que é uma área geográfica ou um conjunto de ruas e edifícios, mas penso que uma cidade é a soma das relações das pessoas que lá vivem. Acho que, se começarmos a documentar essas relações de forma real talvez tenhamos uma hipótese para criar o tipo de cidades que gostaríamos de ter,
-# forward_log_prob: -219.0236372854301
-# backward_log_prob: -268.72867325477205
+# forward_log_prob: -218.89553518006971
+# backward_log_prob: -268.705174709703
 1	I	I	_	1	أعتقد	_	1	?	?	?	?	?	1	?	?	2	könnte	_	1	I	_	_	_	?	?	?	1	Je	_	?	?	?	?	?	?	1	Acho	_
 2	think	think	_	1	أعتقد	_	?	?	?	?	?	?	?	?	?	?	?	?	2	think	_	_	_	?	?	?	2	pense	_	?	?	?	?	?	?	?	?	?
 3	some	some	_	3	البعض	_	?	?	?	16	jo	_	?	?	?	?	?	?	3	some	_	_	_	3	decir	_	1	Je	_	?	?	?	3	zeggen	_	3	alguns	_
@@ -1289,7 +1289,7 @@
 # text:  Thank you.
 # trans: Obrigado.
 # forward_log_prob: -3.542469818713167
-# backward_log_prob: -3.1885584255434956
+# backward_log_prob: -3.188654856713806
 1	Thank	Thank	_	1	شكراً	_	1	?	?	1	Gràcies.	_	1	?	?	1	Danke.	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	Dankuwel.	_	1	Obrigado.	_
 2	you.	you.	_	2	لكم.	_	1	?	?	1	Gràcies.	_	1	?	?	1	Danke.	_	2	you.	_	_	_	1	Gracias.	_	1	Merci.	_	2	(Applausi)	_	1	Dankuwel.	_	1	Obrigado.	_
 

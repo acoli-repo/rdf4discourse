@@ -46,6 +46,14 @@ Retrieve source data, build `gazetteers/`, `data/`, `ensemble/` and `eval/` with
 
 Within each language, the first column holds the token ID, the second the WORD, the following the annotations. Note that we only preserve those words of the translation that have target language alignment. Also note that we preserve the first aligned word only for an n:m alignment. The original source format uses empty target language tokens to represent n:m alignment, but as we are not interested in the translation, but only in its annotation, this is omitted here.
 
+## Evaluation
+
+- internal evaluation: compare against target-language gazetteer as gold (`experiment/`)
+- external evaluation: evaluate against TED-MDB annotations (`eval/`)
+  - baseline: target-language gazeteer (3x `en`, `de`, `pt`)
+  - ensemble predictions: all languages except for target language
+  - we expect the ensemble to outperform the baseline because it provides some level of disambiguation
+
 ## TODO
 
 - Move gazetteer construction into main repo.

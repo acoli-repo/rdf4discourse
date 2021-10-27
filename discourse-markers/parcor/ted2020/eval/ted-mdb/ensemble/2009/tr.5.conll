@@ -1,8 +1,8 @@
 # sent_id = 138295
 # text:  Küçük bir kız olarak, bir gün kaçan giden biri olmayı hayal ettim.
 # trans: Em pequena, sempre imaginei que um dia fugiria.
-# forward_log_prob: -24.766341880488817
-# backward_log_prob: -35.348832952954936
+# forward_log_prob: -24.791207945225764
+# backward_log_prob: -35.342067438071815
 1	Küçük	Küçük	_	1	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	2	kleines	_	3	little	_	_	_	2	niña,	_	1	Petite,	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	3	verbeeldde	_	1	Em	_
 2	bir	bir	_	?	?	?	1	?	_	1	?	_	1	Jako	Conjunction.EXPANSION	?	?	?	2	a	_	_	_	1	De	_	2	j'avais	_	?	?	?	4	ik	_	1	Em	_
 3	kız	kız	_	2	كنت	_	1	?	_	1	?	_	2	malá	_	3	Mädchen	_	3	little	_	_	_	3	siempre	_	1	Petite,	_	2	ero	_	3	verbeeldde	_	2	pequena,	_
@@ -19,8 +19,8 @@
 # sent_id = 138296
 # text:  Altı yaşından beri, bazı elbiselerimi davul toplu konserve yiyceklerimi de dolabın arkasında tutuyorum.
 # trans: A partir dos meus 6 anos, passei a guardar uma mala com roupas e latas de comida escondidas na parte de trás de um roupeiro.
-# forward_log_prob: -83.98452688836134
-# backward_log_prob: -49.78434343610686
+# forward_log_prob: -84.05101947306336
+# backward_log_prob: -49.78460681664238
 1	Altı	Altı	_	2	عمر	_	1	?	_	1	?	_	1	Od	_	1	Seit	succession.Asynchronous.TEMPORAL	3	age	_	_	_	1	A	_	1	Dès	_	1	Da	succession.Asynchronous.TEMPORAL	1	Vanaf	succession.Asynchronous.TEMPORAL	1	A	_
 2	yaşından	yaşından	_	2	عمر	_	1	?	_	1	?	_	3	šesti	_	2	dem	_	3	age	_	_	_	2	partir	_	4	six	_	4	sei	_	3	zesde	_	3	dos	_
 3	beri,	beri,	_	3	السادسة،	_	1	?	_	1	?	_	4	let	_	4	Lebensjahr	_	5	six	_	_	_	5	6	_	5	ans,	_	6	ho	_	3	zesde	_	5	6	_
@@ -38,17 +38,17 @@
 # sent_id = 138297
 # text:  İçimde derin bir rahatsızlık var hayatın tek düzeliğine ve sıkkınlığa kurban düşeceğime dair ilkel bir korku.
 # trans: Sentia uma profunda inquietação, um medo primordial de que seria vítima de uma vida de rotina e aborrecimento.
-# forward_log_prob: -52.82159081391798
-# backward_log_prob: -51.77333775816477
+# forward_log_prob: -52.88340911953855
+# backward_log_prob: -51.778335092088575
 1	İçimde	İçimde	_	1	كان	_	1	?	_	1	?	_	1	Byl	_	1	In	_	1	There	_	_	_	1	Sentía	_	1	J'avais	_	1	C'era	_	1	Ik	_	1	Sentia	_
 2	derin	derin	_	2	هنالك	_	1	?	_	1	?	_	1	Byl	_	2	mir	_	2	was	_	_	_	1	Sentía	_	2	cette	_	2	una	_	2	was	_	2	uma	_
-3	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	10	zu	_	3	a	_	_	_	4	un	_	5	une	_	2	una	_	5	een	_	5	um	_
+3	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	3	a	_	_	_	4	un	_	5	une	_	2	una	_	5	een	_	?	?	?
 4	rahatsızlık	rahatsızlık	_	3	شعور	_	1	?	_	1	?	_	4	obrovský	_	4	eine	_	5	restlessness	_	_	_	3	inquietud,	_	3	profonde	_	4	irrequietezza	_	4	had	_	4	inquietação,	_
 5	var	var	_	5	عميق	_	1	?	_	1	?	_	5	neklid,	_	6	Unruhe,	_	7	me,	_	_	_	5	temor	_	4	angoisse,	_	7	me,	_	6	instinctieve	_	6	medo	_
 6	hayatın	hayatın	_	6	بعدم	_	1	?	_	1	?	_	6	surový	_	6	Unruhe,	_	9	primal	_	_	_	6	primitivo	_	4	angoisse,	_	7	me,	_	7	angst,	_	7	primordial	_
 7	tek	tek	_	7	الاستقرار،	_	1	?	_	1	?	_	7	strach,	_	8	Angst,	_	8	a	_	_	_	6	primitivo	_	6	peur	_	9	paura	_	10	ten	_	7	primordial	_
 8	düzeliğine	düzeliğine	_	7	الاستقرار،	_	1	?	_	1	?	_	7	strach,	_	9	Opfer	_	10	fear	_	_	_	8	ser	_	6	peur	_	10	primitiva	_	9	ik	_	10	seria	_
-9	ve	ve	_	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	7	de	_	?	?	?	11	di	_	?	?	?	12	de	_
+9	ve	ve	_	?	?	?	1	?	_	1	?	_	?	?	?	10	zu	_	?	?	?	?	?	7	de	_	?	?	?	11	di	_	?	?	?	12	de	_
 10	sıkkınlığa	sıkkınlığa	_	9	بدائي	_	1	?	_	1	?	_	10	padla	_	11	werden,	_	13	would	_	_	_	9	víctima	_	8	d'être	_	12	essere	_	12	zou	_	11	vítima	_
 11	kurban	kurban	_	10	أنني	_	1	?	_	1	?	_	10	padla	_	11	werden,	_	15	prey	_	_	_	9	víctima	_	9	piégée	_	13	vittima	_	13	vallen	_	11	vítima	_
 12	düşeceğime	düşeceğime	_	11	سأقع	_	1	?	_	1	?	_	12	oběť	_	15	voller	_	15	prey	_	_	_	12	rutina	_	9	piégée	_	13	vittima	_	13	vallen	_	16	rotina	_
@@ -60,8 +60,8 @@
 # sent_id = 138298
 # text:  Ve bu yüzden çocukluk dönemi hatıralarımın çoğu sınırlarda yürüyüp, çilek peşinde koştuğum ve farklı farklı insanlarla karşılaştığım yollarda sıradışı bir hayat sürdüğüm karma karışık hayallerdi.
 # trans: Por isso, muitas das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras, a recolher bagas e a conhecer todo o tipo de pessoas estranhas, com vidas fora do convencional, pela estrada fora.
-# forward_log_prob: -137.42815638509046
-# backward_log_prob: -92.45232037965968
+# forward_log_prob: -137.42827690988486
+# backward_log_prob: -92.45064861949898
 1	Ve	Ve	Expansion.Conjunction	?	?	?	1	?	_	1	?	_	1	A	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	?	?	?	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	4	de	_	?	?	?	?	?	?	2	van	_	?	?	?
 2	bu	bu	Contingency.Cause.Result	2	ذكرياتي	_	1	?	_	1	?	_	3	mnoho	_	1	Viele	_	3	many	_	_	_	1	Por	CONTIGENCY|Cause.CONTIGENCY	?	?	?	4	miei	_	1	Veel	_	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	yüzden	yüzden	Contingency.Cause.Result	1	أغلب	_	1	?	_	1	?	_	4	mých	_	2	meiner	_	6	early	_	_	_	2	eso,	_	6	souvenirs	_	1	Quindi,	_	4	vroege	_	2	isso,	_
@@ -91,8 +91,8 @@
 # sent_id = 138299
 # text:  Yıllar geçti, ama çocuk olarak hayalini kurduğum birçok macera -- benim dünyam dışındaki dünyalar arasında seyahat ederken ve yoluma dokunurken -- bir belgesel fotorafçısı olarak işim aracıyla bunlar gerçek oldu.
 # trans: Os anos passaram, mas muitas das aventuras que fantasiava em criança, a viajar e a tecer o meu caminho entre mundos para além do meu próprio, tornaram-se realidade através do meu trabalho como fotógrafa documental.
-# forward_log_prob: -127.0181176661665
-# backward_log_prob: -112.5909727773493
+# forward_log_prob: -127.09377385993282
+# backward_log_prob: -112.59564085549952
 1	Yıllar	Yıllar	_	1	مرت	_	1	?	_	1	?	_	1	Léta	_	2	Jahre	_	1	Years	_	_	_	1	Años	_	2	années	_	2	passati	_	1	Jaren	_	3	passaram,	_
 2	geçti,	geçti,	_	2	الأعوام،	_	1	?	_	1	?	_	2	ubíhala,	_	2	Jahre	_	2	have	_	_	_	2	después,	_	2	années	_	2	passati	_	2	gingen	_	2	anos	_
 3	ama	ama	Comparison.Concession.Arg2-as-denier|Expansion.Conjunction	3	لكن	Concession.COMPARISON	1	?	_	1	?	_	3	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Die	_	4	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	5	sobre	_	1	Les	_	1	Sono	_	4	maar	_	4	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
@@ -127,8 +127,8 @@
 # sent_id = 138300
 # text:  Ama hiçbir başka deneyim çocukluk rüyalarımı yaşayanlar arasında olmak kadar ve Birleşik Devlet boyunca gezgin arkadaşların arasında yasamak kadar gerçek hissettirmedi.
 # trans: Mas nenhuma outra experiência senti como tão fiel aos meus sonhos de infância, do que viver entre companheiros errantes pelos Estados Unidos e documentar as suas vidas.
-# forward_log_prob: -96.56991755997083
-# backward_log_prob: -74.01882614672868
+# forward_log_prob: -96.57257217940504
+# backward_log_prob: -74.02106107553695
 1	Ama	Ama	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	Ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Ninguna	_	1	Cependant,	_	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	?	?	?	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	hiçbir	hiçbir	_	2	ولا	_	1	?	_	1	?	_	2	žádná	_	2	keine	_	2	no	_	_	_	2	otra	_	2	aucune	_	2	nessuna	_	1	Geen	_	2	nenhuma	_
 3	başka	başka	_	3	تجربة	_	1	?	_	1	?	_	3	jiná	_	3	andere	_	4	experience	_	_	_	3	experiencia	_	4	n'a	_	5	è	_	2	andere	_	4	experiência	_
@@ -148,14 +148,14 @@
 17	arasında	arasında	_	15	زملاء	_	1	?	_	1	?	_	16	mezi	Synchronous.TEMPORAL	20	überall	_	21	fellow	_	_	_	15	las	_	21	travers	_	23	documentato	_	20	mededolenden	_	17	entre	_
 18	yasamak	yasamak	_	16	متشردين	_	1	?	_	1	?	_	17	poutníky	_	20	überall	_	22	wanderers	_	_	_	14	documentar	_	26	faire	_	25	loro	_	20	mededolenden	_	24	documentar	_
 19	kadar	kadar	_	17	عبر	_	1	?	_	1	?	_	19	celých	_	19	Leben	_	22	wanderers	_	_	_	?	?	?	24	pour	specification.Restatement.EXPANSION	?	?	?	20	mededolenden	_	24	documentar	_
-20	gerçek	gerçek	_	12	العيش	_	1	?	_	1	?	_	?	?	?	22	den	_	22	wanderers	_	_	_	?	?	?	28	documentaire.	_	?	?	?	19	van	_	15	que	_
-21	hissettirmedi.	hissettirmedi.	_	18	الولايات	_	1	?	_	1	?	_	21	státech.	_	25	dokumentieren.	_	22	wanderers	_	_	_	18	vagabundos	_	26	faire	_	28	gli	_	20	mededolenden	_	26	suas	_
+20	gerçek	gerçek	_	12	العيش	_	1	?	_	1	?	_	?	?	?	22	den	_	24	the	_	_	_	?	?	?	28	documentaire.	_	?	?	?	19	van	_	15	que	_
+21	hissettirmedi.	hissettirmedi.	_	18	الولايات	_	1	?	_	1	?	_	21	státech.	_	25	dokumentieren.	_	26	States.	_	_	_	18	vagabundos	_	26	faire	_	28	gli	_	20	mededolenden	_	26	suas	_
 
 # sent_id = 138301
 # text:  Bu bir göçebe hayali Amerikan rüyasının bir başka türü genç rençperlerin, gezginler, otostopçuların ve serseriler yaşadığı...
 # trans: Este é o sonho nómada, um tipo diferente de sonho americano vivido por jovens trabalhadores migratórios, viajantes, pedintes de boleia, vadios e vagabundos.
-# forward_log_prob: -77.61231792774673
-# backward_log_prob: -50.185124455575526
+# forward_log_prob: -77.68848048687606
+# backward_log_prob: -50.19337586818516
 1	Bu	Bu	_	?	?	?	1	?	_	1	?	_	1	Tohle	_	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	?	?	?	1	C'est	_	?	?	?	1	Dit	_	3	o	_
 2	bir	bir	_	?	?	?	1	?	_	1	?	_	2	je	_	?	?	?	?	?	?	?	?	?	?	?	2	le	_	?	?	?	?	?	?	?	?	?
 3	göçebe	göçebe	_	1	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	3	nomádský	_	4	Traum	_	4	nomadic	_	_	_	1	Este	_	4	nomade,	_	5	nomade,	_	4	nomadische	_	5	nómada,	_
@@ -167,7 +167,7 @@
 9	türü	türü	_	10	يعيشه	_	1	?	_	1	?	_	10	žitá	_	10	Art	_	11	dream	_	_	_	10	experimentan	_	14	jeunes	_	12	inseguito	_	10	geleefd	_	12	vivido	_
 10	genç	genç	_	10	يعيشه	_	1	?	_	1	?	_	11	mladými	_	12	Traum,	_	12	lived	_	_	_	10	experimentan	_	14	jeunes	_	14	giovani	_	12	jonge	_	14	jovens	_
 11	rençperlerin,	rençperlerin,	_	11	شباب	_	1	?	_	1	?	_	12	vandráky,	_	15	jungen	_	14	young	_	_	_	12	desamparados,	_	14	jeunes	_	15	vagabondi,	_	12	jonge	_	16	migratórios,	_
-12	gezginler,	gezginler,	_	12	متجولون	_	1	?	_	1	?	_	13	cestovateli,	_	14	von	_	16	travelers,	_	_	_	12	desamparados,	_	16	voyageurs,	_	16	viaggiatori,	_	14	reizigers,	_	17	viajantes,	_
+12	gezginler,	gezginler,	_	12	متجولون	_	1	?	_	1	?	_	13	cestovateli,	_	14	von	_	13	by	_	_	_	12	desamparados,	_	16	voyageurs,	_	16	viaggiatori,	_	14	reizigers,	_	17	viajantes,	_
 13	otostopçuların	otostopçuların	_	13	ومسافرون،	_	1	?	_	1	?	_	14	stopaři,	_	16	Landstreichern,	_	17	hitchhikers,	_	_	_	13	viajeros,	_	17	auto-stoppeurs,	_	17	autostoppisti,	_	15	lifters,	_	18	pedintes	_
 14	ve	ve	_	?	?	?	1	?	_	1	?	_	16	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	20	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	19	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	16	y	_	19	et	Conjunction.EXPANSION	21	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	17	en	Conjunction.EXPANSION	19	de	_
 15	serseriler	serseriler	_	15	ومتشردون	_	1	?	_	1	?	_	15	tuláky	_	19	Nichtsesshaften	_	18	vagrants	_	_	_	?	?	?	18	vagabonds	_	20	dimora	_	16	vagebonden	_	21	vadios	_
@@ -176,8 +176,8 @@
 # sent_id = 138302
 # text:  Birçoğumuzun aklınızda, aylaklar-serseriler geçmişten gelen canavarlar.
 # trans: Na maioria das nossas mentes, o vagabundo é uma criatura do passado.
-# forward_log_prob: -35.25907647762021
-# backward_log_prob: -19.33237722108532
+# forward_log_prob: -35.25906734037704
+# backward_log_prob: -19.332441359596235
 1	Birçoğumuzun	Birçoğumuzun	_	1	في	_	1	?	_	1	?	_	1	Většinou	_	1	In	_	1	In	_	_	_	1	En	_	1	Dans	_	1	La	_	1	Voor	succession.Asynchronous.TEMPORAL	1	Na	_
 2	aklınızda,	aklınızda,	_	3	عقولونا،	_	1	?	_	1	?	_	3	představíme	_	3	meisten	_	4	our	_	_	_	3	mentes,	_	5	nos	_	5	noi	_	3	meesten	_	4	nossas	_
 3	aylaklar-serseriler	aylaklar-serseriler	_	4	المتشرد	_	1	?	_	1	?	_	4	tuláka	_	4	Köpfen	_	6	the	_	_	_	3	mentes,	_	6	esprits,	_	6	crede	_	5	een	_	5	mentes,	_
@@ -188,8 +188,8 @@
 # sent_id = 138303
 # text:  "Gezici rençper" kelimesi bacakları vagondan sarkan kömürle kaplı yıpranmış yaşlı bir adamı çağrıştırıyor. ama bu fotoraflar renkli ve onlar ülke çapında fırıl fırıl dönen, oldukça canlı ve yaratıcı bir şekilde özgür, Amerikan'ın kimsenin görmediği taraflarını gören bir topluluğu tanımlıyor.
 # trans: A palavra "vagabundo" evoca uma velha imagem a preto e branco, de um homem velho coberto com carvão, pernas para fora de uma carruagem de mercadorias. Mas estas fotos são a cor e retratam uma comunidade que percorre todo o país, ferozmente viva e criativamente livre, observando lados da América que mais ninguém consegue ver.
-# forward_log_prob: -215.41729513712426
-# backward_log_prob: -156.95417899405237
+# forward_log_prob: -215.67267594270055
+# backward_log_prob: -156.9617184667723
 1	"Gezici	"Gezici	_	1	كلمة	_	1	?	_	1	?	_	1	Slovo	equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	Das	_	2	word	_	_	_	1	Nos	_	1	le	_	2	parola	_	1	Het	_	2	palavra	_
 2	rençper"	rençper"	_	2	"متشرد"	_	1	?	_	1	?	_	2	"vandrák"	_	2	Wort	_	3	"hobo"	_	_	_	2	hace	_	3	«	_	3	"barbone"	_	3	landloper	_	3	"vagabundo"	_
 3	kelimesi	kelimesi	_	3	تستحضر	_	1	?	_	1	?	_	3	vyčaruje	_	4	erinnert	_	4	conjures	_	_	_	3	pensar	_	4	vagabond	_	4	richiama	_	4	roept	_	4	evoca	_
@@ -200,7 +200,7 @@
 8	kaplı	kaplı	_	8	لرجل	_	1	?	_	1	?	_	9	muže	_	10	Wetter	_	11	image	_	_	_	10	anciano	_	11	noir	_	13	nero,	_	12	verlopen,	_	11	branco,	_
 9	yıpranmış	yıpranmış	_	9	شاحب	_	1	?	_	1	?	_	10	umazaného	_	12	verrußten	_	14	weathered	_	_	_	10	anciano	_	13	blanc,	_	16	vecchio	_	12	verlopen,	_	14	homem	_
 10	yaşlı	yaşlı	_	10	اللون	_	1	?	_	1	?	_	11	uhlím	_	13	Mannes,	_	14	weathered	_	_	_	11	abrigado	_	14	celle	_	16	vecchio	_	13	met	_	14	homem	_
-11	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	13	a	_	_	_	15	un	_	7	une	_	15	un	_	11	een	_	?	?	?
+11	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	?	?	?	13	a	_	_	_	15	un	_	7	une	_	15	un	_	11	een	_	13	um	_
 12	adamı	adamı	_	11	مغطى	_	1	?	_	1	?	_	13	nohami	_	15	seine	_	16	man	_	_	_	13	cansado,	_	17	homme	_	18	dal	_	15	bedekte	_	16	coberto	_
 13	çağrıştırıyor.	çağrıştırıyor.	_	13	أقدام	_	1	?	_	1	?	_	14	visícími	_	16	Beine	_	19	coal,	_	_	_	16	vagón	_	19	couvert	_	21	coperto	_	17	man,	_	18	carvão,	_
 14	ama	ama	Comparison.Contrast	18	لكن	Concession.COMPARISON	1	?	_	1	?	_	15	z	_	22	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	26	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	19	pero	precedence.Asynchronous.TEMPORAL	27	Mais	Contrast.COMPARISON|Exception.EXPANSION	35	ma	Concession.COMPARISON|Contrast.COMPARISON	24	Maar	_	27	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
@@ -226,15 +226,15 @@
 34	görmediği	görmediği	_	34	أمريكا	_	1	?	_	1	?	_	37	kouty	_	43	das	_	49	America	_	_	_	39	vistas	_	50	facettes	_	55	libera,	_	47	Amerika	_	48	lados	_
 35	taraflarını	taraflarını	_	34	أمريكا	_	1	?	_	1	?	_	38	Ameriky,	_	44	Amerika,	_	49	America	_	_	_	41	EE.UU.	_	52	l'Amérique	_	57	scopre	_	47	Amerika	_	49	da	_
 36	gören	gören	_	35	لم	_	1	?	_	1	?	_	40	nikdo	_	46	sonst	Condition.CONTIGENCY	51	no	_	_	_	41	EE.UU.	_	53	qu'elle	_	58	aspetti	_	49	niemand	_	50	América	_
-37	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	48	zu	_	50	that	_	_	_	42	que	_	56	à	specification.Restatement.EXPANSION	60	che	_	48	die	_	51	que	_
+37	bir	bir	_	?	?	?	1	?	_	1	?	_	?	?	?	48	zu	_	50	that	_	_	_	42	que	_	56	à	specification.Restatement.EXPANSION	60	che	_	?	?	?	51	que	_
 38	topluluğu	topluluğu	_	37	أحد	_	1	?	_	1	?	_	42	nikdy	_	49	sehen	_	54	gets	_	_	_	41	EE.UU.	_	55	seule	_	61	nessun	_	52	zien	_	53	ninguém	_
 39	tanımlıyor.	tanımlıyor.	_	38	برؤيتها.	_	1	?	_	1	?	_	43	neuzří.	_	50	bekommt.	_	54	gets	_	_	_	41	EE.UU.	_	57	connaître.	_	63	conosce.	_	53	krijgt.	_	55	ver.	_
 
 # sent_id = 138304
 # text:  Onların öncelleri gibi, bugünün göçebeleri Birleşik Devletler'in çelik ve asfalt arterlerinde seyahat ediyorlar.
 # trans: Tal como os seus antecessores, os nómadas de hoje viajam pelas estradas de aço e asfalto dos Estados Unidos.
-# forward_log_prob: -60.047327569560814
-# backward_log_prob: -43.65641487214672
+# forward_log_prob: -60.04342032124582
+# backward_log_prob: -43.65754005979931
 1	Onların	Onların	_	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	1	Tak	Cause.CONTIGENCY|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Instantiation.EXPANSION|equivalence.Restatement.EXPANSION|generalization.Restatement.EXPANSION|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	Like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	1	Como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	1	Comme	COMPARISON|specification.Restatement.EXPANSION	1	Come	EXPANSION|Synchronous.TEMPORAL	1	Zoals	COMPARISON|Instantiation.EXPANSION	1	Tal	COMPARISON
 2	öncelleri	öncelleri	_	1	كما	Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION	1	?	_	1	?	_	2	jako	Conjunction.EXPANSION	2	ihre	_	2	their	_	_	_	2	antes,	_	2	leurs	_	3	loro	_	2	hun	_	1	Tal	COMPARISON
 3	gibi,	gibi,	_	3	أسلافهم،	_	1	?	_	1	?	_	3	jejich	_	4	bereisen	_	3	predecessors,	_	_	_	2	antes,	_	3	prédécesseurs,	_	4	antenati,	_	4	bereizen	_	5	antecessores,	_
@@ -252,8 +252,8 @@
 # sent_id = 138305
 # text:  Gün başlarken, yük trenlerinden atılıyorlar baş parmaklarını kaldırıyorlar ve kamyonculardan futbolcu annelerine kim gelirse onlarla yolculuk ediyorlar.
 # trans: De dia, saltam para comboios de mercadorias, levantam os polegares e andam pelos caminhos com qualquer um, desde camionistas a mães de futebol.
-# forward_log_prob: -73.39090930464256
-# backward_log_prob: -60.36081562823251
+# forward_log_prob: -73.45819582426108
+# backward_log_prob: -60.362765914454314
 1	Gün	Gün	_	2	النهار،	_	1	?	_	1	?	_	2	dne	_	2	Tag	_	2	day,	_	_	_	1	De	_	2	jour,	_	2	giorno	_	1	Overdag	_	2	dia,	_
 2	başlarken,	başlarken,	Temporal.Synchronous	2	النهار،	_	1	?	_	1	?	_	1	Ve	_	1	Am	_	1	By	_	_	_	3	saltan	_	3	ils	_	3	saltano	_	2	hoppen	_	3	saltam	_
 3	yük	yük	_	3	يقفزون	_	1	?	_	1	?	_	4	na	_	5	auf	_	5	freight	_	_	_	3	saltan	_	5	dans	_	5	treni	_	5	goederentreinen,	_	5	comboios	_
@@ -275,8 +275,8 @@
 # sent_id = 138306
 # text:  Akşam, yıldızların altında birlikte köpeklerine, kedilerine ve evcil farelerine sokularak uyuyorlar.
 # trans: À noite, eles dormem sob as estrelas, amontoados com as suas matilhas de cães, gatos e ratos de companhia entre os seus corpos.
-# forward_log_prob: -77.60948448861444
-# backward_log_prob: -38.31819255310153
+# forward_log_prob: -77.60299542812892
+# backward_log_prob: -38.31930263958776
 1	Akşam,	Akşam,	_	2	الليل،	_	1	?	_	1	?	_	1	Po	_	1	Nachts	_	1	By	_	_	_	2	noche,	_	2	nuit,	_	2	notte,	_	1	's	_	1	À	_
 2	yıldızların	yıldızların	_	3	ينامون	_	1	?	_	1	?	_	3	dřímají	_	1	Nachts	_	3	they	_	_	_	3	duermen	_	3	ils	_	3	dormono	_	2	Nachts	_	4	dormem	_
 3	altında	altında	_	4	تحت	_	1	?	_	1	?	_	4	pod	_	2	schlafen	_	5	beneath	_	_	_	5	bajo	_	4	dorment	_	4	sotto	_	5	onder	_	5	sob	_
@@ -292,8 +292,8 @@
 # sent_id = 138307
 # text:  Yolları tercih eden bazı gezginler maddeciliği, geleneksel işleri ve üniversite derecelerini bir maceranın zayıf ışığına tercih ediyor.
 # trans: Alguns viajantes metem-se à estrada por opção, renunciam ao materialismo, aos empregos tradicionais e aos graus universitários, em troca de um vislumbre de aventura.
-# forward_log_prob: -82.02070926026344
-# backward_log_prob: -57.01717388460983
+# forward_log_prob: -82.08873978080553
+# backward_log_prob: -57.021042459391246
 1	Yolları	Yolları	_	2	المسافرين	_	1	?	_	1	?	_	1	Někteří	_	1	Manche	_	?	?	?	?	?	1	Algunos	_	3	choisissent	_	1	Alcuni	_	1	Sommige	_	1	Alguns	_
 2	tercih	tercih	_	2	المسافرين	_	1	?	_	1	?	_	1	Někteří	_	2	Reisende	_	?	?	?	?	?	2	eligen	_	3	choisissent	_	?	?	?	1	Sommige	_	3	metem-se	_
 3	eden	eden	_	3	يختارون	_	1	?	_	1	?	_	4	uchylují	_	3	haben	_	3	take	_	_	_	2	eligen	_	3	choisissent	_	3	sono	_	6	wil	_	3	metem-se	_
@@ -315,8 +315,8 @@
 # sent_id = 138308
 # text:  Ama diğer toplumun alt kesimlerinden gelenlerin yukarlara doğru tırmanmaya şanşı yok: evlatlık olup bakıcılardan kaçanlar, kaçan ergenler, tacize uğrayanlar ve evinden atılalar.
 # trans: Outros vêm da parte inferior da sociedade, nunca tiveram uma oportunidade de ascender: rejeitados de adoções, adolescentes fugitivos a escapar de abusos e de casas implacáveis​​.
-# forward_log_prob: -82.02582938154667
-# backward_log_prob: -78.98699033463238
+# forward_log_prob: -82.01350076598979
+# backward_log_prob: -78.98957649389467
 1	Ama	Ama	Comparison.Contrast	?	?	?	1	?	_	1	?	_	3	z	_	12	die	_	3	from	_	_	_	1	Otros	_	1	D'autres	_	?	?	?	6	van	_	?	?	?
 2	diğer	diğer	_	11	إلى	_	1	?	_	1	?	_	2	pocházejí	_	1	Andere	_	2	come	_	_	_	1	Otros	_	1	D'autres	_	1	Altri	_	10	kregen	_	1	Outros	_
 3	toplumun	toplumun	_	4	أسفل	_	1	?	_	1	?	_	1	Jiní	_	5	Schattenseite	_	1	Others	_	_	_	2	proceden	_	2	proviennent	_	2	vengono	_	5	onderkant	_	2	vêm	_
@@ -333,7 +333,7 @@
 14	bakıcılardan	bakıcılardan	_	15	الحضانات،	_	1	?	_	1	?	_	15	pěstounské	_	18	aus	_	15	foster	_	_	_	15	adopción,	_	17	familles	_	20	chi	_	19	Weggelopen	_	17	adolescentes	_
 15	kaçanlar,	kaçanlar,	_	16	مراهقين	_	1	?	_	1	?	_	16	péče,	_	20	jugendliche	_	16	care	_	_	_	16	adolescentes	_	18	d'accueil,	_	21	scappa	_	20	tieners	_	18	fugitivos	_
 16	kaçan	kaçan	_	17	هاربين	_	1	?	_	1	?	_	17	mladiství	_	25	vor	_	17	dropouts,	_	_	_	17	que	_	20	adolescents	_	23	famiglie	_	23	pleegzorg	_	18	fugitivos	_
-17	ergenler,	ergenler,	_	17	هاربين	_	1	?	_	1	?	_	17	mladiství	_	22	auf	_	18	teenage	_	_	_	18	huyen	_	21	s'étant	_	24	adottive,	_	23	pleegzorg	_	20	escapar	_
+17	ergenler,	ergenler,	_	17	هاربين	_	1	?	_	1	?	_	17	mladiství	_	?	?	?	18	teenage	_	_	_	18	huyen	_	21	s'étant	_	24	adottive,	_	23	pleegzorg	_	20	escapar	_
 18	tacize	tacize	_	19	إيذاء	_	1	?	_	1	?	_	20	z	_	26	Missbrauch	_	20	escaping	_	_	_	20	abuso	_	22	échappés	_	27	sfuggono	_	24	verlieten,	_	22	abusos	_
 19	uğrayanlar	uğrayanlar	_	20	المنازل	_	1	?	_	1	?	_	21	týrajících	_	26	Missbrauch	_	21	abuse	_	_	_	20	abuso	_	24	familles	_	27	sfuggono	_	25	ontsnapten	_	22	abusos	_
 20	ve	ve	_	?	?	?	1	?	_	1	?	_	22	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	27	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	22	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	21	y	_	26	et	Conjunction.EXPANSION	31	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	28	en	Conjunction.EXPANSION	23	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -343,8 +343,8 @@
 # sent_id = 138309
 # text:  Diğerlerinin ekonomik başarısızlık ve yokluk gördüğü yerde, gezginler liberalizm ve özgürlük prizmasından kendi var oluşlarını görüyorlar.
 # trans: Onde outros veem histórias de privação e fracasso económico, os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade.
-# forward_log_prob: -76.90107618666019
-# backward_log_prob: -54.09902675209062
+# forward_log_prob: -76.90146610537916
+# backward_log_prob: -54.10424236140256
 1	Diğerlerinin	Diğerlerinin	_	1	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	Kde	_	1	Was	_	1	Where	TEMPORAL	_	_	1	Aunque	precedence.Asynchronous.TEMPORAL	1	Là	_	1	Dove	_	1	Waar	_	1	Onde	_
 2	ekonomik	ekonomik	_	2	يراهم	_	1	?	_	1	?	_	2	ostatní	_	1	Was	_	2	others	_	_	_	3	ven	_	3	certains	_	3	vedono	_	2	anderen	_	3	veem	_
 3	başarısızlık	başarısızlık	_	3	البعض	_	1	?	_	1	?	_	3	vidí	_	4	Geschichten	_	4	stories	_	_	_	4	historias	_	6	histoires	_	4	storie	_	3	verhalen	_	4	histórias	_
@@ -354,7 +354,7 @@
 7	yerde,	yerde,	_	6	والفشل	_	1	?	_	1	?	_	8	selhání,	_	9	Versagen	_	9	failure,	_	_	_	9	económico,	_	11	financier,	_	10	economica,	_	8	mislukking	_	9	económico,	_
 8	gezginler	gezginler	_	7	الاقتصادي،	_	1	?	_	1	?	_	10	cestovatelé	_	10	ansehen,	_	10	travelers	_	_	_	11	perciben	_	13	voyageurs	_	12	viaggiatori	_	11	reizigers	_	11	viajantes	_
 9	liberalizm	liberalizm	_	8	يرى	_	1	?	_	1	?	_	11	svoji	_	11	betrachten	_	9	failure,	_	_	_	11	perciben	_	14	voient	_	13	vedono	_	12	hun	_	12	visualizam	_
-10	ve	ve	_	11	من	_	1	?	_	1	?	_	?	?	?	12	die	_	?	?	?	?	?	14	por	CONTIGENCY|Cause.CONTIGENCY	24	et	Conjunction.EXPANSION	14	la	_	20	en	Conjunction.EXPANSION	?	?	?
+10	ve	ve	_	11	من	_	1	?	_	1	?	_	?	?	?	12	die	_	?	?	?	?	?	20	y	_	24	et	Conjunction.EXPANSION	14	la	_	20	en	Conjunction.EXPANSION	?	?	?
 11	özgürlük	özgürlük	_	9	الرحّالة	_	1	?	_	1	?	_	16	osvobození	_	12	die	_	?	?	?	?	?	?	?	?	17	à	specification.Restatement.EXPANSION	14	la	_	?	?	?	13	a	_
 12	prizmasından	prizmasından	_	10	وجودهم	_	1	?	_	1	?	_	12	vlastní	_	14	durch	reason.Cause.CONTIGENCY	17	prism	_	_	_	16	prisma	_	18	travers	_	16	esistenza	_	17	bril	_	16	existência	_
 13	kendi	kendi	_	12	منظور	_	1	?	_	1	?	_	16	osvobození	_	17	der	_	12	their	_	_	_	18	la	_	22	la	_	20	della	_	15	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	21	libertação	_
@@ -365,12 +365,12 @@
 # sent_id = 138310
 # text:  boşa giden ve tüketici bir toplum olarak gördüklerinin aşırılılıklarındansa geleneksel Amerikan rüyasında gerçek dışı bir şansla çok çalışarak yaşıyorlar.
 # trans: Preferem viver fora do excesso do que veem como uma sociedade de consumo e de desperdício, do que aprisionados numa possibilidade irrealista no sonho americano tradicional.
-# forward_log_prob: -88.040479537766
-# backward_log_prob: -66.98711876155606
+# forward_log_prob: -88.03688036360903
+# backward_log_prob: -66.98608400196602
 1	boşa	boşa	_	1	يفضلون	_	1	?	_	1	?	_	1	Raději	_	1	Lieber	_	1	They'd	_	_	_	1	Preferirían	_	1	Ils	_	1	Preferiscono	_	3	liever	_	1	Preferem	_
 2	giden	giden	_	1	يفضلون	_	1	?	_	1	?	_	3	žili	_	2	zehren	_	2	rather	_	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	Alternative.EXPANSION|Contrast.COMPARISON|specification.Restatement.EXPANSION	1	Preferirían	_	3	vivre	_	5	fuori	_	3	liever	_	1	Preferem	_
-3	ve	ve	_	3	من	_	1	?	_	1	?	_	?	?	?	3	sie	_	5	of	_	_	_	3	de	_	?	?	?	4	di	_	5	de	_	?	?	?
-4	tüketici	tüketici	_	4	فائض	_	1	?	_	1	?	_	5	přebytku	_	5	Überfluss	_	4	off	_	_	_	4	los	_	5	dehors	_	6	degli	_	4	buiten	Conjunction.EXPANSION	4	do	_
+3	ve	ve	_	3	من	_	1	?	_	1	?	_	?	?	?	3	sie	_	5	of	_	_	_	3	de	_	?	?	?	4	di	_	7	van	_	?	?	?
+4	tüketici	tüketici	_	4	فائض	_	1	?	_	1	?	_	5	přebytku	_	5	Überfluss	_	4	off	_	_	_	4	los	_	5	dehors	_	6	degli	_	6	excessen	_	4	do	_
 5	bir	bir	_	5	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	4	z	_	?	?	?	8	of	_	_	_	?	?	?	6	de	_	12	una	_	10	een	_	7	que	_
 6	toplum	toplum	_	7	أنه	_	1	?	_	1	?	_	6	toho,	_	8	aus	_	9	what	_	_	_	7	una	_	9	ce	_	9	quella	_	8	wat	_	5	excesso	_
 7	olarak	olarak	_	9	استهلاكي	_	1	?	_	1	?	_	?	?	?	7	--	_	12	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	?	?	?	11	perçoivent	_	10	che	_	9	zij	_	6	do	_
@@ -390,8 +390,8 @@
 # sent_id = 138311
 # text:  Birleşik Devletler'de yiyeceklerin yüzde 40'nın sonunun çöpte bittiği gerçeğinden yola çıkarak çöplüklerin ve çöp tenekelerinin karıştırıp yiyecek toplamak için mükemmel bir üretim yeri olduğudur.
 # trans: Eles aproveitam-se do facto de, nos Estados Unidos, cerca de 40% de todos os alimentos acabarem no lixo, para procurar produtos perfeitamente bons em lixeiras e caixotes do lixo.
-# forward_log_prob: -98.5741314368921
-# backward_log_prob: -87.29349656398931
+# forward_log_prob: -98.6151066036065
+# backward_log_prob: -87.26906499363248
 1	Birleşik	Birleşik	_	6	الولايات	_	1	?	?	1	?	?	5	Spojených	_	9	USA	_	10	United	_	_	_	6	Estados	_	7	États-Unis,	_	6	Stati	_	?	?	?	7	Estados	_
 2	Devletler'de	Devletler'de	_	4	أنه	_	1	?	?	1	?	?	3	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	6	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	7	that	_	_	_	4	que	_	?	?	?	4	che	_	7	dat	_	2	aproveitam-se	_
 3	yiyeceklerin	yiyeceklerin	_	1	لقد	_	1	?	?	1	?	?	1	Využívají	_	4	Tatsache	_	1	They	_	_	_	1	Se	_	1	Ils	_	1	Sfruttano	_	1	Ze	_	1	Eles	_
@@ -404,7 +404,7 @@
 10	yola	yola	_	10	%	_	1	?	?	1	?	?	10	veškerého	_	12	40	_	14	40	_	_	_	12	los	_	9	40%	_	12	cento	_	12	tot	_	13	todos	_
 11	çıkarak	çıkarak	_	10	%	_	1	?	?	1	?	?	10	veškerého	_	13	%	_	15	percent	_	_	_	14	termina	_	12	nourriture	_	15	finisce	_	14	procent	_	13	todos	_
 12	çöplüklerin	çöplüklerin	_	12	الطعام	_	1	?	?	1	?	?	12	skončí	_	15	Lebensmittel	_	15	percent	_	_	_	14	termina	_	13	est	_	15	finisce	_	14	procent	_	14	os	_
-13	ve	ve	_	11	من	_	1	?	?	1	?	?	?	?	?	14	der	_	?	?	?	?	?	16	la	_	?	?	?	18	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	15	van	_	?	?	?
+13	ve	ve	_	?	?	?	1	?	?	1	?	?	?	?	?	14	der	_	?	?	?	?	?	16	la	_	?	?	?	18	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	15	van	_	?	?	?
 14	çöp	çöp	_	13	يذهب	_	1	?	?	1	?	?	15	tím,	_	17	Abfall	_	20	up	_	_	_	15	en	_	16	récupèrent	_	17	spazzatura	_	22	door	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	18	lixo,	_
 15	tenekelerinin	tenekelerinin	_	14	للنفايات	_	1	?	?	1	?	?	14	smetí	_	18	landen,	_	23	garbage	_	_	_	19	encuentran	_	15	Ils	_	19	rovistano	_	20	vuilbak	_	18	lixo,	_
 16	karıştırıp	karıştırıp	Expansion.Conjunction	15	بالبحث	_	1	?	?	1	?	?	14	smetí	_	18	landen,	_	23	garbage	_	_	_	20	productos	_	16	récupèrent	_	19	rovistano	_	20	vuilbak	_	20	procurar	_
@@ -420,13 +420,13 @@
 # sent_id = 138312
 # text:  Nesnel rahatlığı yer ve zaman karşılığında içsel bir yaratıcılığı keşfetmek için, hayal kurmak, okumak, müzik, sanat ve edebiyatta çalışmak için feda ediyorlar
 # trans: Sacrificam o conforto material em troca do espaço e do tempo para explorar um interior criativo, para sonhar, para ler, para trabalhar em música, arte e escrita.
-# forward_log_prob: -88.8203626670209
-# backward_log_prob: -74.12072870403918
+# forward_log_prob: -88.94731022888504
+# backward_log_prob: -74.11910870765638
 1	Nesnel	Nesnel	_	1	لقد	_	1	?	?	1	?	?	1	Obětují	_	2	opfern	_	1	They	_	_	_	1	Sacrifican	_	1	Ils	_	1	Sacrificano	_	1	Ze	_	1	Sacrificam	_
 2	rahatlığı	rahatlığı	_	2	ضحوا	_	1	?	?	1	?	?	2	hmotné	_	3	materiellen	_	3	material	_	_	_	3	comodidad	_	2	sacrifient	_	2	beni	_	3	materieel	_	2	o	_
 3	yer	yer	_	2	ضحوا	_	1	?	?	1	?	?	3	pohodlí	_	4	Komfort	_	4	comforts	_	_	_	3	comodidad	_	4	confort	_	3	materiali	_	4	comfort	_	4	material	_
 4	ve	ve	_	?	?	?	1	?	?	1	?	?	7	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	10	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	la	_	10	et	Conjunction.EXPANSION	8	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	11	en	Conjunction.EXPANSION	9	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
-5	zaman	zaman	_	3	بالراحة	_	1	?	?	1	?	?	4	výměnou	_	6	Austausch	_	6	exchange	_	_	_	4	material	_	5	matériel	_	5	cambio	_	10	tijd	_	6	troca	_
+5	zaman	zaman	_	3	بالراحة	_	1	?	?	1	?	?	4	výměnou	_	6	Austausch	_	6	exchange	_	_	_	5	por	CONTIGENCY|Cause.CONTIGENCY	5	matériel	_	5	cambio	_	10	tijd	_	6	troca	_
 6	karşılığında	karşılığında	_	4	المادية	_	1	?	?	1	?	?	6	prostor	_	8	den	_	9	space	_	_	_	7	tiempo	_	7	profit	_	9	dello	_	10	tijd	_	7	do	_
 7	içsel	içsel	_	5	مقابل	_	1	?	?	1	?	?	6	prostor	_	9	Raum	_	9	space	_	_	_	7	tiempo	_	9	l'espace	_	9	dello	_	10	tijd	_	8	espaço	_
 8	bir	bir	_	?	?	?	1	?	?	1	?	?	?	?	?	11	die	_	15	a	_	_	_	?	?	?	?	?	?	13	la	_	14	een	_	?	?	?
@@ -438,20 +438,20 @@
 14	okumak,	okumak,	_	10	الداخلي،	_	1	?	?	1	?	?	13	nitra,	_	20	träumen,	_	17	interior,	_	_	_	15	creativo,	_	17	intérieure,	_	16	creativa,	_	20	te	_	16	criativo,	_
 15	müzik,	müzik,	_	11	للحلم،	_	1	?	?	1	?	?	14	snít,	_	21	zu	_	19	dream,	_	_	_	16	para	CONTIGENCY|Cause.CONTIGENCY	18	pour	specification.Restatement.EXPANSION	18	sognare,	_	21	dromen,	_	18	sonhar,	_
 16	sanat	sanat	_	12	للقراءة،	_	1	?	?	1	?	?	15	číst,	_	23	Musik	_	20	to	_	_	_	17	soñar,	_	20	lire,	_	18	sognare,	_	23	lezen,	_	20	ler,	_
-17	ve	ve	_	?	?	?	1	?	?	1	?	?	20	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	29	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	19	y	_	?	?	?	25	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	?
+17	ve	ve	_	?	?	?	1	?	?	1	?	?	20	a	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL|equivalence.Restatement.EXPANSION|opposition.Contrast.COMPARISON|specification.Restatement.EXPANSION	29	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	19	y	_	?	?	?	25	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 18	edebiyatta	edebiyatta	_	13	لتأليف	_	1	?	?	1	?	?	18	muzice,	_	24	zu	_	22	to	_	_	_	20	crear	_	22	leur	_	21	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	25	uit	_	24	música,	_
 19	çalışmak	çalışmak	_	14	الموسيقى،	_	1	?	?	1	?	?	18	muzice,	_	26	Kunst	_	24	on	_	_	_	21	música,	_	23	musique,	_	22	fare	_	29	muziek,	_	24	música,	_
 20	için	için	Contingency.Purpose.Arg2-as-goal	15	للفن	_	1	?	?	1	?	?	?	?	?	27	zu	_	23	work	_	_	_	?	?	?	21	travailler	_	21	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	27	leven	_	21	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 21	feda	feda	_	15	للفن	_	1	?	?	1	?	?	21	psaní.	_	30	zu	_	26	art	_	_	_	22	arte	_	25	art	_	24	arte	_	30	kunst	_	25	arte	_
-22	ediyorlar	ediyorlar	_	16	وللكتابة.	_	1	?	?	1	?	?	21	psaní.	_	31	schreiben.	_	27	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	y	_	27	l'écriture.	_	14	loro	_	31	en	Conjunction.EXPANSION	26	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+22	ediyorlar	ediyorlar	_	16	وللكتابة.	_	1	?	?	1	?	?	21	psaní.	_	31	schreiben.	_	27	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	23	y	_	27	l'écriture.	_	14	loro	_	31	en	Conjunction.EXPANSION	27	escrita.	_
 
 # sent_id = 138313
 # text:  Ama bir çok açıdan bu hayat cennet gibi sessiz bir yaşantıdan uzak.
 # trans: Mas existem muitos aspetos desta vida que estão longe de ser idílicos.
-# forward_log_prob: -37.42324162665876
-# backward_log_prob: -32.95993769994159
+# forward_log_prob: -37.424326044911716
+# backward_log_prob: -32.9555195707979
 1	Ama	Ama	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	5	ale	Alternative.EXPANSION|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticContrast.COMPARISON|opposition.Contrast.COMPARISON	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	2	sono	_	1	Maar	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
-2	bir	bir	_	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	4	je	_	?	?	?	2	there	_	_	_	4	de	_	?	?	?	?	?	?	1	Maar	_	?	?	?
+2	bir	bir	_	1	لكن	Concession.COMPARISON	1	?	?	1	?	?	4	je	_	?	?	?	2	there	_	_	_	?	?	?	?	?	?	?	?	?	1	Maar	_	?	?	?
 3	çok	çok	_	2	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	3	životě	_	5	Aspekte	_	3	are	_	_	_	3	estilo	_	5	de	_	4	aspetti	_	3	aspecten	_	2	existem	_
 4	açıdan	açıdan	_	3	جوانب	_	1	?	?	1	?	?	1	V	_	5	Aspekte	_	5	aspects	_	_	_	2	este	_	2	il	_	4	aspetti	_	3	aspecten	_	3	muitos	_
 5	bu	bu	_	3	جوانب	_	1	?	?	1	?	?	6	mnoho	_	8	Art	_	6	to	_	_	_	2	este	_	7	aspects	_	4	aspetti	_	5	dit	_	5	desta	_
@@ -466,8 +466,8 @@
 # sent_id = 138314
 # text:  Hiç kimse yollara düşerek kendi içindeki şeytanından kurtulamıyor.
 # trans: Ninguém perde os seus demónios interiores ao meter-se à estrada.
-# forward_log_prob: -27.88337823386537
-# backward_log_prob: -23.182614510061807
+# forward_log_prob: -27.883682821973913
+# backward_log_prob: -23.18316554365922
 1	Hiç	Hiç	_	1	لا	Contrast.COMPARISON	1	?	?	1	?	?	1	Nikdo	_	1	Niemand	_	1	No	_	_	_	1	Nadie	_	1	Personne	_	1	Nessuno	_	1	Niemand	_	1	Ninguém	_
 2	kimse	kimse	_	2	أحد	_	1	?	?	1	?	?	2	se	_	2	verliert	_	3	loses	_	_	_	2	pierde	_	2	ne	_	2	riesce	_	2	raakt	_	2	perde	_
 3	yollara	yollara	_	3	يفقد	_	1	?	?	1	?	?	4	na	_	4	inneren	_	5	inner	_	_	_	4	demonios	_	4	ses	_	3	a	_	4	innerlijke	_	3	os	_
@@ -480,8 +480,8 @@
 # sent_id = 138315
 # text:  Bağımlılık gerçek, doğa şartları gerçek, yük trenleri öldürüyor ve sakatlıyor ve sokaklarda yaşayan her hangi biri bunu onaylayabilir yorucu yasalar listesi evsiz insanları suçlu hala getiriyor.
 # trans: O vício é real, os elementos são reais, os comboios de mercadorias mutilam e matam. Qualquer um que tenha vivido nas ruas pode confirmar a lista exaustiva de leis que criminalizam a existência dos sem-abrigo.
-# forward_log_prob: -125.82341911167718
-# backward_log_prob: -97.96830013307618
+# forward_log_prob: -125.9115178420367
+# backward_log_prob: -97.96660877917743
 1	Bağımlılık	Bağımlılık	_	1	الإدمان	_	1	?	?	1	?	?	1	Závislost	_	1	Drogensucht	_	1	Addiction	_	_	_	1	La	_	1	L'addiction	_	2	dipendenza	_	1	Verslaving	_	2	vício	_
 2	gerçek,	gerçek,	_	2	حقيقي،	_	1	?	?	1	?	?	2	je	_	?	?	?	3	real,	_	_	_	?	?	?	3	réelle,	_	1	La	_	3	echt,	_	1	O	_
 3	doğa	doğa	_	2	حقيقي،	_	1	?	?	1	?	?	3	skutečná,	_	3	extremes	_	3	real,	_	_	_	3	es	_	3	réelle,	_	3	esiste,	_	3	echt,	_	3	é	_
@@ -512,10 +512,10 @@
 # sent_id = 138316
 # text:  Burada kim Birleşik Devletler'de birçok şehirde yol kenarına battaniyeye sarılı oturmanın yaşadışı oldupunu biliyor. veya arabanızda uyumanın, veya yabancılara yiyecek önermenin?
 # trans: Quem aqui sabe que, em muitas cidades dos Estados Unidos, é agora ilegal sentar-se no passeio, embrulhar-se num cobertor, dormir no seu próprio carro, oferecer comida a um estranho?
-# forward_log_prob: -104.01228317267044
-# backward_log_prob: -76.29910151811525
+# forward_log_prob: -104.10903494193916
+# backward_log_prob: -76.29727559867912
 1	Burada	Burada	_	2	منكم	_	1	?	?	1	?	?	1	Kdo	_	1	Wussten	_	1	Who	_	_	_	1	¿Sabían	_	2	ici,	_	2	tra	_	2	je	_	2	aqui	_
-2	kim	kim	Hypophora	3	يعلم	_	1	?	?	1	?	?	14	na	_	1	Wussten	_	3	knows	_	_	_	4	muchas	_	1	Qui,	_	1	Chi	_	1	Weet	_	3	sabe	_
+2	kim	kim	Hypophora	3	يعلم	_	1	?	?	1	?	?	3	ví,	_	1	Wussten	_	3	knows	_	_	_	4	muchas	_	1	Qui,	_	1	Chi	_	1	Weet	_	3	sabe	_
 3	Birleşik	Birleşik	_	8	عبر	_	1	?	?	1	?	?	8	Spojených	_	9	USA	_	10	United	_	_	_	7	Estados	_	4	que	_	11	Stati	_	9	de	_	9	Estados	_
 4	Devletler'de	Devletler'de	_	4	أنه	_	1	?	?	1	?	?	4	že	Asynchronous.TEMPORAL|Cause.CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|Exception.EXPANSION|PragmaticCause.CONTIGENCY|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	4	that	_	_	_	12	en	_	5	dans	_	5	sa	_	8	in	_	5	em	_
 5	birçok	birçok	_	13	غير	_	1	?	?	1	?	?	6	mnoha	_	16	zu	_	6	many	_	_	_	2	que	_	9	à	specification.Restatement.EXPANSION	7	in	_	10	VS	_	4	que,	_
@@ -539,8 +539,8 @@
 # sent_id = 138317
 # text:  Bu kanunları biliyorum çünkü bir kaç arkadaşın ve diğer gezginlerin şuç denen bu şeylerden dolayı hapishaneye götürüldüğünü veya uyarı aldığına şahit oldum.
 # trans: Eu conheço estas leis, porque observei como amigos e outros viajantes foram levados para a prisão ou receberam citações por praticarem estes alegados crimes.
-# forward_log_prob: -83.67668280486946
-# backward_log_prob: -75.13181583493807
+# forward_log_prob: -83.70006636687768
+# backward_log_prob: -75.13499472069729
 1	Bu	Bu	_	3	عن	_	1	?	?	1	?	?	1	Vím	_	1	Ich	_	1	I	_	_	_	2	estas	_	1	Je	_	2	queste	_	1	Ik	_	3	estas	_
 2	kanunları	kanunları	_	1	أنا	_	1	?	?	1	?	?	2	o	_	2	kenne	_	2	know	_	_	_	1	Conozco	_	2	connais	_	1	Conosco	_	2	weet	_	1	Eu	_
 3	biliyorum	biliyorum	_	2	أعلم	_	1	?	?	1	?	?	4	zákonech,	_	2	kenne	_	2	know	_	_	_	3	leyes	_	4	lois	_	1	Conosco	_	?	?	?	2	conheço	_
@@ -567,8 +567,8 @@
 # sent_id = 138318
 # text:  Bir çoğunuz şunu merak edebilir, neden birisi böyle bir hayatı tercih etsin ki, böyle eşit olmayan yasalar altında, çöp kutularından yemek yiyerek, köprü altlarında uyuyarak, sezonluk işlerde orada burada çalışşın.
 # trans: Muitos de vocês podem estar a perguntar-se porque alguém escolheria uma vida como esta, sob o domínio de leis discriminatórias, a comer de caixotes do lixo, a dormir debaixo de pontes, a aceitar empregos sazonais aqui e ali.
-# forward_log_prob: -134.70094499967504
-# backward_log_prob: -118.63448448927844
+# forward_log_prob: -134.7026569809342
+# backward_log_prob: -118.62410638033218
 1	Bir	Bir	_	?	?	?	1	?	?	1	?	?	1	Mnoho	_	?	?	?	2	of	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 2	çoğunuz	çoğunuz	_	1	أغلبكم	_	1	?	?	1	?	?	3	vás	_	1	Vielleicht	_	1	Many	_	_	_	3	Uds.	_	1	Beaucoup	_	3	voi	_	1	Misschien	_	3	vocês	_
 3	şunu	şunu	_	3	يتسائل	_	1	?	?	1	?	?	3	vás	_	2	fragen	_	4	might	_	_	_	3	Uds.	_	4	pourront	_	4	si	_	3	jullie	_	4	podem	_
@@ -603,8 +603,8 @@
 # sent_id = 138319
 # text:  Böyle bir soruya yollara düşen insanlar tarafından çeşitli cevaplar verilebilir, ama göçebeler genellikle is tek bir kelime ile cevap vereceklerdir: özgürlük.
 # trans: A resposta a esta pergunta é tão variada como as pessoas que se fazem à estrada, mas os viajantes costumam responder com uma única palavra: liberdade.
-# forward_log_prob: -91.44899012272063
-# backward_log_prob: -74.95934563280463
+# forward_log_prob: -91.44812317742024
+# backward_log_prob: -74.95444292895469
 1	Böyle	Böyle	_	2	على	_	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	2	réponse	_	1	Le	_	4	zo'n	_	3	a	_
 2	bir	bir	_	2	على	_	1	?	?	1	?	?	5	je	_	?	?	?	5	a	_	_	_	?	?	?	4	de	_	?	?	?	3	op	_	?	?	?
 3	soruya	soruya	_	1	والجواب	_	1	?	?	1	?	?	1	Odpověď	_	1	Darauf	precedence.Asynchronous.TEMPORAL	2	answer	_	_	_	2	respuesta	_	5	telles	_	2	risposte	_	1	Het	_	2	resposta	_
@@ -620,7 +620,7 @@
 13	genellikle	genellikle	_	12	غالبًا	_	1	?	?	1	?	?	12	žijící	_	12	führen,	_	?	?	?	?	?	?	?	?	16	prennent	_	18	spesso	_	?	?	?	14	fazem	_
 14	is	is	_	11	الرحّالة	_	1	?	?	1	?	?	12	žijící	_	12	führen,	_	17	road,	_	_	_	13	ellos	_	20	les	_	18	spesso	_	15	gaan,	_	18	os	_
 15	tek	tek	_	12	غالبًا	_	1	?	?	1	?	?	?	?	?	11	Leben	_	13	that	_	_	_	17	una	_	25	un	_	18	spesso	_	?	?	?	23	uma	_
-16	bir	bir	_	13	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	?	?	?	?	?	?	23	a	_	_	_	14	siempre	_	?	?	?	?	?	?	?	?	?	?	?	?
+16	bir	bir	_	13	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	?	?	?	?	?	?	23	a	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 17	kelime	kelime	_	14	يجيبون	_	1	?	?	1	?	?	16	cestovatelé	_	15	antworten	_	20	often	_	Contrast.COMPARISON	_	15	responden	_	23	souvent	_	20	viaggiatori	_	17	reizigers	_	20	costumam	_
 18	ile	ile	_	15	بكلمة	_	1	?	?	1	?	?	18	odpovídají	_	16	oft	_	21	respond	_	_	_	18	sola	_	26	seul	_	21	rispondono	_	19	meestal	_	21	responder	_
 19	cevap	cevap	_	15	بكلمة	_	1	?	?	1	?	?	19	jediným	_	16	oft	_	24	single	_	_	_	18	sola	_	26	seul	_	24	sola	_	21	één	_	24	única	_
@@ -630,8 +630,8 @@
 # sent_id = 138320
 # text:  Her insanın kendi işinin onurundan emin olduğu bir dünyada yaşayana kadar, onlariyi yaşamak için çalışacaklar sadece hayatta kalmak için değil, daima bir anlamda kaçmak için, özgürlük için ve tabii ki başkaldırı için.
 # trans: Até vivermos numa sociedade em que a cada ser humano seja assegurada a dignidade no seu trabalho, para que possa trabalhar para viver bem, — não apenas trabalhar para sobreviver — haverá sempre quem procure a estrada aberta como meio de fuga, de libertação e, é claro, de rebelião.
-# forward_log_prob: -188.36982105456175
-# backward_log_prob: -121.39985132610448
+# forward_log_prob: -188.38824484918888
+# backward_log_prob: -121.2763199608679
 1	Her	Her	_	2	حين	_	1	?	?	1	?	?	1	Něž	_	2	wir	_	19	can	_	_	_	2	menos	_	3	qu'on	_	1	Finché	_	2	we	_	2	vivermos	_
 2	insanın	insanın	_	1	إلى	_	1	?	?	1	?	?	2	budeme	_	1	Bis	precedence.Asynchronous.TEMPORAL	1	Until	TEMPORAL	_	Condition.CONTIGENCY|Synchronous.TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	A	_	1	Jusqu'à	result.Cause.CONTIGENCY	2	non	_	1	Tot	_	1	Até	_
 3	kendi	kendi	_	4	نعيش	_	1	?	?	1	?	?	6	kde	_	10	seine	_	7	where	TEMPORAL	_	_	2	menos	_	8	où	_	3	vivremo	_	15	zijn	_	2	vivermos	_
@@ -659,8 +659,8 @@
 25	için,	için,	Contingency.Purpose.Arg2-as-goal	31	الذين	specification.Restatement.EXPANSION	1	?	?	1	?	?	35	hledají	_	?	?	?	40	open	_	_	_	29	verán	_	?	?	?	39	ricorrerà	_	?	?	?	?	?	?
 26	özgürlük	özgürlük	_	32	يبحثون	_	1	?	?	1	?	?	41	osvobození	_	46	Befreiung	_	41	road	_	_	_	38	liberación	_	42	la	_	47	liberazione	_	40	bevrijding,	_	44	libertação	_
 27	için	için	_	33	عن	_	1	?	?	1	?	?	36	otevřenou	_	?	?	?	44	means	_	_	_	?	?	?	48	s'échapper,	_	43	simbolo	_	?	?	?	?	?	?
-28	ve	ve	_	?	?	?	1	?	?	1	?	?	42	a,	_	47	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	47	of	_	_	_	39	y	_	52	et	Conjunction.EXPANSION	48	e,	_	?	?	?	45	e,	_
-29	tabii	tabii	_	35	المفتوحة	_	1	?	?	1	?	?	39	možnost	_	42	Mittel	_	46	escape,	_	_	_	36	escape,	_	51	libérer	_	45	fuga,	_	39	uitweg,	_	42	fuga,	_
+28	ve	ve	_	?	?	?	1	?	?	1	?	?	42	a,	_	47	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	45	of	_	_	_	39	y	_	52	et	Conjunction.EXPANSION	48	e,	_	?	?	?	45	e,	_
+29	tabii	tabii	_	35	المفتوحة	_	1	?	?	1	?	?	39	možnost	_	42	Mittel	_	44	means	_	_	_	36	escape,	_	51	libérer	_	45	fuga,	_	39	uitweg,	_	42	fuga,	_
 30	ki	ki	_	37	للهرب	_	1	?	?	1	?	?	43	samozřejmě,	_	48	selbstverständlich	_	32	be	_	_	_	36	escape,	_	50	se	_	35	parte	_	39	uitweg,	_	47	claro,	_
 31	başkaldırı	başkaldırı	_	38	للعتق،	_	1	?	?	1	?	?	43	samozřejmě,	_	48	selbstverständlich	_	51	course,	_	_	_	41	rebelión.	_	54	sûr	_	49	ovviamente,	_	41	of	disjunctive.Alternative.EXPANSION	47	claro,	_
 32	için.	için.	_	40	للتمرد.	_	1	?	?	1	?	?	44	rebelie.	_	50	Rebellion.	_	53	rebellion.	_	_	_	41	rebelión.	_	57	rebeller.	_	51	ribellione.	_	43	rebellie.	_	49	rebelião.	_

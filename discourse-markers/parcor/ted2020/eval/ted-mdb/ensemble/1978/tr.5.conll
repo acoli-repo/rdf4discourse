@@ -1,8 +1,8 @@
 # sent_id = 132930
 # text:  İlk işim Modern Sanat Müzesi'nde ressam Elizabeth Murray'in retrospektifinde çalışmak olduğu için kendimi çok şanslı hissediyorum.
 # trans: Senti-me muito feliz porque o meu primeiro trabalho foi trabalhar no Museu de Arte Moderna numa retrospetiva da pintora Elizabeth Murray.
-# forward_log_prob: -73.46305282316601
-# backward_log_prob: -59.76874566789923
+# forward_log_prob: -73.46758849956481
+# backward_log_prob: -59.768393525158054
 1	İlk	İlk	_	1	أشعر	_	1	?	_	1	?	_	1	?	_	1	Ich	_	2	feel	_	_	_	1	Me	_	1	J'ai	_	1	Mi	_	1	?	_	1	Senti-me	_
 2	işim	işim	_	2	بأنني	_	1	?	_	1	?	_	1	?	_	2	sehe	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	muy	_	2	eu	_	3	fortunata	_	1	?	_	2	muito	_
 3	Modern	Modern	_	4	للغاية	_	1	?	_	1	?	_	1	?	_	5	besonderes	_	4	fortunate	_	_	_	4	afortunada	_	5	chance	_	3	fortunata	_	1	?	_	3	feliz	_
@@ -23,8 +23,8 @@
 # sent_id = 132931
 # text:  Ondan çok fazla şey öğrendim.
 # trans: Aprendi muito com ela.
-# forward_log_prob: -11.509340170120682
-# backward_log_prob: -12.992422519643835
+# forward_log_prob: -11.508618903008076
+# backward_log_prob: -12.992104755041929
 1	Ondan	Ondan	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Aprendí	_	2	tant	_	1	Ho	_	1	?	_	1	Aprendi	_
 2	çok	çok	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	2	lernte	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	Aprendí	_	1	J'ai	_	3	così	result.Cause.CONTIGENCY	1	?	_	2	muito	_
 3	fazla	fazla	_	2	الكثير	_	1	?	_	1	?	_	1	?	_	4	viel	_	4	much	_	_	_	2	mucho	_	3	appris	_	4	tanto	_	1	?	_	2	muito	_
@@ -34,8 +34,8 @@
 # sent_id = 132932
 # text:  Küratör Robert Storr hayat boyu ürettiği işler içinden bütün tabloları seçtikten sonra, 1970'lerdeki resimlere bakmaya bayıldım.
 # trans: Depois de o curador Robert Storr ter escolhido todos os quadros entre o conjunto de obras da vida dela, eu adorava olhar para as pinturas dos anos 70.
-# forward_log_prob: -101.10737664219133
-# backward_log_prob: -66.50893493472935
+# forward_log_prob: -101.11172211815898
+# backward_log_prob: -66.50890704253878
 1	Küratör	Küratör	_	2	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	1	Nachdem	succession.Asynchronous.TEMPORAL	3	curator	_	_	_	5	curador	_	1	Après	precedence.Asynchronous.TEMPORAL	4	curatore	_	1	?	_	4	curador	_
 2	Robert	Robert	_	3	أن	_	1	?	_	1	?	_	1	?	_	3	Kurator	_	3	curator	_	_	_	5	curador	_	3	le	_	4	curatore	_	1	?	_	4	curador	_
 3	Storr	Storr	_	4	قام	_	1	?	_	1	?	_	1	?	_	4	Robert	_	4	Robert	_	_	_	5	curador	_	5	Robert	_	4	curatore	_	1	?	_	5	Robert	_
@@ -56,8 +56,8 @@
 # sent_id = 132933
 # text:  İleride hayatında tekrar ortaya çıkacak olan bazı motifler ve öğeler vardı.
 # trans: Havia alguns motivos e elementos que viriam a aparecer posteriormente na sua vida.
-# forward_log_prob: -39.57165299028048
-# backward_log_prob: -34.89744857346995
+# forward_log_prob: -39.57699417684996
+# backward_log_prob: -34.89632281426316
 1	İleride	İleride	_	1	كانت	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	There	_	_	_	3	motivos	_	1	Il	_	1	C'erano	_	1	?	_	1	Havia	_
 2	hayatında	hayatında	_	2	هنالك	_	1	?	_	1	?	_	1	?	_	2	gab	_	3	some	_	_	_	2	algunos	_	3	avait	_	3	motivi	_	1	?	_	2	alguns	_
 3	tekrar	tekrar	_	10	مرة	_	1	?	_	1	?	_	1	?	_	5	Motive	_	5	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Había	_	5	motifs	_	2	dei	_	1	?	_	3	motivos	_
@@ -73,8 +73,8 @@
 # sent_id = 132934
 # text:  Ona ilk çalışmaları hakkında ne düşündüğünü sorduğumu hatırlıyorum.
 # trans: Lembro-me de lhe ter perguntado o que ela pensava dessas primeiras obras.
-# forward_log_prob: -37.647298023300124
-# backward_log_prob: -26.648708548495613
+# forward_log_prob: -37.64702062878052
+# backward_log_prob: -26.641372229260046
 1	Ona	Ona	_	1	أذكر	_	1	?	_	1	?	_	1	?	_	2	erinnere	_	3	asking	_	_	_	3	que	_	4	lui	_	2	di	_	1	?	_	2	de	_
 2	ilk	ilk	_	2	أنني	_	1	?	_	1	?	_	1	?	_	3	mich,	_	3	asking	_	_	_	1	Me	_	5	avoir	_	3	averle	_	1	?	_	5	perguntado	_
 3	çalışmaları	çalışmaları	_	1	أذكر	_	1	?	_	1	?	_	1	?	_	7	danach	precedence.Asynchronous.TEMPORAL	2	remember	_	_	_	5	pregunté	_	5	avoir	_	4	chiesto	_	1	?	_	4	ter	_
@@ -87,8 +87,8 @@
 # sent_id = 132935
 # text:  Ona ait olduğunu bilmeseniz, bunu tahmin edemezdiniz.
 # trans: Se não soubéssemos que eram dela, talvez não adivinhássemos.
-# forward_log_prob: -24.344844526015944
-# backward_log_prob: -21.106518082923998
+# forward_log_prob: -24.344146446140677
+# backward_log_prob: -21.106125541213583
 1	Ona	Ona	_	1	إذا	_	1	?	_	1	?	_	1	?	_	4	wusste,	_	?	?	?	?	?	3	supieran	_	4	saviez	_	3	sapevi	_	1	?	_	3	soubéssemos	_
 2	ait	ait	_	2	لم	_	1	?	_	1	?	_	1	?	_	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 3	olduğunu	olduğunu	_	4	تعرف	_	1	?	_	1	?	_	1	?	_	4	wusste,	_	6	were	_	_	_	3	supieran	_	4	saviez	_	3	sapevi	_	1	?	_	3	soubéssemos	_
@@ -100,8 +100,8 @@
 # sent_id = 132936
 # text:  Bana birkaçının olmasını istediği gibi kendi ölçülerine ulaşamadığını belirtti.
 # trans: Ela disse-me que algumas delas não correspondiam à sua marca, às suas expectativas.
-# forward_log_prob: -39.043244817412365
-# backward_log_prob: -28.919474444314563
+# forward_log_prob: -39.04126377095876
+# backward_log_prob: -28.91899868195896
 1	Bana	Bana	_	1	أخبرتني	_	1	?	_	1	?	_	1	?	_	3	mir,	_	3	me	_	_	_	1	Me	_	3	dit	_	6	non	_	1	?	_	2	disse-me	_
 2	birkaçının	birkaçının	_	2	أن	_	1	?	_	1	?	_	1	?	_	1	Sie	_	1	She	_	_	_	2	dijo	_	1	Elle	_	7	rispecchiavano	_	1	?	_	1	Ela	_
 3	olmasını	olmasını	_	3	القليل	_	1	?	_	1	?	_	1	?	_	5	einige	_	6	few	_	_	_	4	algunas	_	4	que	_	7	rispecchiavano	_	1	?	_	4	algumas	_
@@ -115,8 +115,8 @@
 # sent_id = 132937
 # text:  Aslında biri kendi standartlarına öylesine ulaşmamıştı ki, onu stüdyosunda çöpe atmıştı ve komşusu da değerini anladığı için onu almıştı.
 # trans: Na verdade, uma das obras de tal modo não correspondia à sua marca, que ela tinha-a posto no lixo no seu estúdio, e a vizinha tinha-a levado, porque reconhecera o seu valor.
-# forward_log_prob: -117.72477704211815
-# backward_log_prob: -73.0637617898936
+# forward_log_prob: -117.78225623723537
+# backward_log_prob: -73.06289850175149
 1	Aslında	Aslında	Expansion.Instantiation	4	الأعمال،	_	1	?	_	1	?	_	1	?	_	5	faktisch	_	5	in	_	_	_	6	hecho,	_	1	Un	_	?	?	?	1	?	_	6	de	_
 2	biri	biri	_	1	إن	_	1	?	_	1	?	_	1	?	_	5	faktisch	_	1	One	_	_	_	5	de	_	?	?	?	1	Uno	_	1	?	_	1	Na	_
 3	kendi	kendi	_	3	هذه	_	1	?	_	1	?	_	1	?	_	5	faktisch	_	8	didn't	_	_	_	6	hecho,	_	10	loin,	_	9	suo	_	1	?	_	9	não	_
@@ -140,12 +140,12 @@
 # sent_id = 132938
 # text:  O anda başarı ve yaratıcılık hakkındaki görüşüm değişti.
 # trans: Nesse momento, o meu conceito de êxito e de criatividade alteraram-se.
-# forward_log_prob: -32.422689508566705
-# backward_log_prob: -25.392828549386635
+# forward_log_prob: -32.71839095893929
+# backward_log_prob: -25.402662609350166
 1	O	O	Temporal.Synchronous	1	في	_	1	?	_	1	?	_	1	?	_	4	änderte	_	1	In	_	_	_	1	En	_	1	A	_	2	quel	_	1	?	_	1	Nesse	_
 2	anda	anda	Temporal.Synchronous	2	تلك	_	1	?	_	1	?	_	1	?	_	1	In	_	3	moment,	_	_	_	2	ese	_	2	ce	_	5	mia	_	1	?	_	1	Nesse	_
 3	başarı	başarı	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	4	änderte	_	7	success	_	_	_	7	el	_	7	succès	_	7	di	_	1	?	_	7	êxito	_
-4	ve	ve	_	5	للنجاح	_	1	?	_	1	?	_	1	?	_	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	y	_	8	et	Conjunction.EXPANSION	9	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	6	de	_
+4	ve	ve	_	5	للنجاح	_	1	?	_	1	?	_	1	?	_	10	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	8	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	9	y	_	8	et	Conjunction.EXPANSION	9	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	8	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 5	yaratıcılık	yaratıcılık	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	7	Sicht	_	9	creativity	_	_	_	8	éxito	_	10	la	_	11	creatività	_	1	?	_	10	criatividade	_
 6	hakkındaki	hakkındaki	_	5	للنجاح	_	1	?	_	1	?	_	1	?	_	7	Sicht	_	10	changed.	_	_	_	6	sobre	_	4	ma	_	12	cambiò.	_	1	?	_	11	alteraram-se.	_
 7	görüşüm	görüşüm	_	6	والإبتكار	_	1	?	_	1	?	_	1	?	_	7	Sicht	_	9	creativity	_	_	_	11	creatividad	_	12	a	_	10	di	_	1	?	_	9	de	_
@@ -154,8 +154,8 @@
 # sent_id = 132939
 # text:  Başarının bir an olduğunu, ancak her zaman göklere çıkardığımız şeyin yaratıcılık ve ustalık olduğunu anladım.
 # trans: Percebi que o êxito é um momento, mas o que estamos sempre a festejar é a criatividade e a mestria.
-# forward_log_prob: -57.99173200091213
-# backward_log_prob: -54.2065878793399
+# forward_log_prob: -57.99125733034975
+# backward_log_prob: -54.15812539728348
 1	Başarının	Başarının	_	1	أدركت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	J'ai	_	1	Realizzai	_	1	?	_	1	Percebi	_
 2	bir	bir	_	?	?	?	1	?	_	1	?	_	1	?	_	6	ein	_	6	a	_	_	_	8	un	_	7	un	_	3	il	_	1	?	_	6	um	_
 3	an	an	_	?	?	?	1	?	_	1	?	_	1	?	_	9	Was	_	7	moment,	_	_	_	9	momento,	_	5	succès	_	4	successo	_	1	?	_	4	êxito	_
@@ -175,8 +175,8 @@
 # sent_id = 132940
 # text:  Ama işte olay şu: Başarıyı ustalığa dönüştürmemizi sağlayan şey ne?
 # trans: Mas o problema é este: O que é que nos leva a transformar o êxito em mestria?
-# forward_log_prob: -47.69935262959313
-# backward_log_prob: -39.29713174199291
+# forward_log_prob: -47.69716958184838
+# backward_log_prob: -39.285396312824275
 1	Ama	Ama	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero,	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	işte	işte	_	2	إليكم	_	1	?	_	1	?	_	1	?	_	2	hier	_	2	this	_	result.Cause.CONTIGENCY	_	2	el	_	2	voici	_	2	questo	_	1	?	_	3	problema	_
 3	olay	olay	_	2	إليكم	_	1	?	_	1	?	_	1	?	_	3	ist	_	5	thing:	_	_	_	3	quid	_	2	voici	_	5	punto:	_	1	?	_	3	problema	_
@@ -191,8 +191,8 @@
 # sent_id = 132941
 # text:  Uzun zamandır kendi kendime sorduğum bir soru bu.
 # trans: Há muito que faço a mim mesma esta pergunta.
-# forward_log_prob: -25.276676940214163
-# backward_log_prob: -24.234508591109527
+# forward_log_prob: -25.27367681850018
+# backward_log_prob: -24.23658778533697
 1	Uzun	Uzun	_	1	هذا	_	1	?	_	1	?	_	1	?	_	1	Mit	_	4	question	_	_	_	1	Esto	_	1	C'est	_	1	Questa	_	1	?	_	1	Há	_
 2	zamandır	zamandır	_	2	سؤال	_	1	?	_	1	?	_	1	?	_	2	dieser	_	4	question	_	_	_	2	es	_	2	une	_	2	è	_	1	?	_	2	muito	_
 3	kendi	kendi	_	3	سألته	_	1	?	_	1	?	_	1	?	_	2	dieser	_	4	question	_	_	_	4	que	_	3	question	_	4	domanda	_	1	?	_	4	faço	_
@@ -205,8 +205,8 @@
 # sent_id = 132942
 # text:  Bence başarıya yaklaşma lütfuna değer vermeye başladığımızda ortaya çıkıyor.
 # trans: Acho que ela chega quando começamos a dar valor ao dom de uma quase vitória.
-# forward_log_prob: -45.874426891709575
-# backward_log_prob: -33.483179262588926
+# forward_log_prob: -45.869175252746246
+# backward_log_prob: -33.48285711999816
 1	Bence	Bence	_	1	أعتقد	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Creo	_	1	Je	_	1	Credo	_	1	?	_	1	Acho	_
 2	başarıya	başarıya	_	2	أنه	_	1	?	_	1	?	_	1	?	_	3	sie	_	3	it	_	_	_	3	llega	_	2	crois	_	3	succeda	_	1	?	_	3	ela	_
 3	yaklaşma	yaklaşma	_	3	يظهر	_	1	?	_	1	?	_	1	?	_	4	entsteht,	_	7	start	_	_	_	3	llega	_	5	arrive	_	3	succeda	_	1	?	_	4	chega	_
@@ -220,8 +220,8 @@
 # sent_id = 132943
 # text:  Manhattan'ın en kuzeyinde bulunan Columbia'nın Baker Spor Kompleksi'nde soğuk bir Mayıs günü üniversitenin, kadere bakın ki hepsi kadın olan, okçuluk takımını seyretmeye gittiğimde bunu anlamaya başladım.
 # trans: Comecei a perceber isso quando, num frio dia de Maio fui ver uma equipa de arqueiras universitárias, só mulheres, por coincidência, no extremo norte de Manhattan no Complexo Atlético Baker, na Colúmbia.
-# forward_log_prob: -116.77013811510763
-# backward_log_prob: -103.28612948640385
+# forward_log_prob: -116.78209088584502
+# backward_log_prob: -103.28258396576821
 1	Manhattan'ın	Manhattan'ın	_	1	بدأت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Empecé	_	1	J'ai	_	1	Ho	_	1	?	_	1	Comecei	_
 2	en	en	_	4	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	_	1	?	_	1	?	_	6	als	Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	10	one	_	_	_	4	esto	_	2	commencé	_	2	iniziato	_	1	?	_	2	a	_
 3	kuzeyinde	kuzeyinde	_	3	هذا	_	1	?	_	1	?	_	1	?	_	5	verstehen,	_	4	understand	_	_	_	3	entender	_	5	comprendre	_	3	a	_	1	?	_	3	perceber	_
@@ -252,8 +252,8 @@
 # sent_id = 132944
 # text:  Okçu paradoksu denen, yani aslında hedefinizi vurmak için ondan biraz eğimli bir şeye nişan almanız gerektiğini söyleyen fikri görmek istedim.
 # trans: Eu queria ver aquilo a que se chama o paradoxo do arqueiro, a ideia de que, para acertar em cheio no alvo, é preciso visar um pouco ao lado.
-# forward_log_prob: -104.10929632453063
-# backward_log_prob: -83.12389018828753
+# forward_log_prob: -104.10100303625124
+# backward_log_prob: -83.12017204875775
 1	Okçu	Okçu	_	1	أردت	_	1	?	_	1	?	_	1	?	_	6	sogenannte	_	8	paradox,	_	_	_	1	Quería	_	1	Je	_	1	Volevo	_	1	?	_	1	Eu	_
 2	paradoksu	paradoksu	_	2	رؤية	_	1	?	_	1	?	_	1	?	_	6	sogenannte	_	8	paradox,	_	_	_	1	Quería	_	2	voulais	_	1	Volevo	_	1	?	_	2	queria	_
 3	denen,	denen,	_	4	يدعى	_	1	?	_	1	?	_	1	?	_	6	sogenannte	_	8	paradox,	_	_	_	8	paradoja	_	2	voulais	_	4	cosiddetto	_	1	?	_	4	aquilo	_
@@ -278,8 +278,8 @@
 # sent_id = 132945
 # text:  Koç bu kadınlarla gri minibüsünde yaklaşırken durup seyrettim ve adeta rahat bir odaklanma içinde dışarı çıktılar.
 # trans: Fiquei a observar enquanto o treinador conduzia aquelas mulheres numa carrinha cinzenta e elas sairam com aquele ar de concentração descontraída.
-# forward_log_prob: -71.7321906988593
-# backward_log_prob: -55.969729631382194
+# forward_log_prob: -71.81327092431613
+# backward_log_prob: -55.9662335918095
 1	Koç	Koç	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Fui	_	2	suis	_	1	Ero	_	1	?	_	1	Fiquei	_
 2	bu	bu	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	13	this	_	result.Cause.CONTIGENCY	_	?	?	?	5	à	specification.Restatement.EXPANSION	?	?	?	1	?	_	2	a	_
 3	kadınlarla	kadınlarla	_	3	شاهدت	_	1	?	_	1	?	_	1	?	_	5	schaute	_	8	drove	_	_	_	10	chicas	_	4	debout	_	4	guardavo	_	1	?	_	3	observar	_
@@ -300,8 +300,8 @@
 # sent_id = 132946
 # text:  Birisi bir elinde yarısı yenmiş bir dondurma külahı ve solunda sarı tüyüyle oklar tutuyordu.
 # trans: Uma delas tinha na mão um cone de gelado meio comido e na mão esquerda flechas com penas amarelas.
-# forward_log_prob: -58.54850869563609
-# backward_log_prob: -42.982453502797895
+# forward_log_prob: -58.64624402873618
+# backward_log_prob: -42.972661437406344
 1	Birisi	Birisi	_	1	إحداهن	_	1	?	_	1	?	_	1	?	_	1	Eine	_	1	One	_	_	_	1	Una	_	1	L'une	_	2	aveva	_	1	?	_	2	delas	_
 2	bir	bir	_	?	?	?	1	?	_	1	?	_	1	?	_	3	eine	_	3	a	_	_	_	3	un	_	4	une	_	1	Una	_	1	?	_	1	Uma	_
 3	elinde	elinde	_	3	بإحدى	_	1	?	_	1	?	_	1	?	_	4	halb	_	4	half-eaten	_	_	_	4	helado	_	5	main	_	4	cono	_	1	?	_	3	tinha	_
@@ -320,8 +320,8 @@
 # sent_id = 132947
 # text:  Yanımdan geçip gülümsediler, ama çim alana doğru giderken kim olduğumu anlamaya çalıştılar. Birbirleriyle kelimelerle değil, sayılarla, derecelerle konuştular, sanırım hedeflerini vurmayı planladıkları pozisyonlarla.
 # trans: Passaram por mim e sorriram, mas mediram-me de alto a baixo enquanto se encaminhavam para o campo, e falavam umas com as outras, não com palavras, mas, segundo me pareceu, com números, graus, posições para o modo como podiam planear atingir o alvo.
-# forward_log_prob: -164.0430362867393
-# backward_log_prob: -102.29970557933058
+# forward_log_prob: -164.04767119363626
+# backward_log_prob: -102.29784343717685
 1	Yanımdan	Yanımdan	_	2	قد	_	1	?	_	1	?	_	1	?	_	3	gingen	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Todas	_	1	Elles	_	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	Passaram	_
 2	geçip	geçip	Expansion.Conjunction	3	مررن	_	1	?	_	1	?	_	1	?	_	3	gingen	_	3	passed	_	_	_	2	pasaban	_	4	devant	_	3	mi	_	1	?	_	3	mim	_
 3	gülümsediler,	gülümsediler,	_	6	ابتسمن،	_	1	?	_	1	?	_	1	?	_	3	gingen	_	5	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	4	me	_	5	moi	_	5	davanti	_	1	?	_	5	sorriram,	_
@@ -349,8 +349,8 @@
 # sent_id = 132948
 # text:  Belki de kimin desteğe ihtiyacı olabilir diye değerlendirmek üzere koçu aramızda dururken bir okçunun arkasında durdum ve onu seyrettim, birinin bile nasıl onluk daireyi vuracağını anlayamamıştım.
 # trans: Fiquei por detrás duma arqueira, enquanto o treinador, entre nós duas, avaliava talvez quem podia precisar de apoio, e observei-a e não via como seria possível que, nem que fosse só uma, conseguisse acertar no décimo anel.
-# forward_log_prob: -142.7967520872318
-# backward_log_prob: -105.31481844345417
+# forward_log_prob: -142.8884847673029
+# backward_log_prob: -105.29820132566734
 1	Belki	Belki	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	2	stand	_	2	stood	_	_	_	1	Me	_	1	Je	_	1	Ero	_	1	?	_	3	detrás	_
 2	de	de	_	3	إحدي	_	1	?	_	1	?	_	1	?	_	3	hinter	_	3	behind	_	_	_	3	detrás	_	4	derrière	_	2	dietro	_	1	?	_	3	detrás	_
 3	kimin	kimin	_	3	إحدي	_	1	?	_	1	?	_	1	?	_	3	hinter	_	5	archer	_	_	_	3	detrás	_	4	derrière	_	4	una	_	1	?	_	4	duma	_
@@ -381,8 +381,8 @@
 # sent_id = 132949
 # text:  Onluk daire standart 75 yarda mesafeden, bir kol boyu uzaklığından bir kibrit çöpünün ucu kadar küçük görünür.
 # trans: O décimo anel, à distância de 70 metros, parece tão pequeno como a cabeça de um fósforo na ponta da mão esticada.
-# forward_log_prob: -73.10380132443018
-# backward_log_prob: -60.31375569800731
+# forward_log_prob: -73.10761407172875
+# backward_log_prob: -60.30331229430306
 1	Onluk	Onluk	_	1	لوحة	_	1	?	_	1	?	_	1	?	_	2	10er-Ring	_	2	ten	_	_	_	4	10	_	1	La	_	1	Il	_	1	?	_	2	décimo	_
 2	daire	daire	_	5	الـ	_	1	?	_	1	?	_	1	?	_	5	70-Meter-Standard-Distanz	_	6	standard	_	_	_	9	estándar	_	5	distance	_	6	distanza	_	1	?	_	5	distância	_
 3	standart	standart	_	5	الـ	_	1	?	_	1	?	_	1	?	_	5	70-Meter-Standard-Distanz	_	6	standard	_	_	_	9	estándar	_	5	distance	_	6	distanza	_	1	?	_	4	à	_
@@ -404,8 +404,8 @@
 # sent_id = 132950
 # text:  Bu her atışta 50 librelik çekiş ağırlığını kaldırırken olur.
 # trans: Ainda por cima a segurar num peso de 23 kg em cada arremesso.
-# forward_log_prob: -38.31675319349181
-# backward_log_prob: -27.5514934537126
+# forward_log_prob: -38.31513541650892
+# backward_log_prob: -27.550315320679594
 1	Bu	Bu	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	esto	_	1	Et	Conjunction.EXPANSION	3	questo	_	1	?	_	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	her	her	_	3	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	5	Zuggewicht	_	3	is	_	_	_	1	Y	_	3	tout	Concession.COMPARISON|TEMPORAL	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	Ainda	Conjunction.EXPANSION|EXPANSION
 3	atışta	atışta	_	5	يتم	_	1	?	_	1	?	_	1	?	_	3	bei	_	4	while	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|Synchronous.TEMPORAL	2	esto	_	2	cela	_	4	reggendo	_	1	?	_	5	segurar	_
@@ -419,8 +419,8 @@
 # sent_id = 132951
 # text:  Önce yediyi, ardından dokuzu ve sonra iki kere onu vurduğunu hatırlıyorum ve sonraki ok da hedefi dahi vuramadı.
 # trans: Recordo que ela primeiro acertou no sétimo, depois no nono, depois duas vezes no décimo, e depois a flecha seguinte nem sequer acertou no alvo.
-# forward_log_prob: -81.3064232015118
-# backward_log_prob: -62.62623483768192
+# forward_log_prob: -81.29859287860151
+# backward_log_prob: -62.624648846262936
 1	Önce	Önce	_	1	هي	_	1	?	_	1	?	_	1	?	_	3	erst	_	5	seven,	_	_	_	1	Recuerdo	_	1	Elle	_	4	all'inizio	_	1	?	_	1	Recordo	_
 2	yediyi,	yediyi,	_	3	أصابت	_	1	?	_	1	?	_	1	?	_	2	traf	_	5	seven,	_	_	_	3	primero	_	3	d'abord	_	3	lei	_	1	?	_	1	Recordo	_
 3	ardından	ardından	_	4	الحلقة	_	1	?	_	1	?	_	1	?	_	3	erst	_	5	seven,	_	_	_	4	acertó	_	4	marqué	_	4	all'inizio	_	1	?	_	4	primeiro	_
@@ -443,8 +443,8 @@
 # sent_id = 132952
 # text:  Bunun ona daha çok kararlılık verdiğini gördüm ve tekrar tekrar denedi.
 # trans: E vi que isso deu-lhe mais persistência, e continuou, continuou, sem parar.
-# forward_log_prob: -34.52235106392605
-# backward_log_prob: -31.890944104809474
+# forward_log_prob: -34.519417798346126
+# backward_log_prob: -31.889475149196453
 1	Bunun	Bunun	_	1	لاحظت	_	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	8	tenacity,	_	_	_	4	eso	_	5	ça	_	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	ona	ona	_	3	ذلك	_	1	?	_	1	?	_	1	?	_	4	ihr	_	6	her	_	_	_	5	le	_	6	lui	_	2	notai	_	1	?	_	2	vi	_
 3	daha	daha	_	4	أعطاها	_	1	?	_	1	?	_	1	?	_	5	mehr	_	7	more	_	_	_	7	más	_	8	plus	_	7	più	_	1	?	_	6	mais	Conjunction.EXPANSION|EXPANSION
@@ -460,8 +460,8 @@
 # sent_id = 132953
 # text:  Bu üç saat sürdü.
 # trans: Aquilo continuou durante três horas.
-# forward_log_prob: -13.543384928723281
-# backward_log_prob: -10.223835982003695
+# forward_log_prob: -13.543392551416847
+# backward_log_prob: -10.22377096868403
 1	Bu	Bu	_	2	هذا	_	1	?	_	1	?	_	1	?	_	1	Das	_	4	this	_	result.Cause.CONTIGENCY	_	1	durante	TEMPORAL	1	Ça	_	1	Andò	_	1	?	_	3	durante	_
 2	üç	üç	_	1	استمر	_	1	?	_	1	?	_	1	?	_	2	ging	_	1	For	_	_	reason.Cause.CONTIGENCY	1	durante	TEMPORAL	2	a	_	2	avanti	_	1	?	_	1	Aquilo	_
 3	saat	saat	_	4	لثلاث	_	1	?	_	1	?	_	1	?	_	5	lang	_	3	hours	_	_	_	2	tres	_	5	trois	_	4	tre	_	1	?	_	4	três	_
@@ -470,8 +470,8 @@
 # sent_id = 132954
 # text:  Antrenmanın sonunda, okçulardan biri öylesine zorlanmıştı ki, yere pestil gibi serildi, kafası gökyüzüne doğru bakıyor, T.S. Eliot'un dönen dünyadaki bu duran noktaya ne diyeceğini bulmaya çalışıyordu.
 # trans: No fim do treino, uma das arqueiras estava tão exausta que se deitou no chão sem se poder mexer, a olhar para o céu, tentando encontrar o que T. S. Elliot podia ter chamado aquele "ponto imóvel no mundo em rotação".
-# forward_log_prob: -156.91178015655106
-# backward_log_prob: -109.3466673880331
+# forward_log_prob: -156.91076280150605
+# backward_log_prob: -109.34284462251992
 1	Antrenmanın	Antrenmanın	Expansion.Conjunction	5	إحدى	_	1	?	_	1	?	_	1	?	_	4	Übung	_	?	?	?	?	?	?	?	?	?	?	?	3	dell'allentamento,	_	1	?	_	3	do	_
 2	sonunda,	sonunda,	Expansion.Conjunction	3	نهاية	_	1	?	_	1	?	_	1	?	_	1	Am	_	6	practice,	_	_	_	1	Al	_	3	fin	_	1	Alla	precedence.Asynchronous.TEMPORAL	1	?	_	6	das	_
 3	okçulardan	okçulardan	_	5	إحدى	_	1	?	_	1	?	_	1	?	_	4	Übung	_	6	practice,	_	_	_	5	práctica,	_	5	l'entraînement,	_	3	dell'allentamento,	_	1	?	_	7	arqueiras	_
@@ -502,8 +502,8 @@
 # sent_id = 132955
 # text:  Amerikan kültüründe bu çok nadirdir, bunun artık meslekle pek ilgisi yoktur, bu derecede kusursuz bir kararlılığın nasıl olduğunu, bir hedefi vurmak için üç saat bedenin duruşunu ayarlamanın ne demek olduğunu görmek, bilinmezlik içinde bir çeşit mükemmellik aramak.
 # trans: É tão raro na cultura americana, já há tão pouca vocação em qualquer coisa, olhar para o que é a perseverança com este nível de exactidão, o que significa manter a postura do nosso corpo durante três horas, para atingir um alvo, procurando uma qualquer excelência na obscuridade.
-# forward_log_prob: -188.00485221931845
-# backward_log_prob: -150.8685778278684
+# forward_log_prob: -188.04001608853395
+# backward_log_prob: -150.86171411023142
 1	Amerikan	Amerikan	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	amerikanischen	_	3	rare	_	_	_	2	tan	_	8	américaine,	_	6	americana,	_	1	?	_	1	É	_
 2	kültüründe	kültüründe	_	2	نادرة	_	1	?	_	1	?	_	1	?	_	3	amerikanischen	_	4	in	_	_	_	7	cultura	_	7	culture	_	4	nella	_	1	?	_	4	na	_
 3	bu	bu	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	È	_	1	?	_	?	?	?
@@ -522,10 +522,10 @@
 16	kararlılığın	kararlılığın	_	22	الإصرار	_	1	?	_	1	?	_	1	?	_	22	beobachten	_	21	like	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	_	_	20	exactitud,	_	24	quoi	_	20	quel	_	1	?	_	21	perseverança	_
 17	nasıl	nasıl	_	22	الإصرار	_	1	?	_	1	?	_	1	?	_	23	kann	_	24	level	_	_	_	17	este	_	25	l'obstination	_	19	con	_	1	?	_	21	perseverança	_
 18	olduğunu,	olduğunu,	_	21	عليه	_	1	?	_	1	?	_	1	?	_	19	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	26	exactitude,	_	_	_	?	?	?	25	l'obstination	_	19	con	_	1	?	_	19	é	_
-19	bir	bir	_	25	من	_	1	?	_	1	?	_	1	?	_	30	es	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	?	_	?	?	?
+19	bir	bir	_	25	من	_	1	?	_	1	?	_	1	?	_	30	es	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	?	_	25	de	_
 20	hedefi	hedefi	_	26	الدقة،	_	1	?	_	1	?	_	1	?	_	14	nicht	_	41	hit	_	_	_	23	significa	_	29	niveau	_	?	?	?	1	?	_	26	exactidão,	_
 21	vurmak	vurmak	_	27	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	?	?	?	17	at	_	_	_	14	para	CONTIGENCY|Cause.CONTIGENCY	22	ce	_	14	vedere	_	1	?	_	12	em	_
-22	için	için	Contingency.Purpose.Arg2-as-goal	?	?	?	1	?	_	1	?	_	1	?	_	38	zu	_	30	to	_	_	_	31	para	CONTIGENCY|Cause.CONTIGENCY	?	?	?	30	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	_	25	de	_
+22	için	için	Contingency.Purpose.Arg2-as-goal	?	?	?	1	?	_	1	?	_	1	?	_	38	zu	_	30	to	_	_	_	31	para	CONTIGENCY|Cause.CONTIGENCY	?	?	?	30	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	_	39	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 23	üç	üç	_	33	لثلاث	_	1	?	_	1	?	_	1	?	_	35	drei	_	36	three	_	_	_	29	tres	_	40	trois	_	31	tre	_	1	?	_	36	durante	_
 24	saat	saat	_	33	لثلاث	_	1	?	_	1	?	_	1	?	_	35	drei	_	35	for	_	_	reason.Cause.CONTIGENCY	28	durante	TEMPORAL	40	trois	_	31	tre	_	1	?	_	36	durante	_
 25	bedenin	bedenin	_	30	تنحني	_	1	?	_	1	?	_	1	?	_	34	Körperhaltung	_	31	align	_	_	_	26	postura	_	34	signifie	_	25	significhi	_	1	?	_	29	significa	_
@@ -545,8 +545,8 @@
 # sent_id = 132956
 # text:  Ancak orada kaldım, çünkü çok nadir olarak görülecek bir şeye tanıklık ettiğimi anladım, başarı ve ustalık arasındaki o farka.
 # trans: Mas eu fiquei ali porque percebi que estava a assistir a uma coisa rara de observar, essa diferença entre êxito e mestria.
-# forward_log_prob: -72.72584060623679
-# backward_log_prob: -66.87033240791474
+# forward_log_prob: -72.85991950389956
+# backward_log_prob: -66.8766034803491
 1	Ancak	Ancak	Comparison.Concession.Arg2-as-denier	?	?	?	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	orada	orada	_	2	لكني	_	1	?	_	1	?	_	1	?	_	3	blieb,	_	3	stayed	_	_	_	2	me	_	2	je	_	2	rimasi	_	1	?	_	2	eu	_
 3	kaldım,	kaldım,	_	3	بقيت	_	1	?	_	1	?	_	1	?	_	3	blieb,	_	3	stayed	_	_	_	3	quedé	_	4	restée	_	2	rimasi	_	1	?	_	3	fiquei	_
@@ -570,8 +570,8 @@
 # sent_id = 132957
 # text:  O zaman başarı o onluk daireye isabet ettirmektir, ancak ustalık bunu tekrar tekrar yapamazsan bunun hiçbir şey ifade etmediğini bilmektir.
 # trans: O êxito é acertar naquele décimo anel, mas a mestria é saber que isso não significa nada se não se conseguir voltar a fazê-lo vezes sem conta.
-# forward_log_prob: -90.29440390797276
-# backward_log_prob: -72.58579015999885
+# forward_log_prob: -90.2909833509721
+# backward_log_prob: -72.58302311245272
 1	O	O	_	1	إذن	_	1	?	_	1	?	_	1	?	_	2	haben,	_	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	éxito	_	?	?	?	?	?	?	1	?	_	1	O	_
 2	zaman	zaman	_	3	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	bedeutet	_	3	is	_	_	_	3	es	_	10	mais	Contrast.COMPARISON|Exception.EXPANSION	4	è	_	1	?	_	3	é	_
 3	başarı	başarı	_	2	فالنجاح	_	1	?	_	1	?	_	1	?	_	1	Erfolg	_	2	success	_	_	_	1	El	_	1	Le	_	3	successo	_	1	?	_	2	êxito	_
@@ -596,8 +596,8 @@
 # sent_id = 132958
 # text:  Ancak ustalık mükemmellikle aynı şey değildir.
 # trans: Mas mestria não é a mesma coisa que excelência.
-# forward_log_prob: -23.291076331056274
-# backward_log_prob: -17.881192518186094
+# forward_log_prob: -23.288876142152475
+# backward_log_prob: -17.879708207424187
 1	Ancak	Ancak	Comparison.Concession.Arg2-as-denier	?	?	?	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	2	maestria,	_	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	ustalık	ustalık	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	2	maestría	_	2	maîtrise	_	1	La	_	1	?	_	2	mestria	_
 3	mükemmellikle	mükemmellikle	_	5	بالضبط	_	1	?	_	1	?	_	1	?	_	3	allerdings	Concession.COMPARISON|Contrast.COMPARISON	4	just	_	_	_	6	mismo	_	3	n'est	_	3	comunque,	_	1	?	_	6	mesma	_
@@ -608,8 +608,8 @@
 # sent_id = 132959
 # text:  Başarıyla aynı şey değildir, ki başarıyı bir hadise olarak, zamanın içinde bir an olarak ve dünyanın size verdiği bir etiket olarak görürüm.
 # trans: Não é a mesma coisa que êxito, que eu considero como um incidente, um dado momento no tempo. e um rótulo que o mundo nos atribui.
-# forward_log_prob: -85.45722434469316
-# backward_log_prob: -75.31206130821117
+# forward_log_prob: -85.46009482140339
+# backward_log_prob: -75.28155359593144
 1	Başarıyla	Başarıyla	_	1	إنه	_	1	?	_	1	?	_	1	?	_	5	gleiche	_	1	It's	_	_	_	?	?	?	2	n'est	_	3	come	EXPANSION|Synchronous.TEMPORAL	1	?	_	?	?	?
 2	aynı	aynı	_	2	ليس	_	1	?	_	1	?	_	1	?	_	5	gleiche	_	4	same	_	_	_	4	mismo	_	2	n'est	_	?	?	?	1	?	_	4	mesma	_
 3	şey	şey	_	3	مطابقاً	_	1	?	_	1	?	_	1	?	_	8	was	_	4	same	_	_	_	2	es	_	1	Ce	_	2	è	_	1	?	_	2	é	_
@@ -636,8 +636,8 @@
 # sent_id = 132960
 # text:  Ustalık bir hedefe bağlılık değil, bitmeyen bir arayıştır.
 # trans: A mestria não é o empenhamento numa meta mas uma busca permanente.
-# forward_log_prob: -34.07637041569029
-# backward_log_prob: -23.253108328855465
+# forward_log_prob: -34.08560023994189
+# backward_log_prob: -23.25869653447805
 1	Ustalık	Ustalık	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	1	A	_
 2	bir	bir	_	1	إن	_	1	?	_	1	?	_	1	?	_	4	die	_	4	a	_	_	_	6	un	_	5	un	_	5	la	_	1	?	_	1	A	_
 3	hedefe	hedefe	_	3	ليس	_	1	?	_	1	?	_	1	?	_	5	Bekenntnis	_	5	commitment	_	_	_	5	lograr	_	3	n'est	_	6	devozione	_	1	?	_	6	empenhamento	_
@@ -650,9 +650,9 @@
 # sent_id = 132961
 # text:  Bunu yapmamıza sebep olan şey, bizi daha fazla ileriye iten şey, neredeyse kazanmanın değeridir.
 # trans: O que nos leva a fazer isso, o que nos leva a avançar cada vez mais é valorizar a quase vitória.
-# forward_log_prob: -62.89370271733145
-# backward_log_prob: -50.28460533702084
-1	Bunu	Bunu	_	4	هذا،	_	1	?	_	1	?	_	1	?	_	3	dazu	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	6	this,	_	_	_	1	Lo	_	?	?	?	2	che	_	1	?	_	2	que	_
+# forward_log_prob: -62.892402313353365
+# backward_log_prob: -50.282978857345604
+1	Bunu	Bunu	_	4	هذا،	_	1	?	_	1	?	_	1	?	_	3	dazu	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	6	this,	_	_	_	1	Lo	_	2	qui	_	2	che	_	1	?	_	2	que	_
 2	yapmamıza	yapmamıza	_	2	يدفعنا	_	1	?	_	1	?	_	1	?	_	4	bringt,	_	8	get	_	_	_	3	nos	_	4	amène	_	4	spinge	_	1	?	_	3	nos	_
 3	sebep	sebep	_	1	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	bringt,	_	8	get	_	_	_	3	nos	_	4	amène	_	4	spinge	_	1	?	_	4	leva	_
 4	olan	olan	_	6	يدفعنا	_	1	?	_	1	?	_	1	?	_	5	Dinge	_	4	to	_	_	_	4	hace	_	5	à	specification.Restatement.EXPANSION	4	spinge	_	1	?	_	5	a	_
@@ -670,8 +670,8 @@
 # sent_id = 132962
 # text:  Kaç kere bir şeyi bir klasik, hatta başyapıt olarak tanımladık, yaratıcısı onu umutsuzca bitmemiş olarak görürken, zorluklar ve hatalarla dolu olarak, yani başka bir ifadeyle bir neredeyse kazanmak olarak?
 # trans: Quantas vezes classificamos uma coisa como um clássico, uma obra-prima até, enquanto o seu criador a considera irremediavelmente incompleta, cheia de dificuldades e de falhas, por outras palavras, uma quase vitória?
-# forward_log_prob: -111.37624774665521
-# backward_log_prob: -101.76004176968719
+# forward_log_prob: -111.50633670952723
+# backward_log_prob: -101.77160151848518
 1	Kaç	Kaç	_	1	كم	_	1	?	_	1	?	_	1	?	_	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿Cuántas	_	1	Combien	_	1	Quante	_	1	?	_	1	Quantas	_
 2	kere	kere	_	3	رمزنا	_	1	?	_	1	?	_	1	?	_	2	oft	_	3	times	_	_	_	2	veces	_	3	fois	_	2	volte	_	1	?	_	2	vezes	_
 3	bir	bir	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	?	_	4	uma	_
@@ -695,8 +695,8 @@
 21	olarak,	olarak,	_	20	مليئة	_	1	?	_	1	?	_	1	?	_	?	?	?	22	difficulties	_	_	_	?	?	?	26	difficultés	_	22	pieno	_	1	?	_	21	de	_
 22	yani	yani	Expansion.Equivalence	20	مليئة	_	1	?	_	1	?	_	1	?	_	5	etwas	_	22	difficulties	_	_	_	24	dificultades	_	?	?	?	24	difficoltà	_	1	?	_	25	falhas,	_
 23	başka	başka	Expansion.Equivalence	21	بالصعوبات	_	1	?	_	1	?	_	1	?	_	23	Fehlern	_	24	flaws,	_	_	_	26	errores,	_	29	défauts,	_	24	difficoltà	_	1	?	_	25	falhas,	_
-24	bir	bir	Expansion.Equivalence	?	?	?	1	?	_	1	?	_	1	?	_	25	mit	_	25	in	_	_	_	27	es	_	33	une	_	30	una	_	1	?	_	29	uma	_
-25	ifadeyle	ifadeyle	Expansion.Equivalence	23	العيوب،	_	1	?	_	1	?	_	1	?	_	24	durchzogen,	_	24	flaws,	_	_	_	26	errores,	_	31	d'autres	_	26	difetti,	_	1	?	_	26	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+24	bir	bir	Expansion.Equivalence	?	?	?	1	?	_	1	?	_	1	?	_	25	mit	_	25	in	_	_	_	27	es	_	33	une	_	30	una	_	1	?	_	26	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
+25	ifadeyle	ifadeyle	Expansion.Equivalence	23	العيوب،	_	1	?	_	1	?	_	1	?	_	24	durchzogen,	_	24	flaws,	_	_	_	26	errores,	_	31	d'autres	_	26	difetti,	_	1	?	_	25	falhas,	_
 26	bir	bir	_	?	?	?	1	?	_	1	?	_	1	?	_	25	mit	_	28	a	_	_	_	?	?	?	33	une	_	30	una	_	1	?	_	29	uma	_
 27	neredeyse	neredeyse	_	26	نجاح	_	1	?	_	1	?	_	1	?	_	29	Beinahe-Erfolg?	_	30	win?	_	_	_	30	casi	_	34	victoire	_	31	quasi-vittoria?	_	1	?	_	31	vitória?	_
 28	kazanmak	kazanmak	_	26	نجاح	_	1	?	_	1	?	_	1	?	_	28	ein	_	29	near	_	_	_	31	haberlo	_	30	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	?	?	?	1	?	_	30	quase	_
@@ -705,8 +705,8 @@
 # sent_id = 132963
 # text:  Elizabeth Murray, ilk tabloları hakkındaki itirafıyla beni şaşırtmıştı.
 # trans: Elizabeth Murray surpreendeu-me com o seu reconhecimento sobre as suas primeiras pinturas.
-# forward_log_prob: -35.48034749006027
-# backward_log_prob: -27.686831078794185
+# forward_log_prob: -35.481927330858454
+# backward_log_prob: -27.686574898998305
 1	Elizabeth	Elizabeth	_	3	موراي	_	1	?	_	1	?	_	1	?	_	1	Elizabeth	_	1	Elizabeth	_	_	_	1	Elizabeth	_	1	Elizabeth	_	1	Elizabeth	_	1	?	_	1	Elizabeth	_
 2	Murray,	Murray,	_	1	فاجأتني	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	surprised	_	_	_	4	sorprendió	_	4	surprise	_	3	mi	_	1	?	_	3	surpreendeu-me	_
 3	ilk	ilk	_	2	إليزابيث	_	1	?	_	1	?	_	1	?	_	4	mich	_	2	Murray	_	_	_	?	?	?	4	surprise	_	5	sorpreso	_	1	?	_	?	?	?
@@ -719,8 +719,8 @@
 # sent_id = 132964
 # text:  Ressam Paul Cézanne, çalışmalarının sıklıkla bitmemiş olduğunu düşünerek, onları tekrar ele almak niyetiyle kasıtlı olarak bir kenara koyardı, ancak hayatının sonunda sonuç resimlerinin sadece yüzde onunu imzalamış olmasıydı.
 # trans: O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar nelas outra vez mas, no fim da sua vida, o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas.
-# forward_log_prob: -192.1737800158275
-# backward_log_prob: -123.30959905667474
+# forward_log_prob: -192.1534400026552
+# backward_log_prob: -123.30888369021945
 1	Ressam	Ressam	_	1	غالباً	_	1	?	_	1	?	_	1	?	_	1	Der	_	1	Painter	_	_	_	1	Paul	_	2	peintre	_	1	Il	_	1	?	_	3	Paul	_
 2	Paul	Paul	_	3	اعتقد	_	1	?	_	1	?	_	1	?	_	3	Paul	_	2	Paul	_	_	_	2	Cézanne	_	1	Le	_	2	pittore	_	1	?	_	2	pintor	_
 3	Cézanne,	Cézanne,	_	4	الرسام	_	1	?	_	1	?	_	1	?	_	4	Cézanne	_	5	often	_	Contrast.COMPARISON	_	3	generalmente	_	4	Cézanne	_	5	pensava	_	1	?	_	5	pensava	_
@@ -753,8 +753,8 @@
 # sent_id = 132965
 # text:  En sevdiği roman, Honoré de Balzac'ın Gizli Başyapıt'ıydı ve ana karakteri kendisiyle özdeşleştirmişti.
 # trans: O seu romance preferido era "A Obra-Prima Desconhecida" de Honoré de Balzac, e achava que o protagonista era o próprio pintor.
-# forward_log_prob: -63.94451520912712
-# backward_log_prob: -45.12689514099724
+# forward_log_prob: -64.09991997101545
+# backward_log_prob: -45.133859454208846
 1	En	En	_	3	المفضلة	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	2	favorite	_	_	_	3	favorita	_	4	était	_	5	era:	_	1	?	_	5	era	_
 2	sevdiği	sevdiği	_	1	كانت	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	1	His	_	_	_	1	Su	_	1	Son	_	2	suo	_	1	?	_	2	seu	_
 3	roman,	roman,	_	2	روايته	_	1	?	_	1	?	_	1	?	_	1	Sein	_	3	novel	_	_	_	2	novela	_	2	roman	_	1	Il	_	1	?	_	1	O	_
@@ -772,8 +772,8 @@
 # sent_id = 132966
 # text:  Diğerleri çalışmalarını yalnızca övgüye değer bulurken, Franz Kafka bitmemiş olarak gördü, o kadar ki bütün günlüklerinin, el yazılarının, mektuplarının ve hatta taslaklarının öldükten sonra yakılmasını istedi.
 # trans: Franz Kafka considerava incompleto o que outros consideravam obras dignas de elogio, de tal modo que queria que todos os seus diários, manuscritos, cartas e até mesmo rascunhos fossem queimados depois de ele morrer.
-# forward_log_prob: -122.9881843480882
-# backward_log_prob: -102.99419240434108
+# forward_log_prob: -123.07974805834046
+# backward_log_prob: -102.99854641026081
 1	Diğerleri	Diğerleri	_	2	رأى	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Franz	_	1	Franz	_	_	_	1	Franz	_	1	Frank	_	1	Franz	_	1	?	_	1	Franz	_
 2	çalışmalarını	çalışmalarını	_	3	فرانز	_	1	?	_	1	?	_	1	?	_	1	Franz	_	1	Franz	_	_	_	1	Franz	_	1	Frank	_	2	Kafka	_	1	?	_	2	Kafka	_
 3	yalnızca	yalnızca	_	3	فرانز	_	1	?	_	1	?	_	1	?	_	3	sah	_	3	saw	_	_	_	3	veía	_	5	l'imperfection	_	4	incompletezza	_	1	?	_	3	considerava	_
@@ -783,7 +783,7 @@
 7	Franz	Franz	_	9	الآخرين	_	1	?	_	1	?	_	1	?	_	8	Werke	_	6	others	_	_	_	8	veían	_	8	autres	_	8	vedevano	_	1	?	_	10	dignas	_
 8	Kafka	Kafka	_	10	ربما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	9	nur	Contrast.COMPARISON	9	only	_	result.Cause.CONTIGENCY	_	9	obras	_	11	des	_	8	vedevano	_	1	?	_	10	dignas	_
 9	bitmemiş	bitmemiş	_	17	حتى	_	1	?	_	1	?	_	1	?	_	?	?	?	9	only	_	result.Cause.CONTIGENCY	_	10	dignas	_	10	que	_	9	solo	Concession.COMPARISON	1	?	_	12	elogio,	_
-10	olarak	olarak	_	18	أنه	_	1	?	_	1	?	_	1	?	_	?	?	?	9	only	_	result.Cause.CONTIGENCY	_	14	que	_	10	que	_	9	solo	Concession.COMPARISON	1	?	_	13	de	_
+10	olarak	olarak	_	18	أنه	_	1	?	_	1	?	_	1	?	_	?	?	?	9	only	_	result.Cause.CONTIGENCY	_	14	que	_	10	que	_	10	lavori	_	1	?	_	13	de	_
 11	gördü,	gördü,	_	13	فقط	_	1	?	_	1	?	_	1	?	_	11	konnten,	_	12	praise,	_	_	_	12	alabanza	_	16	tel	_	12	elogiare,	_	1	?	_	12	elogio,	_
 12	o	o	Contingency.Cause.Result	15	يمدحوها،	_	1	?	_	1	?	_	1	?	_	15	er	_	15	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	result.Cause.CONTIGENCY	?	?	?	14	faire,	_	13	a	_	1	?	_	?	?	?
 13	kadar	kadar	Contingency.Cause.Result	15	يمدحوها،	_	1	?	_	1	?	_	1	?	_	14	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	17	he	_	_	_	?	?	?	13	à	specification.Restatement.EXPANSION	14	tal	_	1	?	_	?	?	?
@@ -804,8 +804,8 @@
 # sent_id = 132967
 # text:  Arkadaşları bu isteğine uymayı reddettiler ve bu yüzden şimdi Kafka'nın yaptığı bütün çalışmalara sahibiz: "Amerika", "Dava" ve "Şato", öylesine tamamlanmamış bir eser ki, cümlenin ortasında bitiyor.
 # trans: O seu amigo recusou-se a cumprir esse pedido e, por causa disso, temos todas as obras de Kafka que temos hoje: "América", "O Veredito" e "O Castelo", uma obra tão incompleta que até termina a meio duma frase.
-# forward_log_prob: -138.2104808076003
-# backward_log_prob: -98.45309493762092
+# forward_log_prob: -138.3452011833105
+# backward_log_prob: -98.45500211952385
 1	Arkadaşları	Arkadaşları	_	1	رفض	_	1	?	_	1	?	_	1	?	_	1	Sein	_	1	His	_	_	_	1	Sus	_	1	Ses	_	2	suo	_	1	?	_	2	seu	_
 2	bu	bu	_	3	أن	_	1	?	_	1	?	_	1	?	_	4	diese	_	?	?	?	?	?	3	se	_	6	cette	_	1	Un	_	1	?	_	5	a	_
 3	isteğine	isteğine	_	4	ينفذ	_	1	?	_	1	?	_	1	?	_	3	lehnte	_	5	honor	_	_	_	4	negaron	_	4	refusé	_	3	amico	_	1	?	_	3	amigo	_
@@ -816,9 +816,9 @@
 8	yüzden	yüzden	Contingency.Cause.Result	9	فنحن	_	1	?	_	1	?	_	1	?	_	8	wir	_	11	that,	_	_	_	12	ello	_	17	œuvres	_	10	ed	_	1	?	_	10	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 9	şimdi	şimdi	_	10	الآن	_	1	?	_	1	?	_	1	?	_	9	heute	_	13	now	_	Synchronous.TEMPORAL	_	13	tenemos	_	17	œuvres	_	15	ora	_	1	?	_	12	disso,	_
 10	Kafka'nın	Kafka'nın	_	12	جميع	_	1	?	_	1	?	_	1	?	_	15	kennen:	_	13	now	_	Synchronous.TEMPORAL	_	13	tenemos	_	17	œuvres	_	15	ora	_	1	?	_	14	todas	_
-11	yaptığı	yaptığı	_	12	جميع	_	1	?	_	1	?	_	1	?	_	15	kennen:	_	13	now	_	Synchronous.TEMPORAL	_	19	a	_	40	qu'il	_	16	disponiamo	_	1	?	_	14	todas	_
+11	yaptığı	yaptığı	_	12	جميع	_	1	?	_	1	?	_	1	?	_	15	kennen:	_	13	now	_	Synchronous.TEMPORAL	_	18	atribuimos	_	40	qu'il	_	16	disponiamo	_	1	?	_	14	todas	_
 12	bütün	bütün	_	13	الأعمال	_	1	?	_	1	?	_	1	?	_	10	all	_	15	all	_	_	_	20	Kafka:	_	22	Kafka	_	18	opere	_	1	?	_	15	as	_
-13	çalışmalara	çalışmalara	_	14	نملكها،	_	1	?	_	1	?	_	1	?	_	16	"Amerika"	_	19	now	_	Synchronous.TEMPORAL	_	18	atribuimos	_	20	possédons	_	?	?	?	1	?	_	21	hoje:	_
+13	çalışmalara	çalışmalara	_	14	نملكها،	_	1	?	_	1	?	_	1	?	_	16	"Amerika"	_	19	now	_	Synchronous.TEMPORAL	_	21	<i>America</i>,	_	20	possédons	_	?	?	?	1	?	_	21	hoje:	_
 14	sahibiz:	sahibiz:	_	17	"أمريكا"،	_	1	?	_	1	?	_	1	?	_	18	Verschollene"),	_	19	now	_	Synchronous.TEMPORAL	_	21	<i>America</i>,	_	24	«	_	23	"America",	_	1	?	_	20	temos	_
 15	"Amerika",	"Amerika",	_	17	"أمريكا"،	_	1	?	_	1	?	_	1	?	_	20	Prozess"	_	21	by	_	_	_	22	<i>El	_	25	L'Amérique	_	23	"America",	_	1	?	_	22	"América",	_
 16	"Dava"	"Dava"	_	18	"ذا	_	1	?	_	1	?	_	1	?	_	20	Prozess"	_	22	Kafka:	_	_	_	25	<i>El	_	27	«	_	23	"America",	_	1	?	_	24	Veredito"	_
@@ -836,8 +836,8 @@
 # sent_id = 132968
 # text:  Ustalığı arayış, diğer bir deyişle, hemen hemen hep ileriye doğrudur.
 # trans: Por outras palavras, a busca da mestria, é quase de avanço perpétuo.
-# forward_log_prob: -35.30224065400419
-# backward_log_prob: -34.34042782462646
+# forward_log_prob: -35.297206538206716
+# backward_log_prob: -34.3396827811597
 1	Ustalığı	Ustalığı	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Die	_	2	pursuit	_	_	_	1	La	_	1	La	_	1	In	_	1	?	_	1	Por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 2	arayış,	arayış,	_	2	السعي	_	1	?	_	1	?	_	1	?	_	2	Verfolgung	_	2	pursuit	_	_	_	?	?	?	?	?	?	2	altre	_	1	?	_	2	outras	_
 3	diğer	diğer	Expansion.Equivalence	4	التفوق،	_	1	?	_	1	?	_	1	?	_	2	Verfolgung	_	2	pursuit	_	_	_	5	maestría,	_	4	la	_	3	parole,	_	1	?	_	3	palavras,	_
@@ -852,8 +852,8 @@
 # sent_id = 132969
 # text:  "Tanrım, bana başarabileceğimden daha fazlasını istemeyi bahşet," diye yakarmıştı Michelangelo, sanki Sistina Şapeli'ndeki Eski Ahit Tanrısı'na ve kendisi de uzattığı parmağı Tanrı'nın eline tam değmeyen Âdem'di.
 # trans: "Senhor, concedei-me que eu deseje "mais do que aquilo que consigo realizar", implorava Miguel Ângelo, como se fosse àquele Deus do Antigo Testamento na Capela Sistina, e ele fosse aquele Adão com o dedo esticado e sem conseguir tocar na mão daquele Deus.
-# forward_log_prob: -163.0235835232014
-# backward_log_prob: -106.58292727493941
+# forward_log_prob: -163.04887839873146
+# backward_log_prob: -106.55362465679019
 1	"Tanrım,	"Tanrım,	_	1	"إلهي،	_	1	?	_	1	?	_	1	?	_	1	"Gott,	_	1	"Lord,	_	_	_	1	"Señor,	_	1	«	_	1	"Signore,	_	1	?	_	1	"Senhor,	_
 2	bana	bana	_	2	أعط	_	1	?	_	1	?	_	1	?	_	2	gib,	_	3	that	_	_	_	4	desear	_	3	accordez-moi	_	3	che	_	1	?	_	2	concedei-me	_
 3	başarabileceğimden	başarabileceğimden	_	4	أتمناه	_	1	?	_	1	?	_	1	?	_	6	wünsche,	_	5	desire	_	_	_	4	desear	_	3	accordez-moi	_	5	desideri	_	1	?	_	5	deseje	_
@@ -865,8 +865,8 @@
 9	yakarmıştı	yakarmıştı	_	12	آنجلو،	_	1	?	_	1	?	_	1	?	_	12	Michelangelo,	_	12	implored,	_	_	_	13	Ángel	_	15	»,	_	14	Michelangelo,	_	1	?	_	14	Miguel	_
 10	Michelangelo,	Michelangelo,	_	16	ابتهل	_	1	?	_	1	?	_	1	?	_	14	zum	_	17	Old	_	_	_	15	ese	_	17	Michel-Ange,	_	18	Dio	_	1	?	_	15	Ângelo,	_
 11	sanki	sanki	Comparison.Similarity	16	ابتهل	_	1	?	_	1	?	_	1	?	_	15	alttestamentarischen	_	17	Old	_	_	_	17	del	_	21	scène	_	17	quel	_	1	?	_	19	àquele	_
-12	Sistina	Sistina	_	17	القدر	_	1	?	_	1	?	_	1	?	_	16	Gott	_	18	Testament	_	_	_	19	testamento	_	21	scène	_	19	dell'Antico	_	1	?	_	20	Deus	_
-13	Şapeli'ndeki	Şapeli'ndeki	_	19	العهد	_	1	?	_	1	?	_	1	?	_	19	Sixtinischen	_	19	God	_	_	_	19	testamento	_	23	l'AncienTestament	_	21	nella	_	1	?	_	23	Testamento	_
+12	Sistina	Sistina	_	19	العهد	_	1	?	_	1	?	_	1	?	_	16	Gott	_	18	Testament	_	_	_	19	testamento	_	21	scène	_	19	dell'Antico	_	1	?	_	20	Deus	_
+13	Şapeli'ndeki	Şapeli'ndeki	_	20	القديم	_	1	?	_	1	?	_	1	?	_	19	Sixtinischen	_	19	God	_	_	_	19	testamento	_	23	l'AncienTestament	_	21	nella	_	1	?	_	23	Testamento	_
 14	Eski	Eski	_	14	لو	Condition.CONTIGENCY	1	?	_	1	?	_	1	?	_	23	selbst	_	22	Sistine	_	_	_	22	Capilla	_	24	représentée	_	23	Sistina,	_	1	?	_	22	Antigo	_
 15	Ahit	Ahit	_	22	كنيسة	_	1	?	_	1	?	_	1	?	_	20	Kapelle,	_	23	Chapel,	_	_	_	23	Sixtina	_	27	Chapelle	_	23	Sistina,	_	1	?	_	24	na	_
 16	Tanrısı'na	Tanrısı'na	_	23	سيستاين،	_	1	?	_	1	?	_	1	?	_	24	wäre	_	23	Chapel,	_	_	_	23	Sixtina	_	28	Sixtine,	_	23	Sistina,	_	1	?	_	26	Sistina,	_
@@ -884,8 +884,8 @@
 # sent_id = 132970
 # text:  Ustalık uzanmaktır, ulaşmak değildir.
 # trans: A mestria está em atingir, não em chegar.
-# forward_log_prob: -19.268341294965882
-# backward_log_prob: -11.608764812566656
+# forward_log_prob: -19.267704522717835
+# backward_log_prob: -11.608584107253499
 1	Ustalık	Ustalık	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	1	A	_
 2	uzanmaktır,	uzanmaktır,	_	3	يوجد	_	1	?	_	1	?	_	1	?	_	3	das	_	3	in	_	_	_	4	el	_	3	se	_	3	è	_	1	?	_	3	está	_
 3	ulaşmak	ulaşmak	_	4	باللحاق،	_	1	?	_	1	?	_	1	?	_	6	das	_	5	reaching,	_	_	_	5	buscar,	_	7	voyage	_	4	l'avvicinarsi,	_	1	?	_	7	em	_
@@ -894,8 +894,8 @@
 # sent_id = 132971
 # text:  Olduğunuz yer ve olmak istediğiniz yer arasındaki boşluğu sürekli kapatmayı istemektir.
 # trans: Está em querer permanentemente preencher o fosso entre onde estamos e onde queremos estar.
-# forward_log_prob: -41.476051641945745
-# backward_log_prob: -32.63172969861385
+# forward_log_prob: -41.47862798440606
+# backward_log_prob: -32.63788467878047
 1	Olduğunuz	Olduğunuz	_	1	إنه	_	1	?	_	1	?	_	1	?	_	5	Wunsch,	_	1	It's	_	_	_	6	cerrar	_	6	désir	_	1	È	_	1	?	_	1	Está	_
 2	yer	yer	_	3	المستمر	_	1	?	_	1	?	_	1	?	_	4	ständige	_	3	constantly	_	_	_	6	cerrar	_	6	désir	_	2	costantemente	_	1	?	_	2	em	_
 3	ve	ve	_	10	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	6	die	_	7	that	_	_	_	7	la	_	17	et	Conjunction.EXPANSION	10	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	?	?	?
@@ -911,8 +911,8 @@
 # sent_id = 132972
 # text:  Ustalık sanatınız için fedakârlık yapmaktır, kariyerinizi inşa etmeniz için değil.
 # trans: A mestria é sacrificarmo-nos pela nossa arte e não pelo amor de traçar a nossa carreira.
-# forward_log_prob: -47.96586100044789
-# backward_log_prob: -31.485190002836422
+# forward_log_prob: -47.966812012549234
+# backward_log_prob: -31.484713546058867
 1	Ustalık	Ustalık	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	?	1	A	_
 2	sanatınız	sanatınız	_	3	هو	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	geht	_	3	about	_	_	_	4	sacrificarse	_	3	c'est	_	4	sacrificarsi	_	1	?	?	4	sacrificarmo-nos	_
 3	için	için	_	4	عن	_	1	?	?	1	?	?	1	?	?	7	für	PragmaticCause.CONTIGENCY	5	for	_	_	reason.Cause.CONTIGENCY	5	por	CONTIGENCY|Cause.CONTIGENCY	6	pour	specification.Restatement.EXPANSION	5	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	?	5	pela	_
@@ -927,8 +927,8 @@
 # sent_id = 132973
 # text:  Kaç tane mucit ve sayısız girişimci bu olguyu yaşıyor?
 # trans: Quantos inventores e empresários desconhecidos vivem este fenómeno?
-# forward_log_prob: -22.317630656108655
-# backward_log_prob: -23.495133266998664
+# forward_log_prob: -22.31552481914164
+# backward_log_prob: -23.49316603071537
 1	Kaç	Kaç	Expansion.Instantiation|Hypophora	1	كم	_	1	?	?	1	?	?	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿Cuántos	_	1	Combien	_	1	Quanti	_	1	?	?	1	Quantos	_
 2	tane	tane	Expansion.Instantiation|Hypophora	3	المخترعين	_	1	?	?	1	?	?	1	?	?	2	viele	_	3	inventors	_	_	_	2	inventores	_	2	d'inventeurs	_	2	inventori	_	1	?	?	2	inventores	_
 3	mucit	mucit	_	3	المخترعين	_	1	?	?	1	?	?	1	?	?	3	Erfinder	_	3	inventors	_	_	_	1	¿Cuántos	_	4	d'innombrables	_	1	Quanti	_	1	?	?	1	Quantos	_
@@ -942,8 +942,8 @@
 # sent_id = 132974
 # text:  Bunu yılmaz Kuzey Kutbu kâşifi Ben Saunders'ın yaşamında bile görüyoruz, ki bana zaferlerinin sadece büyük başarılarının sonucu olmadığını, onun yerine bir dizi kazanmaya yaklaştıklarının itici gücü söylemiştir.
 # trans: Vemos isso até na vida do indomável explorador do Ártico, Ben Saunders, que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha, mas da propulsão duma série de quase vitórias.
-# forward_log_prob: -131.35191876791146
-# backward_log_prob: -108.22311209709576
+# forward_log_prob: -131.36729846416122
+# backward_log_prob: -108.22253102113643
 1	Bunu	Bunu	_	?	?	?	1	?	?	1	?	?	1	?	?	3	es	_	3	it	_	_	_	2	esto	_	2	le	_	?	?	?	1	?	?	2	isso	_
 2	yılmaz	yılmaz	_	1	نراها	_	1	?	?	1	?	?	1	?	?	2	sehen	_	2	see	_	_	_	1	Vemos	_	3	voyons	_	1	Lo	_	1	?	?	1	Vemos	_
 3	Kuzey	Kuzey	_	4	حياة	_	1	?	?	1	?	?	1	?	?	8	unbezwingbaren	_	10	indomitable	_	_	_	?	?	?	9	l'indomptable	_	4	nella	_	1	?	?	7	indomável	_
@@ -975,8 +975,8 @@
 # sent_id = 132975
 # text:  Kendi öncüsü olduğumuz yerde kaldığımızda başarılı oluyoruz.
 # trans: Evoluímos quando nos mantemos na nossa vanguarda.
-# forward_log_prob: -20.12545683904036
-# backward_log_prob: -20.804271542542985
+# forward_log_prob: -20.13029772546117
+# backward_log_prob: -20.804185657162716
 1	Kendi	Kendi	_	3	حين	_	1	?	?	1	?	?	1	?	?	?	?	?	2	thrive	_	_	_	3	superamos	_	3	lorsque	Asynchronous.TEMPORAL|specification.Restatement.EXPANSION	2	prosperiamo	_	1	?	?	1	Evoluímos	_
 2	öncüsü	öncüsü	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Progresamos	_	1	Nous	_	2	prosperiamo	_	1	?	?	1	Evoluímos	_
 3	olduğumuz	olduğumuz	_	4	نبقى	_	1	?	?	1	?	?	1	?	?	7	unsere	_	4	we	_	_	_	3	superamos	_	4	nous	_	1	Noi	_	1	?	?	4	mantemos	_
@@ -988,15 +988,15 @@
 # sent_id = 132976
 # text:  Duke Ellington tarafından anlaşılmış bir bilgelikti bu, ki kendisi repertuvarındaki en sevdiği şarkının hep bir sonraki olduğunu, hep daha bestelemediği şarkı olduğunu söylemiştir.
 # trans: É uma sabedoria que Duke Ellington percebia, quando disse que a canção preferida do seu repertório era sempre a seguinte, sempre aquela que ele ainda ia compor.
-# forward_log_prob: -93.97430268955165
-# backward_log_prob: -80.86311418181297
+# forward_log_prob: -93.97373472491596
+# backward_log_prob: -80.8663632509935
 1	Duke	Duke	_	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	3	wisdom	_	_	_	3	sabiduría	_	3	sagesse	_	3	verità	_	1	?	?	3	sabedoria	_
 2	Ellington	Ellington	_	2	حكمة	_	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	3	wisdom	_	_	_	3	sabiduría	_	3	sagesse	_	3	verità	_	1	?	?	3	sabedoria	_
 3	tarafından	tarafından	_	3	التقطها	_	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	4	understood	_	_	_	3	sabiduría	_	4	comprise	_	3	verità	_	1	?	?	3	sabedoria	_
 4	anlaşılmış	anlaşılmış	_	4	الدوق	_	1	?	?	1	?	?	1	?	?	4	Duke	_	5	by	_	_	_	5	entendió	_	4	comprise	_	4	compresa	_	1	?	?	5	Duke	_
 5	bir	bir	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	2	a	_	_	_	2	una	_	2	une	_	2	una	_	1	?	?	2	uma	_
 6	bilgelikti	bilgelikti	_	7	قال	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	7	auffasste:	_	7	Ellington,	_	_	_	6	Duke	_	6	Duke	_	6	Duke	_	1	?	?	6	Ellington	_
-7	bu,	bu,	_	11	من	_	1	?	?	1	?	?	1	?	?	8	Das	_	?	?	?	?	?	?	?	?	?	?	?	1	È	_	1	?	?	11	a	_
+7	bu,	bu,	_	11	من	_	1	?	?	1	?	?	1	?	?	8	Das	_	14	out	_	_	_	?	?	?	?	?	?	1	È	_	1	?	?	11	a	_
 8	ki	ki	Undecided	6	الذي	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	6	so	_	15	of	_	_	_	11	su	_	?	?	?	8	che	_	1	?	?	14	do	_
 9	kendisi	kendisi	_	9	أغنيته	_	1	?	?	1	?	?	1	?	?	9	Lieblingslied	_	13	song	_	_	_	11	su	_	13	chanson	_	12	canzone	_	1	?	?	12	canção	_
 10	repertuvarındaki	repertuvarındaki	_	9	أغنيته	_	1	?	?	1	?	?	1	?	?	9	Lieblingslied	_	13	song	_	_	_	12	canción	_	13	chanson	_	12	canzone	_	1	?	?	12	canção	_
@@ -1017,8 +1017,8 @@
 # sent_id = 132977
 # text:  Neredeyse kazanmanın ustalığın doğasında olmasının sebeplerinden biri, uzmanlığımız ne kadar fazlaysa, bildiğimizi düşündüğümüz şeylerin hepsini bilmediğimizi daha net görebilmemizdir.
 # trans: Parte da razão por que a quase vitória está entranhada na mestria é porque, quanto maior for a nossa capacidade, mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber.
-# forward_log_prob: -116.08223151365237
-# backward_log_prob: -78.39718321576015
+# forward_log_prob: -116.09253048143532
+# backward_log_prob: -78.39663518409287
 1	Neredeyse	Neredeyse	_	7	النجاح	_	1	?	?	1	?	?	1	?	?	2	Beinahe-Erfolg	_	7	near	_	_	_	6	casi	_	7	victoire	_	6	una	_	1	?	?	7	quase	_
 2	kazanmanın	kazanmanın	_	13	هو	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	5	cui	_	1	?	?	3	razão	_
 3	ustalığın	ustalığın	_	1	إن	_	1	?	?	1	?	?	1	?	?	4	Meisterschaft	_	1	Part	_	_	_	1	Parte	_	5	lesquelles	_	8	è	_	1	?	?	2	da	_
@@ -1042,8 +1042,8 @@
 # sent_id = 132978
 # text:  Buna Dunning–Kruger etkisi denir.
 # trans: Chama-se o efeito Dunning-Kruger.
-# forward_log_prob: -8.191334240814655
-# backward_log_prob: -8.856857690838126
+# forward_log_prob: -8.19195126582835
+# backward_log_prob: -8.85685763171464
 1	Buna	Buna	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	1	It's	_	_	_	1	Se	_	1	Cela	_	2	chiamato	_	1	?	?	1	Chama-se	_
 2	Dunning–Kruger	Dunning–Kruger	_	4	يدعى	_	1	?	?	1	?	?	1	?	?	2	nennt	_	3	the	_	_	_	2	le	_	2	s'appelle	_	1	È	_	1	?	?	1	Chama-se	_
 3	etkisi	etkisi	_	6	دننج	_	1	?	?	1	?	?	1	?	?	4	den	_	4	Dunning–Kruger	_	_	_	4	el	_	3	l'effet	_	3	effetto	_	1	?	?	3	efeito	_
@@ -1052,8 +1052,8 @@
 # sent_id = 132979
 # text:  Paris Review, James Baldwin'e sorduğunda şu cevabı alabilmişti, "Bilgiyle artan şey sizce nedir?"
 # trans: O Paris Review foi buscá-lo a James Baldwin quando lhe perguntaram: "O que é que aumenta com o conhecimento?"
-# forward_log_prob: -56.032079960086946
-# backward_log_prob: -47.16022371605447
+# forward_log_prob: -56.029836084480635
+# backward_log_prob: -47.157520348547216
 1	Paris	Paris	_	1	علمت	_	1	?	?	1	?	?	1	?	?	1	Die	_	2	Paris	_	_	_	1	James	_	1	Paris	_	1	Il	_	1	?	?	1	O	_
 2	Review,	Review,	_	2	باريس	_	1	?	?	1	?	?	1	?	?	3	Review	_	3	Review	_	_	_	2	Baldwin,	_	4	tiré	_	3	Review"	_	1	?	?	3	Review	_
 3	James	James	_	3	ريفيو	_	1	?	?	1	?	?	1	?	?	3	Review	_	4	got	_	_	_	2	Baldwin,	_	6	James	_	4	l'ha	_	1	?	?	4	foi	_
@@ -1071,8 +1071,8 @@
 # sent_id = 132980
 # text:  ve o da şöyle söyledi, "Ne kadar az bildiğini öğreniyorsun."
 # trans: e ele disse: "Aprendemos quão pouco sabemos".
-# forward_log_prob: -20.18077979068142
-# backward_log_prob: -28.01643533805126
+# forward_log_prob: -20.178234916098507
+# backward_log_prob: -28.014805955620893
 1	ve	ve	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	2	et	Conjunction.EXPANSION	1	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	1	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	o	o	_	2	قال،"أنتم	_	1	?	?	1	?	?	1	?	?	2	er	_	3	said,	_	_	_	1	respondió	_	4	a	_	3	rispose:	_	1	?	?	2	ele	_
 3	da	da	_	2	قال،"أنتم	_	1	?	?	1	?	?	1	?	?	3	antwortete:	_	3	said,	_	_	_	2	"Aprender	_	4	a	_	3	rispose:	_	1	?	?	4	"Aprendemos	_
@@ -1087,8 +1087,8 @@
 # sent_id = 132981
 # text:  Başarı bizi motive eder, ama neredeyse kazanmak süregelen bir arayışta bizi ileriye götürebilir.
 # trans: O êxito motiva-nos, mas uma quase vitória pode impelir-nos numa busca incessante.
-# forward_log_prob: -34.51844172376649
-# backward_log_prob: -39.63065724343693
+# forward_log_prob: -34.52153519618201
+# backward_log_prob: -39.63318452768808
 1	Başarı	Başarı	_	1	إن	_	1	?	?	1	?	?	1	?	?	1	Erfolg	_	1	Success	_	_	_	1	El	_	2	Le	_	2	successo	_	1	?	?	2	êxito	_
 2	bizi	bizi	_	2	النجاح	_	1	?	?	1	?	?	1	?	?	3	uns,	_	3	us,	_	_	_	3	nos	_	4	nous	_	3	ci	_	1	?	?	1	O	_
 3	motive	motive	_	3	يحفزنا،	_	1	?	?	1	?	?	1	?	?	2	motiviert	_	2	motivates	_	_	_	4	motiva,	_	5	motive,	_	4	motiva,	_	1	?	?	3	motiva-nos,	_
@@ -1106,8 +1106,8 @@
 # sent_id = 132982
 # text:  Bunun en etkili örneklerinden biri, yarışmadan sonra Olimpiyat gümüş madalyası ile bronz madalyası kazananlar arasındaki farka baktığımızda görülür.
 # trans: Um dos exemplos mais vivos disso aparece quando olhamos para a diferença entre os "medalhas de prata" olímpicos e os "medalhas de bronze" depois duma competição.
-# forward_log_prob: -92.56488682295137
-# backward_log_prob: -70.01930579361932
+# forward_log_prob: -92.56352267221114
+# backward_log_prob: -70.01819872856255
 1	Bunun	Bunun	Expansion.Conjunction|Expansion.Instantiation	1	واحد	_	1	?	?	1	?	?	1	?	?	?	?	?	1	One	_	_	_	1	Uno	_	2	des	_	?	?	?	1	?	?	3	exemplos	_
 2	en	en	Expansion.Conjunction|Expansion.Instantiation	2	من	_	1	?	?	1	?	?	1	?	?	1	Eines	_	1	One	_	_	_	2	de	_	1	Un	_	3	esempi	_	1	?	?	3	exemplos	_
 3	etkili	etkili	Expansion.Conjunction|Expansion.Instantiation	1	واحد	_	1	?	?	1	?	?	1	?	?	3	anschaulichsten	_	4	most	_	_	_	1	Uno	_	3	exemples	_	1	Uno	_	1	?	?	2	dos	_
@@ -1130,14 +1130,14 @@
 # sent_id = 132983
 # text:  Thomas Gilovich ve Cornell'den ekibi bu farkı araştırmış ve gümüş madalya alanların, dördüncü olmayıp hiç madalya almamaları söz konusu olmadığı için tipik olarak daha mutlu olan bronz kazananlarla karşılaştırıldığında hissettikleri öfkenin, gümüş madalya kazananlara bir sonraki yarışmada bir odak noktası verdiğini bulmuştur.
 # trans: Thomas Gilovich e a sua equipa da Universidade de Cornell estudaram esta diferença e descobriram que a frustração que os "medalhas de prata" sentem. comparada com a dos "de bronze", que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha, dá aos "medalhas de prata" uma concentração na competição seguinte.
-# forward_log_prob: -229.9063368190165
-# backward_log_prob: -174.51135183665824
+# forward_log_prob: -230.16446784822244
+# backward_log_prob: -174.51559312351006
 1	Thomas	Thomas	_	2	ثوماس	_	1	?	?	1	?	?	1	?	?	1	Thomas	_	1	Thomas	_	_	_	1	Thomas	_	1	Thomas	_	1	Thomas	_	1	?	?	1	Thomas	_
 2	Gilovich	Gilovich	_	2	ثوماس	_	1	?	?	1	?	?	1	?	?	2	Gilovich	_	2	Gilovich	_	_	_	2	Gilovich	_	2	Gilovich	_	2	Gilovich	_	1	?	?	2	Gilovich	_
 3	ve	ve	_	4	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	3	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	y	_	3	et	Conjunction.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	3	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 4	Cornell'den	Cornell'den	_	5	فريقه	_	1	?	?	1	?	?	1	?	?	4	sein	_	4	his	_	_	_	5	equipo	_	4	son	_	5	suo	_	1	?	?	5	sua	_
 5	ekibi	ekibi	_	5	فريقه	_	1	?	?	1	?	?	1	?	?	6	aus	_	6	from	_	_	_	7	Cornell	_	7	Cornell	_	6	team	_	1	?	?	7	da	_
-6	bu	bu	_	10	هذا	_	1	?	?	1	?	?	1	?	?	?	?	?	9	this	_	result.Cause.CONTIGENCY	_	?	?	?	?	?	?	?	?	?	1	?	?	4	a	_
+6	bu	bu	_	10	هذا	_	1	?	?	1	?	?	1	?	?	?	?	?	9	this	_	result.Cause.CONTIGENCY	_	6	de	_	?	?	?	?	?	?	1	?	?	4	a	_
 7	farkı	farkı	_	7	جامعة	_	1	?	?	1	?	?	1	?	?	8	untersuchten	_	8	studied	_	_	_	9	esta	_	8	ont	_	8	Cornell	_	1	?	?	10	Cornell	_
 8	araştırmış	araştırmış	_	9	درسوا	_	1	?	?	1	?	?	1	?	?	8	untersuchten	_	8	studied	_	_	_	12	encontraron	_	9	étudié	_	9	ha	_	1	?	?	11	estudaram	_
 9	ve	ve	Contingency.Cause.Result|Expansion.Conjunction	12	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	11	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	12	et	Conjunction.EXPANSION	13	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	14	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -1159,7 +1159,7 @@
 25	mutlu	mutlu	_	27	بالعادة	_	1	?	?	1	?	?	1	?	?	29	froh	_	28	happy	_	_	_	34	felices	_	31	sont	_	28	già	_	1	?	?	34	sentem	_
 26	olan	olan	_	43	الميدالية	_	1	?	?	1	?	?	1	?	?	23	im	_	29	to	_	_	_	38	en	_	30	qui	_	?	?	?	1	?	?	37	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 27	bronz	bronz	_	44	الفضية	_	1	?	?	1	?	?	1	?	?	26	Bronze,	_	21	bronze,	_	_	_	28	bronce,	_	29	bronze,	_	23	bronzo,	_	1	?	?	30	bronze",	_
-28	kazananlarla	kazananlarla	_	31	لعدم	_	1	?	?	1	?	?	1	?	?	37	4.	_	31	just	_	_	_	39	cuarto	_	36	heureux	_	32	essere	_	1	?	?	39	terem	_
+28	kazananlarla	kazananlarla	_	31	لعدم	_	1	?	?	1	?	?	1	?	?	37	4.	_	31	just	_	_	_	39	cuarto	_	36	heureux	_	32	essere	_	1	?	?	38	não	_
 29	karşılaştırıldığında	karşılaştırıldığında	Temporal.Synchronous	33	بالمركز	_	1	?	?	1	?	?	1	?	?	37	4.	_	33	received	_	_	_	40	lugar	_	36	heureux	_	34	quarto	_	1	?	?	40	ficado	_
 30	hissettikleri	hissettikleri	_	34	الرابع	_	1	?	?	1	?	?	1	?	?	37	4.	_	34	fourth	_	_	_	43	ganar	_	39	pas	_	37	aver	_	1	?	?	42	quarto	_
 31	öfkenin,	öfkenin,	_	36	عدم	_	1	?	?	1	?	?	1	?	?	38	Platz	_	35	place	_	_	_	44	ninguna	_	40	être	_	37	aver	_	1	?	?	43	lugar	_
@@ -1178,8 +1178,8 @@
 # sent_id = 132984
 # text:  Bunu kumar endüstrisinde dahi görüyoruz, ki bu neredeyse kazanma olgusunu bir zamanlar alıp neredeyse kazanma oranı ortalamadan daha yüksek olan kazı kazan biletleri yarattılar ve insanlar daha fazla bilet almak için öylesine istekliydi ki, bunlara yürek durduran dendi ve 1970'lerde Britanya'da kumar endüstrisinin bir dizi suistimali ile körüklendi.
 # trans: Vemos isso, até na indústria do jogo, que, em tempos, se apercebeu deste fenómeno da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam "heart-stoppers", e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha, nos anos 70.
-# forward_log_prob: -244.8048191412726
-# backward_log_prob: -198.92389251724143
+# forward_log_prob: -245.0478165053028
+# backward_log_prob: -198.92035693461227
 1	Bunu	Bunu	_	?	?	?	1	?	?	1	?	?	1	?	?	3	es	_	3	it	_	_	_	?	?	?	2	le	_	2	vediamo	_	1	?	?	2	isso,	_
 2	kumar	kumar	_	1	إننا	_	?	?	?	?	?	?	?	?	?	7	Glücksspielindustrie,	_	7	gambling	_	_	_	6	industria	_	1	On	_	3	persino	Concession.COMPARISON|Conjunction.EXPANSION	?	?	?	5	indústria	_
 3	endüstrisinde	endüstrisinde	_	2	نرى	_	?	?	?	?	?	?	?	?	?	7	Glücksspielindustrie,	_	7	gambling	_	_	_	6	industria	_	4	également	COMPARISON	4	nell'industria	_	?	?	?	5	indústria	_
@@ -1232,8 +1232,8 @@
 # sent_id = 132985
 # text:  Neredeyse kazanmanın itici gücü olmasının nedeni, olaya bakışımızı değiştirmesi ve uzağa koymaya meyilli olduğumuz hedeflerimizi bulunduğumuz daha yakın bir yere koymasıdır.
 # trans: A razão por que a quase vitória tem propulsão é porque altera a nossa visão da paisagem e coloca as nossas metas, que temos a tendência para pôr à distância, muito mais próximas de onde estamos.
-# forward_log_prob: -130.9583990276402
-# backward_log_prob: -84.19348900368547
+# forward_log_prob: -130.98337854848822
+# backward_log_prob: -84.19095190735113
 1	Neredeyse	Neredeyse	_	6	الوشيك	_	1	?	?	1	?	?	1	?	?	5	Beinahe-Erfolg	_	4	near	_	_	_	5	casi	_	5	une	_	6	quasi-vittoria	_	1	?	?	6	quase	_
 2	kazanmanın	kazanmanın	_	9	هو	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	6	uns	_	9	is	_	_	_	2	razón	_	4	laquelle	_	?	?	?	1	?	?	5	a	_
 3	itici	itici	_	?	?	?	1	?	?	1	?	?	1	?	?	7	antreibt,	_	8	propulsion	_	_	_	3	del	_	10	propulsion	_	1	La	_	1	?	?	9	propulsão	_
@@ -1259,8 +1259,8 @@
 # sent_id = 132986
 # text:  Gelecek hafta harika bir günün neye benzediğini düşünmenizi istesem, bunu daha genel ifadelerle anlatabilirsiniz.
 # trans: Se eu vos pedir para imaginarem como será um dia maravilhoso na próxima semana, poderão descrevê-lo em termos muito gerais.
-# forward_log_prob: -70.94356012190902
-# backward_log_prob: -47.58993318953461
+# forward_log_prob: -70.96134219918389
+# backward_log_prob: -47.58664351681921
 1	Gelecek	Gelecek	_	5	تتخيل	_	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	?	?	?	?	?	3	pidiera	_	5	d'envisager	_	2	vi	_	1	?	?	3	vos	_
 2	hafta	hafta	_	5	تتخيل	_	1	?	?	1	?	?	1	?	?	2	ich	_	?	?	?	?	?	3	pidiera	_	5	d'envisager	_	2	vi	_	1	?	?	3	vos	_
 3	harika	harika	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	Sie	_	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	1	Se	CONTIGENCY|Condition.CONTIGENCY
@@ -1279,8 +1279,8 @@
 # sent_id = 132987
 # text:  Ama yarın TED'de harika bir günü anlatmanızı istesem, bunu tane tane, gerçekçi bir netlikte anlatabilirsiniz.
 # trans: Mas se eu pedir que descrevam um dia maravilhoso amanhã no TED, podem descrevê-lo com uma clareza granular, prática.
-# forward_log_prob: -62.744526027539806
-# backward_log_prob: -47.388413008319034
+# forward_log_prob: -62.74945772417315
+# backward_log_prob: -47.38528945011687
 1	Ama	Ama	Comparison.Contrast	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	?	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	yarın	yarın	_	7	تصف	_	1	?	?	1	?	?	1	?	?	9	morgen	_	7	describe	_	_	_	4	preguntara	_	2	si	Concession.COMPARISON|Condition.CONTIGENCY	?	?	?	1	?	?	6	descrevam	_
 3	TED'de	TED'de	_	7	تصف	_	1	?	?	1	?	?	1	?	?	9	morgen	_	7	describe	_	_	_	4	preguntara	_	7	décrire	_	?	?	?	1	?	?	6	descrevam	_
@@ -1300,8 +1300,8 @@
 # sent_id = 132988
 # text:  Neredeyse kazanma işte bunu yapar.
 # trans: E é isso o que uma quase vitória faz.
-# forward_log_prob: -25.60305122115155
-# backward_log_prob: -20.126700512662566
+# forward_log_prob: -25.60479165606121
+# backward_log_prob: -20.12339606833769
 1	Neredeyse	Neredeyse	_	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	2	esto	_	?	?	?	1	È	_	1	?	?	?	?	?
 2	kazanma	kazanma	_	4	يفعله	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	?	?	?	1	?	?	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 3	işte	işte	Expansion.Level-of-detail.Arg1-as-detail	2	هذا	_	1	?	?	1	?	?	1	?	?	2	macht	_	2	this	_	result.Cause.CONTIGENCY	_	3	es	_	2	c'est	_	2	questo	_	1	?	?	2	é	_
@@ -1311,8 +1311,8 @@
 # sent_id = 132989
 # text:  Görüş alanımız içinde olan o dağı ele almak için şu an ne yapmayı planladığımıza odaklanmamızı sağlar.
 # trans: Leva-nos a concentrar-nos sobre o que, neste preciso momento, pretendemos fazer para abordar aquela montanha à nossa vista.
-# forward_log_prob: -64.15731371705014
-# backward_log_prob: -57.329204338012076
+# forward_log_prob: -64.15490926767693
+# backward_log_prob: -57.326450067908716
 1	Görüş	Görüş	_	1	إنه	_	1	?	?	1	?	?	1	?	?	?	?	?	1	It	_	_	_	1	Nos	_	6	concentrer	_	1	Ci	_	1	?	?	1	Leva-nos	_
 2	alanımız	alanımız	_	2	يجعلنا	_	1	?	?	1	?	?	1	?	?	2	lässt	_	2	gets	_	_	_	2	hace	_	5	nous	_	2	fa	_	1	?	?	3	concentrar-nos	_
 3	içinde	içinde	_	3	نركز	_	1	?	?	1	?	?	1	?	?	?	?	?	5	focus	_	_	_	3	concentrarnos,	_	6	concentrer	_	3	focalizzare	_	1	?	?	3	concentrar-nos	_
@@ -1333,8 +1333,8 @@
 # sent_id = 132990
 # text:  Jackie Joyner-Kersee 1984'te heptatlonda altını saniyenin üçte biri ile kaçırmıştı ve kocası bunun bir sonraki yarışmada ona ihtiyacı olan kararlılığı vereceğini öngörmüştü.
 # trans: É Jackie Joyner-Kersee que, em 1984, não conseguiu o ouro no heptatlo por um terço de segundo, e o marido previu que isso lhe iria dar a tenacidade de que ela precisava na competição seguinte.
-# forward_log_prob: -128.24417635788018
-# backward_log_prob: -88.22320558769385
+# forward_log_prob: -128.40399063664788
+# backward_log_prob: -88.22369764110023
 1	Jackie	Jackie	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	1	É	_
 2	Joyner-Kersee	Joyner-Kersee	_	2	جاكي	_	1	?	?	1	?	?	1	?	?	3	Jackie	_	3	Joyner-Kersee,	_	_	_	3	Joyner-Kersee,	_	3	Koyner-Kersee	_	3	Joyner-Kersee	_	1	?	?	3	Joyner-Kersee	_
 3	1984'te	1984'te	_	3	جوينر	_	1	?	?	1	?	?	1	?	?	4	Joyner-Kersee,	_	4	who	_	_	_	3	Joyner-Kersee,	_	6	1984,	_	5	1984	_	1	?	?	6	1984,	_
@@ -1361,8 +1361,8 @@
 # sent_id = 132991
 # text:  1988'de heptatlonda altını kazandı ve 7.921 puanla rekor kırdı, ki bu o zamandan beri hiçbir sporcunun yaklaşmadığı bir skor.
 # trans: Em 1988, ganhou o ouro no heptatlo e bateu o recorde com 7 291 pontos, uma pontuação de que, até aí, nenhuma atleta se tinha aproximado.
-# forward_log_prob: -90.87609609457054
-# backward_log_prob: -66.50975722941817
+# forward_log_prob: -90.9127423665386
+# backward_log_prob: -66.512349064941
 1	1988'de	1988'de	_	1	وفي	TEMPORAL	1	?	?	1	?	?	1	?	?	1	1988	_	2	1988,	_	_	_	2	1988	_	2	1988,	_	2	1988	_	1	?	?	2	1988,	_
 2	heptatlonda	heptatlonda	_	5	الذهبية	_	1	?	?	1	?	?	1	?	?	4	Gold	_	1	In	_	_	_	1	En	_	1	En	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	1	Nel	_	1	?	?	1	Em	_
 3	altını	altını	_	5	الذهبية	_	1	?	?	1	?	?	1	?	?	4	Gold	_	6	gold	_	_	_	4	el	_	4	a	_	3	vinse	_	1	?	?	4	o	_
@@ -1386,8 +1386,8 @@
 # sent_id = 132992
 # text:  Her şeyi yaptığımızda gelişmeyiz, aksine daha yapacak şeyler olduğunda.
 # trans: Não florescemos quando acabamos de fazer tudo, mas quando ainda temos mais para fazer.
-# forward_log_prob: -41.21286429773977
-# backward_log_prob: -31.031174986252207
+# forward_log_prob: -41.21310790564329
+# backward_log_prob: -31.031087704243053
 1	Her	Her	_	5	نقوم	_	1	?	?	1	?	?	1	?	?	1	Wir	_	5	we've	_	_	_	5	hicimos	_	1	Nous	_	1	Noi	_	1	?	?	?	?	?
 2	şeyi	şeyi	_	1	نحن	_	1	?	?	1	?	?	1	?	?	2	haben	_	1	We	_	_	_	2	no	_	2	ne	_	5	abbiamo	_	1	?	?	4	acabamos	_
 3	yaptığımızda	yaptığımızda	Contingency.Condition.Arg2-as-cond	4	عندما	Synchronous.TEMPORAL|reason.Cause.CONTIGENCY	1	?	?	1	?	?	1	?	?	3	keinen	_	2	thrive	_	_	_	1	Progresamos	_	6	nous	_	2	spingiamo	_	1	?	?	1	Não	_
@@ -1401,11 +1401,11 @@
 # sent_id = 132993
 # text:  Burada durup bu odada neredeyse kazanmayı yaratacak değişik yollar hakkında, hayatlarınızın bunu nasıl yerine getirebileceğini düşünüyor ve merak ediyorum. Çünkü bence biraz içgüdüsel seviyede bunu biliyoruz.
 # trans: Estou aqui à vossa frente, a pensar e a imaginar todos os caminhos diferentes que podíamos trabalhar para uma quase vitória nesta sala, como as nossas vidas podiam acontecer porque penso que, cá dentro, sabemos isso.
-# forward_log_prob: -136.69314943430956
-# backward_log_prob: -103.16632882475102
+# forward_log_prob: -136.68863498851996
+# backward_log_prob: -103.16491567580191
 1	Burada	Burada	_	1	أقف	_	1	?	?	1	?	?	1	?	?	2	stehe	_	2	stand	_	_	_	1	Pienso	_	2	me	_	1	Sono	_	1	?	?	1	Estou	_
 2	durup	durup	_	3	أفكر	_	1	?	?	1	?	?	1	?	?	2	stehe	_	1	I	_	_	_	1	Pienso	_	1	Je	_	2	qui	_	1	?	?	2	aqui	_
-3	bu	bu	_	7	كل	_	1	?	?	1	?	?	1	?	?	4	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	4	en	_	?	?	?	?	?	?	1	?	?	6	a	_
+3	bu	bu	_	7	كل	_	1	?	?	1	?	?	1	?	?	4	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	?	?	?	?	?	?	?	?	?	?	?	?	?	?	1	?	?	6	a	_
 4	odada	odada	_	5	أتساءل	_	1	?	?	1	?	?	1	?	?	5	denke	_	6	wondering	_	_	_	3	imagino	_	4	ici,	_	4	pensare	_	1	?	?	4	vossa	_
 5	neredeyse	neredeyse	_	?	?	?	1	?	?	1	?	?	1	?	?	19	Beinahe-Erfolg	_	18	near	_	_	_	9	casi	_	16	victoire	_	3	a	_	1	?	?	21	vitória	_
 6	kazanmayı	kazanmayı	_	7	كل	_	1	?	?	1	?	?	1	?	?	9	diversen	_	10	different	_	_	_	6	distintas	_	7	sur	_	7	su	_	1	?	?	7	pensar	_
@@ -1433,8 +1433,8 @@
 # sent_id = 132994
 # text:  Öncüsü olduğumuz yerde kaldığımızda başarılı olduğumuzu biliyoruz. Bu yüzden kasti eksiklikler yaratılış efsaneleri içine yerleştirilmiştir.
 # trans: Sabemos que florescemos quando nos situamos na nossa própria vanguarda, e é por isso que o incompleto deliberado está entranhado nos mitos da criação.
-# forward_log_prob: -80.25296896561849
-# backward_log_prob: -57.81053466606543
+# forward_log_prob: -80.26286127244506
+# backward_log_prob: -57.80466603506981
 1	Öncüsü	Öncüsü	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	5	thrive	_	_	_	3	progresamos	_	5	prospérons	_	5	siamo	_	1	?	?	?	?	?
 2	olduğumuz	olduğumuz	_	4	نزدهر	_	1	?	?	1	?	?	1	?	?	4	wir	_	4	we	_	_	_	5	estamos	_	4	nous	_	5	siamo	_	1	?	?	8	nossa	_
 3	yerde	yerde	_	4	نزدهر	_	1	?	?	1	?	?	1	?	?	4	wir	_	5	thrive	_	_	_	4	cuando	TEMPORAL	5	prospérons	_	4	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	10	vanguarda,	_
@@ -1454,13 +1454,13 @@
 # sent_id = 132995
 # text:  Navaho kültüründe, bazı erkek ve kadın sanatçılar tekstil ve seramikler içine bilerek kusur koyarlar.
 # trans: Na cultura navajo, alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas.
-# forward_log_prob: -52.47896859494489
-# backward_log_prob: -43.97985576646978
+# forward_log_prob: -52.48246623280234
+# backward_log_prob: -43.9776422655536
 1	Navaho	Navaho	_	2	ثقافة	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	2	Navajo	_	_	_	4	navajo,	_	4	Navajo,	_	3	Navajo,	_	1	?	?	3	navajo,	_
 2	kültüründe,	kültüründe,	_	1	في	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	1	In	_	_	_	1	En	_	3	culture	_	2	cultura	_	1	?	?	1	Na	_
 3	bazı	bazı	_	4	بعض	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	4	some	_	_	_	5	algunos	_	4	Navajo,	_	1	Nella	_	1	?	?	4	alguns	_
 4	erkek	erkek	_	3	النافاجو،	_	1	?	?	1	?	?	1	?	?	4	bauen	_	5	craftsmen	_	_	_	4	navajo,	_	4	Navajo,	_	3	Navajo,	_	1	?	?	5	artesãos	_
-5	ve	ve	_	6	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	?	?	?	6	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	y	_	?	?	?	?	?	?	1	?	?	6	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
+5	ve	ve	_	6	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	In	_	6	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	y	_	?	?	?	?	?	?	1	?	?	6	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 6	kadın	kadın	_	7	الحرفيات	_	1	?	?	1	?	?	1	?	?	6	Handwerker	_	7	women	_	_	_	8	mujeres	_	7	incluaient	_	6	mettono	_	1	?	?	7	mulheres	_
 7	sanatçılar	sanatçılar	_	8	يقومون	_	1	?	?	1	?	?	1	?	?	6	Handwerker	_	9	deliberately	_	_	_	?	?	?	7	incluaient	_	6	mettono	_	1	?	?	8	punham	_
 8	tekstil	tekstil	_	9	عن	_	1	?	?	1	?	?	1	?	?	6	Handwerker	_	9	deliberately	_	_	_	9	deliberadamente	_	10	imperfection	_	8	un'imperfezione	_	1	?	?	8	punham	_
@@ -1474,8 +1474,8 @@
 # sent_id = 132996
 # text:  Buna ruh çizgisi adı verilir, dokumacı veya yapana bir çıkış yolu vermek için, aynı zamanda da iş yapmasına devam etmesi için bir sebep olarak desende kasti bir kusur.
 # trans: Chamavam-lhe uma linha de espírito, um defeito deliberado no desenho para dar ao tecelão ou ao artesão uma saída, mas também uma razão para continuar a trabalhar.
-# forward_log_prob: -95.10623871822304
-# backward_log_prob: -103.07554212998645
+# forward_log_prob: -95.10572769103825
+# backward_log_prob: -103.0900158370824
 1	Buna	Buna	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	1	It's	_	_	_	4	se	_	2	appelé	_	1	Viene	_	1	?	?	1	Chamavam-lhe	_
 2	ruh	ruh	_	1	إنه	_	1	?	?	1	?	?	1	?	?	5	Stimmungslinie,	_	2	what's	_	_	_	7	línea	_	1	C'est	_	2	chiamata	_	1	?	?	1	Chamavam-lhe	_
 3	çizgisi	çizgisi	_	4	يطلق	_	1	?	?	1	?	?	1	?	?	5	Stimmungslinie,	_	5	spirit	_	_	_	7	línea	_	2	appelé	_	4	linea	_	1	?	?	3	linha	_
@@ -1502,14 +1502,14 @@
 24	olarak	olarak	_	?	?	?	1	?	?	1	?	?	1	?	?	22	einen	_	?	?	?	?	?	25	una	_	26	continuer	_	18	creatore	_	1	?	?	25	continuar	_
 25	desende	desende	_	17	بل	Contrast.COMPARISON	1	?	?	1	?	?	1	?	?	27	erstellen.	_	27	continue	_	_	_	24	también	EXPANSION	26	continuer	_	27	continuare	_	1	?	?	23	razão	_
 26	kasti	kasti	_	20	للاستمرار	_	1	?	?	1	?	?	1	?	?	19	geben,	_	27	continue	_	_	_	29	trabajando.	_	24	raison	_	17	al	_	1	?	?	25	continuar	_
-27	bir	bir	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	23	une	_	?	?	?	1	?	?	26	a	_
+27	bir	bir	_	?	?	?	1	?	?	1	?	?	1	?	?	26	zu	_	?	?	?	?	?	?	?	?	23	une	_	?	?	?	1	?	?	26	a	_
 28	kusur.	kusur.	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	29	produrre	_	1	?	?	25	continuar	_
 
 # sent_id = 132997
 # text:  Ustalar bir konuyu kavramsal sona getirdikleri için uzman değillerdir.
 # trans: Os mestres não são especialistas por levar um tema ao seu fim conceptual.
-# forward_log_prob: -40.537149081569105
-# backward_log_prob: -28.992094606899915
+# forward_log_prob: -40.53892752442155
+# backward_log_prob: -28.989004442776324
 1	Ustalar	Ustalar	_	1	إن	_	1	?	?	1	?	?	1	?	?	1	Meister	_	1	Masters	_	_	_	1	Los	_	1	Les	_	1	I	_	1	?	?	5	especialistas	_
 2	bir	bir	_	1	إن	_	1	?	?	1	?	?	1	?	?	?	?	?	8	a	_	_	_	3	no	_	?	?	?	?	?	?	1	?	?	6	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	konuyu	konuyu	_	3	ليسوا	_	1	?	?	1	?	?	1	?	?	3	keine	_	3	not	_	_	_	4	son	_	4	sont	_	3	non	_	1	?	?	3	não	_
@@ -1523,8 +1523,8 @@
 # sent_id = 132998
 # text:  Ustalardır çünkü bunun olmadığını fark ederler.
 # trans: São mestres porque percebem que ele não existe.
-# forward_log_prob: -21.37186727201278
-# backward_log_prob: -17.849155525344354
+# forward_log_prob: -21.37095730458781
+# backward_log_prob: -17.848732692801793
 1	Ustalardır	Ustalardır	_	1	إنهم	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	They're	_	_	_	1	Son	_	1	Ils	_	1	Sono	_	1	?	?	1	São	_
 2	çünkü	çünkü	Contingency.Cause.Reason	2	متفوقون	_	1	?	?	1	?	?	1	?	?	4	weil	reason.Cause.CONTIGENCY	3	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	3	porque	CONTIGENCY|Cause.CONTIGENCY	5	parce	_	3	perché	reason.Cause.CONTIGENCY	1	?	?	3	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
 3	bunun	bunun	_	5	بأنه	_	1	?	?	1	?	?	1	?	?	5	sie	_	5	realize	_	_	_	5	dan	_	6	qu'ils	_	4	comprendono	_	1	?	?	4	percebem	_
@@ -1535,8 +1535,8 @@
 # sent_id = 132999
 # text:  Bunun hakkında düşününce, neden okçuluk koçunun idmanın sonunda bana okçularının işitmeyeceği mesafeden, onun ve meslektaşlarının ekipleri için ne yapsalar yetmeyeceğini düşündüklerini, kazanmak üzere olmak konusunu aşmalarına yardımcı olması için yeterli gözünde canlandırma tekniği ve duruş eğitimi olmadığını söylediğini anlıyorum.
 # trans: Ora bem, quando estava a pensar nisto, recordei o que o treinador das arqueiras me disse no fim daquele treino, sem que as arqueiras ouvissem, que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa, nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias.
-# forward_log_prob: -250.8252899063078
-# backward_log_prob: -175.8396215248718
+# forward_log_prob: -251.0200453314027
+# backward_log_prob: -175.8339996637717
 1	Bunun	Bunun	_	40	هناك	TEMPORAL|equivalence.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	?	?	?	2	it	_	_	_	?	?	?	15	des	_	7	perché	reason.Cause.CONTIGENCY	1	?	?	21	sem	COMPARISON|Concession.COMPARISON
 2	hakkında	hakkında	_	2	خطر	_	1	?	?	1	?	?	1	?	?	2	ich	_	7	I	_	_	_	1	Pienso,	_	33	lui	_	3	capito,	_	1	?	?	6	pensar	_
 3	düşününce,	düşününce,	Temporal.Synchronous	4	بالي	_	1	?	?	1	?	?	1	?	?	3	darüber	_	3	occurred	_	_	_	2	mientras	TEMPORAL	5	l'esprit,	_	3	capito,	_	1	?	?	7	nisto,	_
@@ -1580,8 +1580,8 @@
 # sent_id = 133000
 # text:  Aslında tam olarak şikâyet gibi gelmedi bu, sadece bana yaptığı naif bir itiraf gibiydi, kendisini hep daha fazlasını talep eden doymak bilmez, bitmeyen bir yola adadığını bildiğini bana hatırlatmak içindi.
 # trans: Não parecia propriamente um lamento, mas apenas uma forma de me transmitir uma espécie de meigo reconhecimento, para me chamar a atenção de que ele sabia que estava empenhado num caminho voraz, inacabado que exigia sempre mais.
-# forward_log_prob: -137.8950368149442
-# backward_log_prob: -117.21574115920843
+# forward_log_prob: -137.87777491728457
+# backward_log_prob: -117.21371194046712
 1	Aslında	Aslında	Expansion.Level-of-detail.Arg2-as-detail	?	?	?	1	?	?	1	?	?	1	?	?	14	etwas	_	1	It	_	_	_	2	sonaba	_	2	n'était	_	2	sembrava	_	1	?	?	?	?	?
 2	tam	tam	_	?	?	?	1	?	?	1	?	?	1	?	?	3	nicht	_	3	sound	_	_	_	3	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|TEMPORAL	2	n'était	_	?	?	?	1	?	?	?	?	?
 3	olarak	olarak	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Es	_	5	a	_	_	_	1	No	_	3	pas	_	6	solo	Concession.COMPARISON	1	?	?	4	um	_
@@ -1598,7 +1598,7 @@
 14	gibiydi,	gibiydi,	_	17	كي	PragmaticCause.CONTIGENCY	1	?	?	1	?	?	1	?	?	15	mitzuteilen,	_	19	tender	_	_	_	13	admitir	_	18	tendre	_	15	tenera	_	1	?	?	16	meigo	_
 15	kendisini	kendisini	_	18	يذكرني	_	1	?	?	1	?	?	1	?	?	18	Art	_	19	tender	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	18	tendre	_	18	ricordarmi	_	1	?	?	18	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 16	hep	hep	_	22	كان	_	1	?	?	1	?	?	1	?	?	33	immer	_	38	always	_	_	_	28	siempre	_	23	qu'il	_	33	sempre	_	1	?	?	20	chamar	_
-17	daha	daha	_	22	كان	_	1	?	?	1	?	?	1	?	?	22	zu	_	40	more.	_	_	_	21	a	_	37	plus.	_	35	più.	_	1	?	?	37	mais.	_
+17	daha	daha	_	22	كان	_	1	?	?	1	?	?	1	?	?	22	zu	_	40	more.	_	_	_	21	a	_	37	plus.	_	19	che	_	1	?	?	37	mais.	_
 18	fazlasını	fazlasını	_	21	أنه	_	1	?	?	1	?	?	1	?	?	23	erinnern,	_	24	that	_	_	_	20	entregando	_	22	rappeler	_	20	lui	_	1	?	?	22	atenção	_
 19	talep	talep	_	23	يقدم	_	1	?	?	1	?	?	1	?	?	23	erinnern,	_	26	knew	_	_	_	19	estaba	_	24	savait	_	21	sapeva	_	1	?	?	22	atenção	_
 20	eden	eden	_	23	يقدم	_	1	?	?	1	?	?	1	?	?	23	erinnern,	_	26	knew	_	_	_	20	entregando	_	24	savait	_	23	si	_	1	?	?	26	sabia	_
@@ -1616,11 +1616,11 @@
 # sent_id = 133001
 # text:  Bitmemiş bir fikir üzerine inşa ederiz, bu fikir eski hâlimiz olsa bile.
 # trans: Construímos a partir da ideia inacabada, mesmo que essa ideia seja o nosso antigo Eu.
-# forward_log_prob: -46.5907548567287
-# backward_log_prob: -38.0399176038588
+# forward_log_prob: -46.590732075002336
+# backward_log_prob: -38.03976942866852
 1	Bitmemiş	Bitmemiş	_	7	حتى	_	1	?	?	1	?	?	1	?	?	1	Wir	_	?	?	?	?	?	2	construimos	_	2	construisons	_	2	costruiamo	_	1	?	?	1	Construímos	_
 2	bir	bir	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	?	?	?	?	?	3	a	_	3	de	_	3	a	_	1	?	?	2	a	_
-3	fikir	fikir	_	4	الفكرة	_	1	?	?	1	?	?	1	?	?	2	bauen	_	2	build	_	_	_	1	Nos	_	1	Nous	_	1	Noi	_	1	?	?	3	partir	_
+3	fikir	fikir	_	4	الفكرة	_	1	?	?	1	?	?	1	?	?	2	bauen	_	2	build	_	_	_	1	Nos	_	1	Nous	_	4	partire	_	1	?	?	3	partir	_
 4	üzerine	üzerine	_	5	غير	_	1	?	?	1	?	?	1	?	?	5	Ideen	_	6	unfinished	_	_	_	4	partir	_	6	finie,	_	5	dall'idea	_	1	?	?	5	ideia	_
 5	inşa	inşa	_	6	المكتملة،	_	1	?	?	1	?	?	1	?	?	5	Ideen	_	7	idea,	_	_	_	6	una	_	5	non	_	6	incompleta,	_	1	?	?	6	inacabada,	_
 6	ederiz,	ederiz,	_	6	المكتملة،	_	1	?	?	1	?	?	1	?	?	14	ist.	_	7	idea,	_	_	_	13	sea	_	6	finie,	_	6	incompleta,	_	1	?	?	11	seja	_
@@ -1634,8 +1634,8 @@
 # sent_id = 133002
 # text:  Bu ustalığın dinamiğidir.
 # trans: É esta a dinâmica da mestria.
-# forward_log_prob: -17.425207732336336
-# backward_log_prob: -8.497948339996787
+# forward_log_prob: -17.426413844186463
+# backward_log_prob: -8.497637355138979
 1	Bu	Bu	_	2	هذا	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esta	_	1	C'est	_	1	Questa	_	1	?	?	3	a	_
 2	ustalığın	ustalığın	_	1	إن	_	1	?	?	1	?	?	1	?	?	4	Dynamik	_	2	is	_	_	_	2	es	_	2	la	_	3	la	_	1	?	?	1	É	_
 3	dinamiğidir.	dinamiğidir.	_	4	ديناميكية	_	1	?	?	1	?	?	1	?	?	4	Dynamik	_	4	dynamic	_	_	_	4	dinámica	_	3	dynamique	_	4	dinamica	_	1	?	?	4	dinâmica	_
@@ -1643,8 +1643,8 @@
 # sent_id = 133003
 # text:  İstediğinizi düşündüğünüz şeye yaklaşmak, yapmayı hayal ettiğinizden daha fazlasına ulaşmanıza yardımcı olabilir.
 # trans: Aproximarmo-nos daquilo que pensávamos que queríamos pode ajudar-nos a alcançar mais do que o que jamais sonháramos poder.
-# forward_log_prob: -53.23310782621256
-# backward_log_prob: -41.52145065395464
+# forward_log_prob: -53.23065376359078
+# backward_log_prob: -41.52135670856794
 1	İstediğinizi	İstediğinizi	_	1	فأن	_	1	?	?	1	?	?	1	?	?	4	kommen,	_	1	Coming	_	_	_	1	Acercarse	_	1	S'approcher	_	1	Arrivare	_	1	?	?	1	Aproximarmo-nos	_
 2	düşündüğünüz	düşündüğünüz	_	3	قريباً	_	1	?	?	1	?	?	1	?	?	4	kommen,	_	1	Coming	_	_	_	1	Acercarse	_	3	ce	_	2	vicini	_	1	?	?	2	daquilo	_
 3	şeye	şeye	_	5	اعتقدت	_	1	?	?	1	?	?	1	?	?	3	zu	_	5	you	_	_	_	4	que	_	4	que	_	5	che	_	1	?	?	3	que	_
@@ -1661,8 +1661,8 @@
 # sent_id = 133004
 # text:  Bir gün galeride o ilk resimlerine gülümserken onu gördüğümde, Elizabeth Murray'in ne düşündüğünü anlamam için gereken şey bu.
 # trans: Sou forçada a imaginar que era nisso que Elizabeth Murray estava a pensar quando a vi sorrir um dia diante daquelas primeiras pinturas nas galerias.
-# forward_log_prob: -91.53447455738545
-# backward_log_prob: -68.75275139015251
+# forward_log_prob: -91.52622393797832
+# backward_log_prob: -68.7506359539515
 1	Bir	Bir	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das,	_	1	It's	_	_	_	1	Es	_	?	?	?	1	È	_	1	?	?	3	a	_
 2	gün	gün	_	1	إنه	_	1	?	?	1	?	?	1	?	?	4	dachte	_	3	I	_	_	_	2	lo	_	4	j'imagine	_	2	ciò	_	1	?	?	1	Sou	_
 3	galeride	galeride	_	3	عليَّ	_	1	?	?	1	?	?	1	?	?	4	dachte	_	4	have	_	_	_	4	imagino	_	4	j'imagine	_	4	immagino	_	1	?	?	2	forçada	_
@@ -1678,15 +1678,15 @@
 13	düşündüğünü	düşündüğünü	_	18	المبكرة	_	1	?	?	1	?	?	1	?	?	16	frühen	_	18	early	_	_	_	14	esas	_	16	premières	_	14	quei	_	1	?	?	22	primeiras	_
 14	anlamam	anlamam	_	17	الرسومات	_	1	?	?	1	?	?	1	?	?	14	Galerie	_	19	paintings	_	_	_	13	sobre	_	?	?	?	16	dipinti,	_	1	?	?	16	vi	_
 15	için	için	Contingency.Purpose.Arg2-as-goal	16	هذه	_	1	?	?	1	?	?	1	?	?	15	ihre	_	22	in	_	_	_	17	en	_	18	un	precedence.Asynchronous.TEMPORAL	10	la	_	1	?	?	15	a	_
-16	gereken	gereken	_	19	بأحد	_	1	?	?	1	?	?	1	?	?	17	Gemälde	_	24	galleries.	_	_	_	19	galería.	_	19	jour	_	17	un	_	1	?	?	21	daquelas	_
+16	gereken	gereken	_	19	بأحد	_	1	?	?	1	?	?	1	?	?	17	Gemälde	_	24	galleries.	_	_	_	19	galería.	_	19	jour	_	18	giorno	_	1	?	?	21	daquelas	_
 17	şey	şey	_	15	إلى	_	1	?	?	1	?	?	1	?	?	19	betrachten	_	24	galleries.	_	_	_	?	?	?	22	galeries.	_	20	gallerie.	_	1	?	?	25	galerias.	_
-18	bu.	bu.	_	16	هذه	_	1	?	?	1	?	?	1	?	?	?	?	?	23	the	_	_	_	18	la	_	?	?	?	?	?	?	1	?	?	?	?	?
+18	bu.	bu.	_	16	هذه	_	1	?	?	1	?	?	1	?	?	?	?	?	23	the	_	_	_	18	la	_	?	?	?	17	un	_	1	?	?	?	?	?
 
 # sent_id = 133005
 # text:  Ütopyalar yaratmış olsaydık bile, bence hâlâ bitmemişlere sahip olurduk.
 # trans: Mesmo que criássemos utopias, acho que continuaríamos a ter o incompleto.
-# forward_log_prob: -28.598530300162206
-# backward_log_prob: -29.479295697318726
+# forward_log_prob: -28.597292320748597
+# backward_log_prob: -29.479313415085837
 1	Ütopyalar	Ütopyalar	_	4	صنعنا	_	1	?	?	1	?	?	1	?	?	4	Utopien	_	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Aún	_	4	créions	_	3	creassimo	_	1	?	?	3	criássemos	_
 2	yaratmış	yaratmış	_	3	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	4	Utopien	_	3	we	_	_	_	2	si	TEMPORAL	4	créions	_	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	3	criássemos	_
 3	olsaydık	olsaydık	Contingency.Negative-condition.Arg2-as-negcond	5	مدن	_	1	?	?	1	?	?	1	?	?	4	Utopien	_	4	created	_	_	_	3	creamos	_	4	créions	_	3	creassimo	_	1	?	?	4	utopias,	_
@@ -1700,8 +1700,8 @@
 # sent_id = 133006
 # text:  Tamamlamak bir amaçtır, ama onun hiçbir zaman son olmadığını ümit ederiz.
 # trans: A conclusão é uma meta, mas esperamos que nunca seja o fim.
-# forward_log_prob: -35.746593487308
-# backward_log_prob: -35.80276449051511
+# forward_log_prob: -35.74927423419319
+# backward_log_prob: -35.80630348830993
 1	Tamamlamak	Tamamlamak	_	1	إن	_	1	?	?	1	?	?	1	?	?	1	Vervollständigung	_	1	Completion	_	_	_	2	completud	_	1	L'achèvement	_	1	La	_	1	?	?	2	conclusão	_
 2	bir	bir	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	ist	_	3	a	_	_	_	1	La	_	3	un	_	4	un	_	1	?	?	1	A	_
 3	amaçtır,	amaçtır,	_	3	هدف،	_	1	?	?	1	?	?	1	?	?	1	Vervollständigung	_	4	goal,	_	_	_	2	completud	_	4	objectif,	_	5	obiettivo,	_	1	?	?	2	conclusão	_

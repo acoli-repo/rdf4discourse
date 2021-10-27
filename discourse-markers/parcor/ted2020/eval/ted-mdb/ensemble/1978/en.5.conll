@@ -1,8 +1,8 @@
 # sent_id = 132930
 # text:  I feel so fortunate that my first job was working at the Museum of Modern Art on a retrospective of painter Elizabeth Murray.
 # trans: Senti-me muito feliz porque o meu primeiro trabalho foi trabalhar no Museu de Arte Moderna numa retrospetiva da pintora Elizabeth Murray.
-# forward_log_prob: -77.38351944282546
-# backward_log_prob: -77.61309213816375
+# forward_log_prob: -77.37607583590237
+# backward_log_prob: -77.6114101332241
 1	I	I	_	2	بأنني	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	J'ai	_	?	?	?	1	?	_	2	muito	_
 2	feel	feel	_	1	أشعر	_	1	?	_	1	?	_	1	?	_	2	sehe	_	2	feel	_	_	_	2	siento	_	2	eu	_	1	Mi	_	1	?	_	1	Senti-me	_
 3	so	so	_	2	بأنني	_	1	?	_	1	?	_	1	?	_	2	sehe	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	muy	_	3	tellement	_	?	?	?	1	?	_	2	muito	_
@@ -30,8 +30,8 @@
 # sent_id = 132931
 # text:  I learned so much from her.
 # trans: Aprendi muito com ela.
-# forward_log_prob: -12.229770784491896
-# backward_log_prob: -17.21709223689867
+# forward_log_prob: -12.230012944976647
+# backward_log_prob: -17.216823894347144
 1	I	I	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Aprendí	_	1	J'ai	_	1	Ho	_	1	?	_	2	muito	_
 2	learned	learned	_	1	تعلمت	_	1	?	_	1	?	_	1	?	_	2	lernte	_	2	learned	_	_	_	1	Aprendí	_	2	tant	_	2	imparato	_	1	?	_	1	Aprendi	_
 3	so	so	_	2	الكثير	_	1	?	_	1	?	_	1	?	_	3	so	_	3	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	2	mucho	_	2	tant	_	3	così	result.Cause.CONTIGENCY	1	?	_	2	muito	_
@@ -42,8 +42,8 @@
 # sent_id = 132932
 # text:  After the curator Robert Storr selected all the paintings from her lifetime body of work, I loved looking at the paintings from the 1970s.
 # trans: Depois de o curador Robert Storr ter escolhido todos os quadros entre o conjunto de obras da vida dela, eu adorava olhar para as pinturas dos anos 70.
-# forward_log_prob: -104.3365897782456
-# backward_log_prob: -82.79461843586837
+# forward_log_prob: -104.34890946636119
+# backward_log_prob: -82.76921836077886
 1	After	After	_	2	بعد	Asynchronous.TEMPORAL|TEMPORAL	1	?	_	1	?	_	1	?	_	1	Nachdem	succession.Asynchronous.TEMPORAL	1	After	TEMPORAL	_	Concession.COMPARISON|succession.Asynchronous.TEMPORAL	5	curador	_	1	Après	precedence.Asynchronous.TEMPORAL	1	Dopo	precedence.Asynchronous.TEMPORAL	1	?	_	4	curador	_
 2	the	the	_	3	أن	_	1	?	_	1	?	_	1	?	_	2	der	_	2	the	_	_	_	4	el	_	2	que	_	2	che	_	1	?	_	3	o	_
 3	curator	curator	_	4	قام	_	1	?	_	1	?	_	1	?	_	3	Kurator	_	3	curator	_	_	_	5	curador	_	1	Après	precedence.Asynchronous.TEMPORAL	4	curatore	_	1	?	_	4	curador	_
@@ -72,8 +72,8 @@
 # sent_id = 132933
 # text:  There were some motifs and elements that would come up again later in her life.
 # trans: Havia alguns motivos e elementos que viriam a aparecer posteriormente na sua vida.
-# forward_log_prob: -41.663835827829885
-# backward_log_prob: -46.51213859875316
+# forward_log_prob: -41.661915037183235
+# backward_log_prob: -46.51841006972841
 1	There	There	_	2	هنالك	_	1	?	_	1	?	_	1	?	_	1	Da	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	1	There	_	_	_	?	?	?	1	Il	_	?	?	?	1	?	_	1	Havia	_
 2	were	were	_	1	كانت	_	1	?	_	1	?	_	1	?	_	2	gab	_	2	were	_	_	_	1	Había	_	5	motifs	_	?	?	?	1	?	_	1	Havia	_
 3	some	some	_	3	بعض	_	1	?	_	1	?	_	1	?	_	2	gab	_	3	some	_	_	_	2	algunos	_	5	motifs	_	3	motivi	_	1	?	_	2	alguns	_
@@ -93,8 +93,8 @@
 # sent_id = 132934
 # text:  I remember asking her what she thought of those early works.
 # trans: Lembro-me de lhe ter perguntado o que ela pensava dessas primeiras obras.
-# forward_log_prob: -37.63090207356613
-# backward_log_prob: -34.12134548392923
+# forward_log_prob: -37.630704256052326
+# backward_log_prob: -34.12118249729556
 1	I	I	_	1	أذكر	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	Je	_	1	Ricordo	_	1	?	_	2	de	_
 2	remember	remember	_	1	أذكر	_	1	?	_	1	?	_	1	?	_	2	erinnere	_	2	remember	_	_	_	2	acuerdo	_	2	me	_	1	Ricordo	_	1	?	_	1	Lembro-me	_
 3	asking	asking	_	2	أنني	_	1	?	_	1	?	_	1	?	_	2	erinnere	_	3	asking	_	_	_	2	acuerdo	_	4	lui	_	3	averle	_	1	?	_	3	lhe	_
@@ -110,8 +110,8 @@
 # sent_id = 132935
 # text:  If you didn't know they were hers, you might not have been able to guess.
 # trans: Se não soubéssemos que eram dela, talvez não adivinhássemos.
-# forward_log_prob: -28.068483479427183
-# backward_log_prob: -49.83429264893555
+# forward_log_prob: -28.070655554963775
+# backward_log_prob: -49.8335661403799
 1	If	If	Contingency.Condition.Arg2-as-cond	1	إذا	_	1	?	_	1	?	_	1	?	_	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	you	you	_	1	إذا	_	1	?	_	1	?	_	1	?	_	2	man	_	2	you	_	_	_	1	Si	TEMPORAL	2	vous	_	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	_	1	Se	CONTIGENCY|Condition.CONTIGENCY
 3	didn't	didn't	_	2	لم	_	1	?	_	1	?	_	1	?	_	3	nicht	_	3	didn't	_	_	_	2	no	_	?	?	?	2	non	_	1	?	_	2	não	_
@@ -131,8 +131,8 @@
 # sent_id = 132936
 # text:  She told me that a few didn't quite meet her own mark for what she wanted them to be.
 # trans: Ela disse-me que algumas delas não correspondiam à sua marca, às suas expectativas.
-# forward_log_prob: -47.991289106666336
-# backward_log_prob: -65.12565704592079
+# forward_log_prob: -47.99401708975368
+# backward_log_prob: -65.13542553847068
 1	She	She	_	1	أخبرتني	_	1	?	_	1	?	_	1	?	_	1	Sie	_	1	She	_	_	_	?	?	?	1	Elle	_	1	Lei	_	1	?	_	1	Ela	_
 2	told	told	_	?	?	?	1	?	_	1	?	_	1	?	_	2	sagte	_	2	told	_	_	_	2	dijo	_	2	m'a	_	3	disse	_	1	?	_	2	disse-me	_
 3	me	me	_	?	?	?	1	?	_	1	?	_	1	?	_	3	mir,	_	3	me	_	_	_	1	Me	_	2	m'a	_	2	mi	_	1	?	_	2	disse-me	_
@@ -156,8 +156,8 @@
 # sent_id = 132937
 # text:  One of the works, in fact, so didn't meet her mark, she had set it out in the trash in her studio, and her neighbor had taken it because she saw its value.
 # trans: Na verdade, uma das obras de tal modo não correspondia à sua marca, que ela tinha-a posto no lixo no seu estúdio, e a vizinha tinha-a levado, porque reconhecera o seu valor.
-# forward_log_prob: -119.30344318376666
-# backward_log_prob: -115.54331559779376
+# forward_log_prob: -119.29816214532359
+# backward_log_prob: -115.53485596814168
 1	One	One	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Eine	_	1	One	_	_	_	1	Una	_	1	Un	_	1	Uno	_	1	?	_	3	uma	_
 2	of	of	_	?	?	?	1	?	_	1	?	_	1	?	_	2	der	_	2	of	_	_	_	2	de	_	2	de	_	?	?	?	1	?	_	6	de	_
 3	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Eine	_	3	the	_	_	_	3	las	_	?	?	?	?	?	?	1	?	_	?	?	?
@@ -173,10 +173,10 @@
 13	had	had	_	9	لمستوى	_	1	?	_	1	?	_	1	?	_	?	?	?	13	had	_	_	_	13	había	_	8	était	_	12	lo	_	1	?	_	10	correspondia	_
 14	set	set	_	?	?	?	1	?	_	1	?	_	1	?	_	14	Abfall	_	14	set	_	_	_	?	?	?	13	mis	_	8	dal	_	1	?	_	?	?	?
 15	it	it	_	11	فألقت	_	1	?	_	1	?	_	1	?	_	14	Abfall	_	15	it	_	_	_	15	a	_	?	?	?	?	?	?	1	?	_	?	?	?
-16	out	out	_	?	?	?	1	?	_	1	?	_	1	?	_	14	Abfall	_	16	out	_	_	_	14	tirado	_	16	poubelle	_	16	spazzatura	_	1	?	_	?	?	?
+16	out	out	_	?	?	?	1	?	_	1	?	_	1	?	_	14	Abfall	_	16	out	_	_	_	14	tirado	_	?	?	?	16	spazzatura	_	1	?	_	?	?	?
 17	in	in	_	13	في	_	1	?	_	1	?	_	1	?	_	15	in	_	17	in	_	_	_	?	?	?	14	dans	_	15	nella	_	1	?	_	?	?	?
-18	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	18	the	_	_	_	16	la	_	?	?	?	?	?	?	1	?	_	18	no	_
-19	trash	trash	_	14	سلة	_	1	?	_	1	?	_	1	?	_	16	ihrem	_	19	trash	_	_	_	17	basura	_	18	l'extérieur	_	19	studio	_	1	?	_	16	tinha-a	_
+18	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	18	the	_	_	_	16	la	_	15	la	_	?	?	?	1	?	_	18	no	_
+19	trash	trash	_	14	سلة	_	1	?	_	1	?	_	1	?	_	16	ihrem	_	19	trash	_	_	_	17	basura	_	16	poubelle	_	19	studio	_	1	?	_	16	tinha-a	_
 20	in	in	_	16	التي	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	15	in	_	20	in	_	_	_	18	en	_	?	?	?	17	nel	_	1	?	_	19	lixo	_
 21	her	her	_	15	المهملات	_	1	?	_	1	?	_	1	?	_	16	ihrem	_	21	her	_	_	_	19	su	_	20	son	_	?	?	?	1	?	_	20	no	_
 22	studio,	studio,	_	17	بمرسمها،	_	1	?	_	1	?	_	1	?	_	?	?	?	22	studio,	_	_	_	20	estudio	_	21	studio,	_	19	studio	_	1	?	_	22	estúdio,	_
@@ -195,8 +195,8 @@
 # sent_id = 132938
 # text:  In that moment, my view of success and creativity changed.
 # trans: Nesse momento, o meu conceito de êxito e de criatividade alteraram-se.
-# forward_log_prob: -31.54174895807274
-# backward_log_prob: -27.119839300862306
+# forward_log_prob: -31.53556421644529
+# backward_log_prob: -27.119405330301316
 1	In	In	_	1	في	_	1	?	_	1	?	_	1	?	_	1	In	_	1	In	_	_	_	1	En	_	1	A	_	1	In	_	1	?	_	1	Nesse	_
 2	that	that	_	2	تلك	_	1	?	_	1	?	_	1	?	_	?	?	?	2	that	_	_	_	2	ese	_	1	A	_	2	quel	_	1	?	_	2	momento,	_
 3	moment,	moment,	_	4	نظرتي	_	1	?	_	1	?	_	1	?	_	3	Augenblick	_	3	moment,	_	_	_	3	momento,	_	2	ce	_	3	momento	_	1	?	_	2	momento,	_
@@ -211,8 +211,8 @@
 # sent_id = 132939
 # text:  I realized that success is a moment, but what we're always celebrating is creativity and mastery.
 # trans: Percebi que o êxito é um momento, mas o que estamos sempre a festejar é a criatividade e a mestria.
-# forward_log_prob: -56.81311069061266
-# backward_log_prob: -50.754621630240194
+# forward_log_prob: -56.814560432192444
+# backward_log_prob: -50.77830072750327
 1	I	I	_	1	أدركت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	J'ai	_	1	Realizzai	_	1	?	_	1	Percebi	_
 2	realized	realized	_	1	أدركت	_	1	?	_	1	?	_	1	?	_	2	erkannte,	_	2	realized	_	_	_	2	dí	_	2	réalisé	_	1	Realizzai	_	1	?	_	1	Percebi	_
 3	that	that	_	4	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	4	que	_	3	que	_	2	che	_	1	?	_	2	que	_
@@ -233,12 +233,12 @@
 # sent_id = 132940
 # text:  But this is the thing: What gets us to convert success into mastery?
 # trans: Mas o problema é este: O que é que nos leva a transformar o êxito em mestria?
-# forward_log_prob: -46.997710681086204
-# backward_log_prob: -40.319262024661796
+# forward_log_prob: -46.997335525869914
+# backward_log_prob: -40.32849923433704
 1	But	But	Comparison.Concession.Arg2-as-denier	1	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero,	_	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	this	this	_	3	هذا	_	1	?	_	1	?	_	1	?	_	2	hier	_	2	this	_	result.Cause.CONTIGENCY	_	5	este:	_	4	question	_	2	questo	_	1	?	_	5	este:	_
 3	is	is	_	3	هذا	_	1	?	_	1	?	_	1	?	_	3	ist	_	3	is	_	_	_	4	es	_	3	la	_	3	è	_	1	?	_	4	é	_
-4	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	4	die	_	4	the	_	_	_	2	el	_	3	la	_	4	il	_	1	?	_	6	O	_
+4	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	4	die	_	4	the	_	_	_	2	el	_	3	la	_	4	il	_	1	?	_	?	?	?
 5	thing:	thing:	_	4	الشيء:	_	1	?	_	1	?	_	1	?	_	5	Frage:	_	5	thing:	_	_	_	3	quid	_	2	voici	_	5	punto:	_	1	?	_	3	problema	_
 6	What	What	_	5	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	6	Was	_	6	What	_	_	_	6	¿qué	_	6	Qu'est-ce	_	6	cosa	_	1	?	_	2	o	_
 7	gets	gets	_	6	الذي	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	7	verleitet	_	7	gets	_	_	_	8	lleva	_	7	qui	_	8	porta	_	1	?	_	10	nos	_
@@ -252,8 +252,8 @@
 # sent_id = 132941
 # text:  This is a question I've long asked myself.
 # trans: Há muito que faço a mim mesma esta pergunta.
-# forward_log_prob: -26.32061482260039
-# backward_log_prob: -25.361175295514432
+# forward_log_prob: -26.30958340406643
+# backward_log_prob: -25.362119074444212
 1	This	This	_	1	هذا	_	1	?	_	1	?	_	1	?	_	3	Frage	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esto	_	?	?	?	1	Questa	_	1	?	_	?	?	?
 2	is	is	_	1	هذا	_	1	?	_	1	?	_	1	?	_	3	Frage	_	2	is	_	_	_	2	es	_	1	C'est	_	2	è	_	1	?	_	4	faço	_
 3	a	a	_	?	?	?	1	?	_	1	?	_	1	?	_	2	dieser	_	3	a	_	_	_	3	algo	_	2	une	_	3	una	_	1	?	_	3	que	_
@@ -266,8 +266,8 @@
 # sent_id = 132942
 # text:  I think it comes when we start to value the gift of a near win.
 # trans: Acho que ela chega quando começamos a dar valor ao dom de uma quase vitória.
-# forward_log_prob: -46.235402149569055
-# backward_log_prob: -43.998111297556825
+# forward_log_prob: -46.23546717900354
+# backward_log_prob: -43.994506656767896
 1	I	I	_	1	أعتقد	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	2	que	_	1	Je	_	2	che	_	1	?	_	2	que	_
 2	think	think	_	1	أعتقد	_	1	?	_	1	?	_	1	?	_	2	glaube,	_	2	think	_	_	_	1	Creo	_	2	crois	_	1	Credo	_	1	?	_	1	Acho	_
 3	it	it	_	2	أنه	_	1	?	_	1	?	_	1	?	_	4	entsteht,	_	3	it	_	_	_	3	llega	_	4	ça	_	3	succeda	_	1	?	_	?	?	?
@@ -287,8 +287,8 @@
 # sent_id = 132943
 # text:  I started to understand this when I went on one cold May day to watch a set of varsity archers, all women as fate would have it, at the northern tip of Manhattan at Columbia's Baker Athletics Complex.
 # trans: Comecei a perceber isso quando, num frio dia de Maio fui ver uma equipa de arqueiras universitárias, só mulheres, por coincidência, no extremo norte de Manhattan no Complexo Atlético Baker, na Colúmbia.
-# forward_log_prob: -127.1298499046293
-# backward_log_prob: -145.10931699604484
+# forward_log_prob: -127.13658881418627
+# backward_log_prob: -145.11782312385017
 1	I	I	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	?	?	?	1	J'ai	_	1	Ho	_	1	?	_	?	?	?
 2	started	started	_	1	بدأت	_	1	?	_	1	?	_	1	?	_	2	begann	_	2	started	_	_	_	1	Empecé	_	2	commencé	_	2	iniziato	_	1	?	_	1	Comecei	_
 3	to	to	_	?	?	?	1	?	_	1	?	_	1	?	_	4	zu	_	3	to	_	_	_	2	a	_	3	à	specification.Restatement.EXPANSION	3	a	_	1	?	_	2	a	_
@@ -331,8 +331,8 @@
 # sent_id = 132944
 # text:  I wanted to see what's called archer's paradox, the idea that in order to actually hit your target, you have to aim at something slightly skew from it.
 # trans: Eu queria ver aquilo a que se chama o paradoxo do arqueiro, a ideia de que, para acertar em cheio no alvo, é preciso visar um pouco ao lado.
-# forward_log_prob: -109.44966616236263
-# backward_log_prob: -107.23829552532905
+# forward_log_prob: -109.46033132540214
+# backward_log_prob: -107.24522799073485
 1	I	I	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	2	ver	_	1	Je	_	2	vedere	_	1	?	_	1	Eu	_
 2	wanted	wanted	_	2	رؤية	_	1	?	_	1	?	_	1	?	_	2	wollte	_	2	wanted	_	_	_	1	Quería	_	2	voulais	_	1	Volevo	_	1	?	_	2	queria	_
 3	to	to	_	?	?	?	1	?	_	1	?	_	1	?	_	2	wollte	_	3	to	_	_	_	3	lo	_	?	?	?	?	?	?	1	?	_	3	ver	_
@@ -365,8 +365,8 @@
 # sent_id = 132945
 # text:  I stood and watched as the coach drove up these women in this gray van, and they exited with this kind of relaxed focus.
 # trans: Fiquei a observar enquanto o treinador conduzia aquelas mulheres numa carrinha cinzenta e elas sairam com aquele ar de concentração descontraída.
-# forward_log_prob: -75.64303490572667
-# backward_log_prob: -79.60744484354377
+# forward_log_prob: -75.64128728887088
+# backward_log_prob: -79.60519519068487
 1	I	I	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	3	vi	_	1	Je	_	1	Ero	_	1	?	_	1	Fiquei	_
 2	stood	stood	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	2	stand	_	2	stood	_	_	_	?	?	?	?	?	?	?	?	?	1	?	_	?	?	?
 3	and	and	Expansion.Conjunction	2	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	4	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	y	_	7	alors	Contrast.COMPARISON|specification.Restatement.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	4	enquanto	COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL
@@ -395,8 +395,8 @@
 # sent_id = 132946
 # text:  One held a half-eaten ice cream cone in one hand and arrows in the left with yellow fletching.
 # trans: Uma delas tinha na mão um cone de gelado meio comido e na mão esquerda flechas com penas amarelas.
-# forward_log_prob: -61.04160516914995
-# backward_log_prob: -57.404272555414146
+# forward_log_prob: -61.03728559344872
+# backward_log_prob: -57.412629345481996
 1	One	One	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Eine	_	1	One	_	_	_	4	helado	_	2	tenait	_	1	Una	_	1	?	_	?	?	?
 2	held	held	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	2	held	_	_	_	4	helado	_	1	L'une	_	4	cono	_	1	?	_	4	na	_
 3	a	a	_	?	?	?	1	?	_	1	?	_	1	?	_	9	einen	_	3	a	_	_	_	3	un	_	4	une	_	3	un	_	1	?	_	1	Uma	_
@@ -419,8 +419,8 @@
 # sent_id = 132947
 # text:  And they passed me and smiled, but they sized me up as they made their way to the turf, and spoke to each other not with words but with numbers, degrees, I thought, positions for how they might plan to hit their target.
 # trans: Passaram por mim e sorriram, mas mediram-me de alto a baixo enquanto se encaminhavam para o campo, e falavam umas com as outras, não com palavras, mas, segundo me pareceu, com números, graus, posições para o modo como podiam planear atingir o alvo.
-# forward_log_prob: -167.73127052064183
-# backward_log_prob: -160.0088721632635
+# forward_log_prob: -167.71831050593352
+# backward_log_prob: -160.01699679676972
 1	And	And	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	y	_	?	?	?	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	?	?	?
 2	they	they	_	3	مررن	_	1	?	_	1	?	_	1	?	_	2	sie	_	2	they	_	_	_	2	pasaban	_	2	sont	_	2	loro	_	1	?	_	1	Passaram	_
 3	passed	passed	_	2	قد	_	1	?	_	1	?	_	1	?	_	3	gingen	_	3	passed	_	_	_	1	Todas	_	1	Elles	_	4	passarono	_	1	?	_	1	Passaram	_
@@ -468,8 +468,8 @@
 # sent_id = 132948
 # text:  I stood behind one archer as her coach stood in between us to maybe assess who might need support, and watched her, and I didn't understand how even one was going to hit the ten ring.
 # trans: Fiquei por detrás duma arqueira, enquanto o treinador, entre nós duas, avaliava talvez quem podia precisar de apoio, e observei-a e não via como seria possível que, nem que fosse só uma, conseguisse acertar no décimo anel.
-# forward_log_prob: -146.6429748511171
-# backward_log_prob: -133.2949915506587
+# forward_log_prob: -146.6392943861659
+# backward_log_prob: -133.29699815325267
 1	I	I	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	1	Ich	_	1	I	_	_	_	1	Me	_	1	Je	_	1	Ero	_	1	?	_	1	Fiquei	_
 2	stood	stood	_	1	وقفت	_	1	?	_	1	?	_	1	?	_	2	stand	_	2	stood	_	_	_	2	puse	_	2	suis	_	1	Ero	_	1	?	_	1	Fiquei	_
 3	behind	behind	_	2	وراء	_	1	?	_	1	?	_	1	?	_	3	hinter	_	3	behind	_	_	_	3	detrás	_	4	derrière	_	2	dietro	_	1	?	_	2	por	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
@@ -510,8 +510,8 @@
 # sent_id = 132949
 # text:  The ten ring from the standard 75-yard distance, it looks as small as a matchstick tip held out at arm's length.
 # trans: O décimo anel, à distância de 70 metros, parece tão pequeno como a cabeça de um fósforo na ponta da mão esticada.
-# forward_log_prob: -75.09418947700455
-# backward_log_prob: -71.65313857775934
+# forward_log_prob: -75.10414885377297
+# backward_log_prob: -71.65909957350519
 1	The	The	_	3	من	_	1	?	_	1	?	_	1	?	_	1	Der	_	1	The	_	_	_	1	El	_	1	La	_	1	Il	_	1	?	_	1	O	_
 2	ten	ten	_	1	لوحة	_	1	?	_	1	?	_	1	?	_	2	10er-Ring	_	2	ten	_	_	_	2	círculo	_	2	cible	_	2	cerchio	_	1	?	_	2	décimo	_
 3	ring	ring	_	1	لوحة	_	1	?	_	1	?	_	1	?	_	2	10er-Ring	_	3	ring	_	_	_	4	10	_	5	distance	_	2	cerchio	_	1	?	_	3	anel,	_
@@ -537,8 +537,8 @@
 # sent_id = 132950
 # text:  And this is while holding 50 pounds of draw weight on each shot.
 # trans: Ainda por cima a segurar num peso de 23 kg em cada arremesso.
-# forward_log_prob: -41.299662009751415
-# backward_log_prob: -42.14620875505263
+# forward_log_prob: -41.30198062680315
+# backward_log_prob: -42.13226082887912
 1	And	And	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	?	?	?
 2	this	this	_	2	هذا	reason.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	2	das	_	2	this	_	result.Cause.CONTIGENCY	_	2	esto	_	4	en	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	3	questo	_	1	?	_	3	cima	_
 3	is	is	_	3	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	3	bei	_	3	is	_	_	_	5	sostiene	_	3	tout	Concession.COMPARISON|TEMPORAL	3	questo	_	1	?	_	4	a	_
@@ -556,8 +556,8 @@
 # sent_id = 132951
 # text:  She first hit a seven, I remember, and then a nine, and then two tens, and then the next arrow didn't even hit the target.
 # trans: Recordo que ela primeiro acertou no sétimo, depois no nono, depois duas vezes no décimo, e depois a flecha seguinte nem sequer acertou no alvo.
-# forward_log_prob: -83.68670570207439
-# backward_log_prob: -79.69498064202912
+# forward_log_prob: -83.67343734974614
+# backward_log_prob: -79.69630654503669
 1	She	She	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Sie	_	1	She	_	_	_	2	que	_	1	Elle	_	?	?	?	1	?	_	3	ela	_
 2	first	first	_	?	?	?	1	?	_	1	?	_	1	?	_	3	erst	_	2	first	_	Contrast.COMPARISON	_	1	Recuerdo	_	3	d'abord	_	?	?	?	1	?	_	4	primeiro	_
 3	hit	hit	_	?	?	?	1	?	_	1	?	_	1	?	_	3	erst	_	3	hit	_	_	_	?	?	?	3	d'abord	_	?	?	?	1	?	_	1	Recordo	_
@@ -587,8 +587,8 @@
 # sent_id = 132952
 # text:  And I saw that gave her more tenacity, and she went after it again and again.
 # trans: E vi que isso deu-lhe mais persistência, e continuou, continuou, sem parar.
-# forward_log_prob: -37.56176259679104
-# backward_log_prob: -45.55082524653125
+# forward_log_prob: -37.552183655008484
+# backward_log_prob: -45.54310762336847
 1	And	And	Expansion.Conjunction	1	لاحظت	_	1	?	_	1	?	_	1	?	_	1	Und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	1	E	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	I	I	_	2	أن	_	1	?	_	1	?	_	1	?	_	?	?	?	2	I	_	_	_	2	vi	_	2	j'ai	_	2	notai	_	1	?	_	2	vi	_
 3	saw	saw	_	1	لاحظت	_	1	?	_	1	?	_	1	?	_	?	?	?	3	saw	_	_	_	2	vi	_	3	vu	specification.Restatement.EXPANSION	2	notai	_	1	?	_	2	vi	_
@@ -609,8 +609,8 @@
 # sent_id = 132953
 # text:  For three hours this went on.
 # trans: Aquilo continuou durante três horas.
-# forward_log_prob: -16.98119782748443
-# backward_log_prob: -17.610087039386663
+# forward_log_prob: -16.981077072504316
+# backward_log_prob: -17.61039303924963
 1	For	For	_	1	استمر	_	1	?	_	1	?	_	1	?	_	3	drei	_	1	For	_	_	reason.Cause.CONTIGENCY	1	durante	TEMPORAL	1	Ça	_	1	Andò	_	1	?	_	3	durante	_
 2	three	three	_	1	استمر	_	1	?	_	1	?	_	1	?	_	2	ging	_	2	three	_	_	_	1	durante	TEMPORAL	4	pendant	_	1	Andò	_	1	?	_	3	durante	_
 3	hours	hours	_	3	الأمر	_	1	?	_	1	?	_	1	?	_	3	drei	_	3	hours	_	_	_	2	tres	_	4	pendant	_	4	tre	_	1	?	_	3	durante	_
@@ -621,8 +621,8 @@
 # sent_id = 132954
 # text:  At the end of the practice, one of the archers was so taxed that she lied out on the ground just star-fished, her head looking up at the sky, trying to find what T.S. Eliot might call that still point of the turning world.
 # trans: No fim do treino, uma das arqueiras estava tão exausta que se deitou no chão sem se poder mexer, a olhar para o céu, tentando encontrar o que T. S. Elliot podia ter chamado aquele "ponto imóvel no mundo em rotação".
-# forward_log_prob: -166.13352146354262
-# backward_log_prob: -164.78443562823745
+# forward_log_prob: -166.14787115845806
+# backward_log_prob: -164.79489579537108
 1	At	At	_	2	في	_	1	?	_	1	?	_	1	?	_	1	Am	_	1	At	_	_	_	?	?	?	10	tellement	_	1	Alla	precedence.Asynchronous.TEMPORAL	1	?	_	1	No	_
 2	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	2	the	_	_	_	4	la	_	2	la	_	?	?	?	1	?	_	1	No	_
 3	end	end	_	?	?	?	1	?	_	1	?	_	1	?	_	2	Ende	_	3	end	_	_	_	2	final	_	3	fin	_	2	fine	_	1	?	_	2	fim	_
@@ -671,8 +671,8 @@
 # sent_id = 132955
 # text:  It's so rare in American culture, there's so little that's vocational about it anymore, to look at what doggedness looks like with this level of exactitude, what it means to align your body posture for three hours in order to hit a target, pursuing a kind of excellence in obscurity.
 # trans: É tão raro na cultura americana, já há tão pouca vocação em qualquer coisa, olhar para o que é a perseverança com este nível de exactidão, o que significa manter a postura do nosso corpo durante três horas, para atingir um alvo, procurando uma qualquer excelência na obscuridade.
-# forward_log_prob: -192.80910675560798
-# backward_log_prob: -199.7081279311238
+# forward_log_prob: -192.81046351257208
+# backward_log_prob: -199.71327193188188
 1	It's	It's	_	1	إنها	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	6	es	_	1	It's	_	_	_	1	Es	_	?	?	?	1	È	_	1	?	_	1	É	_
 2	so	so	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	2	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	3	raro	_	3	tellement	_	2	così	result.Cause.CONTIGENCY	?	?	?	2	tão	_
 3	rare	rare	_	?	?	?	?	?	?	?	?	?	?	?	?	7	selten	_	3	rare	_	_	_	3	raro	_	2	est	_	3	raro	_	?	?	?	3	raro	_
@@ -727,8 +727,8 @@
 # sent_id = 132956
 # text:  But I stayed because I realized I was witnessing what's so rare to glimpse, that difference between success and mastery.
 # trans: Mas eu fiquei ali porque percebi que estava a assistir a uma coisa rara de observar, essa diferença entre êxito e mestria.
-# forward_log_prob: -71.10050528085844
-# backward_log_prob: -63.38390709576778
+# forward_log_prob: -71.09751735815614
+# backward_log_prob: -63.39400184074558
 1	But	But	Comparison.Concession.Arg2-as-denier	5	أدركت	_	1	?	_	1	?	_	1	?	_	1	Aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	I	I	_	4	لأنني	_	1	?	_	1	?	_	1	?	_	2	ich	_	2	I	_	_	_	2	me	_	2	je	_	?	?	?	1	?	_	2	eu	_
 3	stayed	stayed	_	2	لكني	_	1	?	_	1	?	_	1	?	_	3	blieb,	_	3	stayed	_	_	_	3	quedé	_	3	suis	_	2	rimasi	_	1	?	_	3	fiquei	_
@@ -753,8 +753,8 @@
 # sent_id = 132957
 # text:  So success is hitting that ten ring, but mastery is knowing that it means nothing if you can't do it again and again.
 # trans: O êxito é acertar naquele décimo anel, mas a mestria é saber que isso não significa nada se não se conseguir voltar a fazê-lo vezes sem conta.
-# forward_log_prob: -91.53035036521833
-# backward_log_prob: -77.75234038521027
+# forward_log_prob: -91.54032352872265
+# backward_log_prob: -77.74328240415409
 1	So	So	_	?	?	?	1	?	_	1	?	_	1	?	_	?	?	?	1	So	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	?	?	?	?	?	?	1	Quindi	precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY	1	?	_	1	O	_
 2	success	success	_	2	فالنجاح	_	1	?	_	1	?	_	1	?	_	1	Erfolg	_	2	success	_	_	_	1	El	_	1	Le	_	2	il	_	1	?	_	2	êxito	_
 3	is	is	_	3	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	?	?	?	3	is	_	_	_	3	es	_	3	c'est	_	4	è	_	1	?	_	3	é	_
@@ -763,8 +763,8 @@
 6	ten	ten	_	5	لوحة	_	1	?	_	1	?	_	1	?	_	5	den	_	6	ten	_	_	_	5	10	_	8	dix	_	7	cerchio	_	1	?	_	6	décimo	_
 7	ring,	ring,	_	5	لوحة	_	1	?	_	1	?	_	1	?	_	10	treffen,	_	7	ring,	_	_	_	5	10	_	8	dix	_	7	cerchio	_	1	?	_	7	anel,	_
 8	but	but	Comparison.Contrast	8	لكن	Concession.COMPARISON	1	?	_	1	?	_	1	?	_	9	zu	_	8	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	7	pero	precedence.Asynchronous.TEMPORAL	10	mais	Contrast.COMPARISON|Exception.EXPANSION	10	ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	8	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
-9	mastery	mastery	_	9	التفوق	_	1	?	_	1	?	_	1	?	_	12	Meisterschaft	_	9	mastery	_	_	_	8	la	_	11	la	_	12	maestria	_	1	?	_	10	mestria	_
-10	is	is	_	10	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	12	Meisterschaft	_	10	is	_	_	_	10	es	_	13	c'est	_	11	la	_	1	?	_	11	é	_
+9	mastery	mastery	_	9	التفوق	_	1	?	_	1	?	_	1	?	_	12	Meisterschaft	_	9	mastery	_	_	_	8	la	_	11	la	_	11	la	_	1	?	_	10	mestria	_
+10	is	is	_	10	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	12	Meisterschaft	_	10	is	_	_	_	10	es	_	13	c'est	_	13	è	_	1	?	_	11	é	_
 11	knowing	knowing	_	11	المعرفة	_	1	?	_	1	?	_	1	?	_	13	lässt	_	11	knowing	_	_	_	11	saber	_	15	savoir	_	14	sapere	_	1	?	_	12	saber	_
 12	that	that	_	12	بأنه	_	1	?	_	1	?	_	1	?	_	15	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	12	that	_	_	_	12	que	_	16	que	_	14	sapere	_	1	?	_	13	que	_
 13	it	it	_	13	هباء	_	1	?	_	1	?	_	1	?	_	?	?	?	13	it	_	_	_	11	saber	_	14	de	_	17	serve	_	1	?	_	16	significa	_
@@ -782,13 +782,13 @@
 # sent_id = 132958
 # text:  Mastery is not just the same as excellence, though.
 # trans: Mas mestria não é a mesma coisa que excelência.
-# forward_log_prob: -23.898261497021576
-# backward_log_prob: -24.570647625897813
+# forward_log_prob: -23.894938179566825
+# backward_log_prob: -24.578121697861654
 1	Mastery	Mastery	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	2	mestria	_
 2	is	is	_	2	التفوق	_	1	?	_	1	?	_	1	?	_	2	ist	_	2	is	_	_	_	2	maestría	_	2	maîtrise	_	2	maestria,	_	1	?	_	2	mestria	_
 3	not	not	_	3	ليس	_	1	?	_	1	?	_	1	?	_	4	nicht	_	3	not	_	_	_	3	no	_	3	n'est	_	4	non	_	1	?	_	3	não	_
 4	just	just	_	?	?	?	1	?	_	1	?	_	1	?	_	3	allerdings	Concession.COMPARISON|Contrast.COMPARISON	4	just	_	_	_	?	?	?	4	cependant	Exception.EXPANSION	3	comunque,	_	1	?	_	6	mesma	_
-5	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	2	ist	_	5	the	_	_	_	4	es	_	6	la	_	6	la	_	1	?	_	5	a	_
+5	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	4	nicht	_	5	the	_	_	_	4	es	_	6	la	_	6	la	_	1	?	_	5	a	_
 6	same	same	_	4	مطابقاً	_	1	?	_	1	?	_	1	?	_	3	allerdings	Concession.COMPARISON|Contrast.COMPARISON	6	same	_	_	_	5	lo	_	7	même	Conjunction.EXPANSION|Exception.EXPANSION	7	stessa	_	1	?	_	6	mesma	_
 7	as	as	_	7	على	_	1	?	_	1	?	_	1	?	_	5	gleich	_	7	as	_	_	COMPARISON|Cause.CONTIGENCY|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Synchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	6	mismo	_	8	chose	_	7	stessa	_	1	?	_	6	mesma	_
 8	excellence,	excellence,	_	8	الرغم	_	1	?	_	1	?	_	1	?	_	5	gleich	_	8	excellence,	_	_	_	8	la	_	10	l'excellence.	_	7	stessa	_	1	?	_	9	excelência.	_
@@ -797,8 +797,8 @@
 # sent_id = 132959
 # text:  It's not the same as success, which I see as an event, a moment in time, and a label that the world confers upon you.
 # trans: Não é a mesma coisa que êxito, que eu considero como um incidente, um dado momento no tempo. e um rótulo que o mundo nos atribui.
-# forward_log_prob: -86.7289630528946
-# backward_log_prob: -85.36434328398659
+# forward_log_prob: -86.72402056147938
+# backward_log_prob: -85.37535363767678
 1	It's	It's	_	1	إنه	_	1	?	_	1	?	_	1	?	_	1	Es	_	1	It's	_	_	_	2	es	_	?	?	?	2	è	_	1	?	_	?	?	?
 2	not	not	_	2	ليس	_	1	?	_	1	?	_	1	?	_	3	nicht	_	2	not	_	_	_	1	No	_	3	pas	_	1	Non	_	1	?	_	1	Não	_
 3	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	4	das	_	3	the	_	_	_	?	?	?	4	la	_	4	il	_	1	?	_	3	a	_
@@ -828,18 +828,18 @@
 # sent_id = 132960
 # text:  Mastery is not a commitment to a goal but to a constant pursuit.
 # trans: A mestria não é o empenhamento numa meta mas uma busca permanente.
-# forward_log_prob: -34.29640600652322
-# backward_log_prob: -33.97423286151528
+# forward_log_prob: -34.29549407205215
+# backward_log_prob: -33.98383435431745
 1	Mastery	Mastery	_	2	التفوق	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	2	mestria	_
 2	is	is	_	1	إن	_	1	?	_	1	?	_	1	?	_	2	ist	_	2	is	_	_	_	2	maestría	_	2	maîtrise	_	2	maestria	_	1	?	_	1	A	_
 3	not	not	_	3	ليس	_	1	?	_	1	?	_	1	?	_	3	nicht	_	3	not	_	_	_	3	no	_	4	pas	_	3	non	_	1	?	_	3	não	_
 4	a	a	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	4	die	_	4	a	_	_	_	6	un	_	5	un	_	8	un	_	1	?	_	7	numa	_
 5	commitment	commitment	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	5	Bekenntnis	_	5	commitment	_	_	_	5	lograr	_	6	engagement	_	6	devozione	_	1	?	_	6	empenhamento	_
-6	to	to	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	6	zu	_	6	to	_	_	_	9	no	_	6	engagement	_	7	ad	_	1	?	_	6	empenhamento	_
-7	a	a	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	7	einem	_	7	a	_	_	_	?	?	?	8	un	_	8	un	_	1	?	_	7	numa	_
-8	goal	goal	_	5	بهدف	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	8	Ziel,	_	8	goal	_	_	_	10	la	_	9	objectif	_	?	?	?	1	?	_	8	meta	_
+6	to	to	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	6	zu	_	6	to	_	_	_	5	lograr	_	6	engagement	_	7	ad	_	1	?	_	6	empenhamento	_
+7	a	a	_	4	مرتبطاً	_	1	?	_	1	?	_	1	?	_	7	einem	_	7	a	_	_	_	6	un	_	8	un	_	8	un	_	1	?	_	7	numa	_
+8	goal	goal	_	5	بهدف	PragmaticCause.CONTIGENCY	1	?	_	1	?	_	1	?	_	8	Ziel,	_	8	goal	_	_	_	7	objetivo	_	9	objectif	_	?	?	?	1	?	_	8	meta	_
 9	but	but	Expansion.Substitution.Arg2-as-subst	6	بل	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	9	sondern	Alternative.EXPANSION|Conjunction.EXPANSION	9	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	10	mais	Contrast.COMPARISON|Exception.EXPANSION	10	ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	_	9	mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
-10	to	to	_	6	بل	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	11	ständige	_	10	to	_	_	_	?	?	?	11	envers	_	11	ad	_	1	?	_	10	uma	_
+10	to	to	_	6	بل	Contrast.COMPARISON	1	?	_	1	?	_	1	?	_	11	ständige	_	10	to	_	_	_	9	no	_	11	envers	_	11	ad	_	1	?	_	10	uma	_
 11	a	a	_	7	بسعى	_	1	?	_	1	?	_	1	?	_	11	ständige	_	11	a	_	_	_	13	en	_	12	une	_	12	una	_	1	?	_	10	uma	_
 12	constant	constant	_	7	بسعى	_	1	?	_	1	?	_	1	?	_	12	Streben	_	12	constant	_	_	_	14	sí.	_	14	permanente.	_	13	costante	_	1	?	_	12	permanente.	_
 13	pursuit.	pursuit.	_	8	دائم.	_	1	?	_	1	?	_	1	?	_	13	danach.	_	13	pursuit.	_	_	_	11	búsqueda	_	13	quête	_	14	ricerca.	_	1	?	_	11	busca	_
@@ -847,8 +847,8 @@
 # sent_id = 132961
 # text:  What gets us to do this, what get us to forward thrust more is to value the near win.
 # trans: O que nos leva a fazer isso, o que nos leva a avançar cada vez mais é valorizar a quase vitória.
-# forward_log_prob: -59.77499699859153
-# backward_log_prob: -59.3487079449381
+# forward_log_prob: -59.77554445951962
+# backward_log_prob: -59.306977011063644
 1	What	What	_	1	ما	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Was	_	1	What	_	_	_	1	Lo	_	1	Ce	_	1	Ciò	_	1	?	_	1	O	_
 2	gets	gets	_	2	يدفعنا	_	1	?	_	1	?	_	1	?	_	3	dazu	Conjunction.EXPANSION|PragmaticCause.CONTIGENCY	2	gets	_	_	_	3	nos	_	2	qui	_	4	spinge	_	1	?	_	3	nos	_
 3	us	us	_	3	لفعل	_	1	?	_	1	?	_	1	?	_	2	uns	_	3	us	_	_	_	3	nos	_	3	nous	_	3	ci	_	1	?	_	4	leva	_
@@ -861,7 +861,7 @@
 10	to	to	_	7	إلى	_	1	?	_	1	?	_	1	?	_	11	zu	_	10	to	_	_	_	8	que	_	12	à	specification.Restatement.EXPANSION	?	?	?	1	?	_	12	a	_
 11	forward	forward	_	9	بأنفسنا	_	1	?	_	1	?	_	1	?	_	9	weiter	_	11	forward	_	_	_	11	adelante	_	13	avancer	_	10	spinge	_	1	?	_	11	leva	_
 12	thrust	thrust	_	9	بأنفسنا	_	1	?	_	1	?	_	1	?	_	10	voran	_	12	thrust	_	_	_	10	lleva	_	17	d'accorder	_	10	spinge	_	1	?	_	13	avançar	_
-13	more	more	_	9	بأنفسنا	_	1	?	_	1	?	_	1	?	_	12	treiben,	_	13	more	_	_	_	11	adelante	_	15	plus	_	?	?	?	1	?	_	16	mais	Conjunction.EXPANSION|EXPANSION
+13	more	more	_	9	بأنفسنا	_	1	?	_	1	?	_	1	?	_	11	zu	_	13	more	_	_	_	11	adelante	_	15	plus	_	?	?	?	1	?	_	16	mais	Conjunction.EXPANSION|EXPANSION
 14	is	is	_	13	هو	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	13	ist	_	14	is	_	_	_	12	es	_	16	c'est	_	12	è	_	1	?	_	17	é	_
 15	to	to	_	14	أن	_	1	?	_	1	?	_	1	?	_	16	zu	_	15	to	_	_	_	13	valorar	_	21	à	specification.Restatement.EXPANSION	13	dare	_	1	?	_	16	mais	Conjunction.EXPANSION|EXPANSION
 16	value	value	_	15	نقدر	_	1	?	_	1	?	_	1	?	_	17	schätzen.	_	16	value	_	_	_	13	valorar	_	20	valeur	_	14	importanza	_	1	?	_	18	valorizar	_
@@ -872,8 +872,8 @@
 # sent_id = 132962
 # text:  How many times have we designated something a classic, a masterpiece even, while its creator considers it hopelessly unfinished, riddled with difficulties and flaws, in other words, a near win?
 # trans: Quantas vezes classificamos uma coisa como um clássico, uma obra-prima até, enquanto o seu criador a considera irremediavelmente incompleta, cheia de dificuldades e de falhas, por outras palavras, uma quase vitória?
-# forward_log_prob: -109.68282808466915
-# backward_log_prob: -111.0653483062334
+# forward_log_prob: -109.68159769359637
+# backward_log_prob: -111.07003691871556
 1	How	How	_	1	كم	_	1	?	_	1	?	_	1	?	_	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿Cuántas	_	1	Combien	_	1	Quante	_	1	?	_	6	como	CONTIGENCY|Cause.CONTIGENCY|EXPANSION|Instantiation.EXPANSION|reason.Cause.CONTIGENCY
 2	many	many	_	1	كم	_	1	?	_	1	?	_	1	?	_	2	oft	_	2	many	_	_	_	2	veces	_	1	Combien	_	2	volte	_	1	?	_	3	classificamos	_
 3	times	times	_	2	مرة	_	1	?	_	1	?	_	1	?	_	2	oft	_	3	times	_	_	_	1	¿Cuántas	_	3	fois	_	1	Quante	_	1	?	_	1	Quantas	_
@@ -890,11 +890,11 @@
 14	its	its	_	?	?	?	1	?	_	1	?	_	1	?	_	15	es	_	14	its	_	_	_	16	su	_	18	son	_	15	creatore	_	1	?	_	14	seu	_
 15	creator	creator	_	12	بينما	Synchronous.TEMPORAL	1	?	_	1	?	_	1	?	_	14	Schöpfer	_	15	creator	_	_	_	?	?	?	19	créateur	_	16	lo	_	1	?	_	15	criador	_
 16	considers	considers	_	14	يعتبره	_	1	?	_	1	?	_	1	?	_	14	Schöpfer	_	16	considers	_	_	_	17	creador	_	19	créateur	_	17	considera	_	1	?	_	17	considera	_
-17	it	it	_	16	غير	_	1	?	_	1	?	_	1	?	_	15	es	_	17	it	_	_	_	?	?	?	25	de	_	16	lo	_	1	?	_	19	incompleta,	_
+17	it	it	_	16	غير	_	1	?	_	1	?	_	1	?	_	15	es	_	17	it	_	_	_	?	?	?	?	?	?	16	lo	_	1	?	_	19	incompleta,	_
 18	hopelessly	hopelessly	_	17	منتهي	_	1	?	_	1	?	_	1	?	_	17	hoffnungslos	_	18	hopelessly	_	_	_	19	considera	_	21	considère	_	20	senza	_	1	?	_	18	irremediavelmente	_
 19	unfinished,	unfinished,	_	16	غير	_	1	?	_	1	?	_	1	?	_	18	unfertig	_	19	unfinished,	_	_	_	21	inacabada,	_	23	inachevé,	_	20	senza	_	1	?	_	20	cheia	_
 20	riddled	riddled	_	18	ميؤوس	_	1	?	_	1	?	_	1	?	_	19	ansieht,	_	20	riddled	_	_	_	22	plagada	_	24	ridé	_	21	speranza,	_	1	?	_	20	cheia	_
-21	with	with	_	?	?	?	1	?	_	1	?	_	1	?	_	25	mit	_	21	with	_	_	_	22	plagada	_	16	alors	Contrast.COMPARISON|specification.Restatement.EXPANSION	22	pieno	_	1	?	_	12	enquanto	COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL
+21	with	with	_	?	?	?	1	?	_	1	?	_	1	?	_	25	mit	_	21	with	_	_	_	22	plagada	_	25	de	_	22	pieno	_	1	?	_	12	enquanto	COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL
 22	difficulties	difficulties	_	19	منه،	_	1	?	_	1	?	_	1	?	_	21	Schwierigkeiten	_	22	difficulties	_	_	_	24	dificultades	_	26	difficultés	_	22	pieno	_	1	?	_	22	dificuldades	_
 23	and	and	_	22	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	22	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	23	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	25	y	_	27	et	Conjunction.EXPANSION	25	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	23	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 24	flaws,	flaws,	_	21	بالصعوبات	_	1	?	_	1	?	_	1	?	_	23	Fehlern	_	24	flaws,	_	_	_	26	errores,	_	29	défauts,	_	24	difficoltà	_	1	?	_	25	falhas,	_
@@ -908,8 +908,8 @@
 # sent_id = 132963
 # text:  Elizabeth Murray surprised me with her admission about her earlier paintings.
 # trans: Elizabeth Murray surpreendeu-me com o seu reconhecimento sobre as suas primeiras pinturas.
-# forward_log_prob: -35.07983576934443
-# backward_log_prob: -32.6326751835304
+# forward_log_prob: -35.080672534062266
+# backward_log_prob: -32.63343544479514
 1	Elizabeth	Elizabeth	_	2	إليزابيث	_	1	?	_	1	?	_	1	?	_	1	Elizabeth	_	1	Elizabeth	_	_	_	1	Elizabeth	_	1	Elizabeth	_	1	Elizabeth	_	1	?	_	1	Elizabeth	_
 2	Murray	Murray	_	2	إليزابيث	_	1	?	_	1	?	_	1	?	_	2	Murray	_	2	Murray	_	_	_	2	Murray	_	2	Murray	_	2	Murray	_	1	?	_	2	Murray	_
 3	surprised	surprised	_	1	فاجأتني	_	1	?	_	1	?	_	1	?	_	3	hat	_	3	surprised	_	_	_	4	sorprendió	_	3	m'a	_	4	ha	_	1	?	_	3	surpreendeu-me	_
@@ -925,8 +925,8 @@
 # sent_id = 132964
 # text:  Painter Paul Cézanne so often thought his works were incomplete that he would deliberately leave them aside with the intention of picking them back up again, but at the end of his life, the result was that he had only signed 10 percent of his paintings.
 # trans: O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar nelas outra vez mas, no fim da sua vida, o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas.
-# forward_log_prob: -193.17805887722054
-# backward_log_prob: -180.0068925023708
+# forward_log_prob: -193.1914075438518
+# backward_log_prob: -180.01788419191868
 1	Painter	Painter	_	4	الرسام	_	1	?	_	1	?	_	1	?	_	2	Maler	_	1	Painter	_	_	_	1	Paul	_	1	Le	_	1	Il	_	1	?	_	2	pintor	_
 2	Paul	Paul	_	1	غالباً	_	?	?	?	?	?	?	?	?	?	2	Maler	_	2	Paul	_	_	_	1	Paul	_	3	Paul	_	3	Paul	_	?	?	?	3	Paul	_
 3	Cézanne	Cézanne	_	3	اعتقد	_	?	?	?	?	?	?	?	?	?	3	Paul	_	3	Cézanne	_	_	_	2	Cézanne	_	3	Paul	_	3	Paul	_	?	?	?	3	Paul	_
@@ -949,8 +949,8 @@
 20	intention	intention	_	17	متعمد	_	?	?	?	?	?	?	?	?	?	17	links	_	20	intention	_	_	_	17	intención	_	20	côté	_	20	proposito	_	?	?	?	22	intenção	_
 21	of	of	_	?	?	?	?	?	?	?	?	?	?	?	?	21	der	_	21	of	_	_	_	18	de	_	19	de	_	19	di	_	?	?	?	23	de	_
 22	picking	picking	_	18	بقصد	_	?	?	?	?	?	?	?	?	?	19	ließ	_	22	picking	_	_	_	17	intención	_	22	l'intention	_	22	l'intenzione	_	?	?	?	22	intenção	_
-23	them	them	_	20	يرفعها	_	?	?	?	?	?	?	?	?	?	32	hatte	_	23	them	_	_	_	17	intención	_	22	l'intention	_	22	l'intenzione	_	?	?	?	?	?	?
-24	back	back	_	20	يرفعها	_	?	?	?	?	?	?	?	?	?	22	Absicht,	_	24	back	_	_	_	19	continuarlas	_	22	l'intention	_	24	riprenderli	_	?	?	?	25	nelas	_
+23	them	them	_	20	يرفعها	_	?	?	?	?	?	?	?	?	?	32	hatte	_	23	them	_	_	_	17	intención	_	?	?	?	22	l'intenzione	_	?	?	?	?	?	?
+24	back	back	_	20	يرفعها	_	?	?	?	?	?	?	?	?	?	22	Absicht,	_	24	back	_	_	_	19	continuarlas	_	25	continuer	_	24	riprenderli	_	?	?	?	25	nelas	_
 25	up	up	_	?	?	?	?	?	?	?	?	?	?	?	?	23	sie	_	25	up	_	_	_	22	al	_	27	tard,	_	25	in	precedence.Asynchronous.TEMPORAL	?	?	?	?	?	?
 26	again,	again,	_	21	مرة	_	?	?	?	?	?	?	?	?	?	25	wieder	_	26	again,	_	_	_	?	?	?	26	plus	_	26	seguito	_	?	?	?	?	?	?
 27	but	but	Comparison.Concession.Arg2-as-denier	24	لكن	Concession.COMPARISON	?	?	?	?	?	?	?	?	?	27	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	27	but	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	21	pero	precedence.Asynchronous.TEMPORAL	28	mais	Contrast.COMPARISON|Exception.EXPANSION	27	ma	Concession.COMPARISON|Contrast.COMPARISON	?	?	?	28	mas,	_
@@ -977,23 +977,23 @@
 # sent_id = 132965
 # text:  His favorite novel was "The [Unknown] Masterpiece" by Honoré de Balzac, and he felt the protagonist was the painter himself.
 # trans: O seu romance preferido era "A Obra-Prima Desconhecida" de Honoré de Balzac, e achava que o protagonista era o próprio pintor.
-# forward_log_prob: -65.82663149110664
-# backward_log_prob: -65.35988979969909
+# forward_log_prob: -65.83279186676863
+# backward_log_prob: -65.36923277079696
 1	His	His	_	3	المفضلة	_	1	?	_	1	?	_	1	?	_	1	Sein	_	1	His	_	_	_	3	favorita	_	4	était	_	2	suo	_	1	?	_	5	era	_
 2	favorite	favorite	_	1	كانت	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	2	favorite	_	_	_	3	favorita	_	1	Son	_	2	suo	_	1	?	_	2	seu	_
 3	novel	novel	_	2	روايته	_	1	?	_	1	?	_	1	?	_	2	Lieblingsroman	_	3	novel	_	_	_	2	novela	_	3	préféré	_	1	Il	_	1	?	_	3	romance	_
 4	was	was	_	3	المفضلة	_	1	?	_	1	?	_	1	?	_	3	war	_	4	was	_	_	_	4	era	_	4	était	_	5	era:	_	1	?	_	5	era	_
 5	"The	"The	_	4	"ذا	_	1	?	_	1	?	_	1	?	_	4	"Das	_	5	"The	_	_	_	5	"la	_	6	Le	_	6	"Il	_	1	?	_	6	"A	_
 6	[Unknown]	[Unknown]	_	6	فينيش	_	1	?	_	1	?	_	1	?	_	5	unbekannte	_	6	[Unknown]	_	_	_	?	?	?	7	Chef-d’œuvre	_	6	"Il	_	1	?	_	8	Desconhecida"	_
-7	Masterpiece"	Masterpiece"	_	6	فينيش	_	1	?	_	1	?	_	1	?	_	6	Meisterwerk"	_	7	Masterpiece"	_	_	_	6	obra	_	6	Le	_	7	capolavoro	_	1	?	_	7	Obra-Prima	_
-8	by	by	_	4	"ذا	_	1	?	_	1	?	_	1	?	_	8	Honoré	_	8	by	_	_	_	6	obra	_	5	«	_	8	sconosciuto"	_	1	?	_	8	Desconhecida"	_
+7	Masterpiece"	Masterpiece"	_	6	فينيش	_	1	?	_	1	?	_	1	?	_	6	Meisterwerk"	_	7	Masterpiece"	_	_	_	6	obra	_	8	inconnu	_	7	capolavoro	_	1	?	_	7	Obra-Prima	_
+8	by	by	_	4	"ذا	_	1	?	_	1	?	_	1	?	_	8	Honoré	_	8	by	_	_	_	6	obra	_	9	»	_	8	sconosciuto"	_	1	?	_	8	Desconhecida"	_
 9	Honoré	Honoré	_	7	ماستربيس"	_	1	?	_	1	?	_	1	?	_	8	Honoré	_	9	Honoré	_	_	_	10	Balzac	_	10	d'Honoré	_	8	sconosciuto"	_	1	?	_	8	Desconhecida"	_
 10	de	de	_	9	بولزاك،	_	1	?	_	1	?	_	1	?	_	8	Honoré	_	10	de	_	_	_	10	Balzac	_	10	d'Honoré	_	10	Balzac,	_	1	?	_	10	Honoré	_
 11	Balzac,	Balzac,	_	9	بولزاك،	_	1	?	_	1	?	_	1	?	_	9	de	_	11	Balzac,	_	_	_	10	Balzac	_	12	Balzac,	_	10	Balzac,	_	1	?	_	12	Balzac,	_
 12	and	and	Expansion.Conjunction	10	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	11	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	12	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	11	y	_	13	et	Conjunction.EXPANSION	11	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	_	13	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 13	he	he	_	?	?	?	1	?	_	1	?	_	1	?	_	12	er	_	13	he	_	_	_	13	que	_	14	il	_	16	fosse	_	1	?	_	14	achava	_
 14	felt	felt	_	12	شعر	_	1	?	_	1	?	_	1	?	_	13	fühlte	_	14	felt	_	_	_	12	sentía	_	14	il	_	15	protagonista	_	1	?	_	14	achava	_
-15	the	the	_	13	بأن	_	1	?	_	1	?	_	1	?	_	?	?	?	15	the	_	_	_	14	el	_	17	le	_	14	il	_	1	?	_	16	o	_
+15	the	the	_	13	بأن	_	1	?	_	1	?	_	1	?	_	?	?	?	15	the	_	_	_	14	el	_	17	le	_	14	il	_	1	?	_	15	que	_
 16	protagonist	protagonist	_	14	بطل	_	1	?	_	1	?	_	1	?	_	13	fühlte	_	16	protagonist	_	_	_	15	protagonista	_	18	protagoniste	_	15	protagonista	_	1	?	_	17	protagonista	_
 17	was	was	_	16	كان	_	1	?	_	1	?	_	1	?	_	14	sich	_	17	was	_	_	_	16	era	_	19	était	_	16	fosse	_	1	?	_	18	era	_
 18	the	the	_	?	?	?	1	?	_	1	?	_	1	?	_	15	selbst	_	18	the	_	_	_	?	?	?	20	le	_	17	il	_	1	?	_	19	o	_
@@ -1003,8 +1003,8 @@
 # sent_id = 132966
 # text:  Franz Kafka saw incompletion when others would find only works to praise, so much so that he wanted all of his diaries, manuscripts, letters and even sketches burned upon his death.
 # trans: Franz Kafka considerava incompleto o que outros consideravam obras dignas de elogio, de tal modo que queria que todos os seus diários, manuscritos, cartas e até mesmo rascunhos fossem queimados depois de ele morrer.
-# forward_log_prob: -130.1305143082427
-# backward_log_prob: -118.85383120461239
+# forward_log_prob: -130.1303355411911
+# backward_log_prob: -118.8674694511862
 1	Franz	Franz	_	2	رأى	specification.Restatement.EXPANSION	1	?	_	1	?	_	1	?	_	1	Franz	_	1	Franz	_	_	_	1	Franz	_	1	Frank	_	1	Franz	_	1	?	_	1	Franz	_
 2	Kafka	Kafka	_	4	كافكا	_	1	?	_	1	?	_	1	?	_	2	Kafka	_	2	Kafka	_	_	_	2	Kafka	_	2	Kafka	_	2	Kafka	_	1	?	_	2	Kafka	_
 3	saw	saw	_	3	فرانز	_	1	?	_	1	?	_	1	?	_	3	sah	_	3	saw	_	_	_	4	incompletitud	_	3	voyait	_	3	vedeva	_	1	?	_	?	?	?
@@ -1021,8 +1021,8 @@
 14	much	much	Contingency.Cause.Result	15	يمدحوها،	_	1	?	_	1	?	_	1	?	_	11	konnten,	_	14	much	_	_	_	?	?	?	16	tel	_	11	da	_	1	?	_	12	elogio,	_
 15	so	so	Contingency.Cause.Result	17	حتى	_	1	?	_	1	?	_	1	?	_	12	so	_	15	so	CONTIGENCY|Cause.CONTIGENCY	reason.Cause.CONTIGENCY|result.Cause.CONTIGENCY	result.Cause.CONTIGENCY	15	quiso	_	17	point	_	11	da	_	1	?	_	?	?	?
 16	that	that	_	17	حتى	_	1	?	_	1	?	_	1	?	_	14	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	16	that	_	_	_	?	?	?	18	qu'il	_	16	che	_	1	?	_	18	que	_
-17	he	he	_	18	أنه	_	1	?	_	1	?	_	1	?	_	15	er	_	17	he	_	_	_	16	que	_	18	qu'il	_	?	?	?	1	?	_	?	?	?
-18	wanted	wanted	_	19	أراد	_	1	?	_	1	?	_	1	?	_	?	?	?	18	wanted	_	_	_	?	?	?	19	voulait	_	17	volle	_	1	?	_	17	queria	_
+17	he	he	_	18	أنه	_	1	?	_	1	?	_	1	?	_	15	er	_	17	he	_	_	_	?	?	?	18	qu'il	_	?	?	?	1	?	_	?	?	?
+18	wanted	wanted	_	19	أراد	_	1	?	_	1	?	_	1	?	_	?	?	?	18	wanted	_	_	_	16	que	_	19	voulait	_	17	volle	_	1	?	_	17	queria	_
 19	all	all	_	20	لكل	_	1	?	_	1	?	_	1	?	_	16	all	_	19	all	_	_	_	?	?	?	21	l'intégralité	_	19	i	_	1	?	_	19	todos	_
 20	of	of	_	?	?	?	1	?	_	1	?	_	1	?	_	19	seine	_	20	of	_	_	_	?	?	?	22	de	_	20	suoi	_	1	?	_	21	seus	_
 21	his	his	_	?	?	?	1	?	_	1	?	_	1	?	_	17	seine	_	21	his	_	_	_	18	sus	_	23	ses	_	20	suoi	_	1	?	_	21	seus	_
@@ -1040,8 +1040,8 @@
 # sent_id = 132967
 # text:  His friend refused to honor the request, and because of that, we now have all the works we now do by Kafka: "America," "The Trial" and "The Castle," a work so incomplete it even stops mid-sentence.
 # trans: O seu amigo recusou-se a cumprir esse pedido e, por causa disso, temos todas as obras de Kafka que temos hoje: "América", "O Veredito" e "O Castelo", uma obra tão incompleta que até termina a meio duma frase.
-# forward_log_prob: -148.092493035071
-# backward_log_prob: -130.08747032644717
+# forward_log_prob: -148.08158488362554
+# backward_log_prob: -130.03513659747554
 1	His	His	_	?	?	?	1	?	_	1	?	_	1	?	_	1	Sein	_	1	His	_	_	_	1	Sus	_	1	Ses	_	2	suo	_	1	?	_	2	seu	_
 2	friend	friend	_	1	رفض	_	1	?	_	1	?	_	1	?	_	2	Freund	_	2	friend	_	_	_	2	amigos	_	2	amis	_	3	amico	_	1	?	_	3	amigo	_
 3	refused	refused	_	2	صديقه	_	1	?	_	1	?	_	1	?	_	3	lehnte	_	3	refused	_	_	_	4	negaron	_	4	refusé	_	3	amico	_	1	?	_	3	amigo	_
@@ -1082,8 +1082,8 @@
 # sent_id = 132968
 # text:  The pursuit of mastery, in other words, is an ever-onward almost.
 # trans: Por outras palavras, a busca da mestria, é quase de avanço perpétuo.
-# forward_log_prob: -38.44750942648566
-# backward_log_prob: -34.092288048419476
+# forward_log_prob: -38.441800976018705
+# backward_log_prob: -34.10325985670553
 1	The	The	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Die	_	1	The	_	_	_	1	La	_	1	La	_	4	la	_	1	?	_	?	?	?
 2	pursuit	pursuit	_	2	السعي	_	1	?	_	1	?	_	1	?	_	2	Verfolgung	_	2	pursuit	_	_	_	2	búsqueda	_	2	quête	_	5	ricerca	_	1	?	_	5	busca	_
 3	of	of	_	4	التفوق،	_	1	?	_	1	?	_	1	?	_	3	der	_	3	of	_	_	_	3	de	_	3	de	_	6	della	_	1	?	_	6	da	_
@@ -1099,8 +1099,8 @@
 # sent_id = 132969
 # text:  "Lord, grant that I desire more than I can accomplish," Michelangelo implored, as if to that Old Testament God on the Sistine Chapel, and he himself was that Adam with his finger outstretched and not quite touching that God's hand.
 # trans: "Senhor, concedei-me que eu deseje "mais do que aquilo que consigo realizar", implorava Miguel Ângelo, como se fosse àquele Deus do Antigo Testamento na Capela Sistina, e ele fosse aquele Adão com o dedo esticado e sem conseguir tocar na mão daquele Deus.
-# forward_log_prob: -168.42454491156158
-# backward_log_prob: -152.241844371485
+# forward_log_prob: -168.41200999469322
+# backward_log_prob: -152.26213595249135
 1	"Lord,	"Lord,	_	1	"إلهي،	_	1	?	_	1	?	_	1	?	_	1	"Gott,	_	1	"Lord,	_	_	_	1	"Señor,	_	1	«	_	1	"Signore,	_	1	?	_	1	"Senhor,	_
 2	grant	grant	_	2	أعط	_	1	?	_	1	?	_	1	?	_	2	gib,	_	2	grant	_	_	_	2	concédeme	_	2	Dieu,	_	1	"Signore,	_	1	?	_	2	concedei-me	_
 3	that	that	_	2	أعط	_	1	?	_	1	?	_	1	?	_	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	8	que	_	10	que	_	3	che	_	1	?	_	3	que	_
@@ -1145,10 +1145,10 @@
 # sent_id = 132970
 # text:  Mastery is in the reaching, not the arriving.
 # trans: A mestria está em atingir, não em chegar.
-# forward_log_prob: -21.0738857117071
-# backward_log_prob: -19.14934049735314
-1	Mastery	Mastery	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	2	maestria	_	1	?	_	1	A	_
-2	is	is	_	1	إن	_	1	?	_	1	?	_	1	?	_	2	ist	_	2	is	_	_	_	2	maestría	_	2	maîtrise	_	1	La	_	1	?	_	2	mestria	_
+# forward_log_prob: -21.073946017968417
+# backward_log_prob: -19.148915278089017
+1	Mastery	Mastery	_	1	إن	_	1	?	_	1	?	_	1	?	_	1	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	_	1	A	_
+2	is	is	_	1	إن	_	1	?	_	1	?	_	1	?	_	2	ist	_	2	is	_	_	_	2	maestría	_	2	maîtrise	_	2	maestria	_	1	?	_	2	mestria	_
 3	in	in	_	3	يوجد	_	1	?	_	1	?	_	1	?	_	4	Streben,	_	3	in	_	_	_	4	el	_	5	dans	_	4	l'avvicinarsi,	_	1	?	_	4	em	_
 4	the	the	_	3	يوجد	_	1	?	_	1	?	_	1	?	_	3	das	_	4	the	_	_	_	4	el	_	6	le	_	3	è	_	1	?	_	4	em	_
 5	reaching,	reaching,	_	4	باللحاق،	_	1	?	_	1	?	_	1	?	_	4	Streben,	_	5	reaching,	_	_	_	5	buscar,	_	7	voyage	_	4	l'avvicinarsi,	_	1	?	_	3	está	_
@@ -1159,15 +1159,15 @@
 # sent_id = 132971
 # text:  It's in constantly wanting to close that gap between where you are and where you want to be.
 # trans: Está em querer permanentemente preencher o fosso entre onde estamos e onde queremos estar.
-# forward_log_prob: -47.3229204707894
-# backward_log_prob: -54.53407243215821
+# forward_log_prob: -47.315093158520206
+# backward_log_prob: -54.54626732674618
 1	It's	It's	_	1	إنه	_	1	?	_	1	?	_	1	?	_	1	Es	_	1	It's	_	_	_	1	Es	_	?	?	?	1	È	_	1	?	_	1	Está	_
 2	in	in	_	1	إنه	_	1	?	_	1	?	_	1	?	_	1	Es	_	2	in	_	_	_	2	la	_	4	dans	_	2	costantemente	_	1	?	_	2	em	_
 3	constantly	constantly	_	2	بالطلب	_	1	?	_	1	?	_	1	?	_	5	Wunsch,	_	3	constantly	_	_	_	3	búsqueda	_	2	se	_	2	costantemente	_	1	?	_	1	Está	_
 4	wanting	wanting	_	3	المستمر	_	1	?	_	1	?	_	1	?	_	4	ständige	_	4	wanting	_	_	_	4	constante	_	6	désir	_	3	voler	_	1	?	_	3	querer	_
 5	to	to	_	4	لردم	_	1	?	_	1	?	_	1	?	_	4	ständige	_	5	to	_	_	_	5	de	_	10	ce	_	?	?	?	1	?	_	4	permanentemente	_
 6	close	close	_	4	لردم	_	1	?	_	1	?	_	1	?	_	9	dem,	_	6	close	_	_	_	6	cerrar	_	7	permanent	_	4	chiudere	_	1	?	_	5	preencher	_
-7	that	that	_	5	تلك	_	1	?	_	1	?	_	1	?	_	9	dem,	_	7	that	_	_	_	7	la	_	8	de	_	5	quel	_	1	?	_	6	o	_
+7	that	that	_	5	تلك	_	1	?	_	1	?	_	1	?	_	9	dem,	_	7	that	_	_	_	?	?	?	8	de	_	5	quel	_	1	?	_	6	o	_
 8	gap	gap	_	6	الفجوة	_	1	?	_	1	?	_	1	?	_	7	Lücke	_	8	gap	_	_	_	8	brecha	_	9	réduire	_	6	divario	_	1	?	_	7	fosso	_
 9	between	between	_	7	بين	_	1	?	_	1	?	_	1	?	_	8	zwischen	_	9	between	TEMPORAL	_	_	9	entre	TEMPORAL	12	entre	_	7	tra	_	1	?	_	8	entre	_
 10	where	where	_	8	مكانك	_	1	?	_	1	?	_	1	?	_	11	du	_	10	where	TEMPORAL	_	_	8	brecha	_	13	l'endroit	_	8	dove	_	1	?	_	9	onde	_
@@ -1183,8 +1183,8 @@
 # sent_id = 132972
 # text:  Mastery is about sacrificing for your craft and not for the sake of crafting your career.
 # trans: A mestria é sacrificarmo-nos pela nossa arte e não pelo amor de traçar a nossa carreira.
-# forward_log_prob: -46.21304242585275
-# backward_log_prob: -47.79388963150744
+# forward_log_prob: -46.20726957511021
+# backward_log_prob: -47.802075837893156
 1	Mastery	Mastery	_	1	إن	_	1	?	?	1	?	?	1	?	?	3	Meisterschaft	_	1	Mastery	_	_	_	1	La	_	1	La	_	1	La	_	1	?	?	2	mestria	_
 2	is	is	_	2	التفوق	_	1	?	?	1	?	?	1	?	?	3	Meisterschaft	_	2	is	_	_	_	2	maestría	_	3	c'est	_	3	è	_	1	?	?	1	A	_
 3	about	about	_	4	عن	_	1	?	?	1	?	?	1	?	?	1	In	_	3	about	_	_	_	4	sacrificarse	_	5	sacrifier	_	4	sacrificarsi	_	1	?	?	5	pela	_
@@ -1205,8 +1205,8 @@
 # sent_id = 132973
 # text:  How many inventors and untold entrepreneurs live out this phenomenon?
 # trans: Quantos inventores e empresários desconhecidos vivem este fenómeno?
-# forward_log_prob: -22.600661395081595
-# backward_log_prob: -25.60628780914894
+# forward_log_prob: -22.594551623913876
+# backward_log_prob: -25.611711635476773
 1	How	How	_	1	كم	_	1	?	?	1	?	?	1	?	?	1	Wie	COMPARISON|Synchronous.TEMPORAL	1	How	_	_	_	1	¿Cuántos	_	1	Combien	_	1	Quanti	_	1	?	?	1	Quantos	_
 2	many	many	_	1	كم	_	1	?	?	1	?	?	1	?	?	2	viele	_	2	many	_	_	_	1	¿Cuántos	_	1	Combien	_	2	inventori	_	1	?	?	2	inventores	_
 3	inventors	inventors	_	3	المخترعين	_	1	?	?	1	?	?	1	?	?	3	Erfinder	_	3	inventors	_	_	_	2	inventores	_	2	d'inventeurs	_	1	Quanti	_	1	?	?	1	Quantos	_
@@ -1221,8 +1221,8 @@
 # sent_id = 132974
 # text:  We see it even in the life of the indomitable Arctic explorer Ben Saunders, who tells me that his triumphs are not merely the result of a grand achievement, but of the propulsion of a lineage of near wins.
 # trans: Vemos isso até na vida do indomável explorador do Ártico, Ben Saunders, que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha, mas da propulsão duma série de quase vitórias.
-# forward_log_prob: -134.9566683108067
-# backward_log_prob: -135.992714408534
+# forward_log_prob: -134.9539106174077
+# backward_log_prob: -135.99981639726815
 1	We	We	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Vemos	_	1	Nous	_	3	anche	Concession.COMPARISON|Conjunction.EXPANSION	1	?	?	?	?	?
 2	see	see	_	1	نراها	_	1	?	?	1	?	?	1	?	?	2	sehen	_	2	see	_	_	_	7	del	_	2	le	_	2	vediamo	_	1	?	?	1	Vemos	_
 3	it	it	_	?	?	?	1	?	?	1	?	?	1	?	?	3	es	_	3	it	_	_	_	3	incluso	_	?	?	?	1	Lo	_	1	?	?	2	isso	_
@@ -1266,8 +1266,8 @@
 # sent_id = 132975
 # text:  We thrive when we stay at our own leading edge.
 # trans: Evoluímos quando nos mantemos na nossa vanguarda.
-# forward_log_prob: -21.73362613334819
-# backward_log_prob: -28.536223853026037
+# forward_log_prob: -21.734190643400016
+# backward_log_prob: -28.53606646151384
 1	We	We	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Progresamos	_	1	Nous	_	1	Noi	_	1	?	?	1	Evoluímos	_
 2	thrive	thrive	_	2	نزدهر	_	1	?	?	1	?	?	1	?	?	2	haben	_	2	thrive	_	_	_	1	Progresamos	_	2	prospérons	_	2	prosperiamo	_	1	?	?	1	Evoluímos	_
 3	when	when	_	3	حين	_	1	?	?	1	?	?	1	?	?	2	haben	_	3	when	TEMPORAL	_	CONTIGENCY|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|disjunctive.Alternative.EXPANSION|precedence.Asynchronous.TEMPORAL|reason.Cause.CONTIGENCY|succession.Asynchronous.TEMPORAL	2	cuando	TEMPORAL	2	prospérons	_	3	quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	2	quando	Asynchronous.TEMPORAL|COMPARISON|Contrast.COMPARISON|Synchronous.TEMPORAL|TEMPORAL|succession.Asynchronous.TEMPORAL
@@ -1282,8 +1282,8 @@
 # sent_id = 132976
 # text:  It's a wisdom understood by Duke Ellington, who said that his favorite song out of his repertoire was always the next one, always the one he had yet to compose.
 # trans: É uma sabedoria que Duke Ellington percebia, quando disse que a canção preferida do seu repertório era sempre a seguinte, sempre aquela que ele ainda ia compor.
-# forward_log_prob: -99.1081027392468
-# backward_log_prob: -108.94697901786897
+# forward_log_prob: -99.10043527599667
+# backward_log_prob: -108.96336698066389
 1	It's	It's	_	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	È	_	1	?	?	1	É	_
 2	a	a	_	1	إنها	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Eine	_	2	a	_	_	_	2	una	_	2	une	_	2	una	_	1	?	?	2	uma	_
 3	wisdom	wisdom	_	2	حكمة	_	1	?	?	1	?	?	1	?	?	2	Weisheit,	_	3	wisdom	_	_	_	3	sabiduría	_	3	sagesse	_	3	verità	_	1	?	?	3	sabedoria	_
@@ -1318,8 +1318,8 @@
 # sent_id = 132977
 # text:  Part of the reason that the near win is inbuilt to mastery is because the greater our proficiency, the more clearly we might see that we don't know all that we thought we did.
 # trans: Parte da razão por que a quase vitória está entranhada na mestria é porque, quanto maior for a nossa capacidade, mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber.
-# forward_log_prob: -119.92541725467595
-# backward_log_prob: -111.39365730584063
+# forward_log_prob: -119.92825776240737
+# backward_log_prob: -111.41130291359795
 1	Part	Part	_	2	جزءاً	_	1	?	?	1	?	?	1	?	?	5	verknüpft	_	1	Part	_	_	_	1	Parte	_	3	raisons	_	2	delle	_	1	?	?	1	Parte	_
 2	of	of	_	3	من	_	1	?	?	1	?	?	1	?	?	?	?	?	2	of	_	_	_	2	de	_	?	?	?	2	delle	_	1	?	?	2	da	_
 3	the	the	_	3	من	_	1	?	?	1	?	?	1	?	?	?	?	?	3	the	_	_	_	3	la	_	?	?	?	2	delle	_	1	?	?	2	da	_
@@ -1358,8 +1358,8 @@
 # sent_id = 132978
 # text:  It's called the Dunning–Kruger effect.
 # trans: Chama-se o efeito Dunning-Kruger.
-# forward_log_prob: -10.776448110511119
-# backward_log_prob: -10.894798346280503
+# forward_log_prob: -10.782403927548431
+# backward_log_prob: -10.897141965233825
 1	It's	It's	_	2	هذا	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	It's	_	_	_	3	llama	_	1	Cela	_	1	È	_	1	?	?	1	Chama-se	_
 2	called	called	_	3	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	2	nennt	_	2	called	_	_	_	3	llama	_	2	s'appelle	_	2	chiamato	_	1	?	?	1	Chama-se	_
 3	the	the	_	?	?	?	1	?	?	1	?	?	1	?	?	4	den	_	3	the	_	_	_	4	el	_	3	l'effet	_	2	chiamato	_	1	?	?	2	o	_
@@ -1369,8 +1369,8 @@
 # sent_id = 132979
 # text:  The Paris Review got it out of James Baldwin when they asked him, "What do you think increases with knowledge?"
 # trans: O Paris Review foi buscá-lo a James Baldwin quando lhe perguntaram: "O que é que aumenta com o conhecimento?"
-# forward_log_prob: -59.010412110944976
-# backward_log_prob: -71.89283933684776
+# forward_log_prob: -59.0152765844859
+# backward_log_prob: -71.7806995725426
 1	The	The	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Die	_	1	The	_	_	_	?	?	?	3	l'a	_	1	Il	_	1	?	?	1	O	_
 2	Paris	Paris	_	1	علمت	_	1	?	?	1	?	?	1	?	?	2	Paris	_	2	Paris	_	_	_	1	James	_	1	Paris	_	2	"Paris	_	1	?	?	2	Paris	_
 3	Review	Review	_	2	باريس	_	1	?	?	1	?	?	1	?	?	3	Review	_	3	Review	_	_	_	2	Baldwin,	_	4	tiré	_	3	Review"	_	1	?	?	3	Review	_
@@ -1395,8 +1395,8 @@
 # sent_id = 132980
 # text:  and he said, "You learn how little you know."
 # trans: e ele disse: "Aprendemos quão pouco sabemos".
-# forward_log_prob: -18.739989924516824
-# backward_log_prob: -21.181277620826915
+# forward_log_prob: -18.73224559032744
+# backward_log_prob: -21.186685391087163
 1	and	and	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	1	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	respondió	_	2	et	Conjunction.EXPANSION	1	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	1	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	he	he	_	2	قال،"أنتم	_	1	?	?	1	?	?	1	?	?	2	er	_	2	he	_	_	_	1	respondió	_	3	il	_	2	lui	_	1	?	?	2	ele	_
 3	said,	said,	_	2	قال،"أنتم	_	1	?	?	1	?	?	1	?	?	3	antwortete:	_	3	said,	_	_	_	2	"Aprender	_	4	a	_	3	rispose:	_	1	?	?	3	disse:	_
@@ -1410,8 +1410,8 @@
 # sent_id = 132981
 # text:  Success motivates us, but a near win can propel us in an ongoing quest.
 # trans: O êxito motiva-nos, mas uma quase vitória pode impelir-nos numa busca incessante.
-# forward_log_prob: -35.41729398696507
-# backward_log_prob: -41.388757109377806
+# forward_log_prob: -35.41928583362882
+# backward_log_prob: -41.39208226453098
 1	Success	Success	_	2	النجاح	_	1	?	?	1	?	?	1	?	?	1	Erfolg	_	1	Success	_	_	_	1	El	_	2	Le	_	1	Il	_	1	?	?	2	êxito	_
 2	motivates	motivates	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	motiviert	_	2	motivates	_	_	_	4	motiva,	_	1	»	_	4	motiva,	_	1	?	?	3	motiva-nos,	_
 3	us,	us,	_	3	يحفزنا،	_	1	?	?	1	?	?	1	?	?	3	uns,	_	3	us,	_	_	_	3	nos	_	4	nous	_	3	ci	_	1	?	?	3	motiva-nos,	_
@@ -1430,8 +1430,8 @@
 # sent_id = 132982
 # text:  One of the most vivid examples of this comes when we look at the difference between Olympic silver medalists and bronze medalists after a competition.
 # trans: Um dos exemplos mais vivos disso aparece quando olhamos para a diferença entre os "medalhas de prata" olímpicos e os "medalhas de bronze" depois duma competição.
-# forward_log_prob: -95.24326782202566
-# backward_log_prob: -87.59172044649648
+# forward_log_prob: -95.24047094316485
+# backward_log_prob: -87.59412708402434
 1	One	One	Expansion.Instantiation	1	واحد	_	1	?	?	1	?	?	1	?	?	1	Eines	_	1	One	_	_	_	1	Uno	_	1	Un	_	?	?	?	1	?	?	1	Um	_
 2	of	of	Expansion.Instantiation	2	من	_	1	?	?	1	?	?	1	?	?	2	der	_	2	of	_	_	_	2	de	_	?	?	?	?	?	?	1	?	?	?	?	?
 3	the	the	Expansion.Instantiation	2	من	_	1	?	?	1	?	?	1	?	?	2	der	_	3	the	_	_	_	2	de	_	?	?	?	?	?	?	1	?	?	?	?	?
@@ -1461,8 +1461,8 @@
 # sent_id = 132983
 # text:  Thomas Gilovich and his team from Cornell studied this difference and found that the frustration silver medalists feel compared to bronze, who are typically a bit more happy to have just not received fourth place and not medaled at all, gives silver medalists a focus on follow-up competition.
 # trans: Thomas Gilovich e a sua equipa da Universidade de Cornell estudaram esta diferença e descobriram que a frustração que os "medalhas de prata" sentem. comparada com a dos "de bronze", que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha, dá aos "medalhas de prata" uma concentração na competição seguinte.
-# forward_log_prob: -233.78500885485698
-# backward_log_prob: -194.4452796054018
+# forward_log_prob: -233.7733702970915
+# backward_log_prob: -194.45813663598682
 1	Thomas	Thomas	_	2	ثوماس	_	1	?	?	1	?	?	1	?	?	1	Thomas	_	1	Thomas	_	_	_	1	Thomas	_	1	Thomas	_	1	Thomas	_	1	?	?	1	Thomas	_
 2	Gilovich	Gilovich	_	2	ثوماس	_	?	?	?	?	?	?	?	?	?	2	Gilovich	_	2	Gilovich	_	_	_	2	Gilovich	_	2	Gilovich	_	2	Gilovich	_	?	?	?	2	Gilovich	_
 3	and	and	_	4	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	?	?	?	?	?	?	?	?	?	3	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	3	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	3	y	_	3	et	Conjunction.EXPANSION	3	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	?	?	?	3	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
@@ -1515,8 +1515,8 @@
 # sent_id = 132984
 # text:  We see it even in the gambling industry that once picked up on this phenomenon of the near win and created these scratch-off tickets that had a higher than average rate of near wins and so compelled people to buy more tickets that they were called heart-stoppers, and were set on a gambling industry set of abuses in Britain in the 1970s.
 # trans: Vemos isso, até na indústria do jogo, que, em tempos, se apercebeu deste fenómeno da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam "heart-stoppers", e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha, nos anos 70.
-# forward_log_prob: -251.97524697511216
-# backward_log_prob: -242.41516603154759
+# forward_log_prob: -251.97093662141208
+# backward_log_prob: -242.40930829835472
 1	We	We	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Vemos	_	1	On	_	?	?	?	1	?	?	?	?	?
 2	see	see	_	2	نرى	_	?	?	?	?	?	?	?	?	?	2	sehen	_	2	see	_	_	_	16	del	_	2	le	_	2	vediamo	_	?	?	?	1	Vemos	_
 3	it	it	_	3	ذلك	_	?	?	?	?	?	?	?	?	?	3	es	_	3	it	_	_	_	?	?	?	14	de	_	1	Lo	_	?	?	?	2	isso,	_
@@ -1583,8 +1583,8 @@
 # sent_id = 132985
 # text:  The reason the near win has a propulsion is because it changes our view of the landscape and puts our goals, which we tend to put at a distance, into more proximate vicinity to where we stand.
 # trans: A razão por que a quase vitória tem propulsão é porque altera a nossa visão da paisagem e coloca as nossas metas, que temos a tendência para pôr à distância, muito mais próximas de onde estamos.
-# forward_log_prob: -132.8468046653534
-# backward_log_prob: -133.59548452819197
+# forward_log_prob: -132.82809404145536
+# backward_log_prob: -133.59081669008796
 1	The	The	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Der	_	1	The	_	_	_	1	La	_	1	La	_	1	La	_	1	?	?	1	A	_
 2	reason	reason	_	2	السبب	_	1	?	?	1	?	?	1	?	?	2	Grund,	_	2	reason	_	_	_	2	razón	_	2	raison	_	8	spinta	_	1	?	?	2	razão	_
 3	the	the	_	3	في	_	1	?	?	1	?	?	1	?	?	1	Der	_	3	the	_	_	_	1	La	_	1	La	_	?	?	?	1	?	?	1	A	_
@@ -1626,8 +1626,8 @@
 # sent_id = 132986
 # text:  If I ask you to envision what a great day looks like next week, you might describe it in more general terms.
 # trans: Se eu vos pedir para imaginarem como será um dia maravilhoso na próxima semana, poderão descrevê-lo em termos muito gerais.
-# forward_log_prob: -76.24271671206544
-# backward_log_prob: -73.6347898884056
+# forward_log_prob: -76.24610017938821
+# backward_log_prob: -73.6358095634107
 1	If	If	Contingency.Condition.Arg2-as-cond	?	?	?	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	1	If	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Si	TEMPORAL	1	Si	Concession.COMPARISON|Condition.CONTIGENCY	1	Se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	1	Se	CONTIGENCY|Condition.CONTIGENCY
 2	I	I	_	4	أن	_	1	?	?	1	?	?	1	?	?	2	ich	_	2	I	_	_	_	?	?	?	2	je	_	2	vi	_	1	?	?	2	eu	_
 3	ask	ask	_	1	إن	_	1	?	?	1	?	?	1	?	?	4	bitte,	_	3	ask	_	_	_	2	les	_	4	demande	_	2	vi	_	1	?	?	4	pedir	_
@@ -1654,8 +1654,8 @@
 # sent_id = 132987
 # text:  But if I ask you to describe a great day at TED tomorrow, you might describe it with granular, practical clarity.
 # trans: Mas se eu pedir que descrevam um dia maravilhoso amanhã no TED, podem descrevê-lo com uma clareza granular, prática.
-# forward_log_prob: -63.13433256733593
-# backward_log_prob: -66.43651974059631
+# forward_log_prob: -63.13697768738452
+# backward_log_prob: -66.43359776559856
 1	But	But	Comparison.Contrast	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	aber	Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON	1	But	precedence.Asynchronous.TEMPORAL	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Alternative.EXPANSION|COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Exception.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Pero	precedence.Asynchronous.TEMPORAL	1	Mais	Contrast.COMPARISON|Exception.EXPANSION	1	Ma	Concession.COMPARISON|Contrast.COMPARISON	1	?	?	1	Mas	COMPARISON|Concession.COMPARISON|Conjunction.EXPANSION|EXPANSION
 2	if	if	Contingency.Condition.Arg2-as-cond	?	?	?	1	?	?	1	?	?	1	?	?	1	Wenn	Condition.CONTIGENCY|Synchronous.TEMPORAL	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	si	TEMPORAL	2	si	Concession.COMPARISON|Condition.CONTIGENCY	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	2	se	CONTIGENCY|Condition.CONTIGENCY
 3	I	I	_	6	أن	_	1	?	?	1	?	?	1	?	?	2	ich	_	3	I	_	_	_	5	cómo	_	3	je	_	3	vi	_	1	?	?	3	eu	_
@@ -1681,8 +1681,8 @@
 # sent_id = 132988
 # text:  And this is what a near win does.
 # trans: E é isso o que uma quase vitória faz.
-# forward_log_prob: -21.311018572735986
-# backward_log_prob: -20.63038637895302
+# forward_log_prob: -21.304386296701647
+# backward_log_prob: -20.67260569010846
 1	And	And	Expansion.Conjunction	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	1	And	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	1	Y	_	1	Et	Conjunction.EXPANSION	2	questo	_	1	?	?	1	E	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 2	this	this	_	2	هذا	_	1	?	?	1	?	?	1	?	?	1	Das	_	2	this	_	result.Cause.CONTIGENCY	_	2	esto	_	2	c'est	_	2	questo	_	1	?	?	3	isso	_
 3	is	is	_	2	هذا	_	1	?	?	1	?	?	1	?	?	2	macht	_	3	is	_	_	_	3	es	_	2	c'est	_	1	È	_	1	?	?	2	é	_
@@ -1695,8 +1695,8 @@
 # sent_id = 132989
 # text:  It gets us to focus on what, right now, we plan to do to address that mountain in our sights.
 # trans: Leva-nos a concentrar-nos sobre o que, neste preciso momento, pretendemos fazer para abordar aquela montanha à nossa vista.
-# forward_log_prob: -67.33500473899569
-# backward_log_prob: -68.05487959153511
+# forward_log_prob: -67.33648495767156
+# backward_log_prob: -68.04356552796494
 1	It	It	_	?	?	?	1	?	?	1	?	?	1	?	?	2	lässt	_	1	It	_	_	_	3	concentrarnos,	_	4	à	specification.Restatement.EXPANSION	?	?	?	1	?	?	1	Leva-nos	_
 2	gets	gets	_	2	يجعلنا	_	1	?	?	1	?	?	1	?	?	3	uns	_	2	gets	_	_	_	1	Nos	_	3	amène	_	?	?	?	1	?	?	?	?	?
 3	us	us	_	2	يجعلنا	_	1	?	?	1	?	?	1	?	?	3	uns	_	3	us	_	_	_	1	Nos	_	2	nous	_	1	Ci	_	1	?	?	3	concentrar-nos	_
@@ -1721,8 +1721,8 @@
 # sent_id = 132990
 # text:  It's Jackie Joyner-Kersee, who in 1984 missed taking the gold in the heptathlon by one third of a second, and her husband predicted that would give her the tenacity she needed in follow-up competition.
 # trans: É Jackie Joyner-Kersee que, em 1984, não conseguiu o ouro no heptatlo por um terço de segundo, e o marido previu que isso lhe iria dar a tenacidade de que ela precisava na competição seguinte.
-# forward_log_prob: -128.2978203214845
-# backward_log_prob: -126.88980019727539
+# forward_log_prob: -128.29472067967905
+# backward_log_prob: -126.87744473992889
 1	It's	It's	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It's	_	_	_	1	Es	_	1	C'est	_	?	?	?	1	?	?	1	É	_
 2	Jackie	Jackie	_	2	جاكي	_	1	?	?	1	?	?	1	?	?	2	war	_	2	Jackie	_	_	_	2	Jackie	_	2	Jackie	_	1	Quando	Condition.CONTIGENCY|Synchronous.TEMPORAL|succession.Asynchronous.TEMPORAL	1	?	?	2	Jackie	_
 3	Joyner-Kersee,	Joyner-Kersee,	_	2	جاكي	_	1	?	?	1	?	?	1	?	?	3	Jackie	_	3	Joyner-Kersee,	_	_	_	3	Joyner-Kersee,	_	3	Koyner-Kersee	_	3	Joyner-Kersee	_	1	?	?	3	Joyner-Kersee	_
@@ -1733,7 +1733,7 @@
 8	taking	taking	_	5	كيرسي،	_	1	?	?	1	?	?	1	?	?	8	verpasste,	_	8	taking	_	_	_	7	perdió	_	8	manqué	_	9	medaglia	_	1	?	?	8	conseguiu	_
 9	the	the	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	9	the	_	_	_	8	el	_	9	la	_	8	la	_	1	?	?	9	o	_
 10	gold	gold	_	?	?	?	1	?	?	1	?	?	1	?	?	9	Gold	_	10	gold	_	_	_	9	oro	_	10	médaille	_	7	vinse	_	1	?	?	10	ouro	_
-11	in	in	_	7	في	_	1	?	?	1	?	?	1	?	?	?	?	?	11	in	_	_	_	10	en	_	11	d'or	_	?	?	?	1	?	?	?	?	?
+11	in	in	_	7	في	_	1	?	?	1	?	?	1	?	?	?	?	?	11	in	_	_	_	10	en	_	?	?	?	?	?	?	1	?	?	?	?	?
 12	the	the	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	12	the	_	_	_	?	?	?	?	?	?	?	?	?	1	?	?	?	?	?
 13	heptathlon	heptathlon	_	11	الذهبية	_	1	?	?	1	?	?	1	?	?	15	nur	Contrast.COMPARISON	13	heptathlon	_	_	_	11	heptatlón	_	13	l'heptathlon	_	27	cui	_	1	?	?	12	heptatlo	_
 14	by	by	_	12	بالسباعي	_	1	?	?	1	?	?	1	?	?	13	holen	_	14	by	_	_	_	?	?	?	?	?	?	17	suo	_	1	?	?	15	terço	_
@@ -1761,8 +1761,8 @@
 # sent_id = 132991
 # text:  In 1988, she won the gold in the heptathlon and set a record of 7,291 points, a score that no athlete has come very close to since.
 # trans: Em 1988, ganhou o ouro no heptatlo e bateu o recorde com 7 291 pontos, uma pontuação de que, até aí, nenhuma atleta se tinha aproximado.
-# forward_log_prob: -94.297869519006
-# backward_log_prob: -92.06633880427196
+# forward_log_prob: -94.30588561442752
+# backward_log_prob: -92.07327389473593
 1	In	In	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	1	In	_	_	_	1	En	_	1	En	Condition.CONTIGENCY|TEMPORAL|specification.Restatement.EXPANSION	1	Nel	_	1	?	?	1	Em	_
 2	1988,	1988,	_	1	وفي	TEMPORAL	1	?	?	1	?	?	1	?	?	1	1988	_	2	1988,	_	_	_	2	1988	_	2	1988,	_	2	1988	_	1	?	?	2	1988,	_
 3	she	she	_	5	الذهبية	_	1	?	?	1	?	?	1	?	?	3	sie	_	3	she	_	_	_	?	?	?	3	elle	_	3	vinse	_	1	?	?	?	?	?
@@ -1771,7 +1771,7 @@
 6	gold	gold	_	5	الذهبية	_	1	?	?	1	?	?	1	?	?	4	Gold	_	6	gold	_	_	_	5	oro	_	7	médaille	_	3	vinse	_	1	?	?	5	ouro	_
 7	in	in	_	5	الذهبية	_	1	?	?	1	?	?	1	?	?	6	Siebenkampf	_	7	in	_	_	_	6	en	_	7	médaille	_	?	?	?	1	?	?	?	?	?
 8	the	the	_	?	?	?	1	?	?	1	?	?	1	?	?	9	den	_	8	the	_	_	_	?	?	?	6	la	_	8	il	_	1	?	?	6	no	_
-9	heptathlon	heptathlon	_	?	?	?	1	?	?	1	?	?	1	?	?	6	Siebenkampf	_	9	heptathlon	_	_	_	?	?	?	7	médaille	_	?	?	?	1	?	?	7	heptatlo	_
+9	heptathlon	heptathlon	_	?	?	?	1	?	?	1	?	?	1	?	?	6	Siebenkampf	_	9	heptathlon	_	_	_	?	?	?	8	d'or	_	?	?	?	1	?	?	7	heptatlo	_
 10	and	and	Expansion.Conjunction	8	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	7	und	Conjunction.EXPANSION|Contrast.COMPARISON|precedence.Asynchronous.TEMPORAL	10	and	_	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	Concession.COMPARISON|Condition.CONTIGENCY|Conjunction.EXPANSION|Contrast.COMPARISON|EXPANSION|Instantiation.EXPANSION|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	?	?	?	11	et	Conjunction.EXPANSION	6	e	Conjunction.EXPANSION|precedence.Asynchronous.TEMPORAL	1	?	?	8	e	Asynchronous.TEMPORAL|CONTIGENCY|Cause.CONTIGENCY|Conjunction.EXPANSION|EXPANSION|TEMPORAL|precedence.Asynchronous.TEMPORAL|result.Cause.CONTIGENCY
 11	set	set	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	11	set	_	_	_	11	marca	_	?	?	?	?	?	?	1	?	?	?	?	?
 12	a	a	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	12	a	_	_	_	10	una	_	?	?	?	?	?	?	1	?	?	?	?	?
@@ -1794,8 +1794,8 @@
 # sent_id = 132992
 # text:  We thrive not when we've done it all, but when we still have more to do.
 # trans: Não florescemos quando acabamos de fazer tudo, mas quando ainda temos mais para fazer.
-# forward_log_prob: -44.319740019542806
-# backward_log_prob: -47.30289517674889
+# forward_log_prob: -44.32093755276273
+# backward_log_prob: -47.30467952396527
 1	We	We	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Progresamos	_	1	Nous	_	1	Noi	_	1	?	?	2	florescemos	_
 2	thrive	thrive	_	2	نزدهر	_	1	?	?	1	?	?	1	?	?	2	haben	_	2	thrive	_	_	_	1	Progresamos	_	3	prospérons	_	2	spingiamo	_	1	?	?	2	florescemos	_
 3	not	not	_	3	ليس	_	1	?	?	1	?	?	1	?	?	3	keinen	_	3	not	_	_	_	2	no	_	2	ne	_	3	non	_	1	?	?	1	Não	_
@@ -1816,8 +1816,8 @@
 # sent_id = 132993
 # text:  I stand here thinking and wondering about all the different ways that we might even manufacture a near win in this room, how your lives might play this out, because I think on some gut level we do know this.
 # trans: Estou aqui à vossa frente, a pensar e a imaginar todos os caminhos diferentes que podíamos trabalhar para uma quase vitória nesta sala, como as nossas vidas podiam acontecer porque penso que, cá dentro, sabemos isso.
-# forward_log_prob: -147.60793113937848
-# backward_log_prob: -154.65763807303142
+# forward_log_prob: -147.59756057885085
+# backward_log_prob: -154.68008679203064
 1	I	I	_	?	?	?	1	?	?	1	?	?	1	?	?	1	Ich	_	1	I	_	_	_	?	?	?	1	Je	_	3	a	_	1	?	?	?	?	?
 2	stand	stand	_	2	هنا	_	1	?	?	1	?	?	1	?	?	2	stehe	_	2	stand	_	_	_	1	Pienso	_	3	tiens	_	2	qui	_	1	?	?	2	aqui	_
 3	here	here	_	1	أقف	_	1	?	?	1	?	?	1	?	?	2	stehe	_	3	here	_	precedence.Asynchronous.TEMPORAL	_	2	e	_	2	me	_	1	Sono	_	1	?	?	1	Estou	_
@@ -1862,8 +1862,8 @@
 # sent_id = 132994
 # text:  We know that we thrive when we stay at our own leading edge, and it's why the deliberate incomplete is inbuilt into creation myths.
 # trans: Sabemos que florescemos quando nos situamos na nossa própria vanguarda, e é por isso que o incompleto deliberado está entranhado nos mitos da criação.
-# forward_log_prob: -84.25393785114629
-# backward_log_prob: -81.50212556738032
+# forward_log_prob: -84.25232753010768
+# backward_log_prob: -81.50953136132246
 1	We	We	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	1	Sabemos	_	1	Nous	_	1	Sappiamo	_	1	?	?	1	Sabemos	_
 2	know	know	_	2	نعلم	_	1	?	?	1	?	?	1	?	?	2	wissen,	_	2	know	_	_	_	1	Sabemos	_	2	savons	_	1	Sappiamo	_	1	?	?	1	Sabemos	_
 3	that	that	_	2	نعلم	_	1	?	?	1	?	?	1	?	?	3	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	3	that	_	_	_	2	que	_	3	que	_	2	di	_	1	?	?	2	que	_
@@ -1892,8 +1892,8 @@
 # sent_id = 132995
 # text:  In Navajo culture, some craftsmen and women would deliberately put an imperfection in textiles and ceramics.
 # trans: Na cultura navajo, alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas.
-# forward_log_prob: -55.874258010831014
-# backward_log_prob: -49.64079372223935
+# forward_log_prob: -55.86203135523869
+# backward_log_prob: -49.645386967789655
 1	In	In	_	1	في	_	1	?	?	1	?	?	1	?	?	1	In	_	1	In	_	_	_	1	En	_	1	Dans	_	?	?	?	1	?	?	1	Na	_
 2	Navajo	Navajo	_	2	ثقافة	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	2	Navajo	_	_	_	4	navajo,	_	4	Navajo,	_	3	Navajo,	_	1	?	?	3	navajo,	_
 3	culture,	culture,	_	3	النافاجو،	_	1	?	?	1	?	?	1	?	?	3	Navajo-Kultur	_	3	culture,	_	_	_	3	cultura	_	3	culture	_	1	Nella	_	1	?	?	2	cultura	_
@@ -1914,8 +1914,8 @@
 # sent_id = 132996
 # text:  It's what's called a spirit line, a deliberate flaw in the pattern to give the weaver or maker a way out, but also a reason to continue making work.
 # trans: Chamavam-lhe uma linha de espírito, um defeito deliberado no desenho para dar ao tecelão ou ao artesão uma saída, mas também uma razão para continuar a trabalhar.
-# forward_log_prob: -96.09538926689449
-# backward_log_prob: -98.88668026180149
+# forward_log_prob: -96.10503966569821
+# backward_log_prob: -98.89703919814731
 1	It's	It's	_	1	إنه	_	1	?	?	1	?	?	1	?	?	?	?	?	1	It's	_	_	_	5	llama	_	1	C'est	_	1	Viene	_	1	?	?	?	?	?
 2	what's	what's	_	?	?	?	1	?	?	1	?	?	1	?	?	?	?	?	2	what's	_	_	_	5	llama	_	2	appelé	_	2	chiamata	_	1	?	?	?	?	?
 3	called	called	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Das	_	3	called	_	_	_	4	se	_	2	appelé	_	?	?	?	1	?	?	3	linha	_
@@ -1949,8 +1949,8 @@
 # sent_id = 132997
 # text:  Masters are not experts because they take a subject to its conceptual end.
 # trans: Os mestres não são especialistas por levar um tema ao seu fim conceptual.
-# forward_log_prob: -41.15907117468019
-# backward_log_prob: -38.79315614755012
+# forward_log_prob: -41.16127925743022
+# backward_log_prob: -38.792467781868055
 1	Masters	Masters	_	5	لأنهم	_	1	?	?	1	?	?	1	?	?	1	Meister	_	1	Masters	_	_	_	2	maestros	_	2	maîtres	_	2	maestri	_	1	?	?	2	mestres	_
 2	are	are	_	2	المتفوقين	_	1	?	?	1	?	?	1	?	?	2	sind	_	2	are	_	_	_	1	Los	_	1	Les	_	1	I	_	1	?	?	1	Os	_
 3	not	not	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	sind	_	3	not	_	_	_	3	no	_	3	ne	_	3	non	_	1	?	?	3	não	_
@@ -1968,8 +1968,8 @@
 # sent_id = 132998
 # text:  They're masters because they realize that there isn't one.
 # trans: São mestres porque percebem que ele não existe.
-# forward_log_prob: -21.899487909503915
-# backward_log_prob: -26.584105392773964
+# forward_log_prob: -21.905827051216743
+# backward_log_prob: -26.58878535928203
 1	They're	They're	_	1	إنهم	_	1	?	?	1	?	?	1	?	?	1	Sie	_	1	They're	_	_	_	?	?	?	1	Ils	_	?	?	?	1	?	?	?	?	?
 2	masters	masters	_	3	لأنهم	_	1	?	?	1	?	?	1	?	?	2	sind	_	2	masters	_	_	_	1	Son	_	2	sont	_	1	Sono	_	1	?	?	1	São	_
 3	because	because	Contingency.Cause.Reason	3	لأنهم	_	1	?	?	1	?	?	1	?	?	4	weil	reason.Cause.CONTIGENCY	3	because	CONTIGENCY|Cause.CONTIGENCY	_	Cause.CONTIGENCY|Condition.CONTIGENCY|reason.Cause.CONTIGENCY	3	porque	CONTIGENCY|Cause.CONTIGENCY	5	parce	_	3	perché	reason.Cause.CONTIGENCY	1	?	?	3	porque	CONTIGENCY|Cause.CONTIGENCY|reason.Cause.CONTIGENCY
@@ -1983,8 +1983,8 @@
 # sent_id = 132999
 # text:  Now it occurred to me, as I thought about this, why the archery coach told me at the end of that practice, out of earshot of his archers, that he and his colleagues never feel they can do enough for their team, never feel there are enough visualization techniques and posture drills to help them overcome those constant near wins.
 # trans: Ora bem, quando estava a pensar nisto, recordei o que o treinador das arqueiras me disse no fim daquele treino, sem que as arqueiras ouvissem, que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa, nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias.
-# forward_log_prob: -259.4989765539056
-# backward_log_prob: -249.56358729304617
+# forward_log_prob: -259.49194618699175
+# backward_log_prob: -249.48993271753625
 1	Now	Now	_	1	الآن	_	1	?	?	1	?	?	1	?	?	?	?	?	1	Now	_	Synchronous.TEMPORAL	_	?	?	?	2	m'est	_	?	?	?	1	?	?	?	?	?
 2	it	it	_	3	على	_	?	?	?	?	?	?	?	?	?	?	?	?	2	it	_	_	_	?	?	?	1	Il	_	?	?	?	?	?	?	?	?	?
 3	occurred	occurred	_	2	خطر	_	?	?	?	?	?	?	?	?	?	3	darüber	_	3	occurred	_	_	_	3	hablo	_	2	m'est	_	1	Adesso	_	?	?	?	1	Ora	Conjunction.EXPANSION|EXPANSION
@@ -2004,7 +2004,7 @@
 17	at	at	_	13	في	_	?	?	?	?	?	?	?	?	?	14	am	_	17	at	_	_	_	11	de	_	19	à	specification.Restatement.EXPANSION	13	alla	precedence.Asynchronous.TEMPORAL	?	?	?	14	arqueiras	_
 18	the	the	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?	18	the	_	_	_	?	?	?	?	?	?	?	?	?	?	?	?	?	?	?
 19	end	end	_	14	نهاية	_	?	?	?	?	?	?	?	?	?	15	Ende	_	19	end	_	_	_	17	final	_	21	fin	_	14	fine	_	?	?	?	18	fim	_
-20	of	of	_	?	?	?	?	?	?	?	?	?	?	?	?	14	am	_	20	of	_	_	_	22	de	_	25	de	_	?	?	?	?	?	?	?	?	?
+20	of	of	_	?	?	?	?	?	?	?	?	?	?	?	?	14	am	_	20	of	_	_	_	22	de	_	22	de	_	?	?	?	?	?	?	?	?	?
 21	that	that	_	?	?	?	?	?	?	?	?	?	?	?	?	24	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	21	that	_	_	_	?	?	?	?	?	?	21	che	_	?	?	?	21	sem	COMPARISON|Concession.COMPARISON
 22	practice,	practice,	_	16	التمرين،	_	?	?	?	?	?	?	?	?	?	22	Schützinnen	_	22	practice,	_	_	_	20	práctica,	_	23	l'entraînement,	_	19	delle	_	?	?	?	20	treino,	_
 23	out	out	_	16	التمرين،	_	?	?	?	?	?	?	?	?	?	16	dieses	_	23	out	_	_	_	?	?	?	23	l'entraînement,	_	20	arciere,	_	?	?	?	20	treino,	_
@@ -2049,8 +2049,8 @@
 # sent_id = 133000
 # text:  It didn't sound like a complaint, exactly, but just a way to let me know, a kind of tender admission, to remind me that he knew he was giving himself over to a voracious, unfinished path that always required more.
 # trans: Não parecia propriamente um lamento, mas apenas uma forma de me transmitir uma espécie de meigo reconhecimento, para me chamar a atenção de que ele sabia que estava empenhado num caminho voraz, inacabado que exigia sempre mais.
-# forward_log_prob: -136.64926116239252
-# backward_log_prob: -146.7841783456248
+# forward_log_prob: -136.66809164310317
+# backward_log_prob: -146.80077137622092
 1	It	It	_	2	يبدو	_	1	?	?	1	?	?	1	?	?	1	Es	_	1	It	_	_	_	?	?	?	11	de	_	?	?	?	1	?	?	?	?	?
 2	didn't	didn't	_	1	لم	_	1	?	?	1	?	?	1	?	?	3	nicht	_	2	didn't	_	_	_	1	No	_	2	n'était	_	1	Non	_	1	?	?	1	Não	_
 3	sound	sound	_	3	الأمر	_	1	?	?	1	?	?	1	?	?	2	klang	_	3	sound	_	_	_	2	sonaba	_	2	n'était	_	2	sembrava	_	1	?	?	3	propriamente	_
@@ -2074,7 +2074,7 @@
 21	to	to	_	17	كي	PragmaticCause.CONTIGENCY	1	?	?	1	?	?	1	?	?	22	zu	_	21	to	_	_	_	15	para	CONTIGENCY|Cause.CONTIGENCY	20	pour	specification.Restatement.EXPANSION	17	per	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	1	?	?	18	para	CONTIGENCY|PragmaticCause.CONTIGENCY
 22	remind	remind	_	19	بأنه	_	1	?	?	1	?	?	1	?	?	19	Beitrittsangebot,	_	22	remind	_	_	_	16	recordarme	_	22	rappeler	_	18	ricordarmi	_	1	?	?	20	chamar	_
 23	me	me	_	20	علم	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	20	mich	_	23	me	_	_	_	16	recordarme	_	21	me	_	?	?	?	1	?	?	19	me	_
-24	that	that	_	19	بأنه	_	1	?	?	1	?	?	1	?	?	24	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	24	that	_	_	_	17	que	_	23	qu'il	_	19	che	_	1	?	?	24	que	_
+24	that	that	_	19	بأنه	_	1	?	?	1	?	?	1	?	?	24	dass	PragmaticCause.CONTIGENCY|reason.Cause.CONTIGENCY	24	that	_	_	_	18	se	_	23	qu'il	_	19	che	_	1	?	?	24	que	_
 25	he	he	_	24	نفسه	_	1	?	?	1	?	?	1	?	?	25	er	_	25	he	_	_	_	?	?	?	23	qu'il	_	20	lui	_	1	?	?	25	ele	_
 26	knew	knew	_	23	يقدم	_	1	?	?	1	?	?	1	?	?	23	erinnern,	_	26	knew	_	_	_	19	estaba	_	24	savait	_	23	si	_	1	?	?	26	sabia	_
 27	he	he	_	24	نفسه	_	1	?	?	1	?	?	1	?	?	25	er	_	27	he	_	_	_	?	?	?	25	qu'il	_	?	?	?	1	?	?	25	ele	_
@@ -2095,8 +2095,8 @@
 # sent_id = 133001
 # text:  We build out of the unfinished idea, even if that idea is our former self.
 # trans: Construímos a partir da ideia inacabada, mesmo que essa ideia seja o nosso antigo Eu.
-# forward_log_prob: -50.93719357649238
-# backward_log_prob: -47.79562822442502
+# forward_log_prob: -50.9431385043909
+# backward_log_prob: -47.798829087233365
 1	We	We	_	1	نحن	_	1	?	?	1	?	?	1	?	?	1	Wir	_	1	We	_	_	_	?	?	?	1	Nous	_	1	Noi	_	1	?	?	1	Construímos	_
 2	build	build	_	2	نبني	_	1	?	?	1	?	?	1	?	?	2	bauen	_	2	build	_	_	_	1	Nos	_	2	construisons	_	2	costruiamo	_	1	?	?	1	Construímos	_
 3	out	out	_	2	نبني	_	1	?	?	1	?	?	1	?	?	4	unvollständigen	_	3	out	_	_	_	3	a	_	4	l'idée	_	2	costruiamo	_	1	?	?	2	a	_
@@ -2116,8 +2116,8 @@
 # sent_id = 133002
 # text:  This is the dynamic of mastery.
 # trans: É esta a dinâmica da mestria.
-# forward_log_prob: -15.26257279494835
-# backward_log_prob: -12.45749355782419
+# forward_log_prob: -15.26502067115372
+# backward_log_prob: -12.47151911737286
 1	This	This	_	2	هذا	_	1	?	?	1	?	?	1	?	?	1	Das	_	1	This	_	result.Cause.CONTIGENCY	_	1	Esta	_	1	C'est	_	1	Questa	_	1	?	?	2	esta	_
 2	is	is	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	ist	_	2	is	_	_	_	2	es	_	1	C'est	_	2	è	_	1	?	?	1	É	_
 3	the	the	_	3	يمثل	_	1	?	?	1	?	?	1	?	?	3	die	_	3	the	_	_	_	3	la	_	2	la	_	3	la	_	1	?	?	3	a	_
@@ -2128,8 +2128,8 @@
 # sent_id = 133003
 # text:  Coming close to what you thought you wanted can help you attain more than you ever dreamed you could.
 # trans: Aproximarmo-nos daquilo que pensávamos que queríamos pode ajudar-nos a alcançar mais do que o que jamais sonháramos poder.
-# forward_log_prob: -56.637679891398534
-# backward_log_prob: -61.8132157921706
+# forward_log_prob: -56.64092157144113
+# backward_log_prob: -61.80687301808792
 1	Coming	Coming	_	1	فأن	_	1	?	?	1	?	?	1	?	?	4	kommen,	_	1	Coming	_	_	_	1	Acercarse	_	1	S'approcher	_	2	vicini	_	1	?	?	1	Aproximarmo-nos	_
 2	close	close	_	2	تصبح	_	1	?	?	1	?	?	1	?	?	1	Dem	_	2	close	_	_	_	1	Acercarse	_	1	S'approcher	_	1	Arrivare	_	1	?	?	2	daquilo	_
 3	to	to	_	?	?	?	1	?	?	1	?	?	1	?	?	3	zu	_	3	to	_	_	_	3	lo	_	2	de	_	3	a	_	1	?	?	3	que	_
@@ -2153,8 +2153,8 @@
 # sent_id = 133004
 # text:  It's what I have to imagine Elizabeth Murray was thinking when I saw her smiling at those early paintings one day in the galleries.
 # trans: Sou forçada a imaginar que era nisso que Elizabeth Murray estava a pensar quando a vi sorrir um dia diante daquelas primeiras pinturas nas galerias.
-# forward_log_prob: -93.18589805438958
-# backward_log_prob: -85.77970368976231
+# forward_log_prob: -93.19114478184372
+# backward_log_prob: -85.7792118370917
 1	It's	It's	_	1	إنه	_	1	?	?	1	?	?	1	?	?	1	Das,	_	1	It's	_	_	_	1	Es	_	1	C'est	_	1	È	_	1	?	?	1	Sou	_
 2	what	what	_	2	ما	specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	4	dachte	_	2	what	_	_	_	2	lo	_	2	ce	_	2	ciò	_	1	?	?	2	forçada	_
 3	I	I	_	4	أن	_	1	?	?	1	?	?	1	?	?	3	ich,	_	3	I	_	_	_	4	imagino	_	3	que	_	3	che	_	1	?	?	?	?	?
@@ -2183,8 +2183,8 @@
 # sent_id = 133005
 # text:  Even if we created utopias, I believe we would still have the incomplete.
 # trans: Mesmo que criássemos utopias, acho que continuaríamos a ter o incompleto.
-# forward_log_prob: -32.95046089200236
-# backward_log_prob: -38.83487195342793
+# forward_log_prob: -32.951095939683725
+# backward_log_prob: -38.83935430274923
 1	Even	Even	Contingency.Condition.Arg2-as-cond	1	و	Conjunction.EXPANSION|equivalence.Restatement.EXPANSION|specification.Restatement.EXPANSION	1	?	?	1	?	?	1	?	?	1	Selbst	_	1	Even	_	_	_	3	creamos	_	1	Même	Concession.COMPARISON	1	Anche	Concession.COMPARISON	1	?	?	1	Mesmo	COMPARISON|Concession.COMPARISON
 2	if	if	Contingency.Condition.Arg2-as-cond	3	لو	Condition.CONTIGENCY	1	?	?	1	?	?	1	?	?	1	Selbst	_	2	if	TEMPORAL	_	COMPARISON|Concession.COMPARISON|Condition.CONTIGENCY|Contrast.COMPARISON|result.Cause.CONTIGENCY|specification.Restatement.EXPANSION	2	si	TEMPORAL	2	si	Concession.COMPARISON|Condition.CONTIGENCY	2	se	Cause.CONTIGENCY|Condition.CONTIGENCY|result.Cause.CONTIGENCY	1	?	?	1	Mesmo	COMPARISON|Concession.COMPARISON
 3	we	we	_	4	صنعنا	_	1	?	?	1	?	?	1	?	?	3	wir	_	3	we	_	_	_	1	Aún	_	3	nous	_	3	creassimo	_	1	?	?	?	?	?
@@ -2202,8 +2202,8 @@
 # sent_id = 133006
 # text:  Completion is a goal, but we hope it is never the end.
 # trans: A conclusão é uma meta, mas esperamos que nunca seja o fim.
-# forward_log_prob: -34.775127342413356
-# backward_log_prob: -33.887312026282224
+# forward_log_prob: -34.78365967356042
+# backward_log_prob: -33.898977542366914
 1	Completion	Completion	_	2	الإكتمال	_	1	?	?	1	?	?	1	?	?	1	Vervollständigung	_	1	Completion	_	_	_	2	completud	_	1	L'achèvement	_	2	completezza	_	1	?	?	2	conclusão	_
 2	is	is	_	1	إن	_	1	?	?	1	?	?	1	?	?	2	ist	_	2	is	_	_	_	1	La	_	2	est	_	1	La	_	1	?	?	1	A	_
 3	a	a	_	1	إن	_	1	?	?	1	?	?	1	?	?	4	Ziel,	_	3	a	_	_	_	3	es	_	3	un	_	4	un	_	1	?	?	4	uma	_
@@ -2221,7 +2221,7 @@
 # text:  Thank you.
 # trans: Obrigada.
 # forward_log_prob: -3.542469818713167
-# backward_log_prob: -3.1961835803919834
+# backward_log_prob: -3.196168398653617
 1	Thank	Thank	_	1	شكراً	_	1	?	?	1	?	?	1	?	?	1	Danke	_	1	Thank	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	?	?	1	Obrigada.	_
 2	you.	you.	_	3	(تصفيق)	_	1	?	?	1	?	?	1	?	?	2	schön.	_	2	you.	_	_	_	1	Gracias.	_	1	Merci.	_	1	Grazie.	_	1	?	?	1	Obrigada.	_
 
