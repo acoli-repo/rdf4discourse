@@ -292,8 +292,12 @@ eval/ted-mdb/ensemble: eval/ted-mdb eval/ted-mdb/data gazetteers
 							if [ -s $$tgt ]; then \
 								echo $$tgt found 1>&2; \
 							else \
-								cp $$doc/$$lang.conll $$tgt; \
+								python3 similarity_align.py 20 $$doc/$$lang.conll=1 eval/ted-mdb/conll/`basename $$doc`/$$lang.conll=0 | \
+								#tee $tgt.1 | \
+								perl -pe 's/^\t[^\n]//g; s/^(#[^\t\n]*=[ \t]*[^\t \n]+)\t[^\n]*/$$1/g; s/^# sent_id/\n# sent_id/g;'  | grep -a -v '^[^0-9#]' | \
+								iconv -f utf-8 -t utf-8 -c > $$tgt; \
 								for gaz in $$doc/*.gaz.$$col; do \
+									#cp $$tgt $$tgt.`ls $$tgt* | wc -l`; \
 									tmp=$$tgt.tmp; \
 									#echo python3 align_conll.py $$tgt=1 $$gaz=1 -low -noids -silent -nopunct;\
 									echo $$tgt": adding "$$gaz 1>&2; \
