@@ -30,3 +30,5 @@
   run
 
       $> bash -e ./eval.sh
+
+- evaluation against TED-MDB doesn't yield impressive results, but ensemble improves over direct gazetteer annotation, mostly because it provides disambiguation. The picture doesn't change drastically if only higher levels of the PDTB hierarchy are concerned, but -dimlex has a positive effect.

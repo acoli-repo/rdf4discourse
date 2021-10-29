@@ -8,6 +8,7 @@ from pprint import pprint
 from io import StringIO
 from copy import copy, deepcopy
 import gzip
+import json
 
 def induce_dimlex(stream, words_col, dm_confidence_col=None, dm_col=None,rel_confidence_col=None, min_freq=10, min_conf=0.25):
 
@@ -571,7 +572,8 @@ for conf in confs:
         dimlex=induce_dimlex(buffer, conf.words_col, dm_confidence_col=-6, dm_col=-5, rel_confidence_col=-4)
 
         if conf.dimlex_mode:
-            pprint(dimlex)
+            print(json.dumps(dimlex))
+            #pprint(dimlex)
 
         #
         # iterate and re-annotate using dimlex
