@@ -81,29 +81,17 @@ all: retrieve.py data gazetteers
 			fi;\
 		done;\
 	done;\
-	echo ; \
-	# \
-	# 	for tgt in data/*txt; do \
-	# 		l1=`basename $$src | sed s/'\.[^\.\/]*$$'//`; \
-	# 		l2=`basename $$tgt | sed s/'\.[^\.\/]*$$'//`; \
-	# 		if [ $$l1 != $$l2 ]; then \
-	# 			mrg=data/$$l1-$$l2.conll;\
-	# 			if [ ! -s $$mrg ]; then \
-	# 				echo $$mrg 1>&2; \
-	# 				(python3 align_bibles.py $$src $$tgt -low -silent > $$mrg) 2>&1 | sed s/'^'/'  '/g 1>&2; \
-	# 			fi; \
-	# 		fi; \
-	# 	done; \
-	# done; \
-	# echo;\
-	)
+	echo ; )
 
+	if [ ! -e ensemble/cs.5.json ]; then python3 ensemble.py ensemble/cs.5.conll -p 7 12 15 18 21 24 27 -dimlex -silent > ensemble/cs.5.json; fi
+	if [ ! -e ensemble/de.5.json ]; then python3 ensemble.py ensemble/de.5.conll -p 4 12 15 18 21 24 27 -dimlex -silent > ensemble/de.5.json; fi
+	if [ ! -e ensemble/en.5.json ]; then python3 ensemble.py ensemble/en.5.conll -p 4 7  15 18 21 24 27 -dimlex -silent > ensemble/en.5.json; fi
+	if [ ! -e ensemble/es.5.json ]; then python3 ensemble.py ensemble/fr.5.conll -p 4 7  12 18 21 24 27 -dimlex -silent > ensemble/es.5.json; fi
+	if [ ! -e ensemble/fr.5.json ]; then python3 ensemble.py ensemble/es.5.conll -p 4 7  12 15 21 24 27 -dimlex -silent > ensemble/fr.5.json; fi
+	if [ ! -e ensemble/it.5.json ]; then python3 ensemble.py ensemble/it.5.conll -p 4 7  12 15 18 24 27 -dimlex -silent > ensemble/it.5.json; fi
+	if [ ! -e ensemble/nl.5.json ]; then python3 ensemble.py ensemble/nl.5.conll -p 4 7  12 15 18 21 27 -dimlex -silent > ensemble/nl.5.json; fi
+	if [ ! -e ensemble/pt.5.json ]; then python3 ensemble.py ensemble/pt.5.conll -p 4 7  12 15 18 21 24 -dimlex -silent > ensemble/pt.5.json; fi
 
-	# python3 similarity_align.py 20  data/$$lang.orig.conll=1 data/$$lang.norm.conll=1 | cut -f 1,2,4 > data/$$lang.conll; \
-	# if [ -s data/$$lang.conll ]; then \
-	# 	rm data/$$lang.*.conll;\
-	# fi;\
-	# egrep '^[0-9]' data/$$lang.conll | wc -l | sed s/'$$'/' tokens'/; \
 
 olia:
 	@echo 'Shall I clone OLiA [Y/n]?' 1>&2
