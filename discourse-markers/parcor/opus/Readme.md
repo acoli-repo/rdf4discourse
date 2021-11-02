@@ -14,6 +14,7 @@ Reasons:
 However:
 - Being directly built on CoNLL-RDF, the pipeline here provided a much more advanced way of integrating the output of the merging operations.
 - As there are manual discourse annotations of Europarl available as part of the [CDT](https://github.com/mbkromann/copenhagen-dependency-treebank). If these can be converted to PDTB- or RST-compliant annotations, this can be an independent source of evaluation. However, these are small in scale and have been independently developed, so that this mapping is not easily done. In fact, they seem to be incomplete. At present (2021), *various* PDTB-compliant annotations for multilingual TED talks represent a better basis for evaluation.
+- Nevertheless, there are (shallow) annotations over English Europarl that can serve as a basis for an independent evaluation: https://www.idiap.ch/dataset/Disco-Annotation (https://www.idiap.ch/webarchives/sites/www.idiap.ch/project/comtis/resources.html)
 
 ## Approach
 
