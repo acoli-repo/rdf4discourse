@@ -1,5 +1,8 @@
 # relres
 
+overview
+- https://sigdial.org/sites/default/files/workshops/conference22/Proceedings/pdf/2021.sigdial-1.34.pdf
+
 multilingual
 - multilingual discourse annotation https://aclanthology.org/W17-4812.pdf
 - induction from parallel text http://aclanthology.lst.uni-saarland.de/C14-1058.pdf, https://www.researchgate.net/publication/344105553_Cross-Lingual_Transfer_for_Hindi_Discourse_Relation_Identification
