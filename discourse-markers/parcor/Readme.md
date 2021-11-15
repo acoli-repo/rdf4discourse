@@ -9,6 +9,7 @@ multilingual
 - case study https://benjamins.com/catalog/btl.158.08men
 - application in multilingual discourse parsing, cf. https://github.com/seq-to-mind/DMRST_Parser
 - https://sigsem.uvt.nl/isa8/isa8_submission_4-2.pdf
+- https://publikationen.sulb.uni-saarland.de/handle/20.500.11880/30143
 
 cross-framework
 - https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZktXZoYv0AhWpx4UKHc2CCoY4KBAWegQIEhAB&url=https%3A%2F%2Fjournals.uic.edu%2Fojs%2Findex.php%2Fdad%2Farticle%2Fdownload%2F10694%2F9469%2F&usg=AOvVaw2McG6jUlOmXxQ_-CUFLXZs
