@@ -13,3 +13,7 @@ multilingual
 cross-framework
 - https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZktXZoYv0AhWpx4UKHc2CCoY4KBAWegQIEhAB&url=https%3A%2F%2Fjournals.uic.edu%2Fojs%2Findex.php%2Fdad%2Farticle%2Fdownload%2F10694%2F9469%2F&usg=AOvVaw2McG6jUlOmXxQ_-CUFLXZs
 - Kracht & Redeker
+
+
+dictionary-based annotation
+- https://www.researchgate.net/publication/327223300_Using_a_Discourse_Bank_and_a_Lexicon_for_the_Automatic_Identification_of_Discourse_Connectives_13th_International_Conference_PROPOR_2018_Canela_Brazil_September_24-26_2018_Proceedings
