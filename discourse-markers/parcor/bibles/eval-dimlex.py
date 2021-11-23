@@ -12,9 +12,44 @@ args.add_argument("-r", "--min_rel", type=float,nargs="?",  help="minimum score 
 args.add_argument("-s", "--min_score", type=float, nargs="?", help="minimum average score for induced dimlex entries, defaults to 0", default=0.0)
 args.add_argument("-depth", "--recursion_limit", type=int, nargs="?", help="set maximum recursion depth in Python (not recommended)", default=None)
 args.add_argument("-auto", "--auto_configure", action="store_true", help="if set, estimate optimal parameters using Heron's approximation, prioritizing parameters with the highest variability; note that this is not guaranteed to lead to a global minimum")
+args.add_argument("-mean","--mean", type=str, nargs="?", help="aggregate function for -auto optimization, defaults to average", default="average")
 
 def do_normalize(string: str):
     return re.sub(r"[,.:;?()\[\]{}!\-_/\\\s0-9'\"]+","",unidecode.unidecode(string)).lower()
+
+# means
+def first(*objects):
+    # return first argument
+    if len(objects)==0:
+        return 0
+    if len(objects)==1:
+        if type(objects[0])==list:
+            return first(*(objects[0]))
+        else:
+            return float(objects[0])
+    else:
+        for o in objects:
+            if type(o)==list:
+                return first(*o)
+            else:
+                return float(o)
+
+def last(*objects):
+    # return last argument
+    if len(objects)==0:
+        return 0
+    if len(objects)==1:
+        if type(objects[0])==list:
+            return last(*(objects[-1]))
+        else:
+            return float(objects[-1])
+    else:
+            o=objects[-1]
+            if type(o)==list:
+                return last(*o)
+            else:
+                return float(o)
+
 
 def average(*objects):
     if len(objects)==0:
@@ -33,8 +68,49 @@ def average(*objects):
                 sum+=float(o)
         return sum/len(objects)
 
-def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0,1], min_freq=[0,1000], min_rel=[0,1], min_score=[0,1]):
-    """ return f_dm and f_rel """
+def harmonic(*objects):
+    if len(objects)==0:
+        return 0
+    if len(objects)==1:
+        if type(objects[0])==list:
+            return harmonic(*(objects[0]))
+        else:
+            return float(objects[0])
+    else:
+        sum=0
+        for o in objects:
+            if isinstance(o,list):
+                sum+=harmonic(*o)
+            else:
+                if o!=0:
+                    sum+=1.0/float(o)
+        if sum==0:
+            return 0
+        return len(objects)/sum
+
+def geometric(*objects):
+    if len(objects)==0:
+        return 0
+    if len(objects)==1:
+        if type(objects[0])==list:
+            return geometric(*(objects[0]))
+        else:
+            return float(objects[0])
+    else:
+        prod=1.0
+        for o in objects:
+            if isinstance(o,list):
+                prod*=geometric(*o)
+            else:
+                if o!=0:
+                    prod*=float(o)
+        prod=abs(prod)
+        return prod**(1.0/float(len(objects)))
+
+def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0,1], min_freq=[0,1000], min_rel=[0,1], min_score=[0,1], mean=average):
+    """ return f_dm and f_rel
+        mean is the function used to aggregate over both
+    """
     if type(min_conf) != list and type(min_freq!=list) and type(min_rel!=list) and type(min_score!=list):
         tp_dm=0
         fp_dm=0
@@ -119,13 +195,13 @@ def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0
 
     else:
         if type(min_conf)!=list:
-            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=[min_conf,min_conf], min_freq=min_freq, min_rel=min_rel, min_score=min_score)
+            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=[min_conf,min_conf], min_freq=min_freq, min_rel=min_rel, min_score=min_score, mean=mean)
         elif type(min_freq)!=list:
-            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=[min_freq,min_freq], min_rel=min_rel, min_score=min_score)
+            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=[min_freq,min_freq], min_rel=min_rel, min_score=min_score, mean=mean)
         elif type(min_rel)!=list:
-            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=min_freq, min_rel=[min_rel,min_rel], min_score=min_score)
+            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=min_freq, min_rel=[min_rel,min_rel], min_score=min_score, mean=mean)
         elif type(min_score)!=list:
-            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=min_freq, min_rel=min_rel, min_score=[min_score,min_score])
+            return eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf, min_freq=min_freq, min_rel=min_rel, min_score=[min_score,min_score], mean=mean)
         else: # all params are in a range
             # mid_dm,mid_rel = eval(induced_cue2entry, cue2rels, normalize=normalize, \
             #     min_conf=average(min_conf[0],min_conf[-1]), \
@@ -133,22 +209,22 @@ def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0
             #     min_rel=average(min_rel[0], min_freq[-1]), \
             #     min_score=average(min_score[0],min_score[-1]))
             updated=False
-            mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf[0], min_freq=average(min_freq), min_rel=average(min_rel), min_score=average(min_score))
+            mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf[0], min_freq=average(min_freq), min_rel=average(min_rel), min_score=average(min_score), mean=mean)
             if min_conf[0]!=min_conf[-1]:
-                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf[-1], min_freq=average(min_freq), min_rel=average(min_rel), min_score=average(min_score))
+                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_conf=min_conf[-1], min_freq=average(min_freq), min_rel=average(min_rel), min_score=average(min_score), mean=mean)
                 if mini_dm==maxi_dm and mini_rel==maxi_rel:
                     min_conf=[min_conf[0], min_conf[0]]
-                elif average(maxi_dm,maxi_rel)>average(mini_dm,mini_rel):
+                elif mean(maxi_dm,maxi_rel)>mean(mini_dm,mini_rel):
                     min_conf=[average(min_conf[0],min_conf[0],min_conf[-1]), min_conf[-1]]
                 else:
                     min_conf=[min_conf[0], average(min_conf[0],min_conf[-1],min_conf[-1])]
                 updated=True
             if min_freq[0]!=min_freq[-1]:
-                mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_freq=min_freq[0], min_conf=average(min_conf), min_rel=average(min_rel), min_score=average(min_score))
-                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_freq=min_freq[-1], min_conf=average(min_conf), min_rel=average(min_rel), min_score=average(min_score))
+                mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_freq=min_freq[0], min_conf=average(min_conf), min_rel=average(min_rel), min_score=average(min_score), mean=mean)
+                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_freq=min_freq[-1], min_conf=average(min_conf), min_rel=average(min_rel), min_score=average(min_score), mean=mean)
                 if mini_dm==maxi_dm and mini_rel==maxi_rel:
                     min_freq=[min_freq[0], min_freq[0]]
-                elif average(maxi_dm,maxi_rel)>average(mini_dm,mini_rel):
+                elif mean(maxi_dm,maxi_rel)>mean(mini_dm,mini_rel):
                     new_min=int(average(min_freq[0],min_freq[0],min_freq[-1]))
                     if new_min!=min_freq[0]:
                         min_freq=[new_min, int(min_freq[-1])]
@@ -160,21 +236,21 @@ def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0
                         updated=True
 
             if min_rel[0]!=min_rel[-1]:
-                mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_rel=min_rel[0], min_conf=average(min_conf), min_freq=average(min_freq), min_score=average(min_score))
-                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_rel=min_rel[-1], min_conf=average(min_conf), min_freq=average(min_freq), min_score=average(min_score))
+                mini_dm,mini_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_rel=min_rel[0], min_conf=average(min_conf), min_freq=average(min_freq), min_score=average(min_score), mean=mean)
+                maxi_dm,maxi_rel= eval(induced_cue2entry, cue2rels, normalize=normalize, min_rel=min_rel[-1], min_conf=average(min_conf), min_freq=average(min_freq), min_score=average(min_score), mean=mean)
                 if mini_dm==maxi_dm and mini_rel==maxi_rel:
                     min_rel=[min_rel[0], min_rel[0]]
-                elif average(maxi_dm,maxi_rel)>average(mini_dm,mini_rel):
+                elif mean(maxi_dm,maxi_rel)>mean(mini_dm,mini_rel):
                     min_rel=[average(min_rel[0],min_rel[0],min_rel[-1]), min_rel[-1]]
                 else:
                     min_rel=[min_rel[0], average(min_rel[0],min_rel[-1],min_rel[-1])]
                 updated=True
             if min_score[0]!=min_score[-1]:
-                mini_dm,mini_score= eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score[0], min_conf=average(min_conf), min_freq=average(min_freq), min_rel=average(min_rel))
-                maxi_dm,maxi_score= eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score[-1], min_conf=average(min_conf), min_freq=average(min_freq), min_rel=average(min_rel))
+                mini_dm,mini_score= eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score[0], min_conf=average(min_conf), min_freq=average(min_freq), min_rel=average(min_rel), mean=mean)
+                maxi_dm,maxi_score= eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score[-1], min_conf=average(min_conf), min_freq=average(min_freq), min_rel=average(min_rel), mean=mean)
                 if mini_dm==maxi_dm and mini_score==maxi_score:
                     min_score=[min_score[0], min_score[0]]
-                elif average(maxi_dm,maxi_score)>average(mini_dm,mini_score):
+                elif mean(maxi_dm,maxi_score)>mean(mini_dm,mini_score):
                     min_score=[average(min_score[0],min_score[0],min_score[-1]), min_score[-1]]
                 else:
                     min_score=[min_score[0], average(min_score[0],min_score[-1],min_score[-1])]
@@ -182,9 +258,16 @@ def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0
             if not updated:
                 return mini_dm,mini_rel
             else:
-                return eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score, min_conf=min_conf, min_freq=min_freq, min_rel=min_rel)
+                return eval(induced_cue2entry, cue2rels, normalize=normalize, min_score=min_score, min_conf=min_conf, min_freq=min_freq, min_rel=min_rel, mean=mean)
 
 args=args.parse_args()
+
+means={ "average": average, "harmonic" : harmonic, "geometric": geometric, "first": first, "last": last }
+
+if args.mean in means:
+    args.mean=means[args.mean]
+else:
+    raise Exception("unknown mean \""+args.mean+", choose one of "+", ".join(means))
 
 if args.recursion_limit!= None and args.recursion_limit>1000: # python default
     sys.setrecursionlimit(args.recursion_limit)
@@ -220,6 +303,6 @@ with open(args.gazetteer) as input:
                     cue2rels[cue]=sorted(set(rels.split("|")))
 
 if args.auto_configure:
-    print(eval(induced_cue2entry, cue2rels, normalize=not args.exact_match))
+    print(eval(induced_cue2entry, cue2rels, normalize=not args.exact_match, mean=args.mean))
 else:
-    print(eval(induced_cue2entry, cue2rels, normalize=not args.exact_match, min_conf=args.min_confidence, min_freq=args.min_freq, min_rel=args.min_rel, min_score=args.min_score))
+    print(eval(induced_cue2entry, cue2rels, normalize=not args.exact_match, min_conf=args.min_confidence, min_freq=args.min_freq, min_rel=args.min_rel, min_score=args.min_score, mean=args.mean))

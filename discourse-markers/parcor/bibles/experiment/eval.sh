@@ -98,6 +98,7 @@ for gaz in 5; do
 done
 
 
+
 # echo iterated, effect of -th vs. -c, discourse 3 only
 # echo "-th -c | predicted dm	gold dm	tp	|	acc_dm	p_dm	r_dm	f_dm	|	acc_r	p_r	r_r	f_r"
 # for th in -1 0.0 0.01 0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0; do
