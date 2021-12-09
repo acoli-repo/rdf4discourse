@@ -1,0 +1,314 @@
+<node head="Text">
+# en/en-00-01-17-40.tag
+# <s>
+1	﻿	NN		_	_	_	_	_	_
+2	Madam	NNP	1:title	3	title	_	_	_	_
+3	President	NNP	6:voc	9	voc	_	_	_	_
+4	,	,	-1:pnct	3	pnct	_	_	_	_
+5	first	JJ	4:mod	9	mod	_	_	_	_
+6	of	IN	-1:pobj	5	pobj	_	_	_	_
+7	all	DT	-1:nobj	6	nobj	_	_	_	_
+8	I	PRP	1:subj	9	subj	_	_	_	_
+9	should	MD		_	_	_	_	_	_
+10	like	VB	-1:vobj	9	vobj	_	_	_	_
+11	to	TO	-1:pobj	10	pobj	_	_	_	_
+12	thank	VB	-1:vobj	11	vobj	_	_	_	_
+13	Mr	NNP	1:title	14	title	_	_	_	_
+14	Koch	NNP	-2:dobj	12	dobj	_	_	_	_
+15	for	IN	-3:pobj	12	pobj	_	_	_	_
+16	his	PRP$	-1:nobj|-2:coref	15	nobj	_	_	_	_
+17	report	NN	-1:nobj	16	nobj	_	_	_	_
+<node rel="ELABORATION">
+18	which	WDT	-2:ref|1:subj	19	subj	_	_	_	_
+19	has	VBZ	-3:ELABORATION	_	_	16	ELABORATION	_	_
+20	,	,	1:pnct	21	pnct	_	_	_	_
+21	at	IN	-2:mod	19	mod	_	_	_	_
+22	its	PRP$	-1:nobj|-4:coref	21	nobj	_	_	_	_
+23	heart	NN	-1:possd	22	possd	_	_	_	_
+24	,	,	-3:pnct	21	pnct	_	_	_	_
+25	the	DT	-6:dobj	19	dobj	_	_	_	_
+26	issue	NN	-1:nobj	25	nobj	_	_	_	_
+27	of	IN	-1:pobj	26	pobj	_	_	_	_
+28	transport	NN	1:mod	29	mod	_	_	_	_
+29	safety	NN	-2:nobj	27	nobj	_	_	_	_
+30	.	.	-21:pnct	9	pnct	_	_	_	_
+<node rel="ELABORATION">
+31	The	DT	-9:coref|2:subj	33	subj	_	_	_	_
+32	report	NN	-1:nobj	31	nobj	_	_	_	_
+33	looks	VBZ	-17:ELABORATION	_	_	16	ELABORATION	_	_
+34	at	IN	-1:pobj	33	pobj	_	_	_	_
+35	the	DT	-1:nobj	34	nobj	_	_	_	_
+36	issue	NN	-1:nobj	35	nobj	_	_	_	_
+37	of	IN	-1:pobj	36	pobj	_	_	_	_
+38	harmonising	VBG	-1:nobj	37	nobj	_	_	_	_
+39	the	DT	-1:dobj	38	dobj	_	_	_	_
+40	examination	NN	1:mod	41	mod	_	_	_	_
+41	requirements	NNS	-2:nobj	39	nobj	_	_	_	_
+42	for	IN	-1:pobj	41	pobj	_	_	_	_
+43	safety	NN	1:mod	44	mod	_	_	_	_
+44	advisors	NNS	-2:nobj|1:[subj]	42	nobj	_	_	_	_
+<node rel="ELABORATION">
+45	working	VBG	-1:ELABORATION	_	_	44	ELABORATION	_	_
+46	in	IN	-1:mod	45	mod	_	_	_	_
+47	the	DT	-1:nobj	46	nobj	_	_	_	_
+48	areas	NNS	-1:nobj	47	nobj	_	_	_	_
+49	of	IN	-1:pobj	48	pobj	_	_	_	_
+50	transportation	NN	-1:nobj	49	nobj	_	_	_	_
+51	of	IN	-1:pobj	50	pobj	_	_	_	_
+52	dangerous	JJ	1:mod	53	mod	_	_	_	_
+53	goods	NNS	-2:nobj	51	nobj	_	_	_	_
+54	by	IN	-4:mod	50	mod	_	_	_	_
+55	road	NN	-1:nobj	54	nobj	_	_	_	_
+56	,	,	-1:pnct	55	pnct	_	_	_	_
+57	rail	NN	-2:conj	55	conj	_	_	_	_
+58	and	CC	2:coord	60	coord	_	_	_	_
+59	inland	RB	1:mod	60	mod	_	_	_	_
+60	waterway	JJ	-5:conj	55	conj	_	_	_	_
+</node>
+61	.	.	-28:pnct	33	pnct	_	_	_	_
+</node>
+<node rel="EVALUATION">
+62	I	PRP	-54:coref|1:subj	63	subj	_	_	_	_
+63	congratulate	VBP	-54:EVALUATION	_	_	9	EVALUATION	_	_
+64	him	PRP	-1:dobj|-50:coref	63	dobj	_	_	_	_
+65	on	IN	-2:pobj	63	pobj	_	_	_	_
+66	his	PRP$	-1:nobj|-35:coref-var	65	nobj	_	_	_	_
+67	excellent	JJ	-1:mod	66	mod	_	_	_	_
+68	report	NN	-2:possd	66	possd	_	_	_	_
+69	.	.	-6:pnct	63	pnct	_	_	_	_
+</node>
+# 
+# 
+# <s>
+<node rel="+ELABORATION">
+72	Transport	NN	1:mod	73	mod	_	_	_	_
+73	safety	NN	-48:coref-var|1:subj	74	subj	_	_	_	_
+74	has	VBZ	-49:+ELABORATION	_	_	25	+ELABORATION	_	_
+75	sadly	RB	-1:mod	74	mod	_	_	_	_
+76	been	VBN	-2:vobj	74	vobj	_	_	_	_
+77	in	IN	-1:preds	76	preds	_	_	_	_
+78	the	DT	-1:nobj	77	nobj	_	_	_	_
+79	news	NN	-1:nobj	78	nobj	_	_	_	_
+80	recently	RB	-6:mod	74	mod	_	_	_	_
+81	:	&3a;	-7:pnct	74	pnct	_	_	_	_
+<node rel="&3a;ELABORATION">
+82	the	DT	18:[subj]|38:subj	120	subj	_	_	_	_
+83	Paddington	NNP	2:mod	85	mod	_	_	_	_
+84	rail	NN	1:mod	85	mod	_	_	_	_
+85	crash	NN	-3:nobj	82	nobj	_	_	_	_
+86	in	IN	-1:mod	85	mod	_	_	_	_
+87	London	NNP	-1:nobj	86	nobj	_	_	_	_
+88	,	,	-6:pnct	82	pnct	_	_	_	_
+89	the	DT	-7:conj	82	conj	_	_	_	_
+90	terrible	JJ	-1:mod	89	mod	_	_	_	_
+91	rail	NN	1:mod	92	mod	_	_	_	_
+92	crash	NN	-3:nobj	89	nobj	_	_	_	_
+93	in	IN	-1:mod	92	mod	_	_	_	_
+94	Norway	NNP	-1:nobj	93	nobj	_	_	_	_
+95	,	,	-13:pnct	82	pnct	_	_	_	_
+96	the	DT	-14:conj	82	conj	_	_	_	_
+97	two	CD	-1:nobj	96	nobj	_	_	_	_
+98	aviation	NN	1:mod	99	mod	_	_	_	_
+99	crashes	NNS	-2:nobj	97	nobj	_	_	_	_
+<node rel="ELABORATION">
+100	involving	VBG	-18:ELABORATION	_	_	82	ELABORATION	_	_
+101	EU	NNP	1:mod	102	mod	_	_	_	_
+102	citizens	NNS	-2:dobj	100	dobj	_	_	_	_
+</node>
+103	and	CC	1:coord	104	coord	_	_	_	_
+104	the	DT	-22:conj|3:[subj]	82	conj	_	_	_	_
+105	natural	JJ	1:mod	106	mod	_	_	_	_
+106	disaster	NN	-2:nobj	104	nobj	_	_	_	_
+<node rel="ELABORATION">
+107	involving	VBG	-3:ELABORATION	_	_	104	ELABORATION	_	_
+108	the	DT	-1:dobj	107	dobj	_	_	_	_
+109	Erika	NNP	-1:nobj	108	nobj	_	_	_	_
+110	off	RP	-1:mod	109	mod	_	_	_	_
+111	Brittany	NNP	-1:nobj	110	nobj	_	_	_	_
+</node>
+112	-	&3a;	1:pnct	113	pnct	_	_	_	_
+113	all	DT	-31:appa	82	appa	_	_	_	_
+114	within	IN	-1:mod	113	mod	_	_	_	_
+115	the	DT	-1:nobj	114	nobj	_	_	_	_
+116	last	JJ	-1:mod	115	mod	_	_	_	_
+117	four	CD	-2:nobj	115	nobj	_	_	_	_
+118	months	NNS	-1:nobj	117	nobj	_	_	_	_
+119	-	&3a;	-6:pnct	113	pnct	_	_	_	_
+120	remind	VB	-46:&3a;ELABORATION	_	_	74	&3a;ELABORATION	_	_
+121	us	PRP	-1:iobj	120	iobj	_	_	_	_
+122	that	IN	-2:dobj|-2:[ATTRIBUTION]	120	dobj	_	_	_	_
+123	transport	NN	1:mod	124	mod	_	_	_	_
+124	safety	NN	-51:coref-iden|1:subj	125	subj	_	_	_	_
+125	can	MD	-3:vobj	122	vobj	_	_	_	_
+126	never	RB	-1:neg	125	neg	_	_	_	_
+127	be	VB	-2:vobj	125	vobj	_	_	_	_
+128	taken	VBN	-1:preds	127	preds	_	_	_	_
+129	for	IN	-1:pobj	128	pobj	_	_	_	_
+130	granted	VBN	-1:vobj	129	vobj	_	_	_	_
+<node rel="JOINT">
+131	and	CC	1:coord	132	coord	_	_	_	_
+132	that	IN	-10:JOINT	_	_	122	JOINT	_	_
+133	those	DT	6:subj	139	subj	_	_	_	_
+<node rel="ELABORATION">
+134	charged	VBN	-1:ELABORATION|-1:[preds]	_	_	133	ELABORATION	_	_
+135	with	IN	-1:pobj	134	pobj	_	_	_	_
+136	protecting	VBG	-1:vobj	135	vobj	_	_	_	_
+137	the	DT	-1:dobj	136	dobj	_	_	_	_
+138	public	NN	-1:nobj	137	nobj	_	_	_	_
+</node>
+139	must	MD	-7:vobj	132	vobj	_	_	_	_
+140	be	VB	-1:vobj	139	vobj	_	_	_	_
+141	highly	RB	1:mod	142	mod	_	_	_	_
+142	motivated	VBN	-2:preds	140	preds	_	_	_	_
+143	and	CC	2:coord	145	coord	_	_	_	_
+144	highly	RB	1:mod	145	mod	_	_	_	_
+145	qualified	VBN	-3:conj	142	conj	_	_	_	_
+</node>
+146	.	.	-26:pnct	120	pnct	_	_	_	_
+# 
+# 
+# <s>
+<node rel="+JOINT">
+149	The	DT	-85:coref-var|2:subj	151	subj	_	_	_	_
+150	rapporteur	NN	-1:nobj	149	nobj	_	_	_	_
+151	has	VBZ	-29:+JOINT	_	_	122	+JOINT	_	_
+152	pointed	VBN	-1:vobj	151	vobj	_	_	_	_
+153	out	RP	-1:part	152	part	_	_	_	_
+154	to	TO	-2:pobj	152	pobj	_	_	_	_
+155	the	DT	-1:nobj	154	nobj	_	_	_	_
+156	House	NNP	-1:nobj	155	nobj	_	_	_	_
+157	that	IN	-5:dobj|-6:[ATTRIBUTION]	152	dobj	_	_	_	_
+158	in	IN	6:mod	164	mod	_	_	_	_
+159	its	PRP$	-1:nobj|3:coref	158	nobj	_	_	_	_
+160	common	JJ	-1:mod	159	mod	_	_	_	_
+161	position	NN	-2:possd	159	possd	_	_	_	_
+162	the	DT	2:subj	164	subj	_	_	_	_
+163	Council	NNP	-1:nobj	162	nobj	_	_	_	_
+164	has	VBZ	-7:vobj	157	vobj	_	_	_	_
+165	accepted	VBN	-1:vobj	164	vobj	_	_	_	_
+166	six	CD	-1:dobj	165	dobj	_	_	_	_
+167	of	IN	-1:pobj	166	pobj	_	_	_	_
+168	Parliament	NNP	1:possr	169	possr	_	_	_	_
+169	's	POS	-2:nobj	167	nobj	_	_	_	_
+170	ten	JJ	-1:possd	169	possd	_	_	_	_
+171	amendments	NNS	-1:nobj	170	nobj	_	_	_	_
+<node rel="ELABORATION">
+172	put	VBD	-3:ELABORATION|-3:[preds]	_	_	169	ELABORATION	_	_
+173	forward	RB	-1:mod	172	mod	_	_	_	_
+174	at	IN	-2:mod	172	mod	_	_	_	_
+175	first	JJ	-1:nobj	174	nobj	_	_	_	_
+176	reading	NN	-1:nobj	175	nobj	_	_	_	_
+</node>
+<node rel="JOINT">
+177	and	CC	1:coord	178	coord	_	_	_	_
+178	that	IN	-21:JOINT	_	_	157	JOINT	_	_
+179	the	DT	7:subj	186	subj	_	_	_	_
+180	substance	NN	-1:nobj	179	nobj	_	_	_	_
+181	of	IN	-1:pobj	180	pobj	_	_	_	_
+182	Parliament	NNP	1:possr	183	possr	_	_	_	_
+183	's	POS	-2:nobj|-14:coref-other	181	nobj	_	_	_	_
+184	other	JJ	-1:possd	183	possd	_	_	_	_
+185	amendments	NNS	-1:nobj	184	nobj	_	_	_	_
+186	has	VBZ	-8:vobj	178	vobj	_	_	_	_
+187	been	VBN	-1:vobj	186	vobj	_	_	_	_
+188	retained	VBN	-1:preds	187	preds	_	_	_	_
+</node>
+189	.	.	-38:pnct	151	pnct	_	_	_	_
+<node rel="CAUSE">
+190	My	PRP$	-128:coref|2:subj	192	subj	_	_	_	_
+191	Group	NNP	-1:nobj	190	nobj	_	_	_	_
+192	will	MD	-41:CAUSE	_	_	151	CAUSE	_	_
+193	therefore	RB	-1:cons	192	cons	_	_	_	_
+194	support	VB	-2:vobj	192	vobj	_	_	_	_
+195	the	DT	-1:dobj|-36:coref-iden	194	dobj	_	_	_	_
+196	common	JJ	-1:mod	195	mod	_	_	_	_
+197	position	NN	-2:nobj	195	nobj	_	_	_	_
+<node rel="JOINT">
+198	and	CC	1:coord	199	coord	_	_	_	_
+199	looks	VBZ	-7:JOINT	_	_	192	JOINT	_	_
+200	forward	RB	-1:mod	199	mod	_	_	_	_
+201	to	TO	-1:pobj	200	pobj	_	_	_	_
+202	the	DT	-1:nobj	201	nobj	_	_	_	_
+203	enactment	NN	-1:nobj	202	nobj	_	_	_	_
+204	of	IN	-1:pobj	203	pobj	_	_	_	_
+205	the	DT	-1:nobj	204	nobj	_	_	_	_
+206	legislation	NN	-1:nobj	205	nobj	_	_	_	_
+<node rel="ELABORATION">
+207	which	WDT	-2:ref|1:subj	208	subj	_	_	_	_
+208	will	MD	-3:ELABORATION	_	_	205	ELABORATION	_	_
+209	provide	VB	-1:vobj	208	vobj	_	_	_	_
+210	us	PRP	-1:dobj	209	dobj	_	_	_	_
+211	with	IN	-2:pobj	209	pobj	_	_	_	_
+212	yet	RB	1:mod	213	mod	_	_	_	_
+213	another	DT	-2:nobj	211	nobj	_	_	_	_
+214	tool	NN	-1:nobj	213	nobj	_	_	_	_
+215	in	IN	-1:mod	214	mod	_	_	_	_
+216	our	PRP$	-1:nobj|-6:coref	215	nobj	_	_	_	_
+217	fight	NN	-1:nobj	216	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+218	to	TO	-2:ENABLEMENT	_	_	216	ENABLEMENT	_	_
+219	make	VB	-1:vobj	218	vobj	_	_	_	_
+220	transport	NN	-1:dobj	219	dobj	_	_	_	_
+221	in	IN	-1:mod	220	mod	_	_	_	_
+222	the	DT	-1:nobj	221	nobj	_	_	_	_
+223	European	NNP	1:mod	224	mod	_	_	_	_
+224	Union	NNP	-2:nobj	222	nobj	_	_	_	_
+225	as	RB	2:correl	227	correl	_	_	_	_
+226	safe	JJ	-7:predo	219	predo	_	_	_	_
+227	as	IN	1:coord	228	coord	_	_	_	_
+228	possible	JJ	-2:conj	226	conj	_	_	_	_
+</node>
+</node>
+229	.	.	-30:pnct	199	pnct	_	_	_	_
+</node>
+<node rel="BACKGROUND">
+<node rel="EXPLANATION">
+230	When	WRB	7:BACKGROUND	_	_	237	BACKGROUND	_	_
+231	it	PRP	1:subj	232	subj	_	_	_	_
+232	comes	VBZ	-2:vobj	230	vobj	_	_	_	_
+233	to	TO	-1:pobj	232	pobj	_	_	_	_
+234	safety	VB	-1:nobj	233	nobj	_	_	_	_
+</node>
+235	my	PRP$	-45:coref-iden|2:subj	237	subj	_	_	_	_
+236	Group	NNP	-1:nobj	235	nobj	_	_	_	_
+237	will	MD	-45:EXPLANATION	_	_	192	EXPLANATION	_	_
+238	always	RB	-1:mod	237	mod	_	_	_	_
+239	support	VB	-2:vobj	237	vobj	_	_	_	_
+240	any	DT	-1:dobj|3:[subj]	239	dobj	_	_	_	_
+241	initiatives	NNS	-1:nobj	240	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+242	to	TO	-2:ENABLEMENT	_	_	240	ENABLEMENT	_	_
+243	improve	VB	-1:vobj	242	vobj	_	_	_	_
+244	transport	NN	1:mod	245	mod	_	_	_	_
+245	safety	NN	-2:dobj	243	dobj	_	_	_	_
+</node>
+246	.	.	-9:pnct	237	pnct	_	_	_	_
+<node rel="JOINT">
+247	We	PRP	2:subj	249	subj	_	_	_	_
+248	still	RB	1:mod	249	mod	_	_	_	_
+249	have	VBP	-12:JOINT	_	_	237	JOINT	_	_
+250	a	DT	-1:dobj	249	dobj	_	_	_	_
+251	lot	NN	-1:nobj	250	nobj	_	_	_	_
+252	of	IN	-1:pobj	251	pobj	_	_	_	_
+253	work	NN	-1:nobj	252	nobj	_	_	_	_
+254	to	TO	-1:pobj	253	pobj	_	_	_	_
+255	do	VB	-1:vobj	254	vobj	_	_	_	_
+256	in	IN	-7:mod	249	mod	_	_	_	_
+257	this	DT	-1:nobj|-12:coref-var	256	nobj	_	_	_	_
+258	area	NN	-1:nobj	257	nobj	_	_	_	_
+<node rel="EXPLANATION">
+259	as	IN	-10:EXPLANATION	_	_	249	EXPLANATION	_	_
+260	recent	JJ	2:subj	262	subj	_	_	_	_
+261	events	NNS	-1:nobj|-179:coref-var	260	nobj	_	_	_	_
+262	have	VBP	-3:vobj	259	vobj	_	_	_	_
+263	proved	VBN	-1:vobj	262	vobj	_	_	_	_
+</node>
+264	.	.	-15:pnct	249	pnct	_	_	_	_
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>

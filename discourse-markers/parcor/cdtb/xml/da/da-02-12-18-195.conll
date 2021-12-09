@@ -1,0 +1,374 @@
+<node head="Text">
+# da/da-02-12-18-195.tag
+# <s>
+1	Jeg	PP	1:subj	2	subj	_	_	_	_
+2	kan	VA		_	_	_	_	_	_
+3	meddele	VA	-1:vobj	2	vobj	_	_	_	_
+4	,	XP	-1:pnct	3	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+5	at	CS	-2:ATTRIBUTION	_	_	3	ATTRIBUTION	_	_
+6	hr.	NC	1:title	7	title	_	_	_	_
+7	Solana	NP	1:subj	8	subj	_	_	_	_
+8	ikke	RG	1:neg	9	neg	_	_	_	_
+9	har	VA	-4:vobj	5	vobj	_	_	_	_
+10	besøgt	VA	-1:vobj	9	vobj	_	_	_	_
+11	Cypern	NP	-1:dobj	10	dobj	_	_	_	_
+12	,	XP	-3:pnct	9	pnct	_	_	_	_
+<node rel="TEMPORAL">
+13	efter	SP	-4:TEMPORAL	_	_	9	TEMPORAL	_	_
+14	at	CS	-1:nobj	13	nobj	_	_	_	_
+15	han	PP	1:subj|-8:coref	16	subj	_	_	_	_
+16	tiltrådte	VA	-3:vobj	13	vobj	_	_	_	_
+17	sin	PO	-1:dobj|-2:coref	16	dobj	_	_	_	_
+18	stilling	NC	-1:possd	17	possd	_	_	_	_
+</node>
+</node>
+19	.	XP	-17:pnct	2	pnct	_	_	_	_
+20	Han	PP	-3:coref|1:subj	21	subj	_	_	_	_
+21	har	VA		_	_	_	_	_	_
+22	haft	VA	-1:vobj	21	vobj	_	_	_	_
+23	en	PI	-1:dobj	22	dobj	_	_	_	_
+24	lang	AN	-1:mod	23	mod	_	_	_	_
+25	række	NC	-2:nobj	23	nobj	_	_	_	_
+26	kontakter	NC	-1:nobj	25	nobj	_	_	_	_
+27	med	SP	-1:pobj	26	pobj	_	_	_	_
+28	mange	AN	-1:nobj	27	nobj	_	_	_	_
+29	af	SP	-1:pobj	28	pobj	_	_	_	_
+30	de	PD	-1:nobj	29	nobj	_	_	_	_
+31	involverede	VA	-1:mod	30	mod	_	_	_	_
+32	aktører	NC	-2:nobj	30	nobj	_	_	_	_
+<node rel="JOINT">
+33	og	CC	-12:JOINT	_	_	21	JOINT	_	_
+34	har	VA	-1:conj	33	conj	_	_	_	_
+35	benyttet	VA	-1:vobj	34	vobj	_	_	_	_
+36	enhver	PI	-1:dobj	35	dobj	_	_	_	_
+37	lejlighed	NC	-1:nobj	36	nobj	_	_	_	_
+38	til	SP	-3:pobj	35	pobj	_	_	_	_
+39	at	U=	-1:nobj	38	nobj	_	_	_	_
+40	opfordre	VA	-1:vobj	39	vobj	_	_	_	_
+41	til	SP	-1:pobj	40	pobj	_	_	_	_
+42	en	PI	-1:nobj	41	nobj	_	_	_	_
+43	konstruktiv	AN	-1:mod	42	mod	_	_	_	_
+44	løsning	NC	-1:nobj	43	nobj	_	_	_	_
+</node>
+45	.	XP	-24:pnct	21	pnct	_	_	_	_
+46	Han	PP	-26:coref|1:subj	47	subj	_	_	_	_
+47	har	VA		_	_	_	_	_	_
+48	udtalt	VA	-1:vobj	47	vobj	_	_	_	_
+49	støtte	NC	-1:dobj	48	dobj	_	_	_	_
+50	til	SP	-1:pobj	49	pobj	_	_	_	_
+51	de	PD	-1:nobj	50	nobj	_	_	_	_
+52	bestræbelser	NC	-1:nobj	51	nobj	_	_	_	_
+53	,	XP	-2:pnct	51	pnct	_	_	_	_
+<node rel="ELABORATION">
+54	Kofi	NP	1:namef	55	namef	_	_	_	_
+55	Anan	NP	1:subj	56	subj	_	_	_	_
+56	udfolder	VA	-5:ELABORATION	_	_	51	ELABORATION	_	_
+57	,	XP	-1:pnct	56	pnct	_	_	_	_
+</node>
+<node rel="JOINT">
+58	og	CC	-11:JOINT	_	_	47	JOINT	_	_
+59	den	PD	3:mod	62	mod	_	_	_	_
+60	12.	AO	1:nobj	61	nobj	_	_	_	_
+61	november	NC	-2:nobj	59	nobj	_	_	_	_
+62	gav	VA	-4:conj	58	conj	_	_	_	_
+63	han	PP	-1:subj|-17:coref	62	subj	_	_	_	_
+64	udtryk	NC	-2:dobj	62	dobj	_	_	_	_
+65	for	SP	-1:pobj	64	pobj	_	_	_	_
+66	tilfredshed	NC	-1:nobj	65	nobj	_	_	_	_
+67	med	SP	-1:pobj	66	pobj	_	_	_	_
+68	Kofi	NP	1:namef	69	namef	_	_	_	_
+69	Anans	NP	-2:nobj|-14:coref-iden	67	nobj	_	_	_	_
+70	beslutning	NC	-1:possd	69	possd	_	_	_	_
+71	om	SP	-1:pobj	70	pobj	_	_	_	_
+72	at	U=	-1:nobj	71	nobj	_	_	_	_
+73	ville	VA	-1:vobj	72	vobj	_	_	_	_
+74	fremlægge	VA	-1:vobj	73	vobj	_	_	_	_
+75	et	PI	-1:dobj	74	dobj	_	_	_	_
+76	forslag	NC	-1:nobj	75	nobj	_	_	_	_
+77	til	SP	-1:pobj	76	pobj	_	_	_	_
+78	en	PI	-1:nobj	77	nobj	_	_	_	_
+79	samlet	VA	-1:mod	78	mod	_	_	_	_
+80	Cypern-løsning	NC	-2:nobj	78	nobj	_	_	_	_
+81	.	XP	-19:pnct	62	pnct	_	_	_	_
+</node>
+# 
+# 
+# <s>
+84	På	SP	5:mod	89	mod	_	_	_	_
+85	rådsmødet	NC	-1:nobj	84	nobj	_	_	_	_
+86	den	PD	-1:mod	85	mod	_	_	_	_
+87	24.-25.	AC	1:nobj	88	nobj	_	_	_	_
+88	oktober	NC	-2:nobj	86	nobj	_	_	_	_
+89	blev	VA		_	_	_	_	_	_
+90	det	PP	-1:subj	89	subj	_	_	_	_
+91	besluttet	VA	-2:preds	89	preds	_	_	_	_
+92	,	XP	-1:pnct	91	pnct	_	_	_	_
+93	at	CS	-2:dobj	91	dobj	_	_	_	_
+94	der	U=	1:expl	95	expl	_	_	_	_
+95	skulle	VA	-2:vobj	93	vobj	_	_	_	_
+96	fastlægges	VA	-1:vobj	95	vobj	_	_	_	_
+97	et	PI	-1:dobj	96	dobj	_	_	_	_
+98	treårigt	AN	-1:mod	97	mod	_	_	_	_
+99	program	NC	-2:nobj	97	nobj	_	_	_	_
+100	fra	SP	-3:mod	97	mod	_	_	_	_
+101	2004-2006	AC	-1:nobj	100	nobj	_	_	_	_
+102	til	SP	-6:mod	96	mod	_	_	_	_
+103	fordel	NC	-1:nobj	102	nobj	_	_	_	_
+104	for	SP	-1:pobj	103	pobj	_	_	_	_
+105	den	PD	-1:nobj	104	nobj	_	_	_	_
+106	nordlige	AN	-1:mod	105	mod	_	_	_	_
+107	del	NC	-2:nobj	105	nobj	_	_	_	_
+108	af	SP	-1:pobj	107	pobj	_	_	_	_
+109	Cypern	NP	-1:nobj	108	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+110	med	SP	-14:ENABLEMENT	_	_	96	ENABLEMENT	_	_
+111	henblik	NC	-1:nobj	110	nobj	_	_	_	_
+112	på	SP	-1:pobj	111	pobj	_	_	_	_
+113	at	U=	-1:nobj	112	nobj	_	_	_	_
+114	gennemføre	VA	-1:vobj	113	vobj	_	_	_	_
+115	en	PI	-1:dobj	114	dobj	_	_	_	_
+116	politisk	AN	-1:mod	115	mod	_	_	_	_
+117	løsning	NC	-2:nobj	115	nobj	_	_	_	_
+</node>
+118	.	XP	-29:pnct	89	pnct	_	_	_	_
+119	Der	U=	1:expl	120	expl	_	_	_	_
+120	er	VA		_	_	_	_	_	_
+121	endnu	RG	-1:mod	120	mod	_	_	_	_
+122	ikke	RG	-2:neg	120	neg	_	_	_	_
+123	fastsat	VA	-3:preds	120	preds	_	_	_	_
+124	konkrete	AN	1:mod	125	mod	_	_	_	_
+125	prioriteter	NC	-2:dobj	123	dobj	_	_	_	_
+126	eller	CC	-1:coord	125	coord	_	_	_	_
+127	nærmere	AN	1:mod	128	mod	_	_	_	_
+128	bestemmelser	NC	-2:conj	126	conj	_	_	_	_
+129	.	XP	-9:pnct	120	pnct	_	_	_	_
+130	I	PP	2:mod	132	mod	_	_	_	_
+131	fredags	RG	-1:nobj	130	nobj	_	_	_	_
+132	opfordrede	VA		_	_	_	_	_	_
+133	Det	PD	-1:subj	132	subj	_	_	_	_
+134	Europæiske	AN	-1:mod	133	mod	_	_	_	_
+135	Råd	NC	-2:nobj	133	nobj	_	_	_	_
+136	Kommissionen	NC	-4:dobj	132	dobj	_	_	_	_
+137	til	SP	-5:pobj	132	pobj	_	_	_	_
+138	i	SP	7:mod	145	mod	_	_	_	_
+139	samarbejde	NC	-1:nobj	138	nobj	_	_	_	_
+140	med	SP	-1:pobj	139	pobj	_	_	_	_
+141	den	PD	-1:nobj	140	nobj	_	_	_	_
+142	cypriotiske	AN	-1:mod	141	mod	_	_	_	_
+143	regering	NC	-2:nobj	141	nobj	_	_	_	_
+144	at	U=	-7:nobj	137	nobj	_	_	_	_
+145	overveje	VA	-1:vobj	144	vobj	_	_	_	_
+146	,	XP	-1:pnct	145	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+147	hvordan	RG	-2:ATTRIBUTION	_	_	145	ATTRIBUTION	_	_
+148	den	PD	3:subj	151	subj	_	_	_	_
+149	økonomiske	AN	-1:mod	148	mod	_	_	_	_
+150	udvikling	NC	-2:nobj	148	nobj	_	_	_	_
+151	kan	VA	-4:vobj	147	vobj	_	_	_	_
+152	fremmes	VA	-1:vobj	151	vobj	_	_	_	_
+153	på	SP	-1:mod	152	mod	_	_	_	_
+154	Nordcypern	NP	-1:nobj|-49:coref-var	153	nobj	_	_	_	_
+155	,	XP	-4:pnct	151	pnct	_	_	_	_
+<node rel="JOINT">
+156	og	CC	-9:JOINT	_	_	147	JOINT	_	_
+157	hvordan	RG	-1:conj	156	conj	_	_	_	_
+158	Nordcypern	NP	-4:coref-iden|1:subj	159	subj	_	_	_	_
+159	kan	VA	-2:conj	157	conj	_	_	_	_
+160	bringes	VA	-1:vobj	159	vobj	_	_	_	_
+161	nærmere	AN	-1:mod	160	mod	_	_	_	_
+162	på	SP	-2:lobj	160	lobj	_	_	_	_
+163	EU	NP	-1:nobj	162	nobj	_	_	_	_
+</node>
+</node>
+164	.	XP	-32:pnct	132	pnct	_	_	_	_
+# 
+# 
+# <s>
+167	I	SP	7:mod	174	mod	_	_	_	_
+168	tilknytning	NC	-1:nobj	167	nobj	_	_	_	_
+169	til	SP	-1:pobj	168	pobj	_	_	_	_
+170	rådsmødet	NC	-1:nobj	169	nobj	_	_	_	_
+171	den	PD	-1:mod	170	mod	_	_	_	_
+172	19.	AO	1:nobj	173	nobj	_	_	_	_
+173	november	NC	-2:nobj	171	nobj	_	_	_	_
+174	drøftede	VA		_	_	_	_	_	_
+175	ministrene	NC	-1:subj	174	subj	_	_	_	_
+176	Cypern-spørgsmålet	NC	-2:dobj	174	dobj	_	_	_	_
+177	under	SP	-3:mod	174	mod	_	_	_	_
+178	middagen	NC	-1:nobj	177	nobj	_	_	_	_
+179	,	XP	-5:pnct	174	pnct	_	_	_	_
+<node rel="TEMPORAL">
+180	efter	SP	-6:TEMPORAL	_	_	174	TEMPORAL	_	_
+181	at	CS	-1:nobj	180	nobj	_	_	_	_
+182	FN	NP	2:possr	184	possr	_	_	_	_
+183	'	XF	-1:+	_	_	_	_	_	_
+184	s	XF	2:subj	186	subj	_	_	_	_
+185	generalsekretær	NC	-1:possd	184	possd	_	_	_	_
+186	havde	VA	-5:vobj	181	vobj	_	_	_	_
+187	forelagt	VA	-1:vobj	186	vobj	_	_	_	_
+188	sin	PO	-4:coref|-1:dobj	187	dobj	_	_	_	_
+189	plan	NC	-1:possd	188	possd	_	_	_	_
+190	for	SP	-1:pobj	189	pobj	_	_	_	_
+191	en	PI	-1:nobj	190	nobj	_	_	_	_
+192	løsning	NC	-1:nobj	191	nobj	_	_	_	_
+193	på	SP	-1:pobj	192	pobj	_	_	_	_
+194	situationen	NC	-1:nobj|-18:coref-var	193	nobj	_	_	_	_
+</node>
+195	.	XP	-21:pnct	174	pnct	_	_	_	_
+<node rel="TEMPORAL">
+196	Derefter	RG	1:time	_	_	_	_	197	time
+197	fremsatte	VA	-23:TEMPORAL	_	_	174	TEMPORAL	_	_
+198	formandskabet	NC	-1:subj	197	subj	_	_	_	_
+199	en	PI	-2:dobj	197	dobj	_	_	_	_
+200	formandserklæring	NC	-1:nobj	199	nobj	_	_	_	_
+201	,	XP	-2:pnct	199	pnct	_	_	_	_
+<node rel="ELABORATION">
+202	som	U=	2:subj|-3:ref	204	subj	_	_	_	_
+203	varmt	AN	1:mod	204	mod	_	_	_	_
+204	tilsluttede	VA	-5:ELABORATION	_	_	199	ELABORATION	_	_
+205	sig	PP	-1:robj|-3:coref	204	robj	_	_	_	_
+206	generalsekretærens	NC	-2:dobj|-18:coref-var	204	dobj	_	_	_	_
+207	planer	NC	-1:possd	206	possd	_	_	_	_
+208	,	XP	-4:pnct	204	pnct	_	_	_	_
+</node>
+<node rel="JOINT">
+209	og	CC	-12:JOINT	_	_	197	JOINT	_	_
+210	noterede	VA	-1:conj	209	conj	_	_	_	_
+211	sig	PP	-13:coref|-1:robj	210	robj	_	_	_	_
+212	,	XP	-2:pnct	210	pnct	_	_	_	_
+213	at	CS	-3:dobj	210	dobj	_	_	_	_
+214	EU	NP	1:subj	215	subj	_	_	_	_
+215	er	VA	-2:vobj	213	vobj	_	_	_	_
+216	indstillet	VA	-1:preds	215	preds	_	_	_	_
+217	på	SP	-1:pobj	216	pobj	_	_	_	_
+218	at	U=	-1:nobj	217	nobj	_	_	_	_
+219	respektere	VA	-1:vobj	218	vobj	_	_	_	_
+220	betingelserne	NC	-1:dobj	219	dobj	_	_	_	_
+221	i	SP	-1:mod	220	mod	_	_	_	_
+222	en	PI	-1:nobj	221	nobj	_	_	_	_
+223	samlet	VA	-1:mod	222	mod	_	_	_	_
+224	løsning	NC	-2:nobj	222	nobj	_	_	_	_
+225	i	SP	-6:mod	219	mod	_	_	_	_
+226	overensstemmelse	NC	-1:nobj	225	nobj	_	_	_	_
+227	med	SP	-1:pobj	226	pobj	_	_	_	_
+228	de	PD	-1:nobj	227	nobj	_	_	_	_
+229	principper	NC	-1:nobj	228	nobj	_	_	_	_
+230	,	XP	-2:pnct	228	pnct	_	_	_	_
+<node rel="ELABORATION">
+231	der	U=	1:subj|-3:ref	232	subj	_	_	_	_
+232	udgør	VA	-4:ELABORATION	_	_	228	ELABORATION	_	_
+233	grundlaget	NC	-1:dobj	232	dobj	_	_	_	_
+234	for	SP	-1:pobj	233	pobj	_	_	_	_
+235	EU	NP	-1:nobj	234	nobj	_	_	_	_
+</node>
+<node rel="ENABLEMENT">
+236	med	SP	-17:ENABLEMENT	_	_	219	ENABLEMENT	_	_
+237	henblik	NC	-1:nobj	236	nobj	_	_	_	_
+238	på	SP	-1:pobj	237	pobj	_	_	_	_
+239	at	U=	-1:nobj	238	nobj	_	_	_	_
+240	nå	VA	-1:vobj	239	vobj	_	_	_	_
+241	frem	RG	-1:avobj	240	avobj	_	_	_	_
+242	til	SP	-1:pobj	241	pobj	_	_	_	_
+243	en	PI	-1:nobj	242	nobj	_	_	_	_
+244	løsning	NC	-1:nobj	243	nobj	_	_	_	_
+245	,	XP	-2:pnct	243	pnct	_	_	_	_
+<node rel="ELABORATION">
+246	som	U=	-3:ref|1:subj	247	subj	_	_	_	_
+247	gør	VA	-4:ELABORATION	_	_	243	ELABORATION	_	_
+248	det	PP	-1:subj	247	subj	_	_	_	_
+249	muligt	AN	-2:preds	247	preds	_	_	_	_
+250	for	SP	-1:pobj	249	pobj	_	_	_	_
+251	Cypern	NP	-1:nobj	250	nobj	_	_	_	_
+252	at	U=	-4:nobj	248	nobj	_	_	_	_
+253	tiltræde	VA	-1:vobj	252	vobj	_	_	_	_
+254	EU	NP	-1:dobj	253	dobj	_	_	_	_
+255	som	U=	-2:mod	253	mod	_	_	_	_
+256	en	PI	-1:nobj	255	nobj	_	_	_	_
+257	forenet	AN	-1:mod	256	mod	_	_	_	_
+258	ø	NC	-2:nobj	256	nobj	_	_	_	_
+</node>
+</node>
+259	.	XP	-49:pnct	210	pnct	_	_	_	_
+</node>
+</node>
+260	Rådsmødet	NC	1:subj	261	subj	_	_	_	_
+261	hilste	VA		_	_	_	_	_	_
+262	det	PP	-1:dobj	261	dobj	_	_	_	_
+263	velkomment	AN	-2:predo	261	predo	_	_	_	_
+264	i	SP	-3:mod	261	mod	_	_	_	_
+265	fredags	NC	-1:nobj	264	nobj	_	_	_	_
+266	,	XP	-4:pnct	262	pnct	_	_	_	_
+267	at	CS	-5:nobj	262	nobj	_	_	_	_
+268	både	RG	2:correl	270	correl	_	_	_	_
+269	græske	AN	3:mod	272	mod	_	_	_	_
+270	og	CC	-1:coord	269	coord	_	_	_	_
+271	tyrkiske	AN	-1:conj	270	conj	_	_	_	_
+272	cyprioter	NC	1:subj	273	subj	_	_	_	_
+273	har	VA	-6:vobj	267	vobj	_	_	_	_
+274	givet	VA	-1:vobj	273	vobj	_	_	_	_
+275	tilsagn	NC	-1:dobj	274	dobj	_	_	_	_
+276	om	SP	-1:pobj	275	pobj	_	_	_	_
+277	at	U=	-1:nobj	276	nobj	_	_	_	_
+278	fortsætte	VA	-1:vobj	277	vobj	_	_	_	_
+279	forhandlingerne	NC	-1:dobj	278	dobj	_	_	_	_
+<node rel="ENABLEMENT">
+280	med	SP	-2:ENABLEMENT	_	_	278	ENABLEMENT	_	_
+281	henblik	NC	-1:nobj	280	nobj	_	_	_	_
+282	på	SP	-1:pobj	281	pobj	_	_	_	_
+283	inden	SP	5:mod	288	mod	_	_	_	_
+284	den	PD	-1:nobj	283	nobj	_	_	_	_
+285	28.	AO	1:nobj	286	nobj	_	_	_	_
+286	februar	NC	1:nobj	287	nobj	_	_	_	_
+287	2003	AC	-3:nobj	284	nobj	_	_	_	_
+288	at	U=	-6:nobj	282	nobj	_	_	_	_
+289	nå	VA	-1:vobj	288	vobj	_	_	_	_
+290	til	SP	-1:pobj	289	pobj	_	_	_	_
+291	en	PI	-1:nobj	290	nobj	_	_	_	_
+292	samlet	VA	-1:mod	291	mod	_	_	_	_
+293	løsning	NC	-2:nobj	291	nobj	_	_	_	_
+294	på	SP	-5:mod	289	mod	_	_	_	_
+295	grundlag	NC	-1:nobj	294	nobj	_	_	_	_
+296	af	SP	-1:pobj	295	pobj	_	_	_	_
+297	forslaget	NC	-1:nobj	296	nobj	_	_	_	_
+298	fra	SP	-1:pobj	297	pobj	_	_	_	_
+299	FN	NP	2:possr	301	possr	_	_	_	_
+300	'	NC	-1:+	_	_	_	_	_	_
+301	s	AN	-3:nobj	298	nobj	_	_	_	_
+302	generalsekretær	NC	-1:possd	301	possd	_	_	_	_
+</node>
+303	.	XP	-42:pnct	261	pnct	_	_	_	_
+304	Kofi	NP	1:namef	305	namef	_	_	_	_
+305	Anans	NP	-4:coref-var|2:subj	307	subj	_	_	_	_
+306	forslag	NC	-1:possd	305	possd	_	_	_	_
+307	udgør	VA		_	_	_	_	_	_
+<node rel="ATTRIBUTION">
+308	efter	SP	-1:ATTRIBUTION	_	_	307	ATTRIBUTION	_	_
+309	Rådets	NC	-1:nobj	308	nobj	_	_	_	_
+310	mening	NC	-1:possd	309	possd	_	_	_	_
+</node>
+311	en	PI	-4:dobj	307	dobj	_	_	_	_
+312	enestående	AN	-1:mod	311	mod	_	_	_	_
+313	historisk	AN	-2:mod	311	mod	_	_	_	_
+314	chance	NC	-3:nobj	311	nobj	_	_	_	_
+315	for	SP	-1:pobj	314	pobj	_	_	_	_
+316	nu	RG	-1:mod	315	mod	_	_	_	_
+317	at	U=	-2:nobj	315	nobj	_	_	_	_
+318	få	VA	-1:vobj	317	vobj	_	_	_	_
+319	lukket	VA	-1:vobj	318	vobj	_	_	_	_
+320	den	PD	-1:dobj	319	dobj	_	_	_	_
+321	strid	NC	-1:nobj	320	nobj	_	_	_	_
+322	,	XP	-2:pnct	320	pnct	_	_	_	_
+<node rel="ELABORATION">
+323	der	U=	-3:ref|4:subj	327	subj	_	_	_	_
+324	alt	RG	1:mod	325	mod	_	_	_	_
+325	for	RG	1:mod	326	mod	_	_	_	_
+326	længe	RG	1:mod	327	mod	_	_	_	_
+327	har	VA	-7:ELABORATION	_	_	320	ELABORATION	_	_
+328	hærget	AN	-1:vobj	327	vobj	_	_	_	_
+329	den	PD	-1:dobj	328	dobj	_	_	_	_
+330	smukke	AN	-1:mod	329	mod	_	_	_	_
+331	ø	NC	-2:nobj	329	nobj	_	_	_	_
+</node>
+332	.	XP	-25:pnct	307	pnct	_	_	_	_
+</node>

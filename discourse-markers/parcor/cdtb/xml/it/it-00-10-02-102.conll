@@ -1,0 +1,392 @@
+<node head="Text">
+# it/it-00-10-02-102.tag
+# <s>
+1	Signor	NOM	1:title	2	title	_	_	_	_
+2	Presidente	ADJ	4:voc	6	voc	_	_	_	_
+3	,	PON	-1:pnct	2	pnct	_	_	_	_
+4	anch'	ADV	2:add	_	_	_	_	6	add
+5	io	PRO&3a;pers	1:subj	6	subj	_	_	_	_
+6	vorrei	VER&3a;cond		_	_	_	_	_	_
+7	associarmi	VER&3a;infi	-1:vobj	6	vobj	_	_	_	_
+8	alle	PRE&3a;det	-1:pobj	7	pobj	_	_	_	_
+9	congratulazioni	NOM	-1:nobj	8	nobj	_	_	_	_
+10	per	PRE	-1:pobj	9	pobj	_	_	_	_
+11	il	DET&3a;def	-1:nobj	10	nobj	_	_	_	_
+12	relatore	NOM	-1:nobj	11	nobj	_	_	_	_
+13	,	PON	-2:pnct	11	pnct	_	_	_	_
+<node rel="ELABORATION">
+14	che	PRO&3a;rela	-3:ref|1:subj	15	subj	_	_	_	_
+15	ha	VER&3a;pres	-4:ELABORATION	_	_	11	ELABORATION	_	_
+16	fatto	VER&3a;pper	-1:dobj	15	dobj	_	_	_	_
+17	un	DET&3a;indef	-1:dobj	16	dobj	_	_	_	_
+18	lavoro	NOM	-1:nobj	17	nobj	_	_	_	_
+19	molto	ADV	1:mod	20	mod	_	_	_	_
+20	importante	ADJ	-3:mod	17	mod	_	_	_	_
+<node rel="MEANS">
+21	data	NOM	-6:MEANS	_	_	15	MEANS	_	_
+22	l'	DET&3a;def	-1:dobj	21	dobj	_	_	_	_
+23	esiguità	NOM	-1:nobj	22	nobj	_	_	_	_
+24	del	PRE&3a;det	-1:pobj	23	pobj	_	_	_	_
+25	tempo	NOM	-1:nobj	24	nobj	_	_	_	_
+26	a	PRE	-2:mod	24	mod	_	_	_	_
+27	sua	PRO&3a;poss	-1:nobj|-13:coref	26	nobj	_	_	_	_
+28	disposizione	NOM	-1:possd	27	possd	_	_	_	_
+</node>
+</node>
+29	.	SENT	-23:pnct	6	pnct	_	_	_	_
+30	E	CON		_	_	_	_	_	_
+31	'	PON	-1:+	_	_	_	_	_	_
+32	già	NOM	-32:mod	0	mod	_	_	_	_
+33	stato	VER&3a;pper	-3:vobj	30	vobj	_	_	_	_
+34	detto	VER&3a;pper	-1:preds	33	preds	_	_	_	_
+35	da	PRE	-1:agent	34	agent	_	_	_	_
+36	quasi	ADV	1:mod	37	mod	_	_	_	_
+37	tutti	ADJ	-2:nobj	35	nobj	_	_	_	_
+38	i	DET&3a;def	-1:nobj	37	nobj	_	_	_	_
+39	colleghi	NOM	-1:nobj	38	nobj	_	_	_	_
+<node rel="ATTRIBUTION">
+40	che	PRO&3a;rela	-6:ATTRIBUTION	_	_	34	ATTRIBUTION	_	_
+41	,	PON	1:pnct	42	pnct	_	_	_	_
+42	effettivamente	ADV	16:mod	58	mod	_	_	_	_
+43	,	PON	-1:pnct	42	pnct	_	_	_	_
+44	le	DET&3a;def	14:subj	58	subj	_	_	_	_
+45	situazioni	NOM	-1:nobj	44	nobj	_	_	_	_
+46	del	PRE&3a;det	-1:pobj	45	pobj	_	_	_	_
+47	trasporto	NOM	-1:nobj	46	nobj	_	_	_	_
+48	,	PON	3:pnct	51	pnct	_	_	_	_
+49	in	PRE	2:mod	51	mod	_	_	_	_
+50	particolare	ADJ	-1:nobj	49	nobj	_	_	_	_
+51	quello	PRO&3a;demo	-5:modp	46	modp	_	_	_	_
+52	marittimo	ADJ	-1:mod	51	mod	_	_	_	_
+53	,	PON	-2:pnct	51	pnct	_	_	_	_
+54	e	CON	-8:coord	46	coord	_	_	_	_
+55	dei	PRE&3a;det	-1:conj	54	conj	_	_	_	_
+56	porti	NOM	-1:nobj	55	nobj	_	_	_	_
+57	marittimi	ADJ	-2:mod	55	mod	_	_	_	_
+58	sono	VER&3a;pres	-18:vobj	40	vobj	_	_	_	_
+59	diverse	ADJ	-1:preds	58	preds	_	_	_	_
+60	e	CON	-1:coord	59	coord	_	_	_	_
+61	diversificate	VER&3a;pper	-1:conj	60	conj	_	_	_	_
+62	nella	PRE&3a;det	-4:mod	58	mod	_	_	_	_
+63	nostra	PRO&3a;poss	-1:nobj	62	nobj	_	_	_	_
+64	Unione	NOM	-1:possd	63	possd	_	_	_	_
+65	:	PON	-7:pnct	58	pnct	_	_	_	_
+<node rel="&3a;ELABORATION">
+66	la	DET&3a;def	3:subj	69	subj	_	_	_	_
+67	situazione	NOM	-1:nobj	66	nobj	_	_	_	_
+68	non	ADV	1:neg	69	neg	_	_	_	_
+69	è	NOM	-11:&3a;ELABORATION	_	_	58	&3a;ELABORATION	_	_
+70	la	DET&3a;def	-1:preds	69	preds	_	_	_	_
+71	stessa	ADJ	-1:nobj	70	nobj	_	_	_	_
+72	nei	PRE&3a;det	-3:mod	69	mod	_	_	_	_
+73	paesi	NOM	-1:nobj	72	nobj	_	_	_	_
+74	del	PRE&3a;det	-2:mod	72	mod	_	_	_	_
+75	sud	NOM	-1:nobj	74	nobj	_	_	_	_
+76	e	CON	-4:coord	72	coord	_	_	_	_
+77	nei	PRE&3a;det	-1:conj	76	conj	_	_	_	_
+78	paesi	NOM	-1:nobj	77	nobj	_	_	_	_
+79	del	PRE&3a;det	-2:mod	77	mod	_	_	_	_
+80	nord	NOM	-1:nobj	79	nobj	_	_	_	_
+81	;	PON	-12:pnct	69	pnct	_	_	_	_
+<node rel=";EXPLANATION">
+82	non	ADV	1:neg	83	neg	_	_	_	_
+83	sono	VER&3a;pres	-14:;EXPLANATION	_	_	69	;EXPLANATION	_	_
+84	le	DET&3a;def	-1:preds	83	preds	_	_	_	_
+85	stesse	ADJ	-1:mod	84	mod	_	_	_	_
+86	dimensioni	NOM	-2:nobj	84	nobj	_	_	_	_
+87	,	PON	-4:pnct	83	pnct	_	_	_	_
+<node rel="JOINT">
+88	non	ADV	1:neg	89	neg	_	_	_	_
+89	sono	VER&3a;pres	-6:JOINT	_	_	83	JOINT	_	_
+90	gli	DET&3a;def	-1:preds	89	preds	_	_	_	_
+91	stessi	ADJ	-1:mod	90	mod	_	_	_	_
+92	valori	NOM	-2:nobj	90	nobj	_	_	_	_
+93	di	PRE	-1:pobj	92	pobj	_	_	_	_
+94	importanza	NOM	-1:nobj	93	nobj	_	_	_	_
+<node rel="BACKGROUND">
+95	per	PRE	-12:BACKGROUND	_	_	83	BACKGROUND	_	_
+96	quanto	PRO&3a;indef	-1:nobj	95	nobj	_	_	_	_
+97	riguarda	VER&3a;pres	-1:vobj	96	vobj	_	_	_	_
+98	la	DET&3a;def	-1:dobj	97	dobj	_	_	_	_
+99	movimentazione	NOM	-1:nobj	98	nobj	_	_	_	_
+100	di	PRE	-1:pobj	99	pobj	_	_	_	_
+101	merci	NOM	-1:nobj	100	nobj	_	_	_	_
+102	o	CON	-2:coord	100	coord	_	_	_	_
+103	di	PRE	-1:conj	102	conj	_	_	_	_
+104	passeggeri	ADJ	-1:nobj	103	nobj	_	_	_	_
+</node>
+105	.	SENT	-16:pnct	89	pnct	_	_	_	_
+</node>
+</node>
+</node>
+</node>
+106	Tuttavia	ADV	35:conc	_	_	_	_	141	conc
+107	,	PON	-1:pnct	106	pnct	_	_	_	_
+<node rel="CONDITION">
+108	se	CON	33:CONDITION	_	_	141	CONDITION	_	_
+109	vogliamo	VER&3a;pres	-1:vobj	108	vobj	_	_	_	_
+<node rel="BACKGROUND">
+110	-	PON	1:pnct	111	pnct	_	_	_	_
+111	come	CON	-2:BACKGROUND	_	_	109	BACKGROUND	_	_
+112	vogliamo	VER&3a;pres	-1:vobj	111	vobj	_	_	_	_
+113	,	PON	-1:pnct	112	pnct	_	_	_	_
+<node rel="EXPLANATION">
+114	perché	NOM	-2:EXPLANATION	_	_	112	EXPLANATION	_	_
+115	riteniamo	VER&3a;pres	-1:vobj	114	vobj	_	_	_	_
+<node rel="ATTRIBUTION">
+116	sia	CON	-1:ATTRIBUTION	_	_	115	ATTRIBUTION	_	_
+117	assolutamente	ADV	1:mod	118	mod	_	_	_	_
+118	necessario	ADJ	-2:preds	116	preds	_	_	_	_
+</node>
+</node>
+119	-	PON	-8:pnct	111	pnct	_	_	_	_
+</node>
+120	che	PRO&3a;rela	-11:dobj	109	dobj	_	_	_	_
+121	anche	ADV	6:add	_	_	_	_	127	add
+122	i	DET&3a;def	5:subj	127	subj	_	_	_	_
+123	porti	VER&3a;cpre	-1:nobj	122	nobj	_	_	_	_
+124	marittimi	ADJ	-2:mod	122	mod	_	_	_	_
+125	e	CON	-1:coord	124	coord	_	_	_	_
+126	fluviali	ADJ	-1:conj	125	conj	_	_	_	_
+127	entrino	VER&3a;cpre	-7:vobj	120	vobj	_	_	_	_
+128	nel	PRE&3a;det	-1:lobj	127	lobj	_	_	_	_
+129	sistema	NOM	-1:nobj	128	nobj	_	_	_	_
+130	delle	PRE&3a;det	-1:pobj	129	pobj	_	_	_	_
+131	reti	NOM	-1:nobj	130	nobj	_	_	_	_
+132	transeuropee	ADJ	-2:mod	130	mod	_	_	_	_
+133	di	PRE	-2:pobj	131	pobj	_	_	_	_
+134	trasporto	NOM	-1:nobj	133	nobj	_	_	_	_
+<node rel="JOINT">
+135	e	CON	-8:JOINT	_	_	127	JOINT	_	_
+136	possano	VER&3a;cpre	-1:conj	135	conj	_	_	_	_
+137	quindi	ADV	-1:cons	136	cons	_	_	_	_
+138	fare	VER&3a;infi	-2:vobj	136	vobj	_	_	_	_
+139	sistema	NOM	-1:dobj	138	dobj	_	_	_	_
+</node>
+140	,	PON	-31:pnct	109	pnct	_	_	_	_
+</node>
+141	dobbiamo	VER&3a;pres		_	_	_	_	_	_
+142	necessariamente	ADV	-1:mod	141	mod	_	_	_	_
+143	imporci	VER&3a;infi	-2:vobj	141	vobj	_	_	_	_
+144	una	DET&3a;indef	-1:dobj	143	dobj	_	_	_	_
+145	gerarchia	NOM	-1:nobj	144	nobj	_	_	_	_
+146	e	CON	-2:coord	144	coord	_	_	_	_
+147	una	DET&3a;indef	-1:conj	146	conj	_	_	_	_
+148	graduatoria	NOM	-1:nobj	147	nobj	_	_	_	_
+149	.	SENT	-8:pnct	141	pnct	_	_	_	_
+150	Ora	ADV	3:discmark	_	_	_	_	153	discmark
+151	,	PON	-1:pnct	150	pnct	_	_	_	_
+152	io	PRO&3a;pers	1:subj	153	subj	_	_	_	_
+153	vengo	VER&3a;pres		_	_	_	_	_	_
+154	da	PRE	-1:lobj	153	lobj	_	_	_	_
+155	un	DET&3a;indef	-1:nobj	154	nobj	_	_	_	_
+156	paese	NOM	-1:nobj	155	nobj	_	_	_	_
+<node rel="ELABORATION">
+157	che	PRO&3a;rela	-2:ref|1:subj	158	subj	_	_	_	_
+158	avrebbe	VER&3a;cond	-3:ELABORATION	_	_	155	ELABORATION	_	_
+159	tutto	ADJ	-1:dobj	158	dobj	_	_	_	_
+160	l'	DET&3a;def	-1:nobj	159	nobj	_	_	_	_
+161	interesse	NOM	-1:nobj	160	nobj	_	_	_	_
+162	,	PON	-4:pnct	158	pnct	_	_	_	_
+163	con	PRE	-5:mod	158	mod	_	_	_	_
+164	i	DET&3a;def	-1:nobj	163	nobj	_	_	_	_
+165	suoi	PRO&3a;poss	-1:nobj	164	nobj	_	_	_	_
+166	8.000	NUM	-1:possd	165	possd	_	_	_	_
+167	km	NOM	-1:nobj	166	nobj	_	_	_	_
+168	di	PRE	-1:pobj	167	pobj	_	_	_	_
+169	coste	NOM	-1:nobj	168	nobj	_	_	_	_
+170	,	PON	-7:pnct	163	pnct	_	_	_	_
+171	ad	PRE	-10:pobj	161	pobj	_	_	_	_
+172	avere	VER&3a;infi	-1:vobj	171	vobj	_	_	_	_
+173	quanti	PRO&3a;indef	-1:dobj	172	dobj	_	_	_	_
+174	più	NOM	-1:avobj	173	avobj	_	_	_	_
+175	porti	VER&3a;cpre	-2:nobj	173	nobj	_	_	_	_
+176	possibile	ADJ	-3:mod	173	mod	_	_	_	_
+<node rel="ELABORATION">
+177	iscritti	VER&3a;pper	-4:ELABORATION	_	_	173	ELABORATION	_	_
+178	nella	PRE&3a;det	-1:lobj	177	lobj	_	_	_	_
+179	categoria	NOM	-1:nobj	178	nobj	_	_	_	_
+180	"	PON	1:pnct	181	pnct	_	_	_	_
+181	porto	NOM	-3:appr	178	appr	_	_	_	_
+182	europeo	ADJ	-1:mod	181	mod	_	_	_	_
+183	"	PON	-2:pnct	181	pnct	_	_	_	_
+</node>
+184	;	PON	-26:pnct	158	pnct	_	_	_	_
+<node rel=";CONTRAST">
+185	dobbiamo	VER&3a;pres	-27:;CONTRAST	_	_	158	;CONTRAST	_	_
+186	però	NOM	-1:conc	_	_	_	_	185	conc
+187	avere	VER&3a;infi	-2:vobj	185	vobj	_	_	_	_
+188	il	DET&3a;def	-1:dobj	187	dobj	_	_	_	_
+189	coraggio	NOM	-1:nobj	188	nobj	_	_	_	_
+190	di	PRE	-1:pobj	189	pobj	_	_	_	_
+191	fare	VER&3a;infi	-1:vobj	190	vobj	_	_	_	_
+192	delle	PRE&3a;det	-1:dobj	191	dobj	_	_	_	_
+193	scelte	NOM	-1:nobj	192	nobj	_	_	_	_
+194	,	PON	-2:pnct	192	pnct	_	_	_	_
+<node rel="ELABORATION">
+195	che	PRO&3a;rela	-3:ref|1:subj	196	subj	_	_	_	_
+196	possono	VER&3a;pres	-4:ELABORATION	_	_	192	ELABORATION	_	_
+197	essere	VER&3a;infi	-1:vobj	196	vobj	_	_	_	_
+198	anche	ADV	-1:add	_	_	_	_	197	add
+199	difficili	ADJ	-2:preds	197	preds	_	_	_	_
+<node rel="EXPLANATION">
+200	proprio	ADJ	1:mod	201	mod	_	_	_	_
+201	perché	NOM	-5:EXPLANATION	_	_	196	EXPLANATION	_	_
+</node>
+</node>
+</node>
+</node>
+<node rel="CONDITION">
+202	,	PON	3:pnct	205	pnct	_	_	_	_
+203	se	CON	18:CONDITION	_	_	221	CONDITION	_	_
+204	non	ADV	1:neg	205	neg	_	_	_	_
+205	sono	VER&3a;pres	-2:vobj	203	vobj	_	_	_	_
+206	scelte	VER&3a;pper	-1:preds	205	preds	_	_	_	_
+207	strategiche	ADJ	-1:mod	206	mod	_	_	_	_
+<node rel="ELABORATION">
+208	che	PRO&3a;rela	-2:ref|1:subj	209	subj	_	_	_	_
+209	individuano	VER&3a;pres	-3:ELABORATION	_	_	206	ELABORATION	_	_
+210	davvero	ADV	-1:mod	209	mod	_	_	_	_
+211	quelle	PRO&3a;demo	-2:dobj	209	dobj	_	_	_	_
+212	località	NOM	-1:nobj	211	nobj	_	_	_	_
+213	e	CON	-2:coord	211	coord	_	_	_	_
+214	quei	PRO&3a;demo	-3:conj	211	conj	_	_	_	_
+215	porti	VER&3a;cpre	-1:nobj	214	nobj	_	_	_	_
+<node rel="ELABORATION">
+216	che	PRO&3a;rela	-5:ref|1:subj	217	subj	_	_	_	_
+217	hanno	VER&3a;pres	-6:ELABORATION	_	_	211	ELABORATION	_	_
+218	queste	PRO&3a;demo	-1:dobj	217	dobj	_	_	_	_
+219	caratteristiche	NOM	-1:nobj	218	nobj	_	_	_	_
+</node>
+</node>
+220	,	PON	-15:pnct	205	pnct	_	_	_	_
+</node>
+221	rischiamo	VER&3a;pres		_	_	_	_	_	_
+222	,	PON	-1:pnct	221	pnct	_	_	_	_
+<node rel="EXPLANATION">
+223	dati	NOM	-2:EXPLANATION	_	_	221	EXPLANATION	_	_
+224	fra	PRE	-1:mod	223	mod	_	_	_	_
+225	l'	DET&3a;def	-1:nobj	224	nobj	_	_	_	_
+226	altro	PRO&3a;indef	-1:nobj	225	nobj	_	_	_	_
+227	i	DET&3a;def	-4:dobj	223	dobj	_	_	_	_
+228	pochi	ADJ	-1:mod	227	mod	_	_	_	_
+229	finanziamenti	NOM	-2:nobj	227	nobj	_	_	_	_
+</node>
+230	-	PON	1:pnct	231	pnct	_	_	_	_
+231	dovremmo	VER&3a;cond		_	_	_	_	_	_
+232	discutere	VER&3a;infi	-1:vobj	231	vobj	_	_	_	_
+233	semmai	ADV	-1:mod	232	mod	_	_	_	_
+234	su	PRE	-2:pobj	232	pobj	_	_	_	_
+235	questo	PRO&3a;demo	-1:nobj	234	nobj	_	_	_	_
+236	tema	NOM	-1:nobj	235	nobj	_	_	_	_
+237	,	PON	-6:pnct	231	pnct	_	_	_	_
+<node rel="EXPLANATION">
+238	poiché	NOM	-7:EXPLANATION	_	_	231	EXPLANATION	_	_
+239	abbiamo	VER&3a;pres	-1:vobj	238	vobj	_	_	_	_
+240	a	PRE	-1:mod	239	mod	_	_	_	_
+241	disposizione	NOM	-1:nobj	240	nobj	_	_	_	_
+242	solo	ADV	2:mod	244	mod	_	_	_	_
+243	400	NUM	1:numa	244	numa	_	_	_	_
+244	milioni	NOM	-5:dobj	239	dobj	_	_	_	_
+245	di	PRE	-1:pobj	244	pobj	_	_	_	_
+246	euro	ADJ	-1:nobj	245	nobj	_	_	_	_
+</node>
+247	-	PON	-16:pnct	231	pnct	_	_	_	_
+248	di	PRE	-27:pobj	221	pobj	_	_	_	_
+249	vanificare	VER&3a;infi	-1:vobj	248	vobj	_	_	_	_
+250	gli	DET&3a;def	-1:dobj	249	dobj	_	_	_	_
+251	interventi	NOM	-1:nobj	250	nobj	_	_	_	_
+252	,	PON	-31:pnct	221	pnct	_	_	_	_
+<node rel="SUMMARY">
+253	rischiamo	VER&3a;cpre	-32:SUMMARY	_	_	221	SUMMARY	_	_
+254	cioè	NOM	-1:rest	_	_	_	_	_	_
+255	di	PRE	-2:pobj	253	pobj	_	_	_	_
+256	non	ADV	1:neg	257	neg	_	_	_	_
+257	essere	VER&3a;infi	-2:vobj	255	vobj	_	_	_	_
+258	efficaci	ADJ	-1:preds	257	preds	_	_	_	_
+</node>
+259	.	SENT	-106:pnct	153	pnct	_	_	_	_
+260	Certo	ADV	2:mod	262	mod	_	_	_	_
+261	,	PON	-1:pnct	260	pnct	_	_	_	_
+262	rimane	VER&3a;pres		_	_	_	_	_	_
+263	aperto	VER&3a;pper	-1:preds	262	preds	_	_	_	_
+264	un	DET&3a;indef	-2:subj	262	subj	_	_	_	_
+265	tema	NOM	-1:nobj	264	nobj	_	_	_	_
+266	-	PON	-2:pnct	264	pnct	_	_	_	_
+<node rel="ELABORATION">
+267	che	PRO&3a;rela	-3:ref|2:dobj	269	dobj	_	_	_	_
+268	io	PRO&3a;pers	1:subj	269	subj	_	_	_	_
+269	sottoscrivo	VER&3a;pres	-5:ELABORATION	_	_	264	ELABORATION	_	_
+270	,	PON	-1:pnct	269	pnct	_	_	_	_
+<node rel="JOINT">
+271	che	PRO&3a;rela	2:dobj|-7:ref	273	dobj	_	_	_	_
+272	hanno	VER&3a;pres	-3:JOINT	_	_	269	JOINT	_	_
+273	sollevato	VER&3a;pper	-1:dobj	272	dobj	_	_	_	_
+274	altri	PRO&3a;indef	-2:subj	272	subj	_	_	_	_
+275	colleghi	NOM	-1:nobj	274	nobj	_	_	_	_
+</node>
+<node rel="JOINT">
+276	e	CON	-7:JOINT	_	_	269	JOINT	_	_
+277	che	PRO&3a;rela	-13:ref|2:subj	279	subj	_	_	_	_
+278	quindi	ADV	1:cons	279	cons	_	_	_	_
+279	dovrà	VER&3a;cond	-3:conj	276	conj	_	_	_	_
+280	essere	VER&3a;infi	-1:vobj	279	vobj	_	_	_	_
+281	anche	ADV	-1:add	_	_	_	_	280	add
+282	al	PRE&3a;det	-2:preds	280	preds	_	_	_	_
+283	centro	NOM	-1:nobj	282	nobj	_	_	_	_
+284	della	PRE&3a;det	-1:pobj	283	pobj	_	_	_	_
+285	conciliazione	NOM	-1:nobj	284	nobj	_	_	_	_
+</node>
+286	-	PON	-17:pnct	269	pnct	_	_	_	_
+</node>
+287	cioè	NOM	-23:modp	264	modp	_	_	_	_
+288	il	DET&3a;def	-1:nobj	287	nobj	_	_	_	_
+289	tema	NOM	-1:nobj	288	nobj	_	_	_	_
+290	delle	PRE&3a;det	-1:pobj	289	pobj	_	_	_	_
+291	isole	NOM	-1:nobj	290	nobj	_	_	_	_
+292	,	PON	-2:pnct	290	pnct	_	_	_	_
+293	delle	PRE&3a;det	-3:conj	290	conj	_	_	_	_
+294	regioni	NOM	-1:nobj	293	nobj	_	_	_	_
+295	ultraperiferiche	ADJ	-2:mod	293	mod	_	_	_	_
+296	:	PON	-32:pnct	264	pnct	_	_	_	_
+297	il	DET&3a;def	-33:modp	264	modp	_	_	_	_
+298	tema	NOM	-1:nobj	297	nobj	_	_	_	_
+299	,	PON	1:pnct	300	pnct	_	_	_	_
+300	in	PRE	-2:mod	298	mod	_	_	_	_
+301	altre	PRO&3a;indef	-1:nobj	300	nobj	_	_	_	_
+302	parole	NOM	-1:nobj	301	nobj	_	_	_	_
+303	,	PON	-3:pnct	300	pnct	_	_	_	_
+304	di	PRE	-6:pobj	298	pobj	_	_	_	_
+305	quelle	PRO&3a;demo	-1:nobj	304	nobj	_	_	_	_
+306	situazioni	NOM	-1:nobj	305	nobj	_	_	_	_
+<node rel="ELABORATION">
+307	in	PRE	13:mod	320	mod	_	_	_	_
+308	cui	PRO&3a;rela	-1:nobj|-3:ref	307	nobj	_	_	_	_
+309	anche	ADV	1:add	_	_	_	_	310	add
+310	dimensioni	NOM	7:subj	317	subj	_	_	_	_
+311	diverse	ADJ	-1:mod	310	mod	_	_	_	_
+312	da	PRE	-1:pobj	311	pobj	_	_	_	_
+313	quelle	PRO&3a;demo	-1:nobj	312	nobj	_	_	_	_
+<node rel="ELABORATION">
+314	che	PRO&3a;rela	1:dobj|-1:ref	315	dobj	_	_	_	_
+315	descriviamo	VER&3a;pres	-2:ELABORATION	_	_	313	ELABORATION	_	_
+</node>
+316	non	ADV	1:neg	317	neg	_	_	_	_
+317	possono	VER&3a;pres	-12:ELABORATION	_	_	305	ELABORATION	_	_
+318	pero	NOM	-1:conc	_	_	_	_	317	conc
+319	'	PON	-1:+	_	_	_	_	_	_
+320	penalizzare	VER&3a;infi	-3:vobj	317	vobj	_	_	_	_
+321	la	DET&3a;def	-1:dobj	320	dobj	_	_	_	_
+322	realtà	NOM	-1:nobj	321	nobj	_	_	_	_
+323	portuale	ADJ	-2:mod	321	mod	_	_	_	_
+324	di	PRE	-2:pobj	322	pobj	_	_	_	_
+325	questi	PRO&3a;demo	-1:nobj	324	nobj	_	_	_	_
+326	vari	ADJ	-1:mod	325	mod	_	_	_	_
+327	paesi	NOM	-2:nobj	325	nobj	_	_	_	_
+328	e	CON	-4:coord	324	coord	_	_	_	_
+329	di	PRE	-1:conj	328	conj	_	_	_	_
+330	queste	PRO&3a;demo	-1:nobj	329	nobj	_	_	_	_
+331	aree	NOM	-1:nobj	330	nobj	_	_	_	_
+</node>
+332	.	SENT	-70:pnct	262	pnct	_	_	_	_
+</node>

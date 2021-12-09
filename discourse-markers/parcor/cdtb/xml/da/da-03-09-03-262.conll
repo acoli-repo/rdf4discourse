@@ -1,0 +1,356 @@
+<node head="Text">
+# da/da-03-09-03-262.tag
+# <s>
+1	Hr.	NP	1:title	2	title	_	_	_	_
+2	formand	NC	5:voc	7	voc	_	_	_	_
+3	,	XP	-1:pnct	2	pnct	_	_	_	_
+4	hr.	NC	1:title	5	title	_	_	_	_
+5	Lannoyes	NP	2:subj	7	subj	_	_	_	_
+6	betænkning	NC	-1:possd	5	possd	_	_	_	_
+7	indeholder	VA		_	_	_	_	_	_
+8	en	PI	-1:dobj	7	dobj	_	_	_	_
+9	meget	AN	1:mod	10	mod	_	_	_	_
+10	præcis	RG	-2:mod	8	mod	_	_	_	_
+11	og	CC	-1:coord	10	coord	_	_	_	_
+12	skarp	VA	-1:conj	11	conj	_	_	_	_
+13	kritik	NC	-5:nobj	8	nobj	_	_	_	_
+14	af	SP	-1:pobj	13	pobj	_	_	_	_
+15	de	PD	-1:nobj	14	nobj	_	_	_	_
+16	negative	AN	-1:mod	15	mod	_	_	_	_
+17	virkninger	NC	-2:nobj	15	nobj	_	_	_	_
+18	,	XP	-3:pnct	15	pnct	_	_	_	_
+<node rel="ELABORATION">
+19	der	U=	-4:ref|1:subj	20	subj	_	_	_	_
+20	er	VA	-5:ELABORATION	_	_	15	ELABORATION	_	_
+21	ved	SP	-1:preds	20	preds	_	_	_	_
+22	at	U=	-1:nobj	21	nobj	_	_	_	_
+23	privatisere	VA	-1:vobj	22	vobj	_	_	_	_
+24	vandforsyningen	NC	-1:dobj	23	dobj	_	_	_	_
+</node>
+25	.	XP	-18:pnct	7	pnct	_	_	_	_
+26	Jeg	PP	1:subj	27	subj	_	_	_	_
+27	vil	VA		_	_	_	_	_	_
+28	benytte	VA	-1:vobj	27	vobj	_	_	_	_
+29	lejligheden	NC	-1:dobj	28	dobj	_	_	_	_
+30	til	SP	-1:pobj	29	pobj	_	_	_	_
+31	at	U=	-1:nobj	30	nobj	_	_	_	_
+32	supplere	VA	-1:vobj	31	vobj	_	_	_	_
+33	hr.	NC	1:title	34	title	_	_	_	_
+34	Lannoyes	NP	-2:dobj|-26:coref-var	32	dobj	_	_	_	_
+35	kritik	NC	-1:possd	34	possd	_	_	_	_
+36	med	SP	-4:mod	32	mod	_	_	_	_
+37	yderligere	AN	1:mod	38	mod	_	_	_	_
+38	argumenter	NC	-2:nobj	36	nobj	_	_	_	_
+39	.	XP	-12:pnct	27	pnct	_	_	_	_
+<node rel="ELABORATION">
+40	Nemlig	RG	2:mod	42	mod	_	_	_	_
+41	,	XP	-1:pnct	40	pnct	_	_	_	_
+42	at	CS	-15:ELABORATION	_	_	27	ELABORATION	_	_
+43	privatisering	NC	2:subj	45	subj	_	_	_	_
+44	også	RG	1:add	_	_	_	_	45	add
+45	svækker	VA	-3:vobj	42	vobj	_	_	_	_
+46	beskyttelsen	NC	-1:dobj	45	dobj	_	_	_	_
+47	af	SP	-1:pobj	46	pobj	_	_	_	_
+48	de	PD	-1:nobj	47	nobj	_	_	_	_
+49	kostbare	AN	-1:mod	48	mod	_	_	_	_
+50	vandressourcer	NC	-2:nobj	48	nobj	_	_	_	_
+51	.	XP	-9:pnct	42	pnct	_	_	_	_
+</node>
+52	I	SP	2:mod	54	mod	_	_	_	_
+53	Danmark	NP	-1:nobj	52	nobj	_	_	_	_
+54	er	VA		_	_	_	_	_	_
+55	vandforsyningen	NC	-1:subj	54	subj	_	_	_	_
+56	baseret	VA	-2:preds	54	preds	_	_	_	_
+57	på	SP	-1:pobj	56	pobj	_	_	_	_
+58	et	PI	-1:nobj	57	nobj	_	_	_	_
+59	solidarisk	AN	-1:mod	58	mod	_	_	_	_
+60	princip	NC	-2:nobj	58	nobj	_	_	_	_
+61	,	XP	-7:pnct	54	pnct	_	_	_	_
+<node rel="BACKGROUND">
+62	hvad	PT	1:subj	63	subj	_	_	_	_
+63	angår	VA	-9:BACKGROUND	_	_	54	BACKGROUND	_	_
+64	ressourcetilgængelighed	NC	-1:dobj	63	dobj	_	_	_	_
+65	og	CC	-1:coord	64	coord	_	_	_	_
+66	priser	NC	-1:conj	65	conj	_	_	_	_
+</node>
+67	.	XP	-13:pnct	54	pnct	_	_	_	_
+68	I	SP	2:mod	70	mod	_	_	_	_
+69	Danmark	NP	-16:coref-iden|-1:nobj	68	nobj	_	_	_	_
+70	er	VA		_	_	_	_	_	_
+71	vandforsyningen	NC	-1:subj|-16:coref-iden	70	subj	_	_	_	_
+72	decentral	AN	-2:preds	70	preds	_	_	_	_
+73	og	CC	-1:coord	72	coord	_	_	_	_
+74	primært	AN	1:mod	75	mod	_	_	_	_
+75	offentlig	AN	-2:conj	73	conj	_	_	_	_
+76	og	CC	-1:coord	75	coord	_	_	_	_
+77	i	SP	3:mod	80	mod	_	_	_	_
+78	mindre	AN	1:mod	79	mod	_	_	_	_
+79	omfang	NC	-2:nobj	77	nobj	_	_	_	_
+80	privat	AN	-4:conj	76	conj	_	_	_	_
+81	,	XP	-9:pnct	72	pnct	_	_	_	_
+82	men	CC	-10:coord	72	coord	_	_	_	_
+83	altid	RG	3:mod	86	mod	_	_	_	_
+84	bruger-	XX	1:conj	85	conj	_	_	_	_
+85	/	XX	1:coord	86	coord	_	_	_	_
+86	ejerstyret	NC	-4:conj	82	conj	_	_	_	_
+87	.	XP	-17:pnct	70	pnct	_	_	_	_
+<node rel="EVALUATION">
+88	Det	PP	-18:coref-res|1:subj	89	subj	_	_	_	_
+89	er	VA	-19:EVALUATION	_	_	70	EVALUATION	_	_
+90	en	PI	-1:preds	89	preds	_	_	_	_
+91	meget	AN	1:mod	92	mod	_	_	_	_
+92	vigtig	AN	-2:mod	90	mod	_	_	_	_
+93	faktor	NC	-3:nobj	90	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+94	for	SP	-5:ENABLEMENT	_	_	89	ENABLEMENT	_	_
+95	at	U=	-1:nobj	94	nobj	_	_	_	_
+96	sikre	VA	-1:vobj	95	vobj	_	_	_	_
+97	en	PI	-1:dobj	96	dobj	_	_	_	_
+98	fortsat	RG	-1:mod	97	mod	_	_	_	_
+99	kildebeskyttelse	NC	-2:nobj	97	nobj	_	_	_	_
+</node>
+100	.	XP	-11:pnct	89	pnct	_	_	_	_
+</node>
+<node rel="ELABORATION">
+101	Den	PD	-26:coref-var|7:subj	108	subj	_	_	_	_
+102	offentlige	AN	-1:mod	101	mod	_	_	_	_
+103	del	NC	-1:nobj	102	nobj	_	_	_	_
+104	af	SP	-1:pobj	103	pobj	_	_	_	_
+105	den	PD	-1:nobj|-34:coref-var	104	nobj	_	_	_	_
+106	danske	AN	-1:mod	105	mod	_	_	_	_
+107	vandforsyning	NC	-2:nobj	105	nobj	_	_	_	_
+108	er	VA	-38:ELABORATION	_	_	70	ELABORATION	_	_
+109	meget	AN	1:mod	110	mod	_	_	_	_
+110	aktiv	AN	-2:preds	108	preds	_	_	_	_
+<node rel="BACKGROUND">
+111	med	SP	-3:BACKGROUND	_	_	108	BACKGROUND	_	_
+112	hensyn	NC	-1:nobj	111	nobj	_	_	_	_
+113	til	SP	-1:pobj	112	pobj	_	_	_	_
+114	at	U=	-1:nobj	113	nobj	_	_	_	_
+115	kræve	VA	-1:vobj	114	vobj	_	_	_	_
+116	så	RG	1:mod	117	mod	_	_	_	_
+117	høje	AN	1:mod	118	mod	_	_	_	_
+118	beskyttelsesniveauer	NC	-3:dobj	115	dobj	_	_	_	_
+119	som	U=	-3:pobj	116	pobj	_	_	_	_
+120	muligt	AN	-1:aobj	119	aobj	_	_	_	_
+<node rel="JOINT">
+121	og	CC	-6:JOINT	_	_	115	JOINT	_	_
+122	kræve	VA	-1:conj	121	conj	_	_	_	_
+123	eventuelle	AN	1:mod	124	mod	_	_	_	_
+124	forureningskilder	NC	-2:dobj	122	dobj	_	_	_	_
+125	stoppet	NC	-3:vobj	122	vobj	_	_	_	_
+</node>
+</node>
+126	.	XP	-18:pnct	108	pnct	_	_	_	_
+<node rel="CONTRAST">
+127	Den	PD	-47:coref-var|10:subj	137	subj	_	_	_	_
+128	private	AN	-1:mod	127	mod	_	_	_	_
+129	del	NC	-2:nobj	127	nobj	_	_	_	_
+130	-	XP	1:pnct	131	pnct	_	_	_	_
+131	derimod	RG	6:contr	_	_	_	_	137	contr
+132	-	XP	-1:pnct	131	pnct	_	_	_	_
+133	af	SP	-4:pobj	129	pobj	_	_	_	_
+134	den	PD	-29:coref-iden|-1:nobj	133	nobj	_	_	_	_
+135	danske	AN	-1:mod	134	mod	_	_	_	_
+136	vandforsyning	NC	-2:nobj	134	nobj	_	_	_	_
+137	er	VA	-29:CONTRAST	_	_	108	CONTRAST	_	_
+138	meget	AN	1:mod	139	mod	_	_	_	_
+139	tilfreds	AN	-2:preds	137	preds	_	_	_	_
+140	med	SP	-1:pobj	139	pobj	_	_	_	_
+141	de	PD	-1:nobj	140	nobj	_	_	_	_
+142	udvandede	VA	-1:mod	141	mod	_	_	_	_
+143	krav	NC	-2:nobj	141	nobj	_	_	_	_
+144	,	XP	-3:pnct	141	pnct	_	_	_	_
+<node rel="ELABORATION">
+145	som	U=	4:nobj|-4:ref	149	nobj	_	_	_	_
+146	EU	NP	2:subj	148	subj	_	_	_	_
+147	nu	RG	1:mod	148	mod	_	_	_	_
+148	barsler	NC	-7:ELABORATION	_	_	141	ELABORATION	_	_
+149	med	SP	-1:pobj	148	pobj	_	_	_	_
+150	,	XP	-2:pnct	148	pnct	_	_	_	_
+<node rel="JOINT">
+151	og	CC	-3:JOINT	_	_	148	JOINT	_	_
+152	som	U=	-11:ref|1:subj	153	subj	_	_	_	_
+153	indebærer	VA	-2:conj	151	conj	_	_	_	_
+154	,	XP	-1:pnct	153	pnct	_	_	_	_
+155	at	CS	-2:dobj	153	dobj	_	_	_	_
+156	grænseværdierne	NC	6:subj	162	subj	_	_	_	_
+157	for	SP	-1:pobj	156	pobj	_	_	_	_
+158	pesticider	NC	-1:nobj	157	nobj	_	_	_	_
+159	i	SP	-1:mod	158	mod	_	_	_	_
+160	vores	PO	-1:nobj|-26:assoc	159	nobj	_	_	_	_
+161	drikkevand	NC	-1:possd	160	possd	_	_	_	_
+162	svækkes	VA	-7:vobj	155	vobj	_	_	_	_
+</node>
+</node>
+163	.	XP	-26:pnct	137	pnct	_	_	_	_
+</node>
+</node>
+# 
+# 
+# <s>
+166	Erfaringerne	NC	6:subj	172	subj	_	_	_	_
+167	fra	SP	-1:pobj	166	pobj	_	_	_	_
+168	England	NP	-1:nobj	167	nobj	_	_	_	_
+169	og	CC	-1:coord	168	coord	_	_	_	_
+170	andre	PI	-1:conj	169	conj	_	_	_	_
+171	steder	NC	-1:nobj	170	nobj	_	_	_	_
+172	viser	VA		_	_	_	_	_	_
+173	også	RG	-1:add	_	_	_	_	172	add
+174	,	XP	-2:pnct	172	pnct	_	_	_	_
+175	at	CS	-3:dobj	172	dobj	_	_	_	_
+<node rel="BACKGROUND">
+176	når	CS	11:BACKGROUND	_	_	187	BACKGROUND	_	_
+177	vandforsyningen	NC	1:subj	178	subj	_	_	_	_
+178	bliver	VA	-2:vobj	176	vobj	_	_	_	_
+179	gjort	VA	-1:vobj	178	vobj	_	_	_	_
+180	til	SP	-1:pobj	179	pobj	_	_	_	_
+181	en	PI	-1:nobj	180	nobj	_	_	_	_
+182	vare	NC	-1:nobj	181	nobj	_	_	_	_
+<node rel="JOINT">
+183	og	CC	-5:JOINT	_	_	178	JOINT	_	_
+184	privatiseres	VA	-1:conj	183	conj	_	_	_	_
+</node>
+185	,	XP	-7:pnct	178	pnct	_	_	_	_
+</node>
+186	så	RG	1:cons	187	cons	_	_	_	_
+187	forsvinder	VA	-12:vobj	175	vobj	_	_	_	_
+188	ressourcebeskyttelsen	NC	-1:dobj	187	dobj	_	_	_	_
+189	.	XP	-17:pnct	172	pnct	_	_	_	_
+<node rel="ELABORATION">
+190	Londons	NP	3:subj|-22:assoc	193	subj	_	_	_	_
+191	private	AN	1:mod	192	mod	_	_	_	_
+192	vandforsyning	NC	-2:possd	190	possd	_	_	_	_
+193	lobbyedes	VA	-21:ELABORATION	_	_	172	ELABORATION	_	_
+194	således	RG	-1:cons	193	cons	_	_	_	_
+195	på	SP	-2:mod	193	mod	_	_	_	_
+196	lige	RG	1:mod	197	mod	_	_	_	_
+197	fod	NC	-2:nobj	195	nobj	_	_	_	_
+198	med	SP	-5:mod	193	mod	_	_	_	_
+199	den	PD	-1:nobj	198	nobj	_	_	_	_
+200	europæiske	AN	-1:mod	199	mod	_	_	_	_
+201	kemiindustri	NC	-2:nobj	199	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+202	for	SP	-9:ENABLEMENT	_	_	193	ENABLEMENT	_	_
+203	,	XP	-1:pnct	202	pnct	_	_	_	_
+204	at	CS	-2:nobj	202	nobj	_	_	_	_
+205	vi	PP	2:subj	207	subj	_	_	_	_
+206	blot	RG	1:mod	207	mod	_	_	_	_
+207	skulle	VA	-3:vobj	204	vobj	_	_	_	_
+208	tillade	VA	-1:vobj	207	vobj	_	_	_	_
+209	store	AN	1:mod	210	mod	_	_	_	_
+210	mængder	NC	-2:dobj	208	dobj	_	_	_	_
+211	sprøjtemidler	NC	-1:nobj	210	nobj	_	_	_	_
+212	i	SP	-1:mod	211	mod	_	_	_	_
+213	drikkevandet	NC	-1:nobj	212	nobj	_	_	_	_
+214	,	XP	-7:pnct	207	pnct	_	_	_	_
+</node>
+<node rel="TEMPORAL">
+215	dengang	CS	-22:TEMPORAL	_	_	193	TEMPORAL	_	_
+216	EU	NP	1:subj	217	subj	_	_	_	_
+217	forhandlede	VA	-2:vobj	215	vobj	_	_	_	_
+218	om	SP	-1:pobj	217	pobj	_	_	_	_
+219	drikkevandsdirektivet	NC	-1:nobj	218	nobj	_	_	_	_
+</node>
+220	-	XP	-27:pnct	193	pnct	_	_	_	_
+<node rel="CAUSE">
+221	så	RG	-28:CAUSE	_	_	193	CAUSE	_	_
+222	var	VA	-1:vobj	221	vobj	_	_	_	_
+223	det	PP	-1:subj	222	subj	_	_	_	_
+224	nemmere	AN	-2:preds	222	preds	_	_	_	_
+225	at	U=	-2:nobj	223	nobj	_	_	_	_
+226	tjene	VA	-1:vobj	225	vobj	_	_	_	_
+227	penge	NC	-1:dobj	226	dobj	_	_	_	_
+228	.	XP	-6:pnct	222	pnct	_	_	_	_
+</node>
+</node>
+# 
+# 
+# <s>
+231	For	CC	5:mod	236	mod	_	_	_	_
+232	mig	PP	-1:nobj	231	nobj	_	_	_	_
+233	at	U=	-2:nobj	231	nobj	_	_	_	_
+234	se	VA	-1:vobj	233	vobj	_	_	_	_
+235	,	XP	-4:pnct	231	pnct	_	_	_	_
+236	er	VA		_	_	_	_	_	_
+237	den	PD	-1:preds	236	preds	_	_	_	_
+238	eneste	AN	-1:mod	237	mod	_	_	_	_
+239	sikre	AN	-2:mod	237	mod	_	_	_	_
+240	kildebeskyttelse	NC	-3:nobj	237	nobj	_	_	_	_
+241	at	U=	-5:subj	236	subj	_	_	_	_
+242	undlade	VA	-1:vobj	241	vobj	_	_	_	_
+243	brugen	NC	-1:dobj	242	dobj	_	_	_	_
+244	af	SP	-1:pobj	243	pobj	_	_	_	_
+245	pesticider	NC	-1:nobj	244	nobj	_	_	_	_
+246	.	XP	-10:pnct	236	pnct	_	_	_	_
+<node rel="EXPLANATION">
+247	Jeg	PP	1:subj|-15:coref	248	subj	_	_	_	_
+248	er	VA	-12:EXPLANATION	_	_	236	EXPLANATION	_	_
+249	derfor	RG	-1:cons	248	cons	_	_	_	_
+250	meget	AN	1:mod	251	mod	_	_	_	_
+251	glad	AN	-3:preds	248	preds	_	_	_	_
+252	for	SP	-1:pobj	251	pobj	_	_	_	_
+253	,	XP	-1:pnct	252	pnct	_	_	_	_
+254	at	CS	-2:nobj	252	nobj	_	_	_	_
+255	hr.	NC	1:title	256	title	_	_	_	_
+256	Lannoyes	NP	4:subj	260	subj	_	_	_	_
+257	betænkning	NC	-1:pnct	256	pnct	_	_	_	_
+258	i	SP	2:mod	260	mod	_	_	_	_
+259	konklusionen	NC	-1:nobj|-3:assoc	258	nobj	_	_	_	_
+260	prioriterer	VA	-6:vobj	254	vobj	_	_	_	_
+261	,	XP	-1:pnct	260	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+262	at	CS	-2:ATTRIBUTION	_	_	260	ATTRIBUTION	_	_
+263	der	U=	1:expl	264	expl	_	_	_	_
+264	skal	VA	-2:vobj	262	vobj	_	_	_	_
+265	indføres	VA	-1:vobj	264	vobj	_	_	_	_
+266	produktionsmetoder	NC	-1:dobj	265	dobj	_	_	_	_
+267	i	SP	-2:mod	265	mod	_	_	_	_
+268	nord	RG	-1:nobj	267	nobj	_	_	_	_
+269	som	U=	-2:pobj	267	pobj	_	_	_	_
+270	i	SP	-1:pobj	269	pobj	_	_	_	_
+271	syd	RG	-1:nobj	270	nobj	_	_	_	_
+272	,	XP	-6:pnct	266	pnct	_	_	_	_
+<node rel="ELABORATION">
+273	der	U=	-7:ref|1:subj	274	subj	_	_	_	_
+274	fremmer	VA	-8:ELABORATION	_	_	266	ELABORATION	_	_
+275	et	PI	-1:dobj	274	dobj	_	_	_	_
+276	økologisk	AN	-1:mod	275	mod	_	_	_	_
+277	landbrug	NC	-2:nobj	275	nobj	_	_	_	_
+278	,	XP	-3:pnct	275	pnct	_	_	_	_
+<node rel="ELABORATION">
+279	som	U=	-4:ref|4:subj	283	subj	_	_	_	_
+280	i	SP	3:mod	283	mod	_	_	_	_
+281	væsentlig	AN	1:mod	282	mod	_	_	_	_
+282	grad	NC	-2:nobj	280	nobj	_	_	_	_
+283	er	VA	-8:ELABORATION	_	_	275	ELABORATION	_	_
+284	baseret	VA	-1:preds	283	preds	_	_	_	_
+285	på	SP	-1:pobj	284	pobj	_	_	_	_
+286	de	PD	-1:nobj	285	nobj	_	_	_	_
+287	lokale	AN	-1:mod	286	mod	_	_	_	_
+288	ressourcer	NC	-2:nobj	286	nobj	_	_	_	_
+289	,	XP	-3:pnct	286	pnct	_	_	_	_
+290	grønne	AN	1:mod	291	mod	_	_	_	_
+291	teknologier	NC	-5:conj	286	conj	_	_	_	_
+292	og	CC	-6:coord	286	coord	_	_	_	_
+293	kooperativer	NC	-1:conj	292	conj	_	_	_	_
+294	på	SP	-1:mod	293	mod	_	_	_	_
+295	regionalt	AN	1:mod	296	mod	_	_	_	_
+296	niveau	NC	-2:nobj	294	nobj	_	_	_	_
+</node>
+</node>
+</node>
+297	.	XP	-49:pnct	248	pnct	_	_	_	_
+<node rel="EVALUATION">
+298	Jeg	PP	-51:coref|1:subj	299	subj	_	_	_	_
+299	stemmer	VA	-51:EVALUATION	_	_	248	EVALUATION	_	_
+300	med	SP	-1:mod	299	mod	_	_	_	_
+301	glæde	NC	-1:nobj	300	nobj	_	_	_	_
+302	for	SP	-3:pobj	299	pobj	_	_	_	_
+303	hr.	NC	1:title	304	title	_	_	_	_
+304	Lannoyes	NP	-48:coref-iden|-2:nobj	302	nobj	_	_	_	_
+305	betænkning	NC	-1:possd	304	possd	_	_	_	_
+306	.	XP	-7:pnct	299	pnct	_	_	_	_
+</node>
+</node>
+</node>

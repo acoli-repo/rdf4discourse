@@ -1,0 +1,258 @@
+<node head="Text">
+# it/it-00-11-13-31.tag
+# <s>
+1	Signora	NOM	1:title	2	title	_	_	_	_
+2	Presidente	ADJ	2:voc	4	voc	_	_	_	_
+3	,	PON	-1:pnct	2	pnct	_	_	_	_
+4	desidero	VER&3a;pres		_	_	_	_	_	_
+5	informare	VER&3a;infi	-1:vobj	4	vobj	_	_	_	_
+6	il	DET&3a;def	-1:dobj	5	dobj	_	_	_	_
+7	Parlamento	NOM	-1:nobj	6	nobj	_	_	_	_
+8	di	PRE	-3:pobj	5	pobj	_	_	_	_
+9	una	DET&3a;indef	-1:nobj	8	nobj	_	_	_	_
+10	grave	ADJ	-1:mod	9	mod	_	_	_	_
+11	iniziativa	NOM	-2:nobj	9	nobj	_	_	_	_
+<node rel="ELABORATION">
+12	che	CON	-3:ref|1:subj	13	subj	_	_	_	_
+13	è	NOM	-4:ELABORATION	_	_	9	ELABORATION	_	_
+14	stata	VER&3a;pper	-1:vobj	13	vobj	_	_	_	_
+15	presa	VER&3a;pper	-1:preds	14	preds	_	_	_	_
+16	la	DET&3a;def	-1:mod	15	mod	_	_	_	_
+17	settimana	NOM	-1:nobj	16	nobj	_	_	_	_
+18	scorsa	ADJ	-2:mod	16	mod	_	_	_	_
+19	,	PON	-4:pnct	15	pnct	_	_	_	_
+20	in	PRE	-5:mod	15	mod	_	_	_	_
+21	Italia	NPR	-1:nobj	20	nobj	_	_	_	_
+22	,	PON	-2:pnct	20	pnct	_	_	_	_
+23	dal	PRE&3a;det	-8:agent	15	agent	_	_	_	_
+24	governo	NOM	-1:nobj	23	nobj	_	_	_	_
+25	regionale	ADJ	-2:mod	23	mod	_	_	_	_
+26	della	PRE&3a;det	-2:pobj	24	pobj	_	_	_	_
+27	Regione	NOM	-1:nobj	26	nobj	_	_	_	_
+28	Lazio	NPR	-2:appr	26	appr	_	_	_	_
+</node>
+29	.	SENT	-25:pnct	4	pnct	_	_	_	_
+30	Questo	PRO&3a;demo	-7:coref|1:subj	31	subj	_	_	_	_
+31	ha	VER&3a;pres		_	_	_	_	_	_
+32	infatti	ADV	-1:mod	31	mod	_	_	_	_
+33	costituito	VER&3a;pper	-2:vobj	31	vobj	_	_	_	_
+34	una	DET&3a;indef	-1:dobj	33	dobj	_	_	_	_
+35	commissione	NOM	-1:nobj	34	nobj	_	_	_	_
+36	per	PRE	-1:pobj	35	pobj	_	_	_	_
+37	il	DET&3a;def	-1:nobj	36	nobj	_	_	_	_
+38	controllo	NOM	-1:nobj	37	nobj	_	_	_	_
+39	dei	PRE&3a;det	-1:pobj	38	pobj	_	_	_	_
+40	libri	NOM	-1:nobj	39	nobj	_	_	_	_
+41	di	PRE	-1:pobj	40	pobj	_	_	_	_
+42	testo	NOM	-1:nobj	41	nobj	_	_	_	_
+43	di	PRE	-4:mod	39	mod	_	_	_	_
+44	storia	NOM	-1:nobj	43	nobj	_	_	_	_
+45	nelle	PRE&3a;det	-8:mod	37	mod	_	_	_	_
+46	scuole	NOM	-1:nobj	45	nobj	_	_	_	_
+47	,	PON	-13:pnct	34	pnct	_	_	_	_
+48	commissione	NOM	-14:modp	34	modp	_	_	_	_
+<node rel="ELABORATION">
+49	che	PRO&3a;rela	1:subj|-1:ref	50	subj	_	_	_	_
+50	deve	VER&3a;pres	-2:ELABORATION	_	_	48	ELABORATION	_	_
+51	controllare	VER&3a;infi	-1:vobj	50	vobj	_	_	_	_
+52	fino	PRE	-1:mod	51	mod	_	_	_	_
+53	a	PRE	-1:pobj	52	pobj	_	_	_	_
+54	che	PRO&3a;rela	-1:nobj	53	nobj	_	_	_	_
+55	punto	NOM	-1:nobj	54	nobj	_	_	_	_
+<node rel="COMPARISON">
+56	-	PON	2:pnct	58	pnct	_	_	_	_
+57	come	CON	1:dobj	58	dobj	_	_	_	_
+58	dicono	VER&3a;pres	-4:COMPARISON	_	_	54	COMPARISON	_	_
+59	i	DET&3a;def	-1:subj	58	subj	_	_	_	_
+60	neofascisti	NOM	-1:nobj	59	nobj	_	_	_	_
+<node rel="ELABORATION">
+61	che	PRO&3a;rela	-2:ref|1:subj	62	subj	_	_	_	_
+62	sono	VER&3a;pres	-3:ELABORATION	_	_	59	ELABORATION	_	_
+63	al	PRE&3a;det	-1:preds|-33:coref-var	62	preds	_	_	_	_
+64	governo	NOM	-1:nobj	63	nobj	_	_	_	_
+65	nel	PRE&3a;det	-3:mod	62	mod	_	_	_	_
+66	Lazio	NPR	-1:nobj	65	nobj	_	_	_	_
+</node>
+67	-	PON	-9:pnct	58	pnct	_	_	_	_
+</node>
+68	questi	PRO&3a;demo	2:subj|-29:coref-var	70	subj	_	_	_	_
+69	testi	NOM	-1:nobj	68	nobj	_	_	_	_
+70	sono	VER&3a;pres	-16:vobj	54	vobj	_	_	_	_
+71	inficiati	VER&3a;pper	-1:preds	70	preds	_	_	_	_
+72	di	PRE	-1:pobj	71	pobj	_	_	_	_
+73	marxismo	NOM	-1:nobj	72	nobj	_	_	_	_
+</node>
+74	.	SENT	-43:pnct	31	pnct	_	_	_	_
+75	Il	DET&3a;def	2:subj	77	subj	_	_	_	_
+76	fatto	NOM	-1:nobj	75	nobj	_	_	_	_
+77	è	NOM		_	_	_	_	_	_
+78	che	PRO&3a;rela	-1:preds	77	preds	_	_	_	_
+79	questi	PRO&3a;demo	-11:coref-iden|2:subj	81	subj	_	_	_	_
+80	testi	NOM	-1:nobj	79	nobj	_	_	_	_
+81	presentano	VER&3a;pres	-3:vobj	78	vobj	_	_	_	_
+82	soltanto	ADV	-1:mod	81	mod	_	_	_	_
+83	la	DET&3a;def	-2:dobj	81	dobj	_	_	_	_
+84	storia	NOM	-1:nobj	83	nobj	_	_	_	_
+85	d'	PRE	-1:pobj	84	pobj	_	_	_	_
+86	Italia	NPR	-1:nobj	85	nobj	_	_	_	_
+87	,	PON	-2:pnct	85	pnct	_	_	_	_
+88	della	PRE&3a;det	-3:conj	85	conj	_	_	_	_
+89	Seconda	ADJ	-1:mod	88	mod	_	_	_	_
+90	guerra	NOM	-2:nobj	88	nobj	_	_	_	_
+91	mondiale	ADJ	-3:mod	88	mod	_	_	_	_
+92	,	PON	-7:pnct	85	pnct	_	_	_	_
+93	del	PRE&3a;det	-8:conj	85	conj	_	_	_	_
+94	nazismo	NOM	-1:nobj	93	nobj	_	_	_	_
+95	e	CON	-10:coord	85	coord	_	_	_	_
+96	del	PRE&3a;det	-1:conj	95	conj	_	_	_	_
+97	fascismo	NOM	-1:nobj	96	nobj	_	_	_	_
+<node rel="MANNER">
+98	assumendo	VER&3a;geru	-17:MANNER	_	_	81	MANNER	_	_
+99	,	PON	1:pnct	100	pnct	_	_	_	_
+100	come	CON	-2:mod	98	mod	_	_	_	_
+101	ovvio	ADJ	-1:aobj	100	aobj	_	_	_	_
+102	,	PON	-2:pnct	100	pnct	_	_	_	_
+103	che	PRO&3a;rela	-5:dobj	98	dobj	_	_	_	_
+104	non	ADV	2:neg	106	neg	_	_	_	_
+105	si	PRO&3a;pers	1:subj	106	subj	_	_	_	_
+106	possono	VER&3a;pres	-3:vobj	103	vobj	_	_	_	_
+107	mettere	VER&3a;infi	-1:vobj	106	vobj	_	_	_	_
+108	sullo	PRE&3a;det	-1:lobj	107	lobj	_	_	_	_
+109	stesso	ADJ	-1:mod	108	mod	_	_	_	_
+110	piano	NOM	-2:nobj	108	nobj	_	_	_	_
+111	i	DET&3a;def	-4:dobj	107	dobj	_	_	_	_
+112	valori	NOM	-1:nobj	111	nobj	_	_	_	_
+<node rel="ELABORATION">
+113	per	PRE	3:mod	116	mod	_	_	_	_
+114	cui	PRO&3a;rela	-1:nobj|-3:ref	113	nobj	_	_	_	_
+115	si	PRO&3a;refl	1:subj	116	subj	_	_	_	_
+116	sono	VER&3a;pres	-5:ELABORATION	_	_	111	ELABORATION	_	_
+117	battuti	VER&3a;pper	-1:preds	116	preds	_	_	_	_
+118	i	DET&3a;def	-1:dobj	117	dobj	_	_	_	_
+119	resistenti	ADJ	-1:nobj	118	nobj	_	_	_	_
+120	e	CON	-2:coord	118	coord	_	_	_	_
+121	gli	DET&3a;def	-3:conj	118	conj	_	_	_	_
+122	antifascisti	NOM	-1:nobj	121	nobj	_	_	_	_
+</node>
+123	e	CON	-12:coord	111	coord	_	_	_	_
+124	le	DET&3a;def	-1:conj	123	conj	_	_	_	_
+125	idee	NOM	-1:nobj	124	nobj	_	_	_	_
+<node rel="ELABORATION">
+126	che	PRO&3a;rela	-2:ref|1:subj	127	subj	_	_	_	_
+127	hanno	VER&3a;pres	-3:ELABORATION	_	_	124	ELABORATION	_	_
+128	ispirato	VER&3a;pper	-1:vobj	127	vobj	_	_	_	_
+129	Hitler	NPR	-1:dobj	128	dobj	_	_	_	_
+130	e	CON	-1:coord	129	coord	_	_	_	_
+131	Mussolini	NOM	-1:conj	130	conj	_	_	_	_
+</node>
+</node>
+132	.	SENT	-55:pnct	77	pnct	_	_	_	_
+133	Questa	PRO&3a;demo	1:subj|-102:coref-res	134	subj	_	_	_	_
+134	è	NOM		_	_	_	_	_	_
+135	un'	DET&3a;indef	-1:preds	134	preds	_	_	_	_
+136	iniziativa	NOM	-1:nobj	135	nobj	_	_	_	_
+137	molto	ADV	1:mod	138	mod	_	_	_	_
+138	grave	ADJ	-3:mod	135	mod	_	_	_	_
+<node rel="ELABORATION">
+139	che	PRO&3a;rela	-4:ref|1:subj	140	subj	_	_	_	_
+140	tende	VER&3a;pres	-5:ELABORATION	_	_	135	ELABORATION	_	_
+141	a	PRE	-1:pobj	140	pobj	_	_	_	_
+142	restaurare	VER&3a;infi	-1:vobj	141	vobj	_	_	_	_
+143	in	PRE	-1:mod	142	mod	_	_	_	_
+144	Italia	NPR	-1:nobj	143	nobj	_	_	_	_
+145	una	DET&3a;indef	-3:dobj	142	dobj	_	_	_	_
+146	censura	NOM	-1:nobj	145	nobj	_	_	_	_
+147	,	PON	-5:pnct	142	pnct	_	_	_	_
+148	per	CON	-6:mod	142	mod	_	_	_	_
+149	ora	ADV	-1:nobj	148	nobj	_	_	_	_
+150	soltanto	ADV	1:mod	151	mod	_	_	_	_
+151	sui	PRE&3a;det	-5:pobj	146	pobj	_	_	_	_
+152	libri	NOM	-1:nobj	151	nobj	_	_	_	_
+153	di	PRE	-1:pobj	152	pobj	_	_	_	_
+154	testo	NOM	-1:nobj	153	nobj	_	_	_	_
+155	ma	CON	-4:coord	151	coord	_	_	_	_
+156	presto	ADV	3:mod	159	mod	_	_	_	_
+157	forse	ADV	2:mod	159	mod	_	_	_	_
+158	anche	ADV	1:add	_	_	_	_	159	add
+159	su	PRE	-4:conj	155	conj	_	_	_	_
+160	altro	PRO&3a;indef	-1:nobj	159	nobj	_	_	_	_
+</node>
+161	.	SENT	-27:pnct	134	pnct	_	_	_	_
+<node rel="EXPLANATION">
+162	Siccome	CON	24:EXPLANATION	_	_	186	EXPLANATION	_	_
+163	i	DET&3a;def	8:subj	171	subj	_	_	_	_
+164	partiti	NOM	-1:nobj	163	nobj	_	_	_	_
+165	cosiddetti	ADJ	1:mod	166	mod	_	_	_	_
+166	liberali	ADJ	-3:mod	163	mod	_	_	_	_
+167	,	PON	2:pnct	169	pnct	_	_	_	_
+168	anche	ADV	1:add	_	_	_	_	169	add
+169	europei	ADJ	-6:mod	163	mod	_	_	_	_
+170	,	PON	-1:pnct	169	pnct	_	_	_	_
+171	tendono	VER&3a;pres	-9:vobj	162	vobj	_	_	_	_
+172	sempre	ADV	-1:mod	171	mod	_	_	_	_
+173	più	NOM	1:mod	174	mod	_	_	_	_
+174	ad	PRE	-3:pobj	171	pobj	_	_	_	_
+175	allearsi	VER&3a;infi	-1:vobj	174	vobj	_	_	_	_
+176	con	PRE	-1:pobj	175	pobj	_	_	_	_
+177	forze	NOM	-1:nobj	176	nobj	_	_	_	_
+178	d'	PRE	-1:pobj	177	pobj	_	_	_	_
+179	ispirazione	NOM	-1:nobj	178	nobj	_	_	_	_
+180	xenofoba	ADJ	-1:mod	179	mod	_	_	_	_
+181	,	PON	-1:pnct	180	pnct	_	_	_	_
+182	razzista	ADJ	-2:conj	180	conj	_	_	_	_
+183	,	PON	-3:pnct	180	pnct	_	_	_	_
+184	autoritaria	ADJ	-4:conj	180	conj	_	_	_	_
+185	,	PON	-14:pnct	171	pnct	_	_	_	_
+</node>
+186	credo	VER&3a;pres		_	_	_	_	_	_
+<node rel="ATTRIBUTION">
+187	che	PRO&3a;rela	-1:ATTRIBUTION	_	_	186	ATTRIBUTION	_	_
+188	questo	PRO&3a;demo	1:subj|-48:coref-res	189	subj	_	_	_	_
+189	sia	VER&3a;cpre	-2:vobj	187	vobj	_	_	_	_
+190	un	DET&3a;indef	-1:preds	189	preds	_	_	_	_
+191	grave	ADJ	-1:mod	190	mod	_	_	_	_
+192	pericolo	NOM	-2:nobj	190	nobj	_	_	_	_
+193	non	ADV	2:neg	195	neg	_	_	_	_
+194	solo	ADV	1:mod	195	mod	_	_	_	_
+195	per	PRE	-3:pobj	192	pobj	_	_	_	_
+196	l'	DET&3a;def	-1:nobj	195	nobj	_	_	_	_
+197	Italia	NPR	-1:nobj	196	nobj	_	_	_	_
+198	,	PON	-9:pnct	189	pnct	_	_	_	_
+<node rel="JOINT">
+199	ma	CON	-10:JOINT	_	_	189	JOINT	_	_
+200	segnali	VER&3a;cpre	-1:conj	199	conj	_	_	_	_
+201	qualcosa	PRO&3a;indef	-1:dobj	200	dobj	_	_	_	_
+<node rel="ELABORATION">
+202	che	PRO&3a;rela	1:subj|-1:ref	203	subj	_	_	_	_
+203	concerne	VER&3a;pres	-2:ELABORATION	_	_	201	ELABORATION	_	_
+204	tutta	ADJ	-1:dobj	203	dobj	_	_	_	_
+205	l'	DET&3a;def	-1:nobj	204	nobj	_	_	_	_
+206	Europa	NPR	-1:nobj	205	nobj	_	_	_	_
+</node>
+</node>
+</node>
+207	.	SENT	-21:pnct	186	pnct	_	_	_	_
+208	Prego	VER&3a;pres		_	_	_	_	_	_
+209	i	DET&3a;def	-1:dobj	208	dobj	_	_	_	_
+210	colleghi	NOM	-1:nobj	209	nobj	_	_	_	_
+211	di	PRE	-3:pobj	208	pobj	_	_	_	_
+212	firmare	VER&3a;infi	-1:vobj	211	vobj	_	_	_	_
+213	un	DET&3a;indef	-1:dobj	212	dobj	_	_	_	_
+214	appello	NOM	-1:nobj	213	nobj	_	_	_	_
+<node rel="ELABORATION">
+215	che	PRO&3a;rela	3:dobj|-2:ref	218	dobj	_	_	_	_
+216	sto	VER&3a;pres	-3:ELABORATION	_	_	213	ELABORATION	_	_
+217	facendo	VER&3a;geru	-1:vobj	216	vobj	_	_	_	_
+218	circolare	NOM	-1:vobj	217	vobj	_	_	_	_
+</node>
+219	,	PON	-6:pnct	213	pnct	_	_	_	_
+<node rel="EXPLANATION">
+220	firmato	VER&3a;pper	-7:EXPLANATION	_	_	213	EXPLANATION	_	_
+221	anche	ADV	1:add	_	_	_	_	222	add
+222	da	PRE	-2:agent	220	agent	_	_	_	_
+223	altri	PRO&3a;indef	-1:nobj	222	nobj	_	_	_	_
+224	intellettuali	NOM	-1:nobj	223	nobj	_	_	_	_
+225	europei	ADJ	-2:mod	223	mod	_	_	_	_
+</node>
+226	.	SENT	-18:pnct	208	pnct	_	_	_	_
+</node>

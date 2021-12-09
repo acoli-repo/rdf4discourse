@@ -1,0 +1,277 @@
+<node head="Text">
+# da/da-03-05-13-28.tag
+# <s>
+1	Hr.	NP	1:title	2	title	_	_	_	_
+2	formand	NC	4:voc	6	voc	_	_	_	_
+3	,	XP	-1:pnct	2	pnct	_	_	_	_
+4	i	SP	2:mod	6	mod	_	_	_	_
+5	Danmark	NP	-1:nobj	4	nobj	_	_	_	_
+6	er	VA		_	_	_	_	_	_
+7	det	PP	-1:subj	6	subj	_	_	_	_
+8	i	SP	-2:mod	6	mod	_	_	_	_
+9	weekenden	NC	-1:nobj	8	nobj	_	_	_	_
+10	kommet	VA	-4:preds	6	preds	_	_	_	_
+11	frem	RG	-1:avobj	10	avobj	_	_	_	_
+12	,	XP	-6:pnct	6	pnct	_	_	_	_
+13	at	CS	-6:nobj	7	nobj	_	_	_	_
+14	glyfosat	NC	1:subj	15	subj	_	_	_	_
+15	er	VA	-2:vobj	13	vobj	_	_	_	_
+16	trængt	VA	-1:preds	15	preds	_	_	_	_
+17	ned	RG	-1:part	16	part	_	_	_	_
+18	i	SP	-2:lobj	16	lobj	_	_	_	_
+19	de	PD	-1:nobj	18	nobj	_	_	_	_
+20	øvre	AN	-1:mod	19	mod	_	_	_	_
+21	grundvandsmagasiner	NC	-2:nobj	19	nobj	_	_	_	_
+22	.	XP	-16:pnct	6	pnct	_	_	_	_
+<node rel="JOINT">
+23	Det	PP	-8:coref-res|1:subj	24	subj	_	_	_	_
+24	har	VA	-18:JOINT	_	_	6	JOINT	_	_
+25	stor	AN	1:mod	26	mod	_	_	_	_
+26	betydning	NC	-2:dobj	24	dobj	_	_	_	_
+27	i	SP	-3:mod	24	mod	_	_	_	_
+28	et	PI	-1:nobj	27	nobj	_	_	_	_
+29	land	NC	-1:nobj	28	nobj	_	_	_	_
+30	som	U=	-2:mod	28	mod	_	_	_	_
+31	Danmark	NP	-1:nobj|-26:coref-iden	30	nobj	_	_	_	_
+32	,	XP	-1:pnct	31	pnct	_	_	_	_
+<node rel="ELABORATION">
+33	hvor	RG	-2:ref|2:mod	35	mod	_	_	_	_
+34	vi	PP	1:subj|-1:assoc	35	subj	_	_	_	_
+35	drikker	VA	-4:ELABORATION	_	_	31	ELABORATION	_	_
+36	vandet	NC	-1:dobj|-17:assoc	35	dobj	_	_	_	_
+37	direkte	AN	1:mod	38	mod	_	_	_	_
+38	fra	SP	-3:mod	35	mod	_	_	_	_
+39	vandhanen	NC	-1:nobj	38	nobj	_	_	_	_
+</node>
+40	.	XP	-16:pnct	24	pnct	_	_	_	_
+</node>
+<node rel="ELABORATION">
+41	Sprøjtemidlet	NC	-27:assoc|1:subj	42	subj	_	_	_	_
+42	hedder	VA	-28:ELABORATION	_	_	14	ELABORATION	_	_
+43	Roundup	NP	-1:dobj	42	dobj	_	_	_	_
+<node rel="JOINT">
+44	og	CC	-2:JOINT	_	_	42	JOINT	_	_
+45	bliver	VA	-1:conj	44	conj	_	_	_	_
+46	produceret	VA	-1:preds	45	preds	_	_	_	_
+47	af	SP	-1:agent	46	agent	_	_	_	_
+48	Monsanto	NP	-1:nobj	47	nobj	_	_	_	_
+49	.	XP	-4:pnct	45	pnct	_	_	_	_
+</node>
+<node rel="ELABORATION">
+50	Roundup	NP	1:subj|-7:coref-iden	51	subj	_	_	_	_
+51	er	VA	-8:ELABORATION	_	_	43	ELABORATION	_	_
+52	udbredt	VA	-1:preds	51	preds	_	_	_	_
+53	og	CC	-1:coord	52	coord	_	_	_	_
+54	godkendt	VA	-1:conj	53	conj	_	_	_	_
+55	i	SP	-3:mod	52	mod	_	_	_	_
+56	resten	NC	-1:nobj	55	nobj	_	_	_	_
+57	af	SP	-1:nobj	56	nobj	_	_	_	_
+58	EU	NP	-1:nobj	57	nobj	_	_	_	_
+59	.	XP	-8:pnct	51	pnct	_	_	_	_
+</node>
+# 
+# 
+# <s>
+<node rel="+EVALUATION">
+62	For	CC	2:mod	64	mod	_	_	_	_
+63	mig	PP	-1:nobj	62	nobj	_	_	_	_
+64	er	VA	-58:+EVALUATION	_	_	6	+EVALUATION	_	_
+65	det	PP	-1:subj	64	subj	_	_	_	_
+66	ingen	PI	-2:preds	64	preds	_	_	_	_
+67	overraskelse	NC	-1:nobj	66	nobj	_	_	_	_
+68	,	XP	-4:pnct	64	pnct	_	_	_	_
+69	at	CS	-4:nobj	65	nobj	_	_	_	_
+70	systematisk	AN	1:mod	71	mod	_	_	_	_
+71	spredning	NC	3:subj	74	subj	_	_	_	_
+72	af	SP	-1:pobj	71	pobj	_	_	_	_
+73	gift	AN	-1:nobj	72	nobj	_	_	_	_
+74	ender	NC	-5:vobj	69	vobj	_	_	_	_
+75	i	SP	-1:lobj	74	lobj	_	_	_	_
+76	vores	PO	-1:nobj|-57:coref-var	75	nobj	_	_	_	_
+77	dyrebare	AN	-1:mod	76	mod	_	_	_	_
+78	grundvand	NC	-2:possd	76	possd	_	_	_	_
+79	.	XP	-15:pnct	64	pnct	_	_	_	_
+<node rel="JOINT">
+80	I	SP	4:mod	84	mod	_	_	_	_
+81	en	PI	-1:nobj	80	nobj	_	_	_	_
+82	sådan	AN	-67:coref-res|-1:mod	81	mod	_	_	_	_
+83	sag	NC	-2:nobj	81	nobj	_	_	_	_
+84	må	VA	-20:JOINT	_	_	64	JOINT	_	_
+85	der	U=	-1:expl	84	expl	_	_	_	_
+86	kunne	VA	-2:vobj	84	vobj	_	_	_	_
+87	lægges	VA	-1:vobj	86	vobj	_	_	_	_
+88	et	PI	-1:dobj	87	dobj	_	_	_	_
+89	klart	AN	-1:mod	88	mod	_	_	_	_
+90	ansvar	NC	-2:nobj	88	nobj	_	_	_	_
+91	hos	SP	-4:lobj	87	lobj	_	_	_	_
+92	Monsanto	NP	-44:coref-iden|-1:nobj	91	nobj	_	_	_	_
+93	for	SP	-3:pobj	90	pobj	_	_	_	_
+94	det	PD	-18:coref-var|-1:nobj	93	nobj	_	_	_	_
+95	danske	AN	-1:mod	94	mod	_	_	_	_
+96	grundvand	NC	-2:nobj	94	nobj	_	_	_	_
+97	.	XP	-13:pnct	84	pnct	_	_	_	_
+</node>
+<node rel="+JOINT">
+98	Monsanto	NP	-6:coref-iden|1:subj	99	subj	_	_	_	_
+99	står	VA	-57:+JOINT	_	_	42	+JOINT	_	_
+100	også	RG	-1:add	_	_	_	_	99	add
+101	bag	SP	-2:pobj	99	pobj	_	_	_	_
+102	gensplejsning	NC	-1:nobj	101	nobj	_	_	_	_
+103	af	SP	-1:pobj	102	pobj	_	_	_	_
+104	planter	NC	-1:nobj	103	nobj	_	_	_	_
+105	i	SP	-6:mod	99	mod	_	_	_	_
+106	stor	AN	1:mod	107	mod	_	_	_	_
+107	stil	NC	-2:nobj	105	nobj	_	_	_	_
+108	.	XP	-9:pnct	99	pnct	_	_	_	_
+<node rel="ELABORATION">
+109	Der	U=	1:expl	110	expl	_	_	_	_
+110	gensplejses	VA	-11:ELABORATION	_	_	99	ELABORATION	_	_
+111	,	XP	-1:pnct	110	pnct	_	_	_	_
+<node rel="CAUSE">
+112	så	CS	-2:CAUSE	_	_	110	CAUSE	_	_
+113	planterne	NC	1:subj|-9:coref-iden	114	subj	_	_	_	_
+114	bliver	VA	-2:vobj	112	vobj	_	_	_	_
+115	resistente	AN	-1:preds	114	preds	_	_	_	_
+116	over	RG	-1:pobj	115	pobj	_	_	_	_
+117	for	SP	-1:nobj	116	nobj	_	_	_	_
+118	bl.a.	RG	1:mod	119	mod	_	_	_	_
+119	Roundup	NP	-2:nobj	117	nobj	_	_	_	_
+120	,	XP	-6:pnct	114	pnct	_	_	_	_
+<node rel="ENABLEMENT">
+121	således	RG	-7:ENABLEMENT	_	_	114	ENABLEMENT	_	_
+122	at	CS	-1:nobj	121	nobj	_	_	_	_
+123	ukrudtet	NC	1:subj|-10:assoc	124	subj	_	_	_	_
+124	kan	VA	-2:vobj	122	vobj	_	_	_	_
+125	sprøjtes	VA	-1:vobj	124	vobj	_	_	_	_
+126	kraftigere	AN	-1:mod	125	mod	_	_	_	_
+127	,	XP	-2:pnct	125	pnct	_	_	_	_
+<node rel="MANNER">
+128	uden	SP	-3:MANNER	_	_	125	MANNER	_	_
+129	at	CS	-1:nobj	128	nobj	_	_	_	_
+130	det	PP	1:subj|-5:coref-res	131	subj	_	_	_	_
+131	går	VA	-3:vobj	128	vobj	_	_	_	_
+132	ud	RG	-1:avobj	131	avobj	_	_	_	_
+133	over	SP	-1:pobj	132	pobj	_	_	_	_
+134	afgrøden	NC	-1:nobj|-21:coref-var	133	nobj	_	_	_	_
+</node>
+</node>
+</node>
+135	.	XP	-25:pnct	110	pnct	_	_	_	_
+</node>
+<node rel="CAUSE">
+136	Monsanto	NP	-38:coref-iden|1:subj	137	subj	_	_	_	_
+137	skal	VA	-38:CAUSE	_	_	99	CAUSE	_	_
+138	derfor	RG	-1:cons	137	cons	_	_	_	_
+139	også	RG	-2:add	_	_	_	_	137	add
+140	kunne	VA	-3:vobj	137	vobj	_	_	_	_
+141	drages	VA	-1:vobj	140	vobj	_	_	_	_
+142	til	SP	-1:pobj	141	pobj	_	_	_	_
+143	ansvar	NC	-1:nobj	142	nobj	_	_	_	_
+144	for	SP	-1:pobj	143	pobj	_	_	_	_
+145	den	PD	-1:nobj	144	nobj	_	_	_	_
+146	smitte	AN	-1:nobj	145	nobj	_	_	_	_
+147	og	CC	-1:coord	146	coord	_	_	_	_
+148	varige	AN	1:mod	149	mod	_	_	_	_
+149	skade	NC	-2:conj	147	conj	_	_	_	_
+150	,	XP	-5:pnct	145	pnct	_	_	_	_
+<node rel="ELABORATION">
+151	som	U=	-6:ref|6:dobj	157	dobj	_	_	_	_
+152	brugen	NC	4:subj|-42:coref-res	156	subj	_	_	_	_
+153	af	SP	-1:pobj	152	pobj	_	_	_	_
+154	genmodificerede	VA	1:mod	155	mod	_	_	_	_
+155	afgrøder	NC	-2:nobj	153	nobj	_	_	_	_
+156	vil	VA	-11:ELABORATION	_	_	145	ELABORATION	_	_
+157	få	VA	-1:vobj	156	vobj	_	_	_	_
+</node>
+158	.	XP	-21:pnct	137	pnct	_	_	_	_
+</node>
+</node>
+</node>
+# 
+# 
+# <s>
+<node rel="+JOINT">
+161	I	SP	2:mod	163	mod	_	_	_	_
+162	Danmark	NP	-1:nobj|-129:coref-iden	161	nobj	_	_	_	_
+163	har	VA	-99:+JOINT	_	_	64	+JOINT	_	_
+164	vi	PP	-1:subj|-2:assoc	163	subj	_	_	_	_
+165	forbudt	AN	-2:vobj	163	vobj	_	_	_	_
+166	en	PI	-1:dobj	165	dobj	_	_	_	_
+167	stor	AN	1:mod	168	mod	_	_	_	_
+168	del	NC	-2:nobj	166	nobj	_	_	_	_
+169	af	SP	-1:pobj	168	pobj	_	_	_	_
+170	de	PD	-1:nobj	169	nobj	_	_	_	_
+171	pesticider	NC	-1:nobj	170	nobj	_	_	_	_
+172	,	XP	-2:pnct	170	pnct	_	_	_	_
+<node rel="ELABORATION">
+173	der	U=	-3:ref|1:subj	174	subj	_	_	_	_
+174	er	VA	-4:ELABORATION	_	_	170	ELABORATION	_	_
+175	på	SP	-1:preds	174	preds	_	_	_	_
+176	markedet	NC	-1:nobj	175	nobj	_	_	_	_
+177	i	SP	-2:mod	175	mod	_	_	_	_
+178	det	PD	-1:nobj|-122:coref-var	177	nobj	_	_	_	_
+179	øvrige	AN	-1:mod	178	mod	_	_	_	_
+180	EU	NP	-2:nobj	178	nobj	_	_	_	_
+</node>
+181	.	XP	-18:pnct	163	pnct	_	_	_	_
+<node rel="JOINT">
+182	EU	NP	1:subj|-4:assoc	183	subj	_	_	_	_
+183	er	VA	-20:JOINT	_	_	163	JOINT	_	_
+184	nu	RG	-1:mod	183	mod	_	_	_	_
+185	i	SP	-2:preds	183	preds	_	_	_	_
+186	færd	NC	-1:nobj	185	nobj	_	_	_	_
+187	med	SP	-1:pobj	186	pobj	_	_	_	_
+188	at	U=	-1:nobj	187	nobj	_	_	_	_
+189	tvinge	VA	-1:vobj	188	vobj	_	_	_	_
+190	Danmark	NP	-1:dobj|-28:coref-iden	189	dobj	_	_	_	_
+191	til	SP	-2:pobj	189	pobj	_	_	_	_
+192	at	U=	-1:nobj	191	nobj	_	_	_	_
+193	ophæve	VA	-1:vobj	192	vobj	_	_	_	_
+194	forbuddet	NC	-1:dobj|-29:coref-res	193	dobj	_	_	_	_
+195	mod	SP	-1:pobj	194	pobj	_	_	_	_
+196	en	PI	-1:nobj	195	nobj	_	_	_	_
+197	del	NC	-1:nobj	196	nobj	_	_	_	_
+198	af	SP	-1:pobj	197	pobj	_	_	_	_
+199	pesticiderne	NC	-1:nobj|-29:coref-iden	198	nobj	_	_	_	_
+200	.	XP	-7:pnct	193	pnct	_	_	_	_
+<node rel="SUMMARY">
+201	EU	NP	-19:coref-iden|1:subj	202	subj	_	_	_	_
+202	har	VA	-19:SUMMARY	_	_	183	SUMMARY	_	_
+203	tvunget	VA	-1:vobj	202	vobj	_	_	_	_
+204	Danmark	NP	-14:coref-iden|-1:dobj	203	dobj	_	_	_	_
+205	til	SP	-2:pobj	203	pobj	_	_	_	_
+206	at	U=	-1:nobj	205	nobj	_	_	_	_
+207	bruge	VA	-1:vobj	206	vobj	_	_	_	_
+208	de	PD	-1:dobj	207	dobj	_	_	_	_
+209	gensplejsede	VA	-1:mod	208	mod	_	_	_	_
+210	planter	NC	-2:nobj	208	nobj	_	_	_	_
+<node rel="MANNER">
+211	uden	SP	-8:MANNER	_	_	203	MANNER	_	_
+212	at	U=	-1:nobj	211	nobj	_	_	_	_
+213	placere	VA	-1:vobj	212	vobj	_	_	_	_
+214	et	PI	-1:dobj	213	dobj	_	_	_	_
+215	ansvar	NC	-1:nobj	214	nobj	_	_	_	_
+216	for	SP	-1:pobj	215	pobj	_	_	_	_
+217	den	PD	-1:nobj|6:[dobj]	216	nobj	_	_	_	_
+218	forurening	NC	-1:nobj	217	nobj	_	_	_	_
+219	af	SP	-1:pobj	218	pobj	_	_	_	_
+220	naturen	NC	-1:nobj	219	nobj	_	_	_	_
+221	,	XP	-4:pnct	217	pnct	_	_	_	_
+<node rel="ELABORATION">
+222	det	PP	-5:ref|1:subj	223	subj	_	_	_	_
+223	medfører	VA	-6:ELABORATION	_	_	217	ELABORATION	_	_
+</node>
+</node>
+224	.	XP	-22:pnct	202	pnct	_	_	_	_
+<node rel="EVALUATION">
+225	Det	PP	-23:coref-res|1:subj	226	subj	_	_	_	_
+226	er	VA	-24:EVALUATION	_	_	202	EVALUATION	_	_
+227	helt	AN	1:mod	228	mod	_	_	_	_
+228	uacceptabelt	AN	-2:preds	226	preds	_	_	_	_
+229	.	XP	-3:pnct	226	pnct	_	_	_	_
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>

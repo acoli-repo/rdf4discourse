@@ -1,0 +1,389 @@
+<node head="Text">
+# it/it-02-03-14-124.tag
+# <s>
+1	La	DET&3a;def	4:subj	5	subj	_	_	_	_
+2	coltivazione	NOM	-1:nobj	1	nobj	_	_	_	_
+3	del	PRE&3a;det	-1:pobj	2	pobj	_	_	_	_
+4	tabacco	NOM	-1:nobj	3	nobj	_	_	_	_
+5	ha	VER&3a;pres		_	_	_	_	_	_
+6	un	DET&3a;indef	-1:dobj	5	dobj	_	_	_	_
+7	ruolo	NOM	-1:nobj	6	nobj	_	_	_	_
+8	di	PRE	-2:mod	6	mod	_	_	_	_
+9	primo	ADJ	1:mod	10	mod	_	_	_	_
+10	piano	NOM	-2:nobj	8	nobj	_	_	_	_
+11	,	PON	-6:pnct	5	pnct	_	_	_	_
+12	soprattutto	ADV	1:mod	13	mod	_	_	_	_
+13	nelle	PRE&3a;det	-8:mod	5	mod	_	_	_	_
+14	regioni	NOM	-1:nobj	13	nobj	_	_	_	_
+15	meno	ADV	1:mod	16	mod	_	_	_	_
+16	favorite	VER&3a;pper	-3:mod	13	mod	_	_	_	_
+17	d'	PRE	-1:agent	16	agent	_	_	_	_
+18	Europa	NPR	-1:nobj	17	nobj	_	_	_	_
+19	.	SENT	-14:pnct	5	pnct	_	_	_	_
+20	Circa	ADV	1:mod	21	mod	_	_	_	_
+21	130.000	NUM	6:subj	27	subj	_	_	_	_
+22	proprietari	NOM	-1:nobj	21	nobj	_	_	_	_
+23	e	CON	-2:coord	21	coord	_	_	_	_
+24	400.000	NUM	-1:conj	23	conj	_	_	_	_
+25	lavoratori	NOM	-1:nobj	24	nobj	_	_	_	_
+26	stagionali	ADJ	-2:mod	24	mod	_	_	_	_
+27	sono	VER&3a;pres		_	_	_	_	_	_
+28	interessati	VER&3a;pper	-1:preds	27	preds	_	_	_	_
+29	nella	PRE&3a;det	-1:pobj|-28:coref-var	28	pobj	_	_	_	_
+30	produzione	NOM	-1:nobj	29	nobj	_	_	_	_
+31	e	CON	-1:coord	30	coord	_	_	_	_
+32	trasformazione	NOM	-1:conj	31	conj	_	_	_	_
+33	del	PRE&3a;det	-3:pobj	30	pobj	_	_	_	_
+34	tabacco	NOM	-1:nobj	33	nobj	_	_	_	_
+35	nell'	PRE&3a;det	-6:mod	29	mod	_	_	_	_
+36	UE	NPR	-1:nobj	35	nobj	_	_	_	_
+37	.	SENT	-10:pnct	27	pnct	_	_	_	_
+38	Bastano	VER&3a;pres		_	_	_	_	_	_
+39	questi	PRO&3a;demo	-18:coref-var|-1:subj	38	subj	_	_	_	_
+40	dati	NOM	-1:nobj	39	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+41	a	PRE	-3:ENABLEMENT	_	_	38	ENABLEMENT	_	_
+42	giustificare	VER&3a;infi	-1:vobj	41	vobj	_	_	_	_
+<node rel="JOINT">
+43	e	CON	-1:JOINT	_	_	42	JOINT	_	_
+44	sollecitare	VER&3a;infi	-1:conj	43	conj	_	_	_	_
+</node>
+45	uno	DET&3a;indef	-3:dobj	42	dobj	_	_	_	_
+46	studio	NOM	-1:nobj	45	nobj	_	_	_	_
+47	sui	PRE&3a;det	-1:pobj	46	pobj	_	_	_	_
+48	costi	NOM	-1:nobj	47	nobj	_	_	_	_
+49	sociali	ADJ	-2:mod	47	mod	_	_	_	_
+50	ed	CON	-1:coord	49	coord	_	_	_	_
+51	economici	ADJ	-1:conj	50	conj	_	_	_	_
+<node rel="ELABORATION">
+52	che	PRO&3a;rela	-7:ref|1:subj	53	subj	_	_	_	_
+53	comporterebbe	VER&3a;cond	-8:ELABORATION	_	_	45	ELABORATION	_	_
+54	la	DET&3a;def	-1:dobj	53	dobj	_	_	_	_
+55	soppressione	NOM	-1:nobj	54	nobj	_	_	_	_
+56	degli	PRE&3a;det	-1:pobj	55	pobj	_	_	_	_
+57	aiuti	NOM	-1:nobj	56	nobj	_	_	_	_
+58	al	PRE&3a;det	-1:pobj|-25:coref-iden	57	pobj	_	_	_	_
+59	tabacco	NOM	-1:nobj	58	nobj	_	_	_	_
+60	,	PON	-7:pnct	53	pnct	_	_	_	_
+</node>
+<node rel="TEMPORAL">
+61	ancor	ADV	1:mod	62	mod	_	_	_	_
+62	prima	ADJ	-20:TEMPORAL	_	_	42	TEMPORAL	_	_
+63	di	PRE	-1:pobj	62	pobj	_	_	_	_
+64	arrivare	VER&3a;infi	-1:vobj	63	vobj	_	_	_	_
+65	al	PRE&3a;det	-1:lobj	64	lobj	_	_	_	_
+66	dibattito	NOM	-1:nobj	65	nobj	_	_	_	_
+67	politico	ADJ	-1:mod	66	mod	_	_	_	_
+68	sul	PRE&3a;det	-2:pobj	66	pobj	_	_	_	_
+69	futuro	NOM	-1:nobj	68	nobj	_	_	_	_
+70	di	PRE	-1:pobj	69	pobj	_	_	_	_
+71	questa	PRO&3a;demo	-1:nobj|-42:coref-var	70	nobj	_	_	_	_
+72	coltivazione	NOM	-1:nobj	71	nobj	_	_	_	_
+73	nell'	PRE&3a;det	-5:mod|-38:coref-iden	68	mod	_	_	_	_
+74	UE	NPR	-1:nobj	73	nobj	_	_	_	_
+</node>
+</node>
+75	.	SENT	-37:pnct	38	pnct	_	_	_	_
+76	D'	PRE	15:mod	91	mod	_	_	_	_
+77	altra	ADJ	-1:nobj	76	nobj	_	_	_	_
+78	parte	NOM	-1:nobj	77	nobj	_	_	_	_
+79	,	PON	-3:pnct	76	pnct	_	_	_	_
+80	un'	DET&3a;indef	11:subj	91	subj	_	_	_	_
+81	azione	NOM	-1:nobj	80	nobj	_	_	_	_
+82	restrittiva	ADJ	-2:mod	80	mod	_	_	_	_
+83	rispetto	VER&3a;pres	-3:mod	80	mod	_	_	_	_
+84	alle	PRE&3a;det	-1:pobj	83	pobj	_	_	_	_
+85	coltivazioni	NOM	-1:nobj	84	nobj	_	_	_	_
+86	di	PRE	-1:pobj	85	pobj	_	_	_	_
+87	tabacco	NOM	-1:nobj	86	nobj	_	_	_	_
+88	in	PRE	-4:mod	84	mod	_	_	_	_
+89	Europa	NPR	-1:nobj	88	nobj	_	_	_	_
+90	non	ADV	1:neg	91	neg	_	_	_	_
+91	avrebbe	VER&3a;cond		_	_	_	_	_	_
+92	alcuna	PRO&3a;indef	-1:dobj	91	dobj	_	_	_	_
+93	rilevanza	NOM	-1:nobj	92	nobj	_	_	_	_
+94	sul	PRE&3a;det	-1:pobj	93	pobj	_	_	_	_
+95	consumo	NOM	-1:nobj	94	nobj	_	_	_	_
+96	,	PON	-5:pnct	91	pnct	_	_	_	_
+<node rel="CONTRAST">
+97	se	CON	-6:CONTRAST	_	_	91	CONTRAST	_	_
+98	non	ADV	-1:neg	97	neg	_	_	_	_
+</node>
+99	quella	PRO&3a;demo	-2:&lt;dobj&gt;|-7:coref	_	_	_	_	_	_
+100	di	PRE	-1:pobj	99	pobj	_	_	_	_
+101	dirottare	VER&3a;infi	-1:vobj	100	vobj	_	_	_	_
+102	i	DET&3a;def	-1:dobj	101	dobj	_	_	_	_
+103	consumatori	NOM	-1:nobj	102	nobj	_	_	_	_
+104	europei	ADJ	-2:mod	102	mod	_	_	_	_
+105	verso	PRE	-4:lobj	101	lobj	_	_	_	_
+106	tabacchi	NOM	-1:nobj	105	nobj	_	_	_	_
+107	extra-UE	ADJ	-1:mod	106	mod	_	_	_	_
+108	,	PON	-2:pnct	106	pnct	_	_	_	_
+<node rel="ELABORATION">
+109	di	PRE	4:mod	113	mod	_	_	_	_
+110	gran	ADJ	1:mod	111	mod	_	_	_	_
+111	lunga	ADJ	-2:aobj	109	aobj	_	_	_	_
+112	meno	ADV	1:mod	113	mod	_	_	_	_
+113	pregiati	ADJ	-7:ELABORATION	_	_	106	ELABORATION	_	_
+114	e	CON	-1:coord	113	coord	_	_	_	_
+115	certamente	ADV	1:mod	116	mod	_	_	_	_
+116	più	NOM	1:mod	117	mod	_	_	_	_
+117	nocivi	ADJ	-3:conj	114	conj	_	_	_	_
+118	per	PRE	-1:pobj	117	pobj	_	_	_	_
+119	la	DET&3a;def	-1:nobj	118	nobj	_	_	_	_
+120	salute	NOM	-1:nobj	119	nobj	_	_	_	_
+</node>
+121	.	SENT	-30:pnct	91	pnct	_	_	_	_
+<node rel="+JOINT">
+122	A	PRE	3:pobj	125	pobj	_	_	_	_
+123	ciò	NOM	-32:coref-res|-1:nobj	122	nobj	_	_	_	_
+124	si	PRO&3a;refl	1:subj	125	subj	_	_	_	_
+125	aggiunga	VER&3a;cpre	-34:+JOINT	_	_	91	+JOINT	_	_
+126	che	PRO&3a;rela	-1:dobj	125	dobj	_	_	_	_
+127	il	DET&3a;def	16:subj	143	subj	_	_	_	_
+128	documento	NOM	-1:nobj	127	nobj	_	_	_	_
+129	della	PRE&3a;det	-1:pobj	128	pobj	_	_	_	_
+130	Commissione	NOM	-1:nobj	129	nobj	_	_	_	_
+131	COM	NOM	-4:appr	127	appr	_	_	_	_
+132	(	PON	1:pnct	133	pnct	_	_	_	_
+133	2001	NUM	-2:mod	131	mod	_	_	_	_
+134	)	PON		_	_	_	_	_	_
+135	264	NUM	-4:numa	131	numa	_	_	_	_
+136	del	PRE&3a;det	-9:mod	127	mod	_	_	_	_
+137	15	NUM	1:nobj	138	nobj	_	_	_	_
+138	maggio	NOM	1:nobj	139	nobj	_	_	_	_
+139	2001	NUM	-3:nobj	136	nobj	_	_	_	_
+140	sullo	PRE&3a;det	-13:mod	127	mod	_	_	_	_
+141	sviluppo	NOM	-1:nobj	140	nobj	_	_	_	_
+142	sostenibile	ADJ	-2:mod	140	mod	_	_	_	_
+143	sottolinea	VER&3a;pres	-17:vobj	126	vobj	_	_	_	_
+<node rel="ATTRIBUTION">
+144	che	PRO&3a;rela	-1:ATTRIBUTION	_	_	143	ATTRIBUTION	_	_
+145	"	PON	4:pnct	149	pnct	_	_	_	_
+146	i	DET&3a;def	3:subj	149	subj	_	_	_	_
+147	responsabili	NOM	1:mod	148	mod	_	_	_	_
+148	politici	ADJ	-2:nobj	146	nobj	_	_	_	_
+149	dovrebbero	VER&3a;cond	-5:vobj	144	vobj	_	_	_	_
+150	determinare	VER&3a;infi	-1:vobj	149	vobj	_	_	_	_
+151	le	DET&3a;def	-1:dobj	150	dobj	_	_	_	_
+152	possibili	ADJ	-1:mod	151	mod	_	_	_	_
+153	ripercussioni	NOM	-2:nobj	151	nobj	_	_	_	_
+154	positive	ADJ	-3:mod	151	mod	_	_	_	_
+155	o	CON	-1:coord	154	coord	_	_	_	_
+156	negative	ADJ	-1:conj	155	conj	_	_	_	_
+157	per	PRE	-4:pobj	153	pobj	_	_	_	_
+158	gli	DET&3a;def	-1:nobj	157	nobj	_	_	_	_
+159	altri	ADJ	-1:nobj	158	nobj	_	_	_	_
+160	contesti	NOM	-1:nobj	159	nobj	_	_	_	_
+161	politici	ADJ	-3:mod	158	mod	_	_	_	_
+<node rel="JOINT">
+162	e	CON	-12:JOINT	_	_	150	JOINT	_	_
+163	tenerne	VER&3a;infi	-12:coref|-1:conj	162	conj	_	_	_	_
+164	conto	NOM	-1:dobj	163	dobj	_	_	_	_
+</node>
+</node>
+165	.	SENT	-40:pnct	125	pnct	_	_	_	_
+</node>
+166	Una	DET&3a;indef	13:subj	179	subj	_	_	_	_
+167	valutazione	NOM	-1:nobj	166	nobj	_	_	_	_
+168	minuziosa	ADJ	-2:mod	166	mod	_	_	_	_
+169	di	PRE	-2:pobj	167	pobj	_	_	_	_
+170	tutti	ADJ	-1:nobj	169	nobj	_	_	_	_
+171	gli	DET&3a;def	-1:nobj	170	nobj	_	_	_	_
+172	effetti	NOM	-1:nobj	171	nobj	_	_	_	_
+173	di	PRE	-1:pobj	172	pobj	_	_	_	_
+174	una	DET&3a;indef	-1:nobj	173	nobj	_	_	_	_
+175	proposta	NOM	-1:nobj	174	nobj	_	_	_	_
+176	di	PRE	-1:pobj	175	pobj	_	_	_	_
+177	azione	NOM	-1:nobj	176	nobj	_	_	_	_
+178	politica	ADJ	-1:mod	177	mod	_	_	_	_
+179	deve	VER&3a;pres		_	_	_	_	_	_
+180	comprendere	VER&3a;infi	-1:vobj	179	vobj	_	_	_	_
+181	stime	NOM	-1:dobj	180	dobj	_	_	_	_
+182	dell'	PRE&3a;det	-1:pobj	181	pobj	_	_	_	_
+183	impatto	NOM	-1:nobj	182	nobj	_	_	_	_
+184	economico	ADJ	-2:mod	182	mod	_	_	_	_
+185	ambientale	ADJ	-1:conj	184	conj	_	_	_	_
+186	e	CON	-2:coord	184	coord	_	_	_	_
+187	sociale	ADJ	-1:conj	186	conj	_	_	_	_
+188	,	PON	-6:pnct	182	pnct	_	_	_	_
+189	tanto	ADV	3:correl	192	correl	_	_	_	_
+190	all'	PRE&3a;det	-8:mod	182	mod	_	_	_	_
+191	interno	NOM	-1:nobj	190	nobj	_	_	_	_
+192	quanto	ADV	-2:coord	190	coord	_	_	_	_
+193	all'	PRE&3a;det	-1:conj	192	conj	_	_	_	_
+194	esterno	NOM	-1:nobj	193	nobj	_	_	_	_
+195	dell'	PRE&3a;det	-4:pobj	191	pobj	_	_	_	_
+196	UE	NPR	-1:nobj	195	nobj	_	_	_	_
+197	"	PON	-18:pnct	179	pnct	_	_	_	_
+198	.	SENT	-19:pnct	179	pnct	_	_	_	_
+199	Per	PRE	6:cause	_	_	_	_	205	cause
+200	questo	PRO&3a;demo	-1:nobj	199	nobj	_	_	_	_
+201	,	PON	-2:pnct	199	pnct	_	_	_	_
+202	come	PRE	3:mod	205	mod	_	_	_	_
+203	repubblicani	NOM	-1:nobj	202	nobj	_	_	_	_
+204	europei	ADJ	-1:mod	203	mod	_	_	_	_
+205	riteniamo	VER&3a;pres		_	_	_	_	_	_
+<node rel="ATTRIBUTION">
+206	che	PRO&3a;rela	-1:ATTRIBUTION	_	_	205	ATTRIBUTION	_	_
+207	la	DET&3a;def	2:subj	209	subj	_	_	_	_
+208	Commissione	NOM	-1:nobj	207	nobj	_	_	_	_
+209	dovrebbe	VER&3a;cond	-3:vobj	206	vobj	_	_	_	_
+210	promuovere	VER&3a;infi	-1:vobj	209	vobj	_	_	_	_
+211	seriamente	ADV	-1:mod	210	mod	_	_	_	_
+212	studi	NOM	-2:dobj	210	dobj	_	_	_	_
+213	e	CON	-1:coord	212	coord	_	_	_	_
+214	ricerche	NOM	-1:conj	213	conj	_	_	_	_
+215	su	PRE	-3:pobj	212	pobj	_	_	_	_
+216	coltivazioni	NOM	-1:nobj	215	nobj	_	_	_	_
+217	alternative	ADJ	-1:mod	216	mod	_	_	_	_
+218	possibili	ADJ	-2:mod	216	mod	_	_	_	_
+219	,	PON	-3:pnct	216	pnct	_	_	_	_
+<node rel="ELABORATION">
+220	che	PRO&3a;rela	-4:ref|1:subj	221	subj	_	_	_	_
+221	mantengano	VER&3a;cpre	-5:ELABORATION	_	_	216	ELABORATION	_	_
+222	il	DET&3a;def	-1:dobj	221	dobj	_	_	_	_
+223	tessuto	NOM	-1:nobj	222	nobj	_	_	_	_
+224	rurale	ADJ	-2:mod	222	mod	_	_	_	_
+225	in	PRE	-4:mod	221	mod	_	_	_	_
+226	modo	NOM	-1:nobj	225	nobj	_	_	_	_
+227	sostenibile	ADJ	-1:mod	226	mod	_	_	_	_
+</node>
+</node>
+228	.	SENT	-23:pnct	205	pnct	_	_	_	_
+229	Siamo	VER&3a;pres		_	_	_	_	_	_
+230	in	PRE	-1:preds	229	preds	_	_	_	_
+231	sintonia	NOM	-1:nobj	230	nobj	_	_	_	_
+232	con	PRE	-1:mod	231	mod	_	_	_	_
+233	la	DET&3a;def	-1:nobj	232	nobj	_	_	_	_
+234	relatrice	NOM	-1:nobj	233	nobj	_	_	_	_
+235	per	PRE	-4:pobj	231	pobj	_	_	_	_
+236	rinviare	VER&3a;infi	-1:vobj	235	vobj	_	_	_	_
+237	il	DET&3a;def	-1:dobj	236	dobj	_	_	_	_
+238	dibattito	NOM	-1:nobj	237	nobj	_	_	_	_
+239	politico	ADJ	-2:mod	237	mod	_	_	_	_
+240	sul	PRE&3a;det	-2:pobj	238	pobj	_	_	_	_
+241	tabacco	NOM	-1:nobj	240	nobj	_	_	_	_
+242	al	PRE&3a;det	-6:mod	236	mod	_	_	_	_
+243	momento	NOM	-1:nobj	242	nobj	_	_	_	_
+<node rel="ELABORATION">
+244	in	PRE	2:mod	246	mod	_	_	_	_
+245	cui	PRO&3a;rela	-3:ref|-1:nobj	244	nobj	_	_	_	_
+246	giungerà	NOM	-4:ELABORATION	_	_	242	ELABORATION	_	_
+247	in	PRE	-1:lobj	246	lobj	_	_	_	_
+248	Parlamento	NOM	-1:nobj	247	nobj	_	_	_	_
+249	una	DET&3a;indef	-3:subj	246	subj	_	_	_	_
+250	relazione	NOM	-1:nobj	249	nobj	_	_	_	_
+251	di	PRE	-1:pobj	250	pobj	_	_	_	_
+252	valutazione	NOM	-1:nobj	251	nobj	_	_	_	_
+253	della	PRE&3a;det	-4:mod	249	mod	_	_	_	_
+254	gestione	NOM	-1:nobj	253	nobj	_	_	_	_
+255	del	PRE&3a;det	-2:mod	253	mod	_	_	_	_
+256	fondo	NOM	-1:nobj	255	nobj	_	_	_	_
+257	,	PON	-8:pnct	249	pnct	_	_	_	_
+258	con	PRE	-9:mod	249	mod	_	_	_	_
+259	eventuale	ADJ	1:mod	260	mod	_	_	_	_
+260	proposta	NOM	-2:nobj	258	nobj	_	_	_	_
+261	di	PRE	-1:pobj	260	pobj	_	_	_	_
+262	modifica	NOM	-1:nobj	261	nobj	_	_	_	_
+263	e	CON	-1:coord	262	coord	_	_	_	_
+264	miglioramento	NOM	-1:conj	263	conj	_	_	_	_
+</node>
+265	.	SENT	-36:pnct	229	pnct	_	_	_	_
+266	Per	PRE	5:cause	_	_	_	_	271	cause
+267	i	DET&3a;def	-1:nobj	266	nobj	_	_	_	_
+268	motivi	NOM	-1:nobj	267	nobj	_	_	_	_
+269	già	NOM	1:mod	270	mod	_	_	_	_
+270	esposti	VER&3a;pper	-3:mod	267	mod	_	_	_	_
+271	diciamo	VER&3a;pres		_	_	_	_	_	_
+272	"	PON	1:pnct	273	pnct	_	_	_	_
+273	no	ADV	-2:dobj	271	dobj	_	_	_	_
+274	"	PON	-1:pnct	273	pnct	_	_	_	_
+275	all'	PRE&3a;det	-2:pobj	273	pobj	_	_	_	_
+276	eliminazione	NOM	-1:nobj	275	nobj	_	_	_	_
+277	progressiva	ADJ	-2:mod	275	mod	_	_	_	_
+278	delle	PRE&3a;det	-2:pobj	276	pobj	_	_	_	_
+279	sovvenzioni	NOM	-1:nobj	278	nobj	_	_	_	_
+280	alle	PRE&3a;det	-1:pobj	279	pobj	_	_	_	_
+281	coltivazioni	NOM	-1:nobj	280	nobj	_	_	_	_
+282	di	PRE	-1:pobj	281	pobj	_	_	_	_
+283	tabacco	NOM	-1:nobj	282	nobj	_	_	_	_
+284	in	PRE	-1:mod	283	mod	_	_	_	_
+285	Europa	NPR	-1:nobj	284	nobj	_	_	_	_
+<node rel="ELABORATION">
+286	operata	VER&3a;pper	-6:ELABORATION	_	_	280	ELABORATION	_	_
+287	al	PRE&3a;det	-1:mod	286	mod	_	_	_	_
+288	buio	NOM	-1:nobj	287	nobj	_	_	_	_
+</node>
+289	,	PON	-18:pnct	271	pnct	_	_	_	_
+<node rel="JOINT">
+290	chiediamo	VER&3a;pres	-19:JOINT	_	_	271	JOINT	_	_
+<node rel="ATTRIBUTION">
+291	che	PRO&3a;rela	-1:ATTRIBUTION	_	_	290	ATTRIBUTION	_	_
+292	per	PRE	7:mod	299	mod	_	_	_	_
+293	il	DET&3a;def	-1:nobj	292	nobj	_	_	_	_
+294	2002	NUM	-1:nobj	293	nobj	_	_	_	_
+295	/	PON	-1:coord	294	coord	_	_	_	_
+296	2003	NUM	-1:conj	295	conj	_	_	_	_
+297	/	PON	-3:coord	294	coord	_	_	_	_
+298	2004	NUM	-1:conj	297	conj	_	_	_	_
+299	siano	VER&3a;cpre	-8:vobj	291	vobj	_	_	_	_
+300	mantenuti	VER&3a;pper	-1:preds	299	preds	_	_	_	_
+301	i	DET&3a;def	-2:subj	299	subj	_	_	_	_
+302	livelli	NOM	-1:nobj	301	nobj	_	_	_	_
+303	attuali	ADJ	-2:mod	301	mod	_	_	_	_
+304	di	PRE	-2:pobj	302	pobj	_	_	_	_
+305	quote	NOM	-1:nobj	304	nobj	_	_	_	_
+306	delle	PRE&3a;det	-1:pobj	305	pobj	_	_	_	_
+307	attività	NOM	-1:nobj	306	nobj	_	_	_	_
+308	del	PRE&3a;det	-1:pobj	307	pobj	_	_	_	_
+309	fondo	NOM	-1:nobj	308	nobj	_	_	_	_
+310	di	PRE	-1:pobj	309	pobj	_	_	_	_
+311	ricerca	NOM	-1:nobj	310	nobj	_	_	_	_
+312	,	PON	-13:pnct	299	pnct	_	_	_	_
+<node rel="EXPLANATION">
+313	in	PRE	-14:EXPLANATION	_	_	299	EXPLANATION	_	_
+314	quanto	ADV	-1:aobj	313	aobj	_	_	_	_
+315	la	DET&3a;def	3:subj	318	subj	_	_	_	_
+316	ricerca	NOM	-1:nobj	315	nobj	_	_	_	_
+317	agronomica	ADJ	-2:mod	315	mod	_	_	_	_
+318	è	NOM	-4:vobj	314	vobj	_	_	_	_
+319	oggi	ADV	-1:mod	318	mod	_	_	_	_
+320	una	DET&3a;indef	-2:preds	318	preds	_	_	_	_
+321	delle	PRE&3a;det	-1:pobj	320	pobj	_	_	_	_
+322	più	NOM	1:mod	323	mod	_	_	_	_
+323	importanti	ADJ	-2:mod	321	mod	_	_	_	_
+324	vie	NOM	-3:nobj	321	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+325	per	PRE	-7:ENABLEMENT	_	_	318	ENABLEMENT	_	_
+326	rendere	VER&3a;infi	-1:vobj	325	vobj	_	_	_	_
+327	il	DET&3a;def	-1:dobj	326	dobj	_	_	_	_
+328	consumo	NOM	-1:nobj	327	nobj	_	_	_	_
+329	di	PRE	-1:pobj	328	pobj	_	_	_	_
+330	tabacco	NOM	-1:nobj	329	nobj	_	_	_	_
+331	meno	ADV	1:mod	332	mod	_	_	_	_
+332	nocivo	ADJ	-6:predo	326	predo	_	_	_	_
+333	per	PRE	-1:pobj	332	pobj	_	_	_	_
+334	la	DET&3a;def	-1:nobj	333	nobj	_	_	_	_
+335	salute	NOM	-1:nobj	334	nobj	_	_	_	_
+</node>
+336	,	PON	-18:pnct	318	pnct	_	_	_	_
+</node>
+</node>
+<node rel="JOINT">
+337	e	CON	-47:JOINT	_	_	290	JOINT	_	_
+338	sosteniamo	VER&3a;pres	-1:conj	337	conj	_	_	_	_
+339	la	DET&3a;def	-1:dobj	338	dobj	_	_	_	_
+340	relazione	NOM	-1:nobj	339	nobj	_	_	_	_
+<node rel="ELABORATION">
+341	emendata	VER&3a;pper	-2:ELABORATION	_	_	339	ELABORATION	_	_
+342	della	PRE&3a;det	-1:agent	341	agent	_	_	_	_
+343	commissione	NOM	-1:nobj	342	nobj	_	_	_	_
+344	per	PRE	-1:pobj	343	pobj	_	_	_	_
+345	l'	DET&3a;def	-1:nobj	344	nobj	_	_	_	_
+346	agricoltura	NOM	-1:nobj	345	nobj	_	_	_	_
+</node>
+347	.	SENT	-9:pnct	338	pnct	_	_	_	_
+</node>
+</node>
+</node>

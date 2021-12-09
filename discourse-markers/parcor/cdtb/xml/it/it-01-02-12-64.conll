@@ -1,0 +1,304 @@
+<node head="Text">
+# it/it-01-02-12-64.tag
+# <s>
+1	Signor	NOM	1:title	2	title	_	_	_	_
+2	Presidente	ADJ	20:voc	22	voc	_	_	_	_
+3	,	PON	-1:pnct	2	pnct	_	_	_	_
+4	signora	NOM	1:title	5	title	_	_	_	_
+5	Commissario	ADJ	-3:conj	2	conj	_	_	_	_
+6	,	PON	-1:pnct	5	pnct	_	_	_	_
+7	onorevoli	ADJ	1:mod	8	mod	_	_	_	_
+8	colleghi	NOM	-6:conj	2	conj	_	_	_	_
+9	,	PON	-1:pnct	8	pnct	_	_	_	_
+10	come	CON	2:dobj	12	dobj	_	_	_	_
+<node rel="BACKGROUND">
+11	ha	VER&3a;pres	11:BACKGROUND	_	_	22	BACKGROUND	_	_
+12	ricordato	VER&3a;pper		_	_	_	_	_	_
+13	il	DET&3a;def	-2:subj	11	subj	_	_	_	_
+14	relatore	NOM	-1:nobj	13	nobj	_	_	_	_
+15	,	PON	-4:pnct	11	pnct	_	_	_	_
+</node>
+16	con	PRE	6:mod	22	mod	_	_	_	_
+17	il	DET&3a;def	-1:nobj	16	nobj	_	_	_	_
+18	documento	NOM	-1:nobj	17	nobj	_	_	_	_
+19	di	PRE	-2:mod	17	mod	_	_	_	_
+20	oggi	ADV	-1:nobj	19	nobj	_	_	_	_
+21	si	PRO&3a;refl	1:subj	22	subj	_	_	_	_
+22	considerano	VER&3a;pres		_	_	_	_	_	_
+23	due	ADJ	-1:dobj	22	dobj	_	_	_	_
+24	proposte	NOM	-1:nobj	23	nobj	_	_	_	_
+25	della	PRE&3a;det	-1:pobj	24	pobj	_	_	_	_
+26	Commissione	NOM	-1:nobj	25	nobj	_	_	_	_
+27	esecutiva	ADJ	-2:mod	25	mod	_	_	_	_
+28	:	PON	-5:pnct	23	pnct	_	_	_	_
+<node rel="&3a;ELABORATION">
+29	la	DET&3a;def	-6:coref-part|2:subj	31	subj	_	_	_	_
+30	prima	ADJ	-1:nobj	29	nobj	_	_	_	_
+31	riguarda	VER&3a;pres	-8:&3a;ELABORATION	_	_	23	&3a;ELABORATION	_	_
+32	l'	DET&3a;def	-1:dobj	31	dobj	_	_	_	_
+33	istituzione	NOM	-1:nobj	32	nobj	_	_	_	_
+34	del	PRE&3a;det	-1:pobj	33	pobj	_	_	_	_
+35	comitato	NOM	-1:nobj	34	nobj	_	_	_	_
+36	unico	ADJ	-2:mod	34	mod	_	_	_	_
+37	,	PON	-3:pnct	34	pnct	_	_	_	_
+<node rel="ELABORATION">
+38	denominato	VER&3a;pper	-4:ELABORATION	_	_	34	ELABORATION	_	_
+39	Comitato	NOM	-1:dobj	38	dobj	_	_	_	_
+40	per	PRE	-1:pobj	39	pobj	_	_	_	_
+41	la	DET&3a;def	-1:nobj	40	nobj	_	_	_	_
+42	sicurezza	NOM	-1:nobj	41	nobj	_	_	_	_
+43	marittima	ADJ	-2:mod	41	mod	_	_	_	_
+</node>
+44	;	PON	-13:pnct	31	pnct	_	_	_	_
+<node rel=";JOINT">
+45	la	DET&3a;def	-22:coref-part|2:subj	47	subj	_	_	_	_
+46	seconda	ADJ	-1:nobj	45	nobj	_	_	_	_
+47	riguarda	VER&3a;pres	-16:;JOINT	_	_	31	;JOINT	_	_
+48	una	DET&3a;indef	-1:dobj	47	dobj	_	_	_	_
+49	direttiva	NOM	-1:nobj	48	nobj	_	_	_	_
+<node rel="ELABORATION">
+50	che	PRO&3a;rela	-2:ref|1:subj	51	subj	_	_	_	_
+51	modifica	VER&3a;pres	-3:ELABORATION	_	_	48	ELABORATION	_	_
+52	le	DET&3a;def	-1:dobj	51	dobj	_	_	_	_
+53	direttive	NOM	-1:nobj	52	nobj	_	_	_	_
+54	esistenti	ADJ	-2:mod	52	mod	_	_	_	_
+<node rel="ENABLEMENT">
+55	per	PRE	-4:ENABLEMENT	_	_	51	ENABLEMENT	_	_
+56	introdurvi	VER&3a;infi	-1:vobj	55	vobj	_	_	_	_
+57	detto	VER&3a;pper	1:mod	58	mod	_	_	_	_
+58	comitato	NOM	-2:dobj	56	dobj	_	_	_	_
+</node>
+</node>
+59	.	SENT	-12:pnct	47	pnct	_	_	_	_
+</node>
+</node>
+60	Lo	DET&3a;def	13:subj	73	subj	_	_	_	_
+61	scopo	NOM	-1:nobj	60	nobj	_	_	_	_
+62	di	PRE	-1:pobj	61	pobj	_	_	_	_
+63	tutto	PRO&3a;indef	-1:nobj	62	nobj	_	_	_	_
+64	ciò	NOM	-42:coref-res|-1:nobj	63	nobj	_	_	_	_
+<node rel="BACKGROUND">
+65	-	PON	1:pnct	66	pnct	_	_	_	_
+66	è	NOM	7:BACKGROUND	_	_	73	BACKGROUND	_	_
+67	stato	VER&3a;pper	-1:vobj	66	vobj	_	_	_	_
+68	già	NOM	-1:mod	67	mod	_	_	_	_
+69	ricordato	VER&3a;pper	-2:preds	67	preds	_	_	_	_
+70	dai	PRE&3a;det	-1:agent	69	agent	_	_	_	_
+71	colleghi	NOM	-1:nobj	70	nobj	_	_	_	_
+72	-	PON	-6:pnct	66	pnct	_	_	_	_
+</node>
+73	è	NOM		_	_	_	_	_	_
+74	razionalizzare	VER&3a;infi	-1:preds	73	preds	_	_	_	_
+75	l'	DET&3a;def	-1:dobj	74	dobj	_	_	_	_
+76	opera	NOM	-1:nobj	75	nobj	_	_	_	_
+77	di	PRE	-1:pobj	76	pobj	_	_	_	_
+78	aggiornamento	NOM	-1:nobj	77	nobj	_	_	_	_
+79	della	PRE&3a;det	-1:pobj	78	pobj	_	_	_	_
+80	legislazione	NOM	-1:nobj	79	nobj	_	_	_	_
+81	comunitaria	ADJ	-2:mod	79	mod	_	_	_	_
+82	in	PRE	-3:mod	79	mod	_	_	_	_
+83	vigore	NOM	-1:nobj	82	nobj	_	_	_	_
+84	alle	PRE&3a;det	-1:pobj	83	pobj	_	_	_	_
+85	disposizioni	NOM	-1:nobj	84	nobj	_	_	_	_
+86	e	CON	-2:coord	84	coord	_	_	_	_
+87	alle	PRE&3a;det	-1:conj	86	conj	_	_	_	_
+88	convenzioni	NOM	-1:nobj	87	nobj	_	_	_	_
+89	internazionali	ADJ	-2:mod	87	mod	_	_	_	_
+90	sulla	PRE&3a;det	-5:pobj	85	pobj	_	_	_	_
+91	sicurezza	NOM	-1:nobj	90	nobj	_	_	_	_
+92	marittima	ADJ	-2:mod	90	mod	_	_	_	_
+93	e	CON	-3:coord	90	coord	_	_	_	_
+94	la	DET&3a;def	-1:conj	93	conj	_	_	_	_
+95	protezione	NOM	-1:nobj	94	nobj	_	_	_	_
+96	dell'	PRE&3a;det	-1:pobj	95	pobj	_	_	_	_
+97	ambiente	NOM	-1:nobj	96	nobj	_	_	_	_
+98	marino	ADJ	-2:mod	96	mod	_	_	_	_
+99	,	PON	-9:pnct	90	pnct	_	_	_	_
+100	nonché	NOM	1:add	_	_	_	_	101	add
+101	al	PRE&3a;det	-11:conj	90	conj	_	_	_	_
+102	progresso	NOM	-1:nobj	101	nobj	_	_	_	_
+103	tecnico	ADJ	-2:mod	101	mod	_	_	_	_
+104	.	SENT	-31:pnct	73	pnct	_	_	_	_
+105	Noi	PRO&3a;pers	2:subj	107	subj	_	_	_	_
+106	socialisti	ADJ	-1:nobj	105	nobj	_	_	_	_
+107	condividiamo	VER&3a;cpre		_	_	_	_	_	_
+108	questo	PRO&3a;demo	-1:dobj	107	dobj	_	_	_	_
+109	sforzo	NOM	-1:nobj	108	nobj	_	_	_	_
+110	di	PRE	-1:pobj	109	pobj	_	_	_	_
+111	razionalizzazione	NOM	-1:nobj	110	nobj	_	_	_	_
+<node rel="ELABORATION">
+112	contenuto	VER&3a;pper	-4:ELABORATION	_	_	108	ELABORATION	_	_
+113	in	PRE	-1:lobj	112	lobj	_	_	_	_
+114	dette	ADJ	-1:nobj	113	nobj	_	_	_	_
+115	proposte	NOM	-1:nobj	114	nobj	_	_	_	_
+</node>
+<node rel="JOINT">
+116	e	CON	-9:JOINT	_	_	107	JOINT	_	_
+117	accogliamo	VER&3a;pres	-1:conj	116	conj	_	_	_	_
+118	favorevolmente	ADV	-1:mod	117	mod	_	_	_	_
+119	la	DET&3a;def	-2:dobj	117	dobj	_	_	_	_
+120	proposta	NOM	-1:nobj	119	nobj	_	_	_	_
+121	di	PRE	-1:pobj	120	pobj	_	_	_	_
+122	sostituire	VER&3a;infi	-1:nobj	121	nobj	_	_	_	_
+123	agli	PRE&3a;det	-1:pobj	122	pobj	_	_	_	_
+124	attuali	ADJ	-1:mod	123	mod	_	_	_	_
+125	cinque	ADJ	-2:nobj	123	nobj	_	_	_	_
+126	comitati	NOM	-1:nobj	125	nobj	_	_	_	_
+127	un	DET&3a;indef	-5:dobj	122	dobj	_	_	_	_
+128	unico	ADJ	-1:mod	127	mod	_	_	_	_
+129	comitato	NOM	-2:nobj	127	nobj	_	_	_	_
+130	di	PRE	-1:pobj	129	pobj	_	_	_	_
+131	regolamentazione	NOM	-1:nobj	130	nobj	_	_	_	_
+132	.	SENT	-15:pnct	117	pnct	_	_	_	_
+<node rel="ELABORATION">
+133	Tale	PRO&3a;demo	-6:coref-var|2:subj	135	subj	_	_	_	_
+134	comitato	NOM	-1:nobj	133	nobj	_	_	_	_
+135	contribuirà	NOM	-8:ELABORATION	_	_	127	ELABORATION	_	_
+136	certamente	ADV	-1:mod	135	mod	_	_	_	_
+137	a	PRE	-2:pobj	135	pobj	_	_	_	_
+138	una	DET&3a;indef	-1:nobj	137	nobj	_	_	_	_
+139	maggiore	ADJ	-1:mod	138	mod	_	_	_	_
+140	certezza	NOM	-2:nobj	138	nobj	_	_	_	_
+141	e	CON	-1:coord	140	coord	_	_	_	_
+142	coerenza	NOM	-1:conj	141	conj	_	_	_	_
+143	nell'	PRE&3a;det	-5:mod	138	mod	_	_	_	_
+144	integrazione	NOM	-1:nobj	143	nobj	_	_	_	_
+145	del	PRE&3a;det	-1:pobj	144	pobj	_	_	_	_
+146	diritto	NOM	-1:nobj	145	nobj	_	_	_	_
+147	internazionale	ADJ	-2:mod	145	mod	_	_	_	_
+148	nell'	PRE&3a;det	-4:pobj	144	pobj	_	_	_	_
+149	ordinamento	NOM	-1:nobj	148	nobj	_	_	_	_
+150	comunitario	ADJ	-2:mod	148	mod	_	_	_	_
+151	.	SENT	-16:pnct	135	pnct	_	_	_	_
+</node>
+</node>
+<node rel="BACKGROUND">
+152	Detto	VER&3a;pper	3:BACKGROUND	_	_	155	BACKGROUND	_	_
+153	questo	PRO&3a;demo	-1:dobj	152	dobj	_	_	_	_
+154	,	PON	-2:pnct	152	pnct	_	_	_	_
+</node>
+155	chiediamo	VER&3a;pres		_	_	_	_	_	_
+<node rel="ATTRIBUTION">
+156	che	PRO&3a;rela	-1:ATTRIBUTION	_	_	155	ATTRIBUTION	_	_
+157	tale	PRO&3a;demo	-24:coref-iden|2:subj	159	subj	_	_	_	_
+158	comitato	NOM	-1:nobj	157	nobj	_	_	_	_
+159	rifletta	VER&3a;cpre	-3:vobj	156	vobj	_	_	_	_
+160	,	PON	1:pnct	161	pnct	_	_	_	_
+161	nel	PRE&3a;det	-2:mod	159	mod	_	_	_	_
+162	titolo	NOM	-1:nobj	161	nobj	_	_	_	_
+163	e	CON	-2:coord	161	coord	_	_	_	_
+164	nel	PRE&3a;det	-1:conj	163	conj	_	_	_	_
+165	mandato	NOM	-1:nobj	164	nobj	_	_	_	_
+166	,	PON	-5:pnct	161	pnct	_	_	_	_
+167	entrambi	ADJ	-8:dobj	159	dobj	_	_	_	_
+168	i	DET&3a;def	-1:nobj	167	nobj	_	_	_	_
+169	concetti	NOM	-1:nobj	168	nobj	_	_	_	_
+170	della	PRE&3a;det	-1:pobj	169	pobj	_	_	_	_
+171	sicurezza	NOM	-1:nobj	170	nobj	_	_	_	_
+172	marittima	ADJ	-2:mod	170	mod	_	_	_	_
+173	e	CON	-3:coord	170	coord	_	_	_	_
+174	della	PRE&3a;det	-1:conj	173	conj	_	_	_	_
+175	prevenzione	NOM	-1:nobj	174	nobj	_	_	_	_
+176	dell'	PRE&3a;det	-1:pobj	175	pobj	_	_	_	_
+177	inquinamento	NOM	-1:nobj	176	nobj	_	_	_	_
+</node>
+178	.	SENT	-23:pnct	155	pnct	_	_	_	_
+179	Permettetemi	VER&3a;impe		_	_	_	_	_	_
+180	,	PON	1:pnct	181	pnct	_	_	_	_
+181	infine	ADV	-2:mod	179	mod	_	_	_	_
+182	,	PON	-1:pnct	181	pnct	_	_	_	_
+183	di	PRE	-4:pobj	179	pobj	_	_	_	_
+184	soffermarmi	VER&3a;infi	-1:vobj	183	vobj	_	_	_	_
+185	in	PRE	-1:mod	184	mod	_	_	_	_
+186	particolare	NOM	-1:nobj	185	nobj	_	_	_	_
+187	su	PRE	-3:pobj	184	pobj	_	_	_	_
+188	un	DET&3a;indef	-1:nobj	187	nobj	_	_	_	_
+189	ulteriore	ADJ	-1:mod	188	mod	_	_	_	_
+190	punto	NOM	-2:nobj	188	nobj	_	_	_	_
+191	di	PRE	-1:pobj	190	pobj	_	_	_	_
+192	riflessione	NOM	-2:nobj	190	nobj	_	_	_	_
+193	:	PON	-5:pnct	188	pnct	_	_	_	_
+194	quello	PRO&3a;demo	-6:xpl	188	xpl	_	_	_	_
+195	della	PRE&3a;det	-1:pobj	194	pobj	_	_	_	_
+196	partecipazione	NOM	-1:nobj	195	nobj	_	_	_	_
+197	del	PRE&3a;det	-1:pobj	196	pobj	_	_	_	_
+198	Parlamento	NOM	-1:nobj	197	nobj	_	_	_	_
+199	a	PRE	-3:pobj	196	pobj	_	_	_	_
+200	questi	PRO&3a;demo	-1:nobj	199	nobj	_	_	_	_
+201	esercizi	NOM	-1:nobj	200	nobj	_	_	_	_
+202	.	SENT	-23:pnct	179	pnct	_	_	_	_
+203	E	CON		_	_	_	_	_	_
+204	'	PON	-1:+	_	_	_	_	_	_
+205	essenziale	ADJ	-2:preds	203	preds	_	_	_	_
+206	assicurare	VER&3a;infi	-3:subj	203	subj	_	_	_	_
+207	il	DET&3a;def	-1:dobj	206	dobj	_	_	_	_
+208	diritto	NOM	-1:nobj	207	nobj	_	_	_	_
+209	di	PRE	-1:pobj	208	pobj	_	_	_	_
+210	questo	PRO&3a;demo	-2:nobj	208	nobj	_	_	_	_
+211	Parlamento	NOM	-1:nobj	210	nobj	_	_	_	_
+212	nella	PRE&3a;det	-6:mod	206	mod	_	_	_	_
+213	partecipazione	NOM	-1:nobj	212	nobj	_	_	_	_
+214	alla	PRE&3a;det	-1:pobj	213	pobj	_	_	_	_
+215	procedura	NOM	-1:nobj	214	nobj	_	_	_	_
+216	di	PRE	-1:pobj	215	pobj	_	_	_	_
+217	regolamentazione	NOM	-1:nobj	216	nobj	_	_	_	_
+218	.	SENT	-15:pnct	203	pnct	_	_	_	_
+219	Chiediamo	VER&3a;pres		_	_	_	_	_	_
+220	pertanto	ADV	-1:cons	219	cons	_	_	_	_
+221	alla	PRE&3a;det	-2:pobj	219	pobj	_	_	_	_
+222	Commissione	NOM	-1:nobj	221	nobj	_	_	_	_
+<node rel="ATTRIBUTION">
+223	di	PRE	-4:ATTRIBUTION	_	_	219	ATTRIBUTION	_	_
+224	mettere	VER&3a;infi	-1:vobj	223	vobj	_	_	_	_
+225	sempre	ADV	-1:mod	224	mod	_	_	_	_
+226	il	DET&3a;def	-2:dobj	224	dobj	_	_	_	_
+227	Parlamento	NOM	-1:nobj	226	nobj	_	_	_	_
+228	in	PRE	-4:mod	224	mod	_	_	_	_
+229	condizione	NOM	-1:nobj	228	nobj	_	_	_	_
+230	di	PRE	-1:pobj	229	pobj	_	_	_	_
+231	vigilare	VER&3a;infi	-1:vobj	230	vobj	_	_	_	_
+232	sulle	PRE&3a;det	-1:pobj	231	pobj	_	_	_	_
+233	attività	NOM	-1:nobj	232	nobj	_	_	_	_
+234	dei	PRE&3a;det	-1:pobj	233	pobj	_	_	_	_
+235	comitati	NOM	-1:nobj	234	nobj	_	_	_	_
+236	,	PON	-2:pnct	234	pnct	_	_	_	_
+237	e	CON	-3:coord	234	coord	_	_	_	_
+238	quindi	ADV	2:cons	240	cons	_	_	_	_
+239	anche	ADV	1:add	_	_	_	_	240	add
+240	dell'	PRE&3a;det	-3:conj	237	conj	_	_	_	_
+241	istituendo	VER&3a;geru	-1:mod	240	mod	_	_	_	_
+242	Comitato	NOM	-2:nobj	240	nobj	_	_	_	_
+243	per	PRE	-1:pobj	242	pobj	_	_	_	_
+244	la	DET&3a;def	-1:nobj	243	nobj	_	_	_	_
+245	sicurezza	NOM	-1:nobj	244	nobj	_	_	_	_
+246	marittima	ADJ	-2:mod	244	mod	_	_	_	_
+</node>
+247	.	SENT	-28:pnct	219	pnct	_	_	_	_
+248	Chiediamo	VER&3a;pres		_	_	_	_	_	_
+249	,	PON	1:pnct	250	pnct	_	_	_	_
+250	pertanto	ADV	-2:cons	248	cons	_	_	_	_
+251	,	PON	-1:pnct	250	pnct	_	_	_	_
+252	anche	ADV	-4:add	_	_	_	_	248	add
+253	per	PRE	-5:pobj	248	pobj	_	_	_	_
+254	il	DET&3a;def	-1:nobj	253	nobj	_	_	_	_
+255	futuro	ADJ	-1:mod	254	mod	_	_	_	_
+256	Comitato	NOM	-2:nobj	254	nobj	_	_	_	_
+257	per	PRE	-1:pobj	256	pobj	_	_	_	_
+258	la	DET&3a;def	-1:nobj	257	nobj	_	_	_	_
+259	sicurezza	NOM	-1:nobj	258	nobj	_	_	_	_
+260	marittima	ADJ	-2:mod	258	mod	_	_	_	_
+261	e	CON	-3:coord	258	coord	_	_	_	_
+262	la	DET&3a;def	-4:conj	258	conj	_	_	_	_
+263	prevenzione	NOM	-1:nobj	262	nobj	_	_	_	_
+264	dell'	PRE&3a;det	-1:pobj	263	pobj	_	_	_	_
+265	inquinamento	NOM	-1:nobj	264	nobj	_	_	_	_
+266	,	PON	-18:pnct	248	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+267	più	NOM	1:mod	268	mod	_	_	_	_
+268	trasparenza	NOM	-20:ATTRIBUTION	_	_	248	ATTRIBUTION	_	_
+269	e	CON	-1:coord	268	coord	_	_	_	_
+270	grande	ADJ	1:mod	271	mod	_	_	_	_
+271	informazione	NOM	-2:conj	269	conj	_	_	_	_
+</node>
+272	.	SENT	-24:pnct	248	pnct	_	_	_	_
+</node>

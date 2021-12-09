@@ -1,0 +1,430 @@
+<node head="Text">
+# da/da-00-01-18-255.tag
+# <s>
+1	Hr.	NP	1:title	2	title	_	_	_	_
+2	formand	NC	7:voc	9	voc	_	_	_	_
+3	,	XP	-1:pnct	2	pnct	_	_	_	_
+4	for	CC	5:mod	9	mod	_	_	_	_
+5	det	PD	-1:nobj	4	nobj	_	_	_	_
+6	første	AN	-1:nobj	5	nobj	_	_	_	_
+7	kun	RG	1:mod	8	mod	_	_	_	_
+8	positive	AN	1:mod	9	mod	_	_	_	_
+9	ord	NC		_	_	_	_	_	_
+10	om	SP	-1:mod	9	mod	_	_	_	_
+11	fru	XA	1:title	12	title	_	_	_	_
+12	van	NC	-2:nobj	10	nobj	_	_	_	_
+13	der	U=	-1:nobj	12	nobj	_	_	_	_
+14	Laans	NP	-1:nobj	13	nobj	_	_	_	_
+15	meget	AN	1:mod	16	mod	_	_	_	_
+16	dygtige	AN	1:mod	17	mod	_	_	_	_
+17	arbejde	NC	-5:possd	12	possd	_	_	_	_
+18	med	SP	-1:mod	17	mod	_	_	_	_
+19	denne	PD	-1:nobj	18	nobj	_	_	_	_
+20	betænkning	NC	-1:nobj	19	nobj	_	_	_	_
+21	.	XP	-12:pnct	9	pnct	_	_	_	_
+<node rel="JOINT">
+22	Gruppen	NC	4:subj	26	subj	_	_	_	_
+23	for	SP	-1:mod	22	mod	_	_	_	_
+24	Nationernes	NC	-1:nobj	23	nobj	_	_	_	_
+25	Europa	NP	-1:possd	24	possd	_	_	_	_
+26	kan	VA	-17:JOINT	_	_	9	JOINT	_	_
+27	ikke	RG	-1:neg	26	neg	_	_	_	_
+28	stemme	VA	-2:vobj	26	vobj	_	_	_	_
+29	for	SP	-1:pobj	28	pobj	_	_	_	_
+30	at	U=	-1:nobj	29	nobj	_	_	_	_
+31	godkende	VA	-1:vobj	30	vobj	_	_	_	_
+32	regnskabet	NC	-1:dobj	31	dobj	_	_	_	_
+33	for	SP	-1:mod	32	mod	_	_	_	_
+34	1997	AC	-1:nobj	33	nobj	_	_	_	_
+35	.	XP	-9:pnct	26	pnct	_	_	_	_
+</node>
+<node rel="ELABORATION">
+36	Betænkningen	NC	-17:coref-iden|4:subj	40	subj	_	_	_	_
+37	om	SP	-1:mod	36	mod	_	_	_	_
+38	såkaldt	AN	1:mod	39	mod	_	_	_	_
+39	decharge	NC	-2:nobj	37	nobj	_	_	_	_
+40	indeholder	VA	-21:ELABORATION	_	_	19	ELABORATION	_	_
+41	en	PI	-1:dobj	40	dobj	_	_	_	_
+42	omfattende	AN	-1:mod	41	mod	_	_	_	_
+43	og	CC	-1:coord	42	coord	_	_	_	_
+44	yderst	AN	1:mod	45	mod	_	_	_	_
+45	kritisk	AN	-2:conj	43	conj	_	_	_	_
+46	gennemgang	NC	-5:nobj	41	nobj	_	_	_	_
+47	af	SP	-1:pobj	46	pobj	_	_	_	_
+48	regnskabet	NC	-1:nobj|-16:coref-var	47	nobj	_	_	_	_
+49	.	XP	-9:pnct	40	pnct	_	_	_	_
+<node rel="EVALUATION">
+50	Vi	PP	-28:coref|1:subj	51	subj	_	_	_	_
+51	støtter	VA	-11:EVALUATION	_	_	40	EVALUATION	_	_
+52	disse	PD	-1:dobj|-11:coref-var	51	dobj	_	_	_	_
+53	kritiske	AN	-1:mod	52	mod	_	_	_	_
+54	bemærkninger	NC	-2:nobj	52	nobj	_	_	_	_
+55	,	XP	-4:pnct	51	pnct	_	_	_	_
+<node rel="JOINT">
+56	og	CC	-5:JOINT	_	_	51	JOINT	_	_
+57	derfor	RG	1:cons	58	cons	_	_	_	_
+58	må	VA	-2:conj	56	conj	_	_	_	_
+59	jeg	PP	-1:subj	58	subj	_	_	_	_
+60	slå	VA	-2:vobj	58	vobj	_	_	_	_
+61	fast	AN	-1:part	60	part	_	_	_	_
+62	,	XP	-2:pnct	60	pnct	_	_	_	_
+63	at	CS	-3:dobj	60	dobj	_	_	_	_
+64	det	PP	1:subj	65	subj	_	_	_	_
+65	synes	VE	-2:vobj	63	vobj	_	_	_	_
+66	aldeles	RG	1:mod	67	mod	_	_	_	_
+67	absurd	NC	-2:preds	65	preds	_	_	_	_
+68	på	SP	-3:mod	65	mod	_	_	_	_
+69	den	PD	-1:nobj|-18:coref-res	68	nobj	_	_	_	_
+70	baggrund	NC	-1:nobj	69	nobj	_	_	_	_
+71	at	U=	-7:nobj	64	nobj	_	_	_	_
+72	sige	VA	-1:vobj	71	vobj	_	_	_	_
+73	ja	NC	-1:dobj	72	dobj	_	_	_	_
+74	til	SP	-1:mod	73	mod	_	_	_	_
+75	en	PI	-1:nobj	74	nobj	_	_	_	_
+76	godkendelse	NC	-1:nobj	75	nobj	_	_	_	_
+77	.	XP	-19:pnct	58	pnct	_	_	_	_
+</node>
+<node rel="JOINT">
+78	Det	PP	1:subj	79	subj	_	_	_	_
+79	har	VA	-28:JOINT	_	_	51	JOINT	_	_
+80	ikke	RG	-1:neg	79	neg	_	_	_	_
+81	været	VA	-2:vobj	79	vobj	_	_	_	_
+82	muligt	AN	-1:preds	81	preds	_	_	_	_
+83	for	SP	-4:pobj	79	pobj	_	_	_	_
+84	Revisionsretten	NC	-1:nobj	83	nobj	_	_	_	_
+85	at	U=	-7:nobj	78	nobj	_	_	_	_
+86	afgive	VA	-1:vobj	85	vobj	_	_	_	_
+87	en	PI	-1:dobj	86	dobj	_	_	_	_
+88	revisionserklæring	NC	-1:nobj	87	nobj	_	_	_	_
+89	om	SP	-1:mod	88	mod	_	_	_	_
+90	,	XP	-1:pnct	89	pnct	_	_	_	_
+91	at	CS	-2:nobj	89	nobj	_	_	_	_
+92	de	PD	6:subj	98	subj	_	_	_	_
+93	dispositioner	NC	-1:nobj	92	nobj	_	_	_	_
+94	,	XP	-2:pnct	92	pnct	_	_	_	_
+<node rel="ELABORATION">
+95	regnskabet	NC	-47:coref-iden|1:subj	96	subj	_	_	_	_
+96	omfatter	VA	-4:ELABORATION	_	_	92	ELABORATION	_	_
+97	,	XP	-1:pnct	96	pnct	_	_	_	_
+</node>
+98	er	VA	-7:vobj	91	vobj	_	_	_	_
+99	lovlige	AN	-1:preds	98	preds	_	_	_	_
+100	,	XP	-21:pnct	79	pnct	_	_	_	_
+<node rel="JOINT">
+101	og	CC	-22:JOINT	_	_	79	JOINT	_	_
+102	vi	PP	-52:coref|1:subj	103	subj	_	_	_	_
+103	betragter	VA	-2:conj	101	conj	_	_	_	_
+104	det	PP	-1:dobj	103	dobj	_	_	_	_
+105	som	U=	-2:predo	103	predo	_	_	_	_
+106	yderst	AN	1:mod	107	mod	_	_	_	_
+107	problematisk	AN	-2:aobj	105	aobj	_	_	_	_
+108	,	XP	-4:pnct	104	pnct	_	_	_	_
+109	at	CS	-5:nobj	104	nobj	_	_	_	_
+110	vi	PP	-8:coref|6:subj|13:[subj]	116	subj	_	_	_	_
+111	som	U=	-1:mod	110	mod	_	_	_	_
+112	medlemmer	NC	-1:nobj	111	nobj	_	_	_	_
+113	af	SP	-1:pobj	112	pobj	_	_	_	_
+114	dette	PD	-1:nobj	113	nobj	_	_	_	_
+115	Parlament	NC	-1:nobj	114	nobj	_	_	_	_
+116	skulle	VA	-7:vobj	109	vobj	_	_	_	_
+117	stemme	VA	-1:vobj	116	vobj	_	_	_	_
+118	for	SP	-1:pobj	117	pobj	_	_	_	_
+119	et	PI	-1:nobj	118	nobj	_	_	_	_
+120	regnskab	NC	-1:nobj	119	nobj	_	_	_	_
+<node rel="MEANS">
+121	uden	SP	-4:MEANS	_	_	117	MEANS	_	_
+122	at	U=	-1:nobj	121	nobj	_	_	_	_
+123	have	VA	-1:vobj	122	vobj	_	_	_	_
+124	sikkerhed	NC	-1:dobj	123	dobj	_	_	_	_
+125	for	SP	-1:pobj	124	pobj	_	_	_	_
+126	dispositionernes	NC	-1:nobj|-34:coref-iden	125	nobj	_	_	_	_
+127	lovlighed	NC	-1:possd	126	possd	_	_	_	_
+</node>
+</node>
+128	.	XP	-45:pnct	83	pnct	_	_	_	_
+# 
+# 
+# <s>
+<node rel="+JOINT">
+131	Flertallet	NC	1:subj	132	subj	_	_	_	_
+132	har	VA	-53:+JOINT	_	_	79	+JOINT	_	_
+133	gjort	VA	-1:vobj	132	vobj	_	_	_	_
+134	sin	PO	-1:dobj|-3:coref	133	dobj	_	_	_	_
+135	godkendelse	NC	-1:possd	134	possd	_	_	_	_
+136	betinget	VA	-3:predo	133	predo	_	_	_	_
+137	af	SP	-1:pobj	136	pobj	_	_	_	_
+138	,	XP	-1:pnct	137	pnct	_	_	_	_
+139	at	CS	-2:nobj	137	nobj	_	_	_	_
+140	den	PD	3:subj	143	subj	_	_	_	_
+141	ny	AN	-1:mod	140	mod	_	_	_	_
+142	Kommission	NC	-2:nobj	140	nobj	_	_	_	_
+143	gennemfører	VA	-4:vobj	139	vobj	_	_	_	_
+144	en	PI	-1:dobj	143	dobj	_	_	_	_
+145	række	NC	-1:nobj	144	nobj	_	_	_	_
+146	reformer	NC	-1:nobj	145	nobj	_	_	_	_
+147	,	XP	-3:pnct	144	pnct	_	_	_	_
+<node rel="ELABORATION">
+148	der	U=	-4:ref|1:subj	149	subj	_	_	_	_
+149	skal	VA	-5:ELABORATION	_	_	144	ELABORATION	_	_
+150	sikre	VA	-1:vobj	149	vobj	_	_	_	_
+151	,	XP	-1:pnct	150	pnct	_	_	_	_
+152	at	CS	-2:dobj	150	dobj	_	_	_	_
+153	det	PP	11:subj	164	subj	_	_	_	_
+154	,	XP	-1:pnct	153	pnct	_	_	_	_
+<node rel="ELABORATION">
+155	vi	PP	1:subj	156	subj	_	_	_	_
+156	kender	VA	-3:ELABORATION	_	_	153	ELABORATION	_	_
+157	fra	SP	-1:mod	156	mod	_	_	_	_
+158	den	PD	-1:nobj	157	nobj	_	_	_	_
+159	tidligere	AN	-1:mod	158	mod	_	_	_	_
+160	Kommissions	NC	-2:nobj	158	nobj	_	_	_	_
+161	periode	NC	-1:possd	160	possd	_	_	_	_
+162	,	XP	-6:pnct	156	pnct	_	_	_	_
+</node>
+163	ikke	RG	1:neg	164	neg	_	_	_	_
+164	gentager	VA	-12:vobj	152	vobj	_	_	_	_
+165	sig	PP	-1:robj	164	robj	_	_	_	_
+</node>
+166	.	XP	-34:pnct	132	pnct	_	_	_	_
+<node rel="EVALUATION">
+167	Igen	RG	1:mod	168	mod	_	_	_	_
+168	må	VA	-36:EVALUATION	_	_	132	EVALUATION	_	_
+169	jeg	PP	-1:subj|-110:coref	168	subj	_	_	_	_
+170	sige	VA	-2:vobj	168	vobj	_	_	_	_
+171	,	XP	-1:pnct	170	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+172	at	CS	-2:ATTRIBUTION	_	_	170	ATTRIBUTION	_	_
+173	der	U=	1:expl	174	expl	_	_	_	_
+174	er	VA	-2:vobj	172	vobj	_	_	_	_
+175	tale	NC	-1:dobj	174	dobj	_	_	_	_
+176	om	SP	-1:pobj	175	pobj	_	_	_	_
+177	en	PI	-1:nobj	176	nobj	_	_	_	_
+178	højst	RG	1:mod	179	mod	_	_	_	_
+179	uheldig	AN	-2:mod	177	mod	_	_	_	_
+180	sammenblanding	NC	-3:nobj	177	nobj	_	_	_	_
+181	af	SP	-1:pobj	180	pobj	_	_	_	_
+182	den	PD	-1:nobj|-24:coref-var	181	nobj	_	_	_	_
+183	gamle	AN	-1:mod	182	mod	_	_	_	_
+184	Kommissions	NC	-2:nobj	182	nobj	_	_	_	_
+185	ansvar	NC	-1:possd	184	possd	_	_	_	_
+186	for	SP	-1:pobj	185	pobj	_	_	_	_
+187	1997	AC	-1:nobj	186	nobj	_	_	_	_
+188	og	CC	-6:coord	182	coord	_	_	_	_
+189	den	PD	-49:coref-iden|-1:conj	188	conj	_	_	_	_
+190	ny	AN	-1:mod	189	mod	_	_	_	_
+191	Kommissions	NC	-2:nobj	189	nobj	_	_	_	_
+192	ansvar	NC	-1:possd	191	possd	_	_	_	_
+193	for	SP	-1:pobj	192	pobj	_	_	_	_
+194	fremtiden	NC	-1:nobj	193	nobj	_	_	_	_
+</node>
+195	.	XP	-27:pnct	168	pnct	_	_	_	_
+<node rel="JOINT">
+196	Vi	PP	-86:coref|1:subj	197	subj	_	_	_	_
+197	mener	VA	-29:JOINT	_	_	168	JOINT	_	_
+198	ikke	RG	-1:neg	197	neg	_	_	_	_
+199	,	XP	-2:pnct	197	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+200	at	CS	-3:ATTRIBUTION	_	_	197	ATTRIBUTION	_	_
+201	den	PD	-12:coref-iden|6:subj	207	subj	_	_	_	_
+202	ny	AN	-1:mod	201	mod	_	_	_	_
+203	Kommission	NC	-2:nobj	201	nobj	_	_	_	_
+204	under	SP	3:mod	207	mod	_	_	_	_
+205	nogen	PI	-1:nobj	204	nobj	_	_	_	_
+206	omstændigheder	NC	-1:nobj	205	nobj	_	_	_	_
+207	kunne	VA	-7:vobj	200	vobj	_	_	_	_
+208	ifalde	VA	-1:vobj	207	vobj	_	_	_	_
+209	et	PI	-1:dobj	208	dobj	_	_	_	_
+210	ansvar	NC	-1:nobj	209	nobj	_	_	_	_
+211	for	SP	-1:pobj	210	pobj	_	_	_	_
+212	fortiden	NC	-1:nobj	211	nobj	_	_	_	_
+</node>
+213	.	XP	-16:pnct	197	pnct	_	_	_	_
+<node rel="JOINT">
+214	Vi	PP	-18:coref|1:subj	215	subj	_	_	_	_
+215	mener	VA	-18:JOINT	_	_	197	JOINT	_	_
+216	,	XP	-1:pnct	215	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+217	at	CS	-2:ATTRIBUTION	_	_	215	ATTRIBUTION	_	_
+218	det	PP	1:subj	219	subj	_	_	_	_
+219	er	VA	-2:vobj	217	vobj	_	_	_	_
+220	forkert	AN	-1:preds	219	preds	_	_	_	_
+221	at	U=	-3:nobj	218	nobj	_	_	_	_
+222	tale	VA	-1:vobj	221	vobj	_	_	_	_
+223	om	SP	-1:pobj	222	pobj	_	_	_	_
+224	Kommissionens	NC	-1:nobj	223	nobj	_	_	_	_
+225	ansvar	NC	-1:possd	224	possd	_	_	_	_
+226	som	U=	-4:mod	222	mod	_	_	_	_
+227	en	PI	-1:nobj	226	nobj	_	_	_	_
+228	institution	NC	-1:nobj	227	nobj	_	_	_	_
+229	.	XP	-14:pnct	215	pnct	_	_	_	_
+<node rel="EXPLANATION">
+230	Fejlene	NC	4:subj	234	subj	_	_	_	_
+231	op	RG	-1:mod	230	mod	_	_	_	_
+232	til	SP	-1:nobj	231	nobj	_	_	_	_
+233	1999	AC	-1:nobj	232	nobj	_	_	_	_
+234	skyldes	VE	-19:EXPLANATION	_	_	215	EXPLANATION	_	_
+235	dem	PP	-1:dobj	234	dobj	_	_	_	_
+236	,	XP	-1:pnct	235	pnct	_	_	_	_
+<node rel="ELABORATION">
+237	der	U=	-2:ref|1:subj	238	subj	_	_	_	_
+238	havde	VA	-3:ELABORATION	_	_	235	ELABORATION	_	_
+239	ansvaret	NC	-1:dobj	238	dobj	_	_	_	_
+240	dengang	RG	-2:mod	238	mod	_	_	_	_
+241	,	XP	-3:pnct	238	pnct	_	_	_	_
+</node>
+<node rel="JOINT">
+242	og	CC	-8:JOINT	_	_	234	JOINT	_	_
+243	om	CS	15:dobj	258	dobj	_	_	_	_
+244	den	PD	-43:coref-iden|3:subj	247	subj	_	_	_	_
+245	ny	AN	-1:mod	244	mod	_	_	_	_
+246	Kommission	NC	-2:nobj	244	nobj	_	_	_	_
+247	kan	VA	-4:vobj	243	vobj	_	_	_	_
+248	gøre	VA	-1:vobj	247	vobj	_	_	_	_
+249	det	PD	-1:dobj	248	dobj	_	_	_	_
+250	bedre	AN	-2:mod	248	mod	_	_	_	_
+251	,	XP	-4:pnct	247	pnct	_	_	_	_
+252	har	VA	-10:conj	242	conj	_	_	_	_
+253	vi	PP	-1:subj	252	subj	_	_	_	_
+254	ikke	RG	-2:neg	252	neg	_	_	_	_
+255	mulighed	NC	-3:dobj	252	dobj	_	_	_	_
+256	for	SP	-1:pobj	255	pobj	_	_	_	_
+257	at	U=	-1:nobj	256	nobj	_	_	_	_
+258	se	VA	-1:vobj	257	vobj	_	_	_	_
+259	endnu	RG	-7:mod	252	mod	_	_	_	_
+260	.	XP	-8:pnct	252	pnct	_	_	_	_
+</node>
+</node>
+# 
+# 
+# <s>
+<node rel="+CAUSE">
+263	Med	SP	4:mod	267	mod	_	_	_	_
+264	denne	PD	-1:nobj|-45:coref-res.prg	263	nobj	_	_	_	_
+265	mærkelige	AN	-1:mod	264	mod	_	_	_	_
+266	procedure	NC	-2:nobj	264	nobj	_	_	_	_
+267	afskærer	VA	-48:+CAUSE	_	_	219	+CAUSE	_	_
+268	Parlamentet	NC	-1:subj|-154:coref-iden	267	subj	_	_	_	_
+269	sig	PP	-2:dobj|-1:coref	267	dobj	_	_	_	_
+270	fra	SP	-3:pobj	267	pobj	_	_	_	_
+271	at	U=	-1:nobj	270	nobj	_	_	_	_
+272	placere	VA	-1:vobj	271	vobj	_	_	_	_
+273	et	PI	-1:dobj	272	dobj	_	_	_	_
+274	ansvar	NC	-1:nobj	273	nobj	_	_	_	_
+275	for	SP	-1:pobj	274	pobj	_	_	_	_
+276	dispositionerne	NC	-1:nobj|-150:coref-var	275	nobj	_	_	_	_
+277	i	SP	-1:mod	276	mod	_	_	_	_
+278	1997	AC	-1:nobj	277	nobj	_	_	_	_
+279	der	RG	-7:lobj	272	lobj	_	_	_	_
+280	,	XP	-1:pnct	279	pnct	_	_	_	_
+<node rel="ELABORATION">
+281	hvor	RG	-2:ref|2:mod	283	mod	_	_	_	_
+282	ansvaret	NC	-8:coref-iden|1:subj	283	subj	_	_	_	_
+283	hører	VA	-4:ELABORATION	_	_	279	ELABORATION	_	_
+284	hjemme	RG	-1:avobj	283	avobj	_	_	_	_
+285	,	XP	-2:pnct	283	pnct	_	_	_	_
+286	nemlig	RG	1:mod	287	mod	_	_	_	_
+287	hos	SP	-8:modp	279	modp	_	_	_	_
+288	den	PD	-1:nobj|-106:coref-var	287	nobj	_	_	_	_
+289	tidligere	AN	-1:mod	288	mod	_	_	_	_
+290	Kommission	NC	-2:nobj	288	nobj	_	_	_	_
+291	.	XP	-24:pnct	267	pnct	_	_	_	_
+<node rel="ELABORATION">
+292	Det	PP	1:subj	293	subj	_	_	_	_
+293	var	VA	-10:ELABORATION	_	_	283	ELABORATION	_	_
+294	1996-regnskabet	NC	-1:dobj	293	dobj	_	_	_	_
+295	,	XP	-1:pnct	294	pnct	_	_	_	_
+<node rel="ELABORATION">
+296	der	U=	-2:ref|1:subj	297	subj	_	_	_	_
+297	fældede	VA	-3:ELABORATION	_	_	294	ELABORATION	_	_
+298	den	PD	-1:dobj	297	dobj	_	_	_	_
+299	tidligere	AN	-1:mod	298	mod	_	_	_	_
+300	Kommission	NC	-2:nobj	298	nobj	_	_	_	_
+301	,	XP	-4:pnct	297	pnct	_	_	_	_
+</node>
+<node rel="COMPARISON">
+302	og	CC	-9:COMPARISON	_	_	293	COMPARISON	_	_
+303	1997-regnskabet	NC	-208:coref-var|1:subj	304	subj	_	_	_	_
+304	er	VA	-2:conj	302	conj	_	_	_	_
+305	nøjagtigt	AN	1:mod	306	mod	_	_	_	_
+306	lige	RG	2:mod	308	mod	_	_	_	_
+307	så	RG	-1:avobj	306	avobj	_	_	_	_
+308	belastende	VA	-4:preds	304	preds	_	_	_	_
+309	.	XP	-5:pnct	304	pnct	_	_	_	_
+<node rel="CAUSE">
+310	Der	U=	1:subj	311	subj	_	_	_	_
+311	er	VA	-7:CAUSE	_	_	304	CAUSE	_	_
+312	ingen	PI	-1:dobj	311	dobj	_	_	_	_
+313	grund	NC	-1:nobj	312	nobj	_	_	_	_
+314	til	SP	-1:pobj	313	pobj	_	_	_	_
+315	,	XP	-1:pnct	314	pnct	_	_	_	_
+316	at	CS	-2:nobj	314	nobj	_	_	_	_
+317	vi	PP	4:subj	321	subj	_	_	_	_
+318	på	SP	3:mod	321	mod	_	_	_	_
+319	den	PD	-15:coref-res|-1:nobj	318	nobj	_	_	_	_
+320	baggrund	NC	-1:nobj	319	nobj	_	_	_	_
+321	skulle	VA	-5:vobj	316	vobj	_	_	_	_
+322	acceptere	VA	-1:vobj	321	vobj	_	_	_	_
+323	at	U=	-1:dobj	322	dobj	_	_	_	_
+324	give	VA	-1:vobj	323	vobj	_	_	_	_
+325	decharge	NC	-1:dobj	324	dobj	_	_	_	_
+326	.	XP	-5:pnct	321	pnct	_	_	_	_
+# 
+# 
+# <s>
+<node rel="BACKGROUND">
+<node rel="+EVALUATION">
+329	For	CC	9:BACKGROUND	_	_	338	BACKGROUND	_	_
+330	så	RG	-1:avobj	329	avobj	_	_	_	_
+331	vidt	RG	-1:avobj	330	avobj	_	_	_	_
+332	angår	VA	-1:vobj	331	vobj	_	_	_	_
+333	afgørelsen	NC	-1:dobj	332	dobj	_	_	_	_
+334	om	SP	-1:pobj	333	pobj	_	_	_	_
+335	afslutning	NC	-1:nobj	334	nobj	_	_	_	_
+336	af	SP	-1:pobj	335	pobj	_	_	_	_
+337	regnskaberne	NC	-1:nobj|-43:coref-iden|-34:coref-iden	336	nobj	_	_	_	_
+</node>
+338	vil	VA	-27:+EVALUATION	_	_	311	+EVALUATION	_	_
+339	vi	PP	-1:subj|-125:coref	338	subj	_	_	_	_
+340	undlade	VA	-2:vobj	338	vobj	_	_	_	_
+341	at	U=	-1:dobj	340	dobj	_	_	_	_
+342	stemme	VA	-1:vobj	341	vobj	_	_	_	_
+343	,	XP	-5:pnct	338	pnct	_	_	_	_
+<node rel="JOINT">
+344	og	CC	-6:JOINT	_	_	338	JOINT	_	_
+<node rel="BACKGROUND">
+345	hvad	PT	4:BACKGROUND	_	_	349	BACKGROUND	_	_
+346	endelig	RG	1:mod	347	mod	_	_	_	_
+347	angår	VA	-2:vobj	345	vobj	_	_	_	_
+348	beslutningsforslaget	NC	-1:dobj	347	dobj	_	_	_	_
+</node>
+349	vil	VA	-5:conj	344	conj	_	_	_	_
+350	vi	PP	-1:subj|-11:coref	349	subj	_	_	_	_
+351	lægge	VA	-2:vobj	349	vobj	_	_	_	_
+352	hovedvægten	NC	-1:dobj	351	dobj	_	_	_	_
+353	på	SP	-1:pobj	352	pobj	_	_	_	_
+354	de	PD	-1:nobj	353	nobj	_	_	_	_
+355	mange	AN	1:mod	356	mod	_	_	_	_
+356	rigtige	AN	-2:mod	354	mod	_	_	_	_
+357	anvisninger	NC	-3:nobj	354	nobj	_	_	_	_
+<node rel="JOINT">
+358	og	CC	-7:JOINT	_	_	351	JOINT	_	_
+359	stemme	NC	-1:conj	358	conj	_	_	_	_
+360	for	SP	-1:pobj	359	pobj	_	_	_	_
+</node>
+361	.	XP	-12:pnct	349	pnct	_	_	_	_
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>

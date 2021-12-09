@@ -1,0 +1,354 @@
+<node head="Text">
+# da/da-02-09-26-25.tag
+# <s>
+1	Hr.	NP	1:title	2	title	_	_	_	_
+2	formand	NC	5:voc	7	voc	_	_	_	_
+3	,	XP	-1:pnct	2	pnct	_	_	_	_
+4	hvervet	VA	3:subj	7	subj	_	_	_	_
+5	som	U=	-1:mod	4	mod	_	_	_	_
+6	ombudsmand	NC	-1:nobj	5	nobj	_	_	_	_
+7	kræver	VA		_	_	_	_	_	_
+8	både	RG	3:correl	11	correl	_	_	_	_
+9	stor	AN	1:mod	10	mod	_	_	_	_
+10	tålmodighed	NC	-3:dobj	7	dobj	_	_	_	_
+11	og	CC	-1:coord	10	coord	_	_	_	_
+12	en	PI	-1:conj	11	conj	_	_	_	_
+13	betydelig	AN	-1:mod	12	mod	_	_	_	_
+14	optimisme	NC	-2:nobj	12	nobj	_	_	_	_
+15	i	SP	-1:mod	14	mod	_	_	_	_
+16	retning	NC	-1:nobj	15	nobj	_	_	_	_
+17	af	SP	-1:pobj	16	pobj	_	_	_	_
+18	at	U=	-1:nobj	17	nobj	_	_	_	_
+19	få	VA	-1:vobj	18	vobj	_	_	_	_
+20	EU	NP	2:possr	22	possr	_	_	_	_
+21	'	XF	-1:+	_	_	_	_	_	_
+22	s	XF	-3:dobj	19	dobj	_	_	_	_
+23	institutioner	NC	-1:possd	22	possd	_	_	_	_
+24	til	SP	-5:pobj	19	pobj	_	_	_	_
+25	at	U=	-1:nobj	24	nobj	_	_	_	_
+26	efterleve	VA	-1:vobj	25	vobj	_	_	_	_
+27	basale	AN	1:mod	28	mod	_	_	_	_
+28	krav	NC	-2:dobj	26	dobj	_	_	_	_
+29	om	SP	-1:pobj	28	pobj	_	_	_	_
+30	retssikkerhed	NC	-1:nobj	29	nobj	_	_	_	_
+31	og	CC	-1:coord	30	coord	_	_	_	_
+32	demokratisk	AN	1:mod	33	mod	_	_	_	_
+33	ansvarlighed	NC	-2:conj	31	conj	_	_	_	_
+34	.	XP	-27:pnct	7	pnct	_	_	_	_
+35	Jacob	NP	1:namef	36	namef	_	_	_	_
+36	Söderman	NP	1:subj	37	subj	_	_	_	_
+37	har	VA		_	_	_	_	_	_
+38	udført	VA	-1:vobj	37	vobj	_	_	_	_
+39	sit	PO	-1:dobj|-3:coref	38	dobj	_	_	_	_
+40	hverv	NC	-1:possd	39	possd	_	_	_	_
+41	med	SP	-3:mod	38	mod	_	_	_	_
+42	en	PI	-1:nobj	41	nobj	_	_	_	_
+43	uendelig	AN	-1:mod	42	mod	_	_	_	_
+44	tålmodighed	NC	-2:nobj	42	nobj	_	_	_	_
+45	,	XP	3:pnct	48	pnct	_	_	_	_
+46	i	SP	2:mod	48	mod	_	_	_	_
+47	særdeleshed	NC	-1:nobj	46	nobj	_	_	_	_
+48	over	RG	-4:pobj	44	pobj	_	_	_	_
+49	for	SP	-1:pobj	48	pobj	_	_	_	_
+50	Kommissionen	NC	-1:nobj|-28:assoc	49	nobj	_	_	_	_
+51	,	XP	-1:pnct	50	pnct	_	_	_	_
+<node rel="ELABORATION">
+52	som	U=	-2:ref|2:subj	54	subj	_	_	_	_
+53	ikke	RG	1:neg	54	neg	_	_	_	_
+54	har	VA	-4:ELABORATION	_	_	50	ELABORATION	_	_
+55	udvist	VA	-1:vobj	54	vobj	_	_	_	_
+56	forståelse	NC	-1:dobj	55	dobj	_	_	_	_
+57	for	SP	-1:pobj	56	pobj	_	_	_	_
+58	elementær	NC	1:mod	59	mod	_	_	_	_
+59	forvaltningskultur	NC	-2:nobj	57	nobj	_	_	_	_
+</node>
+60	.	XP	-23:pnct	37	pnct	_	_	_	_
+<node rel="CONTRAST">
+61	Men	CC	2:contr	_	_	_	_	63	contr
+62	det	PP	1:subj	63	subj	_	_	_	_
+63	er	VA	-26:CONTRAST	_	_	37	CONTRAST	_	_
+64	svært	AN	-1:preds	63	preds	_	_	_	_
+65	at	U=	-3:nobj	62	nobj	_	_	_	_
+66	opretholde	VA	-1:vobj	65	vobj	_	_	_	_
+67	optimismen	NC	-1:dobj	66	dobj	_	_	_	_
+68	.	XP	-5:pnct	63	pnct	_	_	_	_
+</node>
+69	Jeg	PP	1:subj	70	subj	_	_	_	_
+70	vil	VA		_	_	_	_	_	_
+71	ikke	RG	1:neg	72	neg	_	_	_	_
+72	antyde	VA	-2:vobj	70	vobj	_	_	_	_
+73	,	XP	-1:pnct	72	pnct	_	_	_	_
+<node rel="ATTRIBUTION">
+74	at	CS	-2:ATTRIBUTION	_	_	72	ATTRIBUTION	_	_
+75	Jacob	NP	1:namef	76	namef	_	_	_	_
+76	Söderman	NP	-37:coref-iden|1:subj	77	subj	_	_	_	_
+77	har	VA	-3:vobj	74	vobj	_	_	_	_
+78	givet	VA	-1:vobj	77	vobj	_	_	_	_
+79	op	RG	-1:part	78	part	_	_	_	_
+80	,	XP	-3:pnct	77	pnct	_	_	_	_
+</node>
+<node rel="CONTRAST">
+81	men	CC	-11:CONTRAST	_	_	70	CONTRAST	_	_
+82	den	PD	18:subj	100	subj	_	_	_	_
+83	omstændighed	NC	-1:nobj	82	nobj	_	_	_	_
+84	,	XP	-2:pnct	82	pnct	_	_	_	_
+<node rel="ELABORATION">
+85	at	CS	-3:ELABORATION	_	_	82	ELABORATION	_	_
+86	EU	NP	2:possr	88	possr	_	_	_	_
+87	'	NP	-1:+	_	_	_	_	_	_
+88	s	NC	5:subj	93	subj	_	_	_	_
+89	kompetente	AN	-1:mod	88	mod	_	_	_	_
+90	og	CC	-1:coord	89	coord	_	_	_	_
+91	tålmodige	AN	-1:conj	90	conj	_	_	_	_
+92	ombudsmand	NC	-4:nobj	88	nobj	_	_	_	_
+93	har	VA	-8:vobj	85	vobj	_	_	_	_
+94	valgt	VA	-1:vobj	93	vobj	_	_	_	_
+95	at	U=	-1:dobj	94	dobj	_	_	_	_
+96	fratræde	VA	-1:vobj	95	vobj	_	_	_	_
+97	før	SP	-1:mod	96	mod	_	_	_	_
+98	tiden	NC	-1:nobj	97	nobj	_	_	_	_
+99	,	XP	-6:pnct	93	pnct	_	_	_	_
+</node>
+100	er	VA	-19:conj	81	conj	_	_	_	_
+101	et	PI	-1:preds	100	preds	_	_	_	_
+102	signal	NC	-1:nobj	101	nobj	_	_	_	_
+103	om	SP	-1:pobj	102	pobj	_	_	_	_
+104	,	XP	-1:pnct	103	pnct	_	_	_	_
+105	at	CS	-2:nobj	103	nobj	_	_	_	_
+106	Kommissionens	NC	2:subj	108	subj	_	_	_	_
+107	magtfuldkommenhed	NC	-1:possd	106	possd	_	_	_	_
+108	er	VA	-3:vobj	105	vobj	_	_	_	_
+109	for	RG	1:mod	110	mod	_	_	_	_
+110	overvældende	AN	-2:preds	108	preds	_	_	_	_
+</node>
+111	.	XP	-41:pnct	70	pnct	_	_	_	_
+112	Magtfuldkommenhed	NC	1:subj	113	subj	_	_	_	_
+113	giver	VA		_	_	_	_	_	_
+114	sig	PP	-1:robj|-2:coref	113	robj	_	_	_	_
+115	ikke	RG	-2:neg	113	neg	_	_	_	_
+116	bare	RG	-3:mod	113	mod	_	_	_	_
+117	udslag	NC	-4:dobj	113	dobj	_	_	_	_
+118	i	SP	-1:pobj	117	pobj	_	_	_	_
+119	passivitet	NC	-1:nobj	118	nobj	_	_	_	_
+120	,	XP	-7:pnct	113	pnct	_	_	_	_
+<node rel="JOINT">
+121	den	PP	1:subj|-7:coref	122	subj	_	_	_	_
+122	viser	VA	-9:JOINT	_	_	113	JOINT	_	_
+123	sig	PP	-1:dobj|-2:coref	122	dobj	_	_	_	_
+124	i	SP	-2:mod	122	mod	_	_	_	_
+125	aktiv	AN	1:mod	126	mod	_	_	_	_
+126	modarbejdelse	NC	-2:nobj	124	nobj	_	_	_	_
+127	af	SP	-1:pobj	126	pobj	_	_	_	_
+128	ombudsmandens	NC	-1:nobj	127	nobj	_	_	_	_
+129	bestræbelser	NC	-1:possd	128	possd	_	_	_	_
+130	på	SP	-1:pobj	129	pobj	_	_	_	_
+131	at	U=	-1:nobj	130	nobj	_	_	_	_
+132	introducere	VA	-1:vobj	131	vobj	_	_	_	_
+133	de	PD	-1:dobj	132	dobj	_	_	_	_
+134	nordiske	AN	-1:mod	133	mod	_	_	_	_
+135	landes	NC	-2:nobj	133	nobj	_	_	_	_
+136	forvaltningskultur	NC	-1:possd	135	possd	_	_	_	_
+137	i	SP	-4:mod	133	mod	_	_	_	_
+138	EU	NP	2:possr	140	possr	_	_	_	_
+139	'	NC	-1:+	_	_	_	_	_	_
+140	s	AN	-3:nobj	137	nobj	_	_	_	_
+141	institutioner	NC	-1:possd	140	possd	_	_	_	_
+142	.	XP	-20:pnct	122	pnct	_	_	_	_
+</node>
+143	Et	PI		_	_	_	_	_	_
+144	par	NC	-1:nobj	143	nobj	_	_	_	_
+145	eksempler	NC	-1:nobj	144	nobj	_	_	_	_
+146	:	XP	-3:pnct	143	pnct	_	_	_	_
+147	ytringsfrihed	NC	1:subj	148	subj	_	_	_	_
+148	praktiseres	VA	-5:xpl	143	xpl	_	_	_	_
+149	som	U=	-1:mod	148	mod	_	_	_	_
+150	frihed	NC	-1:nobj	149	nobj	_	_	_	_
+<node rel="MEANS">
+151	til	SP	-3:MEANS	_	_	148	MEANS	_	_
+152	at	U=	-1:nobj	151	nobj	_	_	_	_
+153	bruge	VA	-1:vobj	152	vobj	_	_	_	_
+154	flere	AN	-1:dobj	153	dobj	_	_	_	_
+155	hundrede	NC	1:numm	156	numm	_	_	_	_
+156	millioner	NC	-2:nobj	154	nobj	_	_	_	_
+157	euro	VA	-1:nobj	156	nobj	_	_	_	_
+<node rel="ENABLEMENT">
+158	til	SP	-5:ENABLEMENT	_	_	153	ENABLEMENT	_	_
+159	at	U=	-1:nobj	158	nobj	_	_	_	_
+160	sprede	VA	-1:vobj	159	vobj	_	_	_	_
+161	propaganda	NC	-1:dobj	160	dobj	_	_	_	_
+162	for	SP	-1:pobj	161	pobj	_	_	_	_
+163	EU	NP	-1:nobj	162	nobj	_	_	_	_
+164	hånd	NC	-4:mod	160	mod	_	_	_	_
+165	i	SP	-1:pobj	164	pobj	_	_	_	_
+166	hånd	NC	-1:nobj	165	nobj	_	_	_	_
+167	med	SP	-1:pobj	166	pobj	_	_	_	_
+168	en	PI	-1:nobj	167	nobj	_	_	_	_
+169	benhård	AN	1:mod	170	mod	_	_	_	_
+170	censur	NC	-2:nobj	168	nobj	_	_	_	_
+171	over	RG	-1:pobj	170	pobj	_	_	_	_
+172	for	SP	-1:avobj	171	avobj	_	_	_	_
+173	kritiske	AN	1:mod	174	mod	_	_	_	_
+174	røster	NC	-2:nobj	172	nobj	_	_	_	_
+</node>
+</node>
+175	.	XP	-27:pnct	148	pnct	_	_	_	_
+176	Læs	VA		_	_	_	_	_	_
+177	om	SP	-1:pobj	176	pobj	_	_	_	_
+178	det	PD	-1:nobj	177	nobj	_	_	_	_
+179	seneste	AN	-1:mod	178	mod	_	_	_	_
+180	offer	NC	-2:nobj	178	nobj	_	_	_	_
+181	for	SP	-1:pobj	180	pobj	_	_	_	_
+182	magtarrogancen	NC	-1:nobj	181	nobj	_	_	_	_
+183	,	XP	-5:pnct	178	pnct	_	_	_	_
+<node rel="ELABORATION">
+184	hun	PP	-6:coref|1:subj	185	subj	_	_	_	_
+185	hedder	VA	-7:ELABORATION	_	_	178	ELABORATION	_	_
+186	Marta	NP	1:namef	187	namef	_	_	_	_
+187	Andreasen	NP	-2:dobj	185	dobj	_	_	_	_
+</node>
+188	.	XP	-12:pnct	176	pnct	_	_	_	_
+189	Databeskyttelse	NC	1:subj	190	subj	_	_	_	_
+190	bruges	VA		_	_	_	_	_	_
+191	ikke	RG	-1:neg	190	neg	_	_	_	_
+192	til	SP	-1:pobj	191	pobj	_	_	_	_
+193	at	U=	-1:nobj	192	nobj	_	_	_	_
+194	beskytte	VA	-1:vobj	193	vobj	_	_	_	_
+195	borgernes	NC	-1:dobj	194	dobj	_	_	_	_
+196	privatliv	NC	-1:possd	195	possd	_	_	_	_
+197	,	XP	-7:pnct	190	pnct	_	_	_	_
+198	men	CC	-8:CONTRAST	_	_	190	CONTRAST	_	_
+199	til	SP	-1:&lt;conj&gt;	_	_	_	_	_	_
+200	at	U=	-1:nobj	199	nobj	_	_	_	_
+201	sikre	VA	-1:vobj	200	vobj	_	_	_	_
+202	Kommissionens	NC	-1:dobj	201	dobj	_	_	_	_
+203	videnmonopol	NC	-1:possd	202	possd	_	_	_	_
+204	.	XP	-14:pnct	190	pnct	_	_	_	_
+# 
+# 
+# <s>
+207	Ombudsmandens	NC	7:subj	214	subj	_	_	_	_
+208	ret	NC	-1:possd	207	possd	_	_	_	_
+209	til	SP	-1:pobj	208	pobj	_	_	_	_
+210	at	U=	-1:nobj	209	nobj	_	_	_	_
+211	indhente	VA	-1:vobj	210	vobj	_	_	_	_
+212	ucensurerede	VA	1:mod	213	mod	_	_	_	_
+213	oplysninger	NC	-2:dobj	211	dobj	_	_	_	_
+214	saboteres	VA		_	_	_	_	_	_
+215	slet	RG	-1:mod	214	mod	_	_	_	_
+216	og	CC	-1:coord	215	coord	_	_	_	_
+217	ret	RG	-1:conj	216	conj	_	_	_	_
+218	af	SP	-4:agent	214	agent	_	_	_	_
+219	Kommissionen	NC	-1:nobj	218	nobj	_	_	_	_
+220	.	XP	-6:pnct	214	pnct	_	_	_	_
+221	Jeg	PP	1:subj	222	subj	_	_	_	_
+222	tillader	VA		_	_	_	_	_	_
+223	mig	PP	-1:robj|-2:coref	222	robj	_	_	_	_
+224	at	U=	-2:dobj	222	dobj	_	_	_	_
+225	henvise	VA	-1:vobj	224	vobj	_	_	_	_
+226	til	SP	-1:pobj	225	pobj	_	_	_	_
+227	ombudsmandens	NC	-1:nobj	226	nobj	_	_	_	_
+228	glimrende	AN	-1:mod	227	mod	_	_	_	_
+229	svar	NC	-2:possd	227	possd	_	_	_	_
+230	på	SP	-1:pobj	229	pobj	_	_	_	_
+231	Kommissionens	NC	-1:nobj	230	nobj	_	_	_	_
+232	skandaløse	AN	-1:mod	231	mod	_	_	_	_
+233	udtalelse	NC	-2:possd	231	possd	_	_	_	_
+234	af	SP	-3:mod	231	mod	_	_	_	_
+235	6.	AO	1:nobj	236	nobj	_	_	_	_
+236	marts	NC	1:nobj	237	nobj	_	_	_	_
+237	dette	PD	-3:nobj	234	nobj	_	_	_	_
+238	år	NC	-1:nobj	237	nobj	_	_	_	_
+239	.	XP	-17:pnct	222	pnct	_	_	_	_
+240	En	PI	-9:coref-iden	_	_	_	_	_	_
+241	udtalelse	NC	-1:nobj	240	nobj	_	_	_	_
+242	,	XP	-2:pnct	240	pnct	_	_	_	_
+<node rel="ELABORATION">
+243	hvis	CS	-3:ref|4:subj	247	subj	_	_	_	_
+244	indhold	NC	-1:possd	243	possd	_	_	_	_
+245	af	SP	2:agent	247	agent	_	_	_	_
+246	ombudsmanden	NC	-1:nobj	245	nobj	_	_	_	_
+247	karakteriseres	NC	-7:ELABORATION	_	_	240	ELABORATION	_	_
+248	med	SP	-1:pobj	247	pobj	_	_	_	_
+249	ordene	NC	-1:nobj	248	nobj	_	_	_	_
+250	:	XP	-3:pnct	247	pnct	_	_	_	_
+251	negative	AN	1:mod	252	mod	_	_	_	_
+252	synspunkter	NC	-5:xpl	247	xpl	_	_	_	_
+253	og	CC	-1:coord	252	coord	_	_	_	_
+254	forkerte	AN	1:mod	255	mod	_	_	_	_
+255	antagelser	NC	-2:conj	253	conj	_	_	_	_
+</node>
+256	.	XP	-16:pnct	240	pnct	_	_	_	_
+257	Der	U=	1:expl	258	expl	_	_	_	_
+258	er	VA		_	_	_	_	_	_
+259	lang	AN	1:mod	260	mod	_	_	_	_
+260	vej	NC	-2:dobj	258	dobj	_	_	_	_
+261	igen	RG	-3:avobj	258	avobj	_	_	_	_
+262	.	XP	-4:pnct	258	pnct	_	_	_	_
+263	Med	SP	4:mod	267	mod	_	_	_	_
+264	sin	PO	-1:nobj	263	nobj	_	_	_	_
+265	sidste	AN	-1:mod	264	mod	_	_	_	_
+266	beretning	NC	-2:possd	264	possd	_	_	_	_
+267	fortjener	VA		_	_	_	_	_	_
+268	Jacob	NP	1:namef	269	namef	_	_	_	_
+269	Söderman	NP	-2:subj	267	subj	_	_	_	_
+270	en	PI	-3:dobj	267	dobj	_	_	_	_
+271	stor	AN	-1:mod	270	mod	_	_	_	_
+272	tak	NC	-2:nobj	270	nobj	_	_	_	_
+273	for	SP	-1:pobj	272	pobj	_	_	_	_
+274	at	U=	-1:nobj	273	nobj	_	_	_	_
+275	have	VA	-1:vobj	274	vobj	_	_	_	_
+276	forsøgt	VA	-1:vobj	275	vobj	_	_	_	_
+277	at	U=	-1:dobj	276	dobj	_	_	_	_
+278	forkorte	VA	-1:vobj	277	vobj	_	_	_	_
+279	vejen	NC	-1:dobj	278	dobj	_	_	_	_
+280	,	XP	-13:pnct	267	pnct	_	_	_	_
+<node rel="CONTRAST">
+281	men	CC	-14:CONTRAST	_	_	267	CONTRAST	_	_
+282	hans	PO	-13:coref|2:subj	284	subj	_	_	_	_
+283	afgang	NC	-1:possd	282	possd	_	_	_	_
+284	aktualiserer	VA	-3:conj	281	conj	_	_	_	_
+285	spørgsmålet	NC	-1:dobj	284	dobj	_	_	_	_
+286	,	XP	-1:pnct	285	pnct	_	_	_	_
+287	om	CS	-2:pobj	285	pobj	_	_	_	_
+288	hvorvidt	CS	-1:nobj	287	nobj	_	_	_	_
+289	vi	PP	2:subj	291	subj	_	_	_	_
+290	nogensinde	RG	1:mod	291	mod	_	_	_	_
+291	når	CS	-3:vobj	288	vobj	_	_	_	_
+292	til	SP	-1:lobj	291	lobj	_	_	_	_
+293	vejs	VA	-1:nobj	292	nobj	_	_	_	_
+294	ende	NC	-1:possd	293	possd	_	_	_	_
+295	eller	CC	-4:JOINT	_	_	291	JOINT	_	_
+296	bare	RG	1:mod	297	mod	_	_	_	_
+297	får	VA	-6:conj	291	conj	_	_	_	_
+298	begyndt	VA	-1:vobj	297	vobj	_	_	_	_
+299	på	SP	-1:pobj	298	pobj	_	_	_	_
+300	vejen	NC	-1:nobj	299	nobj	_	_	_	_
+301	.	XP	-17:pnct	284	pnct	_	_	_	_
+</node>
+302	Er	VA		_	_	_	_	_	_
+303	det	PD	-1:subj	302	subj	_	_	_	_
+304	magtfuldkomne	AN	-1:mod	303	mod	_	_	_	_
+305	EU-system	NC	-1:nobj	304	nobj	_	_	_	_
+306	simpelthen	RG	-4:mod	302	mod	_	_	_	_
+307	resistent	NC	-5:preds	302	preds	_	_	_	_
+308	over	RG	-1:pobj	307	pobj	_	_	_	_
+309	for	SP	-1:avobj	308	avobj	_	_	_	_
+310	retssikkerhed	NC	-1:nobj	309	nobj	_	_	_	_
+311	og	CC	-1:coord	310	coord	_	_	_	_
+312	demokratisk	AN	1:mod	313	mod	_	_	_	_
+313	ansvarlighed	NC	-2:conj	311	conj	_	_	_	_
+314	?	XP	-12:pnct	302	pnct	_	_	_	_
+315	Der	U=	1:expl	316	expl	_	_	_	_
+316	er	VA		_	_	_	_	_	_
+317	uhyggeligt	AN	1:mod	318	mod	_	_	_	_
+318	mange	AN	-2:dobj	316	dobj	_	_	_	_
+319	vidnesbyrd	NC	-1:nobj	318	nobj	_	_	_	_
+320	om	SP	-1:pobj	319	pobj	_	_	_	_
+321	,	XP	-1:pnct	320	pnct	_	_	_	_
+322	at	CS	-2:nobj	320	nobj	_	_	_	_
+323	svaret	NC	1:subj|-21:assoc	324	subj	_	_	_	_
+324	kunne	VA	-2:vobj	322	vobj	_	_	_	_
+325	være	VA	-1:vobj	324	vobj	_	_	_	_
+326	ja	NC	-1:preds	325	preds	_	_	_	_
+327	.	XP	-11:pnct	316	pnct	_	_	_	_
+</node>
