@@ -1,0 +1,45 @@
+# to represent 1:m alignment, Moses2CoNLL uses conll:WORD="*" for alignment lines 2..m
+# here, these are merged, i.e., their annotations are concatenated left to right
+# this requires iterations
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+# (1) merge a non-* nif:Word with its immediate *-successor
+DELETE {
+	?last nif:nextWord ?a.
+	?a nif:nextWord ?next.
+	?a ?prop ?valA.
+	?last ?prop ?valLast.
+} INSERT {
+	?last nif:nextWord ?next.
+	?last ?prop ?val
+} WHERE {
+	?a conll:WORD "*".
+	?last nif:nextWord ?a.
+	?last conll:WORD ?lastWord. FILTER(?lastWord!="*")
+	?a ?prop ?valA. FILTER(strstarts(str(?prop), "http://ufal.mff.cuni.cz/conll2009-st/task-description.html#"))
+	FILTER(isLiteral(?valA))	# no conll:HEAD, etc.
+	FILTER(?prop != conll:KEY)
+	FILTER(?prop != conll:ID)
+	OPTIONAL { ?last ?prop ?valLast }
+	BIND(replace(replace(replace(concat(str(?valLast),"+",?valA),'\\+(\\*)?$',''),'^(\\*)?+',''),'([^\\+]+)(\\+.*)?\\+\\1$','$1$2') AS ?val)
+	# regex to eliminate repetitions
+	OPTIONAL { ?a nif:nextWord ?next}
+};
+
+# (2) delete disconnected nif:Words
+DELETE {
+	?x ?prop ?a.
+	?a ?prop ?y
+} WHERE {
+	?a a nif:Word.
+	FILTER(NOT EXISTS{?a a nif:Word. ?a nif:nextWord [] })
+	FILTER(NOT EXISTS{?a a nif:Word. [] nif:nextWord ?a })
+	OPTIONAL { ?x ?prop ?a .}
+	OPTIONAL {?a ?prop ?y.}
+};

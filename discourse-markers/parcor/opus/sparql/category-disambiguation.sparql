@@ -1,0 +1,236 @@
+# category disambiguation
+# requires conll:SENSE1 and conll:SENSE2, assume tokenization by whitespace or punctuation signs, writes conll:SENSE
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX tmp: <http://example.com/tmp#>
+
+# (0) copy conll:SENSE1/2 to tmp:SENSE1/2, normalize whitespace tokenization
+INSERT {
+	?x tmp:SENSE1 ?senses
+} WHERE {
+	?x conll:SENSE1 ?sense
+	BIND(replace(str(?sense),'[\t,;. \r]+',' ') AS ?senses)
+};
+INSERT {
+	?x tmp:SENSE2 ?senses
+} WHERE {
+	?x conll:SENSE2 ?sense
+	BIND(replace(str(?sense),'[\t,;. \r]+',' ') AS ?senses)
+};
+
+# (1) split (here: up to 10 elements)
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+DELETE {
+	?x ?tmpSense ?sense.
+} INSERT {
+	?x ?tmpSense ?head.
+	?x ?tmpSense ?tail.
+} WHERE {
+	?x tmp:SENSE1|tmp:SENSE2 ?sense.
+	FILTER(contains(?sense,' '))
+	?x ?tmpSense ?sense.
+	FILTER(strstarts(str(?tmpSense),'http://example.com/tmp#SENSE'))
+	BIND(strbefore(?sense,' ') AS ?head)
+	BIND(strafter(?sense,' ') AS ?tail)
+};
+
+# (2) take over full matches, if any, delete tmp:SENSEs
+INSERT {
+	?a conll:SENSE ?match.
+} WHERE {
+	?a tmp:SENSE1 ?match.
+	?a tmp:SENSE2 ?match.
+};
+
+# # not for LICO + DimLex: LICO simplified some labels, this eliminates relevant matches
+# DELETE {
+	# ?a tmp:SENSE1 ?x.
+	# ?a tmp:SENSE2 ?y.
+# } WHERE {
+	# ?a conll:SENSE [].
+	# { ?a tmp:SENSE1 ?x } UNION { ?a tmp:SENSE2 ?y }
+# };
+
+# (3) containment: take over the shorter one; if any, delete tmp:SENSEs
+INSERT {
+	?a conll:SENSE ?short.
+} WHERE {
+	?a tmp:SENSE1 ?short.
+	?a tmp:SENSE2 ?long.
+	FILTER(contains(?long,?short))
+};
+INSERT {
+	?a conll:SENSE ?short.
+} WHERE {
+	?a tmp:SENSE2 ?short.
+	?a tmp:SENSE1 ?long.
+	FILTER(contains(?long,?short))
+};
+DELETE {
+	?a tmp:SENSE1 ?x.
+	?a tmp:SENSE2 ?y.
+} WHERE {
+	?a conll:SENSE [].
+	{ ?a tmp:SENSE1 ?x } UNION { ?a tmp:SENSE2 ?y }
+};
+
+# (4) aggregate conll:SENSE annotations
+INSERT {
+	?a conll:SENSE ?senses
+} WHERE {
+	?a conll:SENSE ?sense1.
+	?a conll:SENSE ?sense2.
+	{ SELECT ?a (GROUP_CONCAT(?sense; separator=", ") AS ?senses)
+	  WHERE { ?a conll:SENSE ?s. BIND(str(?s) AS ?sense) }
+	  GROUP BY ?a
+	  ORDER BY ?a asc(?sense)
+	}
+};
+DELETE {
+	?a conll:SENSE ?short.
+} WHERE {
+	?a conll:SENSE ?long.
+	?a conll:SENSE ?short.
+	FILTER(strlen(?long) > strlen(?short))
+};
+
+# (5) delete tmp:SENSEs annotations
+DELETE {
+	?a tmp:SENSE1 ?x.
+} WHERE { ?a tmp:SENSE1 ?x };
+DELETE {
+	?a tmp:SENSE2 ?x.
+} WHERE { ?a tmp:SENSE2 ?x };
+
+# (6) for non-matching senses: concatenate with ";" instead of ","
+INSERT {
+	?a conll:SENSE ?senses
+} WHERE {
+	?a conll:SENSE1 ?sense1.
+	?a conll:SENSE2 ?sense2.
+	FILTER(NOT EXISTS { ?a conll:SENSE1 []. ?a conll:SENSE [] })
+	BIND(concat(?sense1,'; ',?sense2) AS ?senses)
+};
+
+# those supported by one projection only are ignored

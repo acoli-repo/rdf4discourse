@@ -1,0 +1,20 @@
+# remove underspecified properties (properties other than conll:KEY and conll:WORD that contain "?")
+# intended for postprocessing CoNLL-Merge output
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+# (1) remove all underspecified properties (value ? -- permitted only for WORD and KEY)
+DELETE {
+	?a ?prop "?".
+} WHERE {
+	?a a nif:Word.
+	?a ?prop "?".
+	FILTER(?prop != conll:WORD)
+	FILTER(?prop != conll:KEY)
+};
+

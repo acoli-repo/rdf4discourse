@@ -1,0 +1,53 @@
+# if multiple files with the same primary data are merged (e.g., by CoNLL Merge), split all alignments that differ in their conll:KEY, resp. conll:KEY__2
+# note that conll:KEY needs to be SET to the right columns
+
+# conventions:
+# the columns that are compared with *must* be named KEY and KEY__2
+# every column that "belongs to" the conll:KEY__2 column *must* have a label ending with __2, otherwise, it will not move
+# the conll:KEY2 column will move to the conll:KEY column
+# a novel conll:WORD is created as *RETOK*-$(conll:WORD__2)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+# (1) if we have a mismatch, then create a "split" object and move all *__2 properties to it
+# NOTE: this routine yields unexpected results if the generated URI does already exist
+DELETE {
+	?a nif:nextWord ?next.
+	?a ?prop ?b.
+} INSERT {
+	?a nif:nextWord ?split.
+	?split nif:nextWord ?next.
+	?split conll:WORD ?splitWord.
+	?split conll:HEAD ?head.
+	?split ?prop ?b.
+	?split conll:KEY ?key2.
+} WHERE {
+	?a a nif:Word.
+	?a conll:KEY ?key1.
+	?a conll:KEY__2 ?key2. FILTER(?key1 != ?key2)
+	FILTER(?key1 != "?")
+	FILTER(?key1 != "*")
+	FILTER(?key2 != "?")
+	FILTER(?key2 != "*")
+	?a ?prop ?b.
+	FILTER(strends(str(?prop),'__2'))
+	BIND(URI(CONCAT(str(?a),'_1')) AS ?split)
+	OPTIONAL { ?a conll:WORD ?word. 
+		BIND(replace(replace(concat('*RETOK*-',?word),'\\*RETOK\\*-\\*RETOK\\*','*RETOK*'),'^\\*RETOK\\*-([?_\\*])$','$1') AS ?splitWord) }
+		# avoid *RETOK*-stacking
+	OPTIONAL { ?a nif:nextWord ?next }
+	OPTIONAL { ?a conll:HEAD ?head }
+};
+
+# (2) drop conll:KEY__2
+DELETE {
+	?a conll:KEY__2 ?b
+} WHERE {
+	?a conll:KEY__2 ?b
+};
+

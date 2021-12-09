@@ -1,0 +1,37 @@
+# drop nif:Words with conll:WORD = "*RETOK*-.*" (<= CoNLL-Merge or split-invalid-alignments.sparql)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xml: <http://www.w3.org/TR/xml/#>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+
+# (1) disconnect all nif:Words without WORD or WORD="*RETOK*.*" (needs to be iterated)
+DELETE {
+	?last nif:nextWord ?a.
+	?a nif:nextWord ?next.
+} INSERT {
+	?last nif:nextWord ?next.
+} WHERE {
+	?a a nif:Word.
+	{ 
+		?a conll:WORD ?word. FILTER(strstarts(?word,"*RETOK*-")) 
+	} UNION {
+		?a a nif:Word. FILTER(NOT EXISTS{ ?a conll:WORD [] })
+	}
+	{ ?last nif:nextWord ?a. OPTIONAL { ?a nif:nextWord ?next } } UNION
+	{ ?a nif:nextWord ?next. OPTIONAL { ?last nif:nextWord ?a } }
+};
+
+# (2) remove all disconnected nif:Words
+DELETE {
+	?x ?prop1 ?a.
+	?a ?prop2 ?y.
+} WHERE {
+	?a a nif:Word.
+	FILTER(NOT EXISTS { ?last nif:nextWord ?a })
+	FILTER(NOT EXISTS { ?a nif:nextWord ?next })
+	OPTIONAL { ?x ?prop1 ?a }
+	OPTIONAL { ?a ?prop2 ?y }
+};
