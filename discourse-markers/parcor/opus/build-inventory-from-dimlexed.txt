@@ -1,0 +1,5 @@
+egrep -v '_' Europarl.en-de-it.dimlexed_disamb.conll | egrep . | sed -e s/'^[0-9]*\t'//g -e s/'^\([^\t]*\t[^\t]*\)\t.*'/'\1'/g | sort | uniq -c | sort -nr | sort --key 2,2 --key 1nr,1 | less
+
+(0) build correlation matrix for mismatches (=> refine matches)
+(1) if one reading is compliant with the main reading, adopt the main reading
+(2) get base frequency of tokens
