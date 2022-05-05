@@ -1,0 +1,371 @@
+import sys,os,re,argparse,gzip
+from copy import copy, deepcopy
+
+args=argparse.ArgumentParser(description="perform discourse marker induction, note that we calculate the symmetric closure of all dictionaries\nNote on evaluation: depth 0: True if discourse marker, depth 1: PDTB top-level, depth 2: (up to) PDTB second-level, dept 3: (up to) PDTB full\nNote that we assume completeness, so elements not found in a dimlex are assumed not to be discourse markers")
+
+# todo: different methods
+args.add_argument("--dimlex", type=str, action="extend", nargs="+", help="dimlex files, TSV format (uncompressed), must contain language codes as second column; column structure  word lang pdtb1 pdtb2 pdtb3", required=True)
+args.add_argument("--dict", type=str, action="extend", nargs="+", help="bilingual dictionaries, TIAD-TSV format or gzipped TIAD-TSV format, must contain language codes", required=True)
+args.add_argument("--tgt", type=str, action="extend", nargs="+", help="target language(s), if these are among DIMLEX arguments, exclude these from training and evaluate against the DIMLEXes",required=True)
+args.add_argument("--max_senses", type=int, help="restrict projected results to the top elements, if <=0, test all possible values, defaults to -1", default=-1)
+args.add_argument("--silent", action="store_true", help="if set, do not return inductions, only evaluate")
+
+thresh = args.add_mutually_exclusive_group(required=True)
+thresh.add_argument("--threshold", type=float, help="extraction threshold: set to fixed value")
+thresh.add_argument("--th_steps", type=int, help="extraction threshold: test this number of equally distributed thresholds from [0:1]")
+
+piv = args.add_mutually_exclusive_group()
+piv.add_argument("--min_pivots", type=int, help="minimum number of incoming edges to conduct an induction, must be >=1, defaults to 1", default=1)
+piv.add_argument("--pivots", type=int, help="run comparative evaluation with --min_pivots from 1 to pivots")
+
+args=args.parse_args()
+if(args.max_senses<=0):
+	args.max_senses=-1
+	
+lang2marker2depth2rels={}
+
+for d in args.dimlex:
+	sys.stderr.write("adding dimlex "+d+"\n")
+	with open(d,"r") as input:
+		for line in input:
+			if(not line.startswith("#")):
+				line=re.sub(r"(^\\)#.","$1",line)
+				line=line.rstrip()
+				fields=line.split("\t")
+				if(len(fields)>4):
+					word=fields[0]
+					lang=fields[1]
+					pdtb1=fields[2]
+					pdtb2=fields[3]
+					pdtb3=fields[4]
+					if(not lang in lang2marker2depth2rels):
+						lang2marker2depth2rels[lang]={ word: [ set([True]), set([pdtb1]), set([pdtb2]), set([pdtb3]) ] }
+					elif(not word in lang2marker2depth2rels[lang]):
+						lang2marker2depth2rels[lang][word] = [ set([True]), set([pdtb1]), set([pdtb2]), set([pdtb3]) ]
+					else:
+						lang2marker2depth2rels[lang][word][1].add(pdtb1)
+						lang2marker2depth2rels[lang][word][2].add(pdtb2)
+						lang2marker2depth2rels[lang][word][3].add(pdtb3)
+					for l in lang2marker2depth2rels:
+						sys.stderr.write(" "+l+": "+str(len(lang2marker2depth2rels[l])))
+					sys.stderr.write("\r")
+					sys.stderr.flush()
+	sys.stderr.write("\n")
+
+lang2src2lang2tgts={}
+
+for d in args.dict:
+	sys.stderr.write("adding dict "+d+"\n")
+	input=None
+	# try:
+	if True:
+		if d.endswith("gz") or d.endswith("gzip"):
+			input=gzip.open(d,"r")
+		else:
+			input=open(d,"r")
+		for line in input:
+			if(type(line)==bytes):
+				line=line.decode("utf-8")
+			if(not line.startswith("#")):
+				line=re.sub(r"(^\\)#.","$1",line)
+				line=line.rstrip()
+				fields=line.split("\t")
+				if(len(fields)>4):
+					src=fields[0]
+					slang=""
+					if("@" in src):
+						slang=re.sub(r".*@","",src)
+					src=re.sub("@.*","",src)
+					src=re.sub(r"^[']+(.*)[']+$",r"\1",src)
+					src=re.sub(r"^[\"]+(.*)[\"]+$",r"\1",src)
+					
+					tgt=fields[-1]					
+					tlang=""
+					if("@" in tgt):
+						tlang=re.sub(r".*@","",tgt)
+					tgt=re.sub("@.*","",tgt)
+					tgt=re.sub(r"^[']+(.*)[']+$",r"\1",tgt)
+					tgt=re.sub(r"^[\"]+(.*)[\"]+$",r"\1",tgt)
+					
+					if(not re.match(r"^[a-z][a-z][a-z]?$",slang)):
+						sys.stderr.write("  warning: invalid source language \""+slang+"\"\n")
+					elif(not re.match(r"^[a-z][a-z][a-z]?$",tlang)):
+						sys.stderr.write("  warning: invalid target language \""+tlang+"\"\n")
+					else: # valid language tag
+						for src, slang, tgt, tlang in [ (src, slang, tgt, tlang) , (tgt, tlang, src, slang)] :
+							if(not slang in lang2src2lang2tgts):
+								lang2src2lang2tgts[slang]= { src : { tlang : set([tgt]) } }
+							elif(not src in lang2src2lang2tgts[slang]):
+								lang2src2lang2tgts[slang][src] = { tlang : set([tgt]) }
+							elif(not tlang in lang2src2lang2tgts[slang][src]):
+								lang2src2lang2tgts[slang][src][tlang] = set([tgt])
+							else:
+								lang2src2lang2tgts[slang][src][tlang].add(tgt)
+						for l in lang2src2lang2tgts:
+							sys.stderr.write(" "+l+":"+str(len(lang2src2lang2tgts[l])))
+						sys.stderr.write("\r")
+						sys.stderr.flush()
+		input.close()
+	# except :
+		# pass
+	sys.stderr.write("\n")
+
+for tlang in args.tgt:
+	if not tlang in lang2src2lang2tgts:
+		sys.stderr.write("error: target language \""+tlang+"\" not in dictionaries, skipping\n")
+		sys.stderr.flush()
+	else:
+		sys.stderr.write("initialize induction for \""+tlang+"\"\n");
+		lang2marker2depth2rel2score={}
+		classified=0
+		for slang in lang2marker2depth2rels:
+			if(not slang in lang2src2lang2tgts):
+				sys.stderr.write("warning: excluding source language \""+slang+"\": no source DICT found\n")
+			else:
+				if slang!=tlang:
+					if not slang in lang2marker2depth2rel2score:
+						lang2marker2depth2rel2score[slang] = { slang: {} }
+					for marker in lang2marker2depth2rels[slang]:
+						if not marker in lang2marker2depth2rel2score[slang]:
+							lang2marker2depth2rel2score[slang][marker] = {}
+						for depth in range(len(lang2marker2depth2rels[slang][marker])):
+							if not depth in lang2marker2depth2rel2score[slang][marker]:
+								lang2marker2depth2rel2score[slang][marker][depth]={}
+							for rel in lang2marker2depth2rels[slang][marker][depth]:
+								lang2marker2depth2rel2score[slang][marker][depth][rel]=1.0/float(len(lang2marker2depth2rels[slang][marker][depth]))
+							classified+=1
+							sys.stderr.write(" "+str(classified)+" forms\r")
+							sys.stderr.flush()
+					for word in lang2src2lang2tgts[slang]:
+						if not word in lang2marker2depth2rel2score[slang]:
+							lang2marker2depth2rel2score[slang][word] = { 0: {True : 0.0}, 1: {}, 2:{}, 3:{}}
+							classified+=1
+							sys.stderr.write(" "+str(classified)+" forms\r")
+							sys.stderr.flush()
+		sys.stderr.write("\n")
+		
+		sys.stderr.write("induce\r")
+		additions=-1
+		while(additions!=0):
+			if(additions>0):
+				classified=classified+additions
+			additions=0
+			for lang in lang2src2lang2tgts:
+				if(lang == tlang or not lang in lang2marker2depth2rels):
+					#print(lang)
+					for word in lang2src2lang2tgts[lang]:
+						if(not lang in lang2marker2depth2rel2score or 
+							not word in lang2marker2depth2rel2score[lang]):
+							mytlangs = sorted(set(lang2src2lang2tgts[lang][word].keys()) & set(lang2marker2depth2rel2score.keys()))
+							if(len(mytlangs)>0):
+								tgts=0
+								for mytlang in mytlangs:
+									#print(word,lang,"via",mytlang)
+									for tgt in lang2src2lang2tgts[lang][word][mytlang]:
+										if(tgt in lang2marker2depth2rel2score[mytlang]):
+											found=True
+											tgts+=1
+											for depth in lang2marker2depth2rel2score[mytlang][tgt]:
+												for rel in lang2marker2depth2rel2score[mytlang][tgt][depth]:
+													if(not lang in lang2marker2depth2rel2score):
+														lang2marker2depth2rel2score[lang]={}
+													if(not word in lang2marker2depth2rel2score[lang]):
+														lang2marker2depth2rel2score[lang][word]={}
+													if(not depth in lang2marker2depth2rel2score[lang][word]):
+														lang2marker2depth2rel2score[lang][word][depth]={}
+													if(not rel in lang2marker2depth2rel2score[lang][word][depth]):
+														lang2marker2depth2rel2score[lang][word][depth][rel]=0.0
+													lang2marker2depth2rel2score[lang][word][depth][rel]+=lang2marker2depth2rel2score[mytlang][tgt][depth][rel]
+													#print(lang,word,depth,rel,lang2marker2depth2rel2score[lang][word][depth][rel])
+								if tgts>0:
+									if(word in lang2marker2depth2rel2score[lang]):
+										for depth in lang2marker2depth2rel2score[lang][word]:
+											for rel in lang2marker2depth2rel2score[lang][word][depth]:
+												lang2marker2depth2rel2score[lang][word][depth][rel]=lang2marker2depth2rel2score[lang][word][depth][rel]/float(tgts)
+										#print(lang,word)
+										additions+=1
+										sys.stderr.write("induce: "+str(classified+additions)+"\r")
+										sys.stderr.flush()
+			sys.stderr.write("\n")
+			
+		sys.stderr.write("\n")
+		sys.stderr.flush()
+
+		
+		print("induce\nfrom",end=" ")
+		for slang in lang2marker2depth2rels:
+			if not slang==tlang:
+				print(slang,end=" ")
+		print("\nvia "," ".join(args.dict))
+		print("to",tlang)
+
+		# keys: p,r,f,f_oov (metric)
+		# keys: 0..3  (depth)
+		# keys: threshold, max_senses, p, r, r_oov
+		metric2depth2best_config={}
+		for metric in ["p","r","f","f_oov","r_oov"]:
+			metric2depth2best_config[metric]={}
+			for depth in range(4):
+				metric2depth2best_config[metric][depth] = { "threshold" : -1, "max_senses" : -1, "p": -1, "r" : -1 , "f": -1, "f_oov": -1, "r_oov": -1 }
+			
+		# we decrease the number of senses in every iteration, initialize with an ad hoc value
+		max_senses=args.max_senses
+		while(max_senses!=0 and max_senses>=args.max_senses):
+
+			thresholds=[]
+			tp=[]
+			fn=[]
+			fp=[]
+			fn_OOV=[]
+			
+			if(not args.th_steps):
+				thresholds=[args.threshold]
+				tp.append([0,0,0,0])
+				fn.append([0,0,0,0])			
+				fp.append([0,0,0,0])
+			else:			
+				steps=args.th_steps
+				for threshold in range(steps+1):
+					thresholds.append(float(threshold)/float(steps))
+					tp.append([0,0,0,0])
+					fn.append([0,0,0,0])			
+					fp.append([0,0,0,0])
+				# note that we count individual *senses*
+			
+			if(tlang in lang2marker2depth2rel2score):
+				for marker in sorted(lang2marker2depth2rel2score[tlang]):
+					for p,t in enumerate(thresholds):
+						if(lang2marker2depth2rel2score[tlang][marker][0][True]<=t):
+							if(marker in lang2marker2depth2rels[tlang]): # fn
+								for depth in range(4):
+									fn[p][depth]+=len(lang2marker2depth2rels[tlang][marker][depth])
+						else: # predict as discourse marker, then check every line individually
+							for depth in range(4):
+								if(depth in lang2marker2depth2rel2score[tlang][marker]):
+									for rel in lang2marker2depth2rel2score[tlang][marker][depth]:
+										if not marker in lang2marker2depth2rels[tlang] or not rel in lang2marker2depth2rels[tlang][marker][depth]:
+											fp[p][depth]+=1
+										else:
+											tp[p][depth]+=1
+					if(not args.silent):
+						if lang2marker2depth2rel2score[tlang][marker][0][True]>0.0:
+							for depth in sorted(lang2marker2depth2rel2score[tlang][marker]):
+								for rel in sorted(lang2marker2depth2rel2score[tlang][marker][depth]):
+										print(marker+"\t"+str(max_senses)+"\t"+str(depth)+"\t"+str(rel)+"\t"+str(lang2marker2depth2rel2score[tlang][marker][depth][rel]))
+							print()
+
+			fn_oov=deepcopy(fn)
+			for marker in lang2marker2depth2rels[tlang]:
+				if not marker in lang2marker2depth2rel2score[tlang]:
+					for depth in range(4):
+						for t in range(len(thresholds)):
+							fn_oov[t][depth]+=1
+						
+			for depth in range(4):
+				print("threshold","max_senses","depth","tp","fp","fn","fn_OOV", "p","r","f","p_OOV","r_OOV","f_OOV")
+				for t in range(len(thresholds)):
+				
+					# without oov
+					p = float(tp[t][depth]+fp[t][depth])
+					r = float(tp[t][depth]+fn[t][depth])
+					if p>0.0:
+						p = tp[t][depth]/p
+					if r >0.0:
+						r =tp[t][depth]/r
+					f=0.0
+					if(r+p>0):
+						f=2.0*p*r/float(r+p)
+						
+					# with oov					
+					r_oov = float(tp[t][depth]+fn_oov[t][depth])
+					if r_oov >0.0:
+						r_oov =tp[t][depth]/r_oov
+					f_oov=0.0
+					if(r_oov+p>0):
+						f_oov=2.0*p*r_oov/float(r_oov+p)
+					
+					# update best metrics
+					for key,val in [ ("p",p), ("r",r), ("f",f), ("r_oov",r_oov), ("f_oov", f_oov) ]:
+						if val>=metric2depth2best_config[key][depth][key]:
+							metric2depth2best_config[key][depth]= { 
+								"threshold" : thresholds[t], 
+								"max_senses" : max_senses, 
+								"p": p, 
+								"r" : r , 
+								"f": f, 
+								"r_oov": r_oov,
+								"f_oov": f_oov } 
+					
+					print(thresholds[t],max_senses, depth,tp[t][depth],fp[t][depth], fn[t][depth], fn_oov[t][depth],
+						p,r,f,
+						p,r_oov,f_oov)
+				print()
+
+			print()
+
+			# reduce maximum number of senses per prediction to the top ones
+			if max_senses==-1:
+				for marker in lang2marker2depth2rels[tlang]:
+					for depth in range(4):
+						if(len(lang2marker2depth2rels[tlang][marker][depth])>max_senses):
+							max_senses=len(lang2marker2depth2rels[tlang][marker][depth])
+			
+			max_senses-=1
+				
+			# limit the number of predicated senses to max_senses
+			for marker in copy(lang2marker2depth2rel2score[tlang]):
+				for depth in range(4):
+					if	len(lang2marker2depth2rel2score[tlang][marker])>depth and	\
+						len(lang2marker2depth2rel2score[tlang][marker][depth])>max_senses:
+						vals= sorted(lang2marker2depth2rel2score[tlang][marker][depth].values())
+						vals.reverse()
+						val=vals[max_senses-1]
+						
+						if max_senses>1 and vals[0]!=val:	# if indistinctive, reduce to last higher one
+							i=max_senses-1
+							while i > 1 and vals[i-1]==val:
+								i-=1
+							if i >0:
+								val=vals[i-1]
+							
+						lang2marker2depth2rel2score[tlang][marker][depth]=\
+							{ k:v for (k,v) in lang2marker2depth2rel2score[tlang][marker][depth].items() if v>=val }
+							
+		# spell out best results
+		print()
+		print("best config:")
+		print("threshold","max_senses","depth","p","r","f","p","r_oov","f_oov", sep="\t")
+		for depth in range(4):
+			keys=["p","r","f","r_oov","f_oov"]
+			
+			for key in keys:
+				if(type(metric2depth2best_config[key][depth])==dict):
+				
+					# format results
+					length=4
+					for k,v in metric2depth2best_config[key][depth].items():
+						if(type(v)==float):
+							v=("{:0."+str(length)+"f}").format(v)
+							if(k==key):
+								v=v+"*"
+						else:
+							v=str(v)
+						
+						while(len(v)<length+2+1):
+							v=v+" "
+						
+						metric2depth2best_config[key][depth][k]=v
+											
+					# print
+					print(metric2depth2best_config[key][depth]["threshold"],
+						  metric2depth2best_config[key][depth]["max_senses"],
+						  depth,
+						  metric2depth2best_config[key][depth]["p"],
+						  metric2depth2best_config[key][depth]["r"],
+						  metric2depth2best_config[key][depth]["f"],
+						  metric2depth2best_config[key][depth]["p"],
+						  metric2depth2best_config[key][depth]["r_oov"],
+						  metric2depth2best_config[key][depth]["f_oov"],sep="\t")
+			print()
+		print()
+		
