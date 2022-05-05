@@ -17,6 +17,16 @@ args=argparse.ArgumentParser(description=\
 		If a third column is provided infer "Level 0" (whether or not it is a discourse marker) as true.
 	""")
 
+# for Python 3.x < 3.8 compliancy
+class ExtendAction(argparse.Action):
+
+    def __call__(self, parser, namespace, values, option_string=None):
+        items = getattr(namespace, self.dest) or []
+        items.extend(values)
+        setattr(namespace, self.dest, items)
+
+args.register('action', 'extend', ExtendAction)
+
 # default columns
 cols="WORD LANG PDTB1 PDTB2 PDTB3".split()
 
