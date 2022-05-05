@@ -1,4 +1,3 @@
-
 # Discourse marker inventories
 
 Multilingual and Interlinked Discourse Marker Inventories in OntoLex-Lemon.
@@ -53,7 +52,7 @@ This corresponds to the following table:
 
 Here, `?string` is the (string form of the) discourse marker, with Turtle-style annotation for the language (`@en`), `?label` is the path in the PDTB hierarchy, `?rst` is a possible RST interpretation, `?oliaDistance` quantifies the mismatch between PDTB and RST (higher values indicate more loose fit), `?basicOp` and the following columns are CCR features (`|` indicates alternative interpretations, no value indicates underspecification). Both RST and CCR interpretations are derived from the original PDTB annotation. When using this table as a gazetteer for PDTB, RST or CCR, you need to aggregate over all rows for a given marker in order to get all possible interpretations.
 
-## Notes
+### Notes
 
 The generated URIs are redirected to an external hosting service (currently GitHub). However, neither this hosting service [nor any other public hosting service we are aware of](https://drops.dagstuhl.de/opus/volltexte/2021/14541/pdf/OASIcs-LDK-2021-5.pdf) does allow us to declare them with the correct mediatype (`text/turtle`). For this reason, we include the file extension (`.ttl`) in the URIs. This is considered bad practice in knowledge representation, but it allows remote SPARQL engines to *heuristically* guess the correct format. However, this is heuristic is not guaranteed to work and may fail under some systems. It is confirmed to work with [Apache Jena](https://jena.apache.org/) and with the public SPARQL service under [sparql.org](http://sparql.org/sparql.html).
 

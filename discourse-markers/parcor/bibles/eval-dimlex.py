@@ -11,7 +11,7 @@ args.add_argument("-f", "--min_freq", type=int, nargs="?", help="minimum frequen
 args.add_argument("-r", "--min_rel", type=float,nargs="?",  help="minimum score for induced relations, defaults to 0",default=0.0)
 args.add_argument("-s", "--min_score", type=float, nargs="?", help="minimum average score for induced dimlex entries, defaults to 0", default=0.0)
 args.add_argument("-depth", "--recursion_limit", type=int, nargs="?", help="set maximum recursion depth in Python (not recommended)", default=None)
-args.add_argument("-auto", "--auto_configure", action="store_true", help="if set, estimate optimal parameters using Heron's approximation, prioritizing parameters with the highest variability; note that this is not guaranteed to lead to a global minimum")
+args.add_argument("-auto", "--auto_configure", action="store_true", help="if set, estimate optimal parameters using a relaxation method, prioritizing parameters with the highest variability; note that this is not guaranteed to lead to a global minimum")
 args.add_argument("-mean","--mean", type=str, nargs="?", help="aggregate function for -auto optimization, defaults to average", default="average")
 
 def do_normalize(string: str):
@@ -40,9 +40,9 @@ def last(*objects):
         return 0
     if len(objects)==1:
         if type(objects[0])==list:
-            return last(*(objects[-1]))
+            return last(*(objects[0]))
         else:
-            return float(objects[-1])
+            return float(objects[0])
     else:
             o=objects[-1]
             if type(o)==list:
@@ -88,9 +88,10 @@ def harmonic(*objects):
             return 0
         return len(objects)/sum
 
+
 def geometric(*objects):
     if len(objects)==0:
-        return 0
+        return 1.0
     if len(objects)==1:
         if type(objects[0])==list:
             return geometric(*(objects[0]))
@@ -106,6 +107,10 @@ def geometric(*objects):
                     prod*=float(o)
         prod=abs(prod)
         return prod**(1.0/float(len(objects)))
+
+# print([1,2,3],geometric(1,2,3))
+# print([.1,.2,.3],geometric(.1,.2,.3))
+# print([.1,.2,.3],geometric([.1,.2,[.3]  ]))
 
 def eval(induced_cue2entry : dict, cue2rels : dict, normalize=False, min_conf=[0,1], min_freq=[0,1000], min_rel=[0,1], min_score=[0,1], mean=average):
     """ return f_dm and f_rel

@@ -19,6 +19,15 @@ So far, we've been focusing on
 
 Research on discourse semantics which do not directly depend on either RDF or LOD technology is being dealt with in separate ACoLi repositories.
 
+## Contents
+
+- `discourse-markers/`: OntoLex-Lemon edition of multilingual discourse marker inventories in RDF and as Linked Data
+- `lexical-induction/`: Experiments on inducing multilingual discourse marker inventory stubs from `discourse-markers/` and lexical knowledge graphs
+
+In preparation: 
+- Experiments on inducing multilingual discourse marker inventory stubs from `discourse-markers/` and parallel corpora
+- Experiments on inducing multilingual discourse marker annotations from `discourse-markers/` and parallel corpora
+
 ## References
 
 - Christian Chiarcos (2014), [Towards interoperable discourse annotation. Discourse features in the Ontologies of Linguistic Annotation](https://aclanthology.org/L14-1685/), In: Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14), May 2014, Reykjavik, Iceland, European Language Resources Association (ELRA)

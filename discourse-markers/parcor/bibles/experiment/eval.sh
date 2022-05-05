@@ -94,9 +94,22 @@ for gaz in 5; do
       python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -th $th -silent -iterate 2>&1 | egrep '0.*\|.*=' | sed s/'$'/'\tth='$th/;
     done;
     echo) | tee $MYHOME/ensemble.$gaz.th.tsv
+  else:
+    cat $MYHOME/ensemble.$gaz.th.tsv
   fi;
 done
 
+# todo: explore parameters for one specific constellation: 5 (en), direct, 7 predictors (in direct, this is best-performing)
+for gaz in 5; do
+      python3 $MYHOME/../ensemble.py $ANNOS/cs.$gaz.conll -w 1 -e 4 -p 7 12 15 18 21 24 27    -silent -dimlex > cs-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/de.$gaz.conll -w 1 -p 4 -e 7 -p 12 15 18 21 24 27 -silent -dimlex > de-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/en.$gaz.conll -w 1 -p 4 7 -e 12 -p 15 18 21 24 27 -silent -dimlex > en-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/es.$gaz.conll -w 1 -p 4 7 12 -e 15 -p 18 21 24 27 -silent -dimlex > es-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/fr.$gaz.conll -w 1 -p 4 7 12 15 -e 18 -p 21 24 27 -silent -dimlex > fr-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/it.$gaz.conll -w 1 -p 4 7 12 15 18 -e 21 -p 24 27 -silent -dimlex > it-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/nl.$gaz.conll -w 1 -p 4 7 12 15 18 21 -e 24 -p 27 -silent -dimlex > nl-$gaz-from-7.json;
+      python3 $MYHOME/../ensemble.py $ANNOS/pt.$gaz.conll -w 1 -p 4 7 12 15 18 21 24 -e 27    -silent -dimlex > pt-$gaz-from-7.json;
+done
 
 
 # echo iterated, effect of -th vs. -c, discourse 3 only
