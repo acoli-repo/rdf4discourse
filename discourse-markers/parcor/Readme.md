@@ -18,3 +18,6 @@ cross-framework
 
 dictionary-based annotation
 - https://www.researchgate.net/publication/327223300_Using_a_Discourse_Bank_and_a_Lexicon_for_the_Automatic_Identification_of_Discourse_Connectives_13th_International_Conference_PROPOR_2018_Canela_Brazil_September_24-26_2018_Proceedings
+
+eval
+- https://github.com/merelscholman/DiscoGeM
